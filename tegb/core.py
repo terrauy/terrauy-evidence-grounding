@@ -271,7 +271,7 @@ def validate_submission(folder: Path, allow_mock: bool = False) -> dict:
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", sub["date"]):
         errors.append("date must be YYYY-MM-DD")
     if not re.fullmatch(r"[a-z0-9][a-z0-9._-]{1,62}", sub["submission_id"]) or sub["submission_id"] != folder.name:
-        errors.append("submission_id must be lowercase [a-z0-9._-] and equal to the folder name")
+        errors.append("submission_id must be lowercase [a-z0-9._-] and equal to the folder name (set it with `tegb submit --submission-id`)")
     if folder.parent.name != BENCHMARK_VERSION and folder.parent.parent.name == "submissions":
         errors.append(f"folder must live under submissions/{BENCHMARK_VERSION}/")
     if sub["declarations"]["contamination"] not in ("no-known-exposure", "possible-exposure", "known-exposure", "unknown"):

@@ -170,8 +170,10 @@ class PythonFunction:
     name = "python"
 
     def __init__(self, model: str, path: str):
-        if not path or not Path(path).is_file():
+        if not path:
             raise AdapterError("python adapter needs --adapter-path pointing to a .py file")
+        if not Path(path).is_file():
+            raise AdapterError(f"adapter file not found: {Path(path).resolve()}")
         spec = importlib.util.spec_from_file_location("tegb_user_adapter", path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)

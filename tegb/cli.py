@@ -79,7 +79,11 @@ def cmd_run(a: argparse.Namespace) -> int:
     tasks, prompts = core.load_tasks(), core.load_prompts()
     ids = sorted(tasks)
     if a.task_ids:
-        ids = [t for t in ids if t in a.task_ids.split(",")]
+        wanted = [x.strip() for x in a.task_ids.split(",") if x.strip()]
+        unknown = [x for x in wanted if x not in tasks]
+        if unknown:
+            raise SystemExit(f"unknown task ids: {', '.join(unknown)} (ids look like A01, D01; see dataset/tasks.jsonl)")
+        ids = [t for t in ids if t in wanted]
     if a.limit:
         ids = ids[: a.limit]
     raw = out / "raw" / key
@@ -88,9 +92,11 @@ def cmd_run(a: argparse.Namespace) -> int:
     todo = [j for j in jobs if not (raw / f"{j[0]}_{j[1]}_r{j[2]}.json").exists()]
     print(f"TEGB {BENCHMARK_VERSION}: {len(jobs)} prompts ({len(ids)} tasks x 3 conditions x 3 runs), {len(todo)} to run, adapter {adapter.name}, model {a.model}")
     started = datetime.now(UTC).isoformat(timespec="seconds")
-    failed, lock, n_done = [], threading.Lock(), [0]
+    failed, lock, n_done, stop = [], threading.Lock(), [0], threading.Event()
 
     def one(job) -> None:
+        if stop.is_set():
+            return
         t, c, r = job
         p = prompts[(t, c)]
         err = ""
@@ -100,11 +106,19 @@ def cmd_run(a: argparse.Namespace) -> int:
                 res = adapter.generate(p["system"], p["user"], max_tokens=a.max_tokens, temperature=core.RUN_TEMPERATURES[r])
                 break
             except Exception as e:  # noqa: BLE001 - recorded, bounded retries
-                err = re.sub(r"(sk-|hf_)[A-Za-z0-9_\-\*]{4,}", "[REDACTED]", f"{type(e).__name__}: {str(e)[:200]}")
+                msg = " ".join(str(e).split())
+                err = re.sub(r"(sk-|hf_)[A-Za-z0-9_\-\*]{4,}", "[REDACTED]", f"{type(e).__name__}: {msg if len(msg) <= 500 else msg[:150] + ' ... ' + msg[-340:]}")
+                if stop.is_set():
+                    return
                 time.sleep(2 * (attempt + 1))
         else:
             with lock:
                 failed.append((job, err))
+                if len(failed) <= 3:
+                    print(f"FAILED {job}: {err}", flush=True)
+                if len(failed) >= 8 and n_done[0] == 0 and not stop.is_set():
+                    stop.set()
+                    print("STOPPING: the first calls all failed. Fix the adapter or endpoint and run again; finished answers are kept.", flush=True)
             return
         rec = {"task_id": t, "condition": c, "run": r, "temperature": res["temperature_used"], "model_key": key, "provider": adapter.name,
                "adapter": adapter.name, "model_requested": a.model, "text": res["text"], "model_returned": res["model_returned"],
@@ -124,8 +138,8 @@ def cmd_run(a: argparse.Namespace) -> int:
            "adapter": adapter.name, "max_tokens": a.max_tokens, "temperatures": core.RUN_TEMPERATURES, "started_at": started,
            "finished_at": datetime.now(UTC).isoformat(timespec="seconds"), "python": sys.version.split()[0]}
     (out / f"run_config_{key}.json").write_text(json.dumps(cfg, indent=1), encoding="utf-8")
-    for job, err in failed[:10]:
-        print("FAILED", job, err)
+    if len(failed) > 3:
+        print(f"... and {len(failed) - 3} more failed calls (last error: {failed[-1][1]})")
     print(f"done: {n_done[0]} new responses, {len(failed)} failed, results in {raw}")
     return 2 if failed else 0
 
@@ -169,11 +183,12 @@ def _print_score(key: str, sc: dict, stats: dict, why_no_ref: str | None) -> Non
         if s is None:
             print(f"  not available: {why_no_ref}")
             continue
-        print("  condition    UCR   Constraint viol.  Observability err.  Scope err.  Factual acc.")
+        ucr = "UCR" if track == "reference" else "Detector UCR"
+        print(f"  {'condition':<11}{ucr:>13}{'Constraint viol.':>18}{'Observability err.':>20}{'Scope err.':>12}{'Factual acc.':>14}")
         for cond, m in s["by_condition"].items():
-            print(f"  {cond:<10} {_pct(m['ucr'])}      {_pct(m['constraint_violations'])}            {_pct(m['observability_errors'])}"
-                  f"      {_pct(m['scope_errors'])}       {_pct(m['factual_accuracy'])}")
-        print("  UCR by category (RAW / TEXT / STRUCTURED):")
+            print(f"  {cond:<11}{_pct(m['ucr']):>13}{_pct(m['constraint_violations']):>18}{_pct(m['observability_errors']):>20}"
+                  f"{_pct(m['scope_errors']):>12}{_pct(m['factual_accuracy']):>14}")
+        print(f"  {ucr} by category (RAW / TEXT / STRUCTURED):")
         for cat, v in s["ucr_by_category"].items():
             print(f"    {cat:<24} {_pct(v['RAW'])} {_pct(v['TEXT'])} {_pct(v['STRUCTURED'])}")
 
@@ -213,6 +228,9 @@ def cmd_submit(a: argparse.Namespace) -> int:
     sc, responses, judgments, why = _score_dir(results, key)
     if not sc["complete"]:
         raise SystemExit(f"incomplete run: {sc['missing_responses']} responses missing; finish `tegb run` first")
+    if not a.i_can_share_outputs:
+        raise SystemExit("add --i-can-share-outputs after confirming that your provider's terms allow publishing the raw model outputs "
+                         "(they are published with the submission); nothing was written")
     sid = _slug(a.submission_id or a.model_name)
     folder = Path(a.out) if a.out else ROOT / "submissions" / BENCHMARK_VERSION / sid
     _refuse_frozen(folder)
@@ -237,7 +255,7 @@ def cmd_submit(a: argparse.Namespace) -> int:
                   "ids_returned": sc["stats"]["models_returned"], "weights": a.weights, "training_cutoff": a.training_cutoff},
         "submitter": {"name": a.submitter, "contact": a.contact, "affiliation": a.affiliation},
         "protocol": {**core.protocol_of(responses), "system_prompt": "TEGB v0.1 common system prompt (unchanged)",
-                     "deviations": ([*dev, *([a.deviation] if a.deviation else [])])},
+                     "deviations": [*dev, *(a.deviation or [])]},
         "run": {"adapter": responses[0].get("adapter") or responses[0].get("provider") or run_cfg.get("adapter") or "unknown",
                 "tools_version": TOOLS_VERSION, "started_at": run_cfg.get("started_at"), "finished_at": run_cfg.get("finished_at"),
                 "python": run_cfg.get("python"), "decoding_notes": a.decoding_notes},
@@ -253,8 +271,10 @@ def cmd_submit(a: argparse.Namespace) -> int:
         sub["reference_evaluation"] = {"evaluated_by": "submitter", "date": datetime.now(UTC).date().isoformat()}
     (folder / "submission.json").write_text(json.dumps(sub, indent=1, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
     rep = core.validate_submission(folder, allow_mock=a.allow_mock)
-    print(f"submission written to {folder}")
+    print(f"submission written to {folder}  (submission id: {sid})")
     print("reference evaluation:", "included" if judgments is not None else f"not included ({why})")
+    for w in rep["warnings"]:
+        print("warning:", w)
     print("validation:", rep["result"], *rep["errors"], sep="\n  ")
     return 0 if rep["result"] == "PASS" else 1
 
@@ -305,9 +325,13 @@ def cmd_validate(a: argparse.Namespace) -> int:
     folders = [Path(p) for p in a.paths] or sorted(p for p in (ROOT / "submissions" / BENCHMARK_VERSION).glob("*") if p.is_dir())
     worst = 0
     for f in folders:
+        if not f.is_dir():
+            print(f"FAIL  folder not found: {f.resolve()}")
+            worst = 1
+            continue
         rep = core.validate_submission(f, allow_mock=a.allow_mock)
         print(json.dumps(rep, indent=1))
-        print(f"{rep['result']}  {f}")
+        print(f"{rep['result']}  {f}" + (f"  (with {len(rep['warnings'])} warning(s): {'; '.join(rep['warnings'])})" if rep["warnings"] else ""))
         worst |= rep["result"] != "PASS"
     if not folders:
         print("no submissions to validate")
@@ -411,7 +435,7 @@ def main(argv: list[str] | None = None) -> int:
     r.add_argument("--adapter-path", help="python adapter: file that defines generate()")
     r.add_argument("--max-tokens-param", choices=["max_tokens", "max_completion_tokens"])
     r.add_argument("--max-tokens", type=int, default=core.MAX_TOKENS, help="protocol value is 600; changing it is a declared deviation")
-    r.add_argument("--workers", type=int, default=4)
+    r.add_argument("--workers", type=int, default=4, help="parallel calls (default 4); use 1 for an in-process or single-GPU model")
     r.add_argument("--limit", type=int, help="first N tasks only (smoke test)")
     r.add_argument("--task-ids", help="comma-separated task ids (smoke test)")
     r.set_defaults(fn=cmd_run)
@@ -451,9 +475,9 @@ def main(argv: list[str] | None = None) -> int:
     u.add_argument("--tuned-on-tegb", action="store_true", help="set if prompts, fine-tuning or selection used TEGB tasks")
     u.add_argument("--i-can-share-outputs", action="store_true", help="confirm you may publish the raw model outputs")
     u.add_argument("--decoding-notes", help="serving stack, quantization, sampling details")
-    u.add_argument("--deviation", help="describe any protocol deviation not detected automatically")
+    u.add_argument("--deviation", action="append", help="describe a protocol deviation not detected automatically (repeatable)")
     u.add_argument("--notes")
-    u.add_argument("--submission-id")
+    u.add_argument("--submission-id", help="folder name; default is the model name in lowercase with hyphens. Include the version to keep several versions")
     u.add_argument("--date")
     u.add_argument("--out", help=f"folder (default: submissions/{BENCHMARK_VERSION}/<id>)")
     u.add_argument("--allow-mock", action="store_true", help=argparse.SUPPRESS)

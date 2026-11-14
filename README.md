@@ -121,7 +121,25 @@ The four models are an **initial baseline, not a ranking**. Full tables, effect 
 
 Definitions, scoring rules and metrics are in [METHODOLOGY.md](METHODOLOGY.md).
 
-## Quick start
+## Evaluate your model on TEGB
+
+Any model you can call can be evaluated: an OpenAI-compatible server (vLLM, Ollama, llama.cpp, hosted APIs), the Anthropic API, a local program or your own Python function. The tools need only the Python standard library.
+
+```bash
+python -m tegb run --adapter openai-compatible --base-url http://localhost:8000/v1 --model my-model --output results/my-model
+python -m tegb score results/my-model
+python -m tegb submit results/my-model --model-name "My Model" --model-version "1.0" --provider "Me" --submitter "me" --contamination no-known-exposure --i-can-share-outputs
+python -m tegb validate submissions/v0.1/my-model     # the folder name is the model name in lowercase with hyphens
+```
+
+- `score` always gives a free, deterministic **core detector score** for screening. The **reference evaluation**, which is the only one comparable with the baseline above, adds the two reference LLM judges (`python -m tegb judge` with your own keys).
+- A validated submission can be added to the [leaderboard](LEADERBOARD.md) by pull request. There are no external submissions yet.
+- For the first five valid external TEGB v0.1 submissions, TerraUY may provide the reference LLM-judge evaluation at no cost to the submitting team, subject to the [Early Evaluation Program limits](RUN_YOUR_MODEL.md#early-evaluation-program).
+- TEGB has been public since 2026-11-13, so later models may have seen it. Submissions carry a contamination declaration; see the leaderboard notes.
+
+The full guide is [RUN_YOUR_MODEL.md](RUN_YOUR_MODEL.md). The original baseline scripts are documented in [harness/README.md](harness/README.md); the frozen baseline is never overwritten.
+
+## Reproduce the baseline (offline)
 
 All baseline numbers can be reproduced offline from the frozen responses, with no API keys:
 
@@ -132,24 +150,6 @@ python analysis/tables.py                    # regenerates results/baseline/tabl
 uv run --no-project --with matplotlib python analysis/figures.py
 python -m pytest tests -q                    # or: python tests/run_tests.py
 ```
-
-## Evaluate your model on TEGB
-
-Any model you can call can be evaluated: an OpenAI-compatible server (vLLM, Ollama, llama.cpp, hosted APIs), the Anthropic API, a local program or your own Python function. The tools need only the Python standard library.
-
-```bash
-python -m tegb run --adapter openai-compatible --base-url http://localhost:8000/v1 --model my-model --output results/my-model
-python -m tegb score results/my-model
-python -m tegb submit results/my-model --model-name "My Model" --model-version "1.0" --provider "Me" --submitter "me" --contamination no-known-exposure --i-can-share-outputs
-python -m tegb validate submissions/v0.1/my-model
-```
-
-- `score` gives a free, deterministic **core detector score** for screening. The **reference evaluation**, which is the one comparable with the baseline above, adds the two reference LLM judges with your own keys (`python -m tegb judge`).
-- A validated submission can be added to the [leaderboard](LEADERBOARD.md) by pull request. There are no external submissions yet.
-- For the first five valid external TEGB v0.1 submissions, TerraUY may provide the reference LLM-judge evaluation at no cost to the submitting team, subject to the Early Evaluation Program limits.
-- TEGB has been public since 2026-11-13, so later models may have seen it. Submissions carry a contamination declaration; see the leaderboard notes.
-
-The full guide is [RUN_YOUR_MODEL.md](RUN_YOUR_MODEL.md). The original baseline scripts are documented in [harness/README.md](harness/README.md); the frozen baseline is never overwritten.
 
 ## Evaluation
 

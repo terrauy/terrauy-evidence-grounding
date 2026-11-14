@@ -101,7 +101,7 @@ For orientation, the same detector-only rate for the official baseline models. C
 1. Fork the repository and run your model: `python -m tegb run ...` (see [RUN_YOUR_MODEL.md](RUN_YOUR_MODEL.md)).
 2. Score it: `python -m tegb score results/my-model`. Optionally add the reference evaluation yourself (`python -m tegb judge results/my-model`), or request it in the pull request under the Early Evaluation Program.
 3. Package it: `python -m tegb submit results/my-model ...`. This writes `submissions/v0.1/<id>/`.
-4. Open a pull request that adds only that folder. Use the "TEGB model submission" template.
+4. Open a pull request that adds only that folder, with the "TEGB model submission" template (add `?template=tegb_submission.md` to the pull-request URL).
 5. CI validates the submission: hashes, completeness, prompt identity and recomputed metrics. It never runs a model.
 6. A maintainer reviews the declaration and merges. The tables above are regenerated with `python -m tegb leaderboard`.
 

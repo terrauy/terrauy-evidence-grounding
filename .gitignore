@@ -6,4 +6,6 @@ __pycache__/
 .venv/
 paper/*.html
 *.egg-info/
-results/my-*/
+results/*
+!results/baseline/
+!results/reproduction/

@@ -23,7 +23,7 @@ There are no external submissions yet. `v0.1/` is empty.
 
 | Field | Content |
 |---|---|
-| `schema`, `benchmark_version`, `submission_id`, `date` | Format version, TEGB version (`v0.1`), folder name, date of the submission |
+| `schema`, `benchmark_version`, `submission_id`, `date` | Format version, TEGB version (`v0.1`), folder name, date of the submission (UTC) |
 | `model` | Name, exact version, provider, model ids returned by the API, open or closed weights, training cutoff if known |
 | `submitter` | Public name; optional public contact and affiliation |
 | `protocol` | Runs, temperature per run, output-token cap, prompt source, declared deviations |
