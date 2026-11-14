@@ -1,5 +1,7 @@
 # Harness
 
+**Evaluating your own model?** Use the provider-agnostic tools instead: [RUN_YOUR_MODEL.md](../RUN_YOUR_MODEL.md) (`python -m tegb run | score | submit | validate`). They reuse the scoring code in this directory unchanged.
+
 This is the code that produced the v0.1 baseline. The only changes from the archived run are the directory constants (`RESULTS`, `OUT`) and the config path.
 
 | File | Role |

@@ -21,7 +21,8 @@ ROOT = Path(__file__).resolve().parents[1]
 BLOCKS = ROOT / "analysis" / "blocks"
 DOCS = ["README.md", "BENCHMARK_CARD.md", "METHODOLOGY.md", "DATASET_CARD.md", "LIMITATIONS.md", "LEADERBOARD.md", "FUTURE_TRACKS.md",
         "PRIVACY_AUDIT.md", "SECURITY_AUDIT.md", "LICENSING.md", "paper/TECHNICAL_REPORT.md", "dataset/README.md", "results/baseline/README.md",
-        "MODEL_OUTPUTS_NOTICE.md", "MODEL_OUTPUTS_RIGHTS_MATRIX.md", "THIRD_PARTY_DATA.md", "LICENSES/CC-BY-4.0.md"]
+        "MODEL_OUTPUTS_NOTICE.md", "MODEL_OUTPUTS_RIGHTS_MATRIX.md", "THIRD_PARTY_DATA.md", "LICENSES/CC-BY-4.0.md",
+        "RUN_YOUR_MODEL.md", "CONTRIBUTING.md", "submissions/README.md", "harness/README.md"]
 BLOCK_RX = re.compile(r"(<!-- TEGB:(?P<name>[a-z_]+) -->\n)(?P<body>.*?)(\n?<!-- /TEGB:(?P=name) -->)", re.S)
 RESTRAINT = [r"ESA needs", r"needed by ESA", r"validated by ESA", r"ESA (has )?validated", r"endorsed by", r"solves? (ESA|the problem)",
              r"state[- ]of[- ]the[- ]art", r"independent human (review|validation)", r"expert review", r"EVE is worse", r"\bproves?\b",

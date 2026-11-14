@@ -1,4 +1,5 @@
-"""Write MANIFEST.sha256: SHA-256 of every file in the release except the manifest itself and .git/.
+"""Write MANIFEST.sha256: SHA-256 of every file in the release except the manifest itself, .git/ and the community
+submission folders (submissions/<version>/..., which carry their own hashes and are checked by `tegb validate`).
 
     python analysis/make_manifest.py          # write
     python analysis/make_manifest.py --check  # verify; exit 1 on any mismatch
@@ -18,7 +19,7 @@ def lines() -> list[str]:
     out = []
     for p in sorted(ROOT.rglob("*"), key=lambda q: q.relative_to(ROOT).as_posix()):
         rel = p.relative_to(ROOT)
-        if p.is_file() and p != OUT and not set(rel.parts) & SKIP:
+        if p.is_file() and p != OUT and not set(rel.parts) & SKIP and not (rel.parts[0] == "submissions" and len(rel.parts) >= 3):
             out.append(f"{hashlib.sha256(p.read_bytes()).hexdigest()}  {rel.as_posix()}")
     return out
 

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Evaluate your model on TEGB
+    url: https://github.com/terrauy/terrauy-evidence-grounding/blob/main/RUN_YOUR_MODEL.md
+    about: Step-by-step guide to run a model, score it and submit a result.

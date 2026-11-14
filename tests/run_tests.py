@@ -1,7 +1,7 @@
 """TEGB v0.1 local test suite (offline, no API keys). Works with or without pytest.
 
     python tests/run_tests.py            # quick checks
-    python tests/run_tests.py --full     # + full reproduction (about 1 minute)
+    python tests/run_tests.py --full     # + full reproduction and the external-submitter simulation (a few minutes)
     python -m pytest tests -q            # same quick checks via pytest
 """
 
@@ -108,7 +108,19 @@ def main() -> int:
         ok = r.returncode == 0
         failed += 0 if ok else 1
         print(("PASS" if ok else "FAIL"), "full reproduction")
-    print(f"{len(tests) - failed if '--full' not in sys.argv else len(tests) + 1 - failed} passed, {failed} failed")
+        sys.path.insert(0, str(ROOT / "tests"))
+        import test_external_flow
+
+        extra = [v for k, v in vars(test_external_flow).items() if k.startswith("test_")]
+        for t in extra:  # external-submitter simulation: adapters, run, score, submit, validate, leaderboard
+            try:
+                t()
+                print(f"PASS {t.__name__}")
+            except Exception as e:  # noqa: BLE001
+                failed += 1
+                print(f"FAIL {t.__name__}: {str(e)[:500]}")
+        tests = tests + extra + [None]
+    print(f"{len(tests) - failed} passed, {failed} failed")
     return 1 if failed else 0
 
 

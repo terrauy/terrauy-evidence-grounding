@@ -30,6 +30,8 @@ Representing the same evidence semantics as structured JSON did not improve evid
 | Zenodo archive / DOI | https://doi.org/10.5281/zenodo.24210391 |
 | Technical report (PDF) | [paper/TEGB_v0.1_Technical_Report.pdf](paper/TEGB_v0.1_Technical_Report.pdf) |
 | Overview page | https://www.terrauy.com/en/research/tegb |
+| Evaluate your model on TEGB | [RUN_YOUR_MODEL.md](RUN_YOUR_MODEL.md) |
+| Leaderboard | [LEADERBOARD.md](LEADERBOARD.md) |
 
 ## Why TEGB
 
@@ -131,7 +133,22 @@ uv run --no-project --with matplotlib python analysis/figures.py
 python -m pytest tests -q                    # or: python tests/run_tests.py
 ```
 
-To evaluate a new model, see [harness/README.md](harness/README.md). Write to a new results directory with `TEGB_RESULTS_DIR`; the frozen baseline is never overwritten.
+## Evaluate your model on TEGB
+
+Any model you can call can be evaluated: an OpenAI-compatible server (vLLM, Ollama, llama.cpp, hosted APIs), the Anthropic API, a local program or your own Python function. The tools need only the Python standard library.
+
+```bash
+python -m tegb run --adapter openai-compatible --base-url http://localhost:8000/v1 --model my-model --output results/my-model
+python -m tegb score results/my-model
+python -m tegb submit results/my-model --model-name "My Model" --model-version "1.0" --provider "Me" --submitter "me"   --contamination no-known-exposure --i-can-share-outputs
+python -m tegb validate submissions/v0.1/my-model
+```
+
+- `score` gives a free, deterministic **core detector score** for screening. The **reference evaluation**, which is the one comparable with the baseline above, adds the two reference LLM judges with your own keys (`python -m tegb judge`).
+- A validated submission can be added to the [leaderboard](LEADERBOARD.md) by pull request. There are no external submissions yet.
+- TEGB has been public since 2026-11-13, so later models may have seen it. Submissions carry a contamination declaration; see the leaderboard notes.
+
+The full guide is [RUN_YOUR_MODEL.md](RUN_YOUR_MODEL.md). The original baseline scripts are documented in [harness/README.md](harness/README.md); the frozen baseline is never overwritten.
 
 ## Evaluation
 
@@ -164,7 +181,7 @@ See [LIMITATIONS.md](LIMITATIONS.md) before using any number.
 - Alternative structured designs (inline constraints, tool output schemas, structure rendered to prose).
 - EVE-Instruct with its native setup.
 
-Critique, replication and new baselines are welcome through GitHub issues.
+Critique, replication and new baselines are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Repository map
 
@@ -172,12 +189,20 @@ Critique, replication and new baselines are welcome through GitHub issues.
 |---|---|
 | `dataset/` | Public tasks (synthetic area values in 66 tasks), neutral fact sheets, provenance, schemas |
 | `conditions/` | Exact prompts for RAW, TEXT and STRUCTURED |
+| `tegb/` | Command-line tools for external evaluations: adapters, run, score, submit, validate |
+| `submissions/` | Community submissions by benchmark version, and the submission format |
 | `harness/` | Code that produced the baseline (render, run, judge, evaluate) |
 | `evaluation/` | Equivalence check and metric documentation |
 | `analysis/` | Reproduction, tables, figures, doc consistency |
 | `results/baseline/` | 2,952 responses, 5,904 judgments, labels, summaries, blind review, preregistration |
 | `paper/` | Technical report and verified related-work sources |
 | `audit/` | Privacy and security scanners and their outputs |
+
+## Contributing and contact
+
+- Bug reports, reproduction reports, new model results, adapters and task proposals are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md). New tasks go to a future version; v0.1 is frozen.
+- Technical questions: [GitHub issues](https://github.com/terrauy/terrauy-evidence-grounding/issues).
+- Research collaboration: contacto@terrauy.com.
 
 ## Citation
 

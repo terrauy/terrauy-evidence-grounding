@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tegb"
+version = "0.1.1"
+description = "TerraUY Evidence Grounding Benchmark (TEGB) tools: run a model, score it, package and validate a submission"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+dependencies = []
+
+[project.optional-dependencies]
+anthropic = ["anthropic"]
+judges = ["anthropic", "openai"]
+
+[project.scripts]
+tegb = "tegb.cli:main"
+
+[project.urls]
+Repository = "https://github.com/terrauy/terrauy-evidence-grounding"
+Leaderboard = "https://github.com/terrauy/terrauy-evidence-grounding/blob/main/LEADERBOARD.md"
+
+# The tools read the benchmark files from the repository, so install in editable mode: pip install -e .
+[tool.setuptools]
+packages = ["tegb"]

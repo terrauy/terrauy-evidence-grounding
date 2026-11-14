@@ -4,7 +4,7 @@
 
 Jairo Rifrán · TerraUY Intelligence · 2026
 
-*This technical report has not been peer-reviewed.*
+*This technical report has not been peer-reviewed. Revised 2026-11-14 as a preprint manuscript: research questions, contributions, related work, limitations and disclosures were added; no result changed from the v0.1 release.*
 
 <!-- TEGB:doi -->
 **DOI:** [10.5281/zenodo.24210391](https://doi.org/10.5281/zenodo.24210391) (v0.1, archived on Zenodo). Concept DOI for all versions: [10.5281/zenodo.24210390](https://doi.org/10.5281/zenodo.24210390).
@@ -17,19 +17,7 @@ Jairo Rifrán · TerraUY Intelligence · 2026
 
 ## 1. Abstract
 
-**Problem.** AI agents increasingly turn Earth-observation (EO) tool outputs into conclusions. We ask whether they respect the epistemic limits of that evidence, for example treating tree-cover loss as "deforestation" or a non-detection as "it did not happen".
-
-**Benchmark.** We introduce the TerraUY Evidence Grounding Benchmark (TEGB) v0.1: 82 tasks (74 in ten failure families plus 8 controls), derived from real forest-change and fire-detection assessments, with area values made synthetic for privacy.
-
-**Experiment.** Each task is presented without explicit semantics (RAW), with explicit semantics in prose (TEXT), and as an equivalent machine-readable record (STRUCTURED). We evaluate four models: EVE-Instruct, its base model Mistral Small 3.2, Claude Sonnet 5.5 and GPT-6.1 Terra, giving 2,952 responses scored by two blind LLM judges and a deterministic detector.
-
-**Results.**
-- Explicit semantics reduced the unsupported conclusion rate from 50.8% to 17.4% (−33.4 pp, paired p < 0.001), consistently across models.
-- The preregistered hypothesis that the structured record would further reduce it failed: STRUCTURED reached 20.9% (+3.6 pp vs TEXT).
-- In this evaluation, EVE-Instruct showed higher unsupported-conclusion rates than its Mistral Small 3.2 base model across all three conditions.
-- The main conclusions were stable under the replacement of identifying asset-area values with synthetic equivalents.
-
-**Main limitation.** Labels come from LLM judges, and the dataset covers one region and domain. TEGB v0.1 has not yet undergone independent expert human review.
+AI agents increasingly turn Earth observation (EO) tool outputs into conclusions. An agent can retrieve correct evidence and still conclude more than it establishes, for example reading tree-cover loss as deforestation, or a non-detection as proof that nothing happened. We introduce the TerraUY Evidence Grounding Benchmark (TEGB) v0.1, a research preview of 82 tasks in ten failure families, derived from forest-change and fire-detection assessments, which isolates the step from evidence to conclusion. Each task is presented in three conditions: tool outputs alone (RAW), the same outputs with explicit statements of what they support and what they do not establish (TEXT), and the same semantics as a JSON record (STRUCTURED). We evaluate four language models with the unsupported conclusion rate (UCR), labelled by two blind LLM judges and a deterministic detector. Across the four models, explicit evidence semantics reduced UCR from 50.8% to 17.4%. The structured representation did not improve on equivalent prose (20.9%); the preregistered hypothesis that it would failed. The labels have not been validated by independent human experts, and the benchmark covers one region and a narrow part of EO. The results suggest that trustworthy agentic EO needs evidence that states its own limits, and evaluation of conclusions as well as tool use.
 
 ## 2. Introduction
 
@@ -48,35 +36,63 @@ TEGB isolates this evidence-to-conclusion step:
 2. The agent answers an analyst's question.
 3. We measure whether the answer stays within what the evidence supports.
 
+In short, TEGB measures *EO evidence → justified conclusion*, not *question → correct tool call*.
+
+**Research questions.**
+- **RQ1.** Can AI agents correctly distinguish what Earth Observation evidence supports from what it does not establish?
+- **RQ2.** Does explicitly representing evidentiary limits improve evidence-grounded reasoning? We test two forms: stating the limits in prose (RAW vs TEXT), and encoding the same limits in a structured record (TEXT vs STRUCTURED, the preregistered primary contrast).
+
+**Contributions.**
+- **C1.** A benchmark for evidence-grounding failures of EO agents: 82 tasks with answer keys, three matched presentations of the same evidence, and a released baseline with all responses, judgments, code and the preregistration.
+- **C2.** A taxonomy of unsupported EO conclusions in ten failure families (§7).
+- **C3.** Empirical evidence, for four evaluated models, that explicit semantic constraints substantially reduce unsupported conclusions (§11.2).
+- **C4.** A preregistered negative result: a structured representation alone did not improve grounding over equivalent natural-language constraints (§11.3).
+
+The comparison between EVE-Instruct and its base model (§12) is reported as an observation under one configuration. It is not a contribution about model families and not a ranking.
+
 ## 3. Motivation
 
 Three observations motivated the benchmark:
 
-1. **Tool competence is not evidence-grounding competence.** Every number in a response can be correct while its conclusion is unsupported. Factual QA and tool-use benchmarks do not score this.
+1. **Tool competence is not the same as evidence-grounding competence.** We treat this as a working hypothesis, not as an established general fact. Every number in a response can be correct while its conclusion is unsupported. Factual QA and tool-use benchmarks do not score this.
 2. **Absence is the hardest case.** EO systems routinely produce *non-detections* (looked, found nothing) and *non-observations* (could not look). Both are easily rewritten by language models as "nothing happened", which is the form most useful, and most dangerous, for certification.
 3. **Evidence representation is a design choice.** If agents misuse evidence, a natural engineering response is to give them a richer, machine-readable evidence record. TEGB was built to test whether that helps more than plain prose with the same content.
 
 ## 4. Related work
 
-All items below were verified against public sources on 2026-11-13 (`paper/RELATED_WORK_SOURCES.md`).
+Every item below was checked against its public source on 2026-11-13 (`paper/RELATED_WORK_SOURCES.md`). Venues are given only where the proceedings or the venue's own site confirm them.
 
-- **EO and geospatial benchmarks** evaluate representation learning, perception and agentic task execution. None scores whether conclusions respect the limits of given evidence:
-  - GEO-Bench (Lacoste et al., NeurIPS 2023 Datasets & Benchmarks): classification and segmentation for foundation models;
-  - GEOBench-VLM (Danish et al., arXiv 2024): VLMs on geospatial tasks;
-  - GeoLLM-Engine (Singh et al., arXiv 2024): environment for geospatial copilots;
-  - ThinkGeo (Shabbir et al., arXiv 2025): tool-augmented agents for remote sensing;
-  - Earth-Agent / Earth-Bench (Feng et al., ICLR 2026): expert-curated agentic EO tasks with imagery;
-  - UnivEARTH (Kao et al., Findings of ACL 2026): an LLM-agent benchmark built from NASA Earth Observatory articles;
-  - TerraBench (Nguyen et al., arXiv 2026): agentic tasks across three tracks.
-- **Grounding, attribution and faithfulness benchmarks** study whether text is supported by provided context or sources, in general domains:
-  - RAGTruth (Niu et al., ACL 2024);
-  - FActScore (Min et al., EMNLP 2023);
-  - AttributionBench (Li et al., Findings of ACL 2024);
-  - FaithEval (Ming et al., ICLR 2025).
+**Agentic AI for Earth observation.** LLM agents that plan, call geospatial tools and report results are an active research line. Alipour Talemi et al. survey agentic AI in remote sensing and its trajectory-aware benchmarks. Slonim et al. describe and evaluate a geospatial reasoning agent built on a general-purpose model. EVE (Earth Virtual Expert) is an ESA Φ-lab initiative; its open model EVE-Instruct is a 24B model built on Mistral Small 3.2 (Atrio et al.), released under Apache-2.0. ESA Φ-lab's summary of its Agentic AI for EO workshop (Berlin, 19–21 October 2026) calls for "community benchmarks to assess whether agents are trustworthy". TEGB is offered as a possible, complementary contribution of that kind. It has not been reviewed or endorsed by ESA.
 
-  TEGB is closest in spirit to these. It adds EO-specific epistemic categories (non-detection vs non-observability, signal vs interpretation vs cause vs legality, versioned evidence) and a controlled comparison of evidence presentations.
-- **EO-specialized language models.** EVE (Earth Virtual Expert) is an ESA Φ-lab initiative. Its open model EVE-Instruct is a 24B model built on Mistral Small 3.2 (Atrio et al., ACL 2026 Industry Track), released under Apache-2.0.
-- **Context.** ESA Φ-lab's Agentic AI for EO workshop (Berlin, 19–21 October 2026) published takeaways that call for "community benchmarks to assess whether agents are trustworthy". TEGB is offered as a potential, complementary contribution of that kind. It has not been reviewed or endorsed by ESA.
+**EO and geospatial benchmarks.** Existing benchmarks evaluate perception, multimodal understanding or task execution:
+- GEO-Bench (Lacoste et al.): classification and segmentation tasks for pretrained Earth-monitoring models;
+- GEOBench-VLM (Danish et al.): vision-language models on geospatial tasks such as scene understanding, counting and temporal analysis;
+- GeoLLM-Engine (Singh et al.): tool-augmented agents on long-horizon analyst tasks, scored on functional correctness;
+- ThinkGeo (Shabbir et al.): agents on image-grounded remote-sensing tasks, scored on step-wise tool execution and final answers;
+- Earth-Agent with Earth-Bench (Feng et al.): expert-curated agentic EO tasks with imagery, scored on trajectories and outcomes;
+- UnivEARTH (Kao et al.): yes/no questions from NASA Earth Observatory articles, answered by agents that write Google Earth Engine code;
+- TerraBench (Nguyen et al.): agentic tasks over heterogeneous Earth-system data, with tool-use metrics and numeric scoring.
+
+**General agent and tool-use benchmarks.** GAIA (Mialon et al.) and τ-bench (Yao et al.) score whether assistants complete real-world tasks with tools, in the second case under domain policies. They measure task completion, not whether a conclusion is licensed by the evidence at hand.
+
+**Grounded generation, hallucination, attribution and abstention.** A large body of work asks whether generated text is supported by provided context or sources, in general domains: RAGTruth (Niu et al.), FActScore (Min et al.), AttributionBench (Li et al.), FaithEval (Ming et al.) and ALCE (Gao et al.). AbstentionBench (Kirichenko et al.) tests whether models abstain on unanswerable or underspecified questions. TEGB is closest in spirit to this family. It adds EO-specific epistemic categories (non-detection vs non-observability, signal vs interpretation vs cause vs legality, versioned evidence) and a controlled comparison of evidence presentations.
+
+**Scientific reasoning and overgeneralization.** Peters and Chin-Yee compare LLM summaries with the scientific texts they summarize and find frequent overgeneralization of conclusions. This is the closest prior construct to TEGB's unsupported conclusion: the content is retrieved correctly, and the claim made from it is broader than the source supports.
+
+**LLMs as judges.** Zheng et al. study the agreement of LLM judges with human preferences and their biases. TEGB relies on LLM judges and inherits those concerns (§15).
+
+**How TEGB differs.**
+
+| Kind of benchmark | Examples | What is scored |
+|---|---|---|
+| EO perception and multimodal understanding | GEO-Bench, GEOBench-VLM | Correct label or answer from imagery |
+| EO tool calling and geospatial execution | GeoLLM-Engine, ThinkGeo, Earth-Bench, UnivEARTH, TerraBench | Correct tool use, trajectory and final answer |
+| General tool-use agents | GAIA, τ-bench | Task completion with tools |
+| Retrieval-grounded generation and factual QA | RAGTruth, FActScore, AttributionBench, FaithEval, ALCE | Support of generated text by context or sources, in general domains |
+| Abstention | AbstentionBench | Abstaining when a question cannot be answered |
+| **TEGB** | this work | Given correct EO evidence, whether the conclusion stays within what that evidence supports |
+
+TEGB does not measure retrieval, tool calling, geospatial processing or image interpretation, and it is not a substitute for the benchmarks above.
 
 ## 5. Evidence grounding
 
@@ -291,8 +307,8 @@ Same tasks, conditions, runs, serving stack (vLLM 0.29.0, 1× A100 80 GB, BF16),
 
 **Finding.** Under this benchmark configuration, EVE-Instruct showed a higher unsupported-conclusion rate than its Mistral Small 3.2 base model in all three conditions. The gap is largest when the semantics are explicit: +18.7 pp in TEXT. Explicit semantics helped both models (EVE −37.0 pp, base −48.8 pp), but did not close the gap.
 
-**Interpretation, with caution.** EO specialization did not guarantee better evidence grounding in this experiment. We do **not** conclude that specialization harms grounding:
-- EVE was evaluated with the benchmark's common neutral system prompt, not the system prompt shown in its model card's code example.
+**Interpretation, with caution.** In this benchmark configuration, EVE-Instruct showed higher unsupported-conclusion rates than its Mistral Small 3.2 base model across all three conditions. Both models ran with the same common system prompt, serving stack and decoding parameters. This is not a universal model ranking, and we make no causal inference. Domain specialization did not guarantee stronger evidence grounding in this benchmark; we do **not** conclude that specialization harms grounding:
+- EVE was evaluated with the benchmark's common neutral system prompt, not the system prompt shown in its model card's code example. EVE-specific native prompting or setup may differ and may give different results.
 - The tasks measure grounding to provided tool evidence, not EO knowledge, which is EVE's design target.
 - The fine-tuning data and alignment differences are not observed by this design.
 
@@ -437,12 +453,18 @@ Reviewer: ChatGPT-generated assessments adopted by the project owner. Treat as a
 
 ## 15. Limitations
 
-See `LIMITATIONS.md`. In brief:
-- **Data.** 82 tasks; one region and EO domain; tasks from TerraUY's operational context; synthetic area values in 66 tasks.
-- **Labels.** LLM judges. TEGB v0.1 has not yet undergone independent expert human review; the development-run review used ChatGPT-generated assessments adopted by the owner and is not independent human validation.
-- **Claude.** 133 of 738 Claude responses were truncated (mostly RAW), and its sampling was provider-default.
-- **EVE.** Evaluated with a common prompt.
-- **Scope of the conclusions.** Nothing here shows that JSON is inherently worse, or that EO specialization causes weaker grounding.
+The full list is in `LIMITATIONS.md`. The main limitations are:
+
+1. **Small benchmark.** 82 tasks (74 test tasks and 8 controls), with 6 to 10 tasks per family. Per-family and per-model differences have wide intervals; the pooled paired contrasts are the most reliable numbers.
+2. **Limited EO coverage.** One region (Uruguay) and a narrow part of EO: forest change and thermal detections. SAR, optical indices, water, crops, urban change and imagery are not covered. The tasks come from TerraUY's operational context, and its method thresholds shape what counts as supported.
+3. **LLM-as-judge.** Labels come from two LLM judges and a lexical detector. Judge agreement is substantial (κ = 0.732), but absolute UCR levels depend on the instrument. The paired differences are more robust than the levels (§14).
+4. **No independent expert human validation.** TEGB v0.1 has not yet undergone independent expert human review. The only blind review covered the development run and used ChatGPT-generated assessments adopted by the project owner, which is not independent human validation.
+5. **Common system prompt.** All models, including EVE-Instruct, were run with the benchmark's common neutral system prompt. A model's native prompting or setup may give different results.
+6. **Claude truncation and sampling.** 133 of 738 Claude responses were truncated at the 600-token cap (121 in RAW), and Claude's sampling was provider-default because the model does not accept a temperature. Excluding truncated pairs does not change the structure result (§14).
+7. **Synthetic privacy transformation.** In 66 tasks, identifying area values were replaced by synthetic equivalents. The comparison with the original values (§14) is exploratory and cannot be reproduced from public files.
+8. **Model and provider versions.** Results describe the exact model versions, serving stacks and dates recorded in §9. Hosted models change; later runs of the "same" model may differ.
+9. **Benchmark contamination.** The tasks, answer keys and baseline outputs have been public since 2026-11-13. Models trained later may have seen them, and this cannot be detected reliably from scores.
+10. **No claim of universal generalization.** The findings hold for four models, one prompt, one structured design and single-turn answers of at most 150 words. They do not show that JSON is inherently worse than prose, that EO specialization causes weaker grounding, or that any model is safe or unsafe for EO decisions.
 
 ## 16. Discussion
 
@@ -450,6 +472,8 @@ The results separate two questions that are easy to conflate:
 
 1. **Does it help to tell an agent what the evidence supports, what it does not establish, and whether the phenomenon was observable?** In this benchmark, yes, strongly and for every model. In absolute terms the effect is largest for the 24B open models. In relative terms it is largest for the frontier models, which reach a floor.
 2. **Does a machine-readable evidence structure help more than the same content in prose?** No. The structured record did not outperform prose, and it appeared to encourage literal readings of status codes in absence and observability cases.
+
+The results are consistent with the working hypothesis that tool competence is not the same as evidence-grounding competence: in every task the evidence was already retrieved and correct, and unsupported conclusions were still frequent when its limits were left implicit. Four models and 82 tasks do not establish this in general.
 
 A practical reading: structure remains useful *inside* a system, for provenance, validation, versioning and generating equivalent views. When the consumer is a language model, delivering the constraints as prose attached to each finding was at least as effective in v0.1.
 
@@ -469,6 +493,7 @@ These implications are offered as research input. They are not established requi
 3. **More settings:** multi-turn and tool-calling agents, and long-form reports.
 4. **Alternative structured designs:** inline constraints, tool output schemas, structure rendered to prose.
 5. **EVE with its native setup**, including the system prompt shown in its model card.
+6. **External evaluations and a contamination-aware v0.2:** results from other teams through the public submission format, and held-out or refreshed tasks for future versions.
 
 ## 19. Conclusion
 
@@ -478,24 +503,44 @@ It also reports a negative result: a structured evidence record, given directly 
 
 We release the tasks, prompts, responses, judgments, code and preregistration so that these results can be checked, challenged and extended.
 
+## Data and code availability
+
+- Code, tasks, prompts, responses, judgments, labels and preregistration: https://github.com/terrauy/terrauy-evidence-grounding (release v0.1).
+- Archived release: Zenodo, https://doi.org/10.5281/zenodo.24210391 (all versions: https://doi.org/10.5281/zenodo.24210390).
+- Dataset files for loading: https://huggingface.co/datasets/TerraUY/TEGB.
+- Every number in this report can be re-derived offline with `python analysis/reproduce.py`. External models can be evaluated with the tools described in `RUN_YOUR_MODEL.md`.
+- Licensing: code under Apache-2.0; TEGB-authored tasks, annotations, documentation and figures under CC BY 4.0; third-party EO values under their original terms; model outputs under `MODEL_OUTPUTS_NOTICE.md`.
+
+## Acknowledgements
+
+No model provider, data provider or space agency sponsored, reviewed or endorsed this work. We acknowledge the use of data from NASA's Fire Information for Resource Management System (FIRMS), the Hansen/UMD/Google/USGS/NASA Global Forest Change dataset, the JRC Global Forest Cover 2020 dataset and MGAP (Uruguay) forest cartography.
+
 ## References
 
-Every reference was checked against its public source on 2026-11-13 (`paper/RELATED_WORK_SOURCES.md`). Venues of arXiv preprints are not claimed.
+Every reference was checked against its public source on 2026-11-13 (`paper/RELATED_WORK_SOURCES.md`). Works marked as preprints have no confirmed venue.
 
+- Alipour Talemi et al. Agentic AI in Remote Sensing: Foundations, Taxonomy, and Emerging Systems. WACV 2026 Workshops. arXiv:2601.01891.
 - Atrio et al. EVE: A Domain-Specific LLM Framework for Earth Intelligence. ACL 2026 Industry Track. https://aclanthology.org/2026.acl-industry.72/ · arXiv:2604.13071.
-- Danish et al. GEOBench-VLM. arXiv:2411.19325 (preprint).
-- ESA Φ-lab. Takeaways from the Agentic AI for Earth Observation workshop (Berlin, 19–21 October 2026). https://philab.esa.int/five-takeaways-from-the-agentic-ai-for-earth-observation-workshop/
-- Feng et al. Earth-Agent / Earth-Bench. ICLR 2026. https://iclr.cc/virtual/2026/poster/10008386
-- Hansen, M. C. et al. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. *Science* 342: 850–853.
 - Bourgoin et al. (2026). Global Forest Cover 2020, version 4. European Commission, Joint Research Centre. doi:10.2905/JRC.3KATEH8.
-- Kao et al. UnivEARTH. Findings of ACL 2026. https://aclanthology.org/2026.findings-acl.124/
-- Lacoste et al. GEO-Bench. NeurIPS 2023 Datasets & Benchmarks. arXiv:2306.03831.
-- Li et al. AttributionBench. Findings of ACL 2024. https://aclanthology.org/2024.findings-acl.886
-- Min et al. FActScore. EMNLP 2023. https://aclanthology.org/2023.emnlp-main.741/
-- Ming et al. FaithEval. ICLR 2025. https://proceedings.iclr.cc/paper_files/paper/2025/hash/48404cd9ce03946c6b7177691f3267a1-Abstract-Conference.html
-- NASA Fire Information for Resource Management System (FIRMS). https://www.earthdata.nasa.gov/data/tools/firms
-- Nguyen et al. TerraBench. arXiv:2606.13148 (preprint).
-- Niu et al. RAGTruth. ACL 2024. https://aclanthology.org/2024.acl-long.585/
-- Shabbir et al. ThinkGeo. arXiv:2505.23752 (preprint).
-- Singh, Fore and Stamoulis. GeoLLM-Engine. arXiv:2404.15500 (preprint).
+- Danish et al. GEOBench-VLM: Benchmarking Vision-Language Models for Geospatial Tasks. ICCV 2025. arXiv:2411.19325.
+- ESA Φ-lab. Five takeaways from the Agentic AI for Earth Observation workshop. Web article, 9 November 2026. https://philab.esa.int/five-takeaways-from-the-agentic-ai-for-earth-observation-workshop/ (accessed 2026-11-13).
+- Feng et al. Earth-Agent: Unlocking the Full Landscape of Earth Observation with Agents. ICLR 2026. arXiv:2509.23141.
+- Gao et al. Enabling Large Language Models to Generate Text with Citations. EMNLP 2023. arXiv:2305.14627.
+- Hansen, M. C. et al. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. *Science* 342: 850–853.
+- Kao et al. Towards LLM Agents for Earth Observation. Findings of ACL 2026. https://aclanthology.org/2026.findings-acl.124/
+- Kirichenko et al. AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions. NeurIPS 2025 Datasets and Benchmarks. arXiv:2506.09038.
+- Lacoste et al. GEO-Bench: Toward Foundation Models for Earth Monitoring. NeurIPS 2023 Datasets and Benchmarks. arXiv:2306.03831.
+- Li et al. AttributionBench: How Hard is Automatic Attribution Evaluation? Findings of ACL 2024. https://aclanthology.org/2024.findings-acl.886/
+- Mialon et al. GAIA: a benchmark for General AI Assistants. ICLR 2024. arXiv:2311.12983.
+- Min et al. FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation. EMNLP 2023. https://aclanthology.org/2023.emnlp-main.741/
+- Ming et al. FaithEval: Can Your Language Model Stay Faithful to Context, Even If "The Moon is Made of Marshmallows". ICLR 2025. arXiv:2410.03727.
 - Ministerio de Ganadería, Agricultura y Pesca (MGAP), Uruguay. Cartografía forestal 2021, under the Licencia de Datos Abiertos – Uruguay v0.1. https://catalogodatos.gub.uy/
+- NASA Fire Information for Resource Management System (FIRMS). https://www.earthdata.nasa.gov/data/tools/firms
+- Nguyen et al. TerraBench: Can Agents Reason Over Heterogeneous Earth-System Data? arXiv:2606.13148 (preprint).
+- Niu et al. RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models. ACL 2024. https://aclanthology.org/2024.acl-long.585/
+- Peters and Chin-Yee (2025). Generalization bias in large language model summarization of scientific research. *Royal Society Open Science* 12(4): 241776. https://doi.org/10.1098/rsos.241776
+- Shabbir et al. ThinkGeo: Evaluating Tool-Augmented Agents for Remote Sensing Tasks. arXiv:2505.23752 (preprint).
+- Singh et al. GeoLLM-Engine: A Realistic Environment for Building Geospatial Copilots. CVPR 2024 Workshops (EarthVision). arXiv:2404.15500.
+- Slonim et al. Google Earth AI Geospatial Reasoning Agent: Capabilities and a Systematic Evaluation. arXiv:2610.15750 (preprint).
+- Yao et al. τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains. ICLR 2025. arXiv:2406.12045.
+- Zheng et al. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. NeurIPS 2023 Datasets and Benchmarks. arXiv:2306.05685.

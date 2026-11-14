@@ -1,4 +1,4 @@
-# Related-work and licensing sources (verified 2026-11-13)
+# Related-work and licensing sources (verified 2026-11-13; venues re-checked the same day for the preprint)
 
 Every external claim in the technical report was checked against the source below. **Claims not verified are not used.**
 
@@ -22,11 +22,19 @@ Every external claim in the technical report was checked against the source belo
 | Benchmark | Reference |
 |---|---|
 | GEO-Bench | Lacoste et al., NeurIPS 2023 Datasets & Benchmarks, https://arxiv.org/abs/2306.03831 |
-| GeoLLM-Engine | Singh, Fore, Stamoulis, arXiv 2404.15500 (preprint) |
-| GEOBench-VLM | Danish et al., arXiv 2411.19325 (preprint) |
+| Agentic AI in Remote Sensing (survey) | Alipour Talemi et al., WACV 2026 Workshops (GeoCV), https://arxiv.org/abs/2601.01891 |
+| Google Earth AI Geospatial Reasoning Agent | Slonim et al., arXiv 2610.15750 (preprint) |
+| GAIA | Mialon et al., ICLR 2024, https://arxiv.org/abs/2311.12983 |
+| τ-bench | Yao et al., ICLR 2025, https://arxiv.org/abs/2406.12045 |
+| ALCE (Enabling Large Language Models to Generate Text with Citations) | Gao et al., EMNLP 2023, https://arxiv.org/abs/2305.14627 |
+| AbstentionBench | Kirichenko et al., NeurIPS 2025 Datasets & Benchmarks, https://arxiv.org/abs/2506.09038 |
+| Generalization bias in LLM summarization of scientific research | Peters and Chin-Yee, Royal Society Open Science 12(4): 241776 (2025), https://doi.org/10.1098/rsos.241776 |
+| Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena | Zheng et al., NeurIPS 2023 Datasets & Benchmarks, https://arxiv.org/abs/2306.05685 |
+| GeoLLM-Engine | Singh et al., CVPR 2024 Workshops (EarthVision), arXiv 2404.15500 |
+| GEOBench-VLM | Danish et al., ICCV 2025, arXiv 2411.19325 |
 | ThinkGeo | Shabbir et al., arXiv 2505.23752 (preprint) |
-| Earth-Agent / Earth-Bench | Feng et al., ICLR 2026, https://iclr.cc/virtual/2026/poster/10008386 |
-| UnivEARTH | Kao et al., Findings of ACL 2026, https://aclanthology.org/2026.findings-acl.124/ |
+| Earth-Agent (includes Earth-Bench) | Feng et al., ICLR 2026, https://iclr.cc/virtual/2026/poster/10008386 · arXiv 2509.23141 |
+| UnivEARTH (paper title: Towards LLM Agents for Earth Observation) | Kao et al., Findings of ACL 2026, https://aclanthology.org/2026.findings-acl.124/ |
 | TerraBench | Nguyen et al., arXiv 2606.13148 (preprint) |
 | RAGTruth | Niu et al., ACL 2024, https://aclanthology.org/2024.acl-long.585/ |
 | FActScore | Min et al., EMNLP 2023, https://aclanthology.org/2023.emnlp-main.741/ |

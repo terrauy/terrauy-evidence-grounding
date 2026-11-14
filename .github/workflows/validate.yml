@@ -1,0 +1,50 @@
+name: validate
+
+# Offline checks only. This workflow never calls a model, needs no secrets and spends nothing.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  submissions:
+    name: Validate submissions and leaderboard
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Release manifest (benchmark files are byte-identical)
+        run: python analysis/make_manifest.py --check
+      - name: Task and prompt hashes are unchanged
+        run: python -m tegb hashes --check
+      - name: Validate every submission (hashes, completeness, recomputed metrics)
+        run: python -m tegb validate
+      - name: Leaderboard preview from the submissions in this revision
+        run: |
+          python -m tegb leaderboard --blocks-dir "$RUNNER_TEMP/blocks"
+          for f in community_reference community_core; do echo "### $f" >> "$GITHUB_STEP_SUMMARY"; cat "$RUNNER_TEMP/blocks/$f.md" >> "$GITHUB_STEP_SUMMARY"; echo >> "$GITHUB_STEP_SUMMARY"; done
+      - name: Published leaderboard matches the submissions (main only)
+        if: github.event_name == 'push'
+        run: python -m tegb leaderboard --check
+
+  tests:
+    name: Tests, reproduction and external-submitter simulation
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test suite, full reproduction and external-submitter simulation
+        run: python tests/run_tests.py --full

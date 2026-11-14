@@ -53,17 +53,25 @@ ALLOWED_URL_DOMAINS = ("huggingface.co/eve-esa", "huggingface.co/mistralai", "hu
                        "developers.google.com/earth-engine", "json-schema.org", "citation-file-format.github.io", "terrauy.com", "www.terrauy.com",
                        "www.w3.org", "purl.org/dc", "matplotlib.org",
                        "openai.com/policies", "www.anthropic.com/legal", "legal.mistral.ai/terms", "huggingface.co/terms-of-service",
-                       "img.shields.io/badge", "zenodo.org/badge", "github.com/terrauy", "zenodo.org", "huggingface.co/TerraUY")
+                       "img.shields.io/badge", "zenodo.org/badge", "github.com/terrauy", "zenodo.org", "huggingface.co/TerraUY",
+                       "//localhost:", "//127.0.0.1:", "//HOST", "api.openai.com/v1", "docs.github.com", "info.arxiv.org", "orcid.org")
 
 
 def files():
     for p in sorted(ROOT.rglob("*")):
-        if p.is_file() and not (set(p.relative_to(ROOT).parts[:-1]) & SKIP_DIRS) and p.suffix.lower() in TEXT_EXT:
+        rel = p.relative_to(ROOT).parts
+        if rel[0] == "submissions" and len(rel) >= 3:
+            continue  # community submissions: third-party model outputs, checked by `tegb validate`
+        if p.is_file() and not (set(rel[:-1]) & SKIP_DIRS) and p.suffix.lower() in TEXT_EXT:
             yield p
 
 
 NAME_ALLOWED = {"NOTICE", "LICENSING.md", "release_config.json", "PRIVACY_AUDIT.md", "copyright.md",
                 "BENCHMARK_CARD.md", "TECHNICAL_REPORT.md", "CITATION.cff", "README.md", ".zenodo.json"}  # copyright holder / author line only (owner decisions 2026-11-13)
+
+
+LOCALHOST_ALLOWED = {"RUN_YOUR_MODEL.md", "adapters.py", "README.md"}
+EMAIL_ALLOWED = {"contacto@terrauy.com"}
 
 
 def scan(patterns):
@@ -77,6 +85,10 @@ def scan(patterns):
             if k == "staff_names" and p.name in NAME_ALLOWED:
                 continue
             for m in rx.finditer(t):
+                if k == "internal_hosts" and p.name in LOCALHOST_ALLOWED and m.group(0).lower().startswith("localhost:"):
+                    continue  # documented defaults of local model servers (Ollama, vLLM), not internal infrastructure
+                if k == "email" and m.group(0).lower() in EMAIL_ALLOWED:
+                    continue  # public research contact, as published on terrauy.com
                 hits[k].append({"file": p.relative_to(ROOT).as_posix(), "match": m.group(0)[:60]})
     return n, hits
 

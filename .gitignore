@@ -5,3 +5,5 @@ __pycache__/
 *.log
 .venv/
 paper/*.html
+*.egg-info/
+results/my-*/
