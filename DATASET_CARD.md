@@ -4,6 +4,12 @@
 > **Validation status.** TEGB v0.1 has not yet undergone independent expert human review. The primary results are based on two blind model judges, deterministic checks, paired statistical analysis and multiple sensitivity analyses. A blind robustness review was also performed using ChatGPT-generated assessments adopted by the project owner; this is not treated as independent human validation.
 <!-- /TEGB:validation_note -->
 
+<!-- TEGB:doi -->
+**DOI:** [10.5281/zenodo.24210391](https://doi.org/10.5281/zenodo.24210391) (v0.1, archived on Zenodo). Concept DOI for all versions: [10.5281/zenodo.24210390](https://doi.org/10.5281/zenodo.24210390).
+<!-- /TEGB:doi -->
+
+Hugging Face: https://huggingface.co/datasets/TerraUY/TEGB · GitHub: https://github.com/terrauy/terrauy-evidence-grounding
+
 ## Summary
 
 - **82 tasks** (`dataset/tasks.jsonl`, `tasks-v0.1`): 74 test tasks in 10 failure families plus 8 affirmative controls.

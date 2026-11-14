@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this benchmark, please cite it as below. Research preview (v0.1); not peer-reviewed."
+message: "If you use this benchmark, please cite it as below (DOI 10.5281/zenodo.24210391). Research preview (v0.1); not peer-reviewed."
 type: dataset
 title: "TerraUY Evidence Grounding Benchmark (TEGB): Trustworthy Reasoning over Earth Observation Evidence"
 version: "0.1"
@@ -11,6 +11,14 @@ authors:
 license:
   - Apache-2.0
   - CC-BY-4.0
+doi: "10.5281/zenodo.24210391"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24210391"
+    description: "TEGB v0.1 (Zenodo)"
+  - type: doi
+    value: "10.5281/zenodo.24210390"
+    description: "All versions (Zenodo concept DOI)"
 repository-code: "https://github.com/terrauy/terrauy-evidence-grounding"
 url: "https://github.com/terrauy/terrauy-evidence-grounding"
 abstract: >-

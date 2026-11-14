@@ -21,5 +21,10 @@
   "NASA FIRMS / Earthdata data use (CC0, citation)",
   "MGAP via catalogodatos.gub.uy (Licencia de Datos Abiertos - Uruguay v0.1)"
  ],
- "terms_material_incompatibility": "NONE"
+ "terms_material_incompatibility": "NONE",
+ "doi_version": "10.5281/zenodo.24210391",
+ "doi_concept": "10.5281/zenodo.24210390",
+ "github": "https://github.com/terrauy/terrauy-evidence-grounding",
+ "huggingface": "https://huggingface.co/datasets/TerraUY/TEGB",
+ "landing": "https://www.terrauy.com/en/research/tegb"
 }

@@ -7,7 +7,7 @@ Jairo Rifrán · TerraUY Intelligence · 2026
 *This technical report has not been peer-reviewed.*
 
 <!-- TEGB:doi -->
-**DOI:** not yet assigned. A Zenodo DOI will be added here once the archived v0.1 record exists; no provisional DOI is used.
+**DOI:** [10.5281/zenodo.24210391](https://doi.org/10.5281/zenodo.24210391) (v0.1, archived on Zenodo). Concept DOI for all versions: [10.5281/zenodo.24210390](https://doi.org/10.5281/zenodo.24210390).
 <!-- /TEGB:doi -->
 
 <!-- TEGB:validation_note -->

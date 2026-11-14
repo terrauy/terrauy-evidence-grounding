@@ -3,7 +3,7 @@
 **Trustworthy Reasoning over Earth Observation Evidence**
 
 <!-- TEGB:badges -->
-![Version](https://img.shields.io/badge/version-v0.1%20research%20preview-2f6f4f) ![Code license](https://img.shields.io/badge/code-Apache--2.0-blue) ![Content license](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24210391.svg)](https://doi.org/10.5281/zenodo.24210391) [![Release](https://img.shields.io/badge/release-v0.1%20research%20preview-2f6f4f)](https://github.com/terrauy/terrauy-evidence-grounding/releases/tag/v0.1) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-TerraUY%2FTEGB-ffcc4d)](https://huggingface.co/datasets/TerraUY/TEGB) ![Code license](https://img.shields.io/badge/code-Apache--2.0-blue) ![Content license](https://img.shields.io/badge/content-CC%20BY%204.0-lightgrey)
 <!-- /TEGB:badges -->
 
 > TEGB evaluates whether AI agents respect what Earth Observation evidence supports — and what it does not establish.
@@ -19,6 +19,17 @@ Representing the same evidence semantics as structured JSON did not improve evid
 <!-- TEGB:validation_note -->
 > **Validation status.** TEGB v0.1 has not yet undergone independent expert human review. The primary results are based on two blind model judges, deterministic checks, paired statistical analysis and multiple sensitivity analyses. A blind robustness review was also performed using ChatGPT-generated assessments adopted by the project owner; this is not treated as independent human validation.
 <!-- /TEGB:validation_note -->
+
+## Links
+
+| | |
+|---|---|
+| GitHub (code, data, results) | https://github.com/terrauy/terrauy-evidence-grounding |
+| Release v0.1 | https://github.com/terrauy/terrauy-evidence-grounding/releases/tag/v0.1 |
+| Hugging Face dataset | https://huggingface.co/datasets/TerraUY/TEGB |
+| Zenodo archive / DOI | https://doi.org/10.5281/zenodo.24210391 |
+| Technical report (PDF) | [paper/TEGB_v0.1_Technical_Report.pdf](paper/TEGB_v0.1_Technical_Report.pdf) |
+| Overview page | https://www.terrauy.com/en/research/tegb |
 
 ## Why TEGB
 
@@ -175,7 +186,7 @@ See [CITATION.cff](CITATION.cff):
 > Rifrán, J. (2026). *TerraUY Evidence Grounding Benchmark (TEGB): Trustworthy Reasoning over Earth Observation Evidence*, v0.1 (research preview). TerraUY Intelligence.
 
 <!-- TEGB:doi -->
-**DOI:** not yet assigned. A Zenodo DOI will be added here once the archived v0.1 record exists; no provisional DOI is used.
+**DOI:** [10.5281/zenodo.24210391](https://doi.org/10.5281/zenodo.24210391) (v0.1, archived on Zenodo). Concept DOI for all versions: [10.5281/zenodo.24210390](https://doi.org/10.5281/zenodo.24210390).
 <!-- /TEGB:doi -->
 
 ## License

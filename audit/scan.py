@@ -53,7 +53,7 @@ ALLOWED_URL_DOMAINS = ("huggingface.co/eve-esa", "huggingface.co/mistralai", "hu
                        "developers.google.com/earth-engine", "json-schema.org", "citation-file-format.github.io", "terrauy.com", "www.terrauy.com",
                        "www.w3.org", "purl.org/dc", "matplotlib.org",
                        "openai.com/policies", "www.anthropic.com/legal", "legal.mistral.ai/terms", "huggingface.co/terms-of-service",
-                       "img.shields.io/badge", "github.com/terrauy", "zenodo.org", "huggingface.co/TerraUY")
+                       "img.shields.io/badge", "zenodo.org/badge", "github.com/terrauy", "zenodo.org", "huggingface.co/TerraUY")
 
 
 def files():
