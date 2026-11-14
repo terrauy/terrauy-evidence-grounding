@@ -1,0 +1,31 @@
+{
+ "title": "TerraUY Evidence Grounding Benchmark (TEGB): Trustworthy Reasoning over Earth Observation Evidence",
+ "upload_type": "dataset",
+ "version": "0.1",
+ "access_right": "open",
+ "license": "cc-by-4.0",
+ "creators": [
+  {
+   "name": "Rifrán, Jairo",
+   "affiliation": "TerraUY Intelligence"
+  }
+ ],
+ "description": "<p><strong>TerraUY Evidence Grounding Benchmark (TEGB) — Trustworthy Reasoning over Earth Observation Evidence.</strong> v0.1 — Research Preview. An open research benchmark with reproducible results; not peer-reviewed.</p><p>TEGB evaluates whether AI agents respect what Earth Observation evidence supports — and what it does not establish. v0.1 contains 82 tasks (74 in 10 failure families plus 8 affirmative controls), three evidence conditions (RAW, TEXT, STRUCTURED), and an initial baseline of four models: 2,952 responses scored by two blind LLM judges (5,904 verdicts) and a deterministic detector, with preregistration, evaluation harness, reproduction scripts and a technical report.</p><p>Pooled unsupported conclusion rate: RAW 50.8%, TEXT 17.4%, STRUCTURED 20.9%. Explicit evidence semantics reduced unsupported conclusions by 33.4 percentage points (95% CI [−38.5, −28.3], paired p &lt; 0.001); structured JSON did not improve grounding over equivalent natural-language constraints (+3.6 pp, 95% CI [0.1, 6.9], p = 0.007).</p><p><strong>Validation status.</strong> TEGB v0.1 has not yet undergone independent expert human review. The primary results are based on two blind model judges, deterministic checks, paired statistical analysis and multiple sensitivity analyses. A blind robustness review was also performed using ChatGPT-generated assessments adopted by the project owner; this is not treated as independent human validation.</p>",
+ "notes": "Licensing is mixed (see LICENSING.md in the archive): code under Apache-2.0; TEGB-authored tasks, annotations, documentation and figures under CC BY 4.0; values derived from third-party Earth-observation datasets under their original terms (THIRD_PARTY_DATA.md); model outputs (agent responses and judge verdicts) are NOT licensed under CC BY 4.0 and are provided for research, evaluation and benchmark reproducibility only (MODEL_OUTPUTS_NOTICE.md). Copyright © 2026 Jairo Rifrán (TerraUY Intelligence). No model provider, data provider or space agency sponsors, endorses or has reviewed TEGB.",
+ "keywords": [
+  "Earth observation",
+  "remote sensing",
+  "evidence grounding",
+  "LLM agents",
+  "benchmark",
+  "unsupported conclusions",
+  "trustworthy AI"
+ ],
+ "related_identifiers": [
+  {
+   "identifier": "https://github.com/terrauy/terrauy-evidence-grounding",
+   "relation": "isSupplementTo",
+   "scheme": "url"
+  }
+ ]
+}
