@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J05_C_r2.json",
+ "prompt_sha256": "c8e8ce9abeb51e91ad9e6ab04862f5164571f73ca90be6bdf5cb9af540fed3df",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies contradiction, identifies the pre-baseline loss and JRC agreement, and notes the post-baseline event threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002781
+}

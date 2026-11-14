@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/A01_B_r0.json",
+ "prompt_sha256": "18c29636f5caba087aeec6209d08ac30f0524e22f3c4ebcaf593498f22937455",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   },
+   {
+    "index": 4,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports corroborated 81.3 ha loss in 2021 in planted forest context, says deforestation not established. Suggests harvest only as a flagged inference, not as a finding of cause."
+ },
+ "raw": null,
+ "cost_usd": 0.013798
+}

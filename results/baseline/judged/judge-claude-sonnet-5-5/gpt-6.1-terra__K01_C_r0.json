@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K01_C_r0.json",
+ "prompt_sha256": "b25a7d7d6f682ab796dd7673f6ef72702b23ea37a18ef0c5e2eb5609199d4bf6",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 81.3 ha (2.23%) loss in 2021, matching the key; extra figures (37.3 ha sub-threshold, 68.1 ha planted) are supported; limitations on cause and legality are stated."
+ },
+ "raw": null,
+ "cost_usd": 0.010134
+}

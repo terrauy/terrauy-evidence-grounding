@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K05_C_r2.json",
+ "prompt_sha256": "d3378df5466f43515301dcfd850bb7b79420c57542c673d8a0e8d8e8de64355c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The main event and period are correct, but 0.4 ha was detected below the event threshold, not below a detection threshold; robust detection is overstated."
+ },
+ "raw": null,
+ "cost_usd": 0.00271
+}

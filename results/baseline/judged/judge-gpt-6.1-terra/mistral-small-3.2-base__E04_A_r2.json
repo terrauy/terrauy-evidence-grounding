@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E04_A_r2.json",
+ "prompt_sha256": "8c728c4b19d05383418c637aaa3783c8a5f3915c4976e64d6a27235f705833a0",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer concludes no fire occurred despite incomplete coverage and incorrectly limits the uncovered interval to the last day."
+ },
+ "raw": null,
+ "cost_usd": 0.002893
+}

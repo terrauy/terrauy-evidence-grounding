@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K08_C_r1.json",
+ "prompt_sha256": "8370af0337a723969cf3323e73cb752f974061aee3d730824553182352d92f7f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 2.23% (81.3 ha of 3,643.5), matching key; context and limitations are supported by facts. Describing JRC as detecting the loss is slightly loose but minor."
+ },
+ "raw": null,
+ "cost_usd": 0.010506
+}

@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D02_B_r1.json",
+ "prompt_sha256": "89da3759ca1f9c859dad49e825427cfb62fc9796dc85a74bef6af9fd94ba91c3",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says it can 'confirm with high confidence' the forest is intact, which turns a non-detection into proof of absence. It mentions limits, but still overclaims. 'High confidence' is not supported by the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.007826
+}

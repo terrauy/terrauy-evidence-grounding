@@ -1,0 +1,46 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/A06_B_r2.json",
+ "prompt_sha256": "dffea4f032d57ed267179d60088602d08a3caf820b48e0168f9cf6d8ddc7e899",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   },
+   {
+    "index": 5,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports 13.5 ha loss in 2025 in native context with 98% JRC agreement; states persistence, deforestation, cause, legality not established. Doesn't explicitly say pending but effectively so. Minor wording: 'agreement' applies to forest at 2020."
+ },
+ "raw": null,
+ "cost_usd": 0.009282
+}

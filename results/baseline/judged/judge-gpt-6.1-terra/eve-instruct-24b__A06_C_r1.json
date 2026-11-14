@@ -1,0 +1,46 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A06_C_r1.json",
+ "prompt_sha256": "b9eaff01f3403e64a034b9d2decdf51572519d214186c018a6b97d7bd6a6c690",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   },
+   {
+    "index": 5,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly treats deforestation as unconfirmed, but overstates the loss as established and the entire area as confirmed native forest; 0.4 ha lies outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.003074
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H01_C_r1.json",
+ "prompt_sha256": "e8edf751d13362ad78e40c73dbbb4327fb1a05476d73949532b5b98edc297c80",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer denies whole-property clearing, cites 81.3 ha = 2.23% of 3,643.5 ha, correctly notes planted forest context and that cause is not established. The 37.3 ha sub-threshold loss is in the facts. No deforestation claim."
+ },
+ "raw": null,
+ "cost_usd": 0.008548
+}

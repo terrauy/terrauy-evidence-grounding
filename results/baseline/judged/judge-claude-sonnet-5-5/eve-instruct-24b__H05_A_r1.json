@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H05_A_r1.json",
+ "prompt_sha256": "77b2a8dca98aa8fd979a58039273b9beb5fd95561a56d058ec0ca37087c91849",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer opens with 'Yes... forest was cleared', equating tree-cover loss with clearing, which the evidence does not establish. It also misstates the loss as 'primarily' planted forest: 0.4 of 0.7 ha is planted and 0.3 ha is outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.008806
+}

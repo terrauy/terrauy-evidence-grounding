@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D02_B_r2.json",
+ "prompt_sha256": "bba8876579ff1f63da6efb744850c479c0d60347707806186adfa11dafd1e31f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer explicitly confirms the forest is intact, although non-detection cannot establish that; it correctly notes detection limits."
+ },
+ "raw": null,
+ "cost_usd": 0.002476
+}

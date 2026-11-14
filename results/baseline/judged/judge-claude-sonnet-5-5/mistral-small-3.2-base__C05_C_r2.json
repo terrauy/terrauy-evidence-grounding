@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/C05_C_r2.json",
+ "prompt_sha256": "6cdb93989df24ab265bc80fe9cbb66e794e11037ec38032e31af167ab01e52f9",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer concludes the property 'appears to be legally compliant' from absence of detected loss, which is a compliance/legality finding the evidence explicitly does not establish. It does mention the detection limits."
+ },
+ "raw": null,
+ "cost_usd": 0.008762
+}

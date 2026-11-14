@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G03_C_r1.json",
+ "prompt_sha256": "13a03848768c847f91a594a3b66a9b99caf8e04be178b1db68a42bc484dde579",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer asserts no loss occurred, exceeding the evidence of no detected event; its event years, areas, and threshold are otherwise correct."
+ },
+ "raw": null,
+ "cost_usd": 0.003637
+}

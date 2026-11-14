@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H05_C_r0.json",
+ "prompt_sha256": "45f1adcff07dbe195c1811f7f0036297382b52b8e943665fa69532bd09e5140e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms clearing, but key says clearing/deforestation is not established. It also says 'multiple independent sources' detected the change, and the planted-forest Eucalyptus detail is only partly supported. It does note limits on legality and responsibility."
+ },
+ "raw": null,
+ "cost_usd": 0.008622
+}

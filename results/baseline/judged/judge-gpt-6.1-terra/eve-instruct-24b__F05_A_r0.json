@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F05_A_r0.json",
+ "prompt_sha256": "311e04ce0d719c851c862b7573f7b7dca1490b9599d4fe15d43beed7d9a16b73",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer falsely attributes detection and confirmation to Sentinel-2, claims Hansen incorporates it, and misrepresents MGAP context as validation of the loss."
+ },
+ "raw": null,
+ "cost_usd": 0.002752
+}

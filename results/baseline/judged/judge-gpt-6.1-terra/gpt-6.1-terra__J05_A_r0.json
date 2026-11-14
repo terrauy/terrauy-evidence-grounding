@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J05_A_r0.json",
+ "prompt_sha256": "652c34f2ca8190bf9708cf8a199ebcb326e8b90f709b30717cc226fa02f275f0",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer incorrectly denies JRC corroboration of the supported 2020 loss and declines a definite no."
+ },
+ "raw": null,
+ "cost_usd": 0.002748
+}

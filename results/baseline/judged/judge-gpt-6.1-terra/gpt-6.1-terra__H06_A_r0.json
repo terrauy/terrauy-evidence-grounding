@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H06_A_r0.json",
+ "prompt_sha256": "6323bb74e99642d87e8da001740aecf779f023e65dde4c759199e2f07d4aeab5",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly limits the evidence to the asset and says it cannot establish regional forest loss; its supporting figures match the reference."
+ },
+ "raw": null,
+ "cost_usd": 0.002695
+}

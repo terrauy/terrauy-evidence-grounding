@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/A01_C_r2.json",
+ "prompt_sha256": "53002a730214edd2e58afed5ecdd0536e0ba9b6b439d59bf55386004a7496a97",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports 81.3 ha loss in 2021 in planted forest and says deforestation is not established; causes are only hedged. It wrongly says the loss was 'in a plantation of Pinus', though only 68.1 of 81.3 ha was planted, and omits corroboration."
+ },
+ "raw": null,
+ "cost_usd": 0.00963
+}

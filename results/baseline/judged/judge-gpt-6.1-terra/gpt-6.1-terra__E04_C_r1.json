@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E04_C_r1.json",
+ "prompt_sha256": "843fee402a6ad915c1cfdcbf7c767bf1c3d6cd4fd10c3d23fabf8e23084ff500",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports no detections in covered days, the coverage gap, and the possibility of undetected fires; it does not conclude that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.00292
+}

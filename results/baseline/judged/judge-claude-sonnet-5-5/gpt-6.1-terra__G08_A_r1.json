@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G08_A_r1.json",
+ "prompt_sha256": "dc3afdcc5727828171de00a31c3d97c3098b5f8c9be1f005d6cef63d4be63554",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no sustained increase, citing correct 2021-2023 figures and sub-0.5 ha patches. It says 2024-2025 figures are not reported, whereas the key treats them as none detected, a minor discrepancy that does not contradict the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.010318
+}

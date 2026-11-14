@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H01_B_r1.json",
+ "prompt_sha256": "2847663cd1031295ff4dd68c642c78572c596fb03c1a7a18f5e21e1e60c2bfb6",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly denies whole-property clearing, but claims native forests were unaffected across the property; the evidence only reports none within the event area."
+ },
+ "raw": null,
+ "cost_usd": 0.002803
+}

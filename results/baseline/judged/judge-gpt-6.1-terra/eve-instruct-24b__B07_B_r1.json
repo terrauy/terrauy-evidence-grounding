@@ -1,0 +1,38 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B07_B_r1.json",
+ "prompt_sha256": "e265caf0ea95bf88df68170bed29d5409d7c0b3ec8ae3735b53469a0abf5bb7b",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The cause is explicitly unclear; possible causes are hedged. However, 4.3 ha, not the full 4.5 ha, was mapped as planted forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002998
+}

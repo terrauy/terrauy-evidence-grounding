@@ -1,0 +1,842 @@
+{
+ "R001": {
+  "model": "eve-instruct-24b",
+  "condition": "C",
+  "task_id": "C05",
+  "run": 1,
+  "final_uc": false
+ },
+ "R002": {
+  "model": "claude-sonnet-5-5",
+  "condition": "B",
+  "task_id": "F06",
+  "run": 2,
+  "final_uc": false
+ },
+ "R003": {
+  "model": "eve-instruct-24b",
+  "condition": "A",
+  "task_id": "F07",
+  "run": 1,
+  "final_uc": true
+ },
+ "R004": {
+  "model": "eve-instruct-24b",
+  "condition": "C",
+  "task_id": "K04",
+  "run": 1,
+  "final_uc": true
+ },
+ "R005": {
+  "model": "gpt-6.1-terra",
+  "condition": "C",
+  "task_id": "I04",
+  "run": 1,
+  "final_uc": false
+ },
+ "R006": {
+  "model": "mistral-small-3.2-base",
+  "condition": "A",
+  "task_id": "E08",
+  "run": 0,
+  "final_uc": false
+ },
+ "R007": {
+  "model": "eve-instruct-24b",
+  "condition": "C",
+  "task_id": "H04",
+  "run": 1,
+  "final_uc": true
+ },
+ "R008": {
+  "model": "eve-instruct-24b",
+  "condition": "C",
+  "task_id": "B01",
+  "run": 1,
+  "final_uc": true
+ },
+ "R009": {
+  "model": "gpt-6.1-terra",
+  "condition": "C",
+  "task_id": "G07",
+  "run": 2,
+  "final_uc": false
+ },
+ "R010": {
+  "model": "mistral-small-3.2-base",
+  "condition": "B",
+  "task_id": "E08",
+  "run": 1,
+  "final_uc": true
+ },
+ "R011": {
+  "model": "gpt-6.1-terra",
+  "condition": "C",
+  "task_id": "F05",
+  "run": 1,
+  "final_uc": false
+ },
+ "R012": {
+  "model": "claude-sonnet-5-5",
+  "condition": "A",
+  "task_id": "H03",
+  "run": 0,
+  "final_uc": false
+ },
+ "R013": {
+  "model": "claude-sonnet-5-5",
+  "condition": "A",
+  "task_id": "C02",
+  "run": 2,
+  "final_uc": false
+ },
+ "R014": {
+  "model": "mistral-small-3.2-base",
+  "condition": "A",
+  "task_id": "E01",
+  "run": 2,
+  "final_uc": false
+ },
+ "R015": {
+  "model": "mistral-small-3.2-base",
+  "condition": "A",
+  "task_id": "K05",
+  "run": 2,
+  "final_uc": false
+ },
+ "R016": {
+  "model": "claude-sonnet-5-5",
+  "condition": "B",
+  "task_id": "A03",
+  "run": 1,
+  "final_uc": false
+ },
+ "R017": {
+  "model": "claude-sonnet-5-5",
+  "condition": "C",
+  "task_id": "H06",
+  "run": 0,
+  "final_uc": false
+ },
+ "R018": {
+  "model": "mistral-small-3.2-base",
+  "condition": "A",
+  "task_id": "E09",
+  "run": 0,
+  "final_uc": false
+ },
+ "R019": {
+  "model": "gpt-6.1-terra",
+  "condition": "B",
+  "task_id": "D05",
+  "run": 0,
+  "final_uc": false
+ },
+ "R020": {
+  "model": "mistral-small-3.2-base",
+  "condition": "C",
+  "task_id": "F05",
+  "run": 1,
+  "final_uc": true
+ },
+ "R021": {
+  "model": "eve-instruct-24b",
+  "condition": "A",
+  "task_id": "K02",
+  "run": 0,
+  "final_uc": true
+ },
+ "R022": {
+  "model": "mistral-small-3.2-base",
+  "condition": "C",
+  "task_id": "G03",
+  "run": 0,
+  "final_uc": false
+ },
+ "R023": {
+  "model": "gpt-6.1-terra",
+  "condition": "C",
+  "task_id": "D04",
+  "run": 1,
+  "final_uc": false
+ },
+ "R024": {
+  "model": "mistral-small-3.2-base",
+  "condition": "B",
+  "task_id": "G08",
+  "run": 0,
+  "final_uc": true
+ },
+ "R025": {
+  "model": "gpt-6.1-terra",
+  "condition": "B",
+  "task_id": "I05",
+  "run": 1,
+  "final_uc": false
+ },
+ "R026": {
+  "model": "claude-sonnet-5-5",
+  "condition": "B",
+  "task_id": "F01",
+  "run": 1,
+  "final_uc": false
+ },
+ "R027": {
+  "model": "gpt-6.1-terra",
+  "condition": "A",
+  "task_id": "I05",
+  "run": 2,
+  "final_uc": false
+ },
+ "R028": {
+  "model": "eve-instruct-24b",
+  "condition": "C",
+  "task_id": "K03",
+  "run": 2,
+  "final_uc": false
+ },
+ "R029": {
+  "model": "claude-sonnet-5-5",
+  "condition": "C",
+  "task_id": "B06",
+  "run": 1,
+  "final_uc": false
+ },
+ "R030": {
+  "model": "claude-sonnet-5-5",
+  "condition": "B",
+  "task_id": "K05",
+  "run": 1,
+  "final_uc": false
+ },
+ "R031": {
+  "model": "eve-instruct-24b",
+  "condition": "C",
+  "task_id": "K07",
+  "run": 2,
+  "final_uc": false
+ },
+ "R032": {
+  "model": "claude-sonnet-5-5",
+  "condition": "A",
+  "task_id": "G01",
+  "run": 2,
+  "final_uc": false
+ },
+ "R033": {
+  "model": "mistral-small-3.2-base",
+  "condition": "B",
+  "task_id": "B05",
+  "run": 2,
+  "final_uc": false
+ },
+ "R034": {
+  "model": "eve-instruct-24b",
+  "condition": "C",
+  "task_id": "J06",
+  "run": 0,
+  "final_uc": true
+ },
+ "R035": {
+  "model": "claude-sonnet-5-5",
+  "condition": "A",
+  "task_id": "H05",
+  "run": 2,
+  "final_uc": true
+ },
+ "R036": {
+  "model": "gpt-6.1-terra",
+  "condition": "A",
+  "task_id": "H04",
+  "run": 1,
+  "final_uc": false
+ },
+ "R037": {
+  "model": "eve-instruct-24b",
+  "condition": "A",
+  "task_id": "J02",
+  "run": 0,
+  "final_uc": true
+ },
+ "R038": {
+  "model": "claude-sonnet-5-5",
+  "condition": "A",
+  "task_id": "I02",
+  "run": 0,
+  "final_uc": true
+ },
+ "R039": {
+  "model": "eve-instruct-24b",
+  "condition": "B",
+  "task_id": "B03",
+  "run": 0,
+  "final_uc": false
+ },
+ "R040": {
+  "model": "eve-instruct-24b",
+  "condition": "A",
+  "task_id": "E06",
+  "run": 1,
+  "final_uc": true
+ },
+ "R041": {
+  "model": "mistral-small-3.2-base",
+  "condition": "C",
+  "task_id": "F07",
+  "run": 1,
+  "final_uc": true
+ },
+ "R042": {
+  "model": "eve-instruct-24b",
+  "condition": "B",
+  "task_id": "D01",
+  "run": 0,
+  "final_uc": false
+ },
+ "R043": {
+  "model": "claude-sonnet-5-5",
+  "condition": "C",
+  "task_id": "H06",
+  "run": 2,
+  "final_uc": false
+ },
+ "R044": {
+  "model": "claude-sonnet-5-5",
+  "condition": "A",
+  "task_id": "H05",
+  "run": 0,
+  "final_uc": false
+ },
+ "R045": {
+  "model": "eve-instruct-24b",
+  "condition": "B",
+  "task_id": "A05",
+  "run": 1,
+  "final_uc": false
+ },
+ "R046": {
+  "model": "mistral-small-3.2-base",
+  "condition": "A",
+  "task_id": "H06",
+  "run": 1,
+  "final_uc": true
+ },
+ "R047": {
+  "model": "mistral-small-3.2-base",
+  "condition": "A",
+  "task_id": "G07",
+  "run": 0,
+  "final_uc": true
+ },
+ "R048": {
+  "model": "mistral-small-3.2-base",
+  "condition": "A",
+  "task_id": "D10",
+  "run": 1,
+  "final_uc": true
+ },
+ "R049": {
+  "model": "claude-sonnet-5-5",
+  "condition": "A",
+  "task_id": "G02",
+  "run": 2,
+  "final_uc": false
+ },
+ "R050": {
+  "model": "claude-sonnet-5-5",
+  "condition": "C",
+  "task_id": "J06",
+  "run": 2,
+  "final_uc": false
+ },
+ "R051": {
+  "model": "gpt-6.1-terra",
+  "condition": "C",
+  "task_id": "E05",
+  "run": 0,
+  "final_uc": false
+ },
+ "R052": {
+  "model": "claude-sonnet-5-5",
+  "condition": "A",
+  "task_id": "E08",
+  "run": 2,
+  "final_uc": false
+ },
+ "R053": {
+  "model": "eve-instruct-24b",
+  "condition": "B",
+  "task_id": "I01",
+  "run": 1,
+  "final_uc": false
+ },
+ "R054": {
+  "model": "gpt-6.1-terra",
+  "condition": "A",
+  "task_id": "K06",
+  "run": 0,
+  "final_uc": false
+ },
+ "R055": {
+  "model": "eve-instruct-24b",
+  "condition": "A",
+  "task_id": "K01",
+  "run": 2,
+  "final_uc": false
+ },
+ "R056": {
+  "model": "gpt-6.1-terra",
+  "condition": "A",
+  "task_id": "E03",
+  "run": 0,
+  "final_uc": false
+ },
+ "R057": {
+  "model": "gpt-6.1-terra",
+  "condition": "B",
+  "task_id": "F01",
+  "run": 2,
+  "final_uc": false
+ },
+ "R058": {
+  "model": "mistral-small-3.2-base",
+  "condition": "B",
+  "task_id": "B07",
+  "run": 2,
+  "final_uc": false
+ },
+ "R059": {
+  "model": "claude-sonnet-5-5",
+  "condition": "C",
+  "task_id": "G03",
+  "run": 0,
+  "final_uc": false
+ },
+ "R060": {
+  "model": "claude-sonnet-5-5",
+  "condition": "A",
+  "task_id": "G01",
+  "run": 1,
+  "final_uc": false
+ },
+ "R061": {
+  "model": "eve-instruct-24b",
+  "condition": "B",
+  "task_id": "D06",
+  "run": 2,
+  "final_uc": true
+ },
+ "R062": {
+  "model": "claude-sonnet-5-5",
+  "condition": "C",
+  "task_id": "H03",
+  "run": 2,
+  "final_uc": false
+ },
+ "R063": {
+  "model": "mistral-small-3.2-base",
+  "condition": "C",
+  "task_id": "C05",
+  "run": 2,
+  "final_uc": true
+ },
+ "R064": {
+  "model": "gpt-6.1-terra",
+  "condition": "A",
+  "task_id": "E01",
+  "run": 0,
+  "final_uc": false
+ },
+ "R065": {
+  "model": "claude-sonnet-5-5",
+  "condition": "C",
+  "task_id": "G05",
+  "run": 1,
+  "final_uc": false
+ },
+ "R066": {
+  "model": "eve-instruct-24b",
+  "condition": "B",
+  "task_id": "H01",
+  "run": 2,
+  "final_uc": false
+ },
+ "R067": {
+  "model": "mistral-small-3.2-base",
+  "condition": "B",
+  "task_id": "E01",
+  "run": 1,
+  "final_uc": false
+ },
+ "R068": {
+  "model": "claude-sonnet-5-5",
+  "condition": "A",
+  "task_id": "B05",
+  "run": 1,
+  "final_uc": false
+ },
+ "R069": {
+  "model": "claude-sonnet-5-5",
+  "condition": "B",
+  "task_id": "G06",
+  "run": 2,
+  "final_uc": false
+ },
+ "R070": {
+  "model": "mistral-small-3.2-base",
+  "condition": "B",
+  "task_id": "G07",
+  "run": 0,
+  "final_uc": true
+ },
+ "R071": {
+  "model": "claude-sonnet-5-5",
+  "condition": "C",
+  "task_id": "E02",
+  "run": 1,
+  "final_uc": false
+ },
+ "R072": {
+  "model": "eve-instruct-24b",
+  "condition": "B",
+  "task_id": "D04",
+  "run": 1,
+  "final_uc": false
+ },
+ "R073": {
+  "model": "gpt-6.1-terra",
+  "condition": "C",
+  "task_id": "G05",
+  "run": 1,
+  "final_uc": false
+ },
+ "R074": {
+  "model": "mistral-small-3.2-base",
+  "condition": "B",
+  "task_id": "J05",
+  "run": 0,
+  "final_uc": false
+ },
+ "R075": {
+  "model": "mistral-small-3.2-base",
+  "condition": "C",
+  "task_id": "E01",
+  "run": 2,
+  "final_uc": false
+ },
+ "R076": {
+  "model": "eve-instruct-24b",
+  "condition": "B",
+  "task_id": "F08",
+  "run": 2,
+  "final_uc": true
+ },
+ "R077": {
+  "model": "eve-instruct-24b",
+  "condition": "B",
+  "task_id": "C05",
+  "run": 0,
+  "final_uc": true
+ },
+ "R078": {
+  "model": "eve-instruct-24b",
+  "condition": "A",
+  "task_id": "H05",
+  "run": 2,
+  "final_uc": true
+ },
+ "R079": {
+  "model": "mistral-small-3.2-base",
+  "condition": "B",
+  "task_id": "C05",
+  "run": 2,
+  "final_uc": true
+ },
+ "R080": {
+  "model": "mistral-small-3.2-base",
+  "condition": "B",
+  "task_id": "I02",
+  "run": 1,
+  "final_uc": false
+ },
+ "R081": {
+  "model": "eve-instruct-24b",
+  "condition": "A",
+  "task_id": "D03",
+  "run": 1,
+  "final_uc": true
+ },
+ "R082": {
+  "model": "eve-instruct-24b",
+  "condition": "A",
+  "task_id": "E05",
+  "run": 0,
+  "final_uc": true
+ },
+ "R083": {
+  "model": "claude-sonnet-5-5",
+  "condition": "B",
+  "task_id": "C04",
+  "run": 0,
+  "final_uc": false
+ },
+ "R084": {
+  "model": "gpt-6.1-terra",
+  "condition": "A",
+  "task_id": "G07",
+  "run": 1,
+  "final_uc": false
+ },
+ "R085": {
+  "model": "mistral-small-3.2-base",
+  "condition": "C",
+  "task_id": "C02",
+  "run": 0,
+  "final_uc": false
+ },
+ "R086": {
+  "model": "eve-instruct-24b",
+  "condition": "C",
+  "task_id": "C03",
+  "run": 0,
+  "final_uc": false
+ },
+ "R087": {
+  "model": "eve-instruct-24b",
+  "condition": "C",
+  "task_id": "D10",
+  "run": 0,
+  "final_uc": true
+ },
+ "R088": {
+  "model": "eve-instruct-24b",
+  "condition": "C",
+  "task_id": "D04",
+  "run": 1,
+  "final_uc": true
+ },
+ "R089": {
+  "model": "mistral-small-3.2-base",
+  "condition": "A",
+  "task_id": "G02",
+  "run": 2,
+  "final_uc": false
+ },
+ "R090": {
+  "model": "claude-sonnet-5-5",
+  "condition": "C",
+  "task_id": "B02",
+  "run": 2,
+  "final_uc": false
+ },
+ "R091": {
+  "model": "eve-instruct-24b",
+  "condition": "B",
+  "task_id": "F04",
+  "run": 1,
+  "final_uc": false
+ },
+ "R092": {
+  "model": "claude-sonnet-5-5",
+  "condition": "B",
+  "task_id": "G03",
+  "run": 2,
+  "final_uc": false
+ },
+ "R093": {
+  "model": "claude-sonnet-5-5",
+  "condition": "B",
+  "task_id": "D02",
+  "run": 0,
+  "final_uc": false
+ },
+ "R094": {
+  "model": "gpt-6.1-terra",
+  "condition": "C",
+  "task_id": "F03",
+  "run": 0,
+  "final_uc": false
+ },
+ "R095": {
+  "model": "mistral-small-3.2-base",
+  "condition": "B",
+  "task_id": "H05",
+  "run": 0,
+  "final_uc": false
+ },
+ "R096": {
+  "model": "eve-instruct-24b",
+  "condition": "C",
+  "task_id": "H03",
+  "run": 0,
+  "final_uc": true
+ },
+ "R097": {
+  "model": "claude-sonnet-5-5",
+  "condition": "A",
+  "task_id": "H01",
+  "run": 1,
+  "final_uc": true
+ },
+ "R098": {
+  "model": "mistral-small-3.2-base",
+  "condition": "B",
+  "task_id": "E07",
+  "run": 2,
+  "final_uc": false
+ },
+ "R099": {
+  "model": "mistral-small-3.2-base",
+  "condition": "A",
+  "task_id": "K04",
+  "run": 1,
+  "final_uc": false
+ },
+ "R100": {
+  "model": "gpt-6.1-terra",
+  "condition": "A",
+  "task_id": "J03",
+  "run": 0,
+  "final_uc": true
+ },
+ "R101": {
+  "model": "eve-instruct-24b",
+  "condition": "A",
+  "task_id": "K08",
+  "run": 0,
+  "final_uc": false
+ },
+ "R102": {
+  "model": "claude-sonnet-5-5",
+  "condition": "C",
+  "task_id": "H05",
+  "run": 1,
+  "final_uc": false
+ },
+ "R103": {
+  "model": "gpt-6.1-terra",
+  "condition": "A",
+  "task_id": "A08",
+  "run": 1,
+  "final_uc": false
+ },
+ "R104": {
+  "model": "eve-instruct-24b",
+  "condition": "B",
+  "task_id": "B07",
+  "run": 2,
+  "final_uc": false
+ },
+ "R105": {
+  "model": "gpt-6.1-terra",
+  "condition": "C",
+  "task_id": "K03",
+  "run": 2,
+  "final_uc": false
+ },
+ "R106": {
+  "model": "claude-sonnet-5-5",
+  "condition": "C",
+  "task_id": "F03",
+  "run": 2,
+  "final_uc": false
+ },
+ "R107": {
+  "model": "mistral-small-3.2-base",
+  "condition": "C",
+  "task_id": "B05",
+  "run": 2,
+  "final_uc": false
+ },
+ "R108": {
+  "model": "mistral-small-3.2-base",
+  "condition": "A",
+  "task_id": "D01",
+  "run": 0,
+  "final_uc": true
+ },
+ "R109": {
+  "model": "mistral-small-3.2-base",
+  "condition": "B",
+  "task_id": "A07",
+  "run": 1,
+  "final_uc": false
+ },
+ "R110": {
+  "model": "gpt-6.1-terra",
+  "condition": "B",
+  "task_id": "E09",
+  "run": 2,
+  "final_uc": false
+ },
+ "R111": {
+  "model": "claude-sonnet-5-5",
+  "condition": "C",
+  "task_id": "G07",
+  "run": 0,
+  "final_uc": false
+ },
+ "R112": {
+  "model": "gpt-6.1-terra",
+  "condition": "B",
+  "task_id": "J06",
+  "run": 1,
+  "final_uc": false
+ },
+ "R113": {
+  "model": "claude-sonnet-5-5",
+  "condition": "C",
+  "task_id": "C03",
+  "run": 2,
+  "final_uc": false
+ },
+ "R114": {
+  "model": "eve-instruct-24b",
+  "condition": "A",
+  "task_id": "B02",
+  "run": 2,
+  "final_uc": true
+ },
+ "R115": {
+  "model": "gpt-6.1-terra",
+  "condition": "B",
+  "task_id": "E05",
+  "run": 0,
+  "final_uc": false
+ },
+ "R116": {
+  "model": "eve-instruct-24b",
+  "condition": "B",
+  "task_id": "E02",
+  "run": 1,
+  "final_uc": false
+ },
+ "R117": {
+  "model": "gpt-6.1-terra",
+  "condition": "B",
+  "task_id": "K03",
+  "run": 2,
+  "final_uc": false
+ },
+ "R118": {
+  "model": "claude-sonnet-5-5",
+  "condition": "B",
+  "task_id": "C06",
+  "run": 1,
+  "final_uc": false
+ },
+ "R119": {
+  "model": "mistral-small-3.2-base",
+  "condition": "C",
+  "task_id": "K06",
+  "run": 1,
+  "final_uc": false
+ },
+ "R120": {
+  "model": "claude-sonnet-5-5",
+  "condition": "A",
+  "task_id": "D02",
+  "run": 0,
+  "final_uc": false
+ }
+}

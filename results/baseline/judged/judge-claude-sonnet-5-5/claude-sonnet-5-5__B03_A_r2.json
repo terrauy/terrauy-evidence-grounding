@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/B03_A_r2.json",
+ "prompt_sha256": "b385002e4b834554ce46e463363d743e1436a3edb08463cc58ade2b0d804f06c",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says the cause is not established and numbers match. But it infers 'not a plantation harvest cycle' from the forest-type map, which is context only and never a cause, so that inference is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.014158
+}

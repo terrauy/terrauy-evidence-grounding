@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K02_C_r2.json",
+ "prompt_sha256": "8e3de5e9b2a81128ff5d49ef44863d79af8fc9148909834874a542c8d9f1c487",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms a 13.5 ha 2025 candidate from Hansen, pending corroboration, with cause unidentified. JRC agreement (0.98) is supported. The claim that it needs a future year is consistent with the corroboration rule."
+ },
+ "raw": null,
+ "cost_usd": 0.00758
+}

@@ -1,0 +1,18 @@
+{
+ "total_usd": 28.633023,
+ "calls": 5773,
+ "by_model": {
+  "claude-sonnet-5-5": {
+   "usd": 4.111544,
+   "calls": 594
+  },
+  "gpt-6.1-terra": {
+   "usd": 0.904365,
+   "calls": 594
+  },
+  "judge:judge-claude-sonnet-5-5": {
+   "usd": 23.617114,
+   "calls": 4585
+  }
+ }
+}

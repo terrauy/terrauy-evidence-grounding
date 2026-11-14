@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F05_C_r0.json",
+ "prompt_sha256": "66dab70d31a25221fa9d0283e0de98eb1ef30c913a938e5b3b1e2070e07390b8",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Incorrectly attributes detection to Sentinel-2 and claims Hansen uses Sentinel-2; subsequent observations through 2025 are not established as confirming the event."
+ },
+ "raw": null,
+ "cost_usd": 0.002716
+}

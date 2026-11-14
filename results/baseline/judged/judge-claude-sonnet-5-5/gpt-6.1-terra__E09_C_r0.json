@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E09_C_r0.json",
+ "prompt_sha256": "c19b2280adf0dbf4dcef910da1145a838e097d99a1d66a7d24b3b98c8d6cc6fc",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states insufficient evidence due to unprepared coverage, no observation made, and declines both loss and compliance conclusions; period 2021-2025 matches the claim interval."
+ },
+ "raw": null,
+ "cost_usd": 0.00698
+}

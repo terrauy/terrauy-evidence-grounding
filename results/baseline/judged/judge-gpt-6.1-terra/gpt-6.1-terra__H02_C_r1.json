@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H02_C_r1.json",
+ "prompt_sha256": "65e0ee3c700406c4f192dfebeba94eb7bc719d80b1495a07a27887464d78ecea",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly distinguishes mapped planted forest from loss outside mapped forest and notes the small-patch threshold and unknown cause."
+ },
+ "raw": null,
+ "cost_usd": 0.002689
+}

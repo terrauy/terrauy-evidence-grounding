@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D06_A_r1.json",
+ "prompt_sha256": "f8fc5a20cad5aa02b186a448fe3b3e65cedf282bfcb35e1cf01a6e8bcb589573",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer says 'no confirmed burning' but does not clearly assert that no fire occurred. It misstates the period end as 2026-11-04 instead of 11-03, and it gives no limitation, such as that a non-detection is not proof of no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.00744
+}

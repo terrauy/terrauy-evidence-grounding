@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K03_C_r2.json",
+ "prompt_sha256": "601a3328bf47e809bcf6bf2dafb4e9c2112a83ce98cee4b0c25ae043b241b05a",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no detections, zero count, all four sensors fully covered over the correct period, and notes that small or cool fires may be missed. It matches the key and the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.00658
+}

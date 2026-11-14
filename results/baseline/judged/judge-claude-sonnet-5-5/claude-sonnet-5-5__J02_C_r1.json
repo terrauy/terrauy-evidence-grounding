@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J02_C_r1.json",
+ "prompt_sha256": "2e170c64d94d6a09799975e04a9b1df979dddd206eb651d7f84d5bb9fa26b5cb",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states the 0.7 ha Hansen loss is contradicted by JRC (0% vs 50% required), explicitly denies establishing absence or deforestation, and its numbers match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.009332
+}

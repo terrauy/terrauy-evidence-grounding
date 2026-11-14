@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G06_C_r1.json",
+ "prompt_sha256": "b81beb15eb9b59acba92896d56b1764633e71d8e0c74410ee3f45e04b0d44546",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer opens with a claim about the two weeks before Oct 4, which the evidence does not cover (forbidden temporal scope). It correctly hedges that small fires may go undetected, so the absence claim is negated. It does not abstain."
+ },
+ "raw": null,
+ "cost_usd": 0.007476
+}

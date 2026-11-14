@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E03_B_r2.json",
+ "prompt_sha256": "fbc198155fc3350a1a22fb6d7eecf6bfa83a82608b5d4d371653e501b8bef9ef",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly states that no observation was made because coverage was not prepared, so neither loss nor its absence is established. It makes no compliance claim and stays within the claim's scope and interval."
+ },
+ "raw": null,
+ "cost_usd": 0.00734
+}

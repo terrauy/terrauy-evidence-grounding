@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B05_B_r1.json",
+ "prompt_sha256": "9acc1dcd9fa9aa72b7eef93c972d2360c6e693c26919f9eab102ec8f3229f21b",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports 25.5 ha in 2015 and that cause is not specified, but only hedges possible causes. It adds 'verified' and 'no forest cover in 2020' (the evidence gives 0.0 ha). It never says 2015 predates the baseline."
+ },
+ "raw": null,
+ "cost_usd": 0.00907
+}

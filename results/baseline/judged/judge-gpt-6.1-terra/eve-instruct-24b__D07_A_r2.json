@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D07_A_r2.json",
+ "prompt_sha256": "26796e1c79c84ea9f6f64e8ac6fc19a1fe14e0e1db23ff0c27cf43f87155feed",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer correctly reports non-detection but wrongly certifies that no fire occurred, which the evidence cannot establish."
+ },
+ "raw": null,
+ "cost_usd": 0.002313
+}

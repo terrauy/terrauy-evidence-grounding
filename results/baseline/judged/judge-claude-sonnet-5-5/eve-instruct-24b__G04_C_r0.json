@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G04_C_r0.json",
+ "prompt_sha256": "230d84302e0cac075cd42166043c666d46d4ef280a03ad7550c17a361c5798a2",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answers 'Yes, cleared in 2021', asserting clearing/deforestation, which the evidence doesn't establish. It also claims 'no further losses are noted', which isn't in the facts. It does note that cause is not specified."
+ },
+ "raw": null,
+ "cost_usd": 0.008784
+}

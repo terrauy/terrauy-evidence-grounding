@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H06_C_r1.json",
+ "prompt_sha256": "960abf91ee93d9714dc4bbeaf9c1eec7ea283e90d5b73bc430e54422c8ac1762",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly limits regional conclusions, but claims all observed losses preceded the baseline despite acknowledging observed loss in 2021."
+ },
+ "raw": null,
+ "cost_usd": 0.00272
+}

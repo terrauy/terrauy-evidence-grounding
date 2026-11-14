@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F03_A_r2.json",
+ "prompt_sha256": "f42cc593284372dcfecd6e7210dba153dabe2a9b9573feda9d25884894c647b7",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "JRC agreement and later observation are reported, but the collective confirmation claim improperly presents MGAP contextual mapping as corroboration of the loss."
+ },
+ "raw": null,
+ "cost_usd": 0.002847
+}

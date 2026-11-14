@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E06_A_r1.json",
+ "prompt_sha256": "ff7d14ab4e4d2b42bb381cfc8c7e56585eff245efa188a29168b8c7ac8109cf3",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no detections in the covered days, flags the uncovered 3\u20134 November gap, and says the full period can't be confirmed. It also says no detection is not proof that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.012258
+}

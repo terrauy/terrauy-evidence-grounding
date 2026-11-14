@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E07_C_r1.json",
+ "prompt_sha256": "eb9b2806f70d4159cd1af89367482696d4c322721f1b71591397852405576bb4",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says there is 'no evidence of tree-cover loss in 2026' and 'no confirmed loss', implying absence, without clearly stating 2026 is not observed (series ends 2025). It blurs the 2025 corroboration issue with 2026."
+ },
+ "raw": null,
+ "cost_usd": 0.008272
+}

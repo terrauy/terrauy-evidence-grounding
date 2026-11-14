@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K07_C_r1.json",
+ "prompt_sha256": "6edb8e0d20e0011f1db82eb75c9a7b9c302526258cea2197a5b243a845fdb23c",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, the method could not evaluate the asset because source coverage was missing and no observation was made. This matches the key; it adds no unsupported claims and states that tree-cover loss was neither confirmed nor ruled out."
+ },
+ "raw": null,
+ "cost_usd": 0.006212
+}

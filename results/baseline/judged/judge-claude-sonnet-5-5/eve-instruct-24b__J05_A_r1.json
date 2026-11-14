@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J05_A_r1.json",
+ "prompt_sha256": "61997ba6a562d74e5c006afc07bdf6fdc1eff312393f6943b77f4bdc665e2e5d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says no contradiction, but invents an explanation (fragmented/degraded forest, JRC >10% canopy threshold, 'remaining canopy') instead of the key reasoning that non-forest at the reference corroborates pre-reference loss."
+ },
+ "raw": null,
+ "cost_usd": 0.008452
+}

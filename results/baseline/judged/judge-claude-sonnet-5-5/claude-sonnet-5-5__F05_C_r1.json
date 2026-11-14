@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F05_C_r1.json",
+ "prompt_sha256": "696e6ae9cf103056ce20b4fab0507870e25361fc7ed9b667dccc685a0f5da35c",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer denies Sentinel-2 use, correctly attributes loss to Hansen/UMD GFC, and states what the evidence does not establish. Facts match the reference."
+ },
+ "raw": null,
+ "cost_usd": 0.010136
+}

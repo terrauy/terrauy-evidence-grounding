@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K06_B_r1.json",
+ "prompt_sha256": "e53cc042ac4025cdac77fdba57b1641bdfc817cef7b079a559ccd9afb7a588b8",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The corroboration is correctly stated, but the claim that loss was not due to planted forest or species asserts an unsupported cause."
+ },
+ "raw": null,
+ "cost_usd": 0.00261
+}

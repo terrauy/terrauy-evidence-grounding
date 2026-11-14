@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G06_B_r0.json",
+ "prompt_sha256": "58bb100f1c6df752b68a75e3961fdef25b1d1f14cd87cf25d6fe27959efdd145",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly identifies the requested period as outside the evidence and distinguishes later nondetection from proof of no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.002336
+}

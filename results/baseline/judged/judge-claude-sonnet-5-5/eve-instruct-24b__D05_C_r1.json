@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D05_C_r1.json",
+ "prompt_sha256": "1d004ca7c77f63da36d730eebfe7914cd565a57752c9fe5614ff956850146461",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no FIRMS detection, caveats that small, cool or cloud-obscured fires may be missed, and does not claim no fire occurred. The 'comprehensive monitoring' wording is a mild overstatement but consistent with full coverage."
+ },
+ "raw": null,
+ "cost_usd": 0.007298
+}

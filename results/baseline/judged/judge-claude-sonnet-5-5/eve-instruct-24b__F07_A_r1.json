@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F07_A_r1.json",
+ "prompt_sha256": "3045c183546ab20fb0cb142c1851bc29e039c182c8485c1eaff6959f12ca0cb1",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly says JRC shows no forest in 2020, but then asserts Hansen indirectly shows forest present in 2020 before loss, a misattribution. It also cites a corroboration rule failure for the 2020 loss, which is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.008378
+}

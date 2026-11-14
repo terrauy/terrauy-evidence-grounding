@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/A07_C_r0.json",
+ "prompt_sha256": "5e8fa42508b67c5afdb90e6eb415dbfbd58595b3f531cfee4d2150878a021ff4",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly states 67.7 ha loss predates baseline, no post-baseline event \u22650.5 ha, and that loss doesn't establish deforestation or compliance. No unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.0092
+}

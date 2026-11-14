@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H05_A_r2.json",
+ "prompt_sha256": "957559860f9809a90d179932b4ef293dae79603923e65dece7e94d00525612d9",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer opens with 'Yes' to clearing, which conflicts with the key's 'not established'. The numbers are correct. The closing caveat that loss does not establish cause or permanent clearing only partly hedges the land-use-change claim."
+ },
+ "raw": null,
+ "cost_usd": 0.008642
+}

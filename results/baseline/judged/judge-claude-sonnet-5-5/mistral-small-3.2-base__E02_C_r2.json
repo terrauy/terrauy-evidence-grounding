@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E02_C_r2.json",
+ "prompt_sha256": "7dc100d56ce43ea4b663f7f9e91409a96234be3191c9da6da5f1267ef10439b6",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly states insufficient evidence due to missing coverage, with no observation made, and asserts neither loss nor its absence nor any compliance finding. The interval and sources match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.007184
+}

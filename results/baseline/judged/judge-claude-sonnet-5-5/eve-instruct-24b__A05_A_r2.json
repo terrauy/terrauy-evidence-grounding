@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A05_A_r2.json",
+ "prompt_sha256": "978bdb4e813bbb6de7bc7592ceeeb3a86d13b843a815a5f47aa34cce07b17698",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer says yes, deforestation occurred, which is the forbidden claim 0 because the evidence shows only tree-cover loss. Numbers are correct. It names no cause, actor, legality or compliance, and states no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.009262
+}

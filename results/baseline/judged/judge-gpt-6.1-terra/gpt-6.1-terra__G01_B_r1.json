@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G01_B_r1.json",
+ "prompt_sha256": "5c92066dab8a014b4f9bc76ee9a0fabc9741c4a9dabc78305793b49d891d8cde",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports no qualifying event, the 0.4 ha of smaller-patch loss, and relevant resolution and regulatory limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002806
+}

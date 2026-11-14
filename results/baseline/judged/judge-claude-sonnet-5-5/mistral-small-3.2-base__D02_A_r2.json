@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D02_A_r2.json",
+ "prompt_sha256": "1f165074ed1a12d1b8d927d845a1fc717bbdeaf5554974b4dd9535482e36a10f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer confirms the forest is intact since 2020, which is an absence claim. It misreads 2000 tree cover and 2020 forest extent as evidence of no loss, and it states no limitations or the 0.5 ha detection threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.00781
+}

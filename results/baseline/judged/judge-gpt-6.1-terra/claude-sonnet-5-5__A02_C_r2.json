@@ -1,0 +1,42 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/A02_C_r2.json",
+ "prompt_sha256": "41c559b1f54f69e88083a2e482a7351a8f4e25ae8b167588bf6785aec0fd2267",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   },
+   {
+    "index": 4,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Confirms corroborated tree-cover loss but declines to conclude forest clearing or deforestation; figures and limitations match the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.004037
+}

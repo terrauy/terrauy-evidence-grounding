@@ -1,0 +1,38 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J03_B_r2.json",
+ "prompt_sha256": "540257cfe26f533284b9ea8c5b5cf8ba67110ed0be5b83833b0c3384ea6dd00b",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports disagreement, the 49% corroboration result and threshold, and that neither loss nor its absence is established."
+ },
+ "raw": null,
+ "cost_usd": 0.002894
+}

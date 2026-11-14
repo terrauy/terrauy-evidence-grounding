@@ -1,0 +1,42 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A03_C_r2.json",
+ "prompt_sha256": "eff2c0cc2dd0ce2528c9afeaa0ec5e79d786f3fd0b9d41f1a30ceca68a28fa30",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "It asserts deforestation and clearing, neither established by the evidence, and invents a territorial definition of deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.003005
+}

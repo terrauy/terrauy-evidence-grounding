@@ -1,0 +1,38 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J03_B_r1.json",
+ "prompt_sha256": "07492f06050bd63d1974e07b179b0e2f9eb7f24c18e60edc1a2e2efcb317be7e",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "JRC agreement corresponds to non-forest in 2020; the answer incorrectly assigns non-forest to the remaining area. Its main conclusion and other figures are correct."
+ },
+ "raw": null,
+ "cost_usd": 0.003048
+}

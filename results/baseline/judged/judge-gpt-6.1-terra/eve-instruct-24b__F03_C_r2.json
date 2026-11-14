@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F03_C_r2.json",
+ "prompt_sha256": "ad4a0f8c7276364926fe50fa6d431d1fbf8e0b3436e7e83bf63082d57185ae58",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "MGAP is presented as corroborating loss rather than providing forest-type context; later Hansen observations are also overstated as confirming the event."
+ },
+ "raw": null,
+ "cost_usd": 0.002877
+}

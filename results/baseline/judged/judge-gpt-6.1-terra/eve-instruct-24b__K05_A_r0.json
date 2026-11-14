@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K05_A_r0.json",
+ "prompt_sha256": "d81c9901d426570c6ebb88eee55ab311abd0d7ea81efff149a5815296f78be5a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies 67.7 ha in 2020, cites supported historical events and dataset, and notes the 30-meter resolution."
+ },
+ "raw": null,
+ "cost_usd": 0.002669
+}

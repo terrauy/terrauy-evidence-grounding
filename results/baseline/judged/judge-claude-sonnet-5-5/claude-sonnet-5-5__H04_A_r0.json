@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H04_A_r0.json",
+ "prompt_sha256": "8588370200710cb3aa2c2e0190e7b912dd4f269a9f02453f5dae9bdca16307bf",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 0.6 ha loss and 0.5 ha native, 3.41%; 2.8% is share of property, correctly derived. Notes cause not established, resolution, sub-threshold patches. Does not claim share of total native forest."
+ },
+ "raw": null,
+ "cost_usd": 0.011624
+}

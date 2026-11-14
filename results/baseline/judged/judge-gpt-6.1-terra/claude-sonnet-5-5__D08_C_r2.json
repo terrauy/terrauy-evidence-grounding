@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D08_C_r2.json",
+ "prompt_sha256": "b4e9e28be9e5af4a7c800132853357ffb656af8fbdc668c7e48bca36f4d7082c",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports non-detection above the threshold, the recorded sub-threshold loss, and relevant limitations without asserting deforestation or compliance."
+ },
+ "raw": null,
+ "cost_usd": 0.003054
+}

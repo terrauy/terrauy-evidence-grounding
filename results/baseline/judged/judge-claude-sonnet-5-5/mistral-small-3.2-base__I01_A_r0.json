@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I01_A_r0.json",
+ "prompt_sha256": "cad03879400f0015245bc4a96e9da6a13be112ef39a9c67b58273de4869b38f8",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms confirmed 4.5 ha loss in 2023 with GFC-2025-v1.13 and JRC corroboration. It does not claim deforestation or present pending as current. It mentions the sub-0.5 ha patches, but does not say the loss is not deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.012608
+}

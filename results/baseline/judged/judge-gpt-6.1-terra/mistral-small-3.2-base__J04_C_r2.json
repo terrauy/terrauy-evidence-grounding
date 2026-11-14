@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J04_C_r2.json",
+ "prompt_sha256": "6d4221941da98ba84a2bbbbfb8994ff00c27b8f98fec4b9e26714747fcf1197d",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies all three supported post-2020 events, states none were contradicted, and notes relevant evidentiary limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.003636
+}

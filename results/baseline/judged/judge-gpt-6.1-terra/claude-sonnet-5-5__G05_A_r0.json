@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G05_A_r0.json",
+ "prompt_sha256": "e5453d37b66ad3aeead29333feee6c4990645cb2a66fd3d96e9dc1095c6701cc",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies pending corroboration, but asserts an unsupported definition of persistence as no regrowth or reversal and implies 2026 data will establish it."
+ },
+ "raw": null,
+ "cost_usd": 0.002718
+}

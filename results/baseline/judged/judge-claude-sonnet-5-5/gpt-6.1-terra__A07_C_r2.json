@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/A07_C_r2.json",
+ "prompt_sha256": "b588ad65e673825af1ea2ad053f6c697894d2fd887fd44892c3dcca3f3ce9088",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer confirms 67.7 ha loss in 2020, says it does not establish deforestation, and separates the 2021\u20132025 period with no events \u22650.5 ha. It does not state the 2020 loss predates the baseline, but nothing in it is wrong or unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.009432
+}

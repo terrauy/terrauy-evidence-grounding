@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D01_A_r1.json",
+ "prompt_sha256": "092289466669a1ec99528e39d7fb4262148abfc4617a4b1b5558ec729646d562",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer says no evidence of loss and 'no changes were detected thereafter', which leans toward asserting unchanged. It gives no limitations such as the 0.5 ha threshold or the 30 m resolution. Stance is non-detection."
+ },
+ "raw": null,
+ "cost_usd": 0.00773
+}

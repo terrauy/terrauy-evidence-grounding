@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I03_A_r1.json",
+ "prompt_sha256": "f37edfb902d114f7ad305a5ec6cfab7171825db80f1d19aa28b842fa8a940ba3",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Affirms 13.5 ha 2025 loss using v2, but claims corroboration criteria are met, implying confirmation, while the status is pending (no later year observed). No limitations stated."
+ },
+ "raw": null,
+ "cost_usd": 0.017208
+}

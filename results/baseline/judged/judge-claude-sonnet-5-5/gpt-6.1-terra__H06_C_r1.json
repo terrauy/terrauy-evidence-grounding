@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H06_C_r1.json",
+ "prompt_sha256": "5e15e46e6f0f4e51f9030e0446d5b60d26178a054c0a1d5015c0b33ade4cdc5c",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no regional conclusion can be drawn since evidence covers only the asset boundary; the asset-level facts (0.4 ha small patches in 2021, earlier events, missed small changes) match the reference."
+ },
+ "raw": null,
+ "cost_usd": 0.008036
+}

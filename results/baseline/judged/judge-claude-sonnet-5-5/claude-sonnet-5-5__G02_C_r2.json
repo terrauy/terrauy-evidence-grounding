@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G02_C_r2.json",
+ "prompt_sha256": "be6ff316f244b641535937fd09a49eea01bbe5787cf8251792b21930a6efd722",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No: 67.7 ha loss occurred in 2020, before the cut-off, with no post-baseline events of 0.5 ha or more. The figures match the reference facts and it states the limits. 'The JRC map shows no forest in 2020' restates the 0.0 ha fact."
+ },
+ "raw": null,
+ "cost_usd": 0.008658
+}

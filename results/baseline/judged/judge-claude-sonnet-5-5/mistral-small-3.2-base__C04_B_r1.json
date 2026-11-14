@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/C04_B_r1.json",
+ "prompt_sha256": "803de8e7400c04038a77781f287cc1f8e18416c43bc4a6fb34f7b19016f00cea",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly states legality and responsibility are not established and gives accurate loss figures. 'Trees were removed' is tree-cover loss, not deforestation. It does not attribute the change to the owner."
+ },
+ "raw": null,
+ "cost_usd": 0.010772
+}

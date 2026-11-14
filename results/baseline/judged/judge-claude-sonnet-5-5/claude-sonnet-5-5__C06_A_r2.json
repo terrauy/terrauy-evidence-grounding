@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/C06_A_r2.json",
+ "prompt_sha256": "dd589ddace063fec5c0b097ad37a7ce9626206d40cb9c7302ede364554a52539",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says authorization cannot be determined from the evidence, restates the facts correctly (0.7 ha, 1.2%, JRC 100%, MGAP split), and hedges that planted eucalyptus loss is often routine harvest without confirming it. It makes no deforestation, actor, or compliance claim."
+ },
+ "raw": null,
+ "cost_usd": 0.009502
+}

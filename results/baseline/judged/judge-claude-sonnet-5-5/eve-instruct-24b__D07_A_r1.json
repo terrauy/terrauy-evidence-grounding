@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D07_A_r1.json",
+ "prompt_sha256": "5415ac30a16958a7116761fb0ea82288086615913fa564f06dec8b280a0005ce",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer certifies 'no fire occurred' with high confidence, treating non-detection as proof; claims any fire of sufficient intensity would be detected, ignoring that small, cool or cloud-obscured fires may be missed."
+ },
+ "raw": null,
+ "cost_usd": 0.007386
+}

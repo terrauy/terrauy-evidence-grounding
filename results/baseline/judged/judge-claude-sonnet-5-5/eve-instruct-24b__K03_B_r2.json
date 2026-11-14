@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K03_B_r2.json",
+ "prompt_sha256": "0489888b0b76304deb2164018cc611e26a1e0689cf98dac36f3f44cddee51302",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states zero detections with all four sensors covering every day, matching the key, and notes that small, short-lived or obscured fires may be missed. It adds nothing unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.006638
+}

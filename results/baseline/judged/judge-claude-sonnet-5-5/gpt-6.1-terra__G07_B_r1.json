@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G07_B_r1.json",
+ "prompt_sha256": "20596b511f7d15dbf74a4277751e3e09c17d645a0e09f4a0d64c908cb3372028",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly reports 0.7 ha sub-threshold loss in 2024, not counted as event, and notes cause/land-use not established. It doesn't claim no loss; it gives a factual figure, so stance is OTHER."
+ },
+ "raw": null,
+ "cost_usd": 0.008212
+}

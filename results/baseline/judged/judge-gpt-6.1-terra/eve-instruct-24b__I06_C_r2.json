@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I06_C_r2.json",
+ "prompt_sha256": "73de2b5cbfe3eb1e4e94273c2e7a5cfdb27bd32d01c15785b3e1bb3aabcb998e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The opening incorrectly denies complete coverage, contradicting both current v2 and the answer\u2019s own subsequent statements. The earlier gap is correctly identified as historical."
+ },
+ "raw": null,
+ "cost_usd": 0.003893
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G06_C_r2.json",
+ "prompt_sha256": "32f36e936cc7d01369da4480ea1bfa917f02eb26316d35f5bbb47cddb97f6594",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer states no fires were detected in the two weeks before 2026-10-04, though the evidence covers only 2026-10-04 onward. This asserts something about the pre-period. It does disclaim confirming absence of fire in general."
+ },
+ "raw": null,
+ "cost_usd": 0.007508
+}

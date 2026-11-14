@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D07_B_r2.json",
+ "prompt_sha256": "8b5cd2baf0e8fe7ed8bc7e0c720f0df233ef233f8ce830fdc9d9efa025b4d2dd",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no FIRMS detections with full sensor coverage, explicitly says it cannot certify no fire, and notes limits (small or cool fires, burned area). Phrases like 'no major fires' and 'high confidence' are mildly overreaching but not asserted as fact."
+ },
+ "raw": null,
+ "cost_usd": 0.007794
+}

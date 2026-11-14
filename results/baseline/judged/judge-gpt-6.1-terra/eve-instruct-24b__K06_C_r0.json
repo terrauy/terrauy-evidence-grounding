@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K06_C_r0.json",
+ "prompt_sha256": "7351033debeca54a03f25d002f44321a510844b86772aa5c7fe5e213eda42838",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "JRC corroborates 2020 forest cover, not the loss directly; MGAP mapped 0.5 ha as native forest and 0.1 ha outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002687
+}

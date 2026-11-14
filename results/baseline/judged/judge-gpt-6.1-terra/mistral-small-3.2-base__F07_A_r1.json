@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F07_A_r1.json",
+ "prompt_sha256": "7db72624f41224d69b26d7fa95825835b7963c4f14b2c9500b40e2c19788b3c9",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer incorrectly attributes 2020 forest presence to Hansen, whose observations concern 2000 tree cover and loss events; JRC reports 0 ha in 2020."
+ },
+ "raw": null,
+ "cost_usd": 0.002797
+}

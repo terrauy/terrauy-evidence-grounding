@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D05_B_r2.json",
+ "prompt_sha256": "aa5aa4a33127e494930c93be87ed1b10025caefd983455117597d64af2f2bf7e",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports zero FIRMS detections with full sensor coverage, explicitly says this doesn't prove no fire occurred, and lists the non-established items. It is consistent with the key and adds nothing unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.00743
+}

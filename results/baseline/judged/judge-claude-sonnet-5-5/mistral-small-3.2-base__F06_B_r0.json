@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F06_B_r0.json",
+ "prompt_sha256": "da376f74677b6b219074ffd708965c4f9d5fff2452422e099d1c9f96653fc279",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Lists the four correct sensors with full-period coverage and no detections; no forbidden sensors. It never names FIRMS as the source, and states no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.007048
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K06_B_r2.json",
+ "prompt_sha256": "f41dd2d6674964d2e7d849523b5ff8e20ca2f3931b45e70632d6412b68ad793c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The corroboration and source attribution are correct, but the evidence says a later year was observed, not that a 2025 observation confirmed persistence."
+ },
+ "raw": null,
+ "cost_usd": 0.002656
+}

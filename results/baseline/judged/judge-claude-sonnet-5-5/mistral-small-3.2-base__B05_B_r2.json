@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B05_B_r2.json",
+ "prompt_sha256": "3a0233f9fc0e6afb4cbeba0b69ecd4d0f7e954b62c37439d0a78b11a08762266",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports the 25.5 ha loss in 2015 from Hansen, notes it precedes the baseline, and says the cause is not specified. It asserts no cause, actor, or legality. The 'confirmed' wording is mild and consistent with SUPPORTED status."
+ },
+ "raw": null,
+ "cost_usd": 0.009058
+}

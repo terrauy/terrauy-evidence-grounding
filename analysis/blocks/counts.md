@@ -1,0 +1,1 @@
+82 tasks (74 test tasks in 10 failure families + 8 affirmative controls) × 3 conditions × 3 runs × 4 models = 2,952 agent responses, each scored by 2 blind LLM judges (5,904 judgments) and a deterministic detector.

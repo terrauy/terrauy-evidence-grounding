@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/B01_A_r0.json",
+ "prompt_sha256": "05837b79484037db259d6080e5e8ef1d21ae7cb5d07394660e36ff1083d8b2a4",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 'Probably' harvest but explicitly states evidence doesn't confirm cause; harvest cause is hedged. Numbers match reference (81.3, 68.1, 13.2, 98%). The statement 'real tree cover' is supported by JRC; no deforestation claim."
+ },
+ "raw": null,
+ "cost_usd": 0.009452
+}

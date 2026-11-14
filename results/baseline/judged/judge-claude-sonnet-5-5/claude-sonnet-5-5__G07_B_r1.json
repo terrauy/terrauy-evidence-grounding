@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G07_B_r1.json",
+ "prompt_sha256": "437ad08f0891f0181a50235d2cbd5bbc159653de6e031d1107dc1f0af89e399d",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no counted event in 2024 and 0.7 ha in sub-threshold patches, matching the key. It does not claim that no loss occurred. It also states the limits of the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.008488
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I06_A_r1.json",
+ "prompt_sha256": "4d4abf5da0357af4bf8febc37bfc4e0183a419a911cf882cc0bbb67d6591f3aa",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly uses current complete coverage and identifies the earlier gap as superseded. The claim that asset area is null is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.003999
+}

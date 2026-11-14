@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I04_C_r1.json",
+ "prompt_sha256": "312150a66e0c738d1c6b5b468833a932e7adea51835324efeb32d62ccaae661a",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer distinguishes the historical finding from current status, identifies the 2025 candidate as pending, and flags the earlier version as superseded."
+ },
+ "raw": null,
+ "cost_usd": 0.003775
+}

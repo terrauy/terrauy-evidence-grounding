@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B01_C_r0.json",
+ "prompt_sha256": "0a19d7153b50243c651d8cdedcacca0f9eb94084ff0bf28c22297a632c3690ce",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer opens with 'likely caused by timber harvest' but concludes that cause cannot be confirmed. This hedges the cause claim. It states the data does not establish legality. It reports the 81.3 ha figure correctly."
+ },
+ "raw": null,
+ "cost_usd": 0.009106
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J03_C_r2.json",
+ "prompt_sha256": "17bf2ac23a9b753361270a368c3f2c6e7758d1b45c9a5e8aa1a8d469eb40fa20",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports Hansen 1.4 ha vs JRC 49% below the 50% threshold, so CONTRADICTED. It explicitly says neither loss nor its absence is established, and that deforestation and cause are not shown."
+ },
+ "raw": null,
+ "cost_usd": 0.012808
+}

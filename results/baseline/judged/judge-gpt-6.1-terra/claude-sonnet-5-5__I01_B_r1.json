@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I01_B_r1.json",
+ "prompt_sha256": "2011fba95ffec9510bc4af958492b88c0222e3d0301ba71e50f920a0fdbc34a4",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer affirms the corroborated 4.5 ha loss using current v2, identifies v1 as superseded, and distinguishes tree-cover loss from deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.004389
+}

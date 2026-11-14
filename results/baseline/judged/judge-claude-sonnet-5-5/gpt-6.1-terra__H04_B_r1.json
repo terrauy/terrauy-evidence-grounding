@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H04_B_r1.json",
+ "prompt_sha256": "08ec2105c714b156095e6e0b9094bd1aa8d204c4081d94b7b305ab356861a39e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 0.5 ha native loss of 0.6 ha total in 2022; 2.8% of asset is correct arithmetic; no share of native forest claimed; notes loss doesn't establish deforestation or cause."
+ },
+ "raw": null,
+ "cost_usd": 0.01252
+}

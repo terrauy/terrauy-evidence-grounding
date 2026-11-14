@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H02_C_r1.json",
+ "prompt_sha256": "0e86373ebf8a35d6e362e983413c7723192fd1a94b0f3045c6a7563095050793",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer says 13.2 ha was outside mapped forest, but incorrectly claims 68.1 of 81.3 ha is 98%; it is about 84%."
+ },
+ "raw": null,
+ "cost_usd": 0.002781
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G01_A_r2.json",
+ "prompt_sha256": "7983a4d25a55b8fb5dca204941f3c8247a02c43733e8b8d86782048a533e2411",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly distinguishes countable events from small patches and historical losses, but infers little tree cover remained in 2021 without sufficient evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.002954
+}

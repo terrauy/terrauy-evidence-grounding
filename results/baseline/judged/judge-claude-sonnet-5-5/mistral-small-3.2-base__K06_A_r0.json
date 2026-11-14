@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K06_A_r0.json",
+ "prompt_sha256": "67869fffb35c5641a1ad8331341e742122d7963147e8ddfd8c264478c5c072fd",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms corroboration with JRC full agreement and the 50% rule; but says MGAP confirmed the event was within native forest, overstating 0.5 of 0.6 ha. Omits the later-year observation."
+ },
+ "raw": null,
+ "cost_usd": 0.01144
+}

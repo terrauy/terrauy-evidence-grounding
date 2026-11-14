@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E08_A_r2.json",
+ "prompt_sha256": "9763cf3d2ae58376d49379c46fedb13e63baa6293da02f9d0386f2f4c3b43b05",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It definitively denies change in 2026 and claims observations through 2026, although the series ends in 2025; it also asserts unsupported gain observations."
+ },
+ "raw": null,
+ "cost_usd": 0.002408
+}

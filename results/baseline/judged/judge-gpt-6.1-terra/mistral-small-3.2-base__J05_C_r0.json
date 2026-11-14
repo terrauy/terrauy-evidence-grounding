@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J05_C_r0.json",
+ "prompt_sha256": "5149246aaa6c2ab99ba82dd49b7b3a90172ec656a886747083ee7a512eca3ac4",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly denies contradiction, but overstates that Hansen establishes no forest across the asset and that loss preceded JRC data collection."
+ },
+ "raw": null,
+ "cost_usd": 0.002733
+}

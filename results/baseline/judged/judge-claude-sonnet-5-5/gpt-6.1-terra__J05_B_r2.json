@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J05_B_r2.json",
+ "prompt_sha256": "e61ec2312e2b3ac0f4abfdccbb7232ab960faaa35c0c44b885434d95a3563c4d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says 'Not necessarily' to contradiction, so denies it. However, it explains the discrepancy as differing measurement types and does not state that non-forest at the reference corroborates the pre-reference loss. That explanation is partly unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.00839
+}

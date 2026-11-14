@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J04_A_r0.json",
+ "prompt_sha256": "bd2d0e0d6a18c221a8448a8c7c62fa345505ec7107fb0dc1712f2ca86a1efbb7",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The events and statuses are correct, but claiming all post-2020 losses were in 2020 forest overstates JRC agreement, which was below 100% for 2021 and 2022."
+ },
+ "raw": null,
+ "cost_usd": 0.003729
+}

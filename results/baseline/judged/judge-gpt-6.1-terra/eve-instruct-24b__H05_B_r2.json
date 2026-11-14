@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H05_B_r2.json",
+ "prompt_sha256": "8adb8e83ebe96f15571a0ea0241a536abf792751f642fd53fd0a03550d6c4ff9",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It asserts clearing despite evidence establishing only tree-cover loss, and incorrectly characterizes 0.3 ha outside mapped forest as non-native forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002849
+}

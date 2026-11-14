@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G07_C_r2.json",
+ "prompt_sha256": "6902d86847388c45ba456674c70ae9923c45374a986b743925ab8224629c1587",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer affirms tree-cover loss in 2024, contradicting the key (no counted event; only 0.7 ha sub-threshold patches). It also muddles the 2023 event with sub-threshold patches and ignores the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.008398
+}

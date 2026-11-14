@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F07_C_r2.json",
+ "prompt_sha256": "b09af04f389a12d1dc9b80b33b6ef328fa62429657224ce8696a933b40ff9451",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "JRC is correctly reported as 0% forest, but Hansen does not establish no forest in 2020; the answer also omits the 2020 and 2021 loss observations."
+ },
+ "raw": null,
+ "cost_usd": 0.002787
+}

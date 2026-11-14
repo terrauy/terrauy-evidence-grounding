@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K08_B_r1.json",
+ "prompt_sha256": "dfadb12160eaabcb68660c8a0e89c9110b5675e3599c4c67b56bfaea1d3b42fc",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The rounded share and area are correct; forest context, excluded small patches, corroboration, and limitations are supported."
+ },
+ "raw": null,
+ "cost_usd": 0.002654
+}

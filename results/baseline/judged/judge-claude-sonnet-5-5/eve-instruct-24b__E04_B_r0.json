@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E04_B_r0.json",
+ "prompt_sha256": "07c7e59e84ea81750693dead2d23726a095d0dbe0183a5756e90c6fab575741a",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Says no fire detected and notes small fires could be missed, but misdescribes coverage: claims the covered period includes 10-24 and says only 10-25 lacked coverage, whereas the gap is 10-24 to 10-25 for all sensors. It does not conclude the full period cannot be determined."
+ },
+ "raw": null,
+ "cost_usd": 0.009198
+}

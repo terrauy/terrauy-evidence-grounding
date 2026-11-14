@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H02_A_r2.json",
+ "prompt_sha256": "6b32cf51d7b8dea5ffbee0136c654e28b8b15b02db4c6b2d221c3cc70d57d22d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer denies; 68.1 ha planted and 13.2 ha outside mapped forest match the key. Percentages are correct. No limitations about what the evidence does not establish are stated."
+ },
+ "raw": null,
+ "cost_usd": 0.011084
+}

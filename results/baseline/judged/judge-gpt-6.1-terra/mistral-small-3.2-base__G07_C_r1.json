@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G07_C_r1.json",
+ "prompt_sha256": "4f62dfc1674fe9ac2567274dc255bfd34de957291e38060285e2d511974b8b58",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The 0.7 ha loss is correctly dated, but it occurred in sub-threshold patches, not a counted event; the assessment status does not establish a 2024 event."
+ },
+ "raw": null,
+ "cost_usd": 0.002801
+}

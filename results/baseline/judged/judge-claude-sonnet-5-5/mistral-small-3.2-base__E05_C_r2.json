@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E05_C_r2.json",
+ "prompt_sha256": "eff9ec1f55c939b161672dd3e3af21468759f1623a429a9e6715601e2cfcbf3e",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly declines to confirm full period, notes no detections on covered days and the Nov 2-6 gap from API unavailability; does not claim no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.009626
+}

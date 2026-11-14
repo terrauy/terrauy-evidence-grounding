@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G01_C_r0.json",
+ "prompt_sha256": "a2e0dedeac51f1085a50202abeb17e1a23e107daac31abe097174b8eb15079d0",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no event of 0.5 ha or more after the baseline, and correctly describes the 0.4 ha sub-threshold loss as not counted. It places pre-2021 losses outside the period and states that non-detection is not proof of no change."
+ },
+ "raw": null,
+ "cost_usd": 0.00875
+}

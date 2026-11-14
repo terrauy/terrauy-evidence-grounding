@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D10_C_r2.json",
+ "prompt_sha256": "82aa0fcbf9e26b0cace276ac28092058d874fb2282f70c9f396618e29e92c668",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It asserts unchanged tree cover despite a thresholded non-detection, and extends the conclusion beyond the observed period ending in 2025."
+ },
+ "raw": null,
+ "cost_usd": 0.00251
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K05_C_r0.json",
+ "prompt_sha256": "5968e3b1db32470f11c9654b84b150f3d3aee83dbed8edbc775bbcb872adc2f0",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly identifies the largest recorded event as 67.7 hectares in 2020 and attributes it to Hansen data."
+ },
+ "raw": null,
+ "cost_usd": 0.002554
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F08_A_r0.json",
+ "prompt_sha256": "ffbea8291c3409713bdb671c1ed86b1a94a464ee588888a3f07141fda5b4d0a6",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says yes, though JRC is a 2020 baseline. It also incorrectly treats separate sub-threshold losses as part of the 0.7 ha event."
+ },
+ "raw": null,
+ "cost_usd": 0.002841
+}

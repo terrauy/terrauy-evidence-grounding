@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G03_C_r1.json",
+ "prompt_sha256": "4ab5f10ac3def5117ed1b10ac90b353d163013ab6b558df146493e20426f374b",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no loss in the evidence for 2024\u20132025 without asserting that no loss occurred, and notes limits on cause and deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.003617
+}

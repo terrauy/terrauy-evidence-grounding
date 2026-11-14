@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K01_A_r1.json",
+ "prompt_sha256": "3835cca9f7fb324805974740312b7007507d090c2a88cd6143cb46e767ea7185",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms 81.3 ha (2.23%) in 2021, matching the key. The 37.3 ha sub-0.5 ha patches detail is in the facts. It mentions the 0.5 ha threshold as a limit; it does not mention corroboration."
+ },
+ "raw": null,
+ "cost_usd": 0.00804
+}

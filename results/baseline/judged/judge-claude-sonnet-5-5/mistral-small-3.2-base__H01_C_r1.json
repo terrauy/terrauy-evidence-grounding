@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H01_C_r1.json",
+ "prompt_sha256": "c1f214e9ccd62786f00e7b430f658f86dca5a9ebf03c3795c5cc9ad47ff6b0bc",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer denies whole-property clearing, gives correct 81.3 ha and 2.23%, says tree-cover loss only. 'Most of loss in planted forest' is supported (68.1 of 81.3 ha). No explicit limitation on deforestation or cause is stated."
+ },
+ "raw": null,
+ "cost_usd": 0.008574
+}

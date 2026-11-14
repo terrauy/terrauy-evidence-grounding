@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G03_A_r0.json",
+ "prompt_sha256": "7e1523168eac641629a467362a394ddd978ce38977691342152d89224e89abef",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer asserts no loss occurred, rather than non-detection, and incorrectly describes 0.5 ha as the smallest detectable loss rather than the event threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.003643
+}

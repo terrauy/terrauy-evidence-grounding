@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G06_B_r2.json",
+ "prompt_sha256": "09fe2346d3a100465c4d6788f482d6325e50a7b82e49365e7d64fd744ef14783",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The evidence covers only 2026-10-04 to 2026-11-03, but the answer claims no fires were detected and full sensor coverage in the two weeks before 10-04. That is outside the period. It hedges on small fires but does not abstain."
+ },
+ "raw": null,
+ "cost_usd": 0.007528
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G08_C_r1.json",
+ "prompt_sha256": "77719bfb908c59edd05f0fb631e387ca9fad2acb8060b4e5ea5c6cc999b85bd6",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer denies an increasing trend, with correct figures (81.3, 0.6, 4.5 ha; none 2024-2025), planted-forest context correct for 2021 and 2023, and notes that loss does not establish deforestation or its cause."
+ },
+ "raw": null,
+ "cost_usd": 0.01022
+}

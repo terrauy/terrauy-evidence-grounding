@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K08_C_r0.json",
+ "prompt_sha256": "db69bdc089878107d0d6787edef29c76c558dcfaf1854680509a8729adc430c0",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer gives 2.23% (81.3 ha of 3643.5 ha) for 2021, matching the key. The corroboration claim via Hansen and JRC is supported. It states no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.007848
+}

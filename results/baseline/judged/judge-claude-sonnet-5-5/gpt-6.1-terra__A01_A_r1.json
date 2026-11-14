@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/A01_A_r1.json",
+ "prompt_sha256": "364f56828eff6ae4f21dbcd2dd5fa1ca2ef1a15ca85ae6ccf9a3df50af70d4ba",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms tree-cover loss of 81.3 ha in 2021 and says deforestation is not established; it only hedges harvest as a possible cause. Numbers match the facts, and the answer notes the evidence limit."
+ },
+ "raw": null,
+ "cost_usd": 0.009452
+}

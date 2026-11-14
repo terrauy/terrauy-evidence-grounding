@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E06_A_r2.json",
+ "prompt_sha256": "80e029ebce26470bae65c18b04f518730d18919d9a311d581dd8597c3c6c5459",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It asserts no fires occurred throughout the period despite a coverage gap and the inability of nondetection to prove fire absence."
+ },
+ "raw": null,
+ "cost_usd": 0.002997
+}

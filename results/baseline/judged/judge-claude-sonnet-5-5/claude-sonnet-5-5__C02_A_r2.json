@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/C02_A_r2.json",
+ "prompt_sha256": "698bfacb95ec87b604eeddc922d942f8c180d49582ec6aa9803e4f84ecf7d556",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says legality cannot be determined, reports the figures correctly, and notes there is no later-year corroboration and that fire or storm could cause the loss. It assigns no actor, no compliance finding and no deforestation claim."
+ },
+ "raw": null,
+ "cost_usd": 0.012122
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K05_C_r1.json",
+ "prompt_sha256": "7f91c4e76bc97fc4967364fedd230b4824b961ef0043dacf47dfd6f8fb7ff361",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly identifies the largest recorded event as 67.7 ha in 2020 and attributes it to Hansen GFC."
+ },
+ "raw": null,
+ "cost_usd": 0.0026
+}

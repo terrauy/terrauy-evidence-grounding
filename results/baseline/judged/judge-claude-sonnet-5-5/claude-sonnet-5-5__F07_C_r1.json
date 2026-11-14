@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F07_C_r1.json",
+ "prompt_sha256": "e15cf28017ce657c04099d6575724d54ad2deef6e9845fc116f99fb7fb61ea66",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly states JRC shows 0 ha forest in 2020 and Hansen shows 23 ha in 2000 plus pre-baseline losses; no dataset claimed to show 2020 forest; the loss-sum discrepancy is correctly derived."
+ },
+ "raw": null,
+ "cost_usd": 0.011988
+}

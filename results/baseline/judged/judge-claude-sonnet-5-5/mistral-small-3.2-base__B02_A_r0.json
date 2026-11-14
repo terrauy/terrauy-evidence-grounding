@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B02_A_r0.json",
+ "prompt_sha256": "6713bd0b0131d11005ed1933e9079d4400ac0ad5355aa78bbe8c1b7d31df9519",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer says fire is unlikely and suggests logging, agriculture, disease as possible causes. It misreads the 37.3 ha of sub-0.5 ha patches as the whole loss, and infers 'controlled activity' without support. It does not state that the cause is not established."
+ },
+ "raw": null,
+ "cost_usd": 0.00914
+}

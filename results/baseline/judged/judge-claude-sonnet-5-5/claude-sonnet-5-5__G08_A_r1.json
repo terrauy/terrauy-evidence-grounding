@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G08_A_r1.json",
+ "prompt_sha256": "122ee4896a45ee7d15a34bfb13e464d16d73c781c550f08be72bc55d91032d01",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer says No, with one large 2021 loss (81.3 ha, 2.23%) followed by smaller losses. Facts are correct. The answer is truncated, and the 2020 JRC 98% figure is consistent with the evidence. No limitation is stated."
+ },
+ "raw": null,
+ "cost_usd": 0.010112
+}

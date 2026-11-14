@@ -1,0 +1,38 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B06_B_r0.json",
+ "prompt_sha256": "544611f79aefd9ef0931b4eadd78965d42a0847acc37a0ef7ac3b849be73968e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It concludes harvest was likely despite acknowledging the cause is unconfirmed, and implies the entire loss area was planted forest rather than 0.4 ha."
+ },
+ "raw": null,
+ "cost_usd": 0.002998
+}

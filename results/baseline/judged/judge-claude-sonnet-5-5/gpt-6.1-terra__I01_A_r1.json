@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/I01_A_r1.json",
+ "prompt_sha256": "f7f375be3fcc6c45503bd7b82af5eb2a88943336651444e3177aab1dbce2dd5d",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms confirmation under the current run (4.5 ha, later year observed, JRC agreement), treats the earlier 2024 run as not meeting the rule, and does not claim deforestation. It notes the 0.5 ha threshold and corroboration rule."
+ },
+ "raw": null,
+ "cost_usd": 0.01248
+}

@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G04_B_r2.json",
+ "prompt_sha256": "12323e0308af487c71e245ef161c7609439a8f4a6e740d06a5af3e2016027c60",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly abstains on current clearing, distinguishes tree-cover loss from deforestation, and notes the observation series ends in 2025."
+ },
+ "raw": null,
+ "cost_usd": 0.002889
+}

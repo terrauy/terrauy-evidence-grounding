@@ -1,0 +1,46 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/A06_C_r2.json",
+ "prompt_sha256": "fb2d74d11ed3ca8bae9dcf600fb23f894d116a706177b321d9de27dcbbcf0c85",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   },
+   {
+    "index": 5,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports 13.5 ha loss candidate, 13.1 ha native context, says deforestation, cause and persistence not established, pending corroboration as no later year observed. Consistent with key."
+ },
+ "raw": null,
+ "cost_usd": 0.009028
+}

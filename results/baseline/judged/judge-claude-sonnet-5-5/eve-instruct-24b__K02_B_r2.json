@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K02_B_r2.json",
+ "prompt_sha256": "a4a35caebb33e9546578394d483a748a11d0c1c3bc6ed451a69806e92299cb90",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms a 13.5 ha 2025 candidate (3.91%), notes it needs later-year corroboration and that cause/legality are not established; consistent with the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.010002
+}

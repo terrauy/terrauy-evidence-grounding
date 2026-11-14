@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K08_B_r1.json",
+ "prompt_sha256": "970da7242c2fea35e1a2ba9235cde0f33e584e19485b066f14d4f668d9c70c9a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports 2.23% and 81.3 ha, respects the 2021 whole-property scope, and states relevant evidentiary limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002771
+}

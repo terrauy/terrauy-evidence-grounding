@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H04_C_r1.json",
+ "prompt_sha256": "7d678a3bee2f6cd91022be7c77ec19bc7caf5b09933ff3f657fc466974960780",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The 0.5 ha native-context loss and approximately 3% of property area are supported; the answer notes that cause and legality are unknown."
+ },
+ "raw": null,
+ "cost_usd": 0.002722
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I06_A_r2.json",
+ "prompt_sha256": "9977814a50264ebb412c42dc284bab3faed851c0a6b8d9d3f7bad1d2b3af6548",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": false,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, reporting the superseded gap as the headline conclusion, though it notes later full coverage only as speculation. It invents 'October 12th' and 'Run-1/Run-2' labels, and is wrong against the current v2 answer of complete coverage."
+ },
+ "raw": null,
+ "cost_usd": 0.011634
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G03_A_r1.json",
+ "prompt_sha256": "6f6426591f269db68af8a5eccae64c19c7905b44840e747cb542e2042c4832e1",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no events in 2024\u20132025 and correctly notes the 0.5-hectare threshold and possibility of smaller losses."
+ },
+ "raw": null,
+ "cost_usd": 0.003604
+}

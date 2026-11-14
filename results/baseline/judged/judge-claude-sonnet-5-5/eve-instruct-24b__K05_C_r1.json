@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K05_C_r1.json",
+ "prompt_sha256": "65a441a4c50172c96d82c93d0184a51b48d5ad6ff365021728e87cb9aa547535",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "States 67.7 ha in 2020, matching the key, attributed to Hansen GFC. The 2021\u20132025 no-detection statement is supported by the facts. It gives no explicit limitation, though the 0.5 ha threshold is mentioned."
+ },
+ "raw": null,
+ "cost_usd": 0.007882
+}

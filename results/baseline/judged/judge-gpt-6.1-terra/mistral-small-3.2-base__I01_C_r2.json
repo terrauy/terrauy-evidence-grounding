@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I01_C_r2.json",
+ "prompt_sha256": "b4470f98c1950f5f3e997dc7dde81244c5966a242fcf21c39c634fcc3d04957c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer correctly affirms corroborated 2023 loss and its planted-forest context, without asserting deforestation or the superseded pending status."
+ },
+ "raw": null,
+ "cost_usd": 0.004222
+}

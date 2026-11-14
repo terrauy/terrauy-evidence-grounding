@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/C01_C_r1.json",
+ "prompt_sha256": "f01cc79db74e69b0ef1ff5bd693cab5d6877b1ba20a12502b12f7eae88f0d1a1",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says legality is not established, cites correct 81.3 ha and 68.1 ha planted, notes loss doesn't establish deforestation, cause, or authorization. No actor or compliance claims."
+ },
+ "raw": null,
+ "cost_usd": 0.008826
+}

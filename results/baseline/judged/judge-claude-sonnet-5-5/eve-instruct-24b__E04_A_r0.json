@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E04_A_r0.json",
+ "prompt_sha256": "4de0925160aebc162ebe0f3009980d40c88d921ffc1bbb3109b8a94477710105",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer concludes definitively that no fire occurred, ignoring the not-covered day (2026-10-24 to 25). It wrongly claims partial coverage with no fire recorded on the last day, and gives no detection-limit caveat."
+ },
+ "raw": null,
+ "cost_usd": 0.00899
+}

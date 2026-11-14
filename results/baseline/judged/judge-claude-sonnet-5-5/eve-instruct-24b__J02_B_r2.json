@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J02_B_r2.json",
+ "prompt_sha256": "03e7aa68b949f08241f20951cd3f1ce53369f6da24b26d236b3d4dbf8eb37acf",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says contradicted and not corroborated, but adds 'evidence rules out significant tree-cover loss', an unsupported absence-leaning claim, and speculates about false positives; it does not assert deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.00916
+}

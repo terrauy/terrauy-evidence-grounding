@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K07_B_r2.json",
+ "prompt_sha256": "2f9115bdb5f1ebc121a74718b5ef2ebb1326486fe3780fc6e6cf38d5239e6a21",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No: method could not evaluate because source coverage not prepared, no observation made; matches key. Scope 2021-2025 correct; notes no compliance finding."
+ },
+ "raw": null,
+ "cost_usd": 0.005882
+}

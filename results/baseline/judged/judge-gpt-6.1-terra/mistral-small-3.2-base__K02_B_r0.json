@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K02_B_r0.json",
+ "prompt_sha256": "2ffb70fb3f14ba425cd970d3e9a609a50768a58acf0f48a75f67cb54c9a6eb98",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms the 13.5 ha candidate in 2025 and correctly notes that corroboration, cause, persistence, and land-use implications remain unresolved."
+ },
+ "raw": null,
+ "cost_usd": 0.002462
+}

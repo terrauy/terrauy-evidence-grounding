@@ -1,0 +1,43 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A07_A_r2.json",
+ "prompt_sha256": "0c2a182097dca318ac7d77b4c7edb87c1be1fd6fa49387395954635a53ca9963",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  " other_unsupported": true,
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer flatly denies deforestation, inventing a definition requiring permanence and multi-source confirmation, and claims the loss occurred before 2020, which contradicts the 2020 event year. It correctly notes the pre-baseline history and the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.009618
+}

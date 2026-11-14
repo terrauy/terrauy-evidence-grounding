@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G06_A_r2.json",
+ "prompt_sha256": "11705ce2d02ea12e1f0a0fdeb47d0d433dce13dc7c2525935f608d8a9afa389e",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer claims no fires in the two weeks before 2026-10-04, but the evidence covers only 2026-10-04 to 2026-11-03. It asserts coverage of a period the evidence does not cover and gives no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.007508
+}

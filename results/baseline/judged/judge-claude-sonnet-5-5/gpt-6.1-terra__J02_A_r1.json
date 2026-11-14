@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J02_A_r1.json",
+ "prompt_sha256": "d07344f285570a58614b6c52ed5ad6287887bcbfc3bbc03dcf3d7c3c448c14a2",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer says Yes and claims JRC mapped the whole event area as forest and that the corroboration rule was satisfied. The facts show JRC agreement of 0.0 (non-forest), so the loss is not corroborated. This reverses the key's conclusion."
+ },
+ "raw": null,
+ "cost_usd": 0.0092
+}

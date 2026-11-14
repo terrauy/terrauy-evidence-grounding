@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F05_A_r2.json",
+ "prompt_sha256": "5ba87088d982275584ee25e809bed831cb6bfa233863a2b0cf54ef17d8c6d56e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer says yes, Sentinel-2 detected the loss, and claims Hansen relies on Landsat and Sentinel-2. The evidence only names Hansen/UMD at 30 m, with no Sentinel-2. This is a source misattribution."
+ },
+ "raw": null,
+ "cost_usd": 0.008466
+}

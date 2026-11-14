@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K05_B_r2.json",
+ "prompt_sha256": "837d80ea0685f1498addbbff4548f7e237b88e26133eec86e8550f9f5eaa1b28",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies the 67.7 ha event in 2020 and accurately distinguishes pre-baseline history from post-baseline observations."
+ },
+ "raw": null,
+ "cost_usd": 0.002728
+}

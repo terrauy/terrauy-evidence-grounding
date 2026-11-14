@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I04_B_r1.json",
+ "prompt_sha256": "4528ef7de4a0b1050455f055f0186e130a9eaab0488297980b6ba8afe4451723",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer denies validity, cites v2 13.5 ha 2025 candidate pending corroboration, and disclaims persistence, deforestation, cause and compliance. Consistent with the key."
+ },
+ "raw": null,
+ "cost_usd": 0.013606
+}

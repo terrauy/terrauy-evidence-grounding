@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K05_B_r0.json",
+ "prompt_sha256": "8dfb53ff17d1bb654cd7547cc2c5c47fd4af75ef0847a64fe6648d581d2e4e58",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer gives 67.7 ha in 2020, matching the key. Other events and post-baseline details match the reference facts. It notes limits on small changes and no compliance finding."
+ },
+ "raw": null,
+ "cost_usd": 0.007932
+}

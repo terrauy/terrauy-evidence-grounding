@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J01_C_r2.json",
+ "prompt_sha256": "5ffa5af883a58e0f673fff9d80ad108f600bc40615466cde9c3bd51a48232f7d",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says Hansen's 1.8 ha loss is not corroborated by JRC, explicitly says it does not prove absence or deforestation. Facts match the reference; no unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.008988
+}

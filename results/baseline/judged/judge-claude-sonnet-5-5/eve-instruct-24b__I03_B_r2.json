@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I03_B_r2.json",
+ "prompt_sha256": "7d9d0277fb8dd5895a3956979c8828a7986bcc862591f91629e3f1fad3ed8a2b",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer gives the v2 pending 13.5 ha 2025 candidate, denies confirmation of persistence, and notes cause and legality are unclear. The 'no losses 2021-2024' statement is consistent with the evidence. Logging/fire is hedged only."
+ },
+ "raw": null,
+ "cost_usd": 0.010956
+}

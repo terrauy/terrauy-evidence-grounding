@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G08_B_r2.json",
+ "prompt_sha256": "8cadb215aa35805b366a794acfc13ef8f3e8aa266a93b86a3156fbdfbae2f8b8",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer asserts an increasing trend ('general trend of increasing loss'), contradicting the data (81.3 \u2192 0.6 \u2192 4.5 ha, none in 2024-2025). It does correctly note that cause and legality are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.010226
+}

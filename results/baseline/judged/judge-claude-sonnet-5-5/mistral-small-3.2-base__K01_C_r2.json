@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K01_C_r2.json",
+ "prompt_sha256": "819e8bb6586a301f2a9f0006ff701be49783d6235675c102c838819efe6fc6e0",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer affirms 81.3 ha of loss in 2021, corroborated by JRC at 98% agreement. It notes that cause and legality are not established and that sub-0.5 ha patches were not counted. All of this is supported by the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008102
+}

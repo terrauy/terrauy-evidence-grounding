@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H05_B_r0.json",
+ "prompt_sha256": "bafb7baadb78473bc8595fd9f6c737b8b41dd65fcb452a176fc0896d703ad6c0",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports 0.7 ha corroborated loss (1.2%), states it does not show deforestation, lists what is not established; the harvest explanation is hedged. All figures match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.011922
+}

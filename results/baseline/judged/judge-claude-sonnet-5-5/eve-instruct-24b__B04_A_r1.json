@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B04_A_r1.json",
+ "prompt_sha256": "8d96b7d658c2ed046f719ecc49d46f5624ae34f2d253d1712e50d34c80db64a2",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says the evidence does not indicate purpose, but then suggests agricultural expansion is more consistent. It wrongly claims the loss was 'confirmed' and 'corroborated', although status is PENDING_CORROBORATION. It also treats the event as clearing and gives no definite yes/no."
+ },
+ "raw": null,
+ "cost_usd": 0.00889
+}

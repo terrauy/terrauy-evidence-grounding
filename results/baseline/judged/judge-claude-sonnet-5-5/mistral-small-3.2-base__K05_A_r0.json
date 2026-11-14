@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K05_A_r0.json",
+ "prompt_sha256": "cd8bfb603cc75685adeeda81f49051fb8c183dda3aa5825fc825f53304c37562",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer correctly states 67.7 ha in 2020 from Hansen, notes it predates the baseline, and correctly lists other events. No limitations discussed."
+ },
+ "raw": null,
+ "cost_usd": 0.007692
+}

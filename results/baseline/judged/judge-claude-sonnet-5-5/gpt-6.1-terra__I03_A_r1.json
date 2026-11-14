@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/I03_A_r1.json",
+ "prompt_sha256": "afa03d8654b08211a410adb01036b5ff86f97074dcbd227ac3dacc9975204b78",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers yes with 13.5 ha in 2025 from the current v2, says it is not yet corroborated, and says loss is not necessarily deforestation. The 98% JRC figure matches the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.013662
+}

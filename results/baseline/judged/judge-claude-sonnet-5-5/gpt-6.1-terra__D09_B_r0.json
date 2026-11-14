@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D09_B_r0.json",
+ "prompt_sha256": "3bfe869492fc05651b8132d49da8c4101801143c03be0d876ef50797bd8820aa",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no FIRMS detections in the covered period and explicitly says this does not rule out small or obscured fires or establish burned area. It never claims that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.007114
+}

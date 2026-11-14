@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G01_A_r1.json",
+ "prompt_sha256": "45f298a9f5c0bff8c6f9b71170ecf7e7488a57dfaf2e41b6d2fd082d227abad8",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no qualifying events 2021-2025, notes sub-threshold 0.4 ha loss, and treats 2020 loss as prior. However, it claims the loss is 'not corroborated' by JRC, which is an unsupported inference since sub-threshold patches weren't subject to the corroboration rule."
+ },
+ "raw": null,
+ "cost_usd": 0.00872
+}

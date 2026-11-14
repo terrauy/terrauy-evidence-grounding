@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K04_A_r0.json",
+ "prompt_sha256": "cfef541bda608760a5a419ee055249486a02f9d0368123f27ac818b6aae572df",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer claims the output contains no explicit event results and so does not establish that none was found. The evidence explicitly states status NOT_DETECTED and that no event of 0.5 ha or more was detected, so this misreads the evidence and fails to give the expected no-event conclusion."
+ },
+ "raw": null,
+ "cost_usd": 0.00696
+}

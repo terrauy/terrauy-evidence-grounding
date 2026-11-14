@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K07_C_r2.json",
+ "prompt_sha256": "37885be3a2ca795e5a8dc8416a71090bef1be918aad84b48961e021906405eea",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly states that the property was not evaluated because required coverage was unavailable and no observation was made."
+ },
+ "raw": null,
+ "cost_usd": 0.001921
+}

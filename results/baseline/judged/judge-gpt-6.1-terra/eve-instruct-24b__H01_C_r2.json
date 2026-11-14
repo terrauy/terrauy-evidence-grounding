@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H01_C_r2.json",
+ "prompt_sha256": "d9c7cfa8ffc9015797909f740cc80578f77a00d3ef38a0b214a029a32f32d5c3",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Correctly denies whole-property clearance and reports the loss area, but asserts localized clearing, which tree-cover loss alone does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.002799
+}

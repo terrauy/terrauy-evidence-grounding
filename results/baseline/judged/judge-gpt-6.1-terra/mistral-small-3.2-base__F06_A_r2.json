@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F06_A_r2.json",
+ "prompt_sha256": "ba27bf9c81db02ec4295afa11a54e3bdd418cfeee87ab9ca1cedc5931f39f887",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly identifies the FIRMS sensors and coverage period without asserting unsupported sensors or conclusions."
+ },
+ "raw": null,
+ "cost_usd": 0.002252
+}

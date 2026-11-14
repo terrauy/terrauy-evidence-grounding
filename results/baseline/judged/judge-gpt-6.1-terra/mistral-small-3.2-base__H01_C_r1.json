@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H01_C_r1.json",
+ "prompt_sha256": "c1f214e9ccd62786f00e7b430f658f86dca5a9ebf03c3795c5cc9ad47ff6b0bc",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly denies whole-property clearing and reports the supported loss area and share; it notes that the loss does not indicate whole-property clearing."
+ },
+ "raw": null,
+ "cost_usd": 0.002798
+}

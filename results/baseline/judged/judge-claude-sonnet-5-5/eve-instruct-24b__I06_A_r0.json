@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I06_A_r0.json",
+ "prompt_sha256": "dc6a0695e9ded801e6798cd58175223ecd1c93db9750f7cace607d860d19b090",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": false,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer reports the superseded v1 gap as current, saying coverage was incomplete, when current v2 has full coverage. It mislabels the runs and says only Oct 8 was uncovered, whereas v1 lacked Oct 7\u20138."
+ },
+ "raw": null,
+ "cost_usd": 0.011722
+}

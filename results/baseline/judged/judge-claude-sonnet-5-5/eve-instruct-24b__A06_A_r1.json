@@ -1,0 +1,46 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A06_A_r1.json",
+ "prompt_sha256": "96e8afe62d6cf3283e07253ea16f2bc7afae9cff87c0a5fb39548aa7cbef533e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   },
+   {
+    "index": 5,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answers 'Yes, deforested' despite evidence being only a pending loss candidate. Claims loss was 'corroborated' and 'confirmed' native, ignoring that the latest-year status is uncorroborated. The mention of no later observations is not framed as a limit."
+ },
+ "raw": null,
+ "cost_usd": 0.009488
+}

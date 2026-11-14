@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D07_A_r1.json",
+ "prompt_sha256": "4062ff37cf925f7f25433e09dc45fc70c17f10f5efe1282f2c8af36aa751d10b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer incorrectly certifies that no fire occurred, although FIRMS non-detection does not establish fire absence."
+ },
+ "raw": null,
+ "cost_usd": 0.002317
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G08_A_r2.json",
+ "prompt_sha256": "f849adb29b3479acfdcd39ab94b06f3d7cb49774098fc6e09143ae26589672d5",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly denies an increasing trend and cites the right figures. 'Decreasing' is a loose reading given the 2023 uptick over 2022, and no limitations are mentioned."
+ },
+ "raw": null,
+ "cost_usd": 0.012598
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G03_A_r2.json",
+ "prompt_sha256": "0f3b203604c618b7d5a750f29f3c5b1509f3bac79733692d1f54c1bbdf8d9a81",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer incorrectly treats non-detection as confirmation that no tree-cover loss occurred in 2024 or 2025."
+ },
+ "raw": null,
+ "cost_usd": 0.003585
+}

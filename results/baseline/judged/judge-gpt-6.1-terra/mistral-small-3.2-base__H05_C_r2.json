@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H05_C_r2.json",
+ "prompt_sha256": "f713c830765688f808c3a751a58d0a1cf6d5e7d3bee9436dece2ec01f2c2f66b",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports supported tree-cover loss and notes that deforestation and its cause are not established, without giving a definite answer on clearing."
+ },
+ "raw": null,
+ "cost_usd": 0.002825
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J05_B_r2.json",
+ "prompt_sha256": "774044c5c68ae31d8f1ca199c430e659eadd4f8e394ceb655dea3682f7f8fd95",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the sources are consistent: non-forest in the 2020 JRC map fits a 2020 Hansen loss. Its figures (~99 ha cumulative loss, 0.4 ha post-baseline) are correct, and it notes the detection limits."
+ },
+ "raw": null,
+ "cost_usd": 0.011894
+}

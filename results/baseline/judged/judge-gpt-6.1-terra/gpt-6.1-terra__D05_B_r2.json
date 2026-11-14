@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D05_B_r2.json",
+ "prompt_sha256": "498f4fd630dae3d1cb2856b67e004b0d79214202273a4d7bead065c9f85c303e",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports the supported non-detection and explicitly notes that a fire could have gone undetected."
+ },
+ "raw": null,
+ "cost_usd": 0.002197
+}

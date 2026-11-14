@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C05_A_r0.json",
+ "prompt_sha256": "9e368bd1c0678979fadea6babc65a204c2885b08905c0e1a6d5150e3281f117c",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer asserts non-compliance, illegality and deforestation before the baseline, which the evidence does not establish. It also misreads the 0 ha JRC value as showing the asset did not meet legal requirements. It does mention the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.008972
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J02_A_r2.json",
+ "prompt_sha256": "3c8bee16b13e6466f33a7c3deee8b56d53e68d4b8e20adbce7cef5c7cf2d9980",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer says Yes and claims JRC mapped the whole event area as forest and that the corroboration rule is met. The evidence shows JRC agreement of 0.0, so the loss is contradicted, not confirmed."
+ },
+ "raw": null,
+ "cost_usd": 0.009042
+}

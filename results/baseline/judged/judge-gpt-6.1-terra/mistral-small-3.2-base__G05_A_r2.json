@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G05_A_r2.json",
+ "prompt_sha256": "413178bd970371e719d5a7c0de9bd18299fe06d9a8f4d16dbef4a9c69985e122",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer incorrectly calls the loss confirmed and says JRC corroborates it; JRC establishes prior forest cover, while corroboration requires a later observed year."
+ },
+ "raw": null,
+ "cost_usd": 0.002615
+}

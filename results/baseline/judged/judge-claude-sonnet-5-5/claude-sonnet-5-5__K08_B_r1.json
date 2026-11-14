@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K08_B_r1.json",
+ "prompt_sha256": "970da7242c2fea35e1a2ba9235cde0f33e584e19485b066f14d4f668d9c70c9a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer gives 2.23% (81.3 ha) of the 3,643.5 ha asset, matching the key. Its additional details (68.1 ha planted, 13.2 ha outside mapped forest, 37.3 ha sub-threshold) all come from the reference facts, and it states what the evidence does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.00858
+}

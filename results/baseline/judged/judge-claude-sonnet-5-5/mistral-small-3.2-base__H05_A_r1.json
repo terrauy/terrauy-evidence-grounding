@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H05_A_r1.json",
+ "prompt_sha256": "8079bd43fe61a87de6b043ab0bffdc1bd3da3c938b41b3d4cd6518acdaec564f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer concludes the forest was cleared in 2023, which the key says is not established (loss may be plantation harvest). The numbers are correct, but the conclusion overreaches and no limitations are mentioned."
+ },
+ "raw": null,
+ "cost_usd": 0.008524
+}

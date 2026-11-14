@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F02_B_r1.json",
+ "prompt_sha256": "57bed8b4428f1041bd3121564200e041e43b43953c416f77270c988a7873d810",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly names MGAP 2021 forest map with 68.1 ha planted Pinus elliottii/taeda and 13.2 ha outside mapped forest; no misattribution to Hansen/JRC, but no limitations stated."
+ },
+ "raw": null,
+ "cost_usd": 0.008304
+}

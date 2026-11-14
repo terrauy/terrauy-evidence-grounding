@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I04_A_r0.json",
+ "prompt_sha256": "42c898ba784dfe0439fcf42a27c06ffa48fed9420e6c1def7c1825018d8466f7",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly rejects the superseded statement, but falsely calls the pending candidate corroborated and confirmed; it also implies current forest cover remains largely intact based on 2020 data."
+ },
+ "raw": null,
+ "cost_usd": 0.003762
+}

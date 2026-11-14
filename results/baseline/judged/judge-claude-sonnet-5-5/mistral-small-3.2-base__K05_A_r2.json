@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K05_A_r2.json",
+ "prompt_sha256": "d97547f8bd30cbbe9012fe47b4defc37e736377ee363208686069ad7edf7e33d",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer states 67.7 ha in 2020, matching the key, correctly attributed to Hansen GFC and noted as before the baseline. No limitations mentioned; no unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.007698
+}

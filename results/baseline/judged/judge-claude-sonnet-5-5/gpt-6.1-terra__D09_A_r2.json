@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D09_A_r2.json",
+ "prompt_sha256": "583dff78a85b8170cd90697ecf22f66f3b2d69aa966134f869d51f84a35e1f58",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no FIRMS detections in a fully covered period and says this does not rule out a missed fire or earlier fire damage. It does not claim that no fire occurred. The four sensors are VIIRS SNPP, NOAA-20, NOAA-21 and MODIS."
+ },
+ "raw": null,
+ "cost_usd": 0.007472
+}

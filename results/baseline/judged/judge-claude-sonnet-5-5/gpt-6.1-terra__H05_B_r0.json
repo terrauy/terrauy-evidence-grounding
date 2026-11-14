@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H05_B_r0.json",
+ "prompt_sha256": "9ce110ecfd2babf1b0d3d34e55845b887d3d4a09b78a09fd10e0e8fc73158fc3",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports 0.7 ha / 1.2% loss in 2023 and says clearing or land-use change is not established; the cause is hedged as possible harvest, fire or storm. It matches the key with no unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.008554
+}

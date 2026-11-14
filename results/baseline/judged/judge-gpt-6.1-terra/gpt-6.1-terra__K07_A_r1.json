@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K07_A_r1.json",
+ "prompt_sha256": "09aed72f3c5c4b529dbdfc415efd8298c1d875ce763171da254f6d6295ff125b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly states that required coverage was unprepared, no observation was made, and land change cannot be determined."
+ },
+ "raw": null,
+ "cost_usd": 0.001842
+}

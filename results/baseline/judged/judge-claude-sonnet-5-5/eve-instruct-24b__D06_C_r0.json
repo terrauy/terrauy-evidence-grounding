@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D06_C_r0.json",
+ "prompt_sha256": "4e750845bf439ee48b42aa364c91f9c0183e8796dc794eb78375a3a67608067e",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no thermal detections in the covered period and notes small, short or cloud-obscured fires may be missed. It never claims no fire occurred. 'No burning detected' is framed as a detection result."
+ },
+ "raw": null,
+ "cost_usd": 0.0073
+}

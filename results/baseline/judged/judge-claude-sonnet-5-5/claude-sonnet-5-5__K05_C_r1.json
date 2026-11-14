@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K05_C_r1.json",
+ "prompt_sha256": "fdd46e94fccaef97d2c91e0d51f035a68714d88026013034c9db46e8a08f91d9",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer gives 67.7 ha in 2020, matching the key, notes it predates the baseline, and cites correct supporting facts and limitations; nothing unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.007928
+}

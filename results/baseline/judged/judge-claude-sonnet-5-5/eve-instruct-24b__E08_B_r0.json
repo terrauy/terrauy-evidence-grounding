@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E08_B_r0.json",
+ "prompt_sha256": "d870a3996a42799c12d3f289ab2c653bdecd38f99b230acf9752d86ff2254613",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer opens with a flat 'No, did not change in 2026' and claims stable forest, despite 2026 being unobserved; the closing caveat contradicts this. Limitations are mentioned."
+ },
+ "raw": null,
+ "cost_usd": 0.010434
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F08_C_r0.json",
+ "prompt_sha256": "0c689623fc8a12393734a333dd48774304829b6e2c349bacfcbc9030906ab3cd",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The opening yes implies JRC shows the loss, despite correctly attributing detection to Hansen. MGAP mapped only 0.4 ha as planted, not the entire event area."
+ },
+ "raw": null,
+ "cost_usd": 0.002826
+}

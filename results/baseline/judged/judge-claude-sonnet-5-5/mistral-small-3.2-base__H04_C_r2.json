@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H04_C_r2.json",
+ "prompt_sha256": "4f23a98c029cb05187a3823884dc08215cf2a559ac30e359ac2d18476910340f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Gives 0.6 ha loss and 0.5 ha native, 3.41% of asset. But the first sentence conflates 3.41% (which is for 0.6 ha) with 0.5 ha native, and does not state that total native forest is not quantified. Also says 'multiple sources' corroborated, loosely."
+ },
+ "raw": null,
+ "cost_usd": 0.008498
+}

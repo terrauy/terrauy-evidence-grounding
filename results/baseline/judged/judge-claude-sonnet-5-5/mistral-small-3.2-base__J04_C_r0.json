@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J04_C_r0.json",
+ "prompt_sha256": "116330e104f23e4bd0df907ecfd45ff4541ee986ae5d70cbc310acc1283d93f3",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly lists 2021, 2022, 2023 events with right areas, notes pre-baseline contradicted events are outside the claim, and states limits on cause, legality and responsibility."
+ },
+ "raw": null,
+ "cost_usd": 0.010414
+}

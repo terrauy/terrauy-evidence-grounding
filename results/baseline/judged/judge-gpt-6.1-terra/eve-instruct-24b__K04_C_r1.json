@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K04_C_r1.json",
+ "prompt_sha256": "3b4414695e530d0ef768540d7a7cf4dcca7bba332a1828511113c4376277b46e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer incorrectly equates non-detection with no loss occurring and asserts no detectable changes, beyond the evidence. The 2020 forest share does not establish retention."
+ },
+ "raw": null,
+ "cost_usd": 0.002259
+}

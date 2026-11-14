@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A03_A_r1.json",
+ "prompt_sha256": "f24afe4ea8a90aa161daa15d916405f14304e9e4f8f386dbd7062fe5c880714c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts deforestation occurred, which the evidence explicitly does not establish. It also misstates facts: 0.2 ha of small-patch loss is separate from the 0.6 ha, the 3.4% share applies to the whole loss rather than native forest alone, and it says the event met 'criteria for deforestation'."
+ },
+ "raw": null,
+ "cost_usd": 0.009578
+}

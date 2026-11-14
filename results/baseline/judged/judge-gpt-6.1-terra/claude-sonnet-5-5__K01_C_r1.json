@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K01_C_r1.json",
+ "prompt_sha256": "55612936fd8d2d1db3300fb577777fca42a35f4b1d63762973f6df0eb2eb4bbd",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports the 2021 Hansen loss, asset share, corroboration, context, and evidentiary limits."
+ },
+ "raw": null,
+ "cost_usd": 0.002739
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G01_A_r2.json",
+ "prompt_sha256": "7983a4d25a55b8fb5dca204941f3c8247a02c43733e8b8d86782048a533e2411",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers 'no countable loss' after baseline, discloses the 0.4 ha sub-threshold loss, and treats pre-2021 losses as history. It does not claim no change occurred and notes the 0.5 ha minimum event size."
+ },
+ "raw": null,
+ "cost_usd": 0.014038
+}

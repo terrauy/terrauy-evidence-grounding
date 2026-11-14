@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J05_A_r1.json",
+ "prompt_sha256": "c47731674e80016d64c2aa64c7fd9cfd9512b7e18254df87aa5c840d79621a0b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer correctly says no contradiction, but its reasoning is wrong: it attributes the gap to differing definitions and thresholds, and misses that loss before the 2020 reference corroborates non-forest in 2020. That explanation is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.008286
+}

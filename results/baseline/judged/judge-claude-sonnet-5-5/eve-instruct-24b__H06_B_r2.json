@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H06_B_r2.json",
+ "prompt_sha256": "fc25e32b831edecb5642d53d4d189e327c9c8ab2ac9d158b164182cf4c1e651e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer denies regional forest loss, restricts findings to the asset boundary and 2021-2025, cites correct numbers, and notes resolution and threshold limits. Calling 67.7 ha 'minor' is loose but not a factual error."
+ },
+ "raw": null,
+ "cost_usd": 0.011318
+}

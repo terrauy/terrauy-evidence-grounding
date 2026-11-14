@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K01_C_r1.json",
+ "prompt_sha256": "55612936fd8d2d1db3300fb577777fca42a35f4b1d63762973f6df0eb2eb4bbd",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms 81.3 ha loss in 2021 (2.23%), corroborated by later years and JRC 98%; context figures match the facts; limits stated correctly; no unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.00822
+}

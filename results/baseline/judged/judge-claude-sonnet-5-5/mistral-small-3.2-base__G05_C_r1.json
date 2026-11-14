@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G05_C_r1.json",
+ "prompt_sha256": "453734bf2aafbb83e0ad21d419ce99965aae82238df22c9f73daffe1d9d23863",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the loss is not yet confirmed, because 2025 is the latest year and a later year is needed. It correctly reports 13.5 ha and the 98% JRC agreement, and lists what stays unknown."
+ },
+ "raw": null,
+ "cost_usd": 0.007864
+}

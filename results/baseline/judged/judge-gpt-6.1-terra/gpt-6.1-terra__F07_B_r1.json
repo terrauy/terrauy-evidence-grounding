@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F07_B_r1.json",
+ "prompt_sha256": "d2b70b330eb0bb4714b9a60184b27040db492ed41a65e1c6e7dd341dfc941eaa",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer presents Hansen\u2019s 2020 loss as evidence of tree cover before the loss, implying it answers the question, although JRC reports 0 ha of forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002757
+}

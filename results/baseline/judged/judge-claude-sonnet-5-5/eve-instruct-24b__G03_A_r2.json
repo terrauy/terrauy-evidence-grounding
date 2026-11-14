@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G03_A_r2.json",
+ "prompt_sha256": "c44c2dc1f747ad2c187adf3246a84bdb62986fd790cf2280878b45bc47ef9612",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer flatly states the property did not experience loss in 2024-2025, which is a definite absence claim rather than non-detection. It also misstates that the 0.3 ha and 1.3 ha patches are confirmed by JRC. It does mention the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.010682
+}

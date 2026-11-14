@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D05_C_r0.json",
+ "prompt_sha256": "aaa47aa97c407bec998ea03c2c5470199d926152b8374b0fcc21da30d85a4863",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports zero FIRMS detections with full sensor coverage, notes that small or cloud-obscured fires may be missed, and does not claim that no fire occurred. It stays within the period and scope."
+ },
+ "raw": null,
+ "cost_usd": 0.007104
+}

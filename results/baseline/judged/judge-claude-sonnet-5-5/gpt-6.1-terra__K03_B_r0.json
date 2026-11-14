@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K03_B_r0.json",
+ "prompt_sha256": "463570db5909eb0b4d3b12f27c7cde135fd304f9786ac56829c5e856852d58b6",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states zero FIRMS detections intersecting the property, all four sensors covering every day, and notes that undetected small or cloud-obscured fires remain possible. This matches the key and reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.006594
+}

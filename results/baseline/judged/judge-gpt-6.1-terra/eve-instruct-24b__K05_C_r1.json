@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K05_C_r1.json",
+ "prompt_sha256": "65a441a4c50172c96d82c93d0184a51b48d5ad6ff365021728e87cb9aa547535",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies 67.7 ha in 2020 and accurately states the post-baseline detection threshold and interval."
+ },
+ "raw": null,
+ "cost_usd": 0.002596
+}

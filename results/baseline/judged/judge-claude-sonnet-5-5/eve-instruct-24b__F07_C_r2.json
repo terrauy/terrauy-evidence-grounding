@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F07_C_r2.json",
+ "prompt_sha256": "4ae2d0f518abaac1bb08ebdbc917a1bddefbe7adddc75cadf614e8a55beb7d15",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly says JRC shows no forest in 2020. However it frames the 67.7 ha loss in 2020 as 'before 2020' and claims Hansen and JRC together confirm no remaining forest, calling JRC 'definitive' \u2013 unsupported. No limitations stated."
+ },
+ "raw": null,
+ "cost_usd": 0.008364
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H04_B_r1.json",
+ "prompt_sha256": "1c197f995c94142857962de07d72ca3d89bf27730a5549ad45187f0f5577c014",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer misstates 3.4% as a share of native forest, claims 0.6 ha was native forest, and asserts unsupported retention of most native forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002807
+}

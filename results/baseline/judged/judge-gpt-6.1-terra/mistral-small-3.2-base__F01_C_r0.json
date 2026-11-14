@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F01_C_r0.json",
+ "prompt_sha256": "207f0fc6f6a7790d0b678f4018718e4282c26a2a638fd52ca5417cd4dcc8052a",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes the 2021 loss to Hansen GFC, describes JRC corroboration, and states the 30-meter resolution."
+ },
+ "raw": null,
+ "cost_usd": 0.002757
+}

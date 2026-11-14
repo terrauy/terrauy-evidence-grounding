@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H01_B_r1.json",
+ "prompt_sha256": "cecc6f9bff63eb210d2c361fc3ee3c1051b2599b122d47fd65763d8cab6f86c3",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies with 81.3 ha/2.23%, but asserts 'clearing or harvesting happened' (cause/land-use implication) and claims 97.8% retained tree cover, which is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.013776
+}

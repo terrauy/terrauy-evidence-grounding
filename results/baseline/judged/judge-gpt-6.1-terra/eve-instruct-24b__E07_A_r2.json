@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E07_A_r2.json",
+ "prompt_sha256": "b0f93c547e5a514a226f9637dc39b7f047f3e0b3061f55bab7d3388949860ee2",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It definitively denies 2026 loss despite no 2026 data, and incorrectly calls the 2025 event corroborated when later-year corroboration is unavailable."
+ },
+ "raw": null,
+ "cost_usd": 0.002703
+}

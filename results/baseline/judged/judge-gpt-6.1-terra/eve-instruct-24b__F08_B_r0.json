@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F08_B_r0.json",
+ "prompt_sha256": "f00beef79bfa9d3832fe8d1cad7ae040c9fed8fe0fc523c6a9fe9fdbcda16623",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says yes to whether JRC shows the 2023 loss, although JRC only maps 2020 forest cover; Hansen detected the loss."
+ },
+ "raw": null,
+ "cost_usd": 0.002789
+}

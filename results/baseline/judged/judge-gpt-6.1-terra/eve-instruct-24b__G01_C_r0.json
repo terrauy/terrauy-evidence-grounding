@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G01_C_r0.json",
+ "prompt_sha256": "84f5f2d4b7871e753711418c3f8ba7262ddf0e43391d60cd92c4501836d845d9",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer categorically denies loss despite detected small patches, mischaracterizes the event threshold as a detection threshold, and claims no major changes were confirmed."
+ },
+ "raw": null,
+ "cost_usd": 0.002831
+}

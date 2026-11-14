@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B03_A_r1.json",
+ "prompt_sha256": "d40fb52ca7ba3a012b78c7a2d830af9accaf6ad255a8e736fdf263d60c149b0f",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer gives no cause beyond restating the tree-cover loss. It speculates 'likely natural or anthropogenic factors leading to deforestation or degradation', which is unsupported. It does not state that the cause is not established. The 'primarily native forest' framing is roughly consistent with the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.00928
+}

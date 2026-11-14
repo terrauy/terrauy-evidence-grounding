@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F05_B_r1.json",
+ "prompt_sha256": "9cee6beeae8bc1aecc98458ab84617a475608bf646661f61656622d0b3859856",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer explicitly attributes detection to Sentinel-2, contradicting the evidence, and asserts Landsat use, which is not stated in the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.002743
+}

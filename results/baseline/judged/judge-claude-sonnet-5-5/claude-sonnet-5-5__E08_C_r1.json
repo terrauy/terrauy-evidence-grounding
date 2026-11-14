@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E08_C_r1.json",
+ "prompt_sha256": "0092d1b561dbdecded35117afb63f4123a1a2f75335d7caeb1922dacbbafa44f",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 2026 is outside the 2001-2025 series so cannot be assessed, reports 2021-2025 no-detection with correct figures, and explicitly says it doesn't prove no change occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.007648
+}

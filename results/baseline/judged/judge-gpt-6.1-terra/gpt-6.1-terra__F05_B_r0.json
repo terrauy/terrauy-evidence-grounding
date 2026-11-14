@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F05_B_r0.json",
+ "prompt_sha256": "ca526e06334846c529edfee051cb3d850ebfb5c02c2906e66cd4ad880cb3ad02",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes loss detection to Hansen and notes Sentinel-2 is not identified, but does not give an explicit yes or no."
+ },
+ "raw": null,
+ "cost_usd": 0.002646
+}

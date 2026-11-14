@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G01_A_r1.json",
+ "prompt_sha256": "9f165d6061ee19bd9a97fbae183390950f50a2f61d2c519733609745f03a2c11",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer asserts no loss or further change despite acknowledging 0.4 ha of loss; non-detection of qualifying events does not establish no change."
+ },
+ "raw": null,
+ "cost_usd": 0.002853
+}

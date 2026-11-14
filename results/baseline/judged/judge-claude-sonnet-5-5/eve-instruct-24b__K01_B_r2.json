@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K01_B_r2.json",
+ "prompt_sha256": "542c6cf5b42d9e4d77cf0fd4fa8dbe9d6545af962a4639faadf0c730210d6c98",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 81.3 ha loss in 2021 (2.23%), with the breakdown and the JRC 98% agreement all matching the facts; notes that cause, legality and land-use change are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.020714
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E05_C_r1.json",
+ "prompt_sha256": "355804f9341ec6bb98fe4aed1dd3b915fbd75b2c2d13d6e89f7798df1071e8c0",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Declines to confirm for the full period, cites the S-NPP gap Nov 2-6, reports zero detections in covered days, and notes no detection does not prove no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.010058
+}

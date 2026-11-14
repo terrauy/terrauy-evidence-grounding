@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E05_B_r2.json",
+ "prompt_sha256": "b01d5964351df8fdd18c93cace1163f5021f93b11b3004f2b96f7e6073d09fed",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The gap affected VIIRS S-NPP only; the answer incorrectly implies all sensor data were unavailable during November 2\u20136."
+ },
+ "raw": null,
+ "cost_usd": 0.002549
+}

@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I03_A_r2.json",
+ "prompt_sha256": "699d0b1d02b0824cccd3a82492163132e9b6ef658c4091e326caf41f6f76606e",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms a 13.5 ha 2025 candidate from the current version, flags it as not yet corroborated, and makes no deforestation or persistence claim; the text is truncated."
+ },
+ "raw": null,
+ "cost_usd": 0.014012
+}

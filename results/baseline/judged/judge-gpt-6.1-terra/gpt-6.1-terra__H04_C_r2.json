@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H04_C_r2.json",
+ "prompt_sha256": "43f3d0c8783752ac9e97b98f64f4aab9c6dcbfc6b1149d6d7096a870309fa77b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports the loss areas and asset share, distinguishes smaller patches, and notes limits on cause and deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.002708
+}

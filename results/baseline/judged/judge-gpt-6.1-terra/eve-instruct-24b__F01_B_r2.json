@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F01_B_r2.json",
+ "prompt_sha256": "59f395d1a42e908e86f205c5d0b0c3a61bcb6fbdd6548e1b30d421d744a03677",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Hansen is correctly credited, but the answer labels the entire affected area planted forest, overlooking 13.2 ha outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002804
+}

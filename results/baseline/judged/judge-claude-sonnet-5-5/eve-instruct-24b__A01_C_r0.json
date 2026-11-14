@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A01_C_r0.json",
+ "prompt_sha256": "f77e2709e33e305543131855af8b262c1a51780b1e7f63eaba18e74f665867be",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms corroborated 81.3 ha loss in 2021 and says deforestation is not confirmed; harvesting only hedged as a possible cause. The claim that the planted context 'reduces likelihood of deforestation' is an unsupported inference, and 'detected by multiple sources' is slightly loose."
+ },
+ "raw": null,
+ "cost_usd": 0.009766
+}

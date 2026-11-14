@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B07_A_r1.json",
+ "prompt_sha256": "6b3870d12a6428336e3304cb9c91f24d329a39731117ee6fd0cec195d2475431",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the data gives no direct evidence of storm cause and names logging or disease only as possibilities needing investigation. Its figures (4.5 ha, planted Pinus species, no native forest) match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008994
+}

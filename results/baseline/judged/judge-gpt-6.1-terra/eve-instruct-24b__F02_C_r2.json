@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F02_C_r2.json",
+ "prompt_sha256": "51d07e63dda0db4c8b0cebefecd6679527cf98d033d894078c546199a5c500d3",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Correctly attributes the plantation classification to MGAP, but falsely says all 81.3 ha were mapped as planted forest; 13.2 ha were outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002762
+}

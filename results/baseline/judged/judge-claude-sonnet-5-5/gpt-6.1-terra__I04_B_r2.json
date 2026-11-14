@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/I04_B_r2.json",
+ "prompt_sha256": "e37300d5e51743c33b6db63215fb454f8b67bb7e1204d10ffa1c59b8d17d1301",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says the June 2025 statement is not valid as a current statement, cites the 13.5 ha 2025 candidate as pending corroboration, and disclaims deforestation. The 2021\u20132024 scope is respected. It does not explicitly say 'superseded' but implies an update."
+ },
+ "raw": null,
+ "cost_usd": 0.01114
+}

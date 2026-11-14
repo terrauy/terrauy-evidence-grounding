@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D03_B_r2.json",
+ "prompt_sha256": "929f67fa1c16ff124043c1b3c263f2aeadf2549ad0e18c315b593d86372683fd",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer calls the asset 'likely deforestation-free' and says it 'meets the threshold', which is a compliance-style finding. It also reads JRC 0 ha as 'confirms no forest present', which overstates the evidence. It does note the detection limits."
+ },
+ "raw": null,
+ "cost_usd": 0.007948
+}

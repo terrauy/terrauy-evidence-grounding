@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I02_A_r2.json",
+ "prompt_sha256": "2dc286ebbe21bd2815b707c11114d8d5be54cf81c59a8f997cfd4e1be9b0d39a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": false,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer affirms loss as confirmed, claiming JRC shows 100% forest in the loss area, which inverts the facts (JRC agreement 0.0, non-forest). It ignores the v2 contradicted status and misreads corroboration."
+ },
+ "raw": null,
+ "cost_usd": 0.012676
+}

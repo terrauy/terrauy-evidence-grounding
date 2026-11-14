@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G03_C_r2.json",
+ "prompt_sha256": "7b332b5c42e7b1a3af8ba717fa35e676784714006ccbc35677ba87074829046d",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says no loss reported in 2024-2025 and that absence is not proof; events only 2021\u20132023. This matches NOT_DETECTED. The opening phrasing is strong but is qualified by the caveat."
+ },
+ "raw": null,
+ "cost_usd": 0.010266
+}

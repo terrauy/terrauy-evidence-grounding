@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F01_B_r1.json",
+ "prompt_sha256": "bb800b9a5523e2198729c3030db7b84e67fffaa1f08a3edbf526cabef8c243af",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes detection to Hansen GFC, with JRC as corroboration and MGAP as context; notes cause and legality are not established. Minor overstatement that MGAP confirmed planted forest."
+ },
+ "raw": null,
+ "cost_usd": 0.010526
+}

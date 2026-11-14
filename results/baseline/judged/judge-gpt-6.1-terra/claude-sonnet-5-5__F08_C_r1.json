@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F08_C_r1.json",
+ "prompt_sha256": "ddf68a286735835611c432fefd0801bdab4e5eca5b2d77b89159afcdc2b18aca",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Despite opening with 'Partly,' the answer explicitly denies that JRC shows the loss and correctly attributes the 2023 loss to Hansen/UMD."
+ },
+ "raw": null,
+ "cost_usd": 0.002869
+}

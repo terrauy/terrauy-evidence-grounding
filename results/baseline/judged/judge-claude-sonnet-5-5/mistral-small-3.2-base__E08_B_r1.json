@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E08_B_r1.json",
+ "prompt_sha256": "878b6ce651c6fba4edcea97d0da80e9648bfefaa007879839ef7d8b2e97e8aa9",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says no change was detected 'in 2026', though evidence ends in 2025, so it fails to state that 2026 is unobserved. It does note the 0.5 ha limit. It does not abstain."
+ },
+ "raw": null,
+ "cost_usd": 0.007366
+}

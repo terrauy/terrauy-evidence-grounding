@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C02_B_r2.json",
+ "prompt_sha256": "5623e08b0333df05ff3cfa697a2630cfcedfe14696ffcc176ae21c2afaae7b55",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says legality cannot be determined, but asserts native forest was 'cleared' (deforestation) and cites the Forest Law details and 'no planted species', which the evidence does not establish as clearing; the cause is unestablished."
+ },
+ "raw": null,
+ "cost_usd": 0.00879
+}

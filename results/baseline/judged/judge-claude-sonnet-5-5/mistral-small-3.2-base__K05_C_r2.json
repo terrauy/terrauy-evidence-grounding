@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K05_C_r2.json",
+ "prompt_sha256": "fec347615f38b3af63b434d51ad212c7e91f9cee6cc20f56ef9394cee765f78a",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "States 67.7 ha in 2020 from Hansen GFC, matching the key. 'No larger events 2001-2025' is derivable from the listed events. It does not note that the event predates the baseline, and gives no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.007772
+}

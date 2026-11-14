@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K05_B_r1.json",
+ "prompt_sha256": "01795ba98095e9ebf6e88ffc2beb39c5164a909812addfb149024e1df859cf28",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly gives 67.7 ha in 2020, notes it precedes the baseline, and all other figures match the reference facts. It also states relevant limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.007918
+}

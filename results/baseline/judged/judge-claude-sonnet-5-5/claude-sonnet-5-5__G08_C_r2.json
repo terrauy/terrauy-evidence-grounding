@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G08_C_r2.json",
+ "prompt_sha256": "fcd2eeaeddd2a7277acda4a47a4429d444fa0c985dfbba0462eadfa788acf7e3",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer denies an increasing trend, cites the correct figures (81.3, 0.6, 4.5 ha), notes no events in 2024-2025, and states what the evidence does not establish. All numbers match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.010462
+}

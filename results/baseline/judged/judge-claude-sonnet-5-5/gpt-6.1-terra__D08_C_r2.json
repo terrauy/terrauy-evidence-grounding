@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D08_C_r2.json",
+ "prompt_sha256": "28cd15e8802df085c7a83b27af0b8e3648bd2a01bd52c5f3d1608dbc1a1bc9f9",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states non-detection of events of at least 0.5 ha for 2021-2025 across the whole asset, notes 0.4 ha sub-threshold loss and missed small changes, and disclaims any compliance finding."
+ },
+ "raw": null,
+ "cost_usd": 0.008694
+}

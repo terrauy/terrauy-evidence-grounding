@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J04_C_r2.json",
+ "prompt_sha256": "714943ba1c4782f4fe4f121a2474b4704097d58d9f55d191a6e5b36f7e04ed97",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies all supported post-baseline events, excludes earlier contradicted events, and notes evidence limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.003638
+}

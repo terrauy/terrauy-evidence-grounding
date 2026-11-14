@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H06_C_r1.json",
+ "prompt_sha256": "ea26ad2eed39f025af6a7b617da998674184dd26f75b73861f5e8c4ffebfdfc5",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says No: the evidence covers only the asset boundary and cannot speak to the surrounding region. Its figures match the reference facts and it states the relevant limits."
+ },
+ "raw": null,
+ "cost_usd": 0.00815
+}

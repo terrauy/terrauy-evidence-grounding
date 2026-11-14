@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E01_B_r0.json",
+ "prompt_sha256": "2939d56ed9ae6b376017bde2bb653b26d307a1ffbf82c67156177d5d35ccec0d",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says it cannot be determined because coverage is missing and explicitly says this does not mean no loss occurred. It mentions 'determine compliance' only as something further work would need, not as a compliance finding."
+ },
+ "raw": null,
+ "cost_usd": 0.007146
+}

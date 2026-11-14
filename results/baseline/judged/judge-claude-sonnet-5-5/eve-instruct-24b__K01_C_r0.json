@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K01_C_r0.json",
+ "prompt_sha256": "41bc613b8a01e3ccd79753e4990ba3c93129c5900b554aabcc4a0d7dac7384e7",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms 81.3 ha (2.23%) loss in 2021, corroborated by later year and JRC; planted pine context is supported by MGAP facts. It notes cause and legality are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.007976
+}

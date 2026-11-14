@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J04_C_r1.json",
+ "prompt_sha256": "48fe2d1216a7933a125e0a886741512db458238e7baa204fa02c6ffd0d23cbe2",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly lists 2021, 2022 and 2023 events as supported and none contradicted post-baseline. Pre-baseline contradicted years are explicitly labeled as before the baseline, not post-2020. It also notes the evidence does not establish cause, legality or responsibility."
+ },
+ "raw": null,
+ "cost_usd": 0.010508
+}

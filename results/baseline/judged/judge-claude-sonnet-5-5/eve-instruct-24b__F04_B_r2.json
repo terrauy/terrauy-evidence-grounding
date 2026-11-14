@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F04_B_r2.json",
+ "prompt_sha256": "b540b2de11134b5d4ea874b5761385d79a1de82e6c543b85c9db760660974051",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly names MGAP 2021 map with accurate numbers (13.1, 0.4, 0.0 ha); JRC cited only as supporting forest presence, not native classification. Notes cause unspecified. Does not explicitly flag that it is a 2021 map, not a 2025 observation, but labels it 2021."
+ },
+ "raw": null,
+ "cost_usd": 0.00827
+}

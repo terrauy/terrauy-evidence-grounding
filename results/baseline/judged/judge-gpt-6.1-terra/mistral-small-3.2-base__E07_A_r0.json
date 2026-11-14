@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E07_A_r0.json",
+ "prompt_sha256": "667e2f9aea3fda28682ec742225bf9f0214a93711dea7eb0f2bf82f5cbb84812",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer asserts no loss and no detection in 2026, although the series ends in 2025 and cannot support either conclusion."
+ },
+ "raw": null,
+ "cost_usd": 0.002647
+}

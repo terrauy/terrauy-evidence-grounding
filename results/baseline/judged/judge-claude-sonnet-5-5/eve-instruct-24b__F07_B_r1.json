@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F07_B_r1.json",
+ "prompt_sha256": "a945a1a6c99ccf895a4e1c0f093f4b0c1da62ae1bd6c090c4db7debc88cab49d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly says JRC shows 0 ha forest in 2020. However, it infers that the forest was 'largely cleared by end of year' from the 67.7 ha Hansen 2020 loss, which is an unsupported causal inference. It also says 'before 2020' while including 2020 itself. No limitations are stated."
+ },
+ "raw": null,
+ "cost_usd": 0.008518
+}

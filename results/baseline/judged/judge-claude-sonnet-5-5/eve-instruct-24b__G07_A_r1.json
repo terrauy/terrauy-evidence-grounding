@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G07_A_r1.json",
+ "prompt_sha256": "fd1df37035909d99bfff7273c680431355e60a612c3379ec52ba4f7c2f41637a",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer opens with a flat 'No, did not lose tree cover' although 0.7 ha of sub-threshold loss was recorded in 2024, which contradicts the key. It does mention the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.00826
+}

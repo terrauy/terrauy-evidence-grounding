@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I01_B_r2.json",
+ "prompt_sha256": "c8341f055483f1f421e3f333bf333835bf6b0fe10e31b7433789031377f44ccc",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly affirms current corroboration, but implies all loss occurred in planted forest; 0.2 ha was outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.004234
+}

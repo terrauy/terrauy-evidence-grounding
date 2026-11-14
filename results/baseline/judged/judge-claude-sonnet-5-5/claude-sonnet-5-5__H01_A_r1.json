@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H01_A_r1.json",
+ "prompt_sha256": "791415a749f75aa0f35a9349948881d79fca580c60cad2ca02f5928053f71c1a",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies with 81.3 ha/2.23%, but says 'cleared' and attributes the loss to plantation harvest (hedged), implying land-use change/clearing; the 118.6 ha total is derived but the harvest cause is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.008828
+}

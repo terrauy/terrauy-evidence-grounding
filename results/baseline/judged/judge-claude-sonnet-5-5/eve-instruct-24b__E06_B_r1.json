@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E06_B_r1.json",
+ "prompt_sha256": "a945e174b9dac6494035eb15946961ec1a604257e9019f2aff941e6282e81f5a",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports no detections in covered days, flags the uncovered 2026-11-03 to 11-04 gap, notes small fires may be missed, and declines a definitive fire-free conclusion. It does not claim no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.009262
+}

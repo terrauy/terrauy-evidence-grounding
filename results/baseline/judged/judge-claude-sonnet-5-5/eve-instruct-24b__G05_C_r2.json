@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G05_C_r2.json",
+ "prompt_sha256": "fa4a0d7f5809c8047dd200d7e3dc8061de244c05bf3e066b8e54cdd1886313d9",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No: 2025 is the latest year so persistence cannot be established; it matches the key. Minor gloss on regrowth is reasonable and not a factual error."
+ },
+ "raw": null,
+ "cost_usd": 0.007734
+}

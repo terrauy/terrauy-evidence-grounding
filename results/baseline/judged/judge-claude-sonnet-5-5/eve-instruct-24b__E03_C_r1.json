@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E03_C_r1.json",
+ "prompt_sha256": "3765692032ec4172bff12b9edd5d737d68d6b9c495a4711a32cc46e16ba7be7a",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no observation was made because coverage was missing, so neither loss nor its absence is established. It makes no compliance claim. It lists Hansen and JRC as unavailable, which matches the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.007202
+}

@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D02_A_r0.json",
+ "prompt_sha256": "c97401fd7bf93b915f36f05e4557936709987a7296292eb7bd063e6bfc8e3ddf",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer incorrectly asserts that no 2021\u20132025 loss result was returned; the evidence explicitly reports no detected event of at least 0.5 ha."
+ },
+ "raw": null,
+ "cost_usd": 0.002605
+}

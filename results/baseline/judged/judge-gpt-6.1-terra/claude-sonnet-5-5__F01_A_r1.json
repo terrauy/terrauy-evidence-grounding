@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F01_A_r1.json",
+ "prompt_sha256": "c714de9193406d96ad6960220db248c856cb0334e7093870a6ebc090005aba57",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes detection to Hansen and distinguishes JRC corroboration and MGAP context; reports the event-area threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002844
+}

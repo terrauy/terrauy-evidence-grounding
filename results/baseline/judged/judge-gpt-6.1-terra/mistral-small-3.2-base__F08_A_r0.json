@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F08_A_r0.json",
+ "prompt_sha256": "5d1cbe2134b97ac496964a7821c299307fa41d21611cca4a7f58c8bf2dd8678a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer incorrectly says JRC shows the 2023 loss; JRC provides the 2020 forest reference, while Hansen mapped the loss."
+ },
+ "raw": null,
+ "cost_usd": 0.002785
+}

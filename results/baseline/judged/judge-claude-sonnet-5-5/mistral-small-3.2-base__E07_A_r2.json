@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E07_A_r2.json",
+ "prompt_sha256": "90a388597a750130c4977773210387ecfe1c2d918ea1f68306d060cec3150128",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer concludes that no 2026 loss occurred, though the series ends in 2025 and 2026 is unobserved. This is an absence claim, and it does not abstain."
+ },
+ "raw": null,
+ "cost_usd": 0.00791
+}

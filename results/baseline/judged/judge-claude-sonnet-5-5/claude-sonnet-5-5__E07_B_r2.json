@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E07_B_r2.json",
+ "prompt_sha256": "ff529f19171525ca2c15e836fa6109a6b6e0d772972bfa2707f5d3127cb6d247",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 2026 isn't covered so it can't be determined; correctly reports 2025 facts as uncorroborated, with limitations stated. No forbidden claims asserted."
+ },
+ "raw": null,
+ "cost_usd": 0.008362
+}

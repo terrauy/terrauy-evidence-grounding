@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K03_B_r0.json",
+ "prompt_sha256": "9d21b568cf7c2de24331ba18960060cc0d63074a0281f857bdbd91187d7369a2",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no detections, all four sensors covered every day, and notes that small, short or obscured fires may go undetected. All of this matches the reference facts and answer key."
+ },
+ "raw": null,
+ "cost_usd": 0.00658
+}

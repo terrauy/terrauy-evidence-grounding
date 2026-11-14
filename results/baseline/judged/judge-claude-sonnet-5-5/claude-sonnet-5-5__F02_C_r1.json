@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F02_C_r1.json",
+ "prompt_sha256": "39db1ab610e506d1113b6ee3f1429e9963fcfee26187830421fa1028f2d3940e",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly names MGAP 2021 with accurate figures (68.1/81.3 \u2248 84%), states Hansen and JRC do not identify forest type, and notes that cause is not established."
+ },
+ "raw": null,
+ "cost_usd": 0.01028
+}

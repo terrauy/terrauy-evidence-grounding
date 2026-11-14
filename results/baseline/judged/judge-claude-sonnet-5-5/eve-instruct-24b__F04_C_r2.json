@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F04_C_r2.json",
+ "prompt_sha256": "df2ed493c4b14826a2a9d26d25f0282414552d7f7686cd231eb106af514976de",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly names MGAP 2021 as the native-forest source with correct figures; Hansen and JRC are credited only with loss and forest-in-2020. It notes the event is uncorroborated. It does not explicitly say the map is from 2021 rather than 2025, though the year is named."
+ },
+ "raw": null,
+ "cost_usd": 0.008194
+}

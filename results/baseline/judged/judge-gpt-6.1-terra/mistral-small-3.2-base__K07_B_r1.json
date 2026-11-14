@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K07_B_r1.json",
+ "prompt_sha256": "b0830361adc5220e22a5ebedd714b51d2827ecdfc44e708ab10801a8ecdb97a1",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly says the property could not be evaluated because coverage was unavailable, and identifies the resulting limits on conclusions."
+ },
+ "raw": null,
+ "cost_usd": 0.001881
+}

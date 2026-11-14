@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J04_A_r1.json",
+ "prompt_sha256": "e129c013e15e0f56d1716a31d059acc9d7e3ab291aa30421c956fdcab07889ea",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly lists 2021, 2022, 2023 as supported with correct areas and agreement figures, says no contradictions, and notes the sub-0.5 ha exclusion. It does not list pre-baseline events as post-2020."
+ },
+ "raw": null,
+ "cost_usd": 0.010496
+}

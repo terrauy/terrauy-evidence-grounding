@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G01_C_r1.json",
+ "prompt_sha256": "7858c25700bf32bd7a0044c195284c1fdd963fb04d35c7471bb2c5a6d7bf1f6b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer concludes 'the property has not lost tree cover since 2021', an absence claim that non-detection does not support. It acknowledges the 0.5 ha threshold but does not state that sub-threshold changes may be missed."
+ },
+ "raw": null,
+ "cost_usd": 0.00835
+}

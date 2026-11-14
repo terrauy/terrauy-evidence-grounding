@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H05_C_r1.json",
+ "prompt_sha256": "062e28420cb642c6264ea58156beccd9b4855523c1ffa265ce73f88f5178f088",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says 'Yes, forest was cleared', but the evidence only shows 0.7 ha tree-cover loss and does not establish clearing or deforestation. It also overstates corroboration as 'multiple sources'. It does note that cause and legality are unspecified."
+ },
+ "raw": null,
+ "cost_usd": 0.008628
+}

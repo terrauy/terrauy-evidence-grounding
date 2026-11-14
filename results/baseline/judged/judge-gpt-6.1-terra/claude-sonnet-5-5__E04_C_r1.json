@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E04_C_r1.json",
+ "prompt_sha256": "d27bc41897df787a17d64815c43134231db1f38c448d515f513152494a627eb4",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly abstains and notes coverage and detection limits, but asserts without support that later publication would close the coverage gap."
+ },
+ "raw": null,
+ "cost_usd": 0.002995
+}

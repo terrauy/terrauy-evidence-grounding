@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D04_A_r2.json",
+ "prompt_sha256": "f36365d260858bae8d42bfddcd2f526c7b4898f23e48e8665b9debc147d7d1a0",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer affirms tree cutting and deforestation after 2020, contradicting the NOT_DETECTED status. It invents an inference from the 2000 and 2020 data, claims corroboration, and gives no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.008034
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K03_C_r1.json",
+ "prompt_sha256": "b9b19f10bc4430332619abd2bc27baf2fc2c8af453e6d425b8b5ec41aafe2e02",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports zero FIRMS detections intersecting the asset from 2026-09-26 to 2026-10-26 and notes that undetected small, short, cool or cloud-obscured fires remain possible. It does not state that all sensors covered every day, but nothing it says contradicts the key."
+ },
+ "raw": null,
+ "cost_usd": 0.00697
+}

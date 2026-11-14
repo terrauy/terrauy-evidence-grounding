@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F03_C_r0.json",
+ "prompt_sha256": "d8df8444695e8a364e28ece1bf06ecbf16b012fc2480750731889125fff46c4e",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer cites JRC GFC2020 at 98% agreement plus later year observed; MGAP is presented only as context, not as corroboration of loss. Numbers match the facts, and limits on cause, legality and responsibility are stated."
+ },
+ "raw": null,
+ "cost_usd": 0.00849
+}

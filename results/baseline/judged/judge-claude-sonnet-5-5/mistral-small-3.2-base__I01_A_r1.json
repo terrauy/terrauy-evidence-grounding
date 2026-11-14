@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I01_A_r1.json",
+ "prompt_sha256": "32371d4c67391e4eaffc9ad63a905e75b565d805937d9026d91c452314e1e79e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": false,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Affirms confirmed 4.5 ha loss but cites superseded GFC-2023-v1.11 (v1) as source; wrongly says JRC agrees on loss (it only shows forest at 2020), and says 'within' the minimum threshold. No deforestation claim; no limitations stated."
+ },
+ "raw": null,
+ "cost_usd": 0.012494
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F08_C_r1.json",
+ "prompt_sha256": "aa19d18664f0ede26e10888a6d5da1b9eac6fb4bee4d6d7b93ad4a4584d2e5c5",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The opening yes implies JRC shows the 2023 loss, despite correctly attributing detection to Hansen. Later observation is not evidence of independent confirmation."
+ },
+ "raw": null,
+ "cost_usd": 0.002754
+}

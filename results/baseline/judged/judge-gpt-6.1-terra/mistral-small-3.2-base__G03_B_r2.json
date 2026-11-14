@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G03_B_r2.json",
+ "prompt_sha256": "5f1ba95efa6a17e107b44a9c8d67cd281dca2838df64787ad78a0a311c8a9847",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer correctly reports earlier events but asserts no loss occurred in 2024\u20132025, exceeding the evidence of non-detection."
+ },
+ "raw": null,
+ "cost_usd": 0.003628
+}

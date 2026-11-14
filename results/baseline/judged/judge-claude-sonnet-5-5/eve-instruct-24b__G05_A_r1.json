@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G05_A_r1.json",
+ "prompt_sha256": "f32c4a24f4e6d8dc8ca4dae458c39f679c40009b2278f648a85cea97e65ea9c1",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly says no later-year observation so persistence unconfirmed, but wrongly claims the event is validated by the corroboration rule, which requires a later year; status is pending."
+ },
+ "raw": null,
+ "cost_usd": 0.011068
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E06_A_r0.json",
+ "prompt_sha256": "5c895942142d3ffcff72fd0637d5e34ad77000d3f4047e937b8fdb9972017b9a",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says 'Yes, stayed free of fires' for the whole period, ignoring that Nov 3-4 was uncovered by all sensors and that non-detection is not proof of absence; it also misstates the gap as partial."
+ },
+ "raw": null,
+ "cost_usd": 0.009118
+}

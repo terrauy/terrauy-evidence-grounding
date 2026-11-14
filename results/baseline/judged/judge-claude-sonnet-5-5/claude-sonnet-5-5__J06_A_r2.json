@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J06_A_r2.json",
+ "prompt_sha256": "8d65e9a085b41cce125bac8c897eff5ca1f4f3c5c7baf6ef9bc4fcb4e6016a60",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Gives a definite 'No' to deforestation, omits the JRC non-corroboration and any limitation; figures match the reference facts. It does not assert loss or its absence."
+ },
+ "raw": null,
+ "cost_usd": 0.013636
+}

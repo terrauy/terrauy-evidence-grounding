@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E04_B_r1.json",
+ "prompt_sha256": "4e0c05b1ff8ff62a876b9541d908c2fe69b49856f3d845809678bf6aca88eea1",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no detections in covered days, notes the missing last day and that small or cloud-obscured fires may be missed. It never concludes that no fire occurred, but it does not clearly say the full period cannot be concluded. It leads with 'No fire was detected', which is not an explicit abstention."
+ },
+ "raw": null,
+ "cost_usd": 0.009166
+}

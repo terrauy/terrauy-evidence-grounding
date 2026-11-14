@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K06_C_r0.json",
+ "prompt_sha256": "e1e0b07d5dad64e09b481412ce11fb0a712a0a2e7650d018c53b82b5c2686886",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms corroboration with JRC agreement 100% of 0.6 ha event area and later year observed; correctly notes it doesn't establish cause, legality, or deforestation. No unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.007876
+}

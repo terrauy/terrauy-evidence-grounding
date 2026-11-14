@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B07_C_r1.json",
+ "prompt_sha256": "76590e88fbb34741db5b735ad7fcafb8ca004986069d238010dcd8dc8a4aaf44",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly says cause not established and storm unconfirmed. Minor overstatement: claims MGAP maps 'confirm' the loss (MGAP gives only forest-type context), so slight unsupported attribution."
+ },
+ "raw": null,
+ "cost_usd": 0.009082
+}

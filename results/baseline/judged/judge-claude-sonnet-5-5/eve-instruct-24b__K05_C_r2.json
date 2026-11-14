@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K05_C_r2.json",
+ "prompt_sha256": "d3378df5466f43515301dcfd850bb7b79420c57542c673d8a0e8d8e8de64355c",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly gives 67.7 ha in 2020, before baseline; the 25.5 ha in 2015 and 0.4 ha in 2021 are supported. It mentions the 0.5 ha detection threshold. The 'ensuring robust detection' remark is mild embellishment."
+ },
+ "raw": null,
+ "cost_usd": 0.008174
+}

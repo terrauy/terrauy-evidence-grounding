@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K02_A_r0.json",
+ "prompt_sha256": "3842d198182a42ff1a8c02cdfa098e7a35fe9ee8d6162d58fc4cb318c6906e8a",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer says no loss after 2020, contradicting the 13.5 ha candidate in 2025. It wrongly treats 2025 as outside the 2021-2025 window and claims no events were detected, and it gives no corroboration caveat."
+ },
+ "raw": null,
+ "cost_usd": 0.007402
+}

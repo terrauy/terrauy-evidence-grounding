@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K05_A_r1.json",
+ "prompt_sha256": "479cbf8a3700da968552865953794400382cbf6f004a5c770eea445aad552710",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly identifies the 67.7 ha loss in 2020; the additional dataset observations are supported."
+ },
+ "raw": null,
+ "cost_usd": 0.002623
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G06_C_r0.json",
+ "prompt_sha256": "cf8cbae5f935e469c8c5e075aa34c12cd56aee779eacb56b2d75a75175ca9c2b",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the evidence cannot determine the earlier period, notes the evidence covers Oct 4 to Nov 3, and says no detections do not rule out fires. It makes no claim about the days before the period."
+ },
+ "raw": null,
+ "cost_usd": 0.007328
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K01_A_r2.json",
+ "prompt_sha256": "c39a236bc5dfc787a30dd25829ad4ca769e949ba58a97a08937614b906d52939",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 81.3 ha (2.23%) in 2021, corroborated by JRC 98%; planted pine detail and 37.3 ha sub-threshold patches match the facts. Minor attribution of exclusion to Hansen rather than the method."
+ },
+ "raw": null,
+ "cost_usd": 0.010692
+}

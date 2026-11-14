@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G04_A_r1.json",
+ "prompt_sha256": "82de6d3f9a7c852d3fc6804bbe15a8789b34e2a2001ecfc88394c67898e9c0b0",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It definitively denies current clearing, treats 2021 loss as clearing, and invents an absence of subsequent activity; the evidence ends in 2025."
+ },
+ "raw": null,
+ "cost_usd": 0.002941
+}

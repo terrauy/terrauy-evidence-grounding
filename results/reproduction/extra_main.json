@@ -1,0 +1,2153 @@
+{
+ "note": "EXPLORATORY analyses; the preregistered verdict is in summary_<tag>.json",
+ "per_model": {
+  "claude-sonnet-5-5": {
+   "rates": {
+    "A": {
+     "uc": 0.378,
+     "cv": 0.102,
+     "ocr": 0.183,
+     "source_ok": 0.958,
+     "scope_ok": 0.976,
+     "version_ok": 1.0,
+     "abstention_ok": 0.774,
+     "factual_ok": 0.872,
+     "limitation": 0.909,
+     "uc_ci95": [
+      0.32,
+      0.44
+     ],
+     "n": 246
+    },
+    "B": {
+     "uc": 0.02,
+     "cv": 0.004,
+     "ocr": 0.0,
+     "source_ok": 1.0,
+     "scope_ok": 1.0,
+     "version_ok": 1.0,
+     "abstention_ok": 0.758,
+     "factual_ok": 1.0,
+     "limitation": 1.0,
+     "uc_ci95": [
+      0.009,
+      0.047
+     ],
+     "n": 246
+    },
+    "C": {
+     "uc": 0.041,
+     "cv": 0.0,
+     "ocr": 0.0,
+     "source_ok": 1.0,
+     "scope_ok": 1.0,
+     "version_ok": 1.0,
+     "abstention_ok": 0.759,
+     "factual_ok": 1.0,
+     "limitation": 1.0,
+     "uc_ci95": [
+      0.022,
+      0.073
+     ],
+     "n": 246
+    }
+   },
+   "C_vs_B": {
+    "abs_reduction": -0.02,
+    "abs_ci95": [
+     -0.057,
+     0.016
+    ],
+    "rel_reduction": -1.0,
+    "rel_ci95": [
+     -10.0,
+     0.429
+    ],
+    "n_pairs": 246,
+    "b": 5,
+    "c": 10,
+    "p": 0.3017578125
+   },
+   "C_vs_A": {
+    "abs_reduction": 0.337,
+    "abs_ci95": [
+     0.26,
+     0.419
+    ],
+    "rel_reduction": 0.892,
+    "rel_ci95": [
+     0.822,
+     0.956
+    ],
+    "n_pairs": 246,
+    "b": 84,
+    "c": 1,
+    "p": 4.446095792472524e-24
+   },
+   "B_vs_A": {
+    "abs_reduction": 0.358,
+    "abs_ci95": [
+     0.272,
+     0.447
+    ],
+    "rel_reduction": 0.946,
+    "rel_ci95": [
+     0.883,
+     0.99
+    ],
+    "n_pairs": 246,
+    "b": 90,
+    "c": 2,
+    "p": 1.7282743364816433e-24
+   }
+  },
+  "eve-instruct-24b": {
+   "rates": {
+    "A": {
+     "uc": 0.797,
+     "cv": 0.528,
+     "ocr": 0.632,
+     "source_ok": 0.625,
+     "scope_ok": 0.69,
+     "version_ok": 0.833,
+     "abstention_ok": 0.921,
+     "factual_ok": 0.317,
+     "limitation": 0.613,
+     "uc_ci95": [
+      0.742,
+      0.842
+     ],
+     "n": 246
+    },
+    "B": {
+     "uc": 0.427,
+     "cv": 0.171,
+     "ocr": 0.276,
+     "source_ok": 0.583,
+     "scope_ok": 0.786,
+     "version_ok": 1.0,
+     "abstention_ok": 0.833,
+     "factual_ok": 0.738,
+     "limitation": 0.926,
+     "uc_ci95": [
+      0.367,
+      0.489
+     ],
+     "n": 246
+    },
+    "C": {
+     "uc": 0.484,
+     "cv": 0.191,
+     "ocr": 0.368,
+     "source_ok": 0.625,
+     "scope_ok": 0.643,
+     "version_ok": 1.0,
+     "abstention_ok": 0.798,
+     "factual_ok": 0.713,
+     "limitation": 0.896,
+     "uc_ci95": [
+      0.422,
+      0.546
+     ],
+     "n": 246
+    }
+   },
+   "C_vs_B": {
+    "abs_reduction": -0.057,
+    "abs_ci95": [
+     -0.142,
+     0.033
+    ],
+    "rel_reduction": -0.133,
+    "rel_ci95": [
+     -0.374,
+     0.065
+    ],
+    "n_pairs": 246,
+    "b": 30,
+    "c": 44,
+    "p": 0.13017768031912763
+   },
+   "C_vs_A": {
+    "abs_reduction": 0.313,
+    "abs_ci95": [
+     0.22,
+     0.407
+    ],
+    "rel_reduction": 0.393,
+    "rel_ci95": [
+     0.284,
+     0.503
+    ],
+    "n_pairs": 246,
+    "b": 89,
+    "c": 12,
+    "p": 1.0827214347884686e-15
+   },
+   "B_vs_A": {
+    "abs_reduction": 0.37,
+    "abs_ci95": [
+     0.285,
+     0.455
+    ],
+    "rel_reduction": 0.464,
+    "rel_ci95": [
+     0.365,
+     0.563
+    ],
+    "n_pairs": 246,
+    "b": 97,
+    "c": 6,
+    "p": 3.0015862863275967e-22
+   }
+  },
+  "gpt-6.1-terra": {
+   "rates": {
+    "A": {
+     "uc": 0.13,
+     "cv": 0.057,
+     "ocr": 0.145,
+     "source_ok": 0.958,
+     "scope_ok": 0.929,
+     "version_ok": 1.0,
+     "abstention_ok": 0.761,
+     "factual_ok": 0.896,
+     "limitation": 0.939,
+     "uc_ci95": [
+      0.094,
+      0.178
+     ],
+     "n": 246
+    },
+    "B": {
+     "uc": 0.008,
+     "cv": 0.0,
+     "ocr": 0.0,
+     "source_ok": 0.917,
+     "scope_ok": 1.0,
+     "version_ok": 1.0,
+     "abstention_ok": 0.757,
+     "factual_ok": 0.992,
+     "limitation": 0.959,
+     "uc_ci95": [
+      0.002,
+      0.029
+     ],
+     "n": 246
+    },
+    "C": {
+     "uc": 0.0,
+     "cv": 0.0,
+     "ocr": 0.0,
+     "source_ok": 1.0,
+     "scope_ok": 1.0,
+     "version_ok": 1.0,
+     "abstention_ok": 0.745,
+     "factual_ok": 1.0,
+     "limitation": 0.972,
+     "uc_ci95": [
+      0.0,
+      0.015
+     ],
+     "n": 246
+    }
+   },
+   "C_vs_B": {
+    "abs_reduction": 0.008,
+    "abs_ci95": [
+     0.0,
+     0.024
+    ],
+    "rel_reduction": 1.0,
+    "rel_ci95": [
+     1.0,
+     1.0
+    ],
+    "n_pairs": 246,
+    "b": 2,
+    "c": 0,
+    "p": 0.5
+   },
+   "C_vs_A": {
+    "abs_reduction": 0.13,
+    "abs_ci95": [
+     0.073,
+     0.199
+    ],
+    "rel_reduction": 1.0,
+    "rel_ci95": [
+     1.0,
+     1.0
+    ],
+    "n_pairs": 246,
+    "b": 32,
+    "c": 0,
+    "p": 4.656612873077393e-10
+   },
+   "B_vs_A": {
+    "abs_reduction": 0.122,
+    "abs_ci95": [
+     0.057,
+     0.195
+    ],
+    "rel_reduction": 0.938,
+    "rel_ci95": [
+     0.758,
+     1.0
+    ],
+    "n_pairs": 246,
+    "b": 32,
+    "c": 2,
+    "p": 6.938353180885315e-08
+   }
+  },
+  "mistral-small-3.2-base": {
+   "rates": {
+    "A": {
+     "uc": 0.728,
+     "cv": 0.472,
+     "ocr": 0.607,
+     "source_ok": 0.542,
+     "scope_ok": 0.667,
+     "version_ok": 0.722,
+     "abstention_ok": 0.895,
+     "factual_ok": 0.402,
+     "limitation": 0.39,
+     "uc_ci95": [
+      0.669,
+      0.779
+     ],
+     "n": 246
+    },
+    "B": {
+     "uc": 0.24,
+     "cv": 0.114,
+     "ocr": 0.164,
+     "source_ok": 0.667,
+     "scope_ok": 0.762,
+     "version_ok": 1.0,
+     "abstention_ok": 0.809,
+     "factual_ok": 0.892,
+     "limitation": 0.894,
+     "uc_ci95": [
+      0.191,
+      0.297
+     ],
+     "n": 246
+    },
+    "C": {
+     "uc": 0.313,
+     "cv": 0.15,
+     "ocr": 0.259,
+     "source_ok": 0.708,
+     "scope_ok": 0.714,
+     "version_ok": 0.778,
+     "abstention_ok": 0.787,
+     "factual_ok": 0.801,
+     "limitation": 0.796,
+     "uc_ci95": [
+      0.258,
+      0.373
+     ],
+     "n": 246
+    }
+   },
+   "C_vs_B": {
+    "abs_reduction": -0.073,
+    "abs_ci95": [
+     -0.15,
+     0.008
+    ],
+    "rel_reduction": -0.305,
+    "rel_ci95": [
+     -0.792,
+     0.024
+    ],
+    "n_pairs": 246,
+    "b": 25,
+    "c": 43,
+    "p": 0.038460053348927506
+   },
+   "C_vs_A": {
+    "abs_reduction": 0.415,
+    "abs_ci95": [
+     0.313,
+     0.516
+    ],
+    "rel_reduction": 0.57,
+    "rel_ci95": [
+     0.453,
+     0.677
+    ],
+    "n_pairs": 246,
+    "b": 114,
+    "c": 12,
+    "p": 5.104513230164562e-22
+   },
+   "B_vs_A": {
+    "abs_reduction": 0.488,
+    "abs_ci95": [
+     0.386,
+     0.589
+    ],
+    "rel_reduction": 0.67,
+    "rel_ci95": [
+     0.565,
+     0.767
+    ],
+    "n_pairs": 246,
+    "b": 128,
+    "c": 8,
+    "p": 5.757003751733212e-29
+   }
+  }
+ },
+ "eve_vs_base_by_condition": {
+  "A": {
+   "n_pairs": 246,
+   "ucr_base": 0.728,
+   "ucr_eve": 0.797,
+   "b": 14,
+   "c": 31,
+   "p": 0.016094360031274846
+  },
+  "B": {
+   "n_pairs": 246,
+   "ucr_base": 0.24,
+   "ucr_eve": 0.427,
+   "b": 15,
+   "c": 61,
+   "p": 9.842847414734724e-08
+  },
+  "C": {
+   "n_pairs": 246,
+   "ucr_base": 0.313,
+   "ucr_eve": 0.484,
+   "b": 18,
+   "c": 60,
+   "p": 1.9730209111390334e-06
+  }
+ },
+ "eve_base_2x2_ucr": {
+  "eve-instruct-24b|A": 0.797,
+  "eve-instruct-24b|B": 0.427,
+  "eve-instruct-24b|C": 0.484,
+  "mistral-small-3.2-base|A": 0.728,
+  "mistral-small-3.2-base|B": 0.24,
+  "mistral-small-3.2-base|C": 0.313
+ },
+ "sensitivity_C_vs_B": {
+  "all": {
+   "abs_reduction": -0.036,
+   "abs_ci95": [
+    -0.069,
+    -0.001
+   ],
+   "rel_reduction": -0.205,
+   "rel_ci95": [
+    -0.458,
+    -0.006
+   ],
+   "n_pairs": 984,
+   "b": 62,
+   "c": 97,
+   "p": 0.006822620067898665
+  },
+  "exclude_pairs_with_any_truncated_response": {
+   "abs_reduction": -0.042,
+   "abs_ci95": [
+    -0.078,
+    -0.005
+   ],
+   "rel_reduction": -0.216,
+   "rel_ci95": [
+    -0.46,
+    -0.02
+   ],
+   "n_pairs": 863,
+   "b": 58,
+   "c": 94,
+   "p": 0.0043709380726187535
+  },
+  "run0_only": {
+   "abs_reduction": -0.037,
+   "abs_ci95": [
+    -0.082,
+    0.012
+   ],
+   "rel_reduction": -0.218,
+   "rel_ci95": [
+    -0.578,
+    0.063
+   ],
+   "n_pairs": 328,
+   "b": 23,
+   "c": 35,
+   "p": 0.14800580076020597
+  },
+  "exclude_controls": {
+   "abs_reduction": -0.036,
+   "abs_ci95": [
+    -0.073,
+    0.001
+   ],
+   "rel_reduction": -0.192,
+   "rel_ci95": [
+    -0.44,
+    0.005
+   ],
+   "n_pairs": 888,
+   "b": 59,
+   "c": 91,
+   "p": 0.011121593847224862
+  },
+  "exclude_claude_default_temperature": {
+   "abs_reduction": -0.041,
+   "abs_ci95": [
+    -0.083,
+    0.001
+   ],
+   "rel_reduction": -0.181,
+   "rel_ci95": [
+    -0.416,
+    0.006
+   ],
+   "n_pairs": 738,
+   "b": 57,
+   "c": 87,
+   "p": 0.015370514949913799
+  },
+  "open_weights_only": {
+   "abs_reduction": -0.065,
+   "abs_ci95": [
+    -0.128,
+    -0.002
+   ],
+   "rel_reduction": -0.195,
+   "rel_ci95": [
+    -0.43,
+    -0.004
+   ],
+   "n_pairs": 492,
+   "b": 55,
+   "c": 87,
+   "p": 0.009043246714205942
+  },
+  "frontier_api_only": {
+   "abs_reduction": -0.006,
+   "abs_ci95": [
+    -0.024,
+    0.012
+   ],
+   "rel_reduction": -0.429,
+   "rel_ci95": [
+    -5.5,
+    0.556
+   ],
+   "n_pairs": 492,
+   "b": 7,
+   "c": 10,
+   "p": 0.629058837890625
+  }
+ },
+ "truncation": {
+  "claude-sonnet-5-5": {
+   "A": 121,
+   "B": 6,
+   "C": 6
+  },
+  "eve-instruct-24b": {},
+  "gpt-6.1-terra": {},
+  "mistral-small-3.2-base": {}
+ },
+ "instrument_sensitivity": {
+  "both_judges_plus_detector (primary)": {
+   "n": 2952,
+   "ucr": {
+    "A": 0.508,
+    "B": 0.174,
+    "C": 0.209
+   },
+   "C_vs_B": {
+    "abs_reduction": -0.036,
+    "abs_ci95": [
+     -0.069,
+     -0.001
+    ],
+    "rel_reduction": -0.205,
+    "rel_ci95": [
+     -0.458,
+     -0.006
+    ],
+    "n_pairs": 984,
+    "b": 62,
+    "c": 97,
+    "p": 0.006822620067898665
+   },
+   "C_vs_A": {
+    "abs_reduction": 0.299,
+    "abs_ci95": [
+     0.248,
+     0.349
+    ],
+    "rel_reduction": 0.588,
+    "rel_ci95": [
+     0.518,
+     0.655
+    ],
+    "n_pairs": 984,
+    "b": 319,
+    "c": 25,
+    "p": 4.141434054065767e-66
+   }
+  },
+  "claude_judge_only": {
+   "n": 2952,
+   "ucr": {
+    "A": 0.38,
+    "B": 0.115,
+    "C": 0.134
+   },
+   "C_vs_B": {
+    "abs_reduction": -0.019,
+    "abs_ci95": [
+     -0.049,
+     0.011
+    ],
+    "rel_reduction": -0.168,
+    "rel_ci95": [
+     -0.495,
+     0.09
+    ],
+    "n_pairs": 984,
+    "b": 45,
+    "c": 64,
+    "p": 0.08422157489670003
+   },
+   "C_vs_A": {
+    "abs_reduction": 0.246,
+    "abs_ci95": [
+     0.191,
+     0.304
+    ],
+    "rel_reduction": 0.647,
+    "rel_ci95": [
+     0.546,
+     0.743
+    ],
+    "n_pairs": 984,
+    "b": 257,
+    "c": 15,
+    "p": 4.76531844964207e-58
+   }
+  },
+  "gpt_judge_only": {
+   "n": 2952,
+   "ucr": {
+    "A": 0.413,
+    "B": 0.143,
+    "C": 0.152
+   },
+   "C_vs_B": {
+    "abs_reduction": -0.009,
+    "abs_ci95": [
+     -0.037,
+     0.019
+    ],
+    "rel_reduction": -0.064,
+    "rel_ci95": [
+     -0.284,
+     0.128
+    ],
+    "n_pairs": 984,
+    "b": 50,
+    "c": 59,
+    "p": 0.4436695012023485
+   },
+   "C_vs_A": {
+    "abs_reduction": 0.26,
+    "abs_ci95": [
+     0.198,
+     0.325
+    ],
+    "rel_reduction": 0.631,
+    "rel_ci95": [
+     0.528,
+     0.725
+    ],
+    "n_pairs": 984,
+    "b": 279,
+    "c": 23,
+    "p": 4.8026702901067875e-57
+   }
+  },
+  "deterministic_detector_only": {
+   "n": 2952,
+   "ucr": {
+    "A": 0.186,
+    "B": 0.123,
+    "C": 0.141
+   },
+   "C_vs_B": {
+    "abs_reduction": -0.018,
+    "abs_ci95": [
+     -0.051,
+     0.013
+    ],
+    "rel_reduction": -0.149,
+    "rel_ci95": [
+     -0.481,
+     0.096
+    ],
+    "n_pairs": 984,
+    "b": 65,
+    "c": 83,
+    "p": 0.16207156803057038
+   },
+   "C_vs_A": {
+    "abs_reduction": 0.045,
+    "abs_ci95": [
+     0.003,
+     0.087
+    ],
+    "rel_reduction": 0.24,
+    "rel_ci95": [
+     0.018,
+     0.421
+    ],
+    "n_pairs": 984,
+    "b": 130,
+    "c": 86,
+    "p": 0.0033415572682082887
+   }
+  },
+  "subset_both_judges_agree": {
+   "n": 2584,
+   "ucr": {
+    "A": 0.574,
+    "B": 0.198,
+    "C": 0.238
+   },
+   "C_vs_B": {
+    "abs_reduction": -0.04,
+    "abs_ci95": [
+     -0.076,
+     -0.002
+    ],
+    "rel_reduction": -0.2,
+    "rel_ci95": [
+     -0.438,
+     -0.011
+    ],
+    "n_pairs": 765,
+    "b": 40,
+    "c": 66,
+    "p": 0.014779410517038355
+   },
+   "C_vs_A": {
+    "abs_reduction": 0.336,
+    "abs_ci95": [
+     0.282,
+     0.392
+    ],
+    "rel_reduction": 0.586,
+    "rel_ci95": [
+     0.515,
+     0.654
+    ],
+    "n_pairs": 765,
+    "b": 247,
+    "c": 14,
+    "p": 3.131692084515778e-56
+   }
+  }
+ },
+ "second_judge_coverage": {
+  "responses_with_both_judges": 2952,
+  "total": 2952,
+  "pct": 100.0
+ },
+ "judge_disagreement": {
+  "n": 368,
+  "claude_uc_gpt_not": 66,
+  "gpt_uc_claude_not": 302,
+  "by_condition": {
+   "B": 131,
+   "C": 122,
+   "A": 115
+  },
+  "by_model": {
+   "claude-sonnet-5-5": 121,
+   "eve-instruct-24b": 129,
+   "gpt-6.1-terra": 26,
+   "mistral-small-3.2-base": 92
+  }
+ },
+ "uc_by_category": {
+  "A_overclaim": {
+   "A": 0.615,
+   "B": 0.219,
+   "C": 0.219
+  },
+  "B_cause": {
+   "A": 0.512,
+   "B": 0.202,
+   "C": 0.202
+  },
+  "C_legality": {
+   "A": 0.569,
+   "B": 0.194,
+   "C": 0.125
+  },
+  "D_non_detection": {
+   "A": 0.717,
+   "B": 0.2,
+   "C": 0.308
+  },
+  "E_non_observability": {
+   "A": 0.454,
+   "B": 0.093,
+   "C": 0.157
+  },
+  "F_source_attribution": {
+   "A": 0.292,
+   "B": 0.198,
+   "C": 0.208
+  },
+  "G_temporal_scope": {
+   "A": 0.479,
+   "B": 0.302,
+   "C": 0.302
+  },
+  "H_spatial_scope": {
+   "A": 0.431,
+   "B": 0.139,
+   "C": 0.306
+  },
+  "I_versioning": {
+   "A": 0.5,
+   "B": 0.056,
+   "C": 0.125
+  },
+  "J_contradictory": {
+   "A": 0.708,
+   "B": 0.264,
+   "C": 0.25
+  },
+  "K_control": {
+   "A": 0.312,
+   "B": 0.042,
+   "C": 0.073
+  }
+ },
+ "uc_by_category_model": {
+  "claude-sonnet-5-5": {
+   "A_overclaim": {
+    "A": 0.292,
+    "B": 0.083,
+    "C": 0
+   },
+   "B_cause": {
+    "A": 0.333,
+    "B": 0,
+    "C": 0
+   },
+   "C_legality": {
+    "A": 0.278,
+    "B": 0,
+    "C": 0
+   },
+   "D_non_detection": {
+    "A": 0.7,
+    "B": 0,
+    "C": 0.067
+   },
+   "E_non_observability": {
+    "A": 0.481,
+    "B": 0,
+    "C": 0.185
+   },
+   "F_source_attribution": {
+    "A": 0.125,
+    "B": 0,
+    "C": 0
+   },
+   "G_temporal_scope": {
+    "A": 0.292,
+    "B": 0,
+    "C": 0
+   },
+   "H_spatial_scope": {
+    "A": 0.222,
+    "B": 0,
+    "C": 0
+   },
+   "I_versioning": {
+    "A": 0.389,
+    "B": 0,
+    "C": 0
+   },
+   "J_contradictory": {
+    "A": 0.611,
+    "B": 0.167,
+    "C": 0.056
+   },
+   "K_control": {
+    "A": 0.333,
+    "B": 0,
+    "C": 0.083
+   }
+  },
+  "eve-instruct-24b": {
+   "A_overclaim": {
+    "A": 0.958,
+    "B": 0.292,
+    "C": 0.625
+   },
+   "B_cause": {
+    "A": 1.0,
+    "B": 0.524,
+    "C": 0.667
+   },
+   "C_legality": {
+    "A": 1.0,
+    "B": 0.556,
+    "C": 0.222
+   },
+   "D_non_detection": {
+    "A": 0.967,
+    "B": 0.567,
+    "C": 0.6
+   },
+   "E_non_observability": {
+    "A": 0.704,
+    "B": 0.259,
+    "C": 0.259
+   },
+   "F_source_attribution": {
+    "A": 0.5,
+    "B": 0.458,
+    "C": 0.5
+   },
+   "G_temporal_scope": {
+    "A": 0.917,
+    "B": 0.667,
+    "C": 0.75
+   },
+   "H_spatial_scope": {
+    "A": 0.611,
+    "B": 0.444,
+    "C": 0.778
+   },
+   "I_versioning": {
+    "A": 0.722,
+    "B": 0.222,
+    "C": 0.222
+   },
+   "J_contradictory": {
+    "A": 0.944,
+    "B": 0.667,
+    "C": 0.556
+   },
+   "K_control": {
+    "A": 0.458,
+    "B": 0.083,
+    "C": 0.125
+   }
+  },
+  "gpt-6.1-terra": {
+   "A_overclaim": {
+    "A": 0.208,
+    "B": 0,
+    "C": 0
+   },
+   "B_cause": {
+    "A": 0,
+    "B": 0,
+    "C": 0
+   },
+   "C_legality": {
+    "A": 0,
+    "B": 0,
+    "C": 0
+   },
+   "D_non_detection": {
+    "A": 0.233,
+    "B": 0,
+    "C": 0
+   },
+   "E_non_observability": {
+    "A": 0,
+    "B": 0,
+    "C": 0
+   },
+   "F_source_attribution": {
+    "A": 0.042,
+    "B": 0.083,
+    "C": 0
+   },
+   "G_temporal_scope": {
+    "A": 0,
+    "B": 0,
+    "C": 0
+   },
+   "H_spatial_scope": {
+    "A": 0.167,
+    "B": 0,
+    "C": 0
+   },
+   "I_versioning": {
+    "A": 0.167,
+    "B": 0,
+    "C": 0
+   },
+   "J_contradictory": {
+    "A": 0.556,
+    "B": 0,
+    "C": 0
+   },
+   "K_control": {
+    "A": 0.125,
+    "B": 0,
+    "C": 0
+   }
+  },
+  "mistral-small-3.2-base": {
+   "A_overclaim": {
+    "A": 1.0,
+    "B": 0.5,
+    "C": 0.25
+   },
+   "B_cause": {
+    "A": 0.714,
+    "B": 0.286,
+    "C": 0.143
+   },
+   "C_legality": {
+    "A": 1.0,
+    "B": 0.222,
+    "C": 0.278
+   },
+   "D_non_detection": {
+    "A": 0.967,
+    "B": 0.233,
+    "C": 0.567
+   },
+   "E_non_observability": {
+    "A": 0.63,
+    "B": 0.111,
+    "C": 0.185
+   },
+   "F_source_attribution": {
+    "A": 0.5,
+    "B": 0.25,
+    "C": 0.333
+   },
+   "G_temporal_scope": {
+    "A": 0.708,
+    "B": 0.542,
+    "C": 0.458
+   },
+   "H_spatial_scope": {
+    "A": 0.722,
+    "B": 0.111,
+    "C": 0.444
+   },
+   "I_versioning": {
+    "A": 0.722,
+    "B": 0,
+    "C": 0.278
+   },
+   "J_contradictory": {
+    "A": 0.722,
+    "B": 0.222,
+    "C": 0.389
+   },
+   "K_control": {
+    "A": 0.333,
+    "B": 0.083,
+    "C": 0.083
+   }
+  }
+ },
+ "stance_distribution_D_E": {
+  "D_non_detection": {
+   "A": {
+    "CANNOT_DETERMINE": 20,
+    "DISPUTED": 13,
+    "NOT_DETECTED": 39,
+    "DENIES": 34,
+    "AFFIRMS": 14
+   },
+   "B": {
+    "NOT_DETECTED": 93,
+    "DISPUTED": 13,
+    "AFFIRMS": 9,
+    "DENIES": 5
+   },
+   "C": {
+    "NOT_DETECTED": 84,
+    "DISPUTED": 8,
+    "DENIES": 15,
+    "AFFIRMS": 13
+   }
+  },
+  "E_non_observability": {
+   "A": {
+    "CANNOT_DETERMINE": 76,
+    "DISPUTED": 12,
+    "NOT_DETECTED": 4,
+    "DENIES": 14,
+    "AFFIRMS": 2
+   },
+   "B": {
+    "CANNOT_DETERMINE": 92,
+    "NOT_DETECTED": 8,
+    "DISPUTED": 2,
+    "DENIES": 3,
+    "PENDING": 2,
+    "OTHER": 1
+   },
+   "C": {
+    "CANNOT_DETERMINE": 94,
+    "DISPUTED": 6,
+    "DENIES": 7,
+    "NOT_DETECTED": 1
+   }
+  }
+ },
+ "families_asserted": {
+  "A": {
+   "cause": 26,
+   "deforestation": 92,
+   "source_misattribution": 22,
+   "absence": 88,
+   "spatial_scope": 15,
+   "unsupported_loss": 48,
+   "persistence": 30,
+   "compliance": 17,
+   "legality": 28,
+   "actor": 6,
+   "temporal_scope": 9,
+   "version": 5
+  },
+  "B": {
+   "unsupported_loss": 1,
+   "deforestation": 21,
+   "compliance": 8,
+   "cause": 12,
+   "legality": 3,
+   "actor": 2,
+   "absence": 28,
+   "source_misattribution": 17,
+   "temporal_scope": 14,
+   "spatial_scope": 4
+  },
+  "C": {
+   "deforestation": 18,
+   "cause": 7,
+   "legality": 1,
+   "compliance": 13,
+   "absence": 52,
+   "source_misattribution": 16,
+   "temporal_scope": 12,
+   "spatial_scope": 13,
+   "actor": 1,
+   "version": 4
+  }
+ },
+ "B_to_C_transitions": {
+  "helped": 62,
+  "hurt": 97,
+  "helped_by_model": {
+   "claude-sonnet-5-5": 5,
+   "eve-instruct-24b": 30,
+   "gpt-6.1-terra": 2,
+   "mistral-small-3.2-base": 25
+  },
+  "hurt_by_model": {
+   "claude-sonnet-5-5": 10,
+   "eve-instruct-24b": 44,
+   "mistral-small-3.2-base": 43
+  },
+  "helped_by_task": {
+   "A07": 5,
+   "J03": 3,
+   "A04": 3,
+   "D06": 3,
+   "F07": 3,
+   "H03": 3,
+   "G03": 3,
+   "J06": 2,
+   "A06": 2,
+   "C03": 2,
+   "C04": 2,
+   "E04": 2
+  },
+  "hurt_by_task": {
+   "D04": 6,
+   "G01": 6,
+   "D01": 5,
+   "H02": 5,
+   "I06": 4,
+   "K04": 4,
+   "D08": 3,
+   "E03": 3,
+   "A03": 3,
+   "A08": 3,
+   "E07": 3,
+   "F07": 3
+  }
+ },
+ "examples": {
+  "helped": [
+   {
+    "model": "claude-sonnet-5-5",
+    "task": "A07",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "DISPUTED",
+    "B_text": "**The evidence confirms the loss but does not show it was deforestation.**\n\n- **The loss:** Hansen data show a supported 67.7 ha tree-cover loss event in 2020. This is the largest of four loss events recorded before the 2020-12-31 baseline.\n- **Why \"deforestation\" is unproven:** Hansen records stand-replacing tree-cover loss, not whether the land use changed. The asset had only 23 ha of tree cover in 2000, yet recorded losses total about 99 ha. This suggests the lost trees were regrowth or plant",
+    "C_text": "The 67.7 ha loss in 2020 is real in the data, but the evidence doesn't show that it was deforestation.\n\n- **2020 loss:** Hansen data support a 67.7 ha tree-cover loss event in 2020. It falls on or before the 2020-12-31 baseline, so the tool treated it as history, not as part of the claim it assessed.\n- **After the baseline:** No loss event of 0.5 ha or more was detected from 2021 to 2025. Only 0.4 ha of small-patch loss appeared in 2021, and it was not counted as an event.\n- **Forest status:** T"
+   },
+   {
+    "model": "claude-sonnet-5-5",
+    "task": "A07",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "**The evidence doesn't show that this was deforestation.** It confirms tree-cover loss, but not a change in land use.\n\n- **The loss is real.** Hansen data show a supported loss event of 67.7 ha in 2020. Earlier events were 0.8 ha in 2008, 25.5 ha in 2015 and 4.8 ha in 2017.\n- **The property had little forest to begin with.** Tree cover in 2000 was only 23 ha, yet the recorded losses total about 98.8 ha. That suggests regrowth or managed trees, such as plantations, being cleared and replanted. Th",
+    "C_text": "**The tool output can't say whether it was deforestation.** It does not assess land use or compliance.\n\n- **The 2020 loss is confirmed.** Hansen data show a 67.7 ha tree-cover loss event in 2020, marked SUPPORTED. Earlier events were 0.8 ha in 2008, 25.5 ha in 2015 and 4.8 ha in 2017.\n- **It falls before the evaluated period.** The assessment covers only 2021-2025, after the 2020-12-31 baseline. For that period, no loss event of 0.5 ha or more was detected (NOT_DETECTED). Only 0.4 ha of small-pa"
+   },
+   {
+    "model": "claude-sonnet-5-5",
+    "task": "J02",
+    "run": 2,
+    "B_families": [
+     "unsupported_loss"
+    ],
+    "B_stance": "CONTRADICTED",
+    "C_families": [],
+    "C_stance": "CONTRADICTED",
+    "B_text": "The evidence doesn't confirm tree-cover loss on this property in 2020, but it doesn't rule it out either.\n\nHansen/UMD mapped about 0.7 ha of loss in 2020 (0.02% of the 3,643.5 ha property). However, the independent JRC 2020 reference map classed none of that area as forest (0% agreement, against the 50% needed), so the claim is assessed as contradicted.\n\nContext: about 0.4 ha of the area is mapped as planted forest (pine), 0.3 ha is outside mapped forest, and none is native forest. Another 1.3 h",
+    "C_text": "The evidence is inconclusive, and the claim is marked \"contradicted.\" Hansen satellite data mapped about 0.7 ha of tree-cover loss in 2020 (0.02% of the 3,643.5 ha property). That is above the 0.5 ha minimum event size. The independent JRC 2020 reference map shows none of that area as forest (0% agreement, against the 50% required). So the two sources disagree.\n\nMost of the area is mapped as planted pine (about 0.4 ha, Pinus elliottii/taeda). The rest is outside mapped forest (0.3 ha). Hansen al"
+   },
+   {
+    "model": "claude-sonnet-5-5",
+    "task": "J03",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "CONTRADICTED",
+    "C_families": [],
+    "C_stance": "CONTRADICTED",
+    "B_text": "No, the sources don't agree, and the claim is assessed as contradicted.\n\n- **Hansen/UMD** mapped about 1.4 ha of tree-cover loss in 2012 (0.04% of the 3,643.5 ha property).\n- **JRC GFC2020** agrees on only 0.49 of that area, below the 0.5 needed for corroboration. It classes the rest as non-forest in 2020.\n- **MGAP 2021 forest map** places about 1 ha outside mapped forest and 0.4 ha in planted forest (Pinus elliottii and Pinus taeda). None of it is native forest.\n\nThe evidence doesn't establish ",
+    "C_text": "The sources only partly agree, and the tool rates the 2012 loss claim as **contradicted**.\n\n- **Hansen (UMD):** It maps about 1.4 ha of tree-cover loss in 2012, roughly 0.04% of the 3,643.5 ha property.\n- **JRC 2020 reference:** It shows non-forest over only 49% of that loss area. The corroboration rule requires at least 50%, so the result falls just short.\n- **MGAP 2021 forest map:** It shows no native forest over the event area. About 0.4 ha is planted pine (*Pinus elliottii* and *Pinus taeda*"
+   },
+   {
+    "model": "claude-sonnet-5-5",
+    "task": "J06",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "CONTRADICTED",
+    "C_families": [],
+    "C_stance": "CONTRADICTED",
+    "B_text": "No, this evidence doesn't support treating the 2019 loss as deforestation.\n\n- **What was detected:** Hansen/UMD mapped about 1.8 ha of tree-cover loss in 2019, roughly 0.05% of the 3,643.5 ha asset.\n- **Why it's contradicted:** The independent JRC 2020 reference shows none of that area as non-forest (0% agreement, against a 50% requirement). So the loss isn't corroborated.\n- **Context:** The 1.8 ha lies entirely in planted forest (Pinus elliottii and Pinus taeda) according to the 2021 MGAP map, ",
+    "C_text": "No, not on this evidence. Treat it with caution.\n\n- **Small and unconfirmed:** Hansen mapped about 1.8 ha of tree-cover loss in 2019, roughly 0.05% of the 3,643.5 ha property. The independent JRC 2020 reference disagrees. It shows 0% of that area as non-forest at 2020, and the corroboration rule requires at least 50%. The tool therefore marks the loss claim as contradicted.\n- **Planted forest:** The whole 1.8 ha lies in mapped planted forest (Pinus elliottii and Pinus taeda), with no native fore"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "A04",
+    "run": 0,
+    "B_families": [
+     "deforestation"
+    ],
+    "B_stance": "AFFIRMS",
+    "C_families": [],
+    "C_stance": "DISPUTED",
+    "B_text": "Yes, deforestation occurred on this asset in 2023. Earth-observation data shows a tree-cover loss of about 0.7 hectares (1.2% of the asset) within the year. The change was detected by satellite imagery and confirmed by reference maps, indicating the area was forested in 2020. However, the cause of the loss—whether due to logging, fire, or other factors—is not specified. The evidence does not determine if the activity was legal or illegal, nor does it identify responsible parties. The asset is a ",
+    "C_text": "Yes, tree-cover loss occurred on this asset in 2023. About 0.7 hectares (1.2% of the asset) of tree cover was lost, as detected by the Hansen Global Forest Change dataset. The loss was corroborated by the JRC 2020 forest reference map, which confirmed forest cover in the area before the event. However, the evidence does not specify whether this was deforestation (e.g., illegal clearing) or another type of stand-replacing change (e.g., harvesting a plantation). The asset is a rural property of 58"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "A06",
+    "run": 0,
+    "B_families": [
+     "deforestation"
+    ],
+    "B_stance": "AFFIRMS",
+    "C_families": [],
+    "C_stance": "PENDING",
+    "B_text": "Based on the evidence, **native forest was likely deforested** in 2025 within this 345.6-ha rural property. The data shows **13.5 ha (3.91%) of tree-cover loss** in 2025, with **98% of the affected area confirmed as forest in 2020** (JRC) and **13.1 ha identified as native forest** (MGAP 2021). However, the evidence does not confirm whether the loss was **permanent, intentional, or legal**, as it could result from natural causes (e.g., fire, storm) or forestry activities. Further monitoring is n",
+    "C_text": "Based on the evidence, there is a **tree-cover loss candidate** of about **13.5 ha** within the asset in 2025, which aligns with native forest (13.1 ha) according to MGAP’s 2021 map. However, the assessment is **pending corroboration** because:\n- It’s the **latest year** in the series (2025), so persistence can’t be confirmed yet.\n- The loss could be due to **harvesting, fire, or other causes**, not necessarily deforestation.\n- The change isn’t confirmed as **legal or illegal**.\n\nThus, while **n"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "A07",
+    "run": 1,
+    "B_families": [
+     "deforestation",
+     "compliance"
+    ],
+    "B_stance": "DENIES",
+    "C_families": [],
+    "C_stance": "DENIES",
+    "B_text": "No, this property was not deforested. The 67.7 ha of tree cover loss in 2020 occurred *before* the baseline date (December 31, 2020) for the claim interval (2021–2025). The JRC 2020 forest map confirms the asset had **0 ha of forest** as of 2020, meaning it was already deforested by then. The claim evaluated post-baseline loss (2021–2025), and no additional loss events ≥0.5 ha were detected during that period. The asset met the EUDR definition of deforestation-free at the 2020 baseline.",
+    "C_text": "No, the property was not deforested after 2020. The 67.7 ha of tree-cover loss in 2020 occurred *before* the claim’s baseline (pre-2021). Earth observation data confirm no deforestation events ≥0.5 ha occurred within the asset after 2020. Small patches (<0.5 ha) of loss were detected in 2021 (0.4 ha), but these are below the threshold for classification as deforestation. The asset had no forest cover in 2020 (JRC GFC2020), and the claim period (2021–2025) shows no further significant loss."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "B02",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "DENIES",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "No, the 2021 tree-cover loss was not caused by a fire. The data shows 81.3 hectares of planted forest were lost, primarily *Pinus elliottii* and *Pinus taeda*. However, the evidence does not identify the cause—it could have been logging, storms, or other disturbances, not necessarily fire. The loss was mapped as stand-replacing but lacks specific details about the event’s origin. Fire would typically show distinct burn patterns or heat signatures, which are not mentioned here.",
+    "C_text": "No, evidence does not confirm that a fire caused the 2021 tree-cover loss on the asset. The 81.3 hectares of tree-cover loss detected by Hansen/UMD in 2021 was within a planted forest (Pinus elliottii and Pinus taeda) and the change was stand-replacing, but the Earth-observation data does not establish the cause. The loss could have been due to harvest, thinning, or other disturbances—fire is one possible explanation but not the only or confirmed one. The evidence only supports that tree cover w"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "B03",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "The 2022 loss of **0.6 ha (3.4%) of native forest** on this 17.6-ha rural property was confirmed by satellite data, but the cause remains unclear. The loss was likely due to **stand-replacing disturbance**—such as logging, fire, storms, or land clearing—but the exact trigger (legal/illegal, planned/unplanned) cannot be determined from the evidence. The area affected was small, scattered (some patches <0.5 ha), and mapped as native forest in 2021. While the satellite imagery rules out planted for",
+    "C_text": "The 2022 loss in native forest on this rural property (17.6 ha) involved approximately 0.6 ha of tree-cover loss, which was corroborated by multiple Earth-observation datasets. The event occurred within a mapped native forest area (0.5 ha), with no indication of planted forest involvement. However, the evidence does not specify the cause of the loss—it could have been due to harvesting, fire, storms, or other disturbances. The data also does not establish whether the loss was legal, authorized, "
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "B07",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "The 2023 tree-cover loss of about 4.5 hectares within the asset was detected by satellite imagery, but the evidence does not confirm whether it was caused by storm damage. The loss occurred in a planted forest area (Pinus elliottii and Pinus taeda), but the cause—whether due to harvesting, fire, storms, or other factors—cannot be determined from the available data. The evidence only confirms that the tree cover was replaced, not the reason for the change. Additional ground-based or higher-resolu",
+    "C_text": "The evidence supports that tree-cover loss of about 4.5 hectares occurred within the asset in 2023. However, it does not establish the cause of the loss—whether it was due to storm damage, harvesting, fire, or other factors. The data confirms the loss event but lacks specific details on its origin. Additional investigation would be needed to determine if storm damage was the cause."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "C01",
+    "run": 1,
+    "B_families": [
+     "deforestation"
+    ],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "No, the evidence does not confirm whether the 2021 tree-cover loss was illegal. The data shows that approximately 81.3 hectares of planted forest (primarily *Pinus elliottii* and *Pinus taeda*) were cleared, but it does not determine the cause—whether it was legal harvesting, unauthorized clearing, or an accident. The tool only confirms the loss occurred and was mapped, not its legality or compliance with regulations. Additional legal or operational records would be needed to assess whether the ",
+    "C_text": "The evidence confirms that 81.3 hectares of tree-cover loss occurred within the asset in 2021, primarily in a planted forest (Pinus spp.). However, it **does not establish** whether the loss was illegal. The data shows the event but lacks details on legality, authorization, cause (e.g., harvest vs. fire), or responsible actors. While the change was detected and corroborated, determining compliance with regulations (e.g., EUDR) or illegality requires additional contextual or legal evidence beyond"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "C02",
+    "run": 0,
+    "B_families": [
+     "deforestation"
+    ],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "Based on the evidence, the 2025 clearing of 13.5 ha of native forest on this property *may* be illegal under Uruguayan law, but this cannot be confirmed. Uruguay’s 2009 Forest Law prohibits the clearing of native forests without prior authorization, and the evidence shows the area was classified as native forest in 2021. However, the tool does not confirm whether the change was authorized or illegal—it only identifies tree-cover loss. Further investigation into permits or legal exemptions would ",
+    "C_text": "The evidence does not confirm whether the 2025 clearing of native forest on this property was illegal under Uruguayan law. While the data shows a 13.5-hectare tree-cover loss in 2025, it does not establish whether the change was persistent, the cause of the loss, or whether it was authorized. The observations confirm the presence of native forest before the event, but legal status requires additional context not provided here, such as permits or compliance with Uruguay’s forest protection regula"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "C03",
+    "run": 1,
+    "B_families": [
+     "legality"
+    ],
+    "B_stance": "AFFIRMS",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "Yes, the tree-cover loss appears to violate forest protection rules.\nThe asset is a 17.6 ha rural property with 0.6 ha (3.41%) of native forest lost in 2022. This matches all three independent forest maps (Hansen, JRC, and MGAP). The loss exceeds the 0.5 ha minimum event threshold and involved native forest, which is legally protected. While the cause (e.g., logging, fire) isn’t confirmed, the magnitude and native forest context strongly suggest an unauthorized violation.",
+    "C_text": "The tool output confirms tree-cover loss of 0.6 hectares in 2022 within the native forest of this rural property. The evidence supports that this area was native forest (0.5 ha) and not planted forest. However, the tool does not establish whether this loss violated forest protection rules. It cannot determine legality, compliance with regulations, or the cause of the loss (e.g., legal harvesting vs. illegal clearing). Further investigation would be needed to assess compliance with forest protect"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "C04",
+    "run": 1,
+    "B_families": [
+     "actor"
+    ],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "Based on Earth-observation evidence, the owner *did* remove trees after 2020: 81.3 hectares were lost in 2021, 0.6 hectares in 2022, and 4.5 hectares in 2023. However, the evidence *does not* confirm whether this was *illegal*. The data only shows tree-cover loss (any stand replacement, such as harvesting plantations, fires, or storms), not the cause, legality, or responsibility. To determine if laws were broken, you’d need local regulations and authorization records—as the satellite evidence al",
+    "C_text": "The evidence shows that tree-cover loss occurred within the asset after 2020, with corroborated losses of **81.3 ha in 2021**, **0.6 ha in 2022**, and **4.5 ha in 2023**. However, the tools **do not establish legality or compliance**—they cannot confirm whether the tree removal was legal, authorized, or illegal. The data only indicates **stand-replacing events** (e.g., harvesting) without distinguishing between permitted or prohibited activities. Local regulations and permits would need to be ch"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "C04",
+    "run": 2,
+    "B_families": [
+     "legality"
+    ],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "Tree cover was lost after 2020, but this does not prove that the owner broke any laws. The evidence shows 87.7 hectares of tree loss between 2021 and 2023. Most of this was in planted forests, which are legally managed. While the loss is confirmed, the cause (harvesting, fire, etc.) isn't known, nor is whether it was legal or authorized. The data only tracks changes in tree cover, not compliance with regulations.",
+    "C_text": "The evidence supports tree-cover loss within the asset after 2020, totaling 86.4 hectares across 2021–2023. However, the data does not establish whether the removals were legal or illegal. While the tool confirms the loss occurred in planted forest contexts (2021, 2023) and mixed contexts (2022), it cannot determine compliance, authorization, or the actor responsible. Legal assessment would require additional evidence beyond Earth-observation data, such as permits, regulations, or ground-truth i"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "C06",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "The 2023 tree removal on the asset was detected as a 0.7-hectare loss of tree cover, primarily involving Eucalyptus plantations (0.4 ha) and some unmapped forest (0.3 ha). While the evidence confirms the removal occurred, it does not determine whether it was authorized. The data shows the change was likely a planned harvest or clearing (given the plantation context and patch size), but it does not provide legal or regulatory details. No evidence links the event to deforestation, land-use change,",
+    "C_text": "The evidence supports that tree-cover loss of about 0.7 hectares occurred within the asset in 2023, but it does not establish whether the removal was authorized. The data shows the loss was in a planted forest (Eucalyptus species), not native forest, but it cannot determine legality, cause, or responsible actors. The loss was corroborated by multiple sources (Hansen GFC and JRC GFC2020), but authorization would require additional regulatory or compliance records not provided here."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "D02",
+    "run": 1,
+    "B_families": [
+     "absence"
+    ],
+    "B_stance": "AFFIRMS",
+    "C_families": [],
+    "C_stance": "DISPUTED",
+    "B_text": "Based on the evidence, we can confirm with high confidence that this forest has remained intact since 2020. Satellite data (Hansen GFC and JRC GFC2020) show no detectable tree-cover loss events of 0.5 hectares or larger between 2021 and 2025. The asset was 91.77% forested in 2020, and annual observations through 2025 (at 30m resolution) detected no stand-replacing losses. However, very small disturbances (under 0.5 ha) or edge changes might have been missed. For strict compliance purposes, furth",
+    "C_text": "Based on Earth-observation evidence, we cannot confirm the forest has been *completely* intact since 2020, but no significant tree-cover loss (0.5 ha or larger) occurred within the asset from 2021 to 2025. The assessment detected *no tree-cover loss events* during this period, though changes smaller than 0.5 ha or at edges might have been missed. The asset had 285.6 ha of forest in 2020 (91.77% of the area) and showed stable tree cover in prior years (322.3 ha in 2000). The evidence supports the"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "D06",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "NOT_DETECTED",
+    "C_families": [],
+    "C_stance": "NOT_DETECTED",
+    "B_text": "Based on the evidence, there were **no detected thermal anomalies** (such as fires) on the property between **October 4, 2026, and November 3, 2026**. The NASA FIRMS data, which tracks active fires using multiple high-resolution sensors (VIIRS and MODIS), showed **zero detections** within the asset boundaries during this period. All sensors had full coverage every day, meaning no large or intense fires went undetected.\n\nHowever, the evidence does not rule out **small, short-lived, or obscured fi",
+    "C_text": "Based on the Earth-observation evidence, there were **no thermal anomalies or burning detected** on the property (ASSET-F04) during the period from **October 4, 2026, to November 3, 2026**. The assessment is supported by continuous coverage from multiple sensors (VIIRS and MODIS), which confirmed zero thermal detections intersecting the asset boundary. However, note that small, short, or cloud-obscured fires may not have been detected."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "D06",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "DISPUTED",
+    "C_families": [],
+    "C_stance": "NOT_DETECTED",
+    "B_text": "Based on NASA FIRMS data from multiple sensors (VIIRS and MODIS) covering the period 2026-10-04 to 2026-11-03, no thermal anomalies (indicative of burning) were detected on the property. All days were fully monitored by each sensor.\n\nWhile this confirms no major or sustained fires occurred, small, short-lived, or obscured fires cannot be ruled out. The evidence does not address burned areas, causes of changes (e.g., harvesting), or activity outside the specified period. Overall, the data strongl",
+    "C_text": "Based on the Earth-observation evidence, there were no detected thermal anomalies (such as fires) on this property during the period from October 4, 2026, to November 3, 2026. Multiple sensors (VIIRS and MODIS) provided continuous coverage, and no fire-related activity was recorded in the NASA FIRMS database for this timeframe. However, note that very small, short-duration, or cool fires—especially if obscured by clouds—might not be detectable by these systems."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "D06",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "NOT_DETECTED",
+    "C_families": [],
+    "C_stance": "NOT_DETECTED",
+    "B_text": "No burning was detected on this property between October 4, 2026, and November 3, 2026. NASA’s FIRMS satellite data—spanning four sensors (VIIRS_SNPP, VIIRS_NOAA20, VIIRS_NOAA21, and MODIS)—showed zero thermal anomalies within the asset’s boundaries during this period. All days were fully observable by each sensor, meaning smoke or heat signatures would have been flagged if present. However, small or short-lived fires could have gone undetected. This confirms no major burning occurred, but it do",
+    "C_text": "No burning was detected on the property during the period from 2026-10-04 to 2026-11-03. NASA FIRMS thermal anomaly data, which includes observations from multiple sensors (VIIRS SNPP, NOAA-20, NOAA-21, and MODIS), showed zero detections intersecting the asset. The sensors provided complete coverage of the entire period and asset boundary. However, note that small, short-lived, or cloud-obscured fires may not always be detected. No evidence of burning is confirmed within the evaluated timeframe."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "D09",
+    "run": 0,
+    "B_families": [
+     "absence"
+    ],
+    "B_stance": "DENIES",
+    "C_families": [],
+    "C_stance": "NOT_DETECTED",
+    "B_text": "No, the asset has not been affected by fire recently. Satellite data from NASA FIRMS shows no thermal anomalies (indicating active fires) within the asset's boundaries between October 4, 2026, and November 3, 2026. The area was fully monitored by multiple sensors (VIIRS and MODIS) throughout this period. However, small or short-lived fires could have gone undetected. This evidence does not confirm the absence of burned areas or the cause of any potential changes.",
+    "C_text": "No fire was detected at this rural property (ASSET-F08) between October 4 and November 3, 2026. Satellite sensors (VIIRS and MODIS) monitored the area daily, but no thermal anomalies were recorded within the asset boundary. However, small, short-lived, or cloud-obscured fires might not have been detected. The assessment does not confirm the absence of burned areas or determine the cause of any potential changes. Observations were based on NASA FIRMS data, which is reliable but not exhaustive for"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "D10",
+    "run": 1,
+    "B_families": [
+     "absence"
+    ],
+    "B_stance": "AFFIRMS",
+    "C_families": [],
+    "C_stance": "NOT_DETECTED",
+    "B_text": "Yes, that's correct. The evidence shows **no detectable tree-cover loss** on the asset (ASSET-C) between 2021 and 2025. The analysis, using Hansen GFC and JRC GFC2020 data, confirms that no events of 0.5 hectares or larger occurred during this period. While smaller changes or edge effects might have been missed due to pixel resolution limits (30m), the available data supports that the tree cover remained **unchanged** since the 2020 baseline.",
+    "C_text": "No, the evidence does not confirm that tree cover on this asset was unchanged since 2020. The analysis shows that changes smaller than 0.5 hectares, at the edges of the asset, or narrower than 30 meters may not be detected. The tool reports that no tree-cover loss event of 0.5 hectares or more was detected within the asset between 2021 and 2025. However, it does not rule out smaller or undetectable changes. Therefore, while there is no clear evidence of significant tree-cover loss, we cannot def"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "E04",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "NOT_DETECTED",
+    "C_families": [],
+    "C_stance": "DISPUTED",
+    "B_text": "No fire was detected on the asset during the evaluated period (2026-09-25 to 2026-10-24). NASA FIRMS data showed zero thermal anomalies intersecting the asset from all sensors (MODIS, VIIRS_SNPP, VIIRS_NOAA20, VIIRS_NOAA21). However, the last day (2026-10-25) had insufficient coverage due to data gaps. While no fires were detected, small or short-lived fires could have gone unnoticed. The evidence does not confirm the absence of burned areas or fires outside the evaluated period.",
+    "C_text": "Based on the Earth-observation data, there is **no evidence of fire** on the asset (ASSET-F02) during the evaluated period (2026-09-25 to 2026-10-24). No thermal anomalies were detected by NASA FIRMS (MODIS or VIIRS sensors) within the asset boundary. However, the last day (2026-10-25) was not covered due to a data gap, so we cannot confirm the absence of fire on that specific day. Small, short, or cloud-obscured fires may also have gone undetected."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "E04",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "NOT_DETECTED",
+    "C_families": [],
+    "C_stance": "DISPUTED",
+    "B_text": "No fires were detected on the asset during the evaluated period (2026-09-25 to 2026-10-24) based on NASA FIRMS thermal anomaly data. The analysis covered the asset for all days except the last two (2026-10-24 to 2026-10-25) due to data gaps. No thermal detections were recorded from any of the sensors (MODIS, VIIRS_SNPP, VIIRS_NOAA20, or VIIRS_NOAA21) during the covered days. However, it’s important to note that small, short-lived, or cloud-obscured fires might not be detected by these systems.",
+    "C_text": "No fires were detected on the asset from **September 25, 2026**, to **October 24, 2026**, based on NASA FIRMS thermal anomaly data. The last day of the evaluated period (**October 25, 2026**) was not covered due to a temporal gap in the data. This means we cannot confirm the presence or absence of fires on that final day. However, for the entire period except October 25, no thermal anomalies (fires) were detected within the asset boundary."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "E05",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "No, I cannot confirm there were *no* thermal detections for the *full* period. While NASA FIRMS data shows **zero detections** for the days it *was* available (Oct 13–Nov 2, and Nov 6–12), there is a **5-day gap** (Nov 2–6) where no data was collected due to sensor unavailability. This means thermal activity *could* have occurred during those undetected days. The evidence only confirms no detections for the days with coverage, not the entire period.",
+    "C_text": "No, I cannot confirm there were *no* thermal detections for the *full* period. While NASA FIRMS data shows zero detections for the covered days (October 13–November 2, and November 6–12, 2026), there is a 4-day gap (November 2–6) where VIIRS_SNPP data was unavailable. This means thermal activity *could* have occurred during those undetected days. The evidence is insufficient to rule out detections for the entire period."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "F07",
+    "run": 0,
+    "B_families": [
+     "source_misattribution"
+    ],
+    "B_stance": "DISPUTED",
+    "C_families": [],
+    "C_stance": "DISPUTED",
+    "B_text": "The JRC GFC2020 V4 dataset shows that there was no forest on the property in 2020 (0 ha). However, the Hansen GFC GFC-2025-v1.13 dataset indicates a significant tree-cover loss event of 67.7 ha in 2020, suggesting that forest was present before that loss. Thus, the Hansen dataset implies forest was on the property in 2020, while the JRC dataset does not confirm it. The discrepancy may arise from differences in forest definition or detection methods between the datasets.",
+    "C_text": "The **JRC GFC2020 V4** dataset shows that there was **no forest** on the property in 2020 (0.0 ha, 0% of the asset). However, the **Hansen GFC GFC-2025-v1.13** dataset indicates that **23.0 ha** of the property had **tree cover in 2000** (>=30% canopy), with significant loss events occurring in 2008, 2015, 2017, and 2020. The 2020 loss event (67.7 ha) suggests that forest was present before being cleared. For a 2020 baseline, the JRC dataset is the authoritative reference, but the Hansen data im"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "G02",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "DENIES",
+    "C_families": [],
+    "C_stance": "DENIES",
+    "B_text": "No, the property did not lose 67.7 ha of tree cover **after** the EUDR cut-off date (December 31, 2020). The 67.7 ha loss occurred **in 2020**—before the baseline—and no detectable loss events (0.5 ha or larger) occurred between 2021 and 2025. Minor changes under 0.5 ha (e.g., 0.4 ha in 2021) may have gone unrecorded due to pixel resolution limits. The JRC 2020 reference also confirms no forest cover existed on the asset by 2020. Thus, the 67.7 ha loss pre-dates the EUDR compliance window.",
+    "C_text": "Based on the evidence, **no**—the property did not lose 67.7 ha of tree cover *after* the EUDR cut-off date (December 31, 2020). The 67.7 ha loss occurred **in 2020 itself**, which is outside the claim interval (2021–2025). Post-2020, only minor losses (0.4 ha in 2021) were detected, all below the 0.5 ha event threshold. The assessment confirms **no tree-cover loss event of 0.5 ha or more** occurred within the asset after the baseline."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "H03",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "DISPUTED",
+    "C_families": [],
+    "C_stance": "DENIES",
+    "B_text": "About 13.5 hectares (3.9% of the 345.6-hectare property) of native forest was lost in 2025, based on satellite data. The area affected was confirmed as native forest by Uruguay’s official 2021 forest map. However, this loss is not yet fully corroborated—it’s the latest observation (2025), so we can’t yet tell if it’s permanent or if the land has regrown. The cause (e.g., logging, fire, or natural disturbance) also isn’t clear from the data. While the evidence strongly suggests forest loss occurr",
+    "C_text": "No, the property has not lost its native forest. A small area (13.5 ha) of tree-cover loss was detected in 2025, but this does not establish deforestation or land-use change. The observation is pending corroboration, as it is the latest year in the series. Over 98% of the event area was confirmed as forest in 2020 (JRC GFC2020), and the affected area was identified as native forest (13.1 ha) by MGAP. No planted forest was involved. The change’s cause, persistence, legality, or responsible party "
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "H03",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "DISPUTED",
+    "C_families": [],
+    "C_stance": "PENDING",
+    "B_text": "Based on the evidence, about 13.5 hectares (3.91%) of the native forest on this 345.6-hectare rural property was lost in 2025. This loss is identified as a candidate event by Hansen/UMD data, with high agreement (98%) from the JRC forest reference map for 2020 and confirmation from MGAP’s 2021 forest map that the area was native forest. However, the evidence does not confirm whether the loss is persistent, permanent, or intentional—it could result from harvesting, fire, or other disturbances. Fu",
+    "C_text": "Based on the evidence, there has been a tree-cover loss of about 13.5 hectares within the 345.6-hectare rural property in 2025. This loss represents roughly 3.91% of the total asset area. The affected area was identified as native forest, with no planted forest detected. However, the assessment is pending corroboration, meaning it cannot yet be confirmed as persistent or definitive. The change could be due to various causes, such as harvesting, fire, or natural events, but the exact cause is not"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "I04",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "DENIES",
+    "C_families": [],
+    "C_stance": "DENIES",
+    "B_text": "The June 2025 due-diligence claim—that no tree-cover loss was detected on this property—is no longer valid. The current evidence (as of November 2026) shows a **pending but likely tree-cover loss candidate of 13.5 ha (3.9% of the asset) in 2025**, detected by the Hansen GFC dataset and supported by high agreement (98%) with the JRC 2020 forest reference. However, this loss is not yet fully corroborated (it requires confirmation in a later year, which has not been observed yet). The 2025 loss was",
+    "C_text": "No, it is not valid. The June 2025 due diligence correctly reported no detected loss, but new evidence shows a **13.5-hectare tree-cover loss event in 2025**, pending corroboration. The loss occurred in a native forest context and is supported by the Hansen GFC dataset, with high agreement (98%) from the JRC 2020 reference. While the cause and persistence are not yet confirmed, the preliminary finding means the property is no longer free of post-2020 loss. Further monitoring in 2026 will be need"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "J03",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "CONTRADICTED",
+    "C_families": [],
+    "C_stance": "CONTRADICTED",
+    "B_text": "No, the sources do not agree on the 2012 tree-cover loss. Hansen GFC detected 1.4 ha of loss, but the JRC 2020 reference map only agrees with 49% of that area—below the 50% threshold required for corroboration. MGAP’s 2021 forest map shows no native forest loss in the area, and only 0.4 ha of planted forest. While Hansen flags the loss, the independent JRC reference and MGAP data cast doubt on its validity. The evidence does not confirm whether tree-cover loss actually occurred or what caused it",
+    "C_text": "No, the sources do not agree about the 2012 tree-cover loss on this property. The Hansen dataset detected 1.4 ha of loss, but the independent JRC 2020 reference map only agreed with 49% of that area—falling short of the 50% threshold required for corroboration. The MGAP forest map further indicates that the area was not native forest, suggesting the loss may have involved planted species like *Pinus elliottii* or *Pinus taeda*. The evidence is contradicted, meaning the claim of tree-cover loss i"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "J03",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "CONTRADICTED",
+    "C_families": [],
+    "C_stance": "CONTRADICTED",
+    "B_text": "No, the sources do not agree on tree-cover loss in 2012. Hansen/UMD detected 1.4 ha of loss, but JRC 2020 only confirmed ~0.7 ha (49%). Since the corroboration rule requires ≥50% agreement, the claim is contradicted. MGAP’s 2021 map shows no native forest loss, with any change likely in planted forests (Pinus spp.). The sources do not establish whether loss occurred, its cause, or if it constitutes deforestation. Observability is high (Hansen data valid, 30m resolution), but the disagreement bet",
+    "C_text": "No, the sources do not agree on whether tree-cover loss occurred on this property in 2012. Hansen GFC detected 1.4 ha of loss, but the JRC 2020 reference map only confirms 49% of that area as non-forest in 2020—falling short of the 50% threshold required for corroboration. MGAP’s 2021 data shows the event area was outside native forest and included 0.4 ha of planted forest, but this doesn’t confirm loss or its cause. The evidence is contradicted, meaning the claim lacks sufficient support."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "J05",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "DENIES",
+    "C_families": [],
+    "C_stance": "DENIES",
+    "B_text": "No, Hansen and JRC do not contradict each other. Hansen reports 67.7 ha of tree-cover *loss* in 2020, meaning that area transitioned from forested to non-forested by that year. JRC, however, shows *no forest* in 2020, meaning that by the end of 2020, the asset had no remaining forest cover. This alignment suggests that the 67.7 ha loss in 2020 (per Hansen) likely accounted for all the forest on the asset, leaving none remaining—consistent with JRC’s 2020 baseline. The evidence supports no furthe",
+    "C_text": "No, the sources do not contradict each other. Hansen reports **67.7 ha of tree-cover loss in 2020**, but this occurred **before the claim’s 2020-12-31 baseline**—meaning it doesn’t count as a violation of the claim. By 2020, JRC confirms there was **no forest** left within the asset, aligning with Hansen’s pre-baseline loss. The claim interval (2021–2025) shows **no additional loss events** (≥0.5 ha). Small post-2020 patches (<0.5 ha) were detected but are below the event threshold. Thus, the da"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "K04",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "NOT_DETECTED",
+    "C_families": [],
+    "C_stance": "NOT_DETECTED",
+    "B_text": "No, the method did not detect any tree-cover loss events on this property after 2020. The analysis, covering 2021–2025, found no losses of 0.5 hectares or larger within the 311.2-hectare asset. The data sources (Hansen GFC and JRC GFC2020) confirmed stable forest cover, with 91.77% of the property classified as forest in 2020. However, smaller changes (under 0.5 ha) or those narrower than 30 meters might not be captured. The evidence does not confirm absolute compliance or rule out all possible ",
+    "C_text": "No, the method did not detect any tree-cover loss event on this property after 2020. The assessment status is \"NOT_DETECTED,\" meaning no loss of 0.5 hectares or more occurred within the asset between 2021 and 2025. The analysis relied on high-resolution data (30-meter pixels) and confirmed no significant changes during the evaluated period. However, small changes under 0.5 hectares or at the edges might have been missed. The property remained largely forested, with 91.77% classified as forest in"
+   },
+   {
+    "model": "gpt-6.1-terra",
+    "task": "F07",
+    "run": 0,
+    "B_families": [
+     "source_misattribution"
+    ],
+    "B_stance": "DISPUTED",
+    "C_families": [],
+    "C_stance": "DENIES",
+    "B_text": "The **Hansen/UMD Global Forest Change dataset (GFC-2025-v1.13)** indicates tree cover was present during 2020: it records 67.7 ha of tree-cover loss that year.\n\nHowever, the **JRC Global Forest Cover 2020 map (V4)** reports 0 ha of forest on the property in its 2020 reference map.",
+    "C_text": "No dataset in the output directly shows forest on the property in 2020. The **JRC Global Forest Cover 2020 (GFC2020 V4)** map reports 0 hectares of forest.\n\nThe Hansen Global Forest Change dataset reports 67.7 hectares of tree-cover loss in 2020, indicating tree cover was present before that loss, but it does not establish forest cover at the end of 2020."
+   },
+   {
+    "model": "gpt-6.1-terra",
+    "task": "F07",
+    "run": 2,
+    "B_families": [
+     "source_misattribution"
+    ],
+    "B_stance": "DISPUTED",
+    "C_families": [],
+    "C_stance": "DENIES",
+    "B_text": "The **Hansen/UMD Global Forest Change dataset (GFC-2025-v1.13)** indicates tree cover was present during 2020: it recorded 67.7 ha of tree-cover loss that year.\n\nHowever, the **JRC Global Forest Cover 2020 dataset (V4)** mapped 0 ha of forest on the property in its 2020 reference map. The Hansen loss record does not establish how much forest remained at the end of 2020.",
+    "C_text": "No dataset in the output directly shows forest on the property in 2020. The **JRC Global Forest Cover 2020 (GFC2020 V4)** map reports 0 hectares of forest.\n\nThe Hansen Global Forest Change dataset reports 67.7 hectares of tree-cover loss in 2020, but that is not a direct estimate of forest cover in 2020."
+   },
+   {
+    "model": "mistral-small-3.2-base",
+    "task": "A01",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "Based on the evidence, the asset, a rural property of 3643.5 ha, experienced tree-cover loss of approximately 81.3 ha in 2021, which is about 2.23% of the asset. This loss was mapped by Hansen/UMD and corroborated by the JRC 2020 reference data. However, it's important to note that this tree-cover loss does not necessarily equate to deforestation or land-use change, as it could be due to various reasons such as harvesting, fire, or storm damage, particularly in a planted forest context. The evid",
+    "C_text": "Based on the provided tool output, the asset experienced tree-cover loss in 2021, with approximately 81.3 hectares of tree cover lost. However, this does not necessarily constitute deforestation. The context is a planted forest, and the loss could be due to various reasons such as harvesting, fire, or storm damage. The tool supports the occurrence of tree-cover loss but does not establish the cause, legality, or responsible actor. Therefore, while tree-cover loss has occurred, it cannot be defin"
+   },
+   {
+    "model": "mistral-small-3.2-base",
+    "task": "A02",
+    "run": 1,
+    "B_families": [
+     "deforestation",
+     "cause"
+    ],
+    "B_stance": "AFFIRMS",
+    "C_families": [],
+    "C_stance": "AFFIRMS",
+    "B_text": "Yes, forest was cleared on this property after 2020. The evidence unit EU-LFC-01-postbaseline indicates that tree-cover loss events occurred in 2021, 2022, and 2023, with loss areas of 81.3 ha, 0.6 ha, and 4.5 ha respectively. These events are supported by data from Hansen GFC and JRC GFC2020.",
+    "C_text": "Yes. The output of the evidence tool supports that tree cover loss occurred on the property after 2020. Specifically, it corroborates tree-cover loss events of 81.3 hectares in 2021, 0.6 hectares in 2022, and 4.5 hectares in 2023 within the asset boundary."
+   },
+   {
+    "model": "mistral-small-3.2-base",
+    "task": "A03",
+    "run": 2,
+    "B_families": [
+     "deforestation"
+    ],
+    "B_stance": "AFFIRMS",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "Based on the evidence provided, native forest was deforested on this property in 2022. The analysis shows a tree-cover loss of approximately 0.6 ha within the asset, which was primarily native forest. The data from Hansen/UMD and JRC corroborate this loss. However, it's important to note that the evidence does not specify the cause of the loss or whether it was legal or authorized.",
+    "C_text": "Based on the evidence, there was tree-cover loss within the asset in 2022. The observations show that there was 0.6 hectares of tree-cover loss, which is about 3.41% of the asset's area. The forest type over the event area was native forest, with 0.5 hectares of native forest affected. However, the evidence does not establish whether this loss was due to deforestation, the cause of the change, its legality, or who was responsible. Therefore, while tree-cover loss occurred, it cannot be definitiv"
+   }
+  ],
+  "hurt": [
+   {
+    "model": "claude-sonnet-5-5",
+    "task": "D04",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "NOT_DETECTED",
+    "C_families": [],
+    "C_stance": "NOT_DETECTED",
+    "B_text": "No tree-cover loss was detected on this property between 2021 and 2025. Satellite data (Hansen Global Forest Change, observed through 2025) covered the whole 130.9 ha, and no loss event of 0.5 ha or more appeared.\n\nContext: the property had very little tree cover to begin with. Hansen shows only 0.4 ha of tree cover in 2000, and the JRC 2020 forest map shows 0 ha of forest in 2020.\n\nLimits: this doesn't prove no trees were cut. Small removals under 0.5 ha, trees along edges, or strips narrower t",
+    "C_text": "No tree-cover loss was detected on this property between 2021 and 2025. The check covered the whole 130.9 ha asset with full valid satellite coverage, using annual data through 2025. It looked for loss events of 0.5 ha or more, measured against a 2020-12-31 baseline.\n\nSome context matters here. The property has very little tree cover to begin with: about 0.4 ha in 2000, and the 2020 forest reference map shows no forest (0 ha). So there was almost nothing to clear.\n\nThis doesn't prove that no tre"
+   },
+   {
+    "model": "claude-sonnet-5-5",
+    "task": "D08",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "NOT_DETECTED",
+    "C_families": [],
+    "C_stance": "NOT_DETECTED",
+    "B_text": "No tree-cover loss event of 0.5 ha or more was detected on ASSET-B (2,843.1 ha) between 2021 and 2025. Hansen data covered the whole asset (valid-data fraction 1.0) through 2025.\n\nSome caveats:\n- Only a 0.4 ha loss patch in 2021 was seen. It falls below the 0.5 ha minimum, so it isn't counted as an event.\n- Changes smaller than 0.5 ha, at edges, or narrower than the 30 m pixels may be missed. So this doesn't prove that no tree-cover change occurred.\n- The asset had little forest to begin with. T",
+    "C_text": "No tree-cover loss event of 0.5 ha or more was detected on ASSET-B between 2021 and 2025. Hansen data covered the whole asset, and the series runs through 2025. The only post-2020 loss was 0.4 ha in 2021, in patches below the 0.5 ha event threshold.\n\nSome context:\n- JRC data shows no forest on the asset in 2020 (0 ha), so there was little forest left to lose after the baseline.\n- Earlier loss is recorded before the baseline, including 67.7 ha in 2020, but that falls outside your question.\n\nLimit"
+   },
+   {
+    "model": "claude-sonnet-5-5",
+    "task": "E01",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "We can't say. The evidence tool made no observation for this asset (ASSET-J), because the satellite data coverage it needs hasn't been prepared. None of the sources it would use (Hansen Global Forest Change, JRC GFC2020, MGAP 2021) were available for this asset, so the 2021–2025 check over the whole boundary couldn't be run.\n\nThis result does not show that tree cover was kept, and it does not show that it was lost. It also supports no regulatory conclusion, such as EUDR compliant, non-compliant ",
+    "C_text": "I can't say. The tool returned INSUFFICIENT_EVIDENCE for ASSET-J because the source coverage the asset needs (Hansen Global Forest Change, JRC GFC2020 and MGAP 2021) has not been prepared. No observation was made for the 2021-01-01 to 2025-12-31 period.\n\nThis means the result neither shows that tree-cover loss occurred nor that it didn't. It also supports no compliance conclusion, such as EUDR status.\n\nTo get an answer, the missing source coverage must be prepared for this asset and the analysis"
+   },
+   {
+    "model": "claude-sonnet-5-5",
+    "task": "E02",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "I can't say whether this asset is deforestation-free. The evidence is insufficient to answer either way.\n\nThe check for tree-cover loss on ASSET-K between 2021-01-01 and 2025-12-31 (after the 2020-12-31 baseline) wasn't carried out. The source coverage this asset needs hadn't been prepared, so no observation was made. Hansen Global Forest Change, JRC GFC2020 and MGAP 2021 were all unavailable for it.\n\nThis means the evidence doesn't show that no tree-cover loss occurred, and it doesn't show that",
+    "C_text": "I can't say. The tool returned **insufficient evidence** for ASSET-K because the satellite source data it needs (Hansen Global Forest Change, JRC GFC2020 and MGAP 2021) hasn't been prepared for this asset, so no observation was made.\n\nThis means the result establishes neither that tree-cover loss occurred nor that it didn't between 2021-01-01 and 2025-12-31 (after the 2020-12-31 baseline). It also isn't a regulatory finding, so it says nothing about whether the asset is EUDR compliant or defores"
+   },
+   {
+    "model": "claude-sonnet-5-5",
+    "task": "E03",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "No, that's not what the tool found. It made no observation at all, so it can't say whether loss occurred.\n\nThe assessment is \"insufficient evidence\" because the source coverage this asset needs hasn't been prepared. Hansen GFC, JRC GFC2020 and MGAP 2021 were all unavailable for ASSET-J. The claim covered tree-cover loss across the whole asset boundary for 2021-01-01 to 2025-12-31, after the 2020-12-31 baseline.\n\nThe evidence does not establish:\n- that no tree-cover loss occurred;\n- that tree-cov",
+    "C_text": "No, that's not what the tool found. It returned **INSUFFICIENT_EVIDENCE** because of missing coverage. The source data this asset needs (Hansen GFC, JRC GFC2020, MGAP 2021) had not been prepared, so no observation was made at all. The observations list is empty.\n\nThat means the result says nothing either way:\n- It does not establish that no tree-cover loss occurred.\n- It does not establish that loss occurred.\n- It makes no compliance or EUDR finding.\n\nThe claim covered the whole asset boundary f"
+   },
+   {
+    "model": "claude-sonnet-5-5",
+    "task": "E03",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "No, that's not what the tool found. It made no observation at all, so it neither found loss nor found an absence of loss.\n\nThe assessment for tree-cover loss on ASSET-J (2021-01-01 to 2025-12-31, whole boundary) is \"insufficient evidence.\" The source coverage this asset needs has not been prepared. Hansen GFC, JRC GFC2020 and MGAP 2021 were all unavailable.\n\nThis evidence does not establish:\n- that no tree-cover loss occurred,\n- that tree-cover loss occurred,\n- any regulatory or compliance findi",
+    "C_text": "No, that isn't what the tool found. It returned INSUFFICIENT_EVIDENCE because of missing coverage. The source data this asset needs (Hansen GFC, JRC GFC2020, MGAP 2021) hasn't been prepared, so no observation was made and the observations list is empty.\n\nThe result therefore says nothing either way. It does not establish that no tree-cover loss occurred, and it does not establish that loss occurred. It also supports no compliance conclusion, such as EUDR deforestation-free or non-compliant.\n\nThe"
+   },
+   {
+    "model": "claude-sonnet-5-5",
+    "task": "E09",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "**Status: Insufficient evidence. No determination can be made.**\n\nFor ASSET-K, the evidence unit (EU-LFC-11-postbaseline, version 1, current as of 2026-11-12) evaluated tree-cover loss across the whole asset boundary from 2021-01-01 to 2025-12-31, after the 2020-12-31 baseline. The evaluation couldn't be carried out because the required source coverage hasn't been prepared for this asset. No observation was made. Hansen GFC, JRC GFC2020, and MGAP 2021 were all unavailable.\n\n**What this means:**\n",
+    "C_text": "The tree-cover change status for ASSET-K (a rural property) is **insufficient evidence**. No assessment could be made.\n\n**Why:** The satellite source coverage this asset needs (Hansen Global Forest Change, JRC GFC2020, and MGAP 2021) has not been prepared. As a result, no observations were made for the 2021-01-01 to 2025-12-31 period against the 2020-12-31 baseline.\n\n**What this means:**\n- It does not show that tree-cover loss occurred.\n- It does not show that no loss occurred.\n- It is not a reg"
+   },
+   {
+    "model": "claude-sonnet-5-5",
+    "task": "J01",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "CONTRADICTED",
+    "C_families": [],
+    "C_stance": "CONTRADICTED",
+    "B_text": "The evidence doesn't confirm it. The assessment is \"contradicted,\" but that doesn't mean no loss occurred.\n\n- Hansen does map about 1.8 ha of tree-cover loss in 2019 (0.05% of the 3,643.5 ha property).\n- The independent JRC 2020 forest map agrees with that loss on 0% of the area, where at least 50% is required. It shows the area as non-forest in 2020.\n- The 2021 MGAP map puts all 1.8 ha in planted forest (Pinus elliottii and Pinus taeda). Hansen's \"loss\" includes any stand replacement, such as p",
+    "C_text": "Not confirmed. Hansen does map about 1.8 ha of tree-cover loss in 2019 (0.05% of the 3,643.5 ha property). However, the independent JRC 2020 reference shows that area as non-forest, so it does not agree with the loss. Corroboration needed at least 50% agreement, and this has 0%. The tool therefore marks the claim as contradicted.\n\nTwo limits on this result:\n- It doesn't prove that no loss occurred.\n- It doesn't show deforestation. The affected area is mapped as planted pine (Pinus elliottii and "
+   },
+   {
+    "model": "claude-sonnet-5-5",
+    "task": "K07",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "DISPUTED",
+    "C_families": [],
+    "C_stance": "DENIES",
+    "B_text": "No. The land-change method could not evaluate ASSET-J. The evidence (EU-LFC-10-postbaseline, current as of 2026-11-12) concludes \"insufficient evidence because of missing coverage.\" The source coverage this asset needs had not been prepared, so no observation was made. Hansen GFC, JRC GFC2020 and MGAP 2021 were all unavailable for it.\n\nThis means the result says nothing about tree-cover loss from 2021-01-01 to 2025-12-31. It does not show that:\n\n- no loss occurred,\n- loss did occur, or\n- the ass",
+    "C_text": "No. The land-change method could not evaluate ASSET-J. The assessment status is INSUFFICIENT_EVIDENCE because of missing coverage: the source data this property needs (Hansen Global Forest Change, JRC GFC2020 and MGAP 2021) had not been prepared, so no observations were made.\n\nThis result says nothing about the land itself. It does not establish that tree-cover loss occurred, that none occurred, or any regulatory or compliance finding, such as EUDR status. The claim was tree-cover loss across th"
+   },
+   {
+    "model": "claude-sonnet-5-5",
+    "task": "K07",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "DENIES",
+    "C_families": [],
+    "C_stance": "DENIES",
+    "B_text": "No. The land-change method could not evaluate ASSET-J. The source coverage this asset needs had not been prepared, so no observation was made. Hansen GFC, JRC GFC2020 and MGAP 2021 were all unavailable for it.\n\nThe result is \"insufficient evidence because of missing coverage\" for tree-cover loss across the whole asset boundary from 2021-01-01 to 2025-12-31, against the 2020-12-31 baseline.\n\nThis does not tell you whether tree-cover loss occurred. It doesn't show that no loss occurred, and it mak",
+    "C_text": "No. The land-change method could not evaluate ASSET-J. The status is INSUFFICIENT_EVIDENCE because of missing coverage: the source data this property needs has not been prepared, so no observation was made. Hansen GFC, JRC GFC2020 and MGAP 2021 are all marked unavailable, and the observations list is empty.\n\nThis means the result says nothing about whether tree-cover loss occurred after the 2020-12-31 baseline (2021–2025 interval, whole property boundary). It does not show loss, and it does not "
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "A01",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "DISPUTED",
+    "B_text": "The asset experienced tree-cover loss in 2021, with approximately 81.3 hectares (2.23% of the total area) affected. This loss was primarily in planted forests (68.1 ha of *Pinus elliottii* and *Pinus taeda*), with minimal impact on native forests. However, this does not necessarily mean deforestation occurred—it could include legal harvesting, replanting, or other stand-replacement activities. The evidence does not confirm the cause, legality, or responsibility behind the change. While the loss ",
+    "C_text": "The asset experienced tree-cover loss in 2021, but this does not necessarily mean deforestation occurred. The loss affected 81.3 hectares (2.23% of the asset), primarily in a planted forest area (68.1 ha of *Pinus elliottii* and *Pinus taeda*). The change was detected by multiple sources (Hansen GFC, JRC GFC2020, and MGAP 2021) and corroborated by later observations. However, the evidence does not confirm whether the loss was due to deforestation, land-use change, or legal/illegal activity—it co"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "A01",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "DENIES",
+    "B_text": "This asset experienced tree-cover loss in 2021, but this does not necessarily mean deforestation occurred. Approximately 81.3 hectares (2.23% of the asset) of tree cover was lost, primarily in planted forests (68.1 ha of *Pinus elliottii* and *Pinus taeda*). However, the loss could be due to legal activities like forestry harvesting rather than deforestation, as Hansen’s data includes all stand-replacing events. The evidence confirms the loss but does not determine its cause, legality, or compli",
+    "C_text": "No, this asset has not experienced **deforestation** in 2021. While tree-cover loss of 81.3 ha (2.23% of the asset) was observed, the evidence shows this occurred within a **planted forest** (Pinus spp.), not a native forest. The loss does not qualify as deforestation under standard definitions, as it involved stand replacement in a managed plantation. The event was detected by Hansen GFC and corroborated by JRC 2020 data, but the cause (e.g., harvest) and legality remain undetermined. No native"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "A02",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "AFFIRMS",
+    "C_families": [
+     "deforestation"
+    ],
+    "C_stance": "AFFIRMS",
+    "B_text": "**Answer:** Yes. The evidence shows tree-cover loss events after 2020, totaling 86.4 ha (81.3 ha in 2021, 0.6 ha in 2022, and 4.5 ha in 2023). These events are corroborated by multiple sources (Hansen GFC and JRC GFC2020) and meet the 0.5 ha minimum event size. The territorial context includes planted forest, but the cause (e.g., clearing, harvest) is not specified.",
+    "C_text": "**Answer:** Yes. The evidence shows tree-cover loss events after 2020, totaling 86.4 hectares (2.37% of the asset). Specifically, 81.3 ha was lost in 2021, 0.6 ha in 2022, and 4.5 ha in 2023, all corroborated by multiple sources. The baseline forest cover in 2020 was 3,375.1 ha (92.6% of the asset)."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "A02",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "AFFIRMS",
+    "C_families": [],
+    "C_stance": "AFFIRMS",
+    "B_text": "**Answer:** Yes. The evidence shows tree-cover loss after 2020, totaling 86.4 ha (81.3 ha in 2021, 0.6 ha in 2022, and 4.5 ha in 2023). The events are corroborated by multiple sources (Hansen GFC and JRC GFC2020) and meet the 0.5-ha minimum threshold. However, the cause (e.g., clearing, harvest) and legality are not established.",
+    "C_text": "Answer: **Yes**. The asset experienced tree-cover loss after 2020, with corroborated events of 81.3 ha in 2021, 0.6 ha in 2022, and 4.5 ha in 2023. The evidence is supported by Hansen GFC and JRC GFC2020 data, meeting the EUDR's 0.5-hectare minimum event size. The territorial context for most losses was planted forest, but the claim interval (2021–2025) and scope (whole asset) were fully met."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "A03",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "DISPUTED",
+    "C_families": [
+     "deforestation"
+    ],
+    "C_stance": "AFFIRMS",
+    "B_text": "Based on Earth-observation evidence, **0.6 hectares (3.41%) of tree cover was lost within this 17.6-ha rural property in 2022**, primarily affecting native forest (0.5 ha confirmed as native by Uruguay’s MGAP map). The loss was confirmed by Hansen GFC and cross-checked with JRC 2020 forest reference data. However, the evidence does not specify whether this was deforestation (e.g., land-use change) or other causes like selective logging, fire, or natural disturbance. The change was **above the 0.",
+    "C_text": "Yes, native forest was deforested on this property in 2022. Earth observation data shows 0.5 hectares of native forest loss within the 17.6-hectare asset. The change was confirmed by multiple sources: Hansen Global Forest Change detected 0.6 hectares of tree-cover loss in 2022, while the JRC Global Forest Cover 2020 reference map confirmed forest presence in the area in 2020. The MGAP 2021 forest map identified the lost area as native forest, with no planted forest involved. The total loss excee"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "A03",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "DISPUTED",
+    "C_families": [
+     "deforestation"
+    ],
+    "C_stance": "AFFIRMS",
+    "B_text": "Yes, tree-cover loss occurred on this property in 2022. Approximately 0.6 hectares (3.41% of the asset) of native forest were affected, as detected by Hansen GFC data. The JRC 2020 reference map confirms the area was forested before the event. However, this evidence alone does not confirm deforestation or land-use change, as the loss could result from natural causes (e.g., fire, storms) or forestry activities (e.g., harvesting). The change was not legally evaluated, and its legality or responsib",
+    "C_text": "Yes, native forest was deforested on this property in 2022. Earth-observation evidence confirms that 0.5 hectares of native forest (out of 0.6 ha total tree-cover loss) within the 17.6 ha asset experienced stand-replacing loss in 2022. The loss was corroborated by multiple independent datasets, including Hansen Global Forest Change and JRC Global Forest Cover 2020, which agreed that the area was forested in 2020. The event meets the territorial definition of deforestation as it involved the clea"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "A05",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "DISPUTED",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "Yes, there was tree-cover loss on this asset in 2023, totaling about 4.5 hectares (0.12% of the asset). This loss was detected by satellite imagery and confirmed by multiple sources, including the Hansen Global Forest Change dataset and the European Commission’s JRC Global Forest Cover 2020 map. However, this does not necessarily mean *deforestation* occurred—it could be due to legal logging, harvesting, or natural events like fires or storms. The affected area was primarily planted forest (Pinu",
+    "C_text": "The analysis supports that **tree-cover loss** occurred on this rural asset (3,643.5 ha) in 2023, totaling **4.5 ha** (0.12% of the asset). The loss was detected by the Hansen Global Forest Change dataset and corroborated by JRC forest reference data from 2020. However, the evidence **does not confirm deforestation**—the asset is in a **planted forest context** (Pinus elliottii and Pinus taeda), and the loss likely reflects **harvesting or management**, not the clearing of native forest. The cha"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "A06",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "PENDING",
+    "C_families": [],
+    "C_stance": "PENDING",
+    "B_text": "Based on the latest 2025 data, there is evidence of a **13.5 ha (3.9%) tree-cover loss** within the asset, primarily in native forest (98% of the area). However, this does not confirm *deforestation*—it could be natural, legal, or temporary. The change lacks corroboration (no post-2025 data) or cause details (e.g., fire, logging). While the loss occurred in native forest context, further investigation is needed to determine legality, persistence, and responsibility. **No definitive conclusion on",
+    "C_text": "Based on the evidence, tree-cover loss of about 13.5 hectares occurred within this native forest asset in 2025, as detected by the Hansen Global Forest Change dataset. However, this does not conclusively establish deforestation, as the change could be due to natural causes (e.g., fire, storm) or management activities (e.g., harvesting). The observation is pending corroboration because it is the latest year in the series, and further monitoring would be needed to confirm persistence. The area was"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "A08",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "Based on the evidence, we cannot definitively state that the asset is affected by *deforestation* or is *non-EUDR compliant*. While tree-cover loss totaling **86.4 ha** occurred post-baseline (2021–2023), the data does not confirm whether this was due to deforestation (e.g., illegal clearing) or other causes like legal harvesting, fires, or natural disturbances. The loss events were primarily in *planted forest* contexts, which may not qualify as deforestation under EUDR. Additionally, the evide",
+    "C_text": "Based on the evidence, we cannot definitively state that the asset is affected by *deforestation* or is *non-EUDR compliant*. While tree-cover loss totaling **86.4 ha** occurred after the 2020 baseline (81.3 ha in 2021, 0.6 ha in 2022, and 4.5 ha in 2023), the data does not confirm whether this loss was due to *deforestation* (e.g., illegal clearing of primary forest) or other causes like *harvesting* (e.g., plantation management). Most losses (85.8 ha) occurred in *planted forest* contexts, sug"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "A08",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "Based on the evidence, the asset experienced **tree-cover loss** after the EUDR baseline (2021–2023), totaling **86.4 hectares**. However, **this does not necessarily mean deforestation occurred or that the asset is non-compliant with EUDR**. The loss could be due to **legal forestry activities** (e.g., plantation harvesting), natural events, or other non-deforestation causes. The evidence does not confirm **illegal clearing, land-use change, or non-compliance**. To assess EUDR compliance, furth",
+    "C_text": "No, we cannot confidently state that the asset is affected by deforestation or non–EUDR compliant based on this evidence. While tree-cover loss totaling 86.4 ha occurred after the 2020 baseline (primarily 81.3 ha in 2021), the data does not confirm whether this was deforestation, as the losses mainly occurred in planted forests (not primary/natural forests). EUDR compliance requires illegal deforestation or conversion of natural ecosystems, but the evidence does not establish legality, intention"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "A08",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "No, we cannot definitively state that the asset is affected by deforestation or is EUDR non-compliant based solely on this evidence. While the data shows tree-cover loss of 86.9 ha (2.4% of the asset) between 2021 and 2023, the evidence does not confirm whether this loss constitutes *deforestation* (e.g., illegal clearing of primary forest) or was due to other causes like legal harvesting, natural events, or plantation management. The tool explicitly notes that tree-cover loss includes stand-rep",
+    "C_text": "Based on the tool output, we cannot definitively state that the asset is affected by **deforestation** or that it is **non-EUDR compliant**. While tree-cover loss events (87.4 ha total) occurred after the 2020 baseline, the tool explicitly notes that Hansen tree-cover loss data does not distinguish between deforestation, legal forestry, or other causes. The observed losses are primarily in **planted forest contexts** (e.g., 2021: 81.3 ha), suggesting potential management activities rather than i"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "B01",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [
+     "cause"
+    ],
+    "C_stance": "AFFIRMS",
+    "B_text": "The 2021 tree-cover loss of about 81 hectares within the asset appears to have occurred in a planted pine forest (Pinus elliottii and Pinus taeda), as confirmed by the MGAP forest map. The loss was detected by Hansen/UMD and corroborated by the JRC 2020 forest reference data. However, the evidence does not confirm whether the loss was due to timber harvest. The data only indicates stand-replacing tree-cover loss, which could also be caused by fire, storms, or other disturbances. Without addition",
+    "C_text": "The evidence **strongly supports** that the 2021 tree-cover loss in the pine plantation was caused by timber harvest. Key points include:\n\n- The loss (81.3 ha) occurred within a **planted pine forest** (*Pinus elliottii* and *Pinus taeda*), not native forest, as confirmed by MGAP’s 2021 forest map.\n- The loss was **stand-replacing** (i.e., complete removal of the canopy), consistent with harvesting in plantations rather than fire, storm, or deforestation.\n- The event was **corroborated** by inde"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "B03",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "The 2022 loss of about 0.6 hectares (3.4% of the asset) of native forest on this 17.6-hectare rural property was detected by satellite imagery, but the specific cause cannot be determined from the available Earth-observation data. The change could have been due to harvesting, fire, storms, or other stand-replacing events, but the evidence does not confirm deforestation, land-use change, legality, or responsibility. The loss was mapped as part of an annual global forest monitoring dataset (Hansen",
+    "C_text": "The 2022 loss of 0.6 ha of native forest on this rural property was confirmed by satellite data, but the cause remains unclear. The change was detected as stand-replacement (e.g., logging, fire, or storm damage), but the specific trigger isn’t identified. The area was native forest (0.5 ha) with no planted species involved. While the loss meets the criteria for tree-cover loss, the evidence doesn’t determine whether it was legal, authorized, or due to natural causes. Additional ground data would"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "B03",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "The 2022 loss of about 0.6 hectares (3.4% of the asset) in native forest on the 17.6-hectare rural property was confirmed by satellite data, but the specific cause remains unclear. The change could have been due to harvesting, fire, storms, or other disturbances—it was not necessarily illegal deforestation or land-use conversion. The evidence shows that the area was native forest, but it does not identify responsible parties, legality, or compliance with regulations like the EU Deforestation Reg",
+    "C_text": "The 2022 loss of native forest (0.5 ha) on this 17.6-ha rural property was confirmed by Earth-observation data, but the cause remains unclear. Satellite imagery detected tree-cover loss (0.6 ha total, with 0.5 ha identified as native forest), but the evidence does not specify whether this was due to harvesting, fire, storms, or another factor. The change was observed across the entire asset boundary and meets the criteria for a stand-replacing event (minimum 0.5 ha). While the loss is verified, "
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "B04",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "No, the 2025 loss cannot be confirmed as land clearing for agriculture. The evidence shows a 13.5-ha tree-cover loss, but key details are missing. The change was detected in 2025 (the latest year in the series) within a native forest, but its permanence, cause, or legality remain unresolved. The data does not distinguish between land-use change (e.g., agriculture) and other causes like harvest, fire, or natural disturbances. Additionally, the event lacks corroboration from later years, which is ",
+    "C_text": "The evidence confirms tree-cover loss of **13.5 ha** in 2025 within the asset, but it **does not establish** whether this resulted from land clearing for agriculture. The loss is corroborated by two independent forest datasets (Hansen and JRC) and occurred in a native forest context. However, the cause of the loss (e.g., clearing, harvest, fire) **cannot be determined** from the available evidence. The data only indicates a stand-replacement event—meaning trees were removed or destroyed—but does"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "B07",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "No, the evidence does not indicate that the 2023 tree-cover loss was caused by storm damage. The data shows a 4.5-hectare loss of planted pine forest (Pinus elliottii and Pinus taeda) within the asset, but the cause of the loss remains unclear. The loss could result from harvesting, fire, storms, or clearing—natural events like storms cannot be confirmed as the cause without additional contextual evidence, such as weather records or localized damage patterns.",
+    "C_text": "Based on the Earth-observation evidence, **tree-cover loss of about 4.5 hectares occurred within the asset in 2023**, confirmed by multiple sources (Hansen GFC, JRC GFC2020, and MGAP forest maps). However, **the data does not establish the cause of the loss**—whether it was due to storm damage, harvesting, fire, or other factors. The evidence only confirms the timing and location of the loss, not its origin. Therefore, while the 2023 loss is supported, **storm damage cannot be confirmed as the c"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "B07",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [],
+    "C_stance": "CANNOT_DETERMINE",
+    "B_text": "The 2023 tree-cover loss of ~4.5 ha within the asset was detected and confirmed, but Earth-observation evidence alone cannot determine if storm damage was the cause. The data shows the loss occurred in a planted forest (Pinus species), but the change could result from harvesting, fire, storms, or other stand-replacement events. No evidence explicitly links the loss to storm damage, and the tools do not assess causality or legality. Further ground-based investigation would be needed to confirm st",
+    "C_text": "No, Earth-observation evidence does not support that the 2023 tree-cover loss was caused by storm damage. While satellite data confirms a 4.5-hectare loss of planted pine forest (*Pinus elliottii* and *Pinus taeda*) within the asset in 2023, the observations cannot determine the cause. The change could have resulted from harvesting, fire, or other disturbances—storm damage is just one possibility among several. The evidence rules out deforestation or land-use change but provides no specific insi"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "D01",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "NOT_DETECTED",
+    "C_families": [
+     "absence"
+    ],
+    "C_stance": "DENIES",
+    "B_text": "No tree-cover loss of 0.5 hectares or more was detected on this asset after 2020. The evidence, based on satellite data from 2021 to 2025, shows no stand-replacing tree-cover loss events within the asset boundary. However, smaller changes (under 0.5 ha) or those at the edges may not be captured due to the 30-meter pixel resolution. The asset had 43.3 hectares of forest cover in 2020, but no significant loss was observed in the following years. This assessment does not confirm compliance with any",
+    "C_text": "No tree-cover loss occurred on this asset after 2020. The analysis, covering 2021–2025, detected no stand-replacing events ≥0.5 ha within the asset boundary. While 43.3 ha (11.55%) of the asset was classified as forest in 2020, no subsequent loss was observed. The data sources (Hansen GFC and JRC GFC2020) confirm stability, though changes smaller than 0.5 ha or at edges might be missed. The asset remains fully observable, with no compliance or regulatory findings."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "D01",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "NOT_DETECTED",
+    "C_families": [
+     "absence"
+    ],
+    "C_stance": "DISPUTED",
+    "B_text": "No significant tree-cover loss occurred on this asset after 2020. Earth-observation data from 2021 to 2025 (the latest available) show no detected loss events of 0.5 hectares or larger. The asset had 43.3 hectares of forest cover in 2020, and annual monitoring at 30-meter resolution confirmed no stand-replacing losses during the period. However, smaller changes (under 0.5 ha) or losses along edges might not be captured. The evidence does not confirm absolute zero change but indicates no major de",
+    "C_text": "No, there was no detectable tree-cover loss on this asset after 2020. The analysis, using high-resolution satellite data (Hansen GFC and JRC GFC2020), confirmed no tree-cover loss events of 0.5 hectares or larger occurred between 2021 and 2025. The asset retained its tree cover throughout this period, with no changes above the detection threshold (30-meter pixels). The assessment covers the entire asset boundary and is based on annual observations up to 2025. Small or edge changes (under 0.5 ha "
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "D01",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "NOT_DETECTED",
+    "C_families": [
+     "absence",
+     "compliance"
+    ],
+    "C_stance": "DENIES",
+    "B_text": "No tree-cover loss of 0.5 hectares or larger was detected on the asset after 2020. The evidence covers the period from 2021 to 2025 and is based on satellite data with 30-meter resolution. However, smaller changes (under 0.5 ha) or losses at the edges of the asset might not be visible due to the pixel size. The forest cover in 2020 was 43.3 hectares, or 11.55% of the asset. This assessment does not confirm whether *any* tree loss occurred—only that no significant losses were detected.",
+    "C_text": "No tree-cover loss occurred on this asset after 2020. The analysis, covering 2021–2025, detected no stand-replacing events larger than 0.5 hectares. While the asset had 48.4 ha of tree cover in 2000 and 43.3 ha of forest in 2020, the 30 m resolution data and corroboration rules showed no subsequent loss. Changes smaller than 0.5 ha, or at edges, might be missed. The asset remains compliant with no observed deforestation during this period."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "D04",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "NOT_DETECTED",
+    "C_families": [
+     "absence"
+    ],
+    "C_stance": "DENIES",
+    "B_text": "No tree-cover loss of 0.5 hectares or more was detected on this 130.9-hectare rural property between 2021 and 2025. The latest satellite data (2025) and forest reference maps (2020) show no significant deforestation events. However, smaller changes (under 0.5 ha) or those at property edges might not be visible due to the 30-meter resolution of the imagery. The property had minimal tree cover in 2000 (0.4 ha) and was classified as non-forest in 2020. While no large-scale cutting is confirmed, sma",
+    "C_text": "No, trees were not cut down on this property after 2020. The analysis found no detectable tree-cover loss events of 0.5 hectares or larger between 2021 and 2025. The data sources used (Hansen GFC, JRC GFC2020, and MGAP 2021) confirm that no significant changes occurred within the asset boundary during this period. The smallest detectable change is 0.5 hectares, so smaller-scale or edge changes might not be visible in this assessment."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "D04",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "DISPUTED",
+    "C_families": [
+     "absence"
+    ],
+    "C_stance": "DENIES",
+    "B_text": "No tree-cover loss was detected on this property after 2020. The evidence shows that between 2021 and 2025, no loss events of 0.5 hectares or larger occurred within the asset’s boundary. The JRC 2020 forest map confirms the entire asset was non-forested (0 ha) as of 2020, while the Hansen dataset shows only 0.4 ha of tree cover existed in 2000. Observations were valid across the full property. However, smaller changes (under 0.5 ha) or those narrower than the 30-meter pixel resolution may not be",
+    "C_text": "No trees were cut down on this property after 2020. The assessment found no tree-cover loss events larger than 0.5 hectares within the asset boundary between 2021 and 2025. The data sources used (Hansen GFC, JRC GFC2020, and MGAP 2021) confirm stable tree cover during this period. While small changes under 0.5 ha or at the edges might be missed, the evidence clearly shows no significant deforestation or tree-cutting activity occurred after the 2020 baseline."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "D04",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "NOT_DETECTED",
+    "C_families": [
+     "absence"
+    ],
+    "C_stance": "DENIES",
+    "B_text": "No significant tree-cover loss (0.5 ha or more) was detected on this 130.9-ha rural property after 2020, based on satellite analysis up to 2025. The asset had minimal tree cover in 2000 (0.4 ha) and was classified as non-forest in 2020. While the data rules out large-scale deforestation, smaller changes (under 0.5 ha) or edge losses might have occurred but weren’t captured due to the 30-meter pixel resolution. The evidence doesn’t confirm compliance with regulations like EUDR, nor does it provid",
+    "C_text": "No trees were cut down on this property after 2020. The analysis found no tree-cover loss events of 0.5 hectares or larger between 2021 and 2025. While small changes (under 0.5 ha) or those at the edges may have gone undetected due to the 30-meter pixel resolution, no significant deforestation occurred within the full boundary of the 130.9-hectare rural property during this period."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "D09",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "DISPUTED",
+    "C_families": [],
+    "C_stance": "NOT_DETECTED",
+    "B_text": "No, this rural asset has not shown any signs of recent fire activity. According to NASA’s fire detection systems (VIIRS and MODIS), there were zero thermal anomalies within the property between October 4 and November 3, 2026. The sensors had full coverage of the area during this period. However, very small, short-lived, or low-intensity fires—especially those obscured by clouds—might not have been detected. This evidence alone doesn’t confirm the absence of burned areas or rule out other causes ",
+    "C_text": "No fire was detected on this rural property (ASSET-F08) between October 4 and November 3, 2026. Satellite sensors (VIIRS and MODIS) monitored the area daily during this period, but no thermal anomalies were recorded within the asset’s boundaries. While this rules out significant fires, small or short-lived fires obscured by clouds may not have been detected. The assessment does not confirm the absence of burned areas or the cause of any potential changes. Observations were sourced from NASA FIRM"
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "E07",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [
+     "absence"
+    ],
+    "C_stance": "DENIES",
+    "B_text": "No, there was no confirmed tree-cover loss on this property in 2026. The latest available data (as of November 12, 2026) only confirms a potential 13.5-hectare loss in 2025, but this requires further corroboration. The 2025 loss is still pending verification, and no later observations (e.g., for 2026) are available yet. The evidence does not establish whether the 2025 change was permanent, its cause, or if it even qualifies as deforestation. Until additional data is analyzed, we cannot confirm a",
+    "C_text": "No, there was no tree-cover loss on this property in 2026. The latest available data (as of November 2026) only covers up to 2025, and the observed tree-cover loss occurred in that year (13.5 ha, or 3.91% of the asset). No further changes were detected in 2026, and the assessment remains pending corroboration due to the lack of a later year in the series. The 2025 loss was confirmed by multiple sources (Hansen GFC, JRC GFC2020, and MGAP 2021), but no additional changes were recorded afterward."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "E07",
+    "run": 1,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [
+     "absence"
+    ],
+    "C_stance": "DENIES",
+    "B_text": "No confirmed tree-cover loss occurred in 2026 on this property. The latest data (as of 2026-11-12) shows a 13.5 ha loss in 2025, but this remains uncorroborated for 2026 due to lack of later observations. The evidence only identifies a *potential* loss in 2025—no persistent change or cause (e.g., deforestation, fire) is established. The asset’s native forest context (per MGAP 2021) and high JRC agreement (98%) suggest the 2025 signal is plausible, but 2026 remains unassessed. Further monitoring ",
+    "C_text": "No, there was no tree-cover loss on this property in 2026. The latest observation period covered by the data is 2025, during which a tree-cover loss candidate of about 13.5 hectares (3.91% of the asset) was detected. However, there is no data available for 2026 to confirm whether additional tree-cover loss occurred in that year. The status of the assessment remains pending corroboration, as a later year of observation is needed to determine persistence or further changes."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "E07",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "CANNOT_DETERMINE",
+    "C_families": [
+     "absence"
+    ],
+    "C_stance": "DENIES",
+    "B_text": "No confirmed tree-cover loss in 2026. The evidence only identifies a **13.5 ha** loss candidate in **2025**, based on Hansen/UMD data. However, the assessment is inconclusive because there is no later-year observation (e.g., 2026) to confirm persistence. The 2025 loss is over native forest, but its cause (e.g., harvest, fire) and legality remain unknown. Without 2026 data, we cannot determine if loss occurred that year.",
+    "C_text": "No, there was no tree-cover loss on this property in **2026**. The latest available data (from 2025) shows a **13.5 ha** loss, but this is pending corroboration for 2026. The observation period for tree-cover loss ends in **2025**, and no further data is available for 2026. The claim is based on **Hansen GFC** data, which only covers up to 2025, and no updates or corroboration exist for 2026. Thus, no tree-cover loss is confirmed for that year."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "F02",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "OTHER",
+    "C_families": [],
+    "C_stance": "OTHER",
+    "B_text": "The source that identifies the 2021 loss area as a pine plantation is the **MGAP forest map 2021**. It specifies that within the event area, **68.1 ha** was classified as **planted forest**, with the species listed as *Pinus elliottii* and *Pinus taeda*. No native forest was mapped in the loss area. This aligns with the territorial context described as \"planted forest.\" The MGAP map provides the forest-type detail, while other sources (Hansen, JRC) confirm the loss event and forest presence but ",
+    "C_text": "The **MGAP 2021** source (Uruguay’s Ministry of Livestock, Agriculture and Fisheries) states that the 2021 loss area was a **pine plantation**, specifically identifying the species as *Pinus elliottii* and *Pinus taeda*. This is confirmed by the observation that the entire event area (81.3 ha) was mapped as planted forest, with 68.1 ha explicitly classified as such in the MGAP forest map."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "F07",
+    "run": 2,
+    "B_families": [],
+    "B_stance": "DENIES",
+    "C_families": [],
+    "C_stance": "DENIES",
+    "B_text": "The **JRC GFC2020 V4** dataset shows that there was **no forest** (0 hectares) on the property as of 2020. This contradicts the presence of forest on the property in 2020.",
+    "C_text": "The **JRC GFC2020 V4** dataset (from the European Commission Joint Research Centre) explicitly shows **no forest on the property in 2020** (0.0 ha share). The Hansen GFC dataset records past forest cover in 2000 but also documents significant losses before 2020 (e.g., 67.7 ha in 2020 itself). Together, these confirm the asset had **no remaining forest by 2020**, as the JRC 2020 reference is definitive for that baseline year."
+   },
+   {
+    "model": "eve-instruct-24b",
+    "task": "G01",
+    "run": 0,
+    "B_families": [],
+    "B_stance": "NOT_DETECTED",
+    "C_families": [
+     "absence"
+    ],
+    "C_stance": "DENIES",
+    "B_text": "No, the property has not experienced detectable tree-cover loss since 2021. Satellite data (Hansen GFC and JRC GFC2020) show no loss events of 0.5 hectares or larger between 2021 and 2025. While minor changes (under 0.5 ha) or narrow losses might have occurred and gone undetected due to the 30-meter pixel resolution, no significant deforestation was observed. The property had negligible forest cover in 2020 (0 ha per JRC data), and prior losses (e.g., 67.7 ha in 2020) all occurred before the bas",
+    "C_text": "No, the property has not lost tree cover since 2021. The analysis found no tree-cover loss events of 0.5 hectares or larger within the asset between 2021 and 2025. While small patches of loss (under 0.5 ha) were detected in 2021, these are below the minimum detectable threshold and do not constitute significant tree-cover loss. The latest data (2025) confirms no major changes occurred during the period in question."
+   }
+  ]
+ }
+}

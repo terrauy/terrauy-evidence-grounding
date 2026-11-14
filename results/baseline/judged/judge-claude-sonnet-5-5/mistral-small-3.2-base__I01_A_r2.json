@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I01_A_r2.json",
+ "prompt_sha256": "348d85c7dc362515e2b5f43482de0159dc4b69eac5616cea3420e0e2e20db4c1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Affirms confirmed 4.5 ha loss in 2023 with corroboration under the v2 rule. It cites both GFC versions but does not present the pending status as current. It never claims deforestation, but also states no limitation such as 'not deforestation'."
+ },
+ "raw": null,
+ "cost_usd": 0.012412
+}

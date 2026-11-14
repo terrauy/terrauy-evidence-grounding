@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F06_B_r0.json",
+ "prompt_sha256": "b198546171f02b5751b8650637ec219e2455f525c43dbda372711718cb8a0d6e",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Lists the four FIRMS sensors correctly (VIIRS S-NPP, NOAA-20, NOAA-21, MODIS), the correct period, and no detections. No forbidden sensors named. No limitations stated, and FIRMS is not named explicitly."
+ },
+ "raw": null,
+ "cost_usd": 0.007498
+}

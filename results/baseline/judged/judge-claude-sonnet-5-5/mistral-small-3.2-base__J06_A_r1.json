@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J06_A_r1.json",
+ "prompt_sha256": "e80e51e5b30dab8581a759351026f2c679b71f7973ee0a7972ceae12336fbdb1",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer misstates JRC as mapping forest in 2020 and claims corroboration was met (actually 0.0 agreement, non-forest). It asserts loss occurred as thinning/harvest, an unsupported cause, and denies deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.009068
+}

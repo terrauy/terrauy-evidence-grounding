@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I01_C_r1.json",
+ "prompt_sha256": "3de751bd9bd971318aa1154d55edc0b8ab182314f5b16f32b369768a9f0a43d7",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms corroborated 2023 loss and notes that tree-cover loss does not necessarily establish deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.004199
+}

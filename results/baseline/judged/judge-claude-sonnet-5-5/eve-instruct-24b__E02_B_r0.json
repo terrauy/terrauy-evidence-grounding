@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E02_B_r0.json",
+ "prompt_sha256": "bd59f4a6d6a6dd78fcc7aaf882a173cf332572ba16e3e38a1885affb8faa65fd",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no determination is possible because coverage is missing, and it makes no claims of loss, absence of loss, or compliance. The phrase 'lack coverage' is a mild paraphrase of 'not prepared'. Ground verification is a reasonable suggestion."
+ },
+ "raw": null,
+ "cost_usd": 0.007384
+}

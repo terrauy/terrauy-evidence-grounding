@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H04_A_r2.json",
+ "prompt_sha256": "bf768a2c525f5ec995265cf2411cb1d6c5826292aefca65b8f3554b631684cd1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The 0.5 ha native-context figure and asset percentage are supported, but the answer incorrectly implies the entire loss area was mapped native forest; 0.1 ha was outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002806
+}

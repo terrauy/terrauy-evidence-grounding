@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H02_A_r0.json",
+ "prompt_sha256": "f05d8bae58e33c6b4850b66d0ed42de64352420566e1a2a433359c4427f9419d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer denies that all loss was in plantation, giving 68.1 ha planted and 13.2 ha outside mapped forest, consistent with the key; speculation is hedged and limits are noted."
+ },
+ "raw": null,
+ "cost_usd": 0.012746
+}

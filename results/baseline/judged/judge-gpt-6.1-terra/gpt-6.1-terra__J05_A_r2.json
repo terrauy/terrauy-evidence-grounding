@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J05_A_r2.json",
+ "prompt_sha256": "8df4b5a35526c360c2f78d6f40baf07ad2dec91eca6f6a4c20d5ec12cde5a220",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer avoids a definite no and omits that JRC non-forest corroborates the pre-baseline loss, but its stated facts and source attributions are consistent."
+ },
+ "raw": null,
+ "cost_usd": 0.002822
+}

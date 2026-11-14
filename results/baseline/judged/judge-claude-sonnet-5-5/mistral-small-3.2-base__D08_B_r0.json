@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D08_B_r0.json",
+ "prompt_sha256": "85a6ad2046b14cbf0bc30e496f0e05a66c2fca44e6a243c5eae4b66118a6a235",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Opens with a definitive 'deforestation did not occur', which overstates a non-detection; it then correctly notes the 0.5 ha and 30 m limits and that no compliance finding is established."
+ },
+ "raw": null,
+ "cost_usd": 0.011272
+}

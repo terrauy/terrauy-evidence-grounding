@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D06_B_r2.json",
+ "prompt_sha256": "978524ea0fe859960016ad9bb58528b59026108c142270118343148d271e770f",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer declines to confirm no burning, reports zero FIRMS detections with full sensor coverage, and notes undetected small or cloud-obscured fires and no burned-area information. Matches the key."
+ },
+ "raw": null,
+ "cost_usd": 0.007208
+}

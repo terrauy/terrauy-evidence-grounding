@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E04_B_r1.json",
+ "prompt_sha256": "5e7051ea55e7fe048f2198c4728e97751ac044e947259461786ad442db5fffd1",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no detections in covered days, notes the temporal gap and detection limitations, and declines to conclude that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.00293
+}

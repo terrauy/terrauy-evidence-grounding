@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J03_B_r1.json",
+ "prompt_sha256": "47f37fad3c17dabc0e6ca3b94cf85ce782c90635c4c1706c031f4c67b5a2fac5",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  " other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says sources disagree, 1.4 ha vs 49% agreement below 50% threshold, and explicitly says neither loss nor absence nor deforestation is established. Minor phrasing 'agrees with the loss interpretation' is slightly off but harmless."
+ },
+ "raw": null,
+ "cost_usd": 0.009076
+}

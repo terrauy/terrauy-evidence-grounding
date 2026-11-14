@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D09_B_r0.json",
+ "prompt_sha256": "54aa2657eceb5dbb3aec584dce04acf84bf58bb4efbba16277b3b289701461eb",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no FIRMS detections with full sensor coverage, says only 'unlikely' a significant fire affected the asset, and notes small, short, cool or cloud-obscured fires may be missed. It does not claim no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.00743
+}

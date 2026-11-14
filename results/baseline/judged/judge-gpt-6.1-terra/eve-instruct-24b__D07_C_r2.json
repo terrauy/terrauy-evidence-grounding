@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D07_C_r2.json",
+ "prompt_sha256": "f30e48d926ab6696448059daddcae1b8b2bf9c73a5e91d528771751b5214c7d9",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly answers no to certification, reports the non-detection, and explains that undetected fires remain possible."
+ },
+ "raw": null,
+ "cost_usd": 0.002354
+}

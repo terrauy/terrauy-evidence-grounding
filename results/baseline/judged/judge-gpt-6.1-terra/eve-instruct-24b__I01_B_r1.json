@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I01_B_r1.json",
+ "prompt_sha256": "24f6918e8e9678a68af8fa3797980cfe63254db0d64ab8c59297c2f3e9b434e4",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The loss is correctly confirmed, but the answer incorrectly describes all 4.5 ha as planted forest; 4.3 ha was mapped as planted and 0.2 ha outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.004327
+}

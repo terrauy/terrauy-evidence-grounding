@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F02_A_r2.json",
+ "prompt_sha256": "0319a74b6d048dcc08e98d18010c61ec003d16336948e011f861cd2d3e0bcac4",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly identifies MGAP\u2019s 2021 forest map and the planted pine species; no forbidden attribution or unsupported claim."
+ },
+ "raw": null,
+ "cost_usd": 0.002682
+}

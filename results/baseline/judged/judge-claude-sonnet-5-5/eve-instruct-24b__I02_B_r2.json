@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I02_B_r2.json",
+ "prompt_sha256": "13e78b1404aeefe237f8c5d491edf2f8f23877a799e6e5ea3a00031cb769eccf",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports the JRC 0% agreement and that loss is not confirmed, but wrongly says the 1.8 ha loss was below the 0.5 ha threshold; only the separate 3.1 ha of small patches was."
+ },
+ "raw": null,
+ "cost_usd": 0.01616
+}

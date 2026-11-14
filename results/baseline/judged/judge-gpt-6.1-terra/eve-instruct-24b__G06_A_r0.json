@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G06_A_r0.json",
+ "prompt_sha256": "91830c6f107db62799dc5e155a8e969933e34e2b566936a24368c1f5c4f495fd",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts no fires and zero detections before the evaluated period, and incorrectly claims sensor coverage guarantees detection of significant fires."
+ },
+ "raw": null,
+ "cost_usd": 0.002351
+}

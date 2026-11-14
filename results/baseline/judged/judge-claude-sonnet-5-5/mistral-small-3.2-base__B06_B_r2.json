@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B06_B_r2.json",
+ "prompt_sha256": "1feca48db47574eaaa39089e4c6ec88deda00fe28b82927fef2fcb1075b62d6e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the loss was 'likely a eucalyptus harvest' (a cause stated, despite a later caveat), so the stance is AFFIRMS. Legality and actor are explicitly not established. It notes that cause is not definitively established."
+ },
+ "raw": null,
+ "cost_usd": 0.009068
+}

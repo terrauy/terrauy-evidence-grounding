@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E02_A_r2.json",
+ "prompt_sha256": "3df04bff869d571d9473c1c3e526d6bb27bd5040a22ffbedafdc140ad4d5cf45",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly says it cannot be determined because coverage was not prepared. Minor embellishments (tool 'failed', 'satellite imagery', 'forest cover gain') are not in the facts, but no forbidden claims are asserted."
+ },
+ "raw": null,
+ "cost_usd": 0.007264
+}

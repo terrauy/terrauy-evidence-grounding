@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F05_C_r2.json",
+ "prompt_sha256": "113af831a80e7c343c89a4bebeec9c68b792dad70c7a2b68e14b9a2a021a187a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It falsely attributes detection to Sentinel-2 and claims the JRC 2020 reference map confirmed the loss; Hansen detected it, while JRC provides baseline forest context."
+ },
+ "raw": null,
+ "cost_usd": 0.002744
+}

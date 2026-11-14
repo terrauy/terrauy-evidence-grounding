@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K02_C_r0.json",
+ "prompt_sha256": "19d1b86d825a51c319bba19a9f1ae58be78cb554b8c0c21ac78b730c0b003f0e",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms the 2025 candidate with the correct area and pending-corroboration status, while noting relevant limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002455
+}

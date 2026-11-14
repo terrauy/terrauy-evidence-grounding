@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D07_C_r1.json",
+ "prompt_sha256": "a5397a1e780b81ef5b6f8df6e5d87524eb080921b7203512318681300fcbd68a",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers 'No' to certification, reports no FIRMS detections with full sensor coverage, and explicitly says non-detection cannot certify no fire or establish burned area. The opening 'No' refers to certification."
+ },
+ "raw": null,
+ "cost_usd": 0.007258
+}

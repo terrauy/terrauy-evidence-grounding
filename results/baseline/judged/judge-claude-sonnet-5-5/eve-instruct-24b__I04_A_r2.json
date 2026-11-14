@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I04_A_r2.json",
+ "prompt_sha256": "65b092c04e161df70b8b1198249fcc0789e1879b0197ea8157830f8c6387ba5c",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer correctly says v1 superseded, 13.5 ha in 2025, but calls the loss 'corroborated' and 'detected', ignoring PENDING_CORROBORATION status. It also misreads JRC 98% agreement as confirmation of forest cover, which is a misinterpretation. It states no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.01117
+}

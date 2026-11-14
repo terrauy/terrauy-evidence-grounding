@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A04_C_r2.json",
+ "prompt_sha256": "26994dded491f2122a4ec959d52d6ad534162e1757ea35d6389d6ad2c5135e52",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "hedged"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer affirms 0.7 ha of tree-cover loss and says deforestation is not confirmed. It mentions harvest and legality only as possibilities. It wrongly says Hansen and JRC both 'detected' the loss, since JRC only gave the 2020 forest reference. It also says the planted forest was Eucalyptus grandis, though the planted area was 0.4 of 0.7 ha, so 'primarily' is arguable."
+ },
+ "raw": null,
+ "cost_usd": 0.010018
+}

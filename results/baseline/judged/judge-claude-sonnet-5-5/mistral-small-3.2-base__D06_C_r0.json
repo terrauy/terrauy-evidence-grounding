@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D06_C_r0.json",
+ "prompt_sha256": "aba6f9b0c4ee6f458a1a96326cc8f5e085a8b14f76beabe480c2af54a1eeea4d",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer frames the result as 'no detected burning' with zero FIRMS detections and full sensor coverage, and notes small, cool, or cloud-obscured fires may be missed. It never claims no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.007394
+}

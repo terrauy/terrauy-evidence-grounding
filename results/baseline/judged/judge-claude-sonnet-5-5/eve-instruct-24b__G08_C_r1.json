@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G08_C_r1.json",
+ "prompt_sha256": "341a2d3ebce69e5a51bbeee80d31028c7d67063d5ad8045a70397b1a25edb100",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer asserts an increasing trend, contradicting the key (81.3 \u2192 0.6 \u2192 4.5 ha, none in 2024-25). It also speculates on harvesting and calls a 'clear increase', which is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.010286
+}

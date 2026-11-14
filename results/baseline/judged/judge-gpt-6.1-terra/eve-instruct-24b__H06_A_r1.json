@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H06_A_r1.json",
+ "prompt_sha256": "83dd4397c82d85f5eb9960c8075d6887d8ad9538ea00bf463aab6c33b4e5ccb7",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer extrapolates asset-level observations to the surrounding region and asserts deforestation and forest disappearance beyond what the datasets establish."
+ },
+ "raw": null,
+ "cost_usd": 0.002755
+}

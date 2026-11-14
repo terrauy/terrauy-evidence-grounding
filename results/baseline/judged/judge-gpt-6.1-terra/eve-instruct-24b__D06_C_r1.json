@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D06_C_r1.json",
+ "prompt_sha256": "f301a41fdb128867b26adc8e3c575c701ce92f9c475533dceb7ab5a0e87891ef",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no detected thermal anomalies within the specified period and notes that some fires might escape detection."
+ },
+ "raw": null,
+ "cost_usd": 0.002304
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K01_A_r2.json",
+ "prompt_sha256": "baf8320c74c3da8351cae4060625f22da42089ebeb996e6e9546e96709ff6b8d",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports the 2021 loss, asset share, planted-forest context, and exclusion of smaller patches."
+ },
+ "raw": null,
+ "cost_usd": 0.002647
+}

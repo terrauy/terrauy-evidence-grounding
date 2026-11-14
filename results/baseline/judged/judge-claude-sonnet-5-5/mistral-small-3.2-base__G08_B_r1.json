@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G08_B_r1.json",
+ "prompt_sha256": "e149e0a08c24252de6ac1a0641cee02297c1633dfe0bb8301dba084b2653a1e8",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer asserts an increasing trend, though 2021 was largest and losses dropped afterward; it also omits no detections in 2024-2025. Numbers are correct but the trend conclusion contradicts the key."
+ },
+ "raw": null,
+ "cost_usd": 0.010132
+}

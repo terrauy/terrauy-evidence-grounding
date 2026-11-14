@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F07_A_r1.json",
+ "prompt_sha256": "9eabce67e1983c3da318874213f8bff65fd8a06024c2ab5b260e6413b0e5ed97",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer says no dataset shows 2020 forest; JRC shows 0 ha, Hansen only 2000 tree cover (23 ha) and pre-baseline loss. Consistent with key; no limitations stated in the visible text."
+ },
+ "raw": null,
+ "cost_usd": 0.008228
+}

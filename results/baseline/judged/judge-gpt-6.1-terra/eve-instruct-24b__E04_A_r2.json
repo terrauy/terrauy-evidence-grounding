@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E04_A_r2.json",
+ "prompt_sha256": "b0891a9d05711bf1b2e467b51846e2281b389418dad601311f1ce8b74e6a2785",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer notes incomplete coverage but asserts the asset remained clear of fire during the monitored period, which no detections cannot establish."
+ },
+ "raw": null,
+ "cost_usd": 0.002906
+}

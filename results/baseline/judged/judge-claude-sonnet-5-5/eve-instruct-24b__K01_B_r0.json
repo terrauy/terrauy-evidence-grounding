@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K01_B_r0.json",
+ "prompt_sha256": "8b624ba79ce0eac2b484c8bf90d9b98d07e2ba2af98b758d54aa935ee88ec2db",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 81.3 ha (2.23%) loss in 2021, corroborated by JRC 98% and later years; notes cause and compliance not established; details are consistent with the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.010072
+}

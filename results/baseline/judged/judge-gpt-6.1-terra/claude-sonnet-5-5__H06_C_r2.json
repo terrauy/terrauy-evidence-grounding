@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H06_C_r2.json",
+ "prompt_sha256": "86ddc63cfaeacf47bd7ca320e054dfdca23ca1d3eb43007c150eb6db91f2aedd",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly says the evidence does not establish regional loss and confines its observations to the asset boundary."
+ },
+ "raw": null,
+ "cost_usd": 0.002822
+}

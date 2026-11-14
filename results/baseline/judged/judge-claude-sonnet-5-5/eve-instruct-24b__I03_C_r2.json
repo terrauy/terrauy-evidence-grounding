@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I03_C_r2.json",
+ "prompt_sha256": "7324f20f32b348c711f0e3af48d026165031eac5219fd686d9b56ee968663c95",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 13.5 ha 2025 loss pending corroboration, consistent with v2; denies confirmation of persistence/cause. 'Aligns with JRC baseline' is a loose but supported reading (0.98 agreement). No forbidden claims asserted."
+ },
+ "raw": null,
+ "cost_usd": 0.011012
+}

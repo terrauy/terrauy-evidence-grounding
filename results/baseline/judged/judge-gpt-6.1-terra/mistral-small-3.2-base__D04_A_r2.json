@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D04_A_r2.json",
+ "prompt_sha256": "24d58da7c6d50c6d5f995293cce3be8150df9d16551ed91a4ba8675babc9cbb4",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "It asserts post-2020 tree cutting despite non-detection, and infers removal between 2000 and 2020 from incomparable forest-cover observations."
+ },
+ "raw": null,
+ "cost_usd": 0.002646
+}

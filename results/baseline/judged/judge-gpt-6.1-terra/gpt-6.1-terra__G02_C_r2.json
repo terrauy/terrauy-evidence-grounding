@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G02_C_r2.json",
+ "prompt_sha256": "c5027c2b46e6456c79f25ae3a810644c3ee8ce99534ab6a0fe0fe9784f21d0b6",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly dates the 67.7 ha loss to 2020 and describes post-cutoff detection limits."
+ },
+ "raw": null,
+ "cost_usd": 0.002715
+}

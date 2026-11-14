@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E05_A_r2.json",
+ "prompt_sha256": "1c686bb157b9b0edc89301eeb7b49e2dc9687c4f90c2650402548499f0e3b741",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports zero detections, says it cannot confirm full-period coverage because VIIRS S-NPP lacked data Nov 2\u20136, and notes zero detections do not rule out missed activity. It does not claim no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.007994
+}

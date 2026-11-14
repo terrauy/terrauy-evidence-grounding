@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K01_A_r0.json",
+ "prompt_sha256": "eb78423eadaa6dcd148669bef7867310fa58d1ddf888ab896514686b2bfcc1e1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 81.3 ha (2.23%) in 2021, with correct supporting details from MGAP, JRC and sub-threshold patches; no unsupported claims; mentions corroboration and the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.01106
+}

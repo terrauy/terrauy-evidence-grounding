@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J05_A_r0.json",
+ "prompt_sha256": "acb154312d26c844d8755fce04d5995650a7f0e2f021e6ea89f9bc8bd4ef806b",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer is empty; nothing asserted, no contradiction claim made, no definite conclusion given."
+ },
+ "raw": null,
+ "cost_usd": 0.008272
+}

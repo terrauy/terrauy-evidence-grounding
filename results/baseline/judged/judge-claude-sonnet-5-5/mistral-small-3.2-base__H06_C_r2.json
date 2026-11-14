@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H06_C_r2.json",
+ "prompt_sha256": "5a60857b2ce228d11cdef4d3eade4c68c4062e9145250692634e0e488050671e",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states no loss detected 'across the surrounding region', extending asset-only evidence to a regional conclusion; it does mention the 0.5 ha and pixel-size limits."
+ },
+ "raw": null,
+ "cost_usd": 0.012202
+}

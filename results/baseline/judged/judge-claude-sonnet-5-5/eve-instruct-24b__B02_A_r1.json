@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B02_A_r1.json",
+ "prompt_sha256": "eb1dbeabaf4c3566646ea7c35c220c3482519832003c6e5cb5c10f99dea8f5ec",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer says fire is unlikely and attributes the loss to harvesting or land-use change, which the evidence does not establish. It also misstates the loss: 37.3 ha is the sub-0.5 ha patch loss, not the 81.3 ha event. Fire-free claims go beyond the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.009306
+}

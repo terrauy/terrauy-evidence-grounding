@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G03_B_r1.json",
+ "prompt_sha256": "6f5835af48adf22d803ed8e26eb1cb95e49ffbadc6f0e32b6947dc96272b84cc",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no corroborated loss detected in 2024-2025, with correct 2021-2023 figures and stated limits. It does not claim the forest is intact, though the opening 'No' is somewhat firm."
+ },
+ "raw": null,
+ "cost_usd": 0.014916
+}

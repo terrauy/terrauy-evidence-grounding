@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/A08_B_r2.json",
+ "prompt_sha256": "fbfff4348d1da870bada4f4d4547d5c37bbf06320137c45d53433ccda966b2d7",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   },
+   {
+    "index": 4,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No; supports only tree-cover loss (86.4 ha sum correct), denies establishing deforestation, compliance, cause, legality, responsibility. Plantation harvesting mentioned only as possibility. 'Most' in planted context is correct (81.3+4.5 of 86.4)."
+ },
+ "raw": null,
+ "cost_usd": 0.011502
+}

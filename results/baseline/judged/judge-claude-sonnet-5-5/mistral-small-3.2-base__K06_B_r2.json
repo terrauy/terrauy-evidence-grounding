@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K06_B_r2.json",
+ "prompt_sha256": "acdbac183b75cd7e8ecb3e68eace646bec3511391162898010e67b9193812330",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms corroboration with JRC agreement over the full event area and a later year observed. It correctly notes native forest context, sub-0.5 ha patches not counted, and that cause and legality are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.007888
+}

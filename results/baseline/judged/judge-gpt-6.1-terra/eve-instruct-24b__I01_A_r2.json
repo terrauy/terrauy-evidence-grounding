@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I01_A_r2.json",
+ "prompt_sha256": "445fc71d528682699ce1cd1c56c42d3fa18aedd03f73e1ee46726b19f5e22726",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly affirms current corroborated loss, but incorrectly identifies the entire event area as planted forest; 0.2 ha lies outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.004256
+}

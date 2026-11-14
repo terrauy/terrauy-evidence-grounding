@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F05_A_r1.json",
+ "prompt_sha256": "5f472a7821d3f12de08b6d3cd25b40f4343986598fc613db5e04e6117e32e16d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly attributes detection to Hansen/UMD and denies Sentinel-2 detection, but the Landsat imagery claim is not established by the supplied evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.002678
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G03_A_r2.json",
+ "prompt_sha256": "a7c12aa4b2dccba7de7f547a2c0c28911a157ea9b4fde930275dda6d27b33eb3",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer opens with a flat 'No, the data shows no tree-cover loss in 2024 or 2025', which asserts absence rather than non-detection. The numbers for 2021-2023 are correct, and it does note resolution and threshold limits."
+ },
+ "raw": null,
+ "cost_usd": 0.014242
+}

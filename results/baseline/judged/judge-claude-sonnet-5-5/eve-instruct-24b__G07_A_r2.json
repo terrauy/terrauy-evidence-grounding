@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G07_A_r2.json",
+ "prompt_sha256": "8c73d79eebe54ae059e4a3c86b48182b880420a0591a07ddfa34d45c58714668",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Flatly denies any 2024 loss and says tree cover remains stable, despite acknowledging 0.7 ha sub-threshold loss; the key says only that no counted event was detected."
+ },
+ "raw": null,
+ "cost_usd": 0.012318
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H04_B_r1.json",
+ "prompt_sha256": "e52971ab1631b85e2bd14d6ae028efc290e55e29bd06edf6f619e6ab9753d18b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer gives 0.6 ha loss in 2022, 3.41% of the asset, 0.5 ha in native forest, all matching the facts. It states no share of total native forest and notes cause and land-use change are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.008316
+}

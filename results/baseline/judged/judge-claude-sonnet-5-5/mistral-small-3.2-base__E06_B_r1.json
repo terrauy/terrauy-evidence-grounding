@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E06_B_r1.json",
+ "prompt_sha256": "8a05ea1f3e9c51cd388e214933c5dbe33535fa0135cea6dcb36d425889b93ad6",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no detections in covered days, flags the Nov 3-4 gap, notes that small, cool or cloud-obscured fires may be missed, and declines to conclude the full period was fire-free. The covered-day summary is slightly imprecise but not wrong."
+ },
+ "raw": null,
+ "cost_usd": 0.009332
+}

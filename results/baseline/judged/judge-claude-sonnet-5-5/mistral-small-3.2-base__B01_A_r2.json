@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B01_A_r2.json",
+ "prompt_sha256": "4e00e95e5bad13e599c7ae13a0b0cdcdd18e8e276d7c7467a36afd1aaec180dd",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts timber harvest as the cause ('highly likely', 'strongly suggests'), which the evidence does not establish. It treats planted-forest context as cause. It also misstates 37.3 ha and 13.2 ha as part of the 81.3 ha total."
+ },
+ "raw": null,
+ "cost_usd": 0.009246
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C04_A_r1.json",
+ "prompt_sha256": "97b33b58424731ee30cb1543518e9e24295e23d754ff2326a295b6809c98f68d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer flatly denies illegality ('did not break the law', 'no material violations'), implicitly attributes the removal to the owner, and invents facts (81.3 ha events as false positives, 96.5% forested). Contradicts the evidence, which shows corroborated loss."
+ },
+ "raw": null,
+ "cost_usd": 0.010966
+}

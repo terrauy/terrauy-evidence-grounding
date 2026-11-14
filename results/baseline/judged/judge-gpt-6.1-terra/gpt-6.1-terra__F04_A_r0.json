@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F04_A_r0.json",
+ "prompt_sha256": "3aa76546d0aec4e581f683181d4d2458ae3f042bdab71cc1503726a8fd72a789",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly identifies the MGAP 2021 map and reports the mapped areas without attributing native-forest classification to Hansen or JRC."
+ },
+ "raw": null,
+ "cost_usd": 0.002556
+}

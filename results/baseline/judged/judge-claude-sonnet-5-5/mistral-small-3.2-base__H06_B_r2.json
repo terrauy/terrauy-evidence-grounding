@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H06_B_r2.json",
+ "prompt_sha256": "4ab8f923ab22335fd65cf9d03255ea785993cdf3382bf185227581470683ea46",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer limits findings to the asset, says the surrounding region is not addressed, and notes the sub-0.5 ha detection limit; no regional conclusion drawn."
+ },
+ "raw": null,
+ "cost_usd": 0.011568
+}

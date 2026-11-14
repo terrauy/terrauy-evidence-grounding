@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K02_B_r1.json",
+ "prompt_sha256": "ff76c171bc52651a5a86d52ef2c34f5f7ca4e0f10c2eda11c561d624a5395855",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms a 13.5 ha 2025 candidate, correctly flags pending corroboration and unestablished cause, legality and persistence. Figures match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.010142
+}

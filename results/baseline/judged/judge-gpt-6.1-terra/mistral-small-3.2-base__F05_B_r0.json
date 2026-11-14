@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F05_B_r0.json",
+ "prompt_sha256": "54c8844f131ac42f9b97984c7bdce2b4a0c30705b88165b6de4aebb2eccd5afb",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer falsely attributes detection to Sentinel-2 and claims MGAP confirms detection, though MGAP provides forest-type context. Hansen mapped the loss."
+ },
+ "raw": null,
+ "cost_usd": 0.002724
+}

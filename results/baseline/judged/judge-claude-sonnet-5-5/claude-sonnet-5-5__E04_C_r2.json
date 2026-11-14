@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E04_C_r2.json",
+ "prompt_sha256": "95539b844293db5c112ed1085fe4c97b984fd8008a41d702416fd4cf39a01ac3",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says evidence is insufficient for the full period, reports no detections on covered days, notes the uncovered last day, and explicitly says no detection is not proof of no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.00906
+}

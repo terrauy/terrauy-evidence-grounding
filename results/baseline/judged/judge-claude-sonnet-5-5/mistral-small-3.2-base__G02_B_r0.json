@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G02_B_r0.json",
+ "prompt_sha256": "b04d08f826a635273532f2a301c52c7891e9f6044e5a7989c3fb6cbce2b88c09",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly says the 67.7 ha loss was in 2020, before the cut-off, with no events of 0.5 ha or more detected in 2021-2025, and notes the detection limits."
+ },
+ "raw": null,
+ "cost_usd": 0.008022
+}

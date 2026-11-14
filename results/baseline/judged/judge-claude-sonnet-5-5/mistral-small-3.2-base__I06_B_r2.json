@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I06_B_r2.json",
+ "prompt_sha256": "14b0dae8202380ffc540ac3e3146e31f09f60d5ec26738034c290652132e27dd",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Affirms full v2 coverage with no detections and treats v1 as superseded. It adds an unsupported claim that the gaps were 'filled in' (the facts show later knowledge, not a fill). It states no limitation, such as that no detection does not prove no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.011764
+}

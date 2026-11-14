@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F03_C_r0.json",
+ "prompt_sha256": "a1e9805ebec9c30d65ca1faeb9aaab59becfab1b6a00df877783a1a4760be8a0",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly cites JRC 0.98 agreement, but presents the MGAP map as additional corroborating evidence, which the key forbids; omits the later-year observation; notes cause and legality are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.01238
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E05_C_r1.json",
+ "prompt_sha256": "ff899a90c3fa371bd80054ea9102d37ed913fe0c7b0262e410b21561cd540133",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly abstains, but misstates covered dates and implies activity during the S-NPP gap could not be detected by the dataset, despite other sensors\u2019 coverage."
+ },
+ "raw": null,
+ "cost_usd": 0.002602
+}

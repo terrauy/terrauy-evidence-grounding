@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D04_A_r1.json",
+ "prompt_sha256": "d0cbf81d93a73cda1d01ae5509ca0175d8f691208cedacdc8296238c7277cca8",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer concludes trees were likely cut after 2020, contradicting the non-detection. It misreads 0% forest in 2020 as loss and invents a Hansen reduction claim; no limitations are mentioned."
+ },
+ "raw": null,
+ "cost_usd": 0.007964
+}

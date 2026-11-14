@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G05_C_r2.json",
+ "prompt_sha256": "5764c7f9860dbe3cfbd5c29866de0dbc04496ef80379a4abe30bea62f46616ec",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the 2025 loss is not yet confirmed or persistent, citing pending corroboration because 2025 is the latest year. It gives the 13.5 ha figure correctly and notes that cause, legality and actor are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.007904
+}

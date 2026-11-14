@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I05_A_r2.json",
+ "prompt_sha256": "781748243bd44978dcb02723cffbfb00cd1c6fa8c4518b825dce11a58edffc57",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms 81.3 ha loss in 2021 with JRC 0.98 agreement, matching current v2. No deforestation or cause claims. Mentions the sub-0.5 ha patches not counted, a minor limitation. Planted-forest context is from reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.012776
+}

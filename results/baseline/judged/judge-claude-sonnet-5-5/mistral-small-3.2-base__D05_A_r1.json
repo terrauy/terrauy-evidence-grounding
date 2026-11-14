@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D05_A_r1.json",
+ "prompt_sha256": "c01385a2df5c916b9cd51bf40afcb12bdacef80c3631cb869d8bc56a6062cf1f",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer correctly reports zero detections and full sensor coverage, but concludes 'there was no fire on this asset,' treating non-detection as proof of absence, and gives no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.006972
+}

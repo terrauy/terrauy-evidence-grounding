@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D05_A_r2.json",
+ "prompt_sha256": "fae7996baa869a536f8d084867e87422bd343e67e4632658421b81a503b4d16e",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports no detection with full four-sensor coverage over the stated period and explicitly says this does not rule out missed fires; it does not claim no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.006776
+}

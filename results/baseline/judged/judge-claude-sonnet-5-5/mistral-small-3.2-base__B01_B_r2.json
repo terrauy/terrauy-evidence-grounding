@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B01_B_r2.json",
+ "prompt_sha256": "3db945bcc87e0a1684087e04c3b1895d8bfbab1a6037283747ced3f89778377b",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says timber harvest is 'likely' and a 'reasonable inference', which goes beyond the evidence. It also claims the loss 'is not attributed to deforestation or land-use change', which the evidence does not establish. It does admit the cause is not confirmed."
+ },
+ "raw": null,
+ "cost_usd": 0.009198
+}

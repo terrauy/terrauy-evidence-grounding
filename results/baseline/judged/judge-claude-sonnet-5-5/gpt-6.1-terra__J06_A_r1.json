@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J06_A_r1.json",
+ "prompt_sha256": "225206025c424aa1f7726a4f3f32bacc6683b2973b27ceb59aa7b6d812b9d583",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer wrongly says JRC classified the event area as forest and that the corroboration rule was met, but JRC agreement was 0.0 (non-forest), so the loss is contradicted. It treats the event as corroborated."
+ },
+ "raw": null,
+ "cost_usd": 0.009066
+}

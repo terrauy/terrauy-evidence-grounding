@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K01_A_r1.json",
+ "prompt_sha256": "3835cca9f7fb324805974740312b7007507d090c2a88cd6143cb46e767ea7185",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports Hansen\u2019s 2021 loss and asset share, and notes the excluded small-patch loss and event-area threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002614
+}

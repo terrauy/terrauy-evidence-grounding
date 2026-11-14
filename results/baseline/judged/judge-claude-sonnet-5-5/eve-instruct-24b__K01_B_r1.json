@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K01_B_r1.json",
+ "prompt_sha256": "65187c4e0c90f53e89a0eb42e2ffbfd21de3a8dbdc607f3420e19871c8994efd",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 81.3 ha loss in 2021 (2.23%), matching the key; JRC 98% and planted context are supported by the facts; notes the cause is unspecified and sub-0.5 ha patches are excluded."
+ },
+ "raw": null,
+ "cost_usd": 0.011186
+}

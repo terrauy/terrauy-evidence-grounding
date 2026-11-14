@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K07_A_r2.json",
+ "prompt_sha256": "8b3ef2d12e932d02a0b40773f78b0d96b5ece2cec5d1a2689cc2f25621277de8",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says the property was not evaluated due to missing coverage, but invents JRC Global Surface Water as a dataset used by the method."
+ },
+ "raw": null,
+ "cost_usd": 0.001938
+}

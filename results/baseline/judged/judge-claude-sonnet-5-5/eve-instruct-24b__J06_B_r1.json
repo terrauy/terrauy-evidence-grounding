@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J06_B_r1.json",
+ "prompt_sha256": "7b5b44a23ebb9d18adab44cbce4befacb631f4b4c42be1f66bbeb80c133bd7fc",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the loss is not corroborated and does not establish deforestation, which matches the key. It misstates the threshold as '0.5 ha' rather than 50% agreement, and suggests harvest as a possible cause, which is hedged but not in the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.009228
+}

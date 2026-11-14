@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F03_B_r1.json",
+ "prompt_sha256": "a2e1cd29e07568f102647c1d9c53ceabde87557524aac9ae5a1722e80ce36c94",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "JRC corroboration is correctly attributed; MGAP is listed as a contextual source. The claim that the entire asset is primarily planted forest is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.002829
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G05_C_r0.json",
+ "prompt_sha256": "638c69bcba50f1e91e25f1046168dd1f7272d9dc99dc5cf9e49801a2250790f3",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No: 2025 loss is not yet confirmed or persistent because it is the latest year and a later year is needed. Numbers match the facts. It names the cause and legality as unknown, which is consistent with the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.007944
+}

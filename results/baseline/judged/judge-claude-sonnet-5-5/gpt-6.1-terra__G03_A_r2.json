@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G03_A_r2.json",
+ "prompt_sha256": "a0074d8d559c05a9d484bc100762445385e9db6d70acd5b9749e5017e430a3f0",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says no events of 0.5 ha or more were reported in 2024-2025, with the threshold caveat. It does not claim that no change occurred. Coverage statements are consistent with the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.01011
+}

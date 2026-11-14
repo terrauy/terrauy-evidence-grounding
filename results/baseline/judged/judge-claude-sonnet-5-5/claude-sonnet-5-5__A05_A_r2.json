@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/A05_A_r2.json",
+ "prompt_sha256": "2be12800f44d53b903093074bbc5d2cad4316aae1d2ae563ce56843f15ad253e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 4.5 ha corroborated tree-cover loss in planted context, with correct numbers. Cause only hedged ('consistent with plantation harvesting, though data do not confirm'). Says it is not evidence of native clearing; no deforestation claim. The answer is truncated."
+ },
+ "raw": null,
+ "cost_usd": 0.009694
+}

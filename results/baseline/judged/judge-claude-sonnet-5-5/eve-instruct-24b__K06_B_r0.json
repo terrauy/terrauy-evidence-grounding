@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K06_B_r0.json",
+ "prompt_sha256": "b6ac7deaf825ff1d134601711fb21957e46ae54f852b22d7020191ae54f5b2c4",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms corroboration with JRC agreement 1.0 and a later year observed (2025), consistent with facts; notes cause, legality, and responsibility are not determinable. No unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.007886
+}

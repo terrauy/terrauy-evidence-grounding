@@ -1,0 +1,19 @@
+{
+ "n_responses": 120,
+ "inter_rater": {
+  "judge1_vs_judge2_uc_kappa": 0.474,
+  "judges_majority_vs_detector_kappa": 0.341,
+  "final_uc_vs_detector_kappa": 0.321,
+  "disputed_stance_rate": 0.125
+ },
+ "verdict": "FAIL",
+ "criteria": {
+  "primary_rel_reduction_ge_30pct": false,
+  "primary_abs_ci_excludes_0": false,
+  "primary_mcnemar_p_lt_0.05": false,
+  "secondary_ge_2_significant": false,
+  "factual_not_degraded_gt_5pp": true,
+  "no_floor_effect_ucr_b_ge_5pct": true
+ },
+ "note": "development-run pilot, aggregates only"
+}

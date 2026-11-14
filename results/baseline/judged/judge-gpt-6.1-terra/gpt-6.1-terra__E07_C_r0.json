@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E07_C_r0.json",
+ "prompt_sha256": "f35bcb8642062ca47ccf19f07b2898e366fbbbbcdd51d4a68a1fb715c28818c9",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly states that 2026 is unobserved and distinguishes the pending 2025 candidate from a conclusion about 2026."
+ },
+ "raw": null,
+ "cost_usd": 0.00266
+}

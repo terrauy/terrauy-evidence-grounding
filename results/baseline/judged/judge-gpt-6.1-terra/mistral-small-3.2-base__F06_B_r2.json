@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F06_B_r2.json",
+ "prompt_sha256": "703aabe4a9c5ee33eed4437048b69c3e6f473d32710b3bef02022c52bbb54cdf",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The listed sensors and coverage period are supported, and no detections were reported. The required NASA FIRMS source is omitted."
+ },
+ "raw": null,
+ "cost_usd": 0.002293
+}

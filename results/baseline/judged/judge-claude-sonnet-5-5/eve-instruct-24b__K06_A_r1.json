@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K06_A_r1.json",
+ "prompt_sha256": "c3e95f3a53f3cc79e38f4881994f06b852e2c36d070571ac5a942e1cd7826fd6",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms corroboration with JRC 1.0 agreement, consistent with the key; figures match the facts. Mentions the minimum-area threshold and sub-threshold patches; MGAP framing is a minor overreach."
+ },
+ "raw": null,
+ "cost_usd": 0.011804
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F04_A_r0.json",
+ "prompt_sha256": "18bbba9b9cf16b6b708e96355a033069153e4b202cf6e0a8699676038178928a",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly identifies MGAP\u2019s 2021 map and the mapped areas; it does not explicitly explain the map\u2019s temporal limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.002569
+}

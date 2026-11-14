@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K04_C_r0.json",
+ "prompt_sha256": "d392d7c05a557b88c7d424e2ed0416f4b6b31c49a1d32cf9f593cbe9ed834cf2",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports no detected event but wrongly guarantees detection of every loss over 0.5 ha and claims observations confirm no significant change."
+ },
+ "raw": null,
+ "cost_usd": 0.002254
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J02_A_r1.json",
+ "prompt_sha256": "4d8b33d590ac39b4237297d0634ee4aee379b391aabd790b7820ab0021009601",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer affirms loss and falsely claims JRC corroborated it as forest in 2020, whereas JRC showed 0.0 agreement (non-forest). It contradicts the key and gives no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.008994
+}

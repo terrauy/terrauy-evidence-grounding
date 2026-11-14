@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I01_C_r1.json",
+ "prompt_sha256": "26cba737aba850d5a6bf1e6df49b7c76887df61da63613e1383ec0527a407ed4",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms corroborated 2023 loss using current v2, identifies v1 as superseded, and correctly distinguishes tree-cover loss from deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.004394
+}

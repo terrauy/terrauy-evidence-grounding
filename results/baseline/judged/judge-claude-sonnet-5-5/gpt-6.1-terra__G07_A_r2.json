@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G07_A_r2.json",
+ "prompt_sha256": "4b126f2d9d5b4d7c0e3ded3802e12b0032ae6bc9ba97443fabee09f2ef77be27",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports 0.7 ha sub-threshold loss in 2024, not counted as an event; matches key. Leading 'Yes' is loose but numbers and threshold framing are correct."
+ },
+ "raw": null,
+ "cost_usd": 0.0124
+}

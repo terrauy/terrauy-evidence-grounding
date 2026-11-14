@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E08_C_r2.json",
+ "prompt_sha256": "1f9086a078d0cbc77bf00d348849086e55e4644070451a4d708e24c495ab2452",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It asserts stability and no significant loss rather than explaining that 2026 was unobserved; non-detection does not confirm stability."
+ },
+ "raw": null,
+ "cost_usd": 0.002386
+}

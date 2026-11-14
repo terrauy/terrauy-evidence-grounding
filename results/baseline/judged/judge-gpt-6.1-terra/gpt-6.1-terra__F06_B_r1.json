@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F06_B_r1.json",
+ "prompt_sha256": "a68dfc1533dd9fcce27cab88c157aed9b9f1d62169395e7d0e085252fc716b15",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly names the sensors and reports no detections, but omits the required NASA FIRMS source. Notes that MODIS satellite identities are unspecified."
+ },
+ "raw": null,
+ "cost_usd": 0.002317
+}

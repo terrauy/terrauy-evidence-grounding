@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K02_A_r1.json",
+ "prompt_sha256": "a4b658efa0b4db0280abb2ee65d2e4387d855edecca487804b3adfa16c8451f3",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer denies post-2020 loss, contradicting the 13.5 ha 2025 candidate. It also wrongly says 2025 is outside the timeframe and that no events were recorded between 2020 and 2025, and it omits the pending-corroboration status."
+ },
+ "raw": null,
+ "cost_usd": 0.007528
+}

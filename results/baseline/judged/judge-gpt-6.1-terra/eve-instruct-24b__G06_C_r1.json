@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G06_C_r1.json",
+ "prompt_sha256": "b81beb15eb9b59acba92896d56b1764633e71d8e0c74410ee3f45e04b0d44546",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer asserts no detections before October 4, outside the evidence period, though it does not definitively deny that fires occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.002363
+}

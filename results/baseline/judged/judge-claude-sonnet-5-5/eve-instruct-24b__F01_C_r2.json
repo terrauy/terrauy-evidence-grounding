@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F01_C_r2.json",
+ "prompt_sha256": "ab59e1f87ca623fe11319298429a1e15631077a760668408a3748217eed94f54",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes detection to Hansen GFC-2025-v1.13, with JRC as corroboration and MGAP as context. Numbers match. States that cause and legality are not specified. The 'harvesting' example is hedged as an example."
+ },
+ "raw": null,
+ "cost_usd": 0.008558
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K05_A_r0.json",
+ "prompt_sha256": "34c29df406e4eae653c0389053619bd59bb4b1de8cb1d9a061536978903e357c",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies 67.7 ha in 2020 and distinguishes historical events from post-baseline observations; the numerical discrepancy is correctly calculated."
+ },
+ "raw": null,
+ "cost_usd": 0.002753
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F08_A_r2.json",
+ "prompt_sha256": "7f83645aed7f1908481a1d34aa7aa2646446d9dc63714b864bca5021955058b0",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly distinguishes the JRC 2020 forest reference from Hansen\u2019s 2023 loss detection."
+ },
+ "raw": null,
+ "cost_usd": 0.002672
+}

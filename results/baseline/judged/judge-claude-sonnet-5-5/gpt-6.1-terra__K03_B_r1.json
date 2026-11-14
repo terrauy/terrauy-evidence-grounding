@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K03_B_r1.json",
+ "prompt_sha256": "3643f66114398a971ecbfbe7bd3b3d192433aa3eee37f3eeb688337489525f7a",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no detections, zero count, all four sensors covered every day, matches the key; adds the correct caveat that small or cloud-obscured fires may be missed."
+ },
+ "raw": null,
+ "cost_usd": 0.00647
+}

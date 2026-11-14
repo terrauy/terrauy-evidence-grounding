@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K08_A_r2.json",
+ "prompt_sha256": "dde1427b391ff10fa2e43bd622604f2ccb5847b8f88833cef5902452cc5df06c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The share and scope are correct, but 'probably harvesting rather than deforestation' asserts an unsupported likelihood about the cause."
+ },
+ "raw": null,
+ "cost_usd": 0.002755
+}

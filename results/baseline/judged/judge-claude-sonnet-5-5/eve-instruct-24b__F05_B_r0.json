@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F05_B_r0.json",
+ "prompt_sha256": "642602979af6326a78234976347c001d11f12306022c52172d9b9d477cf08e93",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says Sentinel-2 detected and confirmed the loss, contradicting the key (Hansen GFC only). It also misstates that the loss was 'observed in 2025' and that 'imagery confirms'. It does note that cause and legality are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.008356
+}

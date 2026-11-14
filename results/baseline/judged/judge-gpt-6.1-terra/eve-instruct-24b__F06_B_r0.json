@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F06_B_r0.json",
+ "prompt_sha256": "b198546171f02b5751b8650637ec219e2455f525c43dbda372711718cb8a0d6e",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Correct sensors and dates, but omits FIRMS and overstates daily sensor coverage as continuous, gap-free monitoring."
+ },
+ "raw": null,
+ "cost_usd": 0.002303
+}

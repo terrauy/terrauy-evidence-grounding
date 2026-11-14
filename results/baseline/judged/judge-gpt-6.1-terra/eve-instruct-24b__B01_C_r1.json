@@ -1,0 +1,38 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B01_C_r1.json",
+ "prompt_sha256": "19855fc7a08ff9b234170ddfbc07dc71409388f7a0665deb7f2c50574167a197",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer concludes harvesting was likely despite insufficient causal evidence, and incorrectly places all 81.3 hectares within the plantation; 13.2 hectares were outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.003038
+}

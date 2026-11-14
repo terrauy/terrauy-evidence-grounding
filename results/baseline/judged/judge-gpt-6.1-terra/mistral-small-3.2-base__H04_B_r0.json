@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H04_B_r0.json",
+ "prompt_sha256": "1343e80ffeddcf4a883f780fd9d76eabfe4744eec34bcb101a4a08c4c809bb6b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The 0.5 ha native-context loss and its share of the whole property are supported; no share of total native forest is asserted."
+ },
+ "raw": null,
+ "cost_usd": 0.00271
+}

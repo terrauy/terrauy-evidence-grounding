@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F04_B_r1.json",
+ "prompt_sha256": "3eb747e09ee3bd8e46cedf105bb18d3f4b915d7d032909c61efc4e4a5f1acb15",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly names MGAP 2021 national forest cartography with accurate numbers (13.1 native, 0.4 outside). It does not note that this is a 2021 map rather than a 2025 observation, and states no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.007876
+}

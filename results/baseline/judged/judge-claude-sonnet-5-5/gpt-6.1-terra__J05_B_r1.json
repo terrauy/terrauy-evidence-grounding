@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J05_B_r1.json",
+ "prompt_sha256": "df6db91d2f02b0bb33006e83f8cea7d93809a89aee466d4a6e8f786180e6f6b9",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the sources don't directly contradict, since the loss predates the baseline and falls outside the 2021\u20132025 period. It does not explicitly say non-forest corroborates the loss, but it does not contradict the key. It notes the evidence does not establish why the figures differ."
+ },
+ "raw": null,
+ "cost_usd": 0.008402
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H02_A_r0.json",
+ "prompt_sha256": "6f84a6b80265514754a20e22ead249a40633a4e3e0c5596acda52e4f37e460e9",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly denies that all loss was inside the plantation and reports the supported areas and percentage."
+ },
+ "raw": null,
+ "cost_usd": 0.002667
+}

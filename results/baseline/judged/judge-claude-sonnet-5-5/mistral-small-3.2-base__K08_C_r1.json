@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K08_C_r1.json",
+ "prompt_sha256": "797eb05f352386b9e1b5832afe6a39f8c9b85e1ea3c1301baac2860df5d2856b",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer gives 2.23% (81.3 ha of 3643.5 ha), matching the key. It says the loss is corroborated by Hansen and JRC and notes that cause and legality are not established. No unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.007948
+}

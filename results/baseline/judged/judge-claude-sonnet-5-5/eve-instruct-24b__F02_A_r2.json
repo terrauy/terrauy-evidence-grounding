@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F02_A_r2.json",
+ "prompt_sha256": "00bee41e14fab3cf02d84ffc89b7456d88cf22e2c3537a36f47653958620d816",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly names MGAP 2021 with 68.1 of 81.3 ha planted Pinus species. However it adds unsupported claims: 'confirming it was a managed plantation' and 'aligns with broader asset classification in MGAP dataset'. It also omits that 13.2 ha was outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.008598
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D09_B_r2.json",
+ "prompt_sha256": "4879e30de143369b6f240edb1c2a40a7d4537eddf1c8fc34df2efacf895e1c5b",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The non-detection and limitations are correctly stated, but full coverage does not establish that sensors would have detected every significant fire."
+ },
+ "raw": null,
+ "cost_usd": 0.002359
+}

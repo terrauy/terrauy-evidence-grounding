@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H04_C_r0.json",
+ "prompt_sha256": "87c4b26b1140568821fc93af83d9e177fe86b4c4e90a3c283d2fff0174b4fc8a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports the loss areas and property share, without asserting a share of total native forest, and notes relevant limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002814
+}

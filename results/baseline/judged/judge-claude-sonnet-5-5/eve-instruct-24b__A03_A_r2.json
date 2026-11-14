@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A03_A_r2.json",
+ "prompt_sha256": "34e070654323e57638a989f45c9267493e6136cd369789b2eb23b9cab2873bd6",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer asserts deforestation occurred, which the evidence does not establish. It also says the 0.1 ha 'had no forest cover in 2020', which contradicts JRC full agreement and MGAP 'outside mapped forest'. It mentions the 0.5 ha threshold but not the non-establishment limits."
+ },
+ "raw": null,
+ "cost_usd": 0.009508
+}

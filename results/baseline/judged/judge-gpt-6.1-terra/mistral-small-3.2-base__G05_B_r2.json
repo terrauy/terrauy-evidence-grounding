@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G05_B_r2.json",
+ "prompt_sha256": "a6f641886434f20feeb458fc3cbfa0c65d05351accb6868e3a12d742a3ac2ab7",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly identifies a pending loss candidate and explains that a later year is needed to corroborate persistence."
+ },
+ "raw": null,
+ "cost_usd": 0.002558
+}

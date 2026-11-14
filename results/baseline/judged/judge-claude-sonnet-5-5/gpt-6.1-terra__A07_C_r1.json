@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/A07_C_r1.json",
+ "prompt_sha256": "eab183e8ef43687260b68ad4eebf8ecd3694e2970099c993526b4299205d0ab9",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 67.7 ha loss does not establish deforestation, notes no post-baseline events of 0.5 ha or more, and disclaims compliance findings. It does not explicitly state that 2020 predates the baseline, but nothing in it is wrong."
+ },
+ "raw": null,
+ "cost_usd": 0.009428
+}

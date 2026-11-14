@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C05_B_r1.json",
+ "prompt_sha256": "6d6a29d26e5191da166781c718545738529907f735b451809dc79493a2512c23",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no events of 0.5 ha or more in 2021-2025, states that compliance is not established, and cites the sub-0.5 ha and edge limits. Its figures (98.8 ha pre-2021, 0% forest in 2020) match the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.013488
+}

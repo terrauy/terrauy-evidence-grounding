@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H04_A_r2.json",
+ "prompt_sha256": "c89d180e2d7279f6302c19c8a0fde823028efa1a862cc5962f8449be979d8f0f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The 2.84% is correctly expressed as a share of the property, but 0.5 ha is not half of 0.6 ha."
+ },
+ "raw": null,
+ "cost_usd": 0.002756
+}

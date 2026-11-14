@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E07_B_r0.json",
+ "prompt_sha256": "09818de8d8216bfb970ba6b3ee851a2ab7c7e8de0ca04321e9ac0188245055e1",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says 2026 cannot be determined because the data end in 2025, and correctly reports the 2025 candidate (13.5 ha, 3.91%) as pending corroboration. It makes no absence or unsupported-loss claim."
+ },
+ "raw": null,
+ "cost_usd": 0.008154
+}

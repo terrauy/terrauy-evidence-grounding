@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F01_B_r1.json",
+ "prompt_sha256": "bb800b9a5523e2198729c3030db7b84e67fffaa1f08a3edbf526cabef8c243af",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Hansen is correctly identified, but MGAP mapped only 68.1 ha as planted forest; 13.2 ha lay outside mapped forest, so the entire area was not confirmed planted."
+ },
+ "raw": null,
+ "cost_usd": 0.002841
+}

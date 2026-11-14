@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J01_C_r0.json",
+ "prompt_sha256": "9ccfc961b26bcaf2e58078f3ef75f693dcecca9ee042e613c8e0ff34161136be",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states loss is not corroborated because JRC disagrees, explicitly says this doesn't prove absence, notes sub-threshold patches and no cause or deforestation established. Numbers match the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.00901
+}

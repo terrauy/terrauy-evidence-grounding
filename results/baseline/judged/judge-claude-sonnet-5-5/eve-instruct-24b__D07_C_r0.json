@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D07_C_r0.json",
+ "prompt_sha256": "1e2ad342011103587fa91fd05d307b74a65b4d295fe265e396e3c5e8db67e845",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no detections by FIRMS in the period and explicitly refuses to certify no fire, citing detection limits. The phrase 'significant thermal anomalies' is a minor wording issue but not an invented fact."
+ },
+ "raw": null,
+ "cost_usd": 0.007368
+}

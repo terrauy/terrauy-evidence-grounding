@@ -1,0 +1,38 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J02_B_r2.json",
+ "prompt_sha256": "577399db4de1a974c63c91a2df53657dc0abd0c2b088b539ee4c13e90b9f5c55",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies disagreement, but incorrectly describes JRC\u2019s zero agreement as showing no tree-cover loss; JRC is a forest-cover reference, not a loss map."
+ },
+ "raw": null,
+ "cost_usd": 0.003006
+}

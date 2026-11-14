@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K03_A_r0.json",
+ "prompt_sha256": "25d8fa5ed5f6c28b98bc11a475548da025acf0b438faa3b3ea6c3551260b6ba2",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correct zero detections with full sensor coverage and proper caveats; but claims asset area is recorded as null, which is not in the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.009166
+}

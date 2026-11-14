@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G03_B_r2.json",
+ "prompt_sha256": "24a409030b70ec2414605ed61d12867a269a7c4934bca4736cb84a9e60aad434",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts that no tree-cover loss occurred, exceeding the evidence of non-detection, although its reported event years and areas are correct."
+ },
+ "raw": null,
+ "cost_usd": 0.003651
+}

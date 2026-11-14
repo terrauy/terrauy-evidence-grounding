@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H02_B_r2.json",
+ "prompt_sha256": "eeb45490dea960f24aa240a2eede5d4daf2d7ba4ce7d44afe261f3d4646fe9ac",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer says most (68.1 ha, ~84%) was in planted forest and 13.2 ha outside mapped forest, implicitly denying all-inside; numbers match the key. No limitations stated."
+ },
+ "raw": null,
+ "cost_usd": 0.011516
+}

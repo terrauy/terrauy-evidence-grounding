@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H04_B_r2.json",
+ "prompt_sha256": "66ff417b306354540ea1405c6f5f73a0289820c75a9db06adfc70ff189185673",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Misstates 3.41% as share of native forest (it is share of the asset); also mischaracterizes the 0.2 ha as part of the event and infers no large-scale clearing. Numbers 0.6/0.5 ha are correct."
+ },
+ "raw": null,
+ "cost_usd": 0.011818
+}

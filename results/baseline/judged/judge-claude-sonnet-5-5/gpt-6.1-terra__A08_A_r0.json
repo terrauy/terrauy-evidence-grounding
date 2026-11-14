@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/A08_A_r0.json",
+ "prompt_sha256": "6969700a54620dd7d159833b05bc03b0a19691999ed41b9c725d574dfabc8705",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says non-compliance is not established and that tree-cover loss is not necessarily deforestation. The 86.4 ha total is correct (81.3+0.6+4.5). It adds 'significant deforestation risk' and 'most of each event overlapped forest' (JRC agreement 0.94\u20131.0, which fits) but the risk wording is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.01181
+}

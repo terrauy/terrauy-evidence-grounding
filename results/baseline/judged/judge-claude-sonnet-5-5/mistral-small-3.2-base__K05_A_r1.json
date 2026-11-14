@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K05_A_r1.json",
+ "prompt_sha256": "479cbf8a3700da968552865953794400382cbf6f004a5c770eea445aad552710",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly gives 67.7 ha in 2020, before the baseline; the other cited facts (23.0 ha in 2000, JRC 0 forest in 2020) match the evidence. No limitations stated."
+ },
+ "raw": null,
+ "cost_usd": 0.021162
+}

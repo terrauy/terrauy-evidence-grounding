@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K05_C_r2.json",
+ "prompt_sha256": "c4f3dd145d543aa2576f70674ba89fe89316384796ed451d98d8331c25bea8be",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies the 2020 event and distinguishes it from post-baseline detection at the 0.5-hectare threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002597
+}

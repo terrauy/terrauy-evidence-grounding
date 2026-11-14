@@ -1,0 +1,38 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J06_C_r1.json",
+ "prompt_sha256": "8b8b0f7d69bd0182781ef5bd27aebe8cb8f538134b6fb3ef11dec571db4bea09",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It correctly notes disagreement but asserts loss occurred, incorrectly says JRC shows non-forest, and infers reduced deforestation likelihood from planted-forest context."
+ },
+ "raw": null,
+ "cost_usd": 0.003032
+}

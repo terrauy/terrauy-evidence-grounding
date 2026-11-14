@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J04_C_r2.json",
+ "prompt_sha256": "74a132b8148e922c9c5109ad9922d65ddcc4cf5e472e8264bfa1d578940fe696",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly lists 2021, 2022 and 2023 as supported with accurate areas and sums, says none contradicted after baseline, and notes sub-0.5 ha patches and non-establishment limits."
+ },
+ "raw": null,
+ "cost_usd": 0.01173
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G05_B_r2.json",
+ "prompt_sha256": "7d91326eb8fdb0e86dbb10cea792bf83860c7467c8665e21ea785639d9d75a68",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly identifies a pending loss candidate and explains that a later observed year is needed for corroboration."
+ },
+ "raw": null,
+ "cost_usd": 0.002661
+}

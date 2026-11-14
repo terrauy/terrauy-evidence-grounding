@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K04_B_r2.json",
+ "prompt_sha256": "d97e71ca226a8adc6c1cfd2f32b6a71122d84c47cf8fd1b1c7de067f2d30e405",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no event of 0.5 ha or more was detected for 2021-2025 and gives the correct numbers. It lists the limits (under 0.5 ha, edges, 30 m pixels, no compliance finding) and invents no facts."
+ },
+ "raw": null,
+ "cost_usd": 0.007258
+}

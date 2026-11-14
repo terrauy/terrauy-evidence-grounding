@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D06_B_r0.json",
+ "prompt_sha256": "0170411d832e34dc7c40845be6c0f05a1386d1a38391766377363aac1ecaaa46",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports a non-detection with full coverage and caveats. But the claim that no large or intense fires went undetected overreaches, since cloud obscuration could hide large fires too."
+ },
+ "raw": null,
+ "cost_usd": 0.020464
+}

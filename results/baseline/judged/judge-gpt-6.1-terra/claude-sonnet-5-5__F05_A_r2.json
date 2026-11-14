@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F05_A_r2.json",
+ "prompt_sha256": "0a3cd9fa01a7df1762992449d910191866e58c9bd745c7b3a13098bb7589c995",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes loss to Hansen but abstains on Sentinel-2. The Landsat-resolution comparison and Sentinel-2 resolution are not established by the supplied evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.002825
+}

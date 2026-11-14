@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K04_A_r2.json",
+ "prompt_sha256": "024d4d6b412c0f846387a9cffacfed5889041225cb5b83688ed67ad8820deeaf",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says it cannot confirm whether the method found none, though the evidence states NOT_DETECTED with an explicit supports statement. This contradicts the expected conclusion that no event of 0.5 ha or more was found. It does mention the 0.5 ha minimum."
+ },
+ "raw": null,
+ "cost_usd": 0.006988
+}

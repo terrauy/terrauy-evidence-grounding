@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G07_C_r1.json",
+ "prompt_sha256": "7ffbb2f279ec396e9c766a3596e31d220a5425ada4baa2ad030c4da8122220e8",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says yes, property lost tree cover in 2024, whereas key says no counted event; sub-threshold 0.7 ha is correct. It also asserts these were stand-replacement events (e.g., clearing or harvesting), which is unsupported; it asserts a cause and says it is not deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.008592
+}

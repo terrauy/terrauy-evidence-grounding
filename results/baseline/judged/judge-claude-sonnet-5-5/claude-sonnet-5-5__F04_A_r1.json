@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F04_A_r1.json",
+ "prompt_sha256": "3a07c2bb5d46643030125f779d88b92797a43bdc700f560d0530c28d7baac535",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly names MGAP 2021 as the native-forest source, with numbers matching the facts, and notes it is a 2021 map, not a 2025 observation. Hansen and JRC are explicitly not credited with the classification."
+ },
+ "raw": null,
+ "cost_usd": 0.008012
+}

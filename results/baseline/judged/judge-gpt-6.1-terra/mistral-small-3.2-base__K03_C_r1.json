@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K03_C_r1.json",
+ "prompt_sha256": "b9b19f10bc4430332619abd2bc27baf2fc2c8af453e6d425b8b5ec41aafe2e02",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports zero FIRMS detections for the property and period, while noting that undetected fires remain possible."
+ },
+ "raw": null,
+ "cost_usd": 0.002115
+}

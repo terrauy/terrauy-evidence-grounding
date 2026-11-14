@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G03_A_r1.json",
+ "prompt_sha256": "6bb2cb9b142b09f4e8aad1e6d28d8e4b72a3ac023b4ea66dba8c0313b6ec4117",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer says there was no loss and that the property 'maintained its tree cover through 2025', which is an absence claim. It does not state the 0.5 ha threshold and does not say non-detection is not proof."
+ },
+ "raw": null,
+ "cost_usd": 0.01021
+}

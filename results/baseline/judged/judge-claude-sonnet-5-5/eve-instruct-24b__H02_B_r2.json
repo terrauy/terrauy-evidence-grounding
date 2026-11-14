@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H02_B_r2.json",
+ "prompt_sha256": "05647bfa677a430663cd521edec27e68d2cb197305d37ec7b373b6e081aaa58c",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer denies that all loss was in the plantation, giving 68.1 ha planted and 13.2 ha outside mapped forest, which matches the key. The percentages (84%/16%) are correctly derived. The 'may have occurred in non-forested or unclassified land' remark is hedged, and no limitations are stated."
+ },
+ "raw": null,
+ "cost_usd": 0.008564
+}

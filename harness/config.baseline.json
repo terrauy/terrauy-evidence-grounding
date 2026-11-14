@@ -1,0 +1,124 @@
+{
+ "tasks": "dataset/tasks.jsonl",
+ "conditions": [
+  "A",
+  "B",
+  "C"
+ ],
+ "runs": [
+  0.0,
+  0.7,
+  0.7
+ ],
+ "budget_usd": 50,
+ "pilot_task_ids": [
+  "A01",
+  "D01",
+  "E01",
+  "J05",
+  "G02",
+  "H01",
+  "C01",
+  "B01",
+  "K01",
+  "K03"
+ ],
+ "gpu_endpoints": [
+  {
+   "name": "eve-instruct-bench",
+   "model_key": "eve-instruct-24b",
+   "repository": "eve-esa/EVE-Instruct",
+   "revision": "eecb769ffb8d22edb409414a12aa9445ab10828b",
+   "instance": "aws us-east-1 1x A100 80GB",
+   "usd_per_hour": 2.5,
+   "engine": "vllm/vllm-openai:v0.29.0",
+   "args": "--tokenizer_mode mistral --config_format mistral --load_format mistral --max-model-len 16384 -tp 1",
+   "dtype": "bf16 (no quantization)"
+  },
+  {
+   "name": "mistral-small-3-2-bench",
+   "model_key": "mistral-small-3.2-base",
+   "repository": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+   "revision": "95a6d26c4bfb886c58daf9d3f7332c857cb27b43",
+   "instance": "aws us-east-1 1x A100 80GB",
+   "usd_per_hour": 2.5,
+   "engine": "vllm/vllm-openai:v0.29.0",
+   "args": "--tokenizer_mode mistral --config_format mistral --load_format mistral --max-model-len 16384 -tp 1",
+   "dtype": "bf16 (no quantization)"
+  }
+ ],
+ "models": [
+  {
+   "key": "claude-sonnet-5-5",
+   "provider": "anthropic",
+   "model": "claude-sonnet-5-5",
+   "key_env": "TERRAUY_BENCH_ANTHROPIC_API_KEY",
+   "max_tokens": 600,
+   "price_in_per_mtok": 2.0,
+   "price_out_per_mtok": 10.0,
+   "expected_output_tokens": 220,
+   "no_temperature": true,
+   "note": "Sonnet 5.5 rejects temperature (API 400 'temperature is deprecated for this model'); runs use provider default sampling, recorded as temperature=null"
+  },
+  {
+   "key": "gpt-6.1-terra",
+   "provider": "openai",
+   "model": "gpt-6.1-terra",
+   "reasoning_effort": "none",
+   "key_env": "TERRAUY_BENCH_OPENAI_API_KEY",
+   "max_tokens": 600,
+   "price_in_per_mtok": 1.0,
+   "price_out_per_mtok": 5.0,
+   "expected_output_tokens": 220
+  },
+  {
+   "key": "eve-instruct-24b",
+   "provider": "openai",
+   "model": "eve-esa/EVE-Instruct",
+   "base_url_env": "TERRAUY_BENCH_EVE_BASE_URL",
+   "key_env": "TERRAUY_BENCH_EVE_API_KEY",
+   "max_tokens": 600,
+   "max_tokens_param": "max_tokens",
+   "price_in_per_mtok": 0.0,
+   "price_out_per_mtok": 0.0,
+   "expected_output_tokens": 220,
+   "note": "GPU-hour cost tracked separately (gpu_endpoints)"
+  },
+  {
+   "key": "mistral-small-3.2-base",
+   "provider": "openai",
+   "model": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+   "base_url_env": "TERRAUY_BENCH_MISTRAL_BASE_URL",
+   "key_env": "TERRAUY_BENCH_EVE_API_KEY",
+   "max_tokens": 600,
+   "max_tokens_param": "max_tokens",
+   "price_in_per_mtok": 0.0,
+   "price_out_per_mtok": 0.0,
+   "expected_output_tokens": 220,
+   "note": "EVE's base model, same serving stack; GPU-hour cost tracked separately"
+  }
+ ],
+ "judges": [
+  {
+   "key": "judge-claude-sonnet-5-5",
+   "provider": "anthropic",
+   "model": "claude-sonnet-5-5",
+   "key_env": "TERRAUY_BENCH_ANTHROPIC_API_KEY",
+   "max_tokens": 2000,
+   "price_in_per_mtok": 2.0,
+   "price_out_per_mtok": 10.0,
+   "no_temperature": true,
+   "note": "Sonnet 5.5 rejects temperature (API 400 'temperature is deprecated for this model'); runs use provider default sampling, recorded as temperature=null; max_tokens 700->2000 after pass 1: default adaptive thinking consumed the budget and truncated 10 JSON verdicts (objective harness bug, amendment 1 item 5)"
+  },
+  {
+   "key": "judge-gpt-6.1-terra",
+   "provider": "openai",
+   "model": "gpt-6.1-terra",
+   "reasoning_effort": "none",
+   "key_env": "TERRAUY_BENCH_OPENAI_API_KEY",
+   "max_tokens": 700,
+   "price_in_per_mtok": 1.0,
+   "price_out_per_mtok": 5.0
+  }
+ ]
+}

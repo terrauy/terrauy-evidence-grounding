@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H05_C_r2.json",
+ "prompt_sha256": "4780c9ebc2005ca55f71fc45e49d22169e108a82394e02e4239b9dfc41755c30",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer accurately reports corroborated loss and limitations, but says additional evidence is needed rather than giving a definite no."
+ },
+ "raw": null,
+ "cost_usd": 0.002932
+}

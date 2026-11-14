@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I03_A_r2.json",
+ "prompt_sha256": "20b0eb9693de8996cc65f380319d9972d93783f59ab7b217e3f7e1a78ffdb125",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Affirms 13.5 ha in 2025 from current v2, but states the observation is 'corroborated' by JRC, which treats a pending candidate as confirmed (the corroboration rule also needs a later year). No limitations mentioned."
+ },
+ "raw": null,
+ "cost_usd": 0.010858
+}

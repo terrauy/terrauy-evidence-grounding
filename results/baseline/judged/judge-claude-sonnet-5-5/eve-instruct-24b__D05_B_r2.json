@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D05_B_r2.json",
+ "prompt_sha256": "2d471eff13e8a7c9d6aec22d645c85f95572f3060f497e3c6639acdf7e9a1572",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correct non-detection with caveats, but claims evidence 'confirms no large or sustained fires occurred', an overreach beyond the thermal non-detection."
+ },
+ "raw": null,
+ "cost_usd": 0.010154
+}

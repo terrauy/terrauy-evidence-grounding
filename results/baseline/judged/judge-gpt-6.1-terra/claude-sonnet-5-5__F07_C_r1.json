@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F07_C_r1.json",
+ "prompt_sha256": "e15cf28017ce657c04099d6575724d54ad2deef6e9845fc116f99fb7fb61ea66",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies JRC\u2019s zero forest area and Hansen\u2019s historical observations, but asserts without support that the datasets do not fully reconcile."
+ },
+ "raw": null,
+ "cost_usd": 0.002882
+}

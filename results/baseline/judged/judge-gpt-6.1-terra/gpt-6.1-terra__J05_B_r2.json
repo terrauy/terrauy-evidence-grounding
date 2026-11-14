@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J05_B_r2.json",
+ "prompt_sha256": "e61ec2312e2b3ac0f4abfdccbb7232ab960faaa35c0c44b885434d95a3563c4d",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the observations can coexist but stops short of a definite no or stating that JRC corroborates the supported historical loss."
+ },
+ "raw": null,
+ "cost_usd": 0.002789
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D09_A_r1.json",
+ "prompt_sha256": "54a788176b6883db6142644edf513f023d366b1951cf298b765570151185ddfd",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer wrongly concludes no fire affected the asset and extends the non-detection to nearby areas, beyond the asset boundary."
+ },
+ "raw": null,
+ "cost_usd": 0.002317
+}

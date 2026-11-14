@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K05_C_r0.json",
+ "prompt_sha256": "74f81ae988866f4d991929435a8888cdf28cacad191fb6fde3b89cc840e6eaea",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies 67.7 ha in 2020. The assertion that Hansen loss is not limited to the 2000 baseline is not established by the supplied evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.002824
+}

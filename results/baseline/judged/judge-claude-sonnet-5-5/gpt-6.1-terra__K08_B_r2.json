@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K08_B_r2.json",
+ "prompt_sha256": "b7c28cc70fa0698bd633e96378241aa7c0fa4f8d0c3f2f110d23a2c7c1ec450c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer gives 2.23% (81.3 of 3,643.5 ha), matching the key. The 37.3 ha sub-threshold loss is correctly cited, and the answer notes that tree-cover loss does not establish deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.007948
+}

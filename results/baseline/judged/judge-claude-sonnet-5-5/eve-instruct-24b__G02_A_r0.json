@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G02_A_r0.json",
+ "prompt_sha256": "883bbc7ffcb356071f4323283ed75763f2f12570f17d063bab5ec2115baf7598",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies; the 67.7 ha loss is placed in 2020, before the cut-off. It correctly cites 0.4 ha of sub-threshold loss in 2021 and the 0.5 ha threshold. However, 'JRC confirms no forest cover remained by 2020' overstates: JRC shows 0 ha of forest in 2020, not that no cover remained."
+ },
+ "raw": null,
+ "cost_usd": 0.008698
+}

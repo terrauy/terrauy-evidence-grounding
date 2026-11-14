@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D07_C_r1.json",
+ "prompt_sha256": "807e6993b9c1d57975501faadaf7f2c0c9289172f3d2242f7b2d958f9cf71331",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports no FIRMS detections and says this cannot certify that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.002294
+}

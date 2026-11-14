@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G06_C_r1.json",
+ "prompt_sha256": "d331458fe884f86f4cc17cb123630d0fd99dff7415fb8c835340dbc7b7c23e4d",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer abstains on the earlier period, accurately reports the evaluated period\u2019s detections, and explains that nondetection does not prove absence of fire."
+ },
+ "raw": null,
+ "cost_usd": 0.002489
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E08_C_r0.json",
+ "prompt_sha256": "983c94cf05f5a2fc851cb3909d7236a1df0ec9d164287743699ca336bc40a78a",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Opens with a definite 'No, did not change in 2026' and says the property remains unchanged, though 2026 is outside the series. It mentions 2025 as the latest year, but the conclusion contradicts the key."
+ },
+ "raw": null,
+ "cost_usd": 0.007442
+}

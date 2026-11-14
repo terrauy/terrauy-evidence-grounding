@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G03_B_r0.json",
+ "prompt_sha256": "72e9199e9f355e61424af818d3f78335309619fec39f8ed2fe06ce2795af441e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer first says loss occurred in 2024 and 2025, then concludes it did not, treating the absence of mention as proof of no loss. It is self-contradictory, gives no non-detection caveat, and states no loss as a definite conclusion."
+ },
+ "raw": null,
+ "cost_usd": 0.010422
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H01_C_r1.json",
+ "prompt_sha256": "8ab437005a2638879292a0ded6430891a884ab49b5982b628b28d3ed0c4f1b0f",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies whole-property clearing and reports loss figures, but asserts the majority remained unchanged, which tree-cover loss data alone cannot establish."
+ },
+ "raw": null,
+ "cost_usd": 0.002815
+}

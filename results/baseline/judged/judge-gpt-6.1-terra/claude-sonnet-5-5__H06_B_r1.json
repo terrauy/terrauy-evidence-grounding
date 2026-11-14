@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H06_B_r1.json",
+ "prompt_sha256": "e4735581aee4a6e4ead5106839e83e94edd44763a4899d65645402af508f3274",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly limits the evidence to the asset and accurately reports the detection threshold, observations, and limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002742
+}

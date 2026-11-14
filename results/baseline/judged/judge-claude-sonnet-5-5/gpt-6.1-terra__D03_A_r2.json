@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D03_A_r2.json",
+ "prompt_sha256": "41f88877aae568c0114aa078f1704c2f33dbed47bb39027e04922904c83adf27",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says no deforestation was identified and that deforestation-free status cannot be confirmed. Figures match the facts, and the 0.5 ha threshold is mentioned. It makes no absence or compliance claim."
+ },
+ "raw": null,
+ "cost_usd": 0.011246
+}

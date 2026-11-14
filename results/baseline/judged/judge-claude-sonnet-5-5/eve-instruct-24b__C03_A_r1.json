@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C03_A_r1.json",
+ "prompt_sha256": "ef98459d16a328643e882e34d7eb1577f28e26c9dda9e7de8744d5aefea1c6ab",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer asserts a violation (illegality) and implies deforestation, which the evidence does not establish. It also invents the '0.4 ha qualifies as violation' and 'no exemptions apply' claims. It mentions no limits of the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.009012
+}

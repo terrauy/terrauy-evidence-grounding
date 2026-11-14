@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K07_B_r2.json",
+ "prompt_sha256": "82630069e75eeea3dcc8798b7dd48a3ac76d1bcdc5dabf8de7e5431fbc017bdf",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly denies evaluation due to missing coverage and notes that neither tree-cover loss nor compliance status was established."
+ },
+ "raw": null,
+ "cost_usd": 0.00192
+}

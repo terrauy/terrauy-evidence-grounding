@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K02_B_r2.json",
+ "prompt_sha256": "941b0aafecc1eba1fcfca4b1729d417da6b7afee66ba3d8b420f4ab7b362f591",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says yes, a 13.5 ha candidate in 2025 (3.91% of the property), pending corroboration, and lists what the evidence does not establish. All of this matches the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.007252
+}

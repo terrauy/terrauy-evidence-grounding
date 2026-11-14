@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D10_A_r2.json",
+ "prompt_sha256": "520757b0d48ea3f105358f6ac7761d0680b71826ce5afcc97bfe4b5313ab39fa",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Claims confirmed stability and dataset agreement despite non-detection not proving unchanged cover; also asserts unsupported regrowth and broader land-cover findings."
+ },
+ "raw": null,
+ "cost_usd": 0.00251
+}

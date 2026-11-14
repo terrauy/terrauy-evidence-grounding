@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J05_A_r2.json",
+ "prompt_sha256": "3dd7373a1ee58e319a009a263186cb04dca0ff1b54c5917d151ae8131450f649",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer denies contradiction, which is correct, but its reasoning is speculative: it says remaining tree cover was below JRC's threshold and misses that non-forest in 2020 corroborates the earlier loss. It does note Hansen's limits."
+ },
+ "raw": null,
+ "cost_usd": 0.008262
+}

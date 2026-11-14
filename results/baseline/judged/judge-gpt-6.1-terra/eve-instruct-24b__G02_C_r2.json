@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G02_C_r2.json",
+ "prompt_sha256": "8441965e13fb054a08def33a2e6387eb9ea8cffd4ee739d132b63276197f2d88",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly places the 67.7 ha loss in 2020 and notes the post-baseline detection threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002723
+}

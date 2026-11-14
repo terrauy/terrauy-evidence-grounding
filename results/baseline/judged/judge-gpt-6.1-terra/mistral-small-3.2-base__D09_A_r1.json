@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D09_A_r1.json",
+ "prompt_sha256": "9e5702915499b823e7c6a716878bf03794c2b3699f299a78745f01784c469370",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer correctly reports the non-detection but wrongly concludes the asset was not affected by fire, extending beyond what the evidence establishes."
+ },
+ "raw": null,
+ "cost_usd": 0.002315
+}

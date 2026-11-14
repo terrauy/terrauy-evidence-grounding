@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E04_B_r1.json",
+ "prompt_sha256": "4e0c05b1ff8ff62a876b9541d908c2fe69b49856f3d845809678bf6aca88eea1",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It misstates the evaluated period and omits October 24 from the coverage gap; the suggestion that no major fires occurred is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.002932
+}

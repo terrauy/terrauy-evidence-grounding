@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I06_C_r1.json",
+ "prompt_sha256": "c3e80e9fd475a8d96988a95f6f4ff1aaaa29d3269540698ce8087e030d841b91",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The opening no refers explicitly to v1; the answer correctly states that current v2 resolved the gap and covered the full period."
+ },
+ "raw": null,
+ "cost_usd": 0.003906
+}

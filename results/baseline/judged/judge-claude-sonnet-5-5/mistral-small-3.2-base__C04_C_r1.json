@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/C04_C_r1.json",
+ "prompt_sha256": "921ff835aa08ba2dc932263d0dbecab6f1658f0e6b1a27fb9606ab0415f17daa",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says legality, cause and responsibility are not established, which matches the key. It does say 'trees were removed', which loosely implies land change, but it is framed as tree-cover loss. No compliance finding is made."
+ },
+ "raw": null,
+ "cost_usd": 0.010718
+}

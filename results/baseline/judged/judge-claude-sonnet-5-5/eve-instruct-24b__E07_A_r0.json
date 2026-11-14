@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E07_A_r0.json",
+ "prompt_sha256": "06339cd24a5973f5738a53b0455349058d7ed1646d2817d64ed46290e3f730bc",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer flatly denies 2026 loss although series ends 2025 and 2026 is unobserved. It also wrongly says the 2025 event was corroborated, while status is pending and no later year was observed."
+ },
+ "raw": null,
+ "cost_usd": 0.00805
+}

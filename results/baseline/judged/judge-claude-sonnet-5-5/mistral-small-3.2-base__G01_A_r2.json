@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G01_A_r2.json",
+ "prompt_sha256": "686c856e3f385a6e773713b25955fc748e401da905ca9e2e864fdd00813b7006",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the property 'did not lose significant tree cover' and mentions the 0.4 ha sub-threshold loss. It frames this as a denial rather than non-detection, and it never says non-detection is not proof of no change. It does note the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.008512
+}

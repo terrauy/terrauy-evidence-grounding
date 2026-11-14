@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D02_A_r2.json",
+ "prompt_sha256": "50b49f53719572e8bfb815d1e8d02adaeb54bed7c06172fe723f2166782ea9df",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says there is no loss result for 2021-2025, but the evidence shows a NOT_DETECTED assessment (no loss \u22650.5 ha). It treats this as silence and gives no definite answer. That contradicts the facts and the expected non-detection stance."
+ },
+ "raw": null,
+ "cost_usd": 0.007934
+}

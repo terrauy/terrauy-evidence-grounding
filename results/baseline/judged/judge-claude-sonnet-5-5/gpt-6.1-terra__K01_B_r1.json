@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K01_B_r1.json",
+ "prompt_sha256": "8401d94f37d329763a87f9f10fb0305ce38c49a65a481e9d0e76d766cf791ad4",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 81.3 ha (2.23%) in 2021, matching the key. Extra details (37.3 ha sub-threshold, 68.1 ha planted) are in the reference facts. States that loss does not establish deforestation or its cause."
+ },
+ "raw": null,
+ "cost_usd": 0.0081
+}

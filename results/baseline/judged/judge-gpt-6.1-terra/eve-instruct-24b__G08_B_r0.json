@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G08_B_r0.json",
+ "prompt_sha256": "d5fa4da7fbcdd27327fe2ddcfcec9247d8d9acf6c31309a01c4b84c6f351c257",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Claims a rising trend and incorrectly says loss rose from 81.3 to 4.5 ha; omits 2024\u20132025, when no events were detected."
+ },
+ "raw": null,
+ "cost_usd": 0.003647
+}

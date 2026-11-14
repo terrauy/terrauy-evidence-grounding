@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G02_C_r0.json",
+ "prompt_sha256": "fb6bb6195daeb7964651337d20ce904026a480c3c8b98a177c24ea0a92327e06",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly places the 67.7 ha loss in 2020 and distinguishes the 2021 small-patch loss from detected events."
+ },
+ "raw": null,
+ "cost_usd": 0.002743
+}

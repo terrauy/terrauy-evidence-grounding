@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D06_C_r2.json",
+ "prompt_sha256": "fc0d9504912ca6fca0a9fe659bd0c36913a04fe5e9756b0cdee1ac262841fe1e",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports zero FIRMS detections with full sensor coverage and notes that small or cloud-obscured fires may be missed. It never asserts that no fire occurred. The closing line 'No evidence of burning is confirmed' is slightly awkward but not a denial."
+ },
+ "raw": null,
+ "cost_usd": 0.007562
+}

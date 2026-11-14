@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H01_B_r2.json",
+ "prompt_sha256": "0fd0bfdb528c88223412737280db19961662433ed5be2c87e3ac0db728a055dd",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Denies whole-property clearing, gives 81.3 ha = 2.23%, and says the loss is not necessarily deforestation or land-use change. The planted-forest and sub-0.5 ha details match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.011488
+}

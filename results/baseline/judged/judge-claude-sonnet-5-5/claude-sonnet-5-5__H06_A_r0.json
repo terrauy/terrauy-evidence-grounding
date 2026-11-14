@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H06_A_r0.json",
+ "prompt_sha256": "d4de542588c91194a5389199ad6d3e83cbc12cf937be18cf13aa0c1603826c6f",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no, evidence covers only the asset boundary; numbers correct; no regional claims; notes 0.5 ha threshold and the sub-threshold 0.4 ha patches."
+ },
+ "raw": null,
+ "cost_usd": 0.01102
+}

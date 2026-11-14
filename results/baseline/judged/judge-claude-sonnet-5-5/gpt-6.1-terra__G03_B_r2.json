@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G03_B_r2.json",
+ "prompt_sha256": "24a9da9325ed573e02c38a3fa01adc5aa0561b56e172bbe4fccfa2585da5c527",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Says no loss is reported in 2024-2025 in the data (a non-detection framing), and correctly lists 2021-2023 events. It does not claim that no change occurred, but it states no limitations such as the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.010236
+}

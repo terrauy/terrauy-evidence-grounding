@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K08_A_r0.json",
+ "prompt_sha256": "b0c11af8c51caa86b7f4d5cc40e0b2b8384b6e4e7dff389039a3826ba5ac443f",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer gives 2.23% (81.3 ha of 3643.5 ha) for 2021, matching the key. Planted-forest and no-native-forest details and the corroboration claim are supported by the facts. No limitations are stated."
+ },
+ "raw": null,
+ "cost_usd": 0.008004
+}

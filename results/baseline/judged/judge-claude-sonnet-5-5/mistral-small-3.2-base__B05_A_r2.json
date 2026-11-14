@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B05_A_r2.json",
+ "prompt_sha256": "db02002ca574dfefd3c2f50ffd2505fc1ba129009ecef3669963f657f9b46f65",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer states 'significant land change event' and 'likely' human causes (logging, agriculture, development), implying land-use change. It falsely claims GFC2020 corroborates the loss, though the 2015 event predates the baseline and the cause is not established."
+ },
+ "raw": null,
+ "cost_usd": 0.009002
+}

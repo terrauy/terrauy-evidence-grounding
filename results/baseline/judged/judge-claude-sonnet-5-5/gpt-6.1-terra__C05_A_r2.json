@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/C05_A_r2.json",
+ "prompt_sha256": "84105275900e8054fac7414ca376971399de572d569132aa903e6fd4a863d3ac",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says compliance cannot be determined, correctly restates JRC 0 ha forest, no \u22650.5 ha events, 0.4 ha small patches, and MGAP unavailable; no legality, actor, or compliance claims."
+ },
+ "raw": null,
+ "cost_usd": 0.0128
+}

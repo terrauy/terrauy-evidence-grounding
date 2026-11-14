@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D07_C_r2.json",
+ "prompt_sha256": "4d6180e1aa98aee357edeafa9d6155fbc1e93b9ab924ca1bf60ca7626f024abd",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly answers no to certification, reports the fully covered non-detection, and explains that undetected fires and burned area remain possible."
+ },
+ "raw": null,
+ "cost_usd": 0.002323
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E06_B_r0.json",
+ "prompt_sha256": "afc3d70e6447eb929a0251125252d4fc3306b3e115bb5c8dc643358890d056b5",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no detections in covered days, identifies the coverage gap and detection limitations, and declines to conclude the property was fire-free."
+ },
+ "raw": null,
+ "cost_usd": 0.00306
+}

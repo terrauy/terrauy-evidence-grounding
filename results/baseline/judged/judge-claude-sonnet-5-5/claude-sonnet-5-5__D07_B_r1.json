@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D07_B_r1.json",
+ "prompt_sha256": "9a6f5cca9dfe17f3794188b1f48b58e7775fc28cb3fd52f6a8d4fd927ad11637",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says certification is not possible, reports zero FIRMS detections with full coverage, explicitly says non-detection is not proof of no fire, and notes limits on burned area and period. Nothing unsupported is asserted."
+ },
+ "raw": null,
+ "cost_usd": 0.007714
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F05_B_r2.json",
+ "prompt_sha256": "f090a6f70319a310079f5e5c39e9378e560bb1e76101cc79559f820a9f387f7c",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes the 2022 loss to Hansen/UMD, excludes Sentinel-2, and accurately describes the supporting evidence and limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002826
+}

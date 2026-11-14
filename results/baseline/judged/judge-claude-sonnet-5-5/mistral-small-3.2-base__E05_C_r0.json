@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E05_C_r0.json",
+ "prompt_sha256": "ad9683925d9cb6d22f7f472201640dece028e4893f8acfbf4a70b2a03ea14182",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no detections on covered days and names the Nov 2-6 VIIRS_SNPP gap, so it concludes the full period cannot be confirmed. It makes no claim that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.007878
+}

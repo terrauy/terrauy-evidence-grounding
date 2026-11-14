@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K01_C_r1.json",
+ "prompt_sha256": "71581c57ecba25e310704d636487deb6067876e8e19055249d0e04857e1b36d7",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 81.3 ha Hansen loss in 2021 (2.23%), matching key; context and JRC corroboration consistent with facts; notes cause and legality not determined."
+ },
+ "raw": null,
+ "cost_usd": 0.011074
+}

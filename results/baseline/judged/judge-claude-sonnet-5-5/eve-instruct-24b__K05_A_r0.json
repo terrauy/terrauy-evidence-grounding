@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K05_A_r0.json",
+ "prompt_sha256": "d81c9901d426570c6ebb88eee55ab311abd0d7ea81efff149a5815296f78be5a",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer correctly gives 67.7 ha in 2020, with other events (25.5 ha 2015, 4.8 ha 2017) matching the facts and Hansen source correct. It does not note that 2020 falls before the baseline, and it states no limitations beyond the 30 m resolution."
+ },
+ "raw": null,
+ "cost_usd": 0.008136
+}

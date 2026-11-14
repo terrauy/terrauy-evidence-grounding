@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H02_C_r2.json",
+ "prompt_sha256": "2dac67c0867f0e123665d8208de739f1047840335d2d721a5977c0be4483f30c",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, giving 68.1 ha in planted forest and 13.2 ha outside mapped forest per MGAP 2021. Percentages are correctly derived, and caveats match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008436
+}

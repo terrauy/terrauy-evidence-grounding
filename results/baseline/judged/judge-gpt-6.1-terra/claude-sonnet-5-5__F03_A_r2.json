@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F03_A_r2.json",
+ "prompt_sha256": "0fd32b17e677d2a858917a35acd0a30e11e9d0d2a77810b1ca50645d2fb361c6",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "JRC agreement and later observation are correctly stated, but MGAP is presented as corroborating evidence rather than forest-type context."
+ },
+ "raw": null,
+ "cost_usd": 0.002791
+}

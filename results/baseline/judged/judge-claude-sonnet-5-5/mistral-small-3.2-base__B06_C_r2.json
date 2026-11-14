@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B06_C_r2.json",
+ "prompt_sha256": "af77dee2ef16197a12ba9d7045d4fcd2f0fe9282b613c5620a2a040312b0c5e0",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says cause is not established, which fits the key. But it asserts the loss of eucalyptus trees is 'confirmed'. The evidence only gives planted forest context and does not confirm the trees lost were eucalyptus, so this is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.009196
+}

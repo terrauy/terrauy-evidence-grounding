@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D05_A_r2.json",
+ "prompt_sha256": "80649a7823deb3b1d870788f17097a6e21a6737118b08b618079a3eb8f80d9ed",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correct non-detection with full sensor coverage and caveats, but it invents an 'asset_area_ha is null' metadata field not in the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.010604
+}

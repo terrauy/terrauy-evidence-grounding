@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F02_C_r0.json",
+ "prompt_sha256": "2a05fe2c58f802effc0924bd931cc8d30bdd3a53882d4ada06472f01376e0716",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly names MGAP 2021 forest map with Pinus elliottii/taeda and no native forest; notes it gives context, not cause or legality. Slight simplification of the 13.2 ha outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.009706
+}

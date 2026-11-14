@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B06_A_r2.json",
+ "prompt_sha256": "8e00f1fb90481c58b5c7a1ea89a83f2d21979d5828427443c378830f4acc9a8c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts harvest as the cause, which the evidence explicitly does not establish. It treats species and planted-forest context as proof of cause and calls the loss 'managed harvest', an unsupported inference."
+ },
+ "raw": null,
+ "cost_usd": 0.009052
+}

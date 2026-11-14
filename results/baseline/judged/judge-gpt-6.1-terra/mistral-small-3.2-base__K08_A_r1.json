@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K08_A_r1.json",
+ "prompt_sha256": "8036a04847b4f0eb433fef9433bddd57193998a90bfe3050e68d33703808584a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer correctly reports 2.23% and 81.3 hectares, with supported source and forest-type context."
+ },
+ "raw": null,
+ "cost_usd": 0.002643
+}

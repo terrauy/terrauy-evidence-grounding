@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/A04_A_r1.json",
+ "prompt_sha256": "4a03e6dbbdedfbcfbe6954f4183b2f67a915fce649d3dfd52ce326e182a2d5db",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer asserts deforestation occurred, which the evidence does not establish (loss could be plantation harvest). It also misstates the MGAP split: 0.4 ha planted and 0.3 ha outside mapped forest, not wholly planted. It mentions the sub-0.5 ha patches only as supporting evidence, not as a limit."
+ },
+ "raw": null,
+ "cost_usd": 0.009776
+}

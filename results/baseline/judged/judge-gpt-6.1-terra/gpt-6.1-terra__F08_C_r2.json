@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F08_C_r2.json",
+ "prompt_sha256": "ad3d04696198e379d0d09f404d044792f2ab73ea9cdad5277d148a33241d70a8",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly distinguishes the JRC 2020 reference from Hansen/UMD\u2019s 2023 loss mapping and states relevant limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.00272
+}

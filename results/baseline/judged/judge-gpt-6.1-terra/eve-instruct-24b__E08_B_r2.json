@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E08_B_r2.json",
+ "prompt_sha256": "3f62c43eddbae272a872a61772cb956b2116c95d3e2f3cb726b4a28003af6643",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer definitively denies change in unobserved 2026 and incorrectly claims 43.3 hectares remained stable in 2025; that figure describes forest in 2020."
+ },
+ "raw": null,
+ "cost_usd": 0.002441
+}

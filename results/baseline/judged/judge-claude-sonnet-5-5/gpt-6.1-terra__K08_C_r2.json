@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K08_C_r2.json",
+ "prompt_sha256": "1009693b73a4ed773c04e1ad936618f5b2d8119079de1e01588bec07865a5ae8",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "States 2.23% (81.3 of 3,643.5 ha) for 2021, matching the key. 'Most in planted forest' is supported by MGAP data (68.1 of 81.3 ha). Notes the sub-0.5 ha exclusion and that cause is not established."
+ },
+ "raw": null,
+ "cost_usd": 0.008068
+}

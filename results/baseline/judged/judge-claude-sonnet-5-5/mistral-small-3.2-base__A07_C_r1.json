@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/A07_C_r1.json",
+ "prompt_sha256": "25f55f9bc1007aaf1ac07cb552070c99bfda6859e2ba6990e89986543162607c",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer flatly denies deforestation and implies a deforestation-free compliance finding. It reasons from the JRC 2020 forest share and speculates that the loss was non-forest tree cover. It never notes that the 2020 loss precedes the baseline, so it is outside the claim."
+ },
+ "raw": null,
+ "cost_usd": 0.009388
+}

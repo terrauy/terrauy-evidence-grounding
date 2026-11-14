@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H06_A_r0.json",
+ "prompt_sha256": "d4de542588c91194a5389199ad6d3e83cbc12cf937be18cf13aa0c1603826c6f",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly limits regional inference, but asserts the 0.4 ha recorded in 2021 was the only post-baseline loss, despite possible undetected changes."
+ },
+ "raw": null,
+ "cost_usd": 0.002838
+}

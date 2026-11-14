@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E08_B_r2.json",
+ "prompt_sha256": "0168d88e1f8fd804b07a6aa45c1047f0c12e6eeee1d5857509fec3dcde0527be",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly states that 2026 is unobserved and accurately describes the 2021\u20132025 detection result and its limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002347
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E05_B_r1.json",
+ "prompt_sha256": "6a2cccb229a1e97da4e197a31eedc1c8f461dcc07c5e0800c741bfeb9d1cf8b9",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer declines full-period confirmation, identifies the sensor gap and zero detections in available data, and explains that no detections do not prove no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.002722
+}

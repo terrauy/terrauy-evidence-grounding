@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D02_A_r2.json",
+ "prompt_sha256": "d9e5ada60d1c51b4dbf6fd168be2b3f9017c8633708f8fc8aa2efe94aa5eedb3",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer claims the output does not report loss events or state that none were detected, contradicting the evidence that NOT_DETECTED (no loss \u22650.5 ha, valid data 1.0). It fails to give the non-detection conclusion, though it notes the size limit."
+ },
+ "raw": null,
+ "cost_usd": 0.007962
+}

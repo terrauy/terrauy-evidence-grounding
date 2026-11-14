@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F03_B_r1.json",
+ "prompt_sha256": "961dba8cdc9837147ddefc8cc93b50f9f897c1f9f4874ffc8e4d05c2af307007",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "JRC agreement and later observation are correct, but saying 'these sources' together support the loss improperly includes MGAP as corroboration."
+ },
+ "raw": null,
+ "cost_usd": 0.002807
+}

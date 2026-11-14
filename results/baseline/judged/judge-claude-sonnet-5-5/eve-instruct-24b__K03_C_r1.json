@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K03_C_r1.json",
+ "prompt_sha256": "2a0be255a35477cfb2d1a9ae35c95e8de9bc248789205cd30ac35b2d3794dc7b",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports zero FIRMS detections in ASSET-F07 for 2026-09-26 to 2026-10-26, all four sensors covered, and notes that absence does not prove no fire. All of this is consistent with the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.00692
+}

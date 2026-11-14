@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E04_B_r0.json",
+ "prompt_sha256": "04a7aab5351944b6ce6745725525146a4f49cc1008a5cadaddfef610c604d01c",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says it cannot be determined, reports no detections in covered days, notes the Oct 24\u201325 gap for all sensors, and caveats detection limits. It does not claim that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.00879
+}

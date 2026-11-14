@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D10_B_r1.json",
+ "prompt_sha256": "74fb13793a72072468736604f4fb56b4af3d40c82ee2d7c0b7d045369d1b497e",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no loss \u22650.5 ha detected for 2021\u20132025 and caveats smaller or edge changes. 'Largely unchanged' is a mild hedge, and it explicitly denies confirming no change."
+ },
+ "raw": null,
+ "cost_usd": 0.00939
+}

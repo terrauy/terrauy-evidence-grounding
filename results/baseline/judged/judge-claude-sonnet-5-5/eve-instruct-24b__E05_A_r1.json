@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E05_A_r1.json",
+ "prompt_sha256": "bbe6d46550481479b46c8f8350a13afcabd590fd3e145a92852ea7934e9b2beb",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says it cannot confirm for the full period, names the VIIRS S-NPP gap 11-02 to 11-06. It does not claim no fire occurred. It misses the 'no detection is not proof of no fire' caveat, and its closing line is slightly loose but still scoped to observed activity."
+ },
+ "raw": null,
+ "cost_usd": 0.008348
+}

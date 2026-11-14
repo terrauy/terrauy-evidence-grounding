@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H05_C_r2.json",
+ "prompt_sha256": "f713c830765688f808c3a751a58d0a1cf6d5e7d3bee9436dece2ec01f2c2f66b",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports 0.7 ha tree-cover loss in 2023 and says it does not imply deforestation, but gives no direct yes/no on clearing; limitations are stated."
+ },
+ "raw": null,
+ "cost_usd": 0.012292
+}

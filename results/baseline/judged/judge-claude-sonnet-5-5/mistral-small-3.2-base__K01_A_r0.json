@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K01_A_r0.json",
+ "prompt_sha256": "1f1c7a28d70f694d705e16d2134854c2dd8470af07a155a43353c4e45845e973",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 81.3 ha, 2.23% in 2021, corroborated by JRC 98%; planted species and sub-threshold 37.3 ha are supported by the facts. Limitation noted via the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.011062
+}

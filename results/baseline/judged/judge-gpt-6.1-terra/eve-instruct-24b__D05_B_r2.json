@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D05_B_r2.json",
+ "prompt_sha256": "2d471eff13e8a7c9d6aec22d645c85f95572f3060f497e3c6639acdf7e9a1572",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports non-detection but unsupportedly claims the evidence confirms no large or sustained fires occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.002249
+}

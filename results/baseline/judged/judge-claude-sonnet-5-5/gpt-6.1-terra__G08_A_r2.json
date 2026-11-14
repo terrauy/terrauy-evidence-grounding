@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G08_A_r2.json",
+ "prompt_sha256": "a39e9453ac964c776fa22e892fe8d05d006aeb07ae0057de29ec445ee9cf8390",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer denies a sustained increase with correct numbers and notes the 0.5 ha threshold. However, it claims 2024/2025 loss amounts are not specified, when the evidence implies none were detected, so the recent trend is wrongly called unassessable."
+ },
+ "raw": null,
+ "cost_usd": 0.010264
+}

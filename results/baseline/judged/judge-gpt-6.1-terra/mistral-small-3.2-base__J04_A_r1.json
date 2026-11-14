@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J04_A_r1.json",
+ "prompt_sha256": "f8bc9de6ec012fd0d898aaa6af6adb939747852dc71ac833ae9c875d88e0bba5",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly identifies all three supported post-2020 events and, in context, says none in that period are contradicted."
+ },
+ "raw": null,
+ "cost_usd": 0.003698
+}

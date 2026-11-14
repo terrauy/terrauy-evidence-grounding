@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D07_A_r1.json",
+ "prompt_sha256": "1ba7503817b211d6bfb432784622d30b83dc33bed7af5f6519d0b14d22f86cb9",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports non-detection and its limits, but asserts without support that the asset area is recorded as null."
+ },
+ "raw": null,
+ "cost_usd": 0.00243
+}

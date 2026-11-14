@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H01_B_r1.json",
+ "prompt_sha256": "2c1ac5f46c97539ee744d7451ab3629d9889f493c2f68c54633096900443e633",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, cites 81.3 ha (~2.2%) and explicitly states the evidence cannot show deforestation or land-use change. Details all match the reference facts; no extrapolation to the whole property."
+ },
+ "raw": null,
+ "cost_usd": 0.008636
+}

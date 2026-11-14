@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K05_C_r0.json",
+ "prompt_sha256": "f9f6677edeb22811cca7b6950a9cd85ebc0301c9034fe37287fbae5fd7340532",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly gives 67.7 ha in 2020, notes it falls outside the claim interval, and cites Hansen GFC. It mentions the 0.5 ha threshold, which is a minor limitation. No unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.007818
+}

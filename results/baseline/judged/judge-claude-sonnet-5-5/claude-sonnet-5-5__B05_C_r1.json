@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/B05_C_r1.json",
+ "prompt_sha256": "f7ca8a147dc8f6ebf84f4cfddfa5a63a4700a86d7df7c6da8824af2e5197d088",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer states the 25.5 ha loss in 2015 is recorded but no cause is given. Causes appear only as examples of what the data does not show. Figures match the reference facts. It does not note that 2015 predates the baseline, but nothing in it is wrong."
+ },
+ "raw": null,
+ "cost_usd": 0.009328
+}

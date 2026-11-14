@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D09_A_r2.json",
+ "prompt_sha256": "7454ea2029e156a90bc27a59c6523360d765f7dab8fd3abc11ebc2139b7653ff",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports 0 FIRMS detections with full sensor coverage for the period, does not claim no fire occurred, and notes that small fires may be missed, that burn scars are not shown, and that days outside the period are unchecked."
+ },
+ "raw": null,
+ "cost_usd": 0.011152
+}

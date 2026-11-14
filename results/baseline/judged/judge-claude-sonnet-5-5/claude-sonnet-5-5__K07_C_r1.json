@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K07_C_r1.json",
+ "prompt_sha256": "c1245b26f1e6e6e3854d12b63b881623dd271fc769f4bc072d434af2abf74e7d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 'No' the method could not evaluate, matching the key, and states what it does not establish. Minor unsupported addition: the claim that the property's area is not recorded in the output, plus the rerun suggestion."
+ },
+ "raw": null,
+ "cost_usd": 0.024794
+}

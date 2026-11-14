@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F05_A_r1.json",
+ "prompt_sha256": "91aa1ddd255f604456dd2c37ea57e590158308e679d8c0423d222e12f0770d2a",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes loss to Hansen and excludes Sentinel-2 from listed sources, but abstains on imagery and adds unsupported Landsat and Sentinel-2 resolution claims."
+ },
+ "raw": null,
+ "cost_usd": 0.00285
+}

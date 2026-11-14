@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K03_B_r1.json",
+ "prompt_sha256": "44c90105b6134f7c64b8cbc3836839d9e3352ca80306bcdc03b339e84f1f590c",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports zero detections and full sensor coverage for the specified period, while noting relevant limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002118
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K07_C_r2.json",
+ "prompt_sha256": "976b1eec6e0cf7a1bced12944da675148448e53304ab82578214ea855459d30e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the method could not evaluate the property because source coverage was not prepared and no observation was made. This matches the key. It adds no unsupported claims and states what cannot be established."
+ },
+ "raw": null,
+ "cost_usd": 0.006032
+}

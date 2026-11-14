@@ -1,0 +1,283 @@
+{
+ "n": 120,
+ "uncertain_uc": 0,
+ "global": {
+  "A": {
+   "n": 40,
+   "human_ucr_sample": 0.475,
+   "human_ucr_sample_ci95": [
+    0.329,
+    0.625
+   ],
+   "human_ucr_uncertain_as_yes": 0.475,
+   "human_ucr_reweighted_to_population": 0.413,
+   "final_label_ucr_same_items": 0.425,
+   "human_cvr": 0.4,
+   "human_observability_errors": 8,
+   "human_observability_applicable": 13,
+   "human_factual": {
+    "CORRECT": 18,
+    "PARTIAL": 14,
+    "INCORRECT": 8,
+    "UNCERTAIN": 0
+   }
+  },
+  "B": {
+   "n": 40,
+   "human_ucr_sample": 0.275,
+   "human_ucr_sample_ci95": [
+    0.161,
+    0.428
+   ],
+   "human_ucr_uncertain_as_yes": 0.275,
+   "human_ucr_reweighted_to_population": 0.202,
+   "final_label_ucr_same_items": 0.1,
+   "human_cvr": 0.2,
+   "human_observability_errors": 4,
+   "human_observability_applicable": 19,
+   "human_factual": {
+    "CORRECT": 26,
+    "PARTIAL": 11,
+    "INCORRECT": 3,
+    "UNCERTAIN": 0
+   }
+  },
+  "C": {
+   "n": 40,
+   "human_ucr_sample": 0.35,
+   "human_ucr_sample_ci95": [
+    0.221,
+    0.505
+   ],
+   "human_ucr_uncertain_as_yes": 0.35,
+   "human_ucr_reweighted_to_population": 0.259,
+   "final_label_ucr_same_items": 0.175,
+   "human_cvr": 0.275,
+   "human_observability_errors": 4,
+   "human_observability_applicable": 13,
+   "human_factual": {
+    "CORRECT": 24,
+    "PARTIAL": 14,
+    "INCORRECT": 2,
+    "UNCERTAIN": 0
+   }
+  }
+ },
+ "per_model": {
+  "claude-sonnet-5-5": {
+   "A": {
+    "n": 11,
+    "human_ucr": 0.545
+   },
+   "B": {
+    "n": 8,
+    "human_ucr": 0.25
+   },
+   "C": {
+    "n": 12,
+    "human_ucr": 0.167
+   }
+  },
+  "eve-instruct-24b": {
+   "A": {
+    "n": 12,
+    "human_ucr": 0.5
+   },
+   "B": {
+    "n": 14,
+    "human_ucr": 0.357
+   },
+   "C": {
+    "n": 9,
+    "human_ucr": 0.667
+   }
+  },
+  "gpt-6.1-terra": {
+   "A": {
+    "n": 6,
+    "human_ucr": 0.167
+   },
+   "B": {
+    "n": 7,
+    "human_ucr": 0.0
+   },
+   "C": {
+    "n": 8,
+    "human_ucr": 0.0
+   }
+  },
+  "mistral-small-3.2-base": {
+   "A": {
+    "n": 11,
+    "human_ucr": 0.545
+   },
+   "B": {
+    "n": 11,
+    "human_ucr": 0.364
+   },
+   "C": {
+    "n": 11,
+    "human_ucr": 0.545
+   }
+  }
+ },
+ "contrasts_human": {
+  "A_minus_B": {
+   "diff": 0.2,
+   "ci95": [
+    0.0,
+    0.4
+   ],
+   "fisher_p": 0.10526
+  },
+  "C_minus_B": {
+   "diff": 0.075,
+   "ci95": [
+    -0.125,
+    0.275
+   ],
+   "fisher_p": 0.63002
+  },
+  "A_minus_C": {
+   "diff": 0.125,
+   "ci95": [
+    -0.1,
+    0.35
+   ],
+   "fisher_p": 0.36379
+  }
+ },
+ "human_vs_evaluators_uc": {
+  "claude_judge": {
+   "n": 120,
+   "agreement": 0.758,
+   "kappa": 0.477,
+   "false_positives": 14,
+   "false_negatives": 15,
+   "precision": 0.674,
+   "recall": 0.659
+  },
+  "gpt_judge": {
+   "n": 120,
+   "agreement": 0.867,
+   "kappa": 0.726,
+   "false_positives": 13,
+   "false_negatives": 3,
+   "precision": 0.759,
+   "recall": 0.932
+  },
+  "deterministic_detector": {
+   "n": 120,
+   "agreement": 0.683,
+   "kappa": 0.204,
+   "false_positives": 4,
+   "false_negatives": 34,
+   "precision": 0.714,
+   "recall": 0.227
+  },
+  "final_label": {
+   "n": 120,
+   "agreement": 0.817,
+   "kappa": 0.573,
+   "false_positives": 3,
+   "false_negatives": 19,
+   "precision": 0.893,
+   "recall": 0.568
+  }
+ },
+ "human_vs_final_cv": {
+  "n": 120,
+  "agreement": 0.792,
+  "kappa": 0.362,
+  "false_positives": 0,
+  "false_negatives": 25,
+  "precision": 1.0,
+  "recall": 0.286
+ },
+ "human_vs_final_factual": {
+  "n": 94,
+  "agreement": 0.787,
+  "kappa": 0.435,
+  "false_positives": 19,
+  "false_negatives": 1,
+  "precision": 0.765,
+  "recall": 0.984
+ },
+ "human_vs_evaluators_uc_disputed_stratum": {
+  "claude_judge": {
+   "n": 60,
+   "agreement": 0.55,
+   "kappa": 0.1,
+   "false_positives": 12,
+   "false_negatives": 15,
+   "precision": 0.556,
+   "recall": 0.5
+  },
+  "gpt_judge": {
+   "n": 60,
+   "agreement": 0.767,
+   "kappa": 0.533,
+   "false_positives": 11,
+   "false_negatives": 3,
+   "precision": 0.711,
+   "recall": 0.9
+  },
+  "deterministic_detector": {
+   "n": 60,
+   "agreement": 0.583,
+   "kappa": 0.167,
+   "false_positives": 1,
+   "false_negatives": 24,
+   "precision": 0.857,
+   "recall": 0.2
+  },
+  "final_label": {
+   "n": 60,
+   "agreement": 0.667,
+   "kappa": 0.333,
+   "false_positives": 1,
+   "false_negatives": 19,
+   "precision": 0.917,
+   "recall": 0.367
+  }
+ },
+ "human_vs_evaluators_uc_non_disputed_stratum": {
+  "claude_judge": {
+   "n": 60,
+   "agreement": 0.967,
+   "kappa": 0.911,
+   "false_positives": 2,
+   "false_negatives": 0,
+   "precision": 0.875,
+   "recall": 1.0
+  },
+  "gpt_judge": {
+   "n": 60,
+   "agreement": 0.967,
+   "kappa": 0.911,
+   "false_positives": 2,
+   "false_negatives": 0,
+   "precision": 0.875,
+   "recall": 1.0
+  },
+  "deterministic_detector": {
+   "n": 60,
+   "agreement": 0.783,
+   "kappa": 0.267,
+   "false_positives": 3,
+   "false_negatives": 10,
+   "precision": 0.571,
+   "recall": 0.286
+  },
+  "final_label": {
+   "n": 60,
+   "agreement": 0.967,
+   "kappa": 0.911,
+   "false_positives": 2,
+   "false_negatives": 0,
+   "precision": 0.875,
+   "recall": 1.0
+  }
+ },
+ "note": "Blind review of the DEVELOPMENT run (120 responses). Assessments generated with ChatGPT and adopted by the project owner; robustness check, not independent human validation. Aggregates only."
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D05_A_r2.json",
+ "prompt_sha256": "fae7996baa869a536f8d084867e87422bd343e67e4632658421b81a503b4d16e",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports the supported non-detection and coverage, while explicitly acknowledging that a fire could have been missed."
+ },
+ "raw": null,
+ "cost_usd": 0.002188
+}

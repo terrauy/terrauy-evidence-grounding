@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F01_A_r0.json",
+ "prompt_sha256": "8c08fedc2e4df1fd7286cd3d377fe0dfe0ca717e676eeb334163ad3799649dfb",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly attributes detection to Hansen/UMD GFC-2025-v1.13, treats JRC and MGAP as corroboration/context, and notes that the cause (harvest vs deforestation) is not established. All numbers match the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008754
+}

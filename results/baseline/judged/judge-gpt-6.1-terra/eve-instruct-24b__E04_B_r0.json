@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E04_B_r0.json",
+ "prompt_sha256": "07c7e59e84ea81750693dead2d23726a095d0dbe0183a5756e90c6fab575741a",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Reports no detections and relevant limitations, but incorrectly defines the evaluated period as ending October 24 and omits October 24 from the uncovered interval."
+ },
+ "raw": null,
+ "cost_usd": 0.002939
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J03_B_r2.json",
+ "prompt_sha256": "61544f7827db4bab19e6343456d83c35a42fa7c5495e86da8929b6c3c1d1765c",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says sources don't agree (49% vs 50% threshold), loss not established either way, and deforestation not established. Numbers match the evidence. The opening 'No' is a mild ambiguity but is clarified by the final statement."
+ },
+ "raw": null,
+ "cost_usd": 0.008902
+}

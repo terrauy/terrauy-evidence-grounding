@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J04_A_r2.json",
+ "prompt_sha256": "92bf70c49e8554d5364ab4e7207c7ed7d1490663bc9af973745d4eceaa1453ba",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly supports 2021-2023 with right figures, none contradicted post-baseline, no pre-baseline events listed; notes sub-threshold patches and early-access engine caveats."
+ },
+ "raw": null,
+ "cost_usd": 0.012752
+}

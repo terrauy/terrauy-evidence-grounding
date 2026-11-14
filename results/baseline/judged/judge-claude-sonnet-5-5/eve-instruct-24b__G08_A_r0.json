@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G08_A_r0.json",
+ "prompt_sha256": "ea1549f2a3832fc4e434c6b2b88b13e34b59249ae469edea5b348ad9f80e202a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer asserts an increasing trend and 'rising deforestation activity', contradicting the key (81.3 to 0.6 to 4.5, none after). It also invents deforestation interpretation and historical 1-2 ha annual losses, which is not supported."
+ },
+ "raw": null,
+ "cost_usd": 0.010362
+}

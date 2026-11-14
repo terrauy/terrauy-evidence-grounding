@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E08_C_r1.json",
+ "prompt_sha256": "4da9cc288dad67a2871128a665bc3048cc0179fb009574cec4d0b3717b2a7c82",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says no change detected in 2026, though the series ends 2025 and 2026 is unobserved. It also invents 'stable tree cover' in 2025 and does not abstain, despite noting limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.007386
+}

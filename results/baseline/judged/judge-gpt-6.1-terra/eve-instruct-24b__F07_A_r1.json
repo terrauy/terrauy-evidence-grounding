@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F07_A_r1.json",
+ "prompt_sha256": "3045c183546ab20fb0cb142c1851bc29e039c182c8485c1eaff6959f12ca0cb1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It attributes 2020 forest presence to Hansen and asserts failed corroboration without evidence; JRC reports zero forest, not necessarily zero tree cover."
+ },
+ "raw": null,
+ "cost_usd": 0.002803
+}

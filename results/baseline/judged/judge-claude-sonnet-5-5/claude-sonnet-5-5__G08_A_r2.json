@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G08_A_r2.json",
+ "prompt_sha256": "b1c9b75975010403c62f8c6505c0fdf4c9dd3b1fc64c5d0a79bd5faa322004ec",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer says 'No', denying an increasing trend, which matches the key. It gives no numbers or limitations, and asserts nothing unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.009578
+}

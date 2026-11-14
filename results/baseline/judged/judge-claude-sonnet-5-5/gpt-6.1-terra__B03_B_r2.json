@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/B03_B_r2.json",
+ "prompt_sha256": "c45284ab6a35ff2fae51635d81b6a17d8cd4dd9899e2ae5f29a5f54e3cf2cbf6",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the cause is not established and lists candidate causes only as possibilities. Figures of 0.6 ha loss and 0.5 ha native forest match the reference. It does not claim deforestation occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.008796
+}

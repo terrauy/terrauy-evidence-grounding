@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K08_A_r2.json",
+ "prompt_sha256": "ef7c768107ef95cde88adfc2d5d30a5506b985b6068a35b954794fb4ba170cd1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports the affected share and area, planted-forest context, and exclusion of patches under the event threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002641
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I01_A_r2.json",
+ "prompt_sha256": "61265e6e7c80d58d45ce498ae4b1704258201055c0e9e8b3f763ee09d3a2d7c8",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly affirms current corroboration, but asserts plantation harvest as the most likely cause, which the evidence does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.004392
+}

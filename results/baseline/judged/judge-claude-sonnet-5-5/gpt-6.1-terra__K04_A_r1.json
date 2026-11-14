@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K04_A_r1.json",
+ "prompt_sha256": "a3006af98ec4bd7fa29268fda5455077b15582e20f5c1128c8dad595ab5ee44b",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The evidence explicitly states status NOT_DETECTED and that no event of 0.5 ha or more was found. The answer wrongly claims there is no explicit event result and refuses to confirm, so it is inconsistent with the key."
+ },
+ "raw": null,
+ "cost_usd": 0.006846
+}

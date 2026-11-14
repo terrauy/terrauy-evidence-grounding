@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J06_C_r1.json",
+ "prompt_sha256": "f2baefe4904cfc05435e6fb46667232d41c8b88260be8188f2dec78c0f25b484",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 'No' to treating as deforestation evidence, notes Hansen 1.8 ha not corroborated by JRC, states neither loss nor absence established, and no cause identified. Consistent with the key."
+ },
+ "raw": null,
+ "cost_usd": 0.008964
+}

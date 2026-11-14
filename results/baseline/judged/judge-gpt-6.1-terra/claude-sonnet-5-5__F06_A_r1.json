@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F06_A_r1.json",
+ "prompt_sha256": "806c07a9d810ac6113e807bf6a44db805c4ed7db860562fd20227fd0e309fb13",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies FIRMS sensors, coverage and zero detections. The claim that asset area is absent from run metadata is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.002411
+}

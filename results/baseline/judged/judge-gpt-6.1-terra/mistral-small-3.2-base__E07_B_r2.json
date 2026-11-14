@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E07_B_r2.json",
+ "prompt_sha256": "52b93e17ff6fc7e0fee96ef12d7878b26635f89656c0b7257b7e5ef8992e0d5b",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer accurately describes the pending 2025 candidate but does not address 2026 or explain that the series ends in 2025."
+ },
+ "raw": null,
+ "cost_usd": 0.002669
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K02_A_r2.json",
+ "prompt_sha256": "587e04fdcc5f7310cc7349c0709f6bcf9ec760dac7845715b699de85a1d88a9f",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms a 13.5 ha 2025 candidate pending corroboration; numbers match. The JRC 98% agreement is correctly stated, and the truncated ending still conveys the need for a later year."
+ },
+ "raw": null,
+ "cost_usd": 0.0075
+}

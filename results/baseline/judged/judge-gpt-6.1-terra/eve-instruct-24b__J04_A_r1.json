@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J04_A_r1.json",
+ "prompt_sha256": "e129c013e15e0f56d1716a31d059acc9d7e3ab291aa30421c956fdcab07889ea",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies all supported post-2020 events and their areas, with no contradicted events claimed; notes the minimum event-size threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.003673
+}

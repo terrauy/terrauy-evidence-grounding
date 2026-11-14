@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F08_A_r2.json",
+ "prompt_sha256": "4f5edc2bfcdf9a0ecdd4d9a85e1c18f2d56caa5662d6b73afe1c75d4c36e2c3c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer opens \"Yes, the JRC map shows the 2023 loss,\" misattributing detection to JRC. The key says JRC is only a 2020 forest reference and Hansen detected the loss. Later details are accurate but the main conclusion is wrong."
+ },
+ "raw": null,
+ "cost_usd": 0.008536
+}

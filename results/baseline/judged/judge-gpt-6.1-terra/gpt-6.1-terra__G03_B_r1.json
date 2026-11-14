@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G03_B_r1.json",
+ "prompt_sha256": "259880611fa4bc110c32e5105eeca4a2125a4659a70e14fe45f2269fb1a639d0",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no loss in the available data, not an absolute absence of change; earlier event figures and the deforestation caveat are supported."
+ },
+ "raw": null,
+ "cost_usd": 0.003622
+}

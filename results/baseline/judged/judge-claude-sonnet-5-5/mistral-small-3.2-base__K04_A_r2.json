@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K04_A_r2.json",
+ "prompt_sha256": "c0c596f70c64660fa9d361d82be2bb73290e286773adbcf3ddf26db56e45a56e",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer says no loss detected after 2020, matching the key. It omits the 0.5 ha threshold and other limits, and wrongly says GFC2020 shows no post-2020 loss events, since GFC2020 is a 2020 reference map only."
+ },
+ "raw": null,
+ "cost_usd": 0.00706
+}

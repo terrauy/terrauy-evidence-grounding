@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K05_A_r1.json",
+ "prompt_sha256": "7392a56e69663bdbd0ead6e648356fb72ac147ab1c970d1105af9997363ba9bd",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The event and year are correct, but zero forest mapped by JRC in 2020 does not confirm that no forest cover remained."
+ },
+ "raw": null,
+ "cost_usd": 0.002655
+}

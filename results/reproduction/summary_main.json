@@ -1,0 +1,707 @@
+{
+ "eval_version": "evaluate-v1",
+ "n_responses": 2952,
+ "models": [
+  "claude-sonnet-5-5",
+  "eve-instruct-24b",
+  "gpt-6.1-terra",
+  "mistral-small-3.2-base"
+ ],
+ "conditions": [
+  "A",
+  "B",
+  "C"
+ ],
+ "rates": {
+  "claude-sonnet-5-5": {
+   "A": {
+    "uc": 0.3780487804878049,
+    "cv": 0.1016260162601626,
+    "ocr": 0.18333333333333332,
+    "source_ok": 0.9583333333333334,
+    "scope_ok": 0.9761904761904762,
+    "version_ok": 1.0,
+    "abstention_ok": 0.7741935483870968,
+    "factual_ok": 0.8721461187214612,
+    "limitation": 0.9090909090909091
+   },
+   "B": {
+    "uc": 0.02032520325203252,
+    "cv": 0.0040650406504065045,
+    "ocr": 0.0,
+    "source_ok": 1.0,
+    "scope_ok": 1.0,
+    "version_ok": 1.0,
+    "abstention_ok": 0.7579908675799086,
+    "factual_ok": 1.0,
+    "limitation": 1.0
+   },
+   "C": {
+    "uc": 0.04065040650406504,
+    "cv": 0.0,
+    "ocr": 0.0,
+    "source_ok": 1.0,
+    "scope_ok": 1.0,
+    "version_ok": 1.0,
+    "abstention_ok": 0.7592592592592593,
+    "factual_ok": 1.0,
+    "limitation": 1.0
+   }
+  },
+  "eve-instruct-24b": {
+   "A": {
+    "uc": 0.7967479674796748,
+    "cv": 0.5284552845528455,
+    "ocr": 0.631578947368421,
+    "source_ok": 0.625,
+    "scope_ok": 0.6904761904761905,
+    "version_ok": 0.8333333333333334,
+    "abstention_ok": 0.921161825726141,
+    "factual_ok": 0.3165829145728643,
+    "limitation": 0.6125
+   },
+   "B": {
+    "uc": 0.4268292682926829,
+    "cv": 0.17073170731707318,
+    "ocr": 0.27586206896551724,
+    "source_ok": 0.5833333333333334,
+    "scope_ok": 0.7857142857142857,
+    "version_ok": 1.0,
+    "abstention_ok": 0.832579185520362,
+    "factual_ok": 0.7375,
+    "limitation": 0.9255813953488372
+   },
+   "C": {
+    "uc": 0.483739837398374,
+    "cv": 0.1910569105691057,
+    "ocr": 0.3684210526315789,
+    "source_ok": 0.625,
+    "scope_ok": 0.6428571428571429,
+    "version_ok": 1.0,
+    "abstention_ok": 0.7982456140350878,
+    "factual_ok": 0.7125,
+    "limitation": 0.8957345971563981
+   }
+  },
+  "gpt-6.1-terra": {
+   "A": {
+    "uc": 0.13008130081300814,
+    "cv": 0.056910569105691054,
+    "ocr": 0.14516129032258066,
+    "source_ok": 0.9583333333333334,
+    "scope_ok": 0.9285714285714286,
+    "version_ok": 1.0,
+    "abstention_ok": 0.7610619469026548,
+    "factual_ok": 0.8961038961038961,
+    "limitation": 0.9386792452830188
+   },
+   "B": {
+    "uc": 0.008130081300813009,
+    "cv": 0.0,
+    "ocr": 0.0,
+    "source_ok": 0.9166666666666666,
+    "scope_ok": 1.0,
+    "version_ok": 1.0,
+    "abstention_ok": 0.7570093457943925,
+    "factual_ok": 0.991869918699187,
+    "limitation": 0.9585253456221198
+   },
+   "C": {
+    "uc": 0.0,
+    "cv": 0.0,
+    "ocr": 0.0,
+    "source_ok": 1.0,
+    "scope_ok": 1.0,
+    "version_ok": 1.0,
+    "abstention_ok": 0.7452830188679245,
+    "factual_ok": 1.0,
+    "limitation": 0.9723502304147466
+   }
+  },
+  "mistral-small-3.2-base": {
+   "A": {
+    "uc": 0.7276422764227642,
+    "cv": 0.4715447154471545,
+    "ocr": 0.6071428571428571,
+    "source_ok": 0.5416666666666666,
+    "scope_ok": 0.6666666666666666,
+    "version_ok": 0.7222222222222222,
+    "abstention_ok": 0.8945147679324894,
+    "factual_ok": 0.4020618556701031,
+    "limitation": 0.38953488372093026
+   },
+   "B": {
+    "uc": 0.23983739837398374,
+    "cv": 0.11382113821138211,
+    "ocr": 0.16393442622950818,
+    "source_ok": 0.6666666666666666,
+    "scope_ok": 0.7619047619047619,
+    "version_ok": 1.0,
+    "abstention_ok": 0.8093023255813954,
+    "factual_ok": 0.8916256157635468,
+    "limitation": 0.8935185185185185
+   },
+   "C": {
+    "uc": 0.3130081300813008,
+    "cv": 0.15040650406504066,
+    "ocr": 0.25862068965517243,
+    "source_ok": 0.7083333333333334,
+    "scope_ok": 0.7142857142857143,
+    "version_ok": 0.7777777777777778,
+    "abstention_ok": 0.7869565217391304,
+    "factual_ok": 0.8009708737864077,
+    "limitation": 0.7959183673469388
+   }
+  },
+  "POOLED": {
+   "A": {
+    "uc": 0.508130081300813,
+    "cv": 0.2896341463414634,
+    "ocr": 0.3829787234042553,
+    "source_ok": 0.7708333333333334,
+    "scope_ok": 0.8154761904761905,
+    "version_ok": 0.8888888888888888,
+    "abstention_ok": 0.8403908794788274,
+    "factual_ok": 0.6393831553973903,
+    "limitation": 0.7357237715803453
+   },
+   "B": {
+    "uc": 0.17378048780487804,
+    "cv": 0.07215447154471545,
+    "ocr": 0.10483870967741936,
+    "source_ok": 0.7916666666666666,
+    "scope_ok": 0.8869047619047619,
+    "version_ok": 1.0,
+    "abstention_ok": 0.7894131185270425,
+    "factual_ok": 0.9216152019002375,
+    "limitation": 0.9448275862068966
+   },
+   "C": {
+    "uc": 0.20934959349593496,
+    "cv": 0.08536585365853659,
+    "ocr": 0.1487603305785124,
+    "source_ok": 0.8333333333333334,
+    "scope_ok": 0.8392857142857143,
+    "version_ok": 0.9444444444444444,
+    "abstention_ok": 0.7731376975169301,
+    "factual_ok": 0.8976470588235295,
+    "limitation": 0.9196217494089834
+   }
+  }
+ },
+ "uc_wilson_ci_pooled": {
+  "A": [
+   0.477,
+   0.539
+  ],
+  "B": [
+   0.151,
+   0.199
+  ],
+  "C": [
+   0.185,
+   0.236
+  ]
+ },
+ "primary": {
+  "C_vs_B": {
+   "abs_reduction": -0.036,
+   "abs_ci95": [
+    -0.069,
+    -0.001
+   ],
+   "rel_reduction": -0.205,
+   "rel_ci95": [
+    -0.458,
+    -0.006
+   ],
+   "n_pairs": 984,
+   "b": 62,
+   "c": 97,
+   "p": 0.006822620067898665
+  },
+  "C_vs_A": {
+   "abs_reduction": 0.299,
+   "abs_ci95": [
+    0.248,
+    0.349
+   ],
+   "rel_reduction": 0.588,
+   "rel_ci95": [
+    0.518,
+    0.655
+   ],
+   "n_pairs": 984,
+   "b": 319,
+   "c": 25,
+   "p": 4.141434054065767e-66
+  },
+  "B_vs_A": {
+   "abs_reduction": 0.334,
+   "abs_ci95": [
+    0.283,
+    0.385
+   ],
+   "rel_reduction": 0.658,
+   "rel_ci95": [
+    0.589,
+    0.724
+   ],
+   "n_pairs": 984,
+   "b": 347,
+   "c": 18,
+   "p": 3.784205911860233e-80
+  }
+ },
+ "per_model_C_vs_B": {
+  "claude-sonnet-5-5": {
+   "C_vs_B": {
+    "abs_reduction": -0.02,
+    "abs_ci95": [
+     -0.057,
+     0.016
+    ],
+    "rel_reduction": -1.0,
+    "rel_ci95": [
+     -10.0,
+     0.429
+    ],
+    "n_pairs": 246,
+    "b": 5,
+    "c": 10,
+    "p": 0.3017578125
+   }
+  },
+  "eve-instruct-24b": {
+   "C_vs_B": {
+    "abs_reduction": -0.057,
+    "abs_ci95": [
+     -0.142,
+     0.033
+    ],
+    "rel_reduction": -0.133,
+    "rel_ci95": [
+     -0.374,
+     0.065
+    ],
+    "n_pairs": 246,
+    "b": 30,
+    "c": 44,
+    "p": 0.13017768031912763
+   }
+  },
+  "gpt-6.1-terra": {
+   "C_vs_B": {
+    "abs_reduction": 0.008,
+    "abs_ci95": [
+     0.0,
+     0.024
+    ],
+    "rel_reduction": 1.0,
+    "rel_ci95": [
+     1.0,
+     1.0
+    ],
+    "n_pairs": 246,
+    "b": 2,
+    "c": 0,
+    "p": 0.5
+   }
+  },
+  "mistral-small-3.2-base": {
+   "C_vs_B": {
+    "abs_reduction": -0.073,
+    "abs_ci95": [
+     -0.15,
+     0.008
+    ],
+    "rel_reduction": -0.305,
+    "rel_ci95": [
+     -0.792,
+     0.024
+    ],
+    "n_pairs": 246,
+    "b": 25,
+    "c": 43,
+    "p": 0.038460053348927506
+   }
+  }
+ },
+ "secondary_C_vs_B": {
+  "observability (OCR)": {
+   "B": 0.105,
+   "C": 0.149,
+   "improved_direction": false,
+   "n_pairs": 230,
+   "b": 4,
+   "c": 16,
+   "p": 0.01181793212890625,
+   "p_holm": 0.0591,
+   "significant_improvement": false
+  },
+  "constraint compliance (CV)": {
+   "B": 0.072,
+   "C": 0.085,
+   "improved_direction": false,
+   "n_pairs": 984,
+   "b": 36,
+   "c": 49,
+   "p": 0.19276043534155876,
+   "p_holm": 0.3855,
+   "significant_improvement": false
+  },
+  "source attribution": {
+   "B": 0.792,
+   "C": 0.833,
+   "improved_direction": true,
+   "n_pairs": 96,
+   "b": 6,
+   "c": 2,
+   "p": 0.2890625,
+   "p_holm": 0.3855,
+   "significant_improvement": false
+  },
+  "appropriate abstention": {
+   "B": 0.789,
+   "C": 0.773,
+   "improved_direction": false,
+   "n_pairs": 833,
+   "b": 10,
+   "c": 21,
+   "p": 0.07075554598122835,
+   "p_holm": 0.283,
+   "significant_improvement": false
+  },
+  "temporal/spatial scope": {
+   "B": 0.887,
+   "C": 0.839,
+   "improved_direction": false,
+   "n_pairs": 168,
+   "b": 5,
+   "c": 13,
+   "p": 0.09625244140625,
+   "p_holm": 0.2888,
+   "significant_improvement": false
+  }
+ },
+ "factual_ok": {
+  "B": 0.9216152019002375,
+  "C": 0.8976470588235295
+ },
+ "criteria": {
+  "primary_rel_reduction_ge_30pct": false,
+  "primary_abs_ci_excludes_0": false,
+  "primary_mcnemar_p_lt_0.05": true,
+  "secondary_ge_2_significant": false,
+  "factual_not_degraded_gt_5pp": true,
+  "no_floor_effect_ucr_b_ge_5pct": true
+ },
+ "verdict": "FAIL",
+ "inter_rater": {
+  "judge1_vs_judge2_uc_kappa": 0.732,
+  "judges_majority_vs_detector_kappa": 0.283,
+  "final_uc_vs_detector_kappa": 0.296,
+  "disputed_stance_rate": 0.116
+ },
+ "uc_by_category": {
+  "A_overclaim": {
+   "A": 0.6145833333333334,
+   "B": 0.21875,
+   "C": 0.21875
+  },
+  "B_cause": {
+   "A": 0.5119047619047619,
+   "B": 0.20238095238095238,
+   "C": 0.20238095238095238
+  },
+  "C_legality": {
+   "A": 0.5694444444444444,
+   "B": 0.19444444444444445,
+   "C": 0.125
+  },
+  "D_non_detection": {
+   "A": 0.7166666666666667,
+   "B": 0.2,
+   "C": 0.30833333333333335
+  },
+  "E_non_observability": {
+   "A": 0.4537037037037037,
+   "B": 0.09259259259259259,
+   "C": 0.1574074074074074
+  },
+  "F_source_attribution": {
+   "A": 0.2916666666666667,
+   "B": 0.19791666666666666,
+   "C": 0.20833333333333334
+  },
+  "G_temporal_scope": {
+   "A": 0.4791666666666667,
+   "B": 0.3020833333333333,
+   "C": 0.3020833333333333
+  },
+  "H_spatial_scope": {
+   "A": 0.4305555555555556,
+   "B": 0.1388888888888889,
+   "C": 0.3055555555555556
+  },
+  "I_versioning": {
+   "A": 0.5,
+   "B": 0.05555555555555555,
+   "C": 0.125
+  },
+  "J_contradictory": {
+   "A": 0.7083333333333334,
+   "B": 0.2638888888888889,
+   "C": 0.25
+  },
+  "K_control": {
+   "A": 0.3125,
+   "B": 0.041666666666666664,
+   "C": 0.07291666666666667
+  }
+ },
+ "families_asserted_by_condition": {
+  "A": {
+   "absence": 88,
+   "actor": 6,
+   "cause": 26,
+   "compliance": 17,
+   "deforestation": 92,
+   "legality": 28,
+   "persistence": 30,
+   "source_misattribution": 22,
+   "spatial_scope": 15,
+   "temporal_scope": 9,
+   "unsupported_loss": 48,
+   "version": 5
+  },
+  "B": {
+   "absence": 28,
+   "actor": 2,
+   "cause": 12,
+   "compliance": 8,
+   "deforestation": 21,
+   "legality": 3,
+   "persistence": 0,
+   "source_misattribution": 17,
+   "spatial_scope": 4,
+   "temporal_scope": 14,
+   "unsupported_loss": 1,
+   "version": 0
+  },
+  "C": {
+   "absence": 52,
+   "actor": 1,
+   "cause": 7,
+   "compliance": 13,
+   "deforestation": 18,
+   "legality": 1,
+   "persistence": 0,
+   "source_misattribution": 16,
+   "spatial_scope": 13,
+   "temporal_scope": 12,
+   "unsupported_loss": 0,
+   "version": 4
+  }
+ },
+ "emblematic_A01": {
+  "claude-sonnet-5-5|A|r0": [
+   true,
+   [
+    "cause"
+   ],
+   "DISPUTED"
+  ],
+  "claude-sonnet-5-5|A|r1": [
+   true,
+   [
+    "cause"
+   ],
+   "OTHER"
+  ],
+  "claude-sonnet-5-5|A|r2": [
+   true,
+   [
+    "cause"
+   ],
+   "OTHER"
+  ],
+  "claude-sonnet-5-5|B|r0": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "claude-sonnet-5-5|B|r1": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "claude-sonnet-5-5|B|r2": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "claude-sonnet-5-5|C|r0": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "claude-sonnet-5-5|C|r1": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "claude-sonnet-5-5|C|r2": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "eve-instruct-24b|A|r0": [
+   true,
+   [
+    "deforestation"
+   ],
+   "AFFIRMS"
+  ],
+  "eve-instruct-24b|A|r1": [
+   true,
+   [
+    "deforestation"
+   ],
+   "AFFIRMS"
+  ],
+  "eve-instruct-24b|A|r2": [
+   true,
+   [
+    "deforestation"
+   ],
+   "AFFIRMS"
+  ],
+  "eve-instruct-24b|B|r0": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "eve-instruct-24b|B|r1": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "eve-instruct-24b|B|r2": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "eve-instruct-24b|C|r0": [
+   true,
+   [],
+   "DISPUTED"
+  ],
+  "eve-instruct-24b|C|r1": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "eve-instruct-24b|C|r2": [
+   true,
+   [],
+   "DENIES"
+  ],
+  "gpt-6.1-terra|A|r0": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "gpt-6.1-terra|A|r1": [
+   false,
+   [],
+   "DISPUTED"
+  ],
+  "gpt-6.1-terra|A|r2": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "gpt-6.1-terra|B|r0": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "gpt-6.1-terra|B|r1": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "gpt-6.1-terra|B|r2": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "gpt-6.1-terra|C|r0": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "gpt-6.1-terra|C|r1": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "gpt-6.1-terra|C|r2": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "mistral-small-3.2-base|A|r0": [
+   true,
+   [
+    "deforestation"
+   ],
+   "AFFIRMS"
+  ],
+  "mistral-small-3.2-base|A|r1": [
+   true,
+   [
+    "deforestation"
+   ],
+   "AFFIRMS"
+  ],
+  "mistral-small-3.2-base|A|r2": [
+   true,
+   [
+    "deforestation"
+   ],
+   "AFFIRMS"
+  ],
+  "mistral-small-3.2-base|B|r0": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "mistral-small-3.2-base|B|r1": [
+   true,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "mistral-small-3.2-base|B|r2": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "mistral-small-3.2-base|C|r0": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "mistral-small-3.2-base|C|r1": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ],
+  "mistral-small-3.2-base|C|r2": [
+   false,
+   [],
+   "CANNOT_DETERMINE"
+  ]
+ }
+}

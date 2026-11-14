@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H05_A_r2.json",
+ "prompt_sha256": "e8e29c9f2f37a5a6e1caa4baa609b02c2e4104932a64bbc6453b453ce4ec6df7",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It asserts clearing and incorrectly places the entire affected area within planted forest; 0.3 ha was outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.00281
+}

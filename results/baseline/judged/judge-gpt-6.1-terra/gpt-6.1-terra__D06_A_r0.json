@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D06_A_r0.json",
+ "prompt_sha256": "e292ac3e34200f6ae544dc354b53820fe92c4a563796030472ec8ce5ae128dd3",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports no detections with full coverage and explains that non-detection does not prove no burning occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.002292
+}

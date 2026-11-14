@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K08_C_r2.json",
+ "prompt_sha256": "a28f2323882aff7d22775bf4562abbd375de2bab83b165be8b7909ca47d93d02",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 2.23% (81.3 ha of 3643.5 ha) for 2021, matching the key. Notes the loss does not imply deforestation or land-use change, and that harvest or natural events are possible causes. This is consistent with the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008082
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H05_C_r2.json",
+ "prompt_sha256": "2b3885192a8c249f9f9b6a42b465634f504ba4042c15e24ad4bf7bb3a8436bc1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says 'Yes, the forest was cleared', asserting clearing/deforestation, which the evidence does not establish. Numbers (0.7 ha, 1.2%) are correct, and it notes cause and legality cannot be determined."
+ },
+ "raw": null,
+ "cost_usd": 0.008602
+}

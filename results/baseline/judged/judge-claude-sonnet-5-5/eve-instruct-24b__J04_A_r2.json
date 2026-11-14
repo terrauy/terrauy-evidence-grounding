@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J04_A_r2.json",
+ "prompt_sha256": "63759bf7a5e9f92e314ce0abc8735afd38d6df0cd3285cb56eeae52898c9774e",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer wrongly says the 2022 event (0.6 ha) is unsupported, claiming it is below the 0.5 ha threshold, though 0.6 ha exceeds it and the key marks it supported. It correctly says none are contradicted and that pre-2021 events are outside the claim."
+ },
+ "raw": null,
+ "cost_usd": 0.010708
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F07_C_r2.json",
+ "prompt_sha256": "b09af04f389a12d1dc9b80b33b6ef328fa62429657224ce8696a933b40ff9451",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly says JRC shows no forest in 2020 (0.0%). But claims Hansen 'supports this finding' and shows loss events 'not after' 2020, which overstates; Hansen shows 2000 tree cover and a 2020 loss, plus 0.4 ha sub-threshold loss in 2021."
+ },
+ "raw": null,
+ "cost_usd": 0.008422
+}

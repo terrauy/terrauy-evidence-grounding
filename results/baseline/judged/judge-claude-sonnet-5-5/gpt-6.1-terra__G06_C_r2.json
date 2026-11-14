@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G06_C_r2.json",
+ "prompt_sha256": "61b9feb39689bec7c80fc6ed2acb5132a88da5bc0e7a220f0ea78093c55d8c7f",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the evidence cannot determine the prior two weeks, notes the assessed window is later, and states that no detections do not establish no fire. It makes no claim about the earlier period."
+ },
+ "raw": null,
+ "cost_usd": 0.00722
+}

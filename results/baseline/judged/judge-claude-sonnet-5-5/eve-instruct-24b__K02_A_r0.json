@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K02_A_r0.json",
+ "prompt_sha256": "5dcc7ca5b4f6c3d1ae5f2da8483227b734767aabc20566c9dd4dce65c1cfb3e9",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says no candidate, contradicting the key (13.5 ha in 2025). It illogically claims 2025 is not after 2020 and says no post-2020 loss recorded, which is false. It omits the 13.5 ha figure."
+ },
+ "raw": null,
+ "cost_usd": 0.007482
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E06_B_r1.json",
+ "prompt_sha256": "baecb52f9ff9e83324ea5c05b1018327e05e6ed885460ecc9735e829850bde2c",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says evidence is insufficient, reports zero detections on covered days, notes the uncovered 11-03 to 11-04 gap, and says no detection is not proof of no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.011098
+}

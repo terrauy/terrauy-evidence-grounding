@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K08_C_r2.json",
+ "prompt_sha256": "4215f60f5acc8f6727722a5a38579156cfebf595075762750339d3a5db9dbd96",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer gives 2.23% (81.3 ha) of 3,643.5 ha, matching the key. Every other figure is in the reference facts, and the stated limits match the does_not_establish list."
+ },
+ "raw": null,
+ "cost_usd": 0.008178
+}

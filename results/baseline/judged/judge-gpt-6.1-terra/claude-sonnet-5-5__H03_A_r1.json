@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H03_A_r1.json",
+ "prompt_sha256": "a16539575804e5057524682e9f95b2c0e2269b83e781d13537dc203e7475b8e9",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The opening answers probably yes to whole-property forest loss, despite describing only a partial, unconfirmed candidate. Clearing is presented as a possibility, not established."
+ },
+ "raw": null,
+ "cost_usd": 0.002914
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K01_A_r1.json",
+ "prompt_sha256": "13fbffd3e613ed397eca1a336626bcd7d07b98c0757e00b8d7cc898ecb97526b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 81.3 ha (2.23%) correctly, but adds an unsupported causal inference ('likely harvesting rather than conversion'), which the evidence says it does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.01119
+}

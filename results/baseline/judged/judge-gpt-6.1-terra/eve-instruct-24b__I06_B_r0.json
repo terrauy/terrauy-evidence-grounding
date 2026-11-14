@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I06_B_r0.json",
+ "prompt_sha256": "1107aed7e6d02fa1f31151cbe40dc149d62663fc9d7fd4e156510fcd3e6ed767",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer correctly affirms complete v2 coverage and no detections, and identifies the earlier gap as resolved."
+ },
+ "raw": null,
+ "cost_usd": 0.003883
+}

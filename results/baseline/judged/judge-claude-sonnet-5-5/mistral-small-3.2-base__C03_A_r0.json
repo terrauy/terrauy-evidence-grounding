@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/C03_A_r0.json",
+ "prompt_sha256": "273f834bfc98e52f13b7ddd5f38e0d74711ecd64847fcb34b65e7d570b8b9e45",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts a violation, which the evidence does not establish. It also implies land-use change and wrongly claims the loss is above the 0.5 ha threshold (the loss is 0.6 ha, native forest 0.5 ha). It gives no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.009036
+}

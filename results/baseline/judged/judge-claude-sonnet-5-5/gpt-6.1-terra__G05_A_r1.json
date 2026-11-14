@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G05_A_r1.json",
+ "prompt_sha256": "41213f2640a81390d7357b08f28c1585cff3989ebbee6c45a690feb970c539f7",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says loss is not yet confirmed as persistent because 2025 is the last year and no later year is observed; numbers match the facts and the corroboration rule is stated correctly."
+ },
+ "raw": null,
+ "cost_usd": 0.007724
+}

@@ -1,0 +1,43 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/A04_A_r2.json",
+ "prompt_sha256": "6c48596847688271e230a661157a61054082c460df39c4283d642dff68f39e37",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  " other_unsupported": false,
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says deforestation is not confirmed, though there was 0.7 ha of loss. The text is truncated at 'where loss usually refl...', which looks like a hedged cause suggestion. Numbers match the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.009372
+}

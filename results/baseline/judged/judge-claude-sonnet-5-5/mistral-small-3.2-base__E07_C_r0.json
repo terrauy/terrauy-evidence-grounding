@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E07_C_r0.json",
+ "prompt_sha256": "ef81010040cb21c67bafc3150796eaed4193170b8d8f62bc971d50f1895ad148",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says latest observed year is 2025 and concludes 2026 loss cannot be concluded; no absence or loss claim asserted, though 'no evidence' opening is slightly loose."
+ },
+ "raw": null,
+ "cost_usd": 0.01019
+}

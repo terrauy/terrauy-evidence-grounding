@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K03_A_r1.json",
+ "prompt_sha256": "bb8e2a3545b904e30c0c29c04953eed855a0ca7ac5fefedad7d0f0d340369fe5",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer correctly states zero detections with all four sensors covering the period and correct dates. It adds 'no active fires were detected', which is acceptable, but gives no limitation such as small or cloud-obscured fires going undetected."
+ },
+ "raw": null,
+ "cost_usd": 0.006788
+}

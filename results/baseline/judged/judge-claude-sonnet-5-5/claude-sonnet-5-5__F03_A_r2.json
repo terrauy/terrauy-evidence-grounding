@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F03_A_r2.json",
+ "prompt_sha256": "0fd32b17e677d2a858917a35acd0a30e11e9d0d2a77810b1ca50645d2fb361c6",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer affirms corroboration via JRC GFC2020 (0.98) and a later observed year. It also cites MGAP 2021 as forest-type context, not as corroboration of loss. The answer is truncated and states no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.008436
+}

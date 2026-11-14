@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D05_B_r1.json",
+ "prompt_sha256": "9f1964b2aade2860f5689f166d3dff35e9e68d8691e375a74fdb7e03e7c75add",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no detection, explicitly says it does not confirm absence of fire. The phrase 'no significant thermal activity' is a slight unsupported characterization (significance not in evidence)."
+ },
+ "raw": null,
+ "cost_usd": 0.007018
+}

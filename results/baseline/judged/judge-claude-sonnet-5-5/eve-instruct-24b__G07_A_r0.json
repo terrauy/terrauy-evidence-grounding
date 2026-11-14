@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G07_A_r0.json",
+ "prompt_sha256": "f78574592b936084e0decb7009f59918b9304efebc56dddba52d895026b112af",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer flatly says no loss in 2024, contradicting the 0.7 ha sub-threshold loss. It also misassigns numbers (0.7 ha event in 2023 is correct, but 2024 loss stated as 0.4 ha, which was the 2023 sub-threshold figure) and miscomputes the threshold comparison."
+ },
+ "raw": null,
+ "cost_usd": 0.00866
+}

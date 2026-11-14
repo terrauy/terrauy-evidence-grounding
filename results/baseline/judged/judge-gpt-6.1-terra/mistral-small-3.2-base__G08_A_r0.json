@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G08_A_r0.json",
+ "prompt_sha256": "fa44ffd07644d4965a71a5184c5b67857f7fa11cadbe626a8d224c83a4fa660b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer correctly reports the 2021\u20132023 figures and denies a consistent increasing trend."
+ },
+ "raw": null,
+ "cost_usd": 0.003512
+}

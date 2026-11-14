@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G05_A_r1.json",
+ "prompt_sha256": "a689f43b0175c70e446eeea1b257510591558f81d834961ea898af232fdae3ad",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer incorrectly calls the loss confirmed and corroborated; JRC establishes prior forest cover, not corroboration of the loss. Persistence remains unestablished."
+ },
+ "raw": null,
+ "cost_usd": 0.002632
+}

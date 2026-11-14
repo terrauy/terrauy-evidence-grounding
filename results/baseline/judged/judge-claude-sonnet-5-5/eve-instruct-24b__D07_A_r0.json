@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D07_A_r0.json",
+ "prompt_sha256": "4bb0f500125f597e6d86dd2cfb41b3dcba935438505ba6d55d29a129411ffafe",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer certifies that no fire occurred, turning a non-detection into proof of absence. It ignores the small, cool or cloud-obscured fire caveat and overstates coverage as leaving 'no gaps in detection'."
+ },
+ "raw": null,
+ "cost_usd": 0.007472
+}

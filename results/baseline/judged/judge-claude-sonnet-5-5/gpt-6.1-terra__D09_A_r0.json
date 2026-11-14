@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D09_A_r0.json",
+ "prompt_sha256": "5d827a894c60929204ddb74d8e16fc9b2b370f2fe92b3d1d72fd5401a205d5ff",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no thermal detections in the fully covered period and says this does not rule out a fire. It does not claim that no fire occurred. The four-sensor count is consistent with the key, which lists VIIRS SNPP, NOAA-20, NOAA-21 and MODIS."
+ },
+ "raw": null,
+ "cost_usd": 0.00742
+}

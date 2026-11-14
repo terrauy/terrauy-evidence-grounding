@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/B06_C_r0.json",
+ "prompt_sha256": "a10ecbf6e5569e3fda77e5b5eb42c01e278b8268639597e46cd6fffe5d7fe527",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the cause cannot be established, lists harvest only as a possibility among several, and its numbers (0.7, 0.4, 0.3 ha) match the facts. It states no deforestation, legality, or actor claim."
+ },
+ "raw": null,
+ "cost_usd": 0.009016
+}

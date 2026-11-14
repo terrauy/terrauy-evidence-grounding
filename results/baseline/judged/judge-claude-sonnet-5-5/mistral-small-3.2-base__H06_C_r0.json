@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H06_C_r0.json",
+ "prompt_sha256": "51040b52c8589c470798dfcc96cc8e386b9f4832c05f5b3f5ffe9530c38b4570",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer claims no loss across the 'surrounding region', which is a regional conclusion the evidence cannot support. It also says the asset was 'free of significant loss', ignoring the sub-0.5 ha loss of 0.4 ha in 2021. The stance is not-detected rather than a scope denial."
+ },
+ "raw": null,
+ "cost_usd": 0.008334
+}

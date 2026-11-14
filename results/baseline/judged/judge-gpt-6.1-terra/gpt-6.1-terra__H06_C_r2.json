@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H06_C_r2.json",
+ "prompt_sha256": "9cf5779bce05f8bac65d3199ab73946be35d25ee59e0fb16fd39f1e6b2abef37",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly limits the evidence to the property and accurately reports detected and historical loss."
+ },
+ "raw": null,
+ "cost_usd": 0.00263
+}

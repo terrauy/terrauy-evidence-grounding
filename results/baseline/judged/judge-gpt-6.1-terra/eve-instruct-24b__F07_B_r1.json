@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F07_B_r1.json",
+ "prompt_sha256": "a945a1a6c99ccf895a4e1c0f093f4b0c1da62ae1bd6c090c4db7debc88cab49d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly reports JRC\u2019s 0 ha, but implies forest was largely cleared by year-end and shifts the conclusion to after 2020."
+ },
+ "raw": null,
+ "cost_usd": 0.002771
+}

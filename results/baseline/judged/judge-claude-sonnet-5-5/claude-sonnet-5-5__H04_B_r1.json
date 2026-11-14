@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H04_B_r1.json",
+ "prompt_sha256": "3c60197418c19cbdd8e3de4758b8e594108aebb80c78265f7f74f2d639f8d289",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer gives 0.6 ha loss in 2022 (3.4%), 0.5 ha native, all matching the key. It does not state a share of total native forest and lists the limits of the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.008328
+}

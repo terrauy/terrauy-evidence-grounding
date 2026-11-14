@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K03_A_r2.json",
+ "prompt_sha256": "b4a7063c67007ee88d46ca83b41d10688138972fb45294776d18ff8720d7fe0c",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer states zero FIRMS detections in the asset over the exact period, with all four sensors fully covered, matching the key. It says 'no fire or thermal anomalies were detected', which is a detection statement, and gives no caveats."
+ },
+ "raw": null,
+ "cost_usd": 0.006798
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F01_B_r2.json",
+ "prompt_sha256": "24726a1cde22fb24121052358139850cad821f2ce07c42666a711ed764c0fcab",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly names Hansen/UMD GFC-2025-v1.13 as the detecting dataset and treats JRC and MGAP as corroborating or contextual only. Its figures match the reference facts, and it states what the evidence does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.008686
+}

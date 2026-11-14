@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F04_A_r2.json",
+ "prompt_sha256": "8e93417e75172a052f4ce348cb76511eee14eb77bd2e5ddbd5aa64a7402519d5",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes native-forest classification to MGAP 2021, reports the mapped areas, and distinguishes the other sources and the map\u2019s temporal limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.002695
+}

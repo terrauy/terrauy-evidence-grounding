@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G02_B_r1.json",
+ "prompt_sha256": "a2df92af23372db6986c372a2ed85eea94a82421ff5efdd4e73d24c87ba38b85",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says the 67.7 ha loss was in 2020, before the cut-off, with no events of 0.5 ha or more in 2021-2025. However, 'no forest cover existed on the asset by 2020' overstates the JRC fact, which gives 0.0 ha of forest. The 0.4 ha figure is used correctly."
+ },
+ "raw": null,
+ "cost_usd": 0.008626
+}

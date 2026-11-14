@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H01_C_r0.json",
+ "prompt_sha256": "8dac2032f1f060b186006e63eb112a07251753d902f866ba72664de6b15e86b6",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Denies whole-property clearing with correct 81.3 ha/2.23% figures, but calls the loss 'clearing', implying land-use change; no limitations stated."
+ },
+ "raw": null,
+ "cost_usd": 0.01203
+}

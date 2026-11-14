@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J03_A_r2.json",
+ "prompt_sha256": "a78732d8414bf0fcb47e59f138f869d2b491a3dcc9d7eb9a5ad274cd40fe9ebf",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer claims the sources agree and that corroboration is met, with JRC at 51% (the evidence says 0.49 agreement; JRC reported non-forest, not forest). It contradicts the key's CONTRADICTED conclusion."
+ },
+ "raw": null,
+ "cost_usd": 0.008946
+}

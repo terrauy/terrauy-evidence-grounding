@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K07_C_r0.json",
+ "prompt_sha256": "02ae4d591778167bb4a431df0a665f2d3b37c25ad6b40f95ed2f07aa419adc32",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly says the property was not evaluated because required source coverage was unprepared and no observation was made."
+ },
+ "raw": null,
+ "cost_usd": 0.001903
+}

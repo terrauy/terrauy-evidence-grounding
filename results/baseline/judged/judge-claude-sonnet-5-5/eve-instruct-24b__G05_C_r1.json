@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G05_C_r1.json",
+ "prompt_sha256": "47c0ebff54c4d4dfe8bd37c4c54dcff76915e79ede11a6a94671aa23b79290a3",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says pending corroboration and not yet confirmed persistent, consistent with key. Causes are only hedged (could stem from fire/harvest). Minor 'pre-2020' JRC phrasing is fine."
+ },
+ "raw": null,
+ "cost_usd": 0.007888
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E04_A_r2.json",
+ "prompt_sha256": "006a12227274dc7581222b17d9a90f3b127c4471825af444cb806d9453024388",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no detections in covered days, identifies the coverage gap, and declines to conclude whether fire occurred throughout the period."
+ },
+ "raw": null,
+ "cost_usd": 0.003026
+}

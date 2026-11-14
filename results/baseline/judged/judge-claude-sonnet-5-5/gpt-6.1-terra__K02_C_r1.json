@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K02_C_r1.json",
+ "prompt_sha256": "8bf78f1da5f7e5eab50487304cb1bd459017847c0f041c6c412d52f6bdc1916d",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers yes with 13.5 ha in 2025, 3.91% share, and 0.98 JRC agreement, all supported by the facts. It states the finding is pending corroboration and lists what it does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.007326
+}

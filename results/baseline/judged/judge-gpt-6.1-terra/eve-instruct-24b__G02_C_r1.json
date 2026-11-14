@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G02_C_r1.json",
+ "prompt_sha256": "14c13fcbd000aeab1040c9db3366d4c73066c411cb9c470285e0445ab935072b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly dates the 67.7 ha loss to 2020, but asserts no qualifying event occurred rather than the supported conclusion that none was detected."
+ },
+ "raw": null,
+ "cost_usd": 0.002785
+}

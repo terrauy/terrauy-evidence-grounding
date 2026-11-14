@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G07_C_r0.json",
+ "prompt_sha256": "0145c020e03c7d87f1c8171948b1b21b71c2dbc456dfb14e39e6814f0ec5fc2b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The 2024 loss was in sub-threshold patches, not a counted event. The total omits 0.4 ha of 2023 sub-threshold loss and implies unsupported corroboration."
+ },
+ "raw": null,
+ "cost_usd": 0.002838
+}

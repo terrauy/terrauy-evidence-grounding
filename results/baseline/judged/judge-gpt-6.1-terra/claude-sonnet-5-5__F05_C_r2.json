@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F05_C_r2.json",
+ "prompt_sha256": "6ad2b7013af34182e5ddc13a5954af339445568a9192c4d40916d6b29a48a2bd",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no and correctly attributes the loss to Hansen, while leaving Sentinel-2 as a possible underlying input."
+ },
+ "raw": null,
+ "cost_usd": 0.002811
+}

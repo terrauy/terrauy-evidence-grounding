@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F06_B_r0.json",
+ "prompt_sha256": "76c01353b3a0aa1492d849d0a0da79cff250aa7919a43760374da82ddb6cedd4",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Lists VIIRS S-NPP, NOAA-20, NOAA-21 and MODIS via FIRMS, full coverage, count 0, with correct limitations; no forbidden sensors named."
+ },
+ "raw": null,
+ "cost_usd": 0.007418
+}

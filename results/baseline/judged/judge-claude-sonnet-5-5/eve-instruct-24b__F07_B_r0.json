@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F07_B_r0.json",
+ "prompt_sha256": "8e74dfd5845369eb0d8d1c0898ea1df93f7b24abfed9b394c571442d05987692",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly says JRC shows 0 ha in 2020, but asserts that Hansen implies forest was present in 2020. A 2020 loss event does not show forest in 2020. It also speculates about the cause of the discrepancy."
+ },
+ "raw": null,
+ "cost_usd": 0.008296
+}

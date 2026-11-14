@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K08_C_r2.json",
+ "prompt_sha256": "d5c2e74daf6f43a15bff136807911d4253f747e320b6b10b52f3320daf94c38e",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "States 2.23% (81.3 of 3,643.5 ha), matching the key. Planted forest context, Pinus species, JRC corroboration and sub-0.5 ha patches are all in the facts. Notes that the cause cannot be determined."
+ },
+ "raw": null,
+ "cost_usd": 0.008126
+}

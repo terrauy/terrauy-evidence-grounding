@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F07_A_r2.json",
+ "prompt_sha256": "7315d1b3e3fa20b0e8d36c35c3e3a411f6ca8678828375d47e323150e2d01cf1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer claims Hansen shows forest in 2020, but Hansen only shows 2000 tree cover and losses. JRC shows 0 ha forest in 2020, so the attribution is wrong."
+ },
+ "raw": null,
+ "cost_usd": 0.008228
+}

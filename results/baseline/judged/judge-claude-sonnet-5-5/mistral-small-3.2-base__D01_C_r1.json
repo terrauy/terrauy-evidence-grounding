@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D01_C_r1.json",
+ "prompt_sha256": "ae367b60b2e632690f500ebbc0e1d5c4348ef806fcaeebf88cf246f50316123b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer turns a non-detection into a definite absence ('no tree-cover loss occurred'), and calls the sources 'reliable' without support. It mentions the 0.5 ha threshold only as part of the detection result, not as a limitation of the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.007932
+}

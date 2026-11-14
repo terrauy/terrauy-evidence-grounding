@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F02_A_r1.json",
+ "prompt_sha256": "6a0b68f684d4af799ddfcbee81fccc1d3ec1f9bd3a5e6ef7b495073b2005ca97",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly attributes the planted pine classification and 68.1 hectares to the MGAP 2021 forest map."
+ },
+ "raw": null,
+ "cost_usd": 0.002662
+}

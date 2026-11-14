@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I01_B_r2.json",
+ "prompt_sha256": "2fbfd7540f8378f9324c3703898fa518e507e55057c0a951086c93ea87671e38",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms corroborated 4.5 ha loss using current v2 facts (later year observed, JRC agreement). Notes cause and legality aren't established. It does not claim deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.012124
+}

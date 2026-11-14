@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F08_C_r1.json",
+ "prompt_sha256": "aa19d18664f0ede26e10888a6d5da1b9eac6fb4bee4d6d7b93ad4a4584d2e5c5",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer opens 'Yes, JRC supports the 2023 loss', misattributing loss evidence to JRC, which is only a 2020 forest reference. It also claims the loss was 'confirmed by subsequent observations', which overstates what the facts say. Hansen is credited with detection, which is correct."
+ },
+ "raw": null,
+ "cost_usd": 0.008538
+}

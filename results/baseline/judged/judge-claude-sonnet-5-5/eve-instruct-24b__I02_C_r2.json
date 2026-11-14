@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I02_C_r2.json",
+ "prompt_sha256": "18d7b6cafdf478d923a0a8ff441bfe57159603777a5ecb865ba643b8491d9c24",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Opens with a flat 'No, did not lose tree cover', asserting absence, which the key forbids. It also speculates about misclassification or temporary harvest. It does use the current v2 status 'contradicted' and says the change was not corroborated."
+ },
+ "raw": null,
+ "cost_usd": 0.012472
+}

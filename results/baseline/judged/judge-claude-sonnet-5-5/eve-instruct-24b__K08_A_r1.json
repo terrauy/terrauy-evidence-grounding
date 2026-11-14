@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K08_A_r1.json",
+ "prompt_sha256": "f30e989831a86513379dc1a649d916668bcd7f7bd0d612c5d8261540e08a0368",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "States 2.23% (81.3 of 3,643.5 ha) correctly, with context matching the facts. Minor loose wording on the remainder, but nothing materially unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.012378
+}

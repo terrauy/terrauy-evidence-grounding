@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I06_B_r0.json",
+ "prompt_sha256": "ae400717d9857209550efa94b1b2eac2ebbed74ce05b1af90b85b29eab3bf6c8",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Affirms full coverage under current v2, notes v1 gaps as superseded, no detections. Does not claim no fire occurred, but gives no caveat that absence of detection isn't proof of no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.011576
+}

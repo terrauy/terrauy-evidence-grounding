@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/C03_B_r0.json",
+ "prompt_sha256": "082deab8d97417ff9acbff7b023dbbc86dca7087a7d0ebefe2b39a30764584a1",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says violation is not established, reports 0.6 ha loss and 0.5 ha native overlap correctly, and explicitly denies establishing cause, deforestation or authorization. No forbidden claims asserted."
+ },
+ "raw": null,
+ "cost_usd": 0.008864
+}

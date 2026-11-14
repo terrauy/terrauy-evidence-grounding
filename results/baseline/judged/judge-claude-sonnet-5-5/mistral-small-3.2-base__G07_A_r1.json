@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G07_A_r1.json",
+ "prompt_sha256": "57554a915c42ffbde857e7bd29f443aca51d6bd224c1c21c586a0445de86b98a",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Opens with a flat denial of any 2024 loss despite 0.7 ha of sub-threshold loss, and wrongly says 0.7 ha is less than the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.010754
+}

@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I04_B_r1.json",
+ "prompt_sha256": "82a3189e12e0adaf81a8cf039bd4b98f395c2c4dfb121c6262d87b39e9a2215f",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": false,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says the June 2025 statement is 'still valid' for up to 2024 and never says v1 is superseded by v2; it does mention the pending 13.5 ha 2025 candidate and treats it as unconfirmed."
+ },
+ "raw": null,
+ "cost_usd": 0.01086
+}

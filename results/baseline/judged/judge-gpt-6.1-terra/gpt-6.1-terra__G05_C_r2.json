@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G05_C_r2.json",
+ "prompt_sha256": "1e8ebba62cc837ea70f26b4e6fd1d1b5ca02e7ace619913f652e30ead682d765",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly says corroboration is pending because no later year has been observed, and accurately reports the supporting observations and limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002588
+}

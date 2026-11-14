@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K06_B_r1.json",
+ "prompt_sha256": "e53cc042ac4025cdac77fdba57b1641bdfc817cef7b079a559ccd9afb7a588b8",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly affirms corroboration (JRC 1.0, later year observed), but adds a causal-sounding claim that loss was 'not due to planted forest or planted species', which the evidence does not establish; no limitations stated."
+ },
+ "raw": null,
+ "cost_usd": 0.010218
+}

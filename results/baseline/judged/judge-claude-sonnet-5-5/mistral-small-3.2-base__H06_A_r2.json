@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H06_A_r2.json",
+ "prompt_sha256": "b80e3f3b48424f3accda0fc57650e46e3232fb17ae9c73ff238efdf227e953c8",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer affirms regional forest loss, though the evidence covers only the asset boundary. It also claims JRC supports the loss findings, and it treats pre-baseline history as a regional pattern."
+ },
+ "raw": null,
+ "cost_usd": 0.008042
+}

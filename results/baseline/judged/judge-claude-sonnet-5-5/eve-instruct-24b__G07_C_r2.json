@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G07_C_r2.json",
+ "prompt_sha256": "3825db6850437172262c1ded48cf13b53f0bd997e35b9842c395f44c8b6b0fa1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says 'Yes' lost tree cover in 2024, contradicting the key that no counted event occurred. It also adds 'canopy reduction', a total of 1.8 ha (arithmetic wrong), and corroboration by multiple datasets for the sub-threshold loss, which the evidence does not support."
+ },
+ "raw": null,
+ "cost_usd": 0.008706
+}

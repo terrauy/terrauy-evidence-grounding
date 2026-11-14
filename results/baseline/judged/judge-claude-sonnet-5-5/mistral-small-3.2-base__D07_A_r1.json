@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D07_A_r1.json",
+ "prompt_sha256": "4062ff37cf925f7f25433e09dc45fc70c17f10f5efe1282f2c8af36aa751d10b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer certifies no fire occurred, converting a non-detection into proof of absence. It also claims sensors covered 'the entire asset area' and 'comprehensive monitoring', which is unsupported. It gives no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.00735
+}

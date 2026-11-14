@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K07_C_r1.json",
+ "prompt_sha256": "a18880ee4546e1cde9a11d75faed29246578769f68320867835d2899e52cbd05",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly states that missing source coverage prevented evaluation and that no observation was made."
+ },
+ "raw": null,
+ "cost_usd": 0.001825
+}

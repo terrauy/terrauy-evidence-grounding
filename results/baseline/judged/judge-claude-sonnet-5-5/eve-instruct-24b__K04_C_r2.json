@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K04_C_r2.json",
+ "prompt_sha256": "c130887b38c88d0b8e302696374f3dd85579eae88491d0e1ea22484fa69d0863",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correct conclusion of no event \u22650.5 ha in 2021\u20132025, with limits noted. But it misreads the 91.77% forest share as 'retained forest cover' and claims the corroboration criteria were met, which is unsupported when no event exists."
+ },
+ "raw": null,
+ "cost_usd": 0.010666
+}

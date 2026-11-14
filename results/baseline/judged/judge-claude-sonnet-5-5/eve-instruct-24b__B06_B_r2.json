@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B06_B_r2.json",
+ "prompt_sha256": "81e29cc36087982a3c0bf07745d8e5e1f37fa85515fccd306078786e922368bd",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  " other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer concludes 'likely a eucalyptus harvest' and calls the loss typical of selective harvesting, despite noting the cause isn't specified. It also misstates the 0.4 ha patches as part of the 0.7 ha loss and says the whole area was planted forest, when only 0.4 ha was."
+ },
+ "raw": null,
+ "cost_usd": 0.009374
+}

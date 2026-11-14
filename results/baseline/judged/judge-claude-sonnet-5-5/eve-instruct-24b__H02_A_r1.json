@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H02_A_r1.json",
+ "prompt_sha256": "9f3e342a3f0543f1db65e5b61c19093f910ca6e8a821fd85a56b3640b02b0abe",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer denies all loss was in plantation, giving 68.1 ha planted and 13.2 ha outside mapped forest, matching key. It mentions corroboration (98% JRC agreement) as a limitation. 'Unmapped areas' is a fair paraphrase."
+ },
+ "raw": null,
+ "cost_usd": 0.008412
+}

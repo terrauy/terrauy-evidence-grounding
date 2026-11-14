@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K06_C_r1.json",
+ "prompt_sha256": "f1d98789af7ad4e24434f309be152752d7f17557a2b70b4d1fa82a399de8d778",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly affirms corroboration, but incorrectly says MGAP classified the entire event area as native forest; 0.1 ha was outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002688
+}

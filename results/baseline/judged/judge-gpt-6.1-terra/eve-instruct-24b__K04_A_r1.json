@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K04_A_r1.json",
+ "prompt_sha256": "0603f0ae6ee91da6c74c1983b5874f79f0148542abc87adbba7effed64da5b3a",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports no detected event meeting the 0.5-hectare threshold through 2025, with full valid coverage."
+ },
+ "raw": null,
+ "cost_usd": 0.002225
+}

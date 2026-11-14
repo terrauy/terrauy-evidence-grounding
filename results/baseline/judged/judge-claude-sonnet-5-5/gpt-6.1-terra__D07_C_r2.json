@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D07_C_r2.json",
+ "prompt_sha256": "4d6180e1aa98aee357edeafa9d6155fbc1e93b9ab924ca1bf60ca7626f024abd",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no FIRMS detections over fully covered period, explicitly states it cannot certify no fire occurred or establish burned area. Matches key; no unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.00713
+}

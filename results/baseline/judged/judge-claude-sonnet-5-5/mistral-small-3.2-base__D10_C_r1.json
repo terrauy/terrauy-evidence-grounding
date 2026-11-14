@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D10_C_r1.json",
+ "prompt_sha256": "36eb1ad037217bbcb2fef25013482fe044dd966bb61fc40ef8a7b49dd3f8fff1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer confirms 'unchanged' and 'has not changed since 2020', turning a non-detection into proof of absence. It omits the 0.5 ha and 30 m limits. It also calls the sources 'reliable', which the evidence does not state."
+ },
+ "raw": null,
+ "cost_usd": 0.007912
+}

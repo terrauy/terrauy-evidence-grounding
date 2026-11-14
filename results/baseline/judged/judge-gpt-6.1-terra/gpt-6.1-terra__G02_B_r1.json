@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G02_B_r1.json",
+ "prompt_sha256": "616637b95863f9f288f2fccc57ff4096cf1bbcc1ea7f936e4cca898258425c1d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly places the 67.7 ha loss in 2020 and distinguishes post-cutoff event detection from smaller recorded patches."
+ },
+ "raw": null,
+ "cost_usd": 0.002728
+}

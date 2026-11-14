@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D06_A_r2.json",
+ "prompt_sha256": "02ad6b3e37419a47c0ba38db25e0ff68a4aa0bc929fd8618675cca144429b603",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports zero FIRMS detections with full sensor coverage and says non-detection is not proof of no fire. However, it claims the asset area is null in the run metadata, which is not in the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.01033
+}

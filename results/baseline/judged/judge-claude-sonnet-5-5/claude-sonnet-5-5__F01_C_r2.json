@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F01_C_r2.json",
+ "prompt_sha256": "7acd99010cc7f23d2e11d7a9330411853d2aa75b519ab079ff3ca145c87788ec",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes detection to Hansen GFC-2025-v1.13, treats JRC and MGAP as corroboration and context only, and states what the result does not establish. Numbers match the facts. 'Pine' is derived from the planted species."
+ },
+ "raw": null,
+ "cost_usd": 0.0086
+}

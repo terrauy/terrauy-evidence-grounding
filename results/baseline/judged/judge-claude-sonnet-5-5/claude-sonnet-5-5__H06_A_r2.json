@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H06_A_r2.json",
+ "prompt_sha256": "cf6477038254becace9f81c1fdc7cd55bf14434ddaa6af1a74aa1dc79e576404",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers No, limiting the evidence to the ASSET-B boundary and refusing regional conclusions. Numbers (23 ha, 0 ha forest in 2020, ~99 ha pre-baseline loss) match the facts. The answer is truncated."
+ },
+ "raw": null,
+ "cost_usd": 0.011196
+}

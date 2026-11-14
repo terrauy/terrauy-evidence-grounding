@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D07_A_r0.json",
+ "prompt_sha256": "bd520abe7539b35ed0a661ef310aa4cf6b113b048283be13fc66d7213ebee792",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports non-detection and its limitations, but invents missing asset-area metadata and uncertainty about boundary representation."
+ },
+ "raw": null,
+ "cost_usd": 0.002426
+}

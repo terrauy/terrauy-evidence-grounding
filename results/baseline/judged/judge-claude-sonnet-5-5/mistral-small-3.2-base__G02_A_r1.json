@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G02_A_r1.json",
+ "prompt_sha256": "ad1eacf1252aa0ee53d39e84ecc28afd9ce319490f9fa35b6807e73da23417ed",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly says the 67.7 ha loss was in 2020, before the cut-off, so denies post-cut-off loss. It notes the 0.4 ha in 2021 was below the event threshold, which is a relevant limit."
+ },
+ "raw": null,
+ "cost_usd": 0.008146
+}

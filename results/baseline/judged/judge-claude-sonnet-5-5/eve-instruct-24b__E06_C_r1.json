@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E06_C_r1.json",
+ "prompt_sha256": "32b000bbaf86c7bc8056e54e971deb189a02eddc153627ab7601275347a48c09",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no detections in covered days, flags the uncovered final day, declines to conclude fire-free, and notes small or cool fires may be missed. The date label for the gap is slightly imprecise."
+ },
+ "raw": null,
+ "cost_usd": 0.012312
+}

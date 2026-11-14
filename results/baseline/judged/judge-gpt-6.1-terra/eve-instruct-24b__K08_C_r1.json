@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K08_C_r1.json",
+ "prompt_sha256": "8370af0337a723969cf3323e73cb752f974061aee3d730824553182352d92f7f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The share and area are correct. JRC provides a 2020 forest reference, not an independent detection of the 2021 change."
+ },
+ "raw": null,
+ "cost_usd": 0.002688
+}

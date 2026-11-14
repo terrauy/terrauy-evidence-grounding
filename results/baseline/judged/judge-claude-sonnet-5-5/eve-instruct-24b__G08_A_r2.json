@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G08_A_r2.json",
+ "prompt_sha256": "cddcb53f7100874af46c8bb2d28040ff1be1bdc6b6909391bafa93f06c54920d",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer asserts an increasing trend, contradicting the key (81.3 \u2192 0.6 \u2192 4.5 ha, none in 2024-25). It also claims 'pre-2020 averages of 0.7-1.8 ha' and 'continued pressure', which are unsupported or misleading."
+ },
+ "raw": null,
+ "cost_usd": 0.010502
+}

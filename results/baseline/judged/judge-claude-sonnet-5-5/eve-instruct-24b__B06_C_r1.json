@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B06_C_r1.json",
+ "prompt_sha256": "4baf351971a65920f6458982d1cfcc768af149cdf56ff4b2e03d9363e180765a",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the cause is not confirmed and only hedges at fire or disease as possible causes. It adds unsupported claims: 'disease', 'dominant species', and the assertion that the loss occurred within a planted forest. The MGAP map shows only 0.4 of 0.7 ha planted and 0.3 ha outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.009358
+}

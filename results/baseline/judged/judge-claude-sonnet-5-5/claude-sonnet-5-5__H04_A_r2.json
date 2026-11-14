@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H04_A_r2.json",
+ "prompt_sha256": "265548e5d431d6d8a44c38131616cc9dd24b5ad1725670192814f5843fae1c56",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports 0.6 ha total loss and 0.5 ha native in 2022, 3.41% of the asset; notes the 0.2 ha sub-threshold loss, pixel resolution and early-access version. No native-forest share is stated."
+ },
+ "raw": null,
+ "cost_usd": 0.01267
+}

@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D02_B_r1.json",
+ "prompt_sha256": "189a2a974bed85b44fb78d4acf53bbccfd0f5a7d914fe1cba9254e27384d0666",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no loss \u22650.5 ha detected 2021\u20132025 with full valid coverage, and notes small, edge and sub-pixel changes may be missed. No intact, compliance or deforestation claims."
+ },
+ "raw": null,
+ "cost_usd": 0.009476
+}

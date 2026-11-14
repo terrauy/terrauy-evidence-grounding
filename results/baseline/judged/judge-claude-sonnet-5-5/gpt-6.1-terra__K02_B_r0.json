@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K02_B_r0.json",
+ "prompt_sha256": "f5f6a8b9e90b427e90819837479e2437c3b9fe8f19eb18df2d1b72b865ae90d0",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers yes with 13.5 ha candidate in 2025, pending corroboration; 3.91% is in the facts; limitations match the does_not_establish list. No unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.00722
+}

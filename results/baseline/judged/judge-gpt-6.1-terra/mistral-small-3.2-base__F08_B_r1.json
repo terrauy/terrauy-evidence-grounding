@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F08_B_r1.json",
+ "prompt_sha256": "e4ac3f64d6427c1bf2f2c182d9cc9b99bb9c7ae02deb90614ceaebfa1eb791fb",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer explicitly says JRC shows the 2023 loss, although JRC is a 2020 reference; Hansen mapped the loss."
+ },
+ "raw": null,
+ "cost_usd": 0.00277
+}

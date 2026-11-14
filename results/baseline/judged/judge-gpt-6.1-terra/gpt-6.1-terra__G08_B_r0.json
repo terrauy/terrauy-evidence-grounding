@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G08_B_r0.json",
+ "prompt_sha256": "74e337c1424536432618d37ac4d2a380b58e8086daad0bd4e0f0b0601aeee209",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly rejects an increasing trend and reports the supported annual figures; it notes that no loss figures are reported for 2024\u20132025."
+ },
+ "raw": null,
+ "cost_usd": 0.003576
+}

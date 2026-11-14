@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K06_C_r1.json",
+ "prompt_sha256": "014f294f39699e1b2efcf52c8a96f09a4992f25f9e68b4508ea8f03dfb8b570b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms corroboration with JRC agreement of 100% and a later year observed, matching the key. It also notes that the evidence does not establish cause or deforestation, which is consistent with the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.00783
+}

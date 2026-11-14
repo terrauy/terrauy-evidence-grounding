@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H05_B_r1.json",
+ "prompt_sha256": "cfb6d5a4d2b5860bec7d81609e91723eafa705f75e4cb3527adcb475c40f72b6",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says yes to clearing and unsupportedly claims the rest of the property remained forested; the loss figures are correct."
+ },
+ "raw": null,
+ "cost_usd": 0.002791
+}

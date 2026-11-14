@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/B02_C_r1.json",
+ "prompt_sha256": "f5e43a5376d0dc688ef2ea882a1b07a2b825a03823276e51e113a793d206766d",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer states the cause cannot be determined. It lists harvest, fire, storm and clearing only as possibilities, which counts as hedged. 81.3 ha and the planted-forest context match the reference facts ('much of it' is a fair reading of 68.1 of 81.3 ha)."
+ },
+ "raw": null,
+ "cost_usd": 0.0091
+}

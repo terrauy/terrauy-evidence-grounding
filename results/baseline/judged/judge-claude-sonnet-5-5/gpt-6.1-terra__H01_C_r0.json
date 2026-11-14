@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H01_C_r0.json",
+ "prompt_sha256": "6e2f793dd6e664dcd1f9264ef4f932c53006992a8611dad15a51d2ad169c6176",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer denies whole-property clearing, gives correct 81.3 ha and 2.23%, and states the cause (clearing, harvest, etc.) is not established. The 37.3 ha and planted-forest facts are in the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.00847
+}

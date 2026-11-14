@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E07_C_r2.json",
+ "prompt_sha256": "7bc6590a280c1dba21b170eff55cb25fe1c65e904531747d4716e462c0281fe1",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says that 2026 is not observed (latest year 2025) and that 2026 loss cannot be confirmed. The opening phrase 'no evidence of loss' is a mild framing but is not an assertion of absence. It also notes the 2025 pending status accurately."
+ },
+ "raw": null,
+ "cost_usd": 0.00828
+}

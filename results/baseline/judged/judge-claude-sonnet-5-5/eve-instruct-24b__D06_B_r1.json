@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D06_B_r1.json",
+ "prompt_sha256": "1c29d97edc19a23e3dde87d0d81664efd24bd66d2f1007a3e46772f3170328a5",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports non-detection with full coverage and limitations. But it overreaches: 'confirms no major or sustained fires occurred' and 'strongly supports no significant burning' are unsupported inferences. It does not directly assert that no fire occurred, so the forbidden claim is only hedged."
+ },
+ "raw": null,
+ "cost_usd": 0.00766
+}

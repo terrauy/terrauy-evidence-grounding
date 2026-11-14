@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/C02_C_r1.json",
+ "prompt_sha256": "96ad9b05e347a21d0231c0241cfd3547d76d42b6bbc6706eaa6ddca18dfdf33a",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says legality cannot be determined, notes that cause and responsible actor are not established, and that the evidence is pending corroboration. It asserts no deforestation or legality claim, though it echoes the question's 'clearing' wording only as a restatement."
+ },
+ "raw": null,
+ "cost_usd": 0.00877
+}

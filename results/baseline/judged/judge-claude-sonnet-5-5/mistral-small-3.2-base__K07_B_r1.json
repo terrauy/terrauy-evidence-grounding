@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K07_B_r1.json",
+ "prompt_sha256": "b0830361adc5220e22a5ebedd714b51d2827ecdfc44e708ab10801a8ecdb97a1",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the method could not evaluate the property because source coverage was missing, which matches the key. Its statement that no conclusion about tree-cover loss or compliance can be drawn matches the does_not_establish facts. The reference to 'satellite imagery' is a minor paraphrase, not an invented fact."
+ },
+ "raw": null,
+ "cost_usd": 0.006384
+}

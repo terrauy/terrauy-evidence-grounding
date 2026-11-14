@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/B04_B_r1.json",
+ "prompt_sha256": "e4ca64fae7b9b1e9b0cd45814aa939a10d4d7ec53365e10d3a1d5c3efa72ca84",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the cause cannot be determined and restates the facts correctly (13.5 ha, 3.91%, 98% JRC agreement, 13.1 ha native forest). It negates cause, deforestation and legality claims and makes no actor attribution."
+ },
+ "raw": null,
+ "cost_usd": 0.0092
+}

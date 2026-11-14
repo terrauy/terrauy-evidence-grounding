@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G06_A_r1.json",
+ "prompt_sha256": "5682d2aac7cfba2c9c4dcb2e2731ae97fb3ee26a8c25a909235a2b4ac1d6d449",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer declines to conclude about the two weeks before 2026-10-04, noting the evidence covers only 10-04 to 11-03. It reports no FIRMS detections for that later window and does not claim no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.012022
+}

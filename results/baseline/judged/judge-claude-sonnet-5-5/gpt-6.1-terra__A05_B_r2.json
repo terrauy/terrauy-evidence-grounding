@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/A05_B_r2.json",
+ "prompt_sha256": "ca6a36fafb7b20e2fb0cec1725598c3ac467ae0be71c37dba2bcf928e574d1ed",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states 4.5 ha loss in 2023 and 4.3 ha planted, says deforestation not confirmed and cause unknown. Mentions harvesting only as a possibility. No legality, actor or compliance claims."
+ },
+ "raw": null,
+ "cost_usd": 0.009224
+}

@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D04_A_r1.json",
+ "prompt_sha256": "55e2950e358b0d91ce3800fce26d5bbc2571e4c243774abf1e96c4907bd3b13f",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "It asserts no cutting, misrepresents the 2020 forest reference as no tree cover, and invents a prior clear-cut and continued absence through 2025."
+ },
+ "raw": null,
+ "cost_usd": 0.002582
+}

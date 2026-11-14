@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G01_A_r1.json",
+ "prompt_sha256": "9f165d6061ee19bd9a97fbae183390950f50a2f61d2c519733609745f03a2c11",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer flatly says the property did not lose tree cover, which asserts absence of loss rather than non-detection. It also claims 2025 observations 'confirm no further changes', which is unsupported. It does mention the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.008472
+}

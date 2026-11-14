@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E07_A_r1.json",
+ "prompt_sha256": "e0c45f8b52006cf3b7dec7febfa0a42dc9589e5c6cf915e97b7c7e359eebd7c7",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It definitively denies 2026 loss despite no 2026 observations, and incorrectly describes the 2025 loss candidate as confirmed."
+ },
+ "raw": null,
+ "cost_usd": 0.002658
+}

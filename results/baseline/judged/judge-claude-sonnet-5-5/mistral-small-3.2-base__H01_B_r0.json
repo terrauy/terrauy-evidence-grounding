@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H01_B_r0.json",
+ "prompt_sha256": "d8b372aca458926e388aac06322e489764cccc185ebb540eb867fc9d6ea4cd65",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Denies whole-property clearing, gives correct 81.3 ha and 2.23%, describes it as tree-cover loss, notes cause unspecified, and does not claim deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.010546
+}

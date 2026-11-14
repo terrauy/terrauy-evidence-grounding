@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G06_B_r1.json",
+ "prompt_sha256": "6b37d1d47d2fbf2a74631cc6c0d541994088de57dec36453fb5abc60100033a0",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer claims no detected fires in the two weeks before 2026-10-04, but evidence covers only 2026-10-04 to 2026-11-03. This is a temporal scope violation. It hedged on undetected small fires but did not abstain."
+ },
+ "raw": null,
+ "cost_usd": 0.007514
+}

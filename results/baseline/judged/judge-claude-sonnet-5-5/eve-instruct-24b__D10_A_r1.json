@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D10_A_r1.json",
+ "prompt_sha256": "a9961191522dc0924840cda75a1c763a2f9d28d3ff3da496d575f75041c65adc",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer affirms 'unchanged' and 'no recorded events of land cover change', which is absence-of-change overreach; ignores the 0.5 ha/30 m detection limits. It also misstates Hansen's role (loss detection, not 'confirming' tree cover)."
+ },
+ "raw": null,
+ "cost_usd": 0.007908
+}

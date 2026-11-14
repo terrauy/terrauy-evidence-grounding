@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H06_A_r2.json",
+ "prompt_sha256": "b80e3f3b48424f3accda0fc57650e46e3232fb17ae9c73ff238efdf227e953c8",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer wrongly extends asset-level observations to the surrounding region and attributes the loss findings to both sources, though Hansen is the cited loss source."
+ },
+ "raw": null,
+ "cost_usd": 0.00273
+}

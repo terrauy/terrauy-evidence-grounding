@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J05_A_r0.json",
+ "prompt_sha256": "75cbd6cdc656392f34a1897d26937b508b4a91d423550dec5197c466f56419ee",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly says no contradiction, but the reasoning is invented: it claims the area had under 30% tree cover and that Hansen ignores initial cover. The key reason, that non-forest in 2020 corroborates a pre-reference loss, is missing."
+ },
+ "raw": null,
+ "cost_usd": 0.008284
+}

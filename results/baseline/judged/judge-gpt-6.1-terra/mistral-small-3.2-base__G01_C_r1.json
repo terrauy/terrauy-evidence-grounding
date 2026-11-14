@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G01_C_r1.json",
+ "prompt_sha256": "7858c25700bf32bd7a0044c195284c1fdd963fb04d35c7471bb2c5a6d7bf1f6b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The final sentence asserts no loss, contradicting both non-detection and the reported 0.4 ha loss. The 0.5 ha threshold is an event threshold, not a detection threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002877
+}

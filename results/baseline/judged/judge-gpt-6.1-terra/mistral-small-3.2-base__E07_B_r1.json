@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E07_B_r1.json",
+ "prompt_sha256": "959afb292cc999744d9bdcf3cf28fd9f6e073a0f30cbecfacb389e584bacdcbe",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports the 2025 candidate and its limitations but does not address whether 2026 was observed or answer the 2026 question."
+ },
+ "raw": null,
+ "cost_usd": 0.002652
+}

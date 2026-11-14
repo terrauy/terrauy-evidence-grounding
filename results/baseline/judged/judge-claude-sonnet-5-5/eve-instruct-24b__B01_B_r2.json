@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B01_B_r2.json",
+ "prompt_sha256": "070e6cd14325f638d4fcfaf901afa0b7e7599c065a36adc73ae25826930088b0",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer states cause is not established, naming fire and storms only as possibilities. The planted pine context and the 81 ha figure are supported by the facts. Describing the MGAP map as confirming the planted-forest setting is acceptable."
+ },
+ "raw": null,
+ "cost_usd": 0.009136
+}

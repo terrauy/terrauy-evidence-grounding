@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F01_C_r1.json",
+ "prompt_sha256": "cf67ba58c2220d9e9fd7818aca131e09b4010c835de9ddb0d526a70a72d21fc4",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer names Hansen/UMD GFC-2025-v1.13 as the detecting dataset, which matches the key. It attributes nothing to other sources and states no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.007956
+}

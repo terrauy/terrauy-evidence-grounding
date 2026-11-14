@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D09_C_r0.json",
+ "prompt_sha256": "94609ab139fc66ec08dac7b1df52d5e08b6f175f5289518deccee99020751c2d",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports non-detection in the stated period from FIRMS and caveats that small, cool or cloud-obscured fires may be missed; does not claim no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.009298
+}

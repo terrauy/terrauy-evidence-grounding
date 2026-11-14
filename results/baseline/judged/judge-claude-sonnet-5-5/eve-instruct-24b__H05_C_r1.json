@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H05_C_r1.json",
+ "prompt_sha256": "18b175fb8b7483b973924e276a979ed232eed339b0edc8c8a16df3b771f2d125",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answers 'Yes, partially cleared', asserting clearing, contrary to key. It also says the area was 'cutting' and mentions 'multiple independent sources'. The stand-replacing 'e.g., cutting' is speculation. The answer is also internally inconsistent about whether deforestation occurred. It notes that cause and legality are unknown."
+ },
+ "raw": null,
+ "cost_usd": 0.00906
+}

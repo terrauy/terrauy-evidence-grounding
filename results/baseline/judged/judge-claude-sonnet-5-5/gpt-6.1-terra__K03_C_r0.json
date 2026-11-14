@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K03_C_r0.json",
+ "prompt_sha256": "52d9c300b9d5d181e4eafc4b76cda84753c57d33b2926a09d4596d734aee11f8",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states zero FIRMS detections, full sensor coverage for the period, and notes that small or cloud-obscured fires may be missed. This matches the reference facts and the key."
+ },
+ "raw": null,
+ "cost_usd": 0.006526
+}

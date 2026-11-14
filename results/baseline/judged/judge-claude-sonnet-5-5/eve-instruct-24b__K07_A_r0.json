@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K07_A_r0.json",
+ "prompt_sha256": "e174adf71f40cb7404bd8b95ccac2dd022b3bc4705a7df3a5a8060b76d7ef9f1",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says the method could not evaluate the asset because source coverage was not prepared and no observation was made; minor embellishment ('satellite imagery', 'error message') is harmless."
+ },
+ "raw": null,
+ "cost_usd": 0.00967
+}

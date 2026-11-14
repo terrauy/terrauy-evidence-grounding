@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E02_C_r1.json",
+ "prompt_sha256": "e0b93dfdd6602d9e1c0cc6fef6b64e3a3603927be9bd2bbf4fab1d64c7a54bf4",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says evidence is insufficient because coverage is missing and no observations were made. It does not assert loss, absence of loss, or compliance. It stays within the 2021\u20132025 interval."
+ },
+ "raw": null,
+ "cost_usd": 0.007148
+}

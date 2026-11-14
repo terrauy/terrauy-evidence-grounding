@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H02_C_r2.json",
+ "prompt_sha256": "6f6c0ed135118be773abd60cf4a88c61dcb34cb78e143391bb0dd75c9380d5b6",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer opens by asserting all the loss was inside the plantation, contradicting the key (13.2 ha outside mapped forest). It then self-contradicts by citing 13.2 ha outside. The main stance is affirming, not denying."
+ },
+ "raw": null,
+ "cost_usd": 0.008304
+}

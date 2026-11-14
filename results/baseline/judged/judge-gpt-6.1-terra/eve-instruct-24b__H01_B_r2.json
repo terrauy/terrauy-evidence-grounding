@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H01_B_r2.json",
+ "prompt_sha256": "0fd0bfdb528c88223412737280db19961662433ed5be2c87e3ac0db728a055dd",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly denies whole-property clearing, but incorrectly places the entire loss in planted forest; 13.2 ha was outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002838
+}

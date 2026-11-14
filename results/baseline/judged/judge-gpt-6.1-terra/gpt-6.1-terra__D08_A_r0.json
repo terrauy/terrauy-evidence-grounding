@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D08_A_r0.json",
+ "prompt_sha256": "b276d25a448ffbe6a620c5e36345f8aae7c0c1da68d6d29989ec675563cc2fb5",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports non-detection, correctly notes sub-threshold 2021 loss and the lack of JRC corroboration, without asserting deforestation or compliance."
+ },
+ "raw": null,
+ "cost_usd": 0.002914
+}

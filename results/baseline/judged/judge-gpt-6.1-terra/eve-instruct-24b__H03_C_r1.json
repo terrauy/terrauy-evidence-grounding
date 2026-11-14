@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H03_C_r1.json",
+ "prompt_sha256": "d3536b2f2309f21a46ac3c7fff30f3f8e6d192bc551cdb037a7ab126a6413aa7",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly denies whole-forest loss and notes pending corroboration, but says over 98% rather than 98% and asserts no planted forest was involved."
+ },
+ "raw": null,
+ "cost_usd": 0.00283
+}

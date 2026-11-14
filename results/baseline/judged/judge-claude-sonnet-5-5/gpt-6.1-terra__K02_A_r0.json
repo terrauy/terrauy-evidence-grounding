@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K02_A_r0.json",
+ "prompt_sha256": "6765677420e3f9146e767d74e917d87e327ad03506bda7cda837c348e62ca506",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 13.5 ha 2025 candidate with correct share and JRC agreement; notes corroboration requires a later year. Consistent with the key."
+ },
+ "raw": null,
+ "cost_usd": 0.009252
+}

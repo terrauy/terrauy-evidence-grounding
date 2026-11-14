@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K04_A_r2.json",
+ "prompt_sha256": "024d4d6b412c0f846387a9cffacfed5889041225cb5b83688ed67ad8820deeaf",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer incorrectly claims the output cannot confirm no event was found, despite the explicit NOT_DETECTED status and supporting finding."
+ },
+ "raw": null,
+ "cost_usd": 0.002187
+}

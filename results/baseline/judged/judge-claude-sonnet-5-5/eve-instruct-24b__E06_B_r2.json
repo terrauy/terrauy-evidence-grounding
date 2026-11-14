@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E06_B_r2.json",
+ "prompt_sha256": "a4cd9c302c0235711ec1f6252dd5339f7eb4062da0985234bfc6c9b843412321",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no detections in covered days and notes the Nov 3\u20134 gap and detection limits, but concludes 'likely fire-free', which hedges toward no fire and never states that the full period cannot be concluded. The 'incomplete data' reason is also loosely stated."
+ },
+ "raw": null,
+ "cost_usd": 0.009398
+}

@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/A07_B_r2.json",
+ "prompt_sha256": "ac9c3982d5d8775e6a5487ed0476b5bbd2f1d1f686c61546e31073e46122b82a",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly says no post-baseline loss detected and 2020 loss predates the period. But it infers the property was 'not forested in 2020' and therefore not deforestation, which is an unsupported inference. It does not state limits of the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.00942
+}

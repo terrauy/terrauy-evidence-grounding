@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K04_B_r2.json",
+ "prompt_sha256": "abd6911714fa6632695cc39ee79cfd76baf4dc5b03aaeb834f33dd8e4abd4efa",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports no event \u22650.5 ha detected 2021\u20132025, with correct area, coverage, 91.77% forest share, and notes sub-0.5 ha and edge limits."
+ },
+ "raw": null,
+ "cost_usd": 0.00891
+}

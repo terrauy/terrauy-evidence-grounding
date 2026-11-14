@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H06_C_r2.json",
+ "prompt_sha256": "7419ec8cdb05e6fff6cffa617d90a9af798b0deed16b2630a15a2ed10324210f",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Denies regional loss and keeps findings to the asset boundary, with correct numbers (98.8 ha total). But 'supporting compliance' and 'confirm no significant changes' overreach, since the evidence establishes no compliance finding."
+ },
+ "raw": null,
+ "cost_usd": 0.012936
+}

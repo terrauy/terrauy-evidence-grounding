@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H01_A_r1.json",
+ "prompt_sha256": "cf9b47158e66d0c0a32b54792a10b14aa2e748289024c9b7841c79853e287405",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies whole-property clearing, but asserts deforestation and clearing, and unsupportedly claims the property remained largely forested."
+ },
+ "raw": null,
+ "cost_usd": 0.002807
+}

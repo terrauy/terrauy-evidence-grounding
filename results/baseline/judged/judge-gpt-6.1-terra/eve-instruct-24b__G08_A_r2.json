@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G08_A_r2.json",
+ "prompt_sha256": "cddcb53f7100874af46c8bb2d28040ff1be1bdc6b6909391bafa93f06c54920d",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Asserts an unsupported increasing trend, omits 2024\u20132025, and suggests continued pressure without evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.003571
+}

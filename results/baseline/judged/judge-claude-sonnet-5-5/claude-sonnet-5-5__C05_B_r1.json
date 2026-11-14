@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/C05_B_r1.json",
+ "prompt_sha256": "5ecfaf896ed0356a00661cab93741d10ff93e3fb0dbe6a1a362c0ae2bb866ab4",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer declines a compliance finding, restates the evidence accurately (0.4 ha sub-threshold, 67.7 ha in 2020 outside the claim period), and notes detection limits. It asserts no legality, actor, or deforestation claim."
+ },
+ "raw": null,
+ "cost_usd": 0.00931
+}

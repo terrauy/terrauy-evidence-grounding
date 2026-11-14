@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B05_C_r2.json",
+ "prompt_sha256": "42fdf23776f698a8d118aa7db7b8df1564c04e2c36a38e24c128ee3095ce024a",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts a 'land-clearing event' and 'prior land-use changes' as the cause, which the evidence does not establish. It also says 'no regulatory compliance explains this', which implies a legality claim. It does note that 2015 precedes the baseline."
+ },
+ "raw": null,
+ "cost_usd": 0.009118
+}

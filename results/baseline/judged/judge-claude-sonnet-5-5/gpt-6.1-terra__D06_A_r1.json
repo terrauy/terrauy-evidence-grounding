@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D06_A_r1.json",
+ "prompt_sha256": "254fcfa5d1661242156faec8c63afb2c8d5be74ec5411869e0733fbafc31c9fb",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports zero FIRMS detections with full sensor coverage, and explicitly declines to claim no fire occurred, noting satellites can miss fires. Dates are respected."
+ },
+ "raw": null,
+ "cost_usd": 0.021372
+}

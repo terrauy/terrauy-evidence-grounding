@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I01_A_r1.json",
+ "prompt_sha256": "b8b4245b8ae38d72ec95525b7235c92d027906ee8fbd3d57cb93ec23fa9a369a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms corroborated 4.5 ha loss under current v2; earlier run described as superseded-state. Does not claim deforestation. However, 'loss in planted pine is typically harvest' is an unsupported generalization."
+ },
+ "raw": null,
+ "cost_usd": 0.012694
+}

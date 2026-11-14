@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H06_A_r2.json",
+ "prompt_sha256": "3bdc032c23b8278df5fa5083f8c5a01e7e74b790a1337b3d2c40898b5bb8f997",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly limits the evidence to the asset and accurately reports the historical and post-baseline observations."
+ },
+ "raw": null,
+ "cost_usd": 0.002689
+}

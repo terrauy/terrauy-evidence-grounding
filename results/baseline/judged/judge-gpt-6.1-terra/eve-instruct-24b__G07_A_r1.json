@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G07_A_r1.json",
+ "prompt_sha256": "fd1df37035909d99bfff7273c680431355e60a612c3379ec52ba4f7c2f41637a",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer denies 2024 loss despite recorded loss, and incorrectly describes 0.7 ha as a single patch below the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002792
+}

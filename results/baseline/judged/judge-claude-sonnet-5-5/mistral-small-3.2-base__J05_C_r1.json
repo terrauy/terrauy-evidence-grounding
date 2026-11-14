@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J05_C_r1.json",
+ "prompt_sha256": "c76450b1bfae046fc4ea580c7ff8f5f46e6ff2931687e48b8dfb6adcb5f839c5",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says no contradiction, but the explanation (loss not significant enough for JRC forest, threshold differences) is speculative. It misses the key point that non-forest at the 2020 reference corroborates pre-reference loss."
+ },
+ "raw": null,
+ "cost_usd": 0.008176
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/I01_A_r0.json",
+ "prompt_sha256": "3574bc6456f4a2c5391f0cf7757f2b5e5310c1995180f4f1b87b20915d5d8cfe",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms corroborated 4.5 ha loss under the latest run, correctly treats the 2024 run as earlier, states that the cause is not established, and does not claim deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.012242
+}

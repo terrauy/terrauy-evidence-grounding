@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K01_C_r2.json",
+ "prompt_sha256": "ba614f89e38e1fed260591c3b7a2e7eced8ee0b4f00227d297c912753b5f2ee7",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports the 2021 Hansen loss, corroboration, mapped forest context, excluded small patches, and evidentiary limits."
+ },
+ "raw": null,
+ "cost_usd": 0.00276
+}

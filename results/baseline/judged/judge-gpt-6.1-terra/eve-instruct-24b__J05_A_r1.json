@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J05_A_r1.json",
+ "prompt_sha256": "61997ba6a562d74e5c006afc07bdf6fdc1eff312393f6943b77f4bdc665e2e5d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies contradiction, but asserts unsupported fragmented or degraded prior forest and a declining forest area; the JRC threshold is speculative."
+ },
+ "raw": null,
+ "cost_usd": 0.002794
+}

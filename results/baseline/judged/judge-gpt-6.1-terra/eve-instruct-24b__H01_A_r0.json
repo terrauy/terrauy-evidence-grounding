@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H01_A_r0.json",
+ "prompt_sha256": "da989479f1be4608985b81a6f638c7bd9a1de2219a6e07be3c12204707f30ff2",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly denies whole-property clearing but unsupportedly asserts the rest remained unchanged; its 'only 2.23%' claim overlooks additional small-patch loss."
+ },
+ "raw": null,
+ "cost_usd": 0.002823
+}

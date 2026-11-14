@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H01_B_r0.json",
+ "prompt_sha256": "6a79a219e37ec92517323de095f27133c207ab6bb1e8b3467a0b2c969114650b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer denies whole-property clearing, cites 81.3 ha (2.23%), and explicitly says tree-cover loss does not establish clearing or land-use change. Planted forest and 37.3 ha figures are supported by the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008502
+}

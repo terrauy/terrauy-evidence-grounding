@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D02_C_r2.json",
+ "prompt_sha256": "1d6cdcc0d01da1503c6a9a10aef237cbc73daf925e23f0f4224b0d32cc721962",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer turns a non-detection into a confirmation that the forest is intact, which is forbidden. It does not mention that changes under 0.5 ha may be missed, and it overreaches the scope of the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.0077
+}

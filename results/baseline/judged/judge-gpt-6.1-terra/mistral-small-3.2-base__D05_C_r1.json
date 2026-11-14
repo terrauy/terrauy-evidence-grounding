@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D05_C_r1.json",
+ "prompt_sha256": "6363edc3fa3f18a512921f005d2b66028ea4716b03e24c9c8b2b4fb3181f7560",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports the supported non-detection, correct period and coverage, and notes that some fires may go undetected."
+ },
+ "raw": null,
+ "cost_usd": 0.002263
+}

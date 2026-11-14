@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H01_A_r0.json",
+ "prompt_sha256": "a0dab8c1b6c98ed244a326c12455e4f818d7f9f2fd880ba2aaa4bc771192c04e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies whole-property clearing, but asserts the rest was unaffected and treats small-patch loss as additional despite the stated 81.3 ha total."
+ },
+ "raw": null,
+ "cost_usd": 0.002798
+}

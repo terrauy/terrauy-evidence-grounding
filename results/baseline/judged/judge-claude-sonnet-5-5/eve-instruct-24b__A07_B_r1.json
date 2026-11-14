@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A07_B_r1.json",
+ "prompt_sha256": "b9c3ecc8480d73da20d004a0e22b8454951863f4e45b8d6192fbd9a6874cb441",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer says 'not deforested' yet also 'already deforested' by 2020 from the 0 ha JRC forest figure, and asserts EUDR deforestation-free status. The evidence does not support either claim. Limits of the evidence are not mentioned."
+ },
+ "raw": null,
+ "cost_usd": 0.009352
+}

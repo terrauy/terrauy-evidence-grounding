@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K08_B_r2.json",
+ "prompt_sha256": "9d5679fb8166ccba0e5a6feb8eb29b9d7d1fba5c4a1f4a2afcd050aeda3e77d0",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer gives 2.23% (81.3 of 3,643.5 ha) for 2021, matching the key. Forest-type breakdown and corroboration are in the facts. It notes that cause and legality are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.008044
+}

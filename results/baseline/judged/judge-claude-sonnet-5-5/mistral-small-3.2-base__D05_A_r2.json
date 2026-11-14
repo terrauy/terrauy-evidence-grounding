@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D05_A_r2.json",
+ "prompt_sha256": "60b51aa9e194ac54a60ce6ed38f37e941a512a95e68ded3963124708e5d62ded",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer reports no detections correctly but concludes 'there was no fire on this asset', turning a non-detection into proof of absence. It mentions no limitations, such as small or cloud-obscured fires going undetected."
+ },
+ "raw": null,
+ "cost_usd": 0.007062
+}

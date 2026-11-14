@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D09_B_r0.json",
+ "prompt_sha256": "3bfe869492fc05651b8132d49da8c4101801143c03be0d876ef50797bd8820aa",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports the supported non-detection and coverage, while explicitly noting that fire and burned area cannot be ruled out."
+ },
+ "raw": null,
+ "cost_usd": 0.00229
+}

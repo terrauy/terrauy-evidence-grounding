@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D05_A_r0.json",
+ "prompt_sha256": "b540ca421571fc76b96d6d7470c38b15a86f7a76f6af6615bb20e5c282441f76",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports non-detection and its limits, but asserts without supporting metadata that the asset\u2019s area was not recorded."
+ },
+ "raw": null,
+ "cost_usd": 0.002335
+}

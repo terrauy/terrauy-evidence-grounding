@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J05_A_r2.json",
+ "prompt_sha256": "3dd7373a1ee58e319a009a263186cb04dca0ff1b54c5917d151ae8131450f649",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer denies a necessary contradiction and correctly attributes the observations, but does not explain that JRC non-forest corroborates the pre-baseline loss."
+ },
+ "raw": null,
+ "cost_usd": 0.002765
+}

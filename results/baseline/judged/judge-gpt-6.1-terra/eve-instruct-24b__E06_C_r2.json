@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E06_C_r2.json",
+ "prompt_sha256": "dac2cef9a26d094d79d1988d4123cdf7aeb7d8fc96665b8ad3656ad17d7341d3",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no detections, identifies the coverage gap and detection limitations, and does not conclude the property was fire-free."
+ },
+ "raw": null,
+ "cost_usd": 0.003008
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/C06_C_r2.json",
+ "prompt_sha256": "28e06e86268a0cb7ea77b8ca1ef809452ab97f9f2a5463d92d9a01bb13af383c",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "States 0.7 ha loss in 2023 and that authorization is not established; no actor, compliance or deforestation claim. Slight overgeneralisation of planted forest (0.4 of 0.7 ha) is minor."
+ },
+ "raw": null,
+ "cost_usd": 0.013714
+}

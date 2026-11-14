@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K06_B_r2.json",
+ "prompt_sha256": "f41dd2d6674964d2e7d849523b5ff8e20ca2f3931b45e70632d6412b68ad793c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms with correct JRC 1.0 and later year; but says 2025 observation 'confirmed persistence', which is not in the facts. Limitations on cause and legality noted."
+ },
+ "raw": null,
+ "cost_usd": 0.010766
+}

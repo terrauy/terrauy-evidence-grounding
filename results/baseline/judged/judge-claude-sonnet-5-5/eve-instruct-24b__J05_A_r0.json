@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J05_A_r0.json",
+ "prompt_sha256": "0a45fb4bfa51f39680e3d7dacf8b20cc56b777267c801ae4ec3d276c26c77690",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly says no contradiction, but claims the loss occurred before the baseline date and that JRC 'does not account for earlier-in-year losses' (muddled, invented reasoning); does not state non-forest corroborates (agreement). No limitations mentioned."
+ },
+ "raw": null,
+ "cost_usd": 0.00833
+}

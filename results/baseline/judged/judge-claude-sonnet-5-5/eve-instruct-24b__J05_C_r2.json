@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J05_C_r2.json",
+ "prompt_sha256": "c8e8ce9abeb51e91ad9e6ab04862f5164571f73ca90be6bdf5cb9af540fed3df",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer denies contradiction, correctly treats 2020 loss as pre-baseline and JRC no-forest as aligned with it; mentions the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.011964
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C05_C_r1.json",
+ "prompt_sha256": "e73d238422f0e781f36a1739b6a8c7e67237b23a358f623bd26dddbceb846465",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "hedged"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  " other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says compliance cannot be asserted but claims data supports no post-2020 deforestation, 'EUDR-like thresholds', and 'below threshold for regulatory concern' (unsupported). Limitations on small changes mentioned."
+ },
+ "raw": null,
+ "cost_usd": 0.009058
+}

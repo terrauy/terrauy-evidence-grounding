@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K08_A_r2.json",
+ "prompt_sha256": "ef7c768107ef95cde88adfc2d5d30a5506b985b6068a35b954794fb4ba170cd1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer gives 2.23% (81.3 ha of 3643.5 ha), matching the key. Planted forest 68.1 ha and 37.3 ha sub-threshold patches are from the facts. It notes the small patches were not counted as an event, which is a relevant limit."
+ },
+ "raw": null,
+ "cost_usd": 0.008202
+}

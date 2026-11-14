@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G04_B_r2.json",
+ "prompt_sha256": "844708219db3e746c67a059ad4e161da89ef21f0d925a4e30a802ac037473352",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says evidence cannot address the present, covers only 2021 loss with data to 2025, and only hedges that loss may be harvest rather than deforestation. Figures match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008924
+}

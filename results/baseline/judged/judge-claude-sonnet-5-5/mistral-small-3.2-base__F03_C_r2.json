@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F03_C_r2.json",
+ "prompt_sha256": "c24c722900aa7d0fd1ce229a197f02fe14dc78dffcc5b2b0327f86800f4c18b8",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer cites JRC GFC2020 agreeing on 98% of event area, consistent with key. It mentions MGAP only as forest-type context, not as corroboration. It omits the later-year observation, which is a minor gap. It notes cause and legality are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.008608
+}

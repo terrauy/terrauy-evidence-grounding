@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G02_B_r2.json",
+ "prompt_sha256": "6e081923744fa0599287a0d3bab167ff16c1abf91daa2efa84508072123614f4",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, places the 67.7 ha loss in 2020 before the cut-off, reports no \u22650.5 ha events in 2021\u20132025, and states limitations. All of this is consistent with the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008096
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F07_B_r1.json",
+ "prompt_sha256": "4188972618af59f65f8b76cf5f86ca998b5310563a48d5714d458fb4d576a6f5",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The opening incorrectly attributes 2020 forest presence to JRC, although the rest correctly reports JRC\u2019s 0 ha and concludes no forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002802
+}

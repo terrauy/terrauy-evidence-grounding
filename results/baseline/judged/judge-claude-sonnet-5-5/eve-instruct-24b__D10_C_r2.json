@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D10_C_r2.json",
+ "prompt_sha256": "da46e0b50ce8a9221fa1e0020a072fb79969af50c605cb73e398f259bb6cb700",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer opens with 'Yes, unchanged', asserting absence of change, which is forbidden. It adds a caveat about small or edge changes, but the main stance is an affirmation rather than a non-detection."
+ },
+ "raw": null,
+ "cost_usd": 0.007754
+}

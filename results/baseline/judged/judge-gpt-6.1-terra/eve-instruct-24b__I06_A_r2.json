@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I06_A_r2.json",
+ "prompt_sha256": "9977814a50264ebb412c42dc284bab3faed851c0a6b8d9d3f7bad1d2b3af6548",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": false,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer treats the superseded coverage gap as current despite acknowledging full coverage in v2, and invents an October 12 run date."
+ },
+ "raw": null,
+ "cost_usd": 0.003877
+}

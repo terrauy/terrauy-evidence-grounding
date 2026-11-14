@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I02_C_r1.json",
+ "prompt_sha256": "c3dd5bc09d9ee35e4463f705f0beb1191f61d6065beb2abb0bf6148e3c8e079a",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Uses current contradicted assessment and correct figures; explicitly declines to confirm loss or its absence. Replanting is presented only as a possibility."
+ },
+ "raw": null,
+ "cost_usd": 0.004433
+}

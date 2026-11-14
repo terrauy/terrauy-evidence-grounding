@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F04_A_r0.json",
+ "prompt_sha256": "18bbba9b9cf16b6b708e96355a033069153e4b202cf6e0a8699676038178928a",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly names MGAP 2021 with accurate numbers (13.1 of 13.5 ha native). It overstates by calling MGAP 'authoritative' and does not note it is a 2021 map, not a 2025 observation, nor any limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.00794
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G08_A_r1.json",
+ "prompt_sha256": "416c6fe88ef79e2e1fa0f1b615d474c7ea29df9a4d3af878401b73d3e42453e5",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer claims a slight upward trend, contradicting the key (81.3, 0.6, 4.5 ha; none in 2024-2025). It also invents a pre-2020 average of ~1.5 ha/yr and 'stable' history, and does not mention 2024-2025."
+ },
+ "raw": null,
+ "cost_usd": 0.010506
+}

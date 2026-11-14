@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E07_C_r0.json",
+ "prompt_sha256": "54ab702b3755e7e5bda1c8195b19fc2825b8bce652a90bc996b8967bd8b27a49",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer flatly denies 2026 loss and claims no changes were detected in 2026, though the series ends in 2025. It also wrongly says multiple sources confirmed the 2025 loss, while the assessment is pending corroboration."
+ },
+ "raw": null,
+ "cost_usd": 0.008202
+}

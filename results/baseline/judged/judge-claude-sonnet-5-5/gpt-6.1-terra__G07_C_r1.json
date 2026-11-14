@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G07_C_r1.json",
+ "prompt_sha256": "18d07c50fd509e0bbc315e31aead19269916a15ff46ec56a64df03f5dd845ccb",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer starts with 'Yes' but accurately reports 0.7 ha sub-threshold loss in 2024, not counted as an event, and notes limits. Consistent with key; no claim of no loss."
+ },
+ "raw": null,
+ "cost_usd": 0.008154
+}

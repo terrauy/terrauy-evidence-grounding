@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E05_B_r1.json",
+ "prompt_sha256": "19403db433d1c77df825304a71b90a3a8bb531560b1834ee086a158c0b99ff3e",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers 'No' to confirming, notes the VIIRS S-NPP gap Nov 2-6, other sensors covered with zero detections, and explicitly says this does not prove no fire. Consistent with the key."
+ },
+ "raw": null,
+ "cost_usd": 0.007966
+}

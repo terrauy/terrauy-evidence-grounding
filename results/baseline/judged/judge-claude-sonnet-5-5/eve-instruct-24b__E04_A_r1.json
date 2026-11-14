@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E04_A_r1.json",
+ "prompt_sha256": "4e7c431623ca88adf78719e6115595d7c165fe8d2f7af9851e28807880b064a2",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer says zero detections show no fire activity across the whole period. It wrongly calls 2026-10-25 'partial coverage' when it was not covered, and it ignores that absence of detection is not proof of no fire. It also adds 'or near the asset', which is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.009098
+}

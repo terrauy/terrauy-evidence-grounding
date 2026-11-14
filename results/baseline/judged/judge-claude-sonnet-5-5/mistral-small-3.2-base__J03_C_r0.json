@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J03_C_r0.json",
+ "prompt_sha256": "de5f2e5ea7c38695823b0a78e431b705723f6a43f148a8f62b3599ea02e49ff0",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says sources disagree: Hansen 1.4 ha vs JRC 49% agreement, below 50% threshold. However, claiming MGAP shows the loss area was planted not native is a slight overstatement (1.0 ha outside mapped forest, 0.4 planted)."
+ },
+ "raw": null,
+ "cost_usd": 0.00902
+}

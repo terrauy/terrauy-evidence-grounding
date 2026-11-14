@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/B04_A_r0.json",
+ "prompt_sha256": "f61f3b2f1e5faf0d667837e1f4c29dfcd367819e04f0247bc503648adb8ac0e4",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says cause is not established, correctly restates the figures (13.5 ha, 98% JRC, 13.1 ha native), and notes the corroboration limit. It asserts no cause, deforestation, legality or actor. The 'real forest' and 'isn't plantation harvesting' remarks follow from the data."
+ },
+ "raw": null,
+ "cost_usd": 0.009352
+}

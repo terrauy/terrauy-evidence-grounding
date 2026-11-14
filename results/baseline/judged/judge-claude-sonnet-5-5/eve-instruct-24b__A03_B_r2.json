@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A03_B_r2.json",
+ "prompt_sha256": "a9c25e5ed4c10d5d04c15d65a6629e0d1da1bcd70582519f9dd4f81f1f73a04b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 0.6 ha tree-cover loss in 2022 with correct figures, denies establishing deforestation, cause only hedged, legality and responsibility undetermined. Slight overstatement calling all 0.6 ha native."
+ },
+ "raw": null,
+ "cost_usd": 0.014492
+}

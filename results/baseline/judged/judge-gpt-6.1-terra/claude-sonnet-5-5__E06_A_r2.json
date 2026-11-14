@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E06_A_r2.json",
+ "prompt_sha256": "6ea3031d391ba3ff7d71ca80f161de45ad1a0ab875c39b359e85aa9c5b47e4fc",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly identifies the coverage gap and detection limitations, but overstates that rerunning the check would confirm the full period despite possible missed fires."
+ },
+ "raw": null,
+ "cost_usd": 0.003145
+}

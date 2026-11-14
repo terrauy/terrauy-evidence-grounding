@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/B07_A_r2.json",
+ "prompt_sha256": "732de4fbadfadc02b265e021feeec7a577c50b6de5f81b45b21ce2a04fa801d0",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly says cause cannot be determined and restates the figures. It adds an unsupported claim that loss in planted pine is often harvesting, which only hedges at a cause. It also says no weather data were available, which is not in the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.009366
+}

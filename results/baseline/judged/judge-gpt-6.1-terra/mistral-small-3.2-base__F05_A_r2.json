@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F05_A_r2.json",
+ "prompt_sha256": "2576ebaa32bc31abfa22c45ace2520dda729e02f8bc6dfe33692642bd5653efd",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer incorrectly attributes detection to Sentinel-2 and asserts that Hansen GFC uses Sentinel-2 imagery; the reported loss area and asset share are supported."
+ },
+ "raw": null,
+ "cost_usd": 0.002745
+}

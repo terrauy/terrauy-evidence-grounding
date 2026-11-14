@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F01_A_r2.json",
+ "prompt_sha256": "5a8803b57b730ea1727444c7452a98dc5b5c0aa0db45c2506917d4b1beeda1ae",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer names Hansen/UMD GFC-2025-v1.13 as the dataset that detected the 2021 loss, matching the key. It does not misattribute to another source and states no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.008006
+}

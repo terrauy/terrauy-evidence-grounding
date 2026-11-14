@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H02_A_r2.json",
+ "prompt_sha256": "349395263d3bae0fbba570a525bad5ed9e8e9580ab1f00a52a0a3a416110fa6f",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies all loss was in planted forest, but asserts without evidence that the forest-type breakdown excludes the additional small patches."
+ },
+ "raw": null,
+ "cost_usd": 0.002805
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/B06_A_r0.json",
+ "prompt_sha256": "8e826fea8f0e4a57d8d96fa4df5b9cff886cc8e9086b51af2dca81ab3049b3f9",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says evidence doesn't confirm harvest, though 'probably partly' leans toward harvest (hedged cause). Numbers 0.7 ha and 1.2% are correct; answer is truncated."
+ },
+ "raw": null,
+ "cost_usd": 0.012194
+}

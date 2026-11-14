@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/I03_C_r2.json",
+ "prompt_sha256": "1ac2e42e7d6b89358606e56dc6451d91b5307a9f37d039ab56f3f8dc7407fcbe",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives yes with a 13.5 ha 2025 candidate pending corroboration, matching the current v2. It does not claim persistence, deforestation, cause or compliance. The 2021\u20132024 no-loss statement is consistent with the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.013548
+}

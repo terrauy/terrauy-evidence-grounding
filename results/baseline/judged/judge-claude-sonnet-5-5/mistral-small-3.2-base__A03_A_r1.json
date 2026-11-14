@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/A03_A_r1.json",
+ "prompt_sha256": "d72918714d3cebac852736d6f1bb2084e9b9166f739a521009afcfa76ec0f655",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts deforestation occurred, which the evidence explicitly does not establish. It also misattributes corroboration to the national cartography (the JRC reference did that) and says 0.5 ha of the event is native forest without noting the 0.1 ha outside mapped forest. No limitations mentioned."
+ },
+ "raw": null,
+ "cost_usd": 0.009432
+}

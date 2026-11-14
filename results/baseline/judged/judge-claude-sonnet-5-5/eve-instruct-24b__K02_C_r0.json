@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K02_C_r0.json",
+ "prompt_sha256": "19d1b86d825a51c319bba19a9f1ae58be78cb554b8c0c21ac78b730c0b003f0e",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "States 13.5 ha candidate in 2025, pending corroboration as latest year; cause and legality unknown. Details (3.9%, JRC 98%, native forest) match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.010554
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E06_A_r1.json",
+ "prompt_sha256": "a8251953342a805dc842e9d2df6e65b156f014e0678c5d9d044216c5c9cba79d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Opens with 'No, not free of fires', contradicting the zero detections; also says 'no confirmed fires occurred'. Wrongly says only Nov 4 was uncovered (the gap is Nov 3\u20134), and does not state the full period cannot be concluded."
+ },
+ "raw": null,
+ "cost_usd": 0.009304
+}

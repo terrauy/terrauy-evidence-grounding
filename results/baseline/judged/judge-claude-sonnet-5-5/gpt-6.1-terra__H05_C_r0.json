@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H05_C_r0.json",
+ "prompt_sha256": "c7255176564a627c37348741e3c024df7ace4ee5e9936080da46b302cdb42584",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports 0.7 ha (1.2%) loss in 2023 and says clearing and land-use change are not established. That matches the key's facts, though the stance is cannot-determine rather than an explicit No. No forbidden claim is asserted."
+ },
+ "raw": null,
+ "cost_usd": 0.008716
+}

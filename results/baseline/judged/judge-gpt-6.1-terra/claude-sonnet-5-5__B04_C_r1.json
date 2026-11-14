@@ -1,0 +1,38 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/B04_C_r1.json",
+ "prompt_sha256": "730f92173948f0d14992fba4110cc892e51a5c7693677fff5cf5f0d6a5688355",
+ "parsed": {
+  "stance": "CANNOT_DEERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly says the cause is unknown, reports supported observations, and notes pending corroboration and other evidentiary limits."
+ },
+ "raw": null,
+ "cost_usd": 0.002942
+}

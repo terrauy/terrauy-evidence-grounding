@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K04_A_r0.json",
+ "prompt_sha256": "bf75d59957c9ce9c5514746752024b7603dcc29a91a05029e3264005dbcac508",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The non-detection is correct, but consistent tree cover since 2000 is unsupported by the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.002214
+}

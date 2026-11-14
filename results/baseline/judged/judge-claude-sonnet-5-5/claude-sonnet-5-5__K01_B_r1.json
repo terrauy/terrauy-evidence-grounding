@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K01_B_r1.json",
+ "prompt_sha256": "985df8b7b96fc515acce4bd64d785a07a306d03d572c5b58b058f94913ee7a10",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 81.3 ha in 2021 (2.23%), corroborated by later years and JRC 98%; extra details match the facts; limitations stated correctly."
+ },
+ "raw": null,
+ "cost_usd": 0.011326
+}

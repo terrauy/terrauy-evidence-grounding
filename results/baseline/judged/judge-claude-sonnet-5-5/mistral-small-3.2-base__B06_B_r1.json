@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B06_B_r1.json",
+ "prompt_sha256": "760add4d971c675a4e92955b3adf57643d9b4e58e756547ff9b4c74410bc11bb",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the loss was 'likely a eucalyptus harvest', which asserts a cause using species context, then adds a contradictory disclaimer. It correctly notes that legality is not established. Calling the harvest likely is an unsupported inference."
+ },
+ "raw": null,
+ "cost_usd": 0.009056
+}

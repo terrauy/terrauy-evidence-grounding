@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K03_B_r0.json",
+ "prompt_sha256": "964d168b674eabcf637e8bb87e435dc0705c731e1083c91ee13ff20c56c351ea",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports zero detections and full coverage, respects the period and property scope, and notes relevant limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002195
+}

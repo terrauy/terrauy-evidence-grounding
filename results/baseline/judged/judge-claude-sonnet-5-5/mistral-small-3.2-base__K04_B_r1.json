@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K04_B_r1.json",
+ "prompt_sha256": "f56f3cac43bcbf95a445f90ac7bddb7810a0482f16e972cd5ecdbbb08e321593",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no loss event of 0.5 ha or more was detected for 2021-2025, with valid observations over the whole asset. It notes that smaller changes and edge changes may be missed at 30 m. All of this matches the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.006984
+}

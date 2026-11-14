@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D01_B_r2.json",
+ "prompt_sha256": "c7a89024cc7c697c63cdc6109022268b6826a734fe9d2e0ac2454b9c9951f09c",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports non-detection of loss of 0.5 ha or more for 2021\u20132025, states the limits (small changes, edges, 30 m pixels), and explicitly does not claim absence. Numbers match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.007804
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K08_B_r2.json",
+ "prompt_sha256": "fcba393d544cf4da3f52cccb8374a5c449ce6522ec0819709bb7dbfd94e8d903",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer gives 2.23% (81.3 ha) for 2021, matching the key. The 68.1 ha planted and 13.2 ha outside-mapped-forest split matches the facts. It states no limitations of the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.007992
+}

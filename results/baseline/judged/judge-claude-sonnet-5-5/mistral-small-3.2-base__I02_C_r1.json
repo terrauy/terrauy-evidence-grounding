@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I02_C_r1.json",
+ "prompt_sha256": "843b1f180c1f39a09b87bb5c4c5ad8d0c7d413a6f194b7c20ad062132695319f",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer correctly reports the contradicted status with Hansen 1.8 ha vs JRC non-forest disagreement. It does not assert loss or absence, though the last sentence is slightly strong. It states no explicit limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.012492
+}

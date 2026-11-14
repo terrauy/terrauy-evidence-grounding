@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D09_B_r2.json",
+ "prompt_sha256": "96b178b6192986b60e0f55d5846c277c20abe74c12108a6a42d781b33d944993",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports zero FIRMS detections in the fully covered period, explicitly says this doesn't prove no fire occurred, and notes burned area, cause, and out-of-period limits. The 'next steps' suggestion is harmless."
+ },
+ "raw": null,
+ "cost_usd": 0.007616
+}

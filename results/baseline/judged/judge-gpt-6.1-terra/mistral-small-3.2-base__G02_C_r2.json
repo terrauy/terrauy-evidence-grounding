@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G02_C_r2.json",
+ "prompt_sha256": "b9fdbf255c79b58e1b9ff13232e0571aa2d0d1ad0df6a8774be8efeabb84884e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly places the 67.7 ha loss in 2020 and reports no qualifying post-cutoff events, while noting smaller 2021 patches."
+ },
+ "raw": null,
+ "cost_usd": 0.00278
+}

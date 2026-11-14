@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J04_C_r0.json",
+ "prompt_sha256": "136333cdeb61ae7b4317c4de4e6e624f669f8b7a7ae2b26ff0262b7f9a5d69bf",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly lists 2021, 2022 and 2023 as supported and says none after 2020 are contradicted. It identifies the 2019 and 2020 contradicted events as pre-baseline and outside the claim. It also states what the evidence does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.010582
+}

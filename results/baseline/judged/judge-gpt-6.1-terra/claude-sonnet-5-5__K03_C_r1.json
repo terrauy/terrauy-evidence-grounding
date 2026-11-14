@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K03_C_r1.json",
+ "prompt_sha256": "db4d46d70da6809972a09b9d7471b19cbaf7b910f395d699cff75b1fe4a31f2c",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports zero detections and full sensor coverage, with appropriate limitations and scope."
+ },
+ "raw": null,
+ "cost_usd": 0.002163
+}

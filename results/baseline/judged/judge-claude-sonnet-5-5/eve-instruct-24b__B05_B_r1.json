@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B05_B_r1.json",
+ "prompt_sha256": "41ec8964fca0fe7f7c94ffe00431e06c1bfb42ac2c4bb2379c5392b62e670bdf",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer states the 2015 loss is a supported Hansen event before the baseline and says no cause is given. However, it adds an unsupported claim that the property had no forest left by 2020, and it implies satellite confirmation and corroboration beyond the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.008974
+}

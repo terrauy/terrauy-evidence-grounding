@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I06_C_r1.json",
+ "prompt_sha256": "a5a047269cee43681943875c07e20e9ef372dfbf2700821acfb9a47ceba5a03a",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": false,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The headline says not all days were checked, which is the superseded v1 gap, then contradicts itself by describing v2 full coverage. It also invents 'the gap was filled' and gives no limitation about no detection not proving no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.015818
+}

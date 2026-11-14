@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H02_C_r0.json",
+ "prompt_sha256": "1425805736a0317b499809720488f9476cbfc870fb949bf3070a87b8b3579814",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, giving 68.1 ha planted and 13.2 ha outside mapped forest, matching the key. Limitations are stated, and the 37.3 ha sub-threshold figure is in the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008226
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G03_B_r1.json",
+ "prompt_sha256": "5825bf83df511822f2928ad66c4e2caf5a849e6e9fdffdb54b2a33b58288a512",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts loss in both years and invents a supported 2025 event, contradicting the evidence; it also claims an unsupported trend."
+ },
+ "raw": null,
+ "cost_usd": 0.003682
+}

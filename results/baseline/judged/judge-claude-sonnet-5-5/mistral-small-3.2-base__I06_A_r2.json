@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I06_A_r2.json",
+ "prompt_sha256": "da7d90746381519916cfd5d9456fce314f1c389cdf474cf17bf20d4ae65e1515",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": false,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says No, relying on the superseded v1 gap and treating it as current. It mislabels the runs and ignores that v2 is current with full coverage. The stance contradicts the expected Yes."
+ },
+ "raw": null,
+ "cost_usd": 0.011524
+}

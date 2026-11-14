@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G02_A_r1.json",
+ "prompt_sha256": "0d40ff486ae34a757c1223a717cc59fec60725d2229be63ba5132fe7d659f466",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly dates the loss and notes the event threshold, but unsupportedly claims both Hansen and JRC independently confirm no substantial post-baseline loss."
+ },
+ "raw": null,
+ "cost_usd": 0.002781
+}

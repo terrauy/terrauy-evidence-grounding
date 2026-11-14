@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E04_C_r1.json",
+ "prompt_sha256": "12563dc8ee230c69a360a74e6b82468b4ff9faf26e9d4ea39569ce29b4fcbecd",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no detections in covered days (Sep 25\u2013Oct 24), flags the Oct 24\u201325 gap as insufficient, notes small or obscured fires may be missed, and does not claim that no fire occurred. This is consistent with the key, though it frames the gap as only 'the final day'."
+ },
+ "raw": null,
+ "cost_usd": 0.009196
+}

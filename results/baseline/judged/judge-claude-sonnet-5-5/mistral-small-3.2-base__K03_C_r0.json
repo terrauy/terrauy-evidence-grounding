@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K03_C_r0.json",
+ "prompt_sha256": "645389387d98854963b51b3594cdedcfc0d4cd6ecb8e2fb340e91e4244caf56b",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports zero FIRMS detections in ASSET-F07 for 2026-09-26 to 2026-10-26, with all four sensors covering the full period. It notes that small, short, cool or cloud-obscured fires may be missed. All of this is in the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.006986
+}

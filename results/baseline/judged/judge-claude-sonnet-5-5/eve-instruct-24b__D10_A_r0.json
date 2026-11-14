@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D10_A_r0.json",
+ "prompt_sha256": "eb07ce5a230a6df44cc22f29b95179586ad3e58b7ebd68473769a07c8ad3de88",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer affirms stable, unchanged tree cover ('remains stable'), which is a forbidden absence claim. It also asserts the corroboration rule is met, which is unsupported. It names no limitations, such as the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.007856
+}

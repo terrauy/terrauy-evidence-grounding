@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F01_C_r1.json",
+ "prompt_sha256": "6765d6d864df52d315d205f0e6c6071c9e4947e0dfa97605c419c1754a865eff",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer names Hansen/UMD GFC-2025-v1.13 as detector, correctly frames JRC as corroborating and MGAP as context; numbers match facts; states limits on what is not established."
+ },
+ "raw": null,
+ "cost_usd": 0.008562
+}

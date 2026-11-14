@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J01_B_r1.json",
+ "prompt_sha256": "81007d56ab7c52311be045fdaf3be8fe64a29719cc6da84a081dbc8d08f9984c",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says loss is not corroborated: Hansen 1.8 ha vs JRC 0 agreement, explicitly does not prove absence or deforestation. Planted pine and 3.1 ha sub-threshold patches are supported by the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.009136
+}

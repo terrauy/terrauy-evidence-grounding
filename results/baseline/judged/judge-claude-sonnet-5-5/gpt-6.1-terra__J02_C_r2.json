@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J02_C_r2.json",
+ "prompt_sha256": "3998e73e3e25eeaf7df3f52ade30d18d7b183f770e7746630b74b3dfc19bf860",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports Hansen 0.7 ha loss contradicted by JRC non-forest and says neither loss nor its absence is established. The 1.3 ha sub-threshold patches figure is in the facts. No forbidden claims asserted."
+ },
+ "raw": null,
+ "cost_usd": 0.009024
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E06_A_r1.json",
+ "prompt_sha256": "a8251953342a805dc842e9d2df6e65b156f014e0678c5d9d044216c5c9cba79d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The opening asserts fires occurred despite no supporting detections; it also misstates the coverage gap as only November 4."
+ },
+ "raw": null,
+ "cost_usd": 0.003012
+}

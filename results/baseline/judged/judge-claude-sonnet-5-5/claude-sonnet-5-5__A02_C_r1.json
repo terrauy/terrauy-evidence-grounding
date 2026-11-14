@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/A02_C_r1.json",
+ "prompt_sha256": "26de5fc77c5dfa0a6dcdde669b2a1a3c2a20b1b21e6c70da9af8c5a93d3a95b9",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   },
+   {
+    "index": 4,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports corroborated post-2020 tree-cover loss (81.3, 0.6, 4.5 ha) and says deforestation, cause, legality, actor and compliance are not established. Numbers and the sub-0.5 ha patch total match the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.01691
+}

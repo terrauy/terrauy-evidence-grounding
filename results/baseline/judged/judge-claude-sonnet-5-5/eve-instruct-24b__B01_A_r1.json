@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B01_A_r1.json",
+ "prompt_sha256": "fa2a0345da39cb49c060cbacfd3766854d8a66fc7abe4a61696b1743e5ad6847",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer says harvesting was the most likely cause and supports it with planted-forest context. It also invents that the 37.3 ha of excluded patches suggest systematic clearing, and says Hansen and MGAP both captured the event, which misattributes the MGAP role. It gives no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.009376
+}

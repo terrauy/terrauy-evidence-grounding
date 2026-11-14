@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D05_C_r2.json",
+ "prompt_sha256": "0751cfa9f7d12dd04f76e9977db8738d4888c0b69bb526907381e335b37497d9",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports no FIRMS thermal detections in the period and explicitly says this does not rule out a fire; it does not claim no fire occurred, consistent with the key."
+ },
+ "raw": null,
+ "cost_usd": 0.006812
+}

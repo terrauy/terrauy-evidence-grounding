@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/I05_A_r1.json",
+ "prompt_sha256": "f9accac587596fe79949a9b7f63af286d4fc6343e7c6742db62f92b94d28e7b3",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports the current v2 corroborated 81.3 ha loss with JRC 0.98 and notes the earlier pending status as superseded. It makes no deforestation or cause claim. It mentions the sub-0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.01267
+}

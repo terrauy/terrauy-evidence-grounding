@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G01_C_r2.json",
+ "prompt_sha256": "4742ea2504fc3c066a8b3fdd5d655d352dcfdd90bf2f19b82a4eca5067896c41",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer opens with 'has not experienced any significant tree-cover loss', which reads as an absence claim, though it ties this to the 0.5 ha threshold. It also calls the data 'high-confidence', which is not in the evidence. It does note the sub-0.5 ha 2021 patches."
+ },
+ "raw": null,
+ "cost_usd": 0.008776
+}

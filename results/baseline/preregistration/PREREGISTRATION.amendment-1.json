@@ -1,0 +1,65 @@
+{
+ "amendment": 1,
+ "recorded_at": "2026-11-13",
+ "supersedes_hashes_of": "PREREGISTRATION.lock.json (2026-11-12); that file is kept unchanged",
+ "unchanged": [
+  "tasks",
+  "answer keys",
+  "data",
+  "render (A/B/C)",
+  "detector",
+  "evaluate (metrics, thresholds, verdict rules)",
+  "prompts"
+ ],
+ "changes": [
+  {
+   "when": "before any model output",
+   "file": "harness/config.json",
+   "what": "budget_usd 450 -> 100 (owner hard stop); OpenAI agent = gpt-6.1-terra (reasoning_effort none; the only OpenAI model in the account that accepts temperature 0/0.7); OpenAI judge = gpt-6.1-terra; Mistral API replaced by Mistral-Small-3.2-24B-Instruct-2506 rev 95a6d26c served on an identical HF/vLLM A100 endpoint (same stack as EVE; no Mistral API key); EVE served id eve-esa/EVE-Instruct rev eecb769f (BF16, not quantized); pilot_task_ids and gpu_endpoints recorded"
+  },
+  {
+   "when": "pilot (API constraint, not a result)",
+   "file": "harness/config.json + run.py",
+   "what": "claude-sonnet-5-5 rejects temperature (400 'temperature is deprecated for this model'); Claude agent and judge use provider-default sampling, recorded as temperature=null; the 3 Claude runs are therefore 3 default-temperature samples"
+  },
+  {
+   "when": "before any model output",
+   "file": "harness/run.py, harness/judge.py",
+   "what": "harness-only: concurrency (thread pool), --task-ids/--runs/--workers/--only-judge filters, credential redaction in error strings, judge retries count tokens of all attempts"
+  },
+  {
+   "when": "after pilot judging (objective bug)",
+   "file": "harness/judge.py (judge-v1 -> judge-v2)",
+   "what": "judge-v1 did not see the evidence, so it flagged facts faithfully restated from the evidence (e.g. a planted-forest area and the JRC agreement value) as 'other_unsupported': 41/47 pilot UC labels came only from that flag; judge kappa 0.12. judge-v2 adds a condition-neutral fact sheet (every leaf value of the canonical units, identical for A/B/C answers) and defines other_unsupported relative to it. Judges remain blind to model and condition. judge-v1 outputs kept in results/pilot_judge_v1/. Pilot kappa after fix 0.47."
+  },
+  {
+   "when": "after judging pass 1 (objective bug)",
+   "file": "harness/config.json",
+   "what": "Claude judge max_tokens 700 -> 2000: Sonnet 5.5 default adaptive thinking consumed the budget and truncated 11 JSON verdicts (unparseable after 3 attempts). Those 11 files moved to results/unparsed_judge_attempts/ and re-judged; parsed verdicts unaffected."
+  },
+  {
+   "when": "after Claude judge finished (budget, owner-authorized)",
+   "file": "none",
+   "what": "OpenAI judge hit 429 no-credits with 512/2952 pending; after a USD 5 owner top-up exactly those 512 were judged (no re-runs). Final coverage 100%."
+  }
+ ],
+ "sha256": {
+  "tasks/tasks_v0.1.jsonl": "1890a2f0c3e16956002d9a98c08179edb098f73dc8ad4b46df42803203082d4f",
+  "data/cases_real.json": "6b3de3c8f0b47fc1b16ec74c5fd74f2fee90a5dc4c28bb1f4bca9fc5bada04cf",
+  "harness/build_tasks.py": "f5c65ca2197e23234ef95a44245c14493b6e1d96a71a5dddee0d5c2756601494",
+  "harness/render.py": "33ef00c476faa7ff499dc2da4a5dcfcf05c198d6c08cf09ef97fa2ddb1f5cf54",
+  "harness/run.py": "2f6861808bdb5530db9431934e84aa41216c684e6c88750769fbe90b16eb3890",
+  "harness/detect.py": "6934412011403ab48451c03e2c90d98da0f9d9a604e45498d0b74361b5a562d7",
+  "harness/judge.py": "6505824fcd17462701364dad4e3e29784a7f2ba3f0edb854f51b7427c7d8ba36",
+  "harness/evaluate.py": "d3725cf8471c050588d8a217c19b6ecaa743c93e293359d85896f405b75bbbd8",
+  "harness/config.json": "8bda4592d695e854cee4377b269577a1c45ccba41442cf105069e86009668e47",
+  "harness/analysis_extra.py": "d506a9a37eae3d42eb9a2b05fd790d45f3487b4de0c59a063e3e8348f083f87a"
+ },
+ "known_limitations_recorded_without_change": [
+  "Claude agent: default adaptive thinking counts against the preregistered 600-token cap; 133/738 Claude answers hit max_tokens (124 in condition A, 8 in C, 1 in B). Not re-run (re-running only truncated cases would bias the sample); sensitivity analysis excludes affected pairs (harness/analysis_extra.py)."
+ ],
+ "public_redaction": {
+  "note": "Public copy: one example quoting real area values was replaced by a generic description (privacy). The unredacted original is kept in the internal archive.",
+  "unredacted_sha256": "80da54dded94871a5fa248876502e4a06e2900f3ee8f344ffb037c27adea1be5"
+ }
+}

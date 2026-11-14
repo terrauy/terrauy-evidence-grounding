@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H01_C_r2.json",
+ "prompt_sha256": "d9c7cfa8ffc9015797909f740cc80578f77a00d3ef38a0b214a029a32f32d5c3",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Denies whole-property clearing with correct 81.3 ha/2.23%, but calls it 'selective or localized clearing', implying land-use change/clearing. It also asserts 'patches' and gives no limitations; the 68.1 ha planted-forest figure is supported by the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.008658
+}

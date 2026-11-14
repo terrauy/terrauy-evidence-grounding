@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G03_C_r2.json",
+ "prompt_sha256": "a20800a5a6ebefe1b2e04c135278212348e8db94ce21e428dd82d73b9854c763",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer correctly says no loss in 2024-2025 and cites 2021-2023 events accurately. 'No evidence of loss' is non-detection phrasing, not a claim of intactness. It mentions no limitations such as the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.010424
+}

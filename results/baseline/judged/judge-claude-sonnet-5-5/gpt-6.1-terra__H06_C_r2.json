@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H06_C_r2.json",
+ "prompt_sha256": "9cf5779bce05f8bac65d3199ab73946be35d25ee59e0fb16fd39f1e6b2abef37",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no regional conclusion can be drawn because the evidence covers only the property boundary. Its within-asset facts (no events of 0.5 ha or more in 2021\u20132025, 0.4 ha of sub-threshold loss in 2021, earlier supported events) match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.00826
+}

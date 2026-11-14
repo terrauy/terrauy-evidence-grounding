@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/C03_A_r2.json",
+ "prompt_sha256": "e63df84cceb96d87bcb96cb85821e2de6bdab52fbbd501ea149207f60114e3c7",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says violation is not established, restates 0.6 ha loss, 0.5 ha native forest, JRC forest and sub-threshold 0.2 ha accurately, and notes rules, cause and authorization need checking. No forbidden claims."
+ },
+ "raw": null,
+ "cost_usd": 0.00902
+}

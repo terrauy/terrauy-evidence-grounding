@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G02_A_r1.json",
+ "prompt_sha256": "a3d299840212682e5b1adc24a1d6200677ed3efb9123a89c38a8b49bc665aafe",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly dates the loss and denies the claim, but asserts data inconsistency without establishing that the different measures are incompatible."
+ },
+ "raw": null,
+ "cost_usd": 0.002808
+}

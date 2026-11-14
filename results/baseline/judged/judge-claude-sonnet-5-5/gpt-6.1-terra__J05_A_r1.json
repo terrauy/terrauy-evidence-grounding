@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J05_A_r1.json",
+ "prompt_sha256": "638168549b626e7b7b754e19e678f7c3d48b8f781aefc3ac23efb16c6b8cc43c",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 'Not necessarily' they contradict, explains loss before reference can coexist with non-forest, and notes the 67.7 ha is pre-baseline history. It does not explicitly say non-forest corroborates the loss, but it is consistent with the key."
+ },
+ "raw": null,
+ "cost_usd": 0.008352
+}

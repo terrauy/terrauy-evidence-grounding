@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D08_A_r1.json",
+ "prompt_sha256": "42846b9588f1e7a60308a6ff8b8af17cc3e6f38826de275a193dabb3e3bdd860",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer flatly says no deforestation occurred, which is a denial and not a non-detection. It misstates the JRC data as 'no forest cover remained'; JRC shows 0 ha of forest in 2020. It does mention the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.00877
+}

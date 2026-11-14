@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K01_B_r1.json",
+ "prompt_sha256": "65187c4e0c90f53e89a0eb42e2ffbfd21de3a8dbdc607f3420e19871c8994efd",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports the 2021 loss, asset share, corroboration, planted-forest context, and limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002666
+}

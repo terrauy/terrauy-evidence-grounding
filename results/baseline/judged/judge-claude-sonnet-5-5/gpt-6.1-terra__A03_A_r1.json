@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/A03_A_r1.json",
+ "prompt_sha256": "ad388f8d934d36eac6646d8271c0d3f1c1e3cc2a346da42e1b47b9408d7fc15d",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers \"Yes\" to deforestation of native forest, implying deforestation occurred, which the key says is not established. Numbers are correct and the threshold limit is mentioned, but it never states that deforestation, cause, or legality are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.009268
+}

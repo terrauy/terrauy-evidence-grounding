@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B06_C_r2.json",
+ "prompt_sha256": "d653871b53c269cc8534d789e9999e0e4311dd805f54769a8bf47e95f6352268",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer concludes loss was 'likely a eucalyptus harvest', inferring cause from species context, which the key forbids. It also invents that 'stand-replacing is consistent with harvesting' and 'not primary forest' as support, though it notes limits."
+ },
+ "raw": null,
+ "cost_usd": 0.00917
+}

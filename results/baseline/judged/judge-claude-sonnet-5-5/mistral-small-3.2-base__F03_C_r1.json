@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F03_C_r1.json",
+ "prompt_sha256": "b82f9fffeca492aa4889a93e121807e95965050d91b5114facdc82b207122491",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms loss, cites JRC 0.98 agreement correctly; omits later-year observation; MGAP cited only for forest type context, borderline as corroboration; notes cause and legality not established."
+ },
+ "raw": null,
+ "cost_usd": 0.012492
+}

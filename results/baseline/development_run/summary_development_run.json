@@ -1,0 +1,404 @@
+{
+ "eval_version": "evaluate-v1",
+ "n_responses": 2952,
+ "models": [
+  "claude-sonnet-5-5",
+  "eve-instruct-24b",
+  "gpt-6.1-terra",
+  "mistral-small-3.2-base"
+ ],
+ "conditions": [
+  "A",
+  "B",
+  "C"
+ ],
+ "rates": {
+  "claude-sonnet-5-5": {
+   "A": {
+    "uc": 0.2967479674796748,
+    "cv": 0.06910569105691057,
+    "ocr": 0.18333333333333332,
+    "source_ok": 0.9583333333333334,
+    "scope_ok": 1.0,
+    "version_ok": 1.0,
+    "abstention_ok": 0.7671232876712328,
+    "factual_ok": 0.9009009009009009,
+    "limitation": 0.9095238095238095
+   },
+   "B": {
+    "uc": 0.052845528455284556,
+    "cv": 0.008130081300813009,
+    "ocr": 0.015625,
+    "source_ok": 0.9166666666666666,
+    "scope_ok": 1.0,
+    "version_ok": 1.0,
+    "abstention_ok": 0.74235807860262,
+    "factual_ok": 1.0,
+    "limitation": 1.0
+   },
+   "C": {
+    "uc": 0.04878048780487805,
+    "cv": 0.0040650406504065045,
+    "ocr": 0.0,
+    "source_ok": 1.0,
+    "scope_ok": 1.0,
+    "version_ok": 1.0,
+    "abstention_ok": 0.759090909090909,
+    "factual_ok": 1.0,
+    "limitation": 1.0
+   }
+  },
+  "eve-instruct-24b": {
+   "A": {
+    "uc": 0.7804878048780488,
+    "cv": 0.4959349593495935,
+    "ocr": 0.6491228070175439,
+    "source_ok": 0.5833333333333334,
+    "scope_ok": 0.7619047619047619,
+    "version_ok": 0.8333333333333334,
+    "abstention_ok": 0.9240506329113924,
+    "factual_ok": 0.3247422680412371,
+    "limitation": 0.6319018404907976
+   },
+   "B": {
+    "uc": 0.42276422764227645,
+    "cv": 0.17073170731707318,
+    "ocr": 0.26785714285714285,
+    "source_ok": 0.6666666666666666,
+    "scope_ok": 0.7142857142857143,
+    "version_ok": 1.0,
+    "abstention_ok": 0.8623853211009175,
+    "factual_ok": 0.7515151515151515,
+    "limitation": 0.9124423963133641
+   },
+   "C": {
+    "uc": 0.45934959349593496,
+    "cv": 0.18699186991869918,
+    "ocr": 0.35,
+    "source_ok": 0.75,
+    "scope_ok": 0.6666666666666666,
+    "version_ok": 1.0,
+    "abstention_ok": 0.8237885462555066,
+    "factual_ok": 0.7329192546583851,
+    "limitation": 0.9074074074074074
+   }
+  },
+  "gpt-6.1-terra": {
+   "A": {
+    "uc": 0.15040650406504066,
+    "cv": 0.08130081300813008,
+    "ocr": 0.14285714285714285,
+    "source_ok": 0.9583333333333334,
+    "scope_ok": 0.9285714285714286,
+    "version_ok": 1.0,
+    "abstention_ok": 0.7763157894736842,
+    "factual_ok": 0.9082969432314411,
+    "limitation": 0.95260663507109
+   },
+   "B": {
+    "uc": 0.0,
+    "cv": 0.0,
+    "ocr": 0.0,
+    "source_ok": 1.0,
+    "scope_ok": 1.0,
+    "version_ok": 1.0,
+    "abstention_ok": 0.7557603686635944,
+    "factual_ok": 1.0,
+    "limitation": 0.9452054794520548
+   },
+   "C": {
+    "uc": 0.0,
+    "cv": 0.0,
+    "ocr": 0.0,
+    "source_ok": 1.0,
+    "scope_ok": 1.0,
+    "version_ok": 1.0,
+    "abstention_ok": 0.7548076923076923,
+    "factual_ok": 1.0,
+    "limitation": 0.9675925925925926
+   }
+  },
+  "mistral-small-3.2-base": {
+   "A": {
+    "uc": 0.7073170731707317,
+    "cv": 0.483739837398374,
+    "ocr": 0.6181818181818182,
+    "source_ok": 0.5,
+    "scope_ok": 0.7142857142857143,
+    "version_ok": 0.7222222222222222,
+    "abstention_ok": 0.8927038626609443,
+    "factual_ok": 0.39896373056994816,
+    "limitation": 0.43636363636363634
+   },
+   "B": {
+    "uc": 0.21951219512195122,
+    "cv": 0.1016260162601626,
+    "ocr": 0.19298245614035087,
+    "source_ok": 0.625,
+    "scope_ok": 0.7142857142857143,
+    "version_ok": 0.9444444444444444,
+    "abstention_ok": 0.8,
+    "factual_ok": 0.8712871287128713,
+    "limitation": 0.8967136150234741
+   },
+   "C": {
+    "uc": 0.2967479674796748,
+    "cv": 0.13821138211382114,
+    "ocr": 0.2857142857142857,
+    "source_ok": 0.7916666666666666,
+    "scope_ok": 0.6666666666666666,
+    "version_ok": 0.8333333333333334,
+    "abstention_ok": 0.788546255506608,
+    "factual_ok": 0.7914438502673797,
+    "limitation": 0.8009950248756219
+   }
+  },
+  "POOLED": {
+   "A": {
+    "uc": 0.483739837398374,
+    "cv": 0.28252032520325204,
+    "ocr": 0.3872340425531915,
+    "source_ok": 0.75,
+    "scope_ok": 0.8511904761904762,
+    "version_ok": 0.8888888888888888,
+    "abstention_ok": 0.8418756815703381,
+    "factual_ok": 0.6539379474940334,
+    "limitation": 0.7570093457943925
+   },
+   "B": {
+    "uc": 0.17378048780487804,
+    "cv": 0.0701219512195122,
+    "ocr": 0.1111111111111111,
+    "source_ok": 0.8020833333333334,
+    "scope_ok": 0.8571428571428571,
+    "version_ok": 0.9861111111111112,
+    "abstention_ok": 0.7895335608646189,
+    "factual_ok": 0.9210836277974087,
+    "limitation": 0.939150401836969
+   },
+   "C": {
+    "uc": 0.20121951219512196,
+    "cv": 0.08231707317073171,
+    "ocr": 0.14919354838709678,
+    "source_ok": 0.8854166666666666,
+    "scope_ok": 0.8333333333333334,
+    "version_ok": 0.9583333333333334,
+    "abstention_ok": 0.782312925170068,
+    "factual_ok": 0.9019138755980861,
+    "limitation": 0.9216374269005848
+   }
+  }
+ },
+ "uc_wilson_ci_pooled": {
+  "A": [
+   0.453,
+   0.515
+  ],
+  "B": [
+   0.151,
+   0.199
+  ],
+  "C": [
+   0.177,
+   0.227
+  ]
+ },
+ "primary": {
+  "C_vs_B": {
+   "abs_reduction": -0.027,
+   "abs_ci95": [
+    -0.065,
+    0.012
+   ],
+   "rel_reduction": -0.158,
+   "rel_ci95": [
+    -0.432,
+    0.062
+   ],
+   "n_pairs": 984,
+   "b": 69,
+   "c": 96,
+   "p": 0.042633182884440735
+  },
+  "C_vs_A": {
+   "abs_reduction": 0.283,
+   "abs_ci95": [
+    0.23,
+    0.336
+   ],
+   "rel_reduction": 0.584,
+   "rel_ci95": [
+    0.506,
+    0.659
+   ],
+   "n_pairs": 984,
+   "b": 310,
+   "c": 32,
+   "p": 2.5957482130382308e-58
+  },
+  "B_vs_A": {
+   "abs_reduction": 0.31,
+   "abs_ci95": [
+    0.255,
+    0.364
+   ],
+   "rel_reduction": 0.641,
+   "rel_ci95": [
+    0.563,
+    0.71
+   ],
+   "n_pairs": 984,
+   "b": 332,
+   "c": 27,
+   "p": 6.0666637206028335e-68
+  }
+ },
+ "per_model_C_vs_B": {
+  "claude-sonnet-5-5": {
+   "C_vs_B": {
+    "abs_reduction": 0.004,
+    "abs_ci95": [
+     -0.037,
+     0.049
+    ],
+    "rel_reduction": 0.077,
+    "rel_ci95": [
+     -1.167,
+     0.647
+    ],
+    "n_pairs": 246,
+    "b": 12,
+    "c": 11,
+    "p": 1.0
+   }
+  },
+  "eve-instruct-24b": {
+   "C_vs_B": {
+    "abs_reduction": -0.037,
+    "abs_ci95": [
+     -0.126,
+     0.057
+    ],
+    "rel_reduction": -0.087,
+    "rel_ci95": [
+     -0.341,
+     0.125
+    ],
+    "n_pairs": 246,
+    "b": 34,
+    "c": 43,
+    "p": 0.36203179773966154
+   }
+  },
+  "gpt-6.1-terra": {
+   "C_vs_B": {
+    "abs_reduction": 0.0,
+    "abs_ci95": [
+     0.0,
+     0.0
+    ],
+    "rel_reduction": null,
+    "rel_ci95": null,
+    "n_pairs": 246,
+    "b": 0,
+    "c": 0,
+    "p": 1.0
+   }
+  },
+  "mistral-small-3.2-base": {
+   "C_vs_B": {
+    "abs_reduction": -0.077,
+    "abs_ci95": [
+     -0.159,
+     0.0
+    ],
+    "rel_reduction": -0.352,
+    "rel_ci95": [
+     -0.941,
+     0.0
+    ],
+    "n_pairs": 246,
+    "b": 23,
+    "c": 42,
+    "p": 0.024811974571552164
+   }
+  }
+ },
+ "secondary_C_vs_B": {
+  "observability (OCR)": {
+   "B": 0.111,
+   "C": 0.149,
+   "improved_direction": false,
+   "n_pairs": 230,
+   "b": 6,
+   "c": 13,
+   "p": 0.1670684814453125,
+   "p_holm": 0.6683,
+   "significant_improvement": false
+  },
+  "constraint compliance (CV)": {
+   "B": 0.07,
+   "C": 0.082,
+   "improved_direction": false,
+   "n_pairs": 984,
+   "b": 37,
+   "c": 49,
+   "p": 0.23537986221105522,
+   "p_holm": 0.7061,
+   "significant_improvement": false
+  },
+  "source attribution": {
+   "B": 0.802,
+   "C": 0.885,
+   "improved_direction": true,
+   "n_pairs": 96,
+   "b": 9,
+   "c": 1,
+   "p": 0.021484375,
+   "p_holm": 0.1074,
+   "significant_improvement": false
+  },
+  "appropriate abstention": {
+   "B": 0.79,
+   "C": 0.782,
+   "improved_direction": false,
+   "n_pairs": 831,
+   "b": 11,
+   "c": 18,
+   "p": 0.26493089646101,
+   "p_holm": 0.7061,
+   "significant_improvement": false
+  },
+  "temporal/spatial scope": {
+   "B": 0.857,
+   "C": 0.833,
+   "improved_direction": false,
+   "n_pairs": 168,
+   "b": 7,
+   "c": 11,
+   "p": 0.480682373046875,
+   "p_holm": 0.7061,
+   "significant_improvement": false
+  }
+ },
+ "factual_ok": {
+  "B": 0.9210836277974087,
+  "C": 0.9019138755980861
+ },
+ "criteria": {
+  "primary_rel_reduction_ge_30pct": false,
+  "primary_abs_ci_excludes_0": false,
+  "primary_mcnemar_p_lt_0.05": true,
+  "secondary_ge_2_significant": false,
+  "factual_not_degraded_gt_5pp": true,
+  "no_floor_effect_ucr_b_ge_5pct": true
+ },
+ "verdict": "FAIL",
+ "inter_rater": {
+  "judge1_vs_judge2_uc_kappa": 0.709,
+  "judges_majority_vs_detector_kappa": 0.275,
+  "final_uc_vs_detector_kappa": 0.292,
+  "disputed_stance_rate": 0.113
+ },
+ "note": "Development run on the real (non-public) area values, 2026-11-13. Aggregates only; not reproducible from public files."
+}

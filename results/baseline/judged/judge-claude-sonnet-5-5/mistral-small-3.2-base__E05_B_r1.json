@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E05_B_r1.json",
+ "prompt_sha256": "67ca102d06721e7930d792b3524457aa955aa175306595dc637c90d97fa9b84f",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports no detections in covered days, flags the 2026-11-02 to 11-06 gap as insufficient evidence, and notes that absence of detections does not guarantee no fire. It does not confirm the full period."
+ },
+ "raw": null,
+ "cost_usd": 0.007954
+}

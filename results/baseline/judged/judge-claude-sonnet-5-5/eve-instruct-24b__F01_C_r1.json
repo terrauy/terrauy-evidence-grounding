@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F01_C_r1.json",
+ "prompt_sha256": "bd8bb989f4647cda2ce9426714486725d5bb329ce95650ec3612eed71259ab6a",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Names Hansen as detecting the loss, with JRC as corroboration and MGAP as forest-type context. All consistent with the facts. MGAP 'validated' is slightly loose but not misattribution. No limitations stated."
+ },
+ "raw": null,
+ "cost_usd": 0.008392
+}

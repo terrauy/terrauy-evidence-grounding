@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C01_B_r0.json",
+ "prompt_sha256": "bcc5850ab7e607458f8d5a433910130f31c4a8ffe91d82d89cd95a80f1207a6d",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says legality, responsible parties and compliance are not determined; reports 81.3 ha tree-cover loss in planted forest. 'Loss occurred' is tree-cover loss, not deforestation. Causes are listed only as possibilities."
+ },
+ "raw": null,
+ "cost_usd": 0.009068
+}

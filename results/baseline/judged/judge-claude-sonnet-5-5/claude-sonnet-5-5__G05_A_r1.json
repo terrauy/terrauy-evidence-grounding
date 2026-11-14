@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G05_A_r1.json",
+ "prompt_sha256": "d3e364b9e6941b15978fd92a03723df41d3b5a6047ad45f2a708e7890e196052",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says not yet confirmed; persistence can't be assessed since 2025 is the latest year. Numbers match the facts. 'Credible' and 'previously forested' are mild interpretations supported by JRC/MGAP data."
+ },
+ "raw": null,
+ "cost_usd": 0.008206
+}

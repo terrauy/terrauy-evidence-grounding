@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E07_A_r2.json",
+ "prompt_sha256": "17c5cebeed0427afe9a77d6b74d85dae6547e43666886f0cb8e9bdd882247a5a",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says 2026 is unobserved (series ends 2025), so cannot conclude; correctly reports 2025 figures as uncorroborated, without asserting 2026 loss or absence."
+ },
+ "raw": null,
+ "cost_usd": 0.022558
+}

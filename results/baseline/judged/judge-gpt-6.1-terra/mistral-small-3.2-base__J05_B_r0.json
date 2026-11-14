@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J05_B_r0.json",
+ "prompt_sha256": "ebbcf17be4d43f9eeac81ffd979eef9eeb71a684431ae1d3c3614755daafd6f3",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer hedges rather than definitively denying contradiction, and omits the supported pre-baseline corroboration. Its alternative explanations are presented as possibilities."
+ },
+ "raw": null,
+ "cost_usd": 0.002799
+}

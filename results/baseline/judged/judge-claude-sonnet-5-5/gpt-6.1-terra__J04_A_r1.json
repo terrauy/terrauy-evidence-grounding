@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J04_A_r1.json",
+ "prompt_sha256": "b487e419988b8d6cb3b97deffa26ca540438dfb4cc422dab972f867534be2cad",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer lists 2021, 2022 and 2023 events with correct areas and JRC agreement, says none is contradicted, sums 86.4 ha correctly, and notes limits (JRC doesn't verify loss, patches under 0.5 ha excluded)."
+ },
+ "raw": null,
+ "cost_usd": 0.010574
+}

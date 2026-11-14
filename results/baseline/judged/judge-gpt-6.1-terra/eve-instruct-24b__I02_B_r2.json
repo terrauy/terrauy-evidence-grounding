@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I02_B_r2.json",
+ "prompt_sha256": "13e78b1404aeefe237f8c5d491edf2f8f23877a799e6e5ea3a00031cb769eccf",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The current assessment is correctly described as contradicted, but the answer incorrectly says the 1.8 ha loss was below the 0.5 ha event threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.004327
+}

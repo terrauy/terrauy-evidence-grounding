@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E06_C_r0.json",
+ "prompt_sha256": "446f6dbc18972d0c7a7f02748d772fbcbcf1bebc1fc4ea54d0fb0e2fd4042f2d",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says evidence is insufficient, notes no detections in covered days, identifies the 11-03 to 11-04 gap, and states small or cool fires may be missed. It does not claim that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.009228
+}

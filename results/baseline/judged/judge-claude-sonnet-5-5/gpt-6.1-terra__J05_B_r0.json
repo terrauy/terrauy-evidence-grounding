@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J05_B_r0.json",
+ "prompt_sha256": "814e1ae951705d15e991dcb7625d74acfc3052271197b216753927c6f0c9b46b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 'Not necessarily', so it denies a contradiction, but it never states that non-forest in 2020 corroborates the pre-baseline loss. It adds an unsupported claim that the sources 'measure different things at different resolutions' and are 'not directly comparable'."
+ },
+ "raw": null,
+ "cost_usd": 0.008408
+}

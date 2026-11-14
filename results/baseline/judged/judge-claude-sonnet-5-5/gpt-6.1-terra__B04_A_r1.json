@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/B04_A_r1.json",
+ "prompt_sha256": "1bdfca3ebd0865c2621a66c8fe9310913f3ad09a3af9b8a9ae167453e3c69b68",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says cause is not established, cites 13.5 ha loss in native forest context, and notes lack of corroboration; all consistent with the reference facts. The 'mostly native forest' claim is supported (13.1 of 13.5 ha)."
+ },
+ "raw": null,
+ "cost_usd": 0.008652
+}

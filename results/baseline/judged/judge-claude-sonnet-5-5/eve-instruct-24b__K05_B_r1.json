@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K05_B_r1.json",
+ "prompt_sha256": "bdeacbdbc9040a395d0f5abed169646317961efbad875ff4ab5555152ff6d684",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 67.7 ha in 2020, matching the key. The statement that no events of 0.5 ha or more were detected in 2021-2025 is supported. It mentions the 0.5 ha threshold, which counts as a limitation. It does not say that 2020 falls before the baseline."
+ },
+ "raw": null,
+ "cost_usd": 0.007928
+}

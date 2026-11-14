@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K07_A_r2.json",
+ "prompt_sha256": "476010c915a92ed0f64b135dacc3fb51f44564c4a0111a2447fe35db1304bf3c",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says no evaluation because source coverage was not prepared. However, it invents a 'zonal statistics step error' and a null asset area in run metadata, neither of which is in the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008376
+}

@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A07_C_r0.json",
+ "prompt_sha256": "92e5d25a58cea1de3d4d7bc48d85713483338d2b68dca8292b5bac72afb95f24",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly places the 67.7 ha loss before the baseline and notes no events of 0.5 ha or more after it. But it flatly says 'not deforested', which the evidence cannot establish, and it treats the 0.5 ha threshold as a deforestation threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.01392
+}

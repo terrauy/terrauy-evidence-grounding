@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G05_C_r2.json",
+ "prompt_sha256": "fa4a0d7f5809c8047dd200d7e3dc8061de244c05bf3e066b8e54cdd1886313d9",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies pending corroboration, but asserts an unsupported requirement to confirm the area has not regrown."
+ },
+ "raw": null,
+ "cost_usd": 0.002573
+}

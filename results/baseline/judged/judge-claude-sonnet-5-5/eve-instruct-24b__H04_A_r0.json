@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H04_A_r0.json",
+ "prompt_sha256": "ebcc87fc6536f8dea23b564de80ecb31fc152f34c53c500ece6aae00d59be18f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says 0.5 ha is 2.84% of asset (wrong; 3.41% is for 0.6 ha, 0.5/17.6=2.84% derivable though). It frames loss as 'property's native forest' reduction without total native forest quantified; also says confirmed by MGAP, which gives context only."
+ },
+ "raw": null,
+ "cost_usd": 0.008664
+}

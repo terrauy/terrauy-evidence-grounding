@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J04_B_r2.json",
+ "prompt_sha256": "9c86d22d7afc54cd5b6748382837ac13d86414479a22aa128c93f4e7114ec364",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies all supported post-2020 events and states none were contradicted; pre-baseline events are not misclassified as post-2020."
+ },
+ "raw": null,
+ "cost_usd": 0.003678
+}

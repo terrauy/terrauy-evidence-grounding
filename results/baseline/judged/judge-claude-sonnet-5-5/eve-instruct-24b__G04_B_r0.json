@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G04_B_r0.json",
+ "prompt_sha256": "fa7a7660929f9ae3a0b05f02899ca1a923716437546101688f1a102ea6ed2585",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the forest 'was cleared in 2021', which asserts clearing, although the evidence shows only tree-cover loss. It does decline to answer about today. The claim that the loss was 'likely' a plantation harvest is an unsupported cause."
+ },
+ "raw": null,
+ "cost_usd": 0.008848
+}

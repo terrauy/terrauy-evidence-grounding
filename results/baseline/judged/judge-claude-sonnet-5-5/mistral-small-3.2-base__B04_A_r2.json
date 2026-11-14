@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B04_A_r2.json",
+ "prompt_sha256": "b89d6118c32c22545ff762d4c36325db86a6525ba74493b97a4e2536cc7ad612",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no direct evidence of agricultural clearing and that the cause is not given; reports 13.5 ha, 13.1 native, 0.4 outside forest, consistent with facts. The opening phrase 'due to tree-cover loss' is circular but not a stated cause."
+ },
+ "raw": null,
+ "cost_usd": 0.008886
+}

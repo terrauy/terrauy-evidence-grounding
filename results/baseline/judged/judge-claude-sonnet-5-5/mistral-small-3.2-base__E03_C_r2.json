@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E03_C_r2.json",
+ "prompt_sha256": "a54b4d87df8f4d312a1b2c311a59a033d641a0e91dbaaa0da4d8b13b608816ca",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly says the status is insufficient evidence due to missing coverage, so neither loss nor its absence can be concluded. It explicitly negates the no-loss claim. The phrase 'did not find evidence' is slightly loose but acceptable."
+ },
+ "raw": null,
+ "cost_usd": 0.0073
+}

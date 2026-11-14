@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G02_A_r1.json",
+ "prompt_sha256": "0d40ff486ae34a757c1223a717cc59fec60725d2229be63ba5132fe7d659f466",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says 67.7 ha loss was in 2020, before cut-off; mentions the 0.5 ha threshold. However, the claim that JRC confirms no loss after baseline is a mischaracterization, since JRC is a 2020 reference map, not a time series."
+ },
+ "raw": null,
+ "cost_usd": 0.008374
+}

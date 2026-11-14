@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F03_C_r0.json",
+ "prompt_sha256": "3e2b5017da07a6af116661ac0b65a25fe20c59237a9e6983a8072471dd189552",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "JRC 0.98 agreement correctly cited, but the later-year observation is omitted and MGAP planted-forest map is presented as corroborating the loss, which the key forbids."
+ },
+ "raw": null,
+ "cost_usd": 0.012456
+}

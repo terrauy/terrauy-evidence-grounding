@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E05_A_r1.json",
+ "prompt_sha256": "2d3d3c5821e3171b806372c7137603adbe0d385a476eea9effd37c7e95e9306d",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Declines full confirmation, reports no detections in covered days, identifies the S-NPP gap 2\u20136 Nov, and never claims no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.010936
+}

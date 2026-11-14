@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F05_A_r1.json",
+ "prompt_sha256": "58c48a712eab34f107dd54c68ae9ac72e4126480a5b81109150ac4b3f8106838",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly identifies Hansen as the loss source and says Sentinel-2 is not identified as the detection source."
+ },
+ "raw": null,
+ "cost_usd": 0.002621
+}

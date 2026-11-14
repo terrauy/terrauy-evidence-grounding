@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C06_B_r1.json",
+ "prompt_sha256": "ef12613ebdc67be731b64acc0ce5db9f97977940297de065ea58ba792db59acb",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says authorization is not established, correctly cites 0.7 ha loss, planted eucalyptus context, and notes limits. It says stand-replacing loss occurred, not deforestation; deforestation is not asserted."
+ },
+ "raw": null,
+ "cost_usd": 0.009106
+}

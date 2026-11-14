@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H06_A_r1.json",
+ "prompt_sha256": "83dd4397c82d85f5eb9960c8075d6887d8ad9538ea00bf463aab6c33b4e5ccb7",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer affirms regional forest loss, but evidence is limited to the asset boundary. It also invents that JRC confirms no forest remained (it shows 0 ha forest, not confirmation of loss), and the 'deforestation trends' claim is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.008408
+}

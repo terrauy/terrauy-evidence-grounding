@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D06_A_r2.json",
+ "prompt_sha256": "7bf4ebb4645046c964afd3619bd628c53abdab28617dc073f9adc81621f242a3",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Reports zero FIRMS detections with full coverage, but says coverage 'confirm[s] no burning occurred', which asserts no fire occurred. It gives no caveat that non-detection is not proof."
+ },
+ "raw": null,
+ "cost_usd": 0.007278
+}

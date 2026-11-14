@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B01_A_r2.json",
+ "prompt_sha256": "221836ea9def5d93aaac9d00538772eb14c8d453d3546f48e15ca8a994b172d2",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer affirms harvest as the cause, which the evidence explicitly does not establish. It also invents 'industrial harvest patterns' and the claim that 44 ha clearly aligns with them, and implies a stand-replacement land-use change."
+ },
+ "raw": null,
+ "cost_usd": 0.009198
+}

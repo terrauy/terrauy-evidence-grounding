@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B01_A_r1.json",
+ "prompt_sha256": "13fd239632ef899d599d6b388c3dff1fb7573d5320e415115d08cff72b80fa09",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts timber harvest as the likely cause, which the evidence explicitly does not establish. It also misstates that the loss 'did not occur in patches under 0.5 ha'; 37.3 ha of such loss existed separately."
+ },
+ "raw": null,
+ "cost_usd": 0.009192
+}

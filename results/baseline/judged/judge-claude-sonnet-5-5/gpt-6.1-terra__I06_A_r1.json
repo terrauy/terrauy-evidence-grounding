@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/I06_A_r1.json",
+ "prompt_sha256": "b4f385a33950471d67407b8e33f072c5a394481bddab68a0af6b151a1cd9f57e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answers yes using the current v2 with full coverage and no detections, and correctly describes the earlier run's gap as superseded. It does not claim that no fire occurred, but it also states no limitation on the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.01141
+}

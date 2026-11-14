@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H06_C_r2.json",
+ "prompt_sha256": "86ddc63cfaeacf47bd7ca320e054dfdca23ca1d3eb43007c150eb6db91f2aedd",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No: evidence limited to asset boundary, nothing outside assessed. Facts on 0.4 ha, historical events, and JRC zero forest match references. Limitations stated."
+ },
+ "raw": null,
+ "cost_usd": 0.008344
+}

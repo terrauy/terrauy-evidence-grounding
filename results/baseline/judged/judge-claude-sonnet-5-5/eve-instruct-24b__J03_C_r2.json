@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J03_C_r2.json",
+ "prompt_sha256": "adcbfa65178fc7376d55a948101b8257a5f1fe96219397ef3faf1da7fea90aec",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states sources disagree, Hansen 1.4 ha vs JRC 49% below the 50% threshold, so the claim is contradicted/not corroborated. It makes no loss, absence or deforestation claim. MGAP figures are correct."
+ },
+ "raw": null,
+ "cost_usd": 0.008946
+}

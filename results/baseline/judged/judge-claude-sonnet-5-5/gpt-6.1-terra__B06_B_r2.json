@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/B06_B_r2.json",
+ "prompt_sha256": "984082d2b6c57b75859e6306f29390a5e2fae2bb752de6349056ff47c6f17559",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the evidence cannot establish harvest versus fire, storm or clearing; harvest is mentioned only as a possibility. Numbers (0.7, 0.4, 0.3 ha) match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.00902
+}

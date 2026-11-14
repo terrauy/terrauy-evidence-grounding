@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F06_B_r2.json",
+ "prompt_sha256": "a2789fc584babaa2d2c7383039eabde101ae4ec4b22341d0a6387b2e337401ce",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Lists VIIRS S-NPP, NOAA-20, NOAA-21 and MODIS with full-period coverage and zero detections; no forbidden sensors. The 'five source datasets' wording is slightly loose but explained as coverage segments."
+ },
+ "raw": null,
+ "cost_usd": 0.01097
+}

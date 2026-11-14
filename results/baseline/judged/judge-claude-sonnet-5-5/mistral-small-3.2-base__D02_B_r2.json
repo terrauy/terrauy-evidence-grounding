@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D02_B_r2.json",
+ "prompt_sha256": "bba8876579ff1f63da6efb744850c479c0d60347707806186adfa11dafd1e31f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says 'we can confirm the forest has been intact,' which turns a non-detection into proof of absence. It does mention a limit on small changes, but that does not offset the confirmation claim."
+ },
+ "raw": null,
+ "cost_usd": 0.007618
+}

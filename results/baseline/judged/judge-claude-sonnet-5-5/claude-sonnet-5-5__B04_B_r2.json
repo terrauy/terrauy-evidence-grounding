@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/B04_B_r2.json",
+ "prompt_sha256": "a0441407ad4f083badbe6268729edfbb12fc8ce497749b34d1e0f7b8c3bd12a6",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says cause is not established, restates correct figures (13.5 ha, 3.9%, 13.1 ha native, 98% JRC), and notes pending corroboration, with no claims of cause, deforestation, legality or actor."
+ },
+ "raw": null,
+ "cost_usd": 0.009054
+}

@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A05_C_r0.json",
+ "prompt_sha256": "f8352a25deb3823776253357fee9e1b924fcb29f43a53ebcbf0db4d0d555a070",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "hedged"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer affirms 4.5 ha of tree-cover loss in a planted context and says deforestation is not confirmed. Harvest and legality are mentioned only as possibilities. 'Yes' refers to tree-cover loss, not deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.009288
+}

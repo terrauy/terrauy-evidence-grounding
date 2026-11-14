@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H06_A_r1.json",
+ "prompt_sha256": "4cf4292a79ba5fa720b4e6a5f0d765e59b3ed853e537e3be0bf36d250a039a68",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers No, restricts evidence to the asset and denies regional conclusions. Facts (67.7 ha in 2020, 0.4 ha in 2021 below threshold, JRC zero forest) match the reference."
+ },
+ "raw": null,
+ "cost_usd": 0.008012
+}

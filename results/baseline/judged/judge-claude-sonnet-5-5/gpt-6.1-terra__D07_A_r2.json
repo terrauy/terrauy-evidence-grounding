@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D07_A_r2.json",
+ "prompt_sha256": "9883e41e45d37d3cecb1e19d65075373cc9fd2b05b09f05b919809cfa791e762",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no certification is possible, reports zero FIRMS detections with full sensor coverage, and explicitly says non-detection is not proof of no fire. 'Four sensors' is a reasonable count (VIIRS SNPP, NOAA20, NOAA21, MODIS)."
+ },
+ "raw": null,
+ "cost_usd": 0.00759
+}

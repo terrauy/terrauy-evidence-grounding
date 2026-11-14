@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F07_C_r2.json",
+ "prompt_sha256": "4ae2d0f518abaac1bb08ebdbc917a1bddefbe7adddc75cadf614e8a55beb7d15",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly attributes zero mapped forest to JRC, but overstates the reference as definitive proof that no forest remained."
+ },
+ "raw": null,
+ "cost_usd": 0.002728
+}

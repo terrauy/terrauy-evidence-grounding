@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K01_A_r0.json",
+ "prompt_sha256": "e618acd7fe76afb1174819d86f1e7808aa3f2a8758a4634393fd14cba93dde9e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms 81.3 ha (2.23%) in 2021, matching the key. The 37.3 ha sub-0.5 ha patches note is in the facts and acts as a threshold limitation. It does not mention corroboration."
+ },
+ "raw": null,
+ "cost_usd": 0.007938
+}

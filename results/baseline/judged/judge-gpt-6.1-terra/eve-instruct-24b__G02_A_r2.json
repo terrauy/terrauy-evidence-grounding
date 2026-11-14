@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G02_A_r2.json",
+ "prompt_sha256": "dbe7587694915155a1b9e1e0ef6890e7a969ced94fe98d46ace0dd69dfc8fe3e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly dates the 67.7 ha loss before the cutoff, but overstates the JRC map as confirming no forest cover remained."
+ },
+ "raw": null,
+ "cost_usd": 0.002772
+}

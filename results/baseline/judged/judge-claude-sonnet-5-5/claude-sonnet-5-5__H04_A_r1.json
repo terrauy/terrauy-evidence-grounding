@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H04_A_r1.json",
+ "prompt_sha256": "f5c1154343efe8c6db7e38446614fd75417a35466444f1820a45abb267c7ff88",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts 0.5 ha of native forest lost is 2.8% of the property, a share not in the evidence (0.5/17.6 \u2248 2.84% is derived but frames it as native forest loss share of property). It mislabels 3.41% and omits limits."
+ },
+ "raw": null,
+ "cost_usd": 0.00847
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E08_A_r1.json",
+ "prompt_sha256": "4ecceeb7b6498f993081dd83fb3300e43ba10a90867d277945fed9d8fc64d335",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers 'No' for 2026, implying no change, instead of stating 2026 is outside the observed series and cannot be concluded; it only partly notes that no newer data exist."
+ },
+ "raw": null,
+ "cost_usd": 0.012036
+}

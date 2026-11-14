@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D03_C_r1.json",
+ "prompt_sha256": "7469c990a77a8b3dd8f0de831570f6e6201ed9abd67777164c9d723302275534",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 'no evidence of deforestation' and that asset 'meets a practical deforestation-free threshold', a compliance-like finding. It also claims 'two independent' datasets confirm it, an overreach. Limitations are noted, though."
+ },
+ "raw": null,
+ "cost_usd": 0.008048
+}

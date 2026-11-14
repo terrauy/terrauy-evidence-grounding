@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I01_A_r1.json",
+ "prompt_sha256": "32371d4c67391e4eaffc9ad63a905e75b565d805937d9026d91c452314e1e79e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": false,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer cites superseded GFC-2023 as corroborated and incorrectly attributes detection of 2023 loss to JRC, which maps 2020 forest cover."
+ },
+ "raw": null,
+ "cost_usd": 0.004263
+}

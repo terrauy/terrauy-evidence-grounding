@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H06_C_r0.json",
+ "prompt_sha256": "7f5e413842c060a29d16d616b0ea5295d67c7457534f433a61264dfe6dfe4acc",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The regional scope is correctly limited, but zero mapped forest in JRC GFC2020 does not confirm that no forest was present."
+ },
+ "raw": null,
+ "cost_usd": 0.00272
+}

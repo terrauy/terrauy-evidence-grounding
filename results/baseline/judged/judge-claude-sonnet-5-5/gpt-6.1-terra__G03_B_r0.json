@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G03_B_r0.json",
+ "prompt_sha256": "e87145ba9438c6194d7d73df63e989f09da7b8d810d24e0073ac65c623640727",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no events detected in 2024 or 2025, with supported events only in 2021\u20132023, and notes that sub-0.5 ha changes are not counted. It does not claim that no loss occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.010188
+}

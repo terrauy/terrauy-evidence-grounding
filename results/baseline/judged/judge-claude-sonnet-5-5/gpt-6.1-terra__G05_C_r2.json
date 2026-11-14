@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G05_C_r2.json",
+ "prompt_sha256": "1e8ebba62cc837ea70f26b4e6fd1d1b5ca02e7ace619913f652e30ead682d765",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, loss is pending corroboration because 2025 is the latest year; numbers match the facts (13.5 ha, 3.91%, 98% JRC); does not claim persistence; notes cause is not established."
+ },
+ "raw": null,
+ "cost_usd": 0.007886
+}

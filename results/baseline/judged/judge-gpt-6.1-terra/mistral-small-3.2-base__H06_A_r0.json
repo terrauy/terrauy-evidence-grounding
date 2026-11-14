@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H06_A_r0.json",
+ "prompt_sha256": "f1cd8c659f276d517d616cda93fb4fa550d24d382e534dac09923e6f5d78d40d",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts regional forest loss from asset-only evidence and implies a forest-cover decline from non-comparable datasets."
+ },
+ "raw": null,
+ "cost_usd": 0.002685
+}

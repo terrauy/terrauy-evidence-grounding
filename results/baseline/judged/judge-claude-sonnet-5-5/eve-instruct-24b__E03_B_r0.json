@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E03_B_r0.json",
+ "prompt_sha256": "912fcea1a438bb07198adc78b6568005e1a6562a83db5052858bbbd51285a29d",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says insufficient evidence and no conclusion either way. Minor unsupported additions: lists MGAP 2021 as required (supported), but suggests 'higher-resolution imagery' is needed, which isn't in the evidence; the real gap is unprepared coverage."
+ },
+ "raw": null,
+ "cost_usd": 0.007406
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J06_B_r1.json",
+ "prompt_sha256": "7b5b44a23ebb9d18adab44cbce4befacb631f4b4c42be1f66bbeb80c133bd7fc",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly rejects deforestation and notes disagreement, but incorrectly describes the 0.5 ha minimum event area as the JRC corroboration threshold; the required agreement is 50%."
+ },
+ "raw": null,
+ "cost_usd": 0.003061
+}

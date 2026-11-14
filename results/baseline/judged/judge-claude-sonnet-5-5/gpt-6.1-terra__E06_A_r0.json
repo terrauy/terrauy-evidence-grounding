@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E06_A_r0.json",
+ "prompt_sha256": "4533bcda6407b56279baac1c6c57dcaeff51caeee1a5115ba2a287135ff19a2f",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says fire-free status cannot be confirmed, notes no detections, the Nov 3\u20134 coverage gap across all four sensors, and that no detection is not proof of no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.010882
+}

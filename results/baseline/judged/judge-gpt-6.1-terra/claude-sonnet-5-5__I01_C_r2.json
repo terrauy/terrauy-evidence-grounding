@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I01_C_r2.json",
+ "prompt_sha256": "e26df1408783554bbbedfb4a59e7695c1fca8d870349186d670757f780ef165a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly affirms corroborated loss under current v2, identifies v1 as superseded, and distinguishes tree-cover loss from deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.004386
+}

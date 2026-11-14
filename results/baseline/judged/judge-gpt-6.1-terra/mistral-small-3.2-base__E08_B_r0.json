@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E08_B_r0.json",
+ "prompt_sha256": "0e907b5e88f23b7c0d6bda6323583ffba639d0d8587f917dd05654e4ecdd5a4e",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer asserts no change was detected in 2026, although that year was not observed; its later limitation does not correct the unsupported detection claim."
+ },
+ "raw": null,
+ "cost_usd": 0.0024
+}

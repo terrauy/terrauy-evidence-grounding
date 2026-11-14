@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A04_A_r1.json",
+ "prompt_sha256": "257e24443b033fece627ef2ab1bf9450edd27fe1e4cdcea0cba55ac4c93da7d4",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer asserts deforestation occurred, which the evidence does not establish. It also invents that only 0.3 ha 'qualifies as deforestation' and treats the sub-0.5 ha patches as separate from the 0.7 ha event. The 0.7 ha figure itself is correct."
+ },
+ "raw": null,
+ "cost_usd": 0.009542
+}

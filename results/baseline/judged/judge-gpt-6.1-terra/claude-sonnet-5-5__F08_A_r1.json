@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F08_A_r1.json",
+ "prompt_sha256": "ff212d150382906e00022e9ec3ce4b93c285e0ed7a268abd4f842287ff0e5a88",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly distinguishes JRC\u2019s 2020 forest reference from Hansen\u2019s 2023 loss detection; plantation harvest is presented only as a possibility."
+ },
+ "raw": null,
+ "cost_usd": 0.002858
+}

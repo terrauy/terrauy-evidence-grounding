@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J05_B_r0.json",
+ "prompt_sha256": "92e3cfbbb1693cd443072c71b739529d0636d934a0fd500a40d8c39ac1257774",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer hedges the no-contradiction conclusion and incorrectly says the evidence does not directly compare overlap, despite the stated agreement of 1.0."
+ },
+ "raw": null,
+ "cost_usd": 0.002916
+}

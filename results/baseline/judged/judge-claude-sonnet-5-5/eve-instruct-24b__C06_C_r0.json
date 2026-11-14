@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C06_C_r0.json",
+ "prompt_sha256": "607c1867e1a690cafd0dc1fa2e1eafd4f9383265f8345e81f6eff56f895af04b",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says authorization is not established, with no actor, compliance or deforestation claim. The planted-forest framing is slightly imprecise (0.4 of 0.7 ha planted, 0.3 ha outside mapped forest) but acceptable."
+ },
+ "raw": null,
+ "cost_usd": 0.014126
+}

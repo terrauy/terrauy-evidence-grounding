@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I01_A_r0.json",
+ "prompt_sha256": "777813188d65b9b530703054f67dfd5662bf1b738d08c9fef8aeeaa3126a9bf0",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly affirms current corroboration, but says the entire event area was planted forest; 0.2 ha was outside mapped forest. The corroboration rule is also misstated."
+ },
+ "raw": null,
+ "cost_usd": 0.004318
+}

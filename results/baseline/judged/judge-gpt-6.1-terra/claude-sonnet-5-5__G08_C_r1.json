@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G08_C_r1.json",
+ "prompt_sha256": "e2c12ccec4c11e719512715b6249c157b74fbf44309d73899ce358e02550fcd2",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer denies an increasing trend, accurately reports annual events and smaller patches, and notes relevant evidence limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.003641
+}

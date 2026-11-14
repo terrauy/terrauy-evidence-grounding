@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F01_B_r2.json",
+ "prompt_sha256": "8933b84bffa2f4719041854cfa19de0059cf461990134684ebeb40670b29cdef",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly attributes the 2021 loss to Hansen GFC and describes JRC corroboration and planted-forest context."
+ },
+ "raw": null,
+ "cost_usd": 0.002736
+}

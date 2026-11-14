@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H01_A_r0.json",
+ "prompt_sha256": "a0dab8c1b6c98ed244a326c12455e4f818d7f9f2fd880ba2aaa4bc771192c04e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies with 81.3 ha/2.23%, and mentions the sub-0.5 ha threshold. But 'rest unaffected' is unsupported and conflicts with the 37.3 ha small-patch loss; it also does not say that deforestation is not established."
+ },
+ "raw": null,
+ "cost_usd": 0.0117
+}

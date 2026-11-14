@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J05_C_r2.json",
+ "prompt_sha256": "6dfaba9a7e0b740829a3dae0149b431ac3961835a2ccc5e31d62986f7cb8b8da",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The no-contradiction conclusion is correct, but the asserted reduction below a forest threshold is unsupported by the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.002766
+}

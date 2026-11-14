@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/I02_A_r2.json",
+ "prompt_sha256": "b61eaa419da32ad6e1a7dfeb7ebce8d1c5f5078050578f349de931f88215090f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  " other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answers 'Yes' to loss despite JRC reference contradicting it; falsely states JRC classified the event area as forest in 2020 (it was non-forest, agreement 0.0). Omits contradiction."
+ },
+ "raw": null,
+ "cost_usd": 0.012466
+}

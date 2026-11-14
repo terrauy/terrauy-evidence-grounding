@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H01_A_r2.json",
+ "prompt_sha256": "ebdd0d20180645b2bc8e465051cfca0c400a78c2811db0401f8693b94cf78689",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer denies whole-property clearing with correct numbers, but says 'cleared' and 'looks like a real forest clearing', implying deforestation. It also speculates about plantation harvest, which is a cause not established by the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.008788
+}

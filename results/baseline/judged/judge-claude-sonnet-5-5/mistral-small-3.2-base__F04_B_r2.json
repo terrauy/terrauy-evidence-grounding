@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F04_B_r2.json",
+ "prompt_sha256": "d69b16d0338dbb10f63329ba934698cfa2dbd73343ebf224d1dc15cc057710a1",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly names MGAP 2021 national forest cartography with accurate figures. It notes the classification is territorial context, not cause or legality. It does not explicitly say the map is from 2021 rather than a 2025 observation, though it gives the version."
+ },
+ "raw": null,
+ "cost_usd": 0.007924
+}

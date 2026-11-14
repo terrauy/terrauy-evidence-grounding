@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G07_C_r1.json",
+ "prompt_sha256": "4f62dfc1674fe9ac2567274dc255bfd34de957291e38060285e2d511974b8b58",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer affirms loss in 2024 as a supported event, but 0.7 ha in 2024 was sub-threshold, not a counted event; the corroborated 0.7 ha event was in 2023. It conflates the two and omits the threshold limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.00838
+}

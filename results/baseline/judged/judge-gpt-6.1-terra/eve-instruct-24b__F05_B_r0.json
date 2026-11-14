@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F05_B_r0.json",
+ "prompt_sha256": "642602979af6326a78234976347c001d11f12306022c52172d9b9d477cf08e93",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer falsely attributes detection to Sentinel-2 and incorrectly says the loss was observed in 2025; only a later year of the series was observed."
+ },
+ "raw": null,
+ "cost_usd": 0.002724
+}

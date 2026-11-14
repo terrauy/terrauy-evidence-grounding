@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H01_C_r1.json",
+ "prompt_sha256": "8ab437005a2638879292a0ded6430891a884ab49b5982b628b28d3ed0c4f1b0f",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Denies whole-property clearing with correct 81.3 ha / 2.23%. It does not assert deforestation, but adds unsupported claims: 'no evidence of large-scale clearing' and 'majority remained unchanged'. It states no limits of the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.008596
+}

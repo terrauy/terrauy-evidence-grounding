@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F06_A_r1.json",
+ "prompt_sha256": "5efbeeafd01bd9f5e0cff1099da9efb032bde3b70ff6851a43e808a4f48b64d8",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Lists VIIRS S-NPP, NOAA-20, NOAA-21 and MODIS via NASA FIRMS, full period covered, no detections; consistent with evidence. No limitations stated; no forbidden sensors named."
+ },
+ "raw": null,
+ "cost_usd": 0.00739
+}

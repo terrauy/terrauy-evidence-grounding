@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G04_B_r1.json",
+ "prompt_sha256": "13edabda996397fe8f8ca3012eaa4c3a6c4d8d094890ca2b1a6d4c3ee0c7ede4",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says current clearing cannot be determined, cites 2021 loss and the 2025 latest observation, and does not assert ongoing clearing, deforestation, or absence of change. It does not say loss is not clearing, but this is not a forbidden claim."
+ },
+ "raw": null,
+ "cost_usd": 0.008792
+}

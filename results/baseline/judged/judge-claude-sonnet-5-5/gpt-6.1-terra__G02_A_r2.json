@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G02_A_r2.json",
+ "prompt_sha256": "44fd87b0699f0e93f15e0e18c080b0f92cbe0e62b6ca6c5071fb837af29218d8",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No; 67.7 ha was in 2020, before cut-off. Correctly notes 0.4 ha in 2021 below 0.5 ha minimum event size. Consistent with facts."
+ },
+ "raw": null,
+ "cost_usd": 0.00798
+}

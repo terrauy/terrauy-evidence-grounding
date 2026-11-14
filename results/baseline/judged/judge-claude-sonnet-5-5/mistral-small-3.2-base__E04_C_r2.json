@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E04_C_r2.json",
+ "prompt_sha256": "2f989b6bfb564530c3992bf30014f932b45a79f163b234966dd54ef45a02060f",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no detections on covered days, notes the 2026-10-24 to 10-25 gap, and explicitly refuses to conclude no fire occurred, citing detection limits. This matches the key. The opening wording about 'confirm any fire' is slightly odd but harmless."
+ },
+ "raw": null,
+ "cost_usd": 0.009076
+}

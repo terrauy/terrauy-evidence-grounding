@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K03_B_r2.json",
+ "prompt_sha256": "0489888b0b76304deb2164018cc611e26a1e0689cf98dac36f3f44cddee51302",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports zero detections and full sensor coverage, while noting that undetected fires remain possible."
+ },
+ "raw": null,
+ "cost_usd": 0.002117
+}

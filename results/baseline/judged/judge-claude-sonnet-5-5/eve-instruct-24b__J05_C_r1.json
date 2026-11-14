@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J05_C_r1.json",
+ "prompt_sha256": "c587991edb10d33cb4b5ce04c93a301380e6badd3c945afebb25b495d1db0812",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly says there is no contradiction, since the 2020 loss precedes the baseline and non-forest at reference corroborates it. It overreaches by claiming 'no deforestation occurred within the claim period', while the evidence only supports none detected, and it ignores the 0.4 ha of small patches."
+ },
+ "raw": null,
+ "cost_usd": 0.008508
+}

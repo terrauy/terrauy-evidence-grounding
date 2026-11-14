@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D09_C_r2.json",
+ "prompt_sha256": "97b0e2ffb6f8bdd43cecc483e25937dcb452930d926860a3ab448090f2b3b243",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports NOT_DETECTED with zero detections for the correct period and notes that small, cool or obscured fires may be missed. It does not claim that no fire occurred. 'No evidence of fire' is acceptable phrasing."
+ },
+ "raw": null,
+ "cost_usd": 0.007358
+}

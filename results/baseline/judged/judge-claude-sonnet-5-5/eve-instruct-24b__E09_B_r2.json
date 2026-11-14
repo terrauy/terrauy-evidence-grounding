@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E09_B_r2.json",
+ "prompt_sha256": "dd365027c811a084360a58646d3064cd653678e8b967621d49ec2861edd00802",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says insufficient evidence and no compliance conclusion. The claim that sources 'didn't cover this asset' slightly mischaracterizes 'coverage not prepared'. The recommendation of ground verification is an addition not in the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.007414
+}

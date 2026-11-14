@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E04_C_r1.json",
+ "prompt_sha256": "b99ba72928335242a6e7c59a76a013a6228f1b9a48ab5ac7d23118c3875b717a",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says evidence is insufficient, notes no detections on covered days, temporal gaps from NRT updates, and that it cannot say no fire occurred. It does not specify the gap dates, but it makes no unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.008906
+}

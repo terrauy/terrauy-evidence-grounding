@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J04_B_r1.json",
+ "prompt_sha256": "851aff4ba7c244eadd50cb47cc68eddb2e22d2bda3a90ff8d1e115eddc3478fd",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly lists 2021, 2022, 2023 as supported and none contradicted post-2020. The closing remark that pre-2021 events are 'inconsistently validated' is vague and loosely supported, but they are not listed as post-2020 events."
+ },
+ "raw": null,
+ "cost_usd": 0.010414
+}

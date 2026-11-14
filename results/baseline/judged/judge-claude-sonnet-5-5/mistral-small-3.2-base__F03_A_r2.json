@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F03_A_r2.json",
+ "prompt_sha256": "34215baf15b8037d98a3bdce9ca731c370b19ea44409b743a45bca10f0a31655",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer correctly cites JRC GFC2020 at 98%, but it presents MGAP 2021 as corroboration of the loss, which the key forbids (MGAP is context only). It also omits the later-year observation and any limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.00859
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K07_B_r1.json",
+ "prompt_sha256": "e2e53680b262b6fe2ab2e5fe0063e7a29a008bac0f3d2d954bcca50031b49fe7",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says No, the method could not evaluate the asset because source coverage was not prepared. This matches the key and the reference facts, and it states what the evidence does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.006242
+}

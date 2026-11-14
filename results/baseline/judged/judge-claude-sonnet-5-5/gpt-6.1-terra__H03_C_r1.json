@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H03_C_r1.json",
+ "prompt_sha256": "5b49dc6832d2ba44bd7c9479d415ead9af19c9c69dff16e3fa719de5ba76f48d",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states 13.5 ha candidate loss (3.9%), 13.1 ha native forest, not yet corroborated, and does not establish deforestation. It does not claim the whole native forest was lost, though it omits the 227.1 ha comparison."
+ },
+ "raw": null,
+ "cost_usd": 0.008556
+}

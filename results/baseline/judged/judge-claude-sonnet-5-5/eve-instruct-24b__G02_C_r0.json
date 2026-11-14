@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G02_C_r0.json",
+ "prompt_sha256": "63341f65d0b7260c209aa9502db26a322e1b38e5c256c5804691e6a5c6a6b710",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no: the 67.7 ha loss was in 2020, before the cut-off. It notes 0.4 ha of sub-threshold loss and no events of 0.5 ha or more after the baseline. This matches the key and the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008234
+}

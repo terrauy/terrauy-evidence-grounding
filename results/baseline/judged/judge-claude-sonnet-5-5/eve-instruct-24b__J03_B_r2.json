@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J03_B_r2.json",
+ "prompt_sha256": "c002573004131defc547a6d3eefbe285c6bb95386eb6290c129e6def2dbee9bd",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports Hansen 1.4 ha vs JRC 49% agreement, contradicted. But the claim that change is 'likely in planted forests' is speculative, since 1.0 ha lies outside mapped forest and MGAP is context, not cause."
+ },
+ "raw": null,
+ "cost_usd": 0.014038
+}

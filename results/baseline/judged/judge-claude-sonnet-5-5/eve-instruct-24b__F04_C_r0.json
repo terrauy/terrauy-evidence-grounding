@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F04_C_r0.json",
+ "prompt_sha256": "6282d92e43cafc5ebd03a08a0d55eb7de87fbf4ccbe6ef39d47735aa65edb0a6",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly names MGAP 2021 as the native-forest source with 13.1 of 13.5 ha; states JRC and Hansen do not distinguish forest type; notes territorial context, not cause. It does not explicitly flag the 2021 map as not a 2025 observation."
+ },
+ "raw": null,
+ "cost_usd": 0.008182
+}

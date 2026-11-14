@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F03_A_r0.json",
+ "prompt_sha256": "e948e6598ed2babd1eba677f1b49245a462f13e655f7c79e0f7048bb7d8f8132",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "JRC\u2019s 98% agreement is correct, but MGAP provides forest-type context, not independent corroboration of loss; the later-year observation is omitted."
+ },
+ "raw": null,
+ "cost_usd": 0.002851
+}

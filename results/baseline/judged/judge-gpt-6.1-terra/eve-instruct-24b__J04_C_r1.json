@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J04_C_r1.json",
+ "prompt_sha256": "bd0ce5475ebd44dfd400420dcd652416ca04f9a1c31f45d8e7d2b14a97427a0b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies all supported post-baseline events and states that none are contradicted; notes the event-area threshold and resolution."
+ },
+ "raw": null,
+ "cost_usd": 0.003675
+}

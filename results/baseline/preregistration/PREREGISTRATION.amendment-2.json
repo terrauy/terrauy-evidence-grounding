@@ -1,0 +1,39 @@
+{
+ "amendment": 2,
+ "recorded_at": "2026-11-13",
+ "recorded_before": "any inference on the public task variant",
+ "reason": "Privacy (owner decision): exact asset areas and Hansen-derived event areas could allow re-identification of real parcels via the public cadastre. Real area values are replaced by synthetic equivalents before public release.",
+ "change": {
+  "tasks": "dataset/tasks.jsonl is the PUBLIC variant derived from the preregistered tasks_v0.1.jsonl (sha256 in PREREGISTRATION.lock.json).",
+  "method": "Every distinct area value >= 2.0 ha per case replaced by round(v*f,1) with an independent secret factor f in [0.65,0.89] U [1.15,1.50]; values < 2 ha kept; forest-type components re-summed; share_of_asset_pct recomputed; only number tokens followed by 'ha'/'%' (and escaped numbers in detector patterns) changed in questions, answer keys, allowed/forbidden claims and rationales.",
+  "constraints_verified": [
+   "only numeric tokens changed (skeleton identical)",
+   "method thresholds 0.5 ha, 2 ha and 2 % preserved per value",
+   "sums and percentages consistent",
+   "no original identifying value present in public files",
+   "TEXT/STRUCTURED equivalence = 0 mismatches"
+  ],
+  "tasks_changed": 66,
+  "tasks_unchanged": 16,
+  "mapping_published": false,
+  "public_tasks_sha256": "9f89955de09bf3fdd0d008c7b7ad76370bac30b6bdec406ff08b75b7bf98b420"
+ },
+ "unchanged": [
+  "questions and answer keys (except substituted area numbers)",
+  "taxonomy",
+  "conditions and renderers",
+  "prompts",
+  "judges and judge prompt (judge-v2)",
+  "detector",
+  "metrics, thresholds, success criteria, statistics",
+  "models, serving stack and decoding parameters"
+ ],
+ "rebaseline": {
+  "re-run": "66 changed tasks x 3 conditions x 3 runs x 4 models = 2,376 responses; 4,752 judgments",
+  "reused": "16 unchanged tasks (identical prompts, verified by SHA-256): 576 responses, 1,152 judgments from 2026-11-13",
+  "budget_cap_usd": 50,
+  "public_baseline": "the new public baseline replaces the development run for all published numbers"
+ },
+ "development_run": "The original run on real values is kept only in the internal archive; its aggregate results may be cited as a development run.",
+ "exploratory": "Invariance analysis (original vs synthetic values, 66 tasks, paired) is exploratory and will not change the experiment."
+}

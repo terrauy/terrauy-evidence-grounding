@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G06_A_r2.json",
+ "prompt_sha256": "3dc1a6f2bf651e874d97c97c1488994b1f8a45489986e8b8aeb0320b39624b4e",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer applies evidence from 2026-10-04 to 2026-11-03 to the two weeks before 2026-10-04, which is outside the evaluated period. It claims coverage and no detections for that earlier window and does not abstain or state any limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.0075
+}

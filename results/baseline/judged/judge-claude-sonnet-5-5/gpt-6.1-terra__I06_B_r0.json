@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/I06_B_r0.json",
+ "prompt_sha256": "18d5269e7a53c12818999831fc483f62de24891e630f0b0ffd8998d972852f04",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers yes based on current v2 with full coverage and no detections, notes earlier gap is superseded, and explicitly says no detection does not prove no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.011278
+}

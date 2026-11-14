@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K02_A_r2.json",
+ "prompt_sha256": "09d8976dbd3b2bd28f31e8ae16af9511f8576879bad684b83ffdcd679776c855",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer wrongly excludes 2025 from the post-2020 period and denies the documented 13.5 ha candidate."
+ },
+ "raw": null,
+ "cost_usd": 0.002431
+}

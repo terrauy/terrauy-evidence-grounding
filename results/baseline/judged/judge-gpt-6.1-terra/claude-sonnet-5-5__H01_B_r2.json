@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H01_B_r2.json",
+ "prompt_sha256": "9b39ff58c40386cfecb507b5a7a34461001e8e062b476d0905247c2cb5371673",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly denies whole-property clearing, reports supported loss figures, and distinguishes tree-cover loss from established deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.002864
+}

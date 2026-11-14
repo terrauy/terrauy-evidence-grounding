@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J04_A_r0.json",
+ "prompt_sha256": "bd2d0e0d6a18c221a8448a8c7c62fa345505ec7107fb0dc1712f2ca86a1efbb7",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly lists 2021, 2022, 2023 as supported, none contradicted after baseline. Overstates that all post-2020 losses were in forest (agreement is 94\u2013100%, not strictly all)."
+ },
+ "raw": null,
+ "cost_usd": 0.014086
+}

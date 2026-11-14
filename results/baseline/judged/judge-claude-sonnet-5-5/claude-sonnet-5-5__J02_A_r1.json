@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J02_A_r1.json",
+ "prompt_sha256": "e17ae481db2977e27c4c2e995ec3a4c9232b1270363739e5528b6692271db452",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "hedged"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says yes and claims JRC classes all the loss area as forest and that corroboration is met, contradicting the evidence (JRC agreement 0.0, non-forest). It also speculates about plantation harvesting."
+ },
+ "raw": null,
+ "cost_usd": 0.009312
+}

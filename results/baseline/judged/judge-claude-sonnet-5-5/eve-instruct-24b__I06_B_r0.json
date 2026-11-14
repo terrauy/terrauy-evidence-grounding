@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I06_B_r0.json",
+ "prompt_sha256": "1107aed7e6d02fa1f31151cbe40dc149d62663fc9d7fd4e156510fcd3e6ed767",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Affirms full coverage under current v2, correctly treats v1 gap as superseded, reports no detections without claiming no fire. It does not state the limitation that no detection is not proof of no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.011546
+}

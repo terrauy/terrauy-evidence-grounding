@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F03_A_r1.json",
+ "prompt_sha256": "b2d8c496475ed56cf24df9951edd2de9e376d3783ef0df92fe2bc0072f6d1d47",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Cites JRC 98% agreement and later year observed (to 2025); MGAP is given only as context, with 13.2 ha outside mapped forest. No unsupported sources are named."
+ },
+ "raw": null,
+ "cost_usd": 0.011996
+}

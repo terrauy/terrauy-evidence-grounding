@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F05_A_r0.json",
+ "prompt_sha256": "311e04ce0d719c851c862b7573f7b7dca1490b9599d4fe15d43beed7d9a16b73",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says yes, Sentinel-2 detected/confirmed the loss, and claims Hansen incorporates Sentinel-2, which is unsupported; evidence is Hansen/UMD only. It misstates MGAP as validating the loss. It does note the 0.5 ha size exclusion."
+ },
+ "raw": null,
+ "cost_usd": 0.008612
+}

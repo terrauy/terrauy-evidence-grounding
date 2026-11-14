@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G06_A_r2.json",
+ "prompt_sha256": "14803692ca080aed984935956ce9db9f25839ae15fddc0cd222eec5fb32b5f63",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says evidence covers only Oct 4\u2013Nov 3, so it cannot address the prior two weeks. It makes no claim about fire before the period and reports zero detections only for the later period."
+ },
+ "raw": null,
+ "cost_usd": 0.007226
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G05_B_r2.json",
+ "prompt_sha256": "2936139fb6f175a0f06bc2b1cf5c2dab8fb116b264d5b1e1e465c9647f3fef0a",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly identifies the loss as pending corroboration because 2025 is the latest observed year."
+ },
+ "raw": null,
+ "cost_usd": 0.002565
+}

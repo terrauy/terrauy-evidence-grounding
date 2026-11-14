@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F02_A_r2.json",
+ "prompt_sha256": "0319a74b6d048dcc08e98d18010c61ec003d16336948e011f861cd2d3e0bcac4",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly names MGAP 2021 national forest cartography as the source of planted forest (Pinus elliottii and Pinus taeda); no misattribution to Hansen or JRC, and no limitations mentioned."
+ },
+ "raw": null,
+ "cost_usd": 0.008154
+}

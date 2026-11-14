@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H01_A_r2.json",
+ "prompt_sha256": "f6285d35d4104d95b3a4d254fc23e65dab74870fdf3763e02740c9fd364de33d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies whole-property clearing, but calls small-patch loss clearing and overlooks it when claiming only 2.23% experienced loss."
+ },
+ "raw": null,
+ "cost_usd": 0.002813
+}

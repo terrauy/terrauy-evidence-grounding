@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E08_C_r2.json",
+ "prompt_sha256": "1f9086a078d0cbc77bf00d348849086e55e4644070451a4d708e24c495ab2452",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The question asks about 2026, but the answer covers only 2021-2025 and never says 2026 is unobserved. It says 'no significant loss occurred' and 'confirm stability', which asserts no change. It does note small-change limits."
+ },
+ "raw": null,
+ "cost_usd": 0.00747
+}

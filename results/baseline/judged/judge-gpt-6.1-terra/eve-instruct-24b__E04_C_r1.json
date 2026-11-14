@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E04_C_r1.json",
+ "prompt_sha256": "12563dc8ee230c69a360a74e6b82468b4ff9faf26e9d4ea39569ce29b4fcbecd",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no detections in covered days, identifies the temporal gap, and notes that fires may have gone undetected."
+ },
+ "raw": null,
+ "cost_usd": 0.002927
+}

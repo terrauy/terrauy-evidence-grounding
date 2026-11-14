@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G01_A_r2.json",
+ "prompt_sha256": "bbed5810449837b35280f4f1b0074a1a7e9382211ee55f065950ed5d3a4c6d81",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer affirms the reported 0.4 ha of 2021 loss while correctly noting it falls below the event threshold and lacks JRC corroboration."
+ },
+ "raw": null,
+ "cost_usd": 0.002836
+}

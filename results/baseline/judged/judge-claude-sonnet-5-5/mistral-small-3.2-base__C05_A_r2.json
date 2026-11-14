@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/C05_A_r2.json",
+ "prompt_sha256": "1a18f89d106962846fdfaa263fb5c6c24d48ce891f7055bcb8108a531c1d42ab",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer claims the property appears legally compliant, which is a compliance finding. It also says loss events reduced tree cover to zero, implying deforestation, and that claim is invented. It never says legality is not established."
+ },
+ "raw": null,
+ "cost_usd": 0.008698
+}

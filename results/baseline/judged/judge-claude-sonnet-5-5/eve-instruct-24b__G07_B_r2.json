@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G07_B_r2.json",
+ "prompt_sha256": "02b6a4e163334df09fdb19199f74e3df77e28e246cb5ae1f24c54e6e6fc21313",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says 'Yes' to loss in 2024 and mentions the sub-threshold 0.7 ha, but contradicts the key's conclusion of no counted event. It also says '34.8 ha tree cover' (forest in 2020) and implies cutting or clearing, which is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.008582
+}

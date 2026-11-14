@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F07_C_r1.json",
+ "prompt_sha256": "67cffedccf9cd95e6e792804fc47af3aca73a00ac74367db3c635ddbf7969777",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies JRC\u2019s zero-hectare 2020 reference and distinguishes Hansen\u2019s loss observation from a forest-cover estimate."
+ },
+ "raw": null,
+ "cost_usd": 0.002727
+}

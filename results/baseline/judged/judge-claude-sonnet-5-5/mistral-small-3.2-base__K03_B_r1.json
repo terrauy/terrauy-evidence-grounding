@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K03_B_r1.json",
+ "prompt_sha256": "44c90105b6134f7c64b8cbc3836839d9e3352ca80306bcdc03b339e84f1f590c",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports zero FIRMS detections for 2026-09-26 to 2026-10-26 with all four sensors covering the whole period and asset, and notes the limits (small or cool fires, burned area, cause). All of this matches the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.006906
+}

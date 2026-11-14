@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K01_A_r1.json",
+ "prompt_sha256": "13fbffd3e613ed397eca1a336626bcd7d07b98c0757e00b8d7cc898ecb97526b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The main result and scope are correct, but the assertion that harvesting is more likely than conversion is unsupported; the evidence does not establish cause."
+ },
+ "raw": null,
+ "cost_usd": 0.002783
+}

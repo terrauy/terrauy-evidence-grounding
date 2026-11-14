@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J04_A_r1.json",
+ "prompt_sha256": "c5159597474ea9005d4cc27507f500fb366350cdfafd898c2f6f8ccce4b1aeb1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies supported events and temporal scope, but asserts that sub-threshold patches were not assessed; the evidence only says they were not counted as events."
+ },
+ "raw": null,
+ "cost_usd": 0.003774
+}

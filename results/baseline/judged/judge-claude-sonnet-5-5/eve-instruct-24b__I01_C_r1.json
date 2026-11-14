@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I01_C_r1.json",
+ "prompt_sha256": "3de751bd9bd971318aa1154d55edc0b8ab182314f5b16f32b369768a9f0a43d7",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms corroborated 4.5 ha loss in 2023 using current evidence (2025 later year, JRC agreement); explicitly says loss does not necessarily indicate deforestation. Harvest is mentioned only as a possibility."
+ },
+ "raw": null,
+ "cost_usd": 0.01231
+}

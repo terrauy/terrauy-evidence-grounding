@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D01_B_r2.json",
+ "prompt_sha256": "171462677bb12c224b2c51a1524bcb11ff7db5f65267f5064ee5722c0de740eb",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly states non-detection of 0.5 ha+ loss 2021-2025, notes small/edge changes may be missed, and disclaims compliance findings. The 'reliable sources' remark is minor and not a factual claim."
+ },
+ "raw": null,
+ "cost_usd": 0.007776
+}

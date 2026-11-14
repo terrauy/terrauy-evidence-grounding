@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/C03_A_r1.json",
+ "prompt_sha256": "51f3ade29bd59388406ad9949ff2f78bf54530a42b2d5c842a82c1719efd60b5",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says legality/violation not established, cites correct figures (0.6 ha, 0.5 ha native per MGAP, JRC forest), and states cause and authorization can't be determined. It makes no claim of deforestation, an actor, or a compliance finding."
+ },
+ "raw": null,
+ "cost_usd": 0.009056
+}

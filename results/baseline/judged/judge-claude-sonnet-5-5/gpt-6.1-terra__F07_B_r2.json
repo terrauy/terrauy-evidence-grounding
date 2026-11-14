@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F07_B_r2.json",
+ "prompt_sha256": "760850307e5e8f50b7ba2ddef43632def4127913870ba1311d9d782f6b4e653c",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says Hansen indicates tree cover was present in 2020, inferred from 2020 loss. That asserts a dataset shows forest in 2020, which the key forbids. It correctly notes JRC shows 0 ha, but names Hansen as the answer."
+ },
+ "raw": null,
+ "cost_usd": 0.008288
+}

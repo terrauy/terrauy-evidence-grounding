@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D01_A_r0.json",
+ "prompt_sha256": "682a7ef2033148f5e2bc30b980599c116cd316ffb43ac4386e63f5b5739b8dd3",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer flatly states no loss occurred and the asset retained its tree cover, which is an absence claim. It also says even small changes would be identified, which is overclaimed. It gives no non-detection caveat; the 0.5 ha threshold is stated as a guarantee, not a limit."
+ },
+ "raw": null,
+ "cost_usd": 0.00793
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K05_A_r1.json",
+ "prompt_sha256": "7392a56e69663bdbd0ead6e648356fb72ac147ab1c970d1105af9997363ba9bd",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly states 67.7 ha in 2020; other events match the facts; JRC 2020 forest of 0 ha is consistent. No limitations mentioned."
+ },
+ "raw": null,
+ "cost_usd": 0.01023
+}

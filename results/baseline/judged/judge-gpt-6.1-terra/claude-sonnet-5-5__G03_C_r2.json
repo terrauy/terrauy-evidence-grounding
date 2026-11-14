@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G03_C_r2.json",
+ "prompt_sha256": "86d64b36bc0c00c5dd8b11f526a13085f195d869fc6efea08c15c4f2ab6a0611",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no detected events in 2024\u20132025, correctly identifies earlier losses, and notes that small changes could be missed."
+ },
+ "raw": null,
+ "cost_usd": 0.00377
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G07_A_r1.json",
+ "prompt_sha256": "812aa585adc67f470de2ea481d9da144a1b9d8aabc661bc3f1351fda9de943c7",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers 'Yes' to loss, but correctly states 0.7 ha in sub-0.5 ha patches not counted as an event. The headline affirmation conflicts with the expected no-counted-event stance."
+ },
+ "raw": null,
+ "cost_usd": 0.012344
+}

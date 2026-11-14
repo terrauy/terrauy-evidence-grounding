@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H06_B_r2.json",
+ "prompt_sha256": "44afe293d116822524df60976b00acf29541a1ed1c5bcfdab88d491bcf14c93d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no; evidence covers only the asset boundary, makes no regional claim, and correctly states figures and limitations (0.5 ha threshold, 30 m pixels)."
+ },
+ "raw": null,
+ "cost_usd": 0.009392
+}

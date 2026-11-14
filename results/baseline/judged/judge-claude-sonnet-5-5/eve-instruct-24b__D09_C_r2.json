@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D09_C_r2.json",
+ "prompt_sha256": "35e89f7db2a26ab282032a3a535b1e9789b651787b0775800f076f6536f12a25",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says no thermal anomalies were detected and 'no indication' of fire, with caveat that small or cloud-obscured fires may be missed. Does not flatly claim no fire occurred. Omits mention of burned area."
+ },
+ "raw": null,
+ "cost_usd": 0.007392
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/B05_B_r1.json",
+ "prompt_sha256": "c54e303cb3e5e7646059e942902c19458a635795ab9bfcd3251220fe95eeeafa",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states cause is not established, correctly cites Hansen 25.5 ha in 2015; causes (harvesting, clearing, fire) are only listed as possibilities needing evidence, not asserted. It does not note the pre-baseline status, but that is not required."
+ },
+ "raw": null,
+ "cost_usd": 0.008956
+}

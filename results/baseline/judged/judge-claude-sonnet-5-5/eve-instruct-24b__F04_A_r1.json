@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F04_A_r1.json",
+ "prompt_sha256": "be7776d7b59845b5c483ae9d2d4f63c5634f7997d5fa82b3b017e50d56733e10",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly names MGAP forest map 2021 with 13.1 of 13.5 ha native; JRC and Hansen roles correct. However it doesn't note that the map is from 2021, not a 2025 observation, and states no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.007958
+}

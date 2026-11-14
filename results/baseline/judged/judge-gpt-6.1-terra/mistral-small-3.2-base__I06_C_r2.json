@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I06_C_r2.json",
+ "prompt_sha256": "ef828834a59b7dbc0ebbc0b9adfad76b2b75b05e1d7a3c789f3310ea014eb828",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": false,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer treats the superseded coverage gap and insufficient-evidence status as current, contradicting v2\u2019s complete coverage."
+ },
+ "raw": null,
+ "cost_usd": 0.003883
+}

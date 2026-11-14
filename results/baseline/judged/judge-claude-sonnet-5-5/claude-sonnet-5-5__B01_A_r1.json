@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/B01_A_r1.json",
+ "prompt_sha256": "c4c0f58788072bbf901cecad9bc064efc506d4516c4f18261c4559583d777440",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer leads with 'Probably yes' and says clearing of mature pine plantation fits, implying harvest as cause, though it later notes tools can't establish why. Numbers are correct. The headline stance leans toward affirming a cause."
+ },
+ "raw": null,
+ "cost_usd": 0.009238
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/C06_C_r0.json",
+ "prompt_sha256": "233b797f44f8523eebef27623fbe9d636e553648e19f89bfdcd328cc198df45c",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says authorization not established. However it calls the event 'tree removal' and states the loss was in Eucalyptus grandis planted forest, though only 0.4 of 0.7 ha was mapped planted (0.3 ha was outside mapped forest), so that is overstated."
+ },
+ "raw": null,
+ "cost_usd": 0.00915
+}

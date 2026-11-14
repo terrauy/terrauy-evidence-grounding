@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D05_A_r1.json",
+ "prompt_sha256": "3eed11b26e7a32163d8d874b852e9e3d2b8155702ff8848b4cec29ea537a94bb",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports no detections during the fully covered period and notes that an undetected fire remains possible."
+ },
+ "raw": null,
+ "cost_usd": 0.002192
+}

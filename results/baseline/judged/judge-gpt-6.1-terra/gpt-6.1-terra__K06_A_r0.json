@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K06_A_r0.json",
+ "prompt_sha256": "3d6a61f9162c061d382633efe12e948060da5f6d10b7a2dce37956f0be91c0ed",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly affirms corroboration, attributes prior forest cover to JRC, and distinguishes that reference from direct confirmation of loss."
+ },
+ "raw": null,
+ "cost_usd": 0.002578
+}

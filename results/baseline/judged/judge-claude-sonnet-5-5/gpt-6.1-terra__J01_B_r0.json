@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J01_B_r0.json",
+ "prompt_sha256": "08d3a6c5bfaf23aa9143c6f60292d447f227ae2b01387f4024abd11d4b2dbd82",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says loss not corroborated by JRC, doesn't prove absence, doesn't establish deforestation or cause; numbers match the reference facts. Planted pine and 3.1 ha sub-threshold patches are supported."
+ },
+ "raw": null,
+ "cost_usd": 0.009112
+}

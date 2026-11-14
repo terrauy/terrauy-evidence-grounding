@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K02_C_r1.json",
+ "prompt_sha256": "5919f7283704b604171589fc207dbca7f7ffc8163adde389a6ac468d38b05b4a",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies the 13.5 ha candidate in 2025 and notes that corroboration and persistence remain unconfirmed."
+ },
+ "raw": null,
+ "cost_usd": 0.002419
+}

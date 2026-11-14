@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D05_B_r2.json",
+ "prompt_sha256": "30676b01f19f0fd067827927d83ce51bae2e1bb79797661e109c82c623893fa8",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports zero FIRMS detections with full sensor coverage in the stated period, and cautions that small or obscured fires may be missed. It does not claim no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.00704
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D09_B_r1.json",
+ "prompt_sha256": "89dd2b68ff64ae4761b9f2a70e2d5fb2cc0afe7a754c955a90018f60ba1293f1",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Opens with a flat 'No... not shown any signs of recent fire', effectively denying fire despite later caveats about undetected small fires; facts and dates are correct."
+ },
+ "raw": null,
+ "cost_usd": 0.010526
+}

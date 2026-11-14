@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K05_B_r2.json",
+ "prompt_sha256": "5f4e75656b219cf09a5e6fd58c8c2bdd76f411012f34aa28ab092a60f67fa697",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies 67.7 ha in 2020 and accurately states the post-baseline detection threshold and period."
+ },
+ "raw": null,
+ "cost_usd": 0.002609
+}

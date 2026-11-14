@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite it as below. Research preview (v0.1); not peer-reviewed."
+type: dataset
+title: "TerraUY Evidence Grounding Benchmark (TEGB): Trustworthy Reasoning over Earth Observation Evidence"
+version: "0.1"
+date-released: "2026-11-13"
+authors:
+  - family-names: "Rifrán"
+    given-names: "Jairo"
+    affiliation: "TerraUY Intelligence"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+repository-code: "https://github.com/terrauy/terrauy-evidence-grounding"
+url: "https://github.com/terrauy/terrauy-evidence-grounding"
+abstract: >-
+  A benchmark for evaluating whether AI agents respect what Earth Observation evidence supports and what it does not
+  establish. v0.1 (research preview): 82 tasks (74 in 10 failure families plus 8 controls), three evidence
+  presentations (RAW, TEXT, STRUCTURED), and an initial baseline of four models (2,952 responses) scored by two blind
+  LLM judges and a deterministic detector. Code is Apache-2.0; TEGB-authored tasks, annotations, documentation and
+  figures are CC BY 4.0; model outputs are under MODEL_OUTPUTS_NOTICE.md; third-party EO values keep their original terms.
+  Not independently reviewed by Earth Observation experts.
+keywords:
+  - Earth observation
+  - remote sensing
+  - evidence grounding
+  - LLM agents
+  - benchmark
+  - unsupported conclusions
+  - trustworthy AI

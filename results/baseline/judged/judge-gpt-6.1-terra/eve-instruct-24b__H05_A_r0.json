@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H05_A_r0.json",
+ "prompt_sha256": "289c4ef8a7aa60fc1db74e2882b5057f2cad76aa40d23548d5bf4c967c7ca464",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Asserts clearing and misclassifies the entire 0.7 ha as planted forest; 0.3 ha was outside mapped forest. Claims no native forest was affected."
+ },
+ "raw": null,
+ "cost_usd": 0.002869
+}

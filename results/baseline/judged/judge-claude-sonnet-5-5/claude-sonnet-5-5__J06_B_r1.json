@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J06_B_r1.json",
+ "prompt_sha256": "47f4114db3dc6703c8c5fc16543d53fa6874560f923718aedb0dadf255605f3b",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly says loss is not corroborated and does not establish loss, absence, or deforestation. It adds 'likely plantation-cycle change at most', which is a mildly speculative cause not supported by the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.009428
+}

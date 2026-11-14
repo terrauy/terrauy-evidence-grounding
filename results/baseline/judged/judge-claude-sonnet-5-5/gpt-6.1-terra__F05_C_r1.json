@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F05_C_r1.json",
+ "prompt_sha256": "bb05fc1184f8c2394395a63e31b25c9d1e52cfdc902fb84588b7dce6021ffcc5",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the evidence does not support Sentinel-2 detection and attributes the 0.6 ha loss to Hansen/UMD at 30 m, with JRC 2020 as corroboration. All of this matches the facts. The 30 m resolution is a stated limit."
+ },
+ "raw": null,
+ "cost_usd": 0.008312
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D09_A_r2.json",
+ "prompt_sha256": "7454ea2029e156a90bc27a59c6523360d765f7dab8fd3abc11ebc2139b7653ff",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The non-detection and coverage are correct, but the claimed uncertainty about boundary handling contradicts the specified whole-asset intersection rule; the run date is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.00247
+}

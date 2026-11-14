@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/A08_A_r2.json",
+ "prompt_sha256": "6ba934a43bd76c2571637cdfc4328850536b13a7cf9aa473b2d41ba8b9201f0c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "hedged"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer asserts deforestation occurred, which the evidence explicitly does not establish. It hedges on non-compliance and legality. It invents the idea that deforestation might occur 'after the asset's production'. The numbers are correct (86.4 ha, 2.37%)."
+ },
+ "raw": null,
+ "cost_usd": 0.011338
+}

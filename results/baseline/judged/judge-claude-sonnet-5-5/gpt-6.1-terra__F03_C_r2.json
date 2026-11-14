@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F03_C_r2.json",
+ "prompt_sha256": "0dbf83833da6db633491995f22af41d806c9661f9cac102fa86f31f4ba268cdf",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer cites JRC GFC2020 agreement at 98% and a later year observed, matching the key. MGAP is framed as context, not corroboration. Limitations are stated correctly."
+ },
+ "raw": null,
+ "cost_usd": 0.008354
+}

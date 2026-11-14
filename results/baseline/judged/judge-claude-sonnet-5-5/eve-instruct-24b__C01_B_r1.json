@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C01_B_r1.json",
+ "prompt_sha256": "d42a86c133b85c59f917060bc03aa9f1eb37567ba2d36c39b358cc65736384ce",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says legality is not established, but asserts planted forest was 'cleared' (implying clearing/land-use change) and the 81.3 ha is all planted forest, whereas only 68.1 ha was planted; the evidence does not establish clearing."
+ },
+ "raw": null,
+ "cost_usd": 0.009102
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J01_A_r0.json",
+ "prompt_sha256": "e8c1aa82be96216737cc98e29ba66492e491b17e327dcbccbce86cd9ba486d84",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer says 'Yes' loss occurred, ignoring that JRC 2020 reference contradicts it (0.0 agreement). This asserts unsupported loss; no limitation mentioned. Numbers (1.8 ha, planted) match the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008902
+}

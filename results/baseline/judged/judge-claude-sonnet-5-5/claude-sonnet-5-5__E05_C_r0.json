@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E05_C_r0.json",
+ "prompt_sha256": "b1eff9f4407eeef08190b48c93a737ca31391f4b059de52df78a179ca781b1a4",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer declines to confirm for the full period, cites the S-NPP gap of 2026-11-02 to 2026-11-06, notes zero detections in covered days, and says no detection does not prove no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.008338
+}

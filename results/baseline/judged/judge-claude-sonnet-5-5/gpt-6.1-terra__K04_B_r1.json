@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K04_B_r1.json",
+ "prompt_sha256": "cd35cb44d3b8e55dcd5887d06f5bbda848b42d512f80356ba86d6cec3df43f06",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states no event of \u22650.5 ha detected 2021-2025 with full valid coverage, and notes small, edge, and sub-pixel changes may be missed; consistent with the key and the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.006758
+}

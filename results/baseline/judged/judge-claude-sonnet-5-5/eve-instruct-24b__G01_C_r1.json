@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G01_C_r1.json",
+ "prompt_sha256": "5baa5a619904293561057589d30e73a9724916a33bbcef9c8b47341247d199c9",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer opens with a flat 'No, has not lost any significant tree cover', which denies loss rather than reporting non-detection. It also claims 2025 observations 'confirm no changes of regulatory significance', which is unsupported. It does note the 30 m limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.008526
+}

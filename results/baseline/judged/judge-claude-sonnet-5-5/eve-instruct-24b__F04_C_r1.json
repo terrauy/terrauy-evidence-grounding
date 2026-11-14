@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F04_C_r1.json",
+ "prompt_sha256": "8fc3f25dff69d5da8931cc5ad578dd4396695ff61f5b68d9778c69e2c664c330",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly names MGAP 2021 with 13.1 ha native and 0 planted; notes territorial context only, not cause or legality. It does not explicitly say the map is from 2021 and not a 2025 observation, though the 2021 date appears in the source name."
+ },
+ "raw": null,
+ "cost_usd": 0.00798
+}

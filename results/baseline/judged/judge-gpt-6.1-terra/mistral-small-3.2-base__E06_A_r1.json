@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E06_A_r1.json",
+ "prompt_sha256": "921e014e4b7cd697aeedbaf63329e429d602f1d3c4d6efe73227ffcab9eb9abd",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It asserts the property remained fire-free throughout despite incomplete coverage and the inability of zero detections to prove no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.002991
+}

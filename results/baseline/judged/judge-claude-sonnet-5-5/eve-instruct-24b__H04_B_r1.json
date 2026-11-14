@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H04_B_r1.json",
+ "prompt_sha256": "1c197f995c94142857962de07d72ca3d89bf27730a5549ad45187f0f5577c014",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 0.6 ha/0.5 ha correctly, but frames the loss as part of the property's native forest and claims it 'retained the majority of its native forest cover', which is unsupported since total native forest is not quantified."
+ },
+ "raw": null,
+ "cost_usd": 0.008382
+}

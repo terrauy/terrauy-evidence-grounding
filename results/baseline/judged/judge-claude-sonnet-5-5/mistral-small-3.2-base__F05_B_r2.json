@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F05_B_r2.json",
+ "prompt_sha256": "3da146044affe69cb8f5211bd2b0ac7a4c28d1bde3b36aa28b5ff8fb1ca89250",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer opens with 'Yes, detected with Sentinel-2', which contradicts the key: the loss comes from Hansen/UMD and Sentinel-2 is not in the evidence. The later Hansen/JRC details are correct, but the central claim is a misattribution."
+ },
+ "raw": null,
+ "cost_usd": 0.00855
+}

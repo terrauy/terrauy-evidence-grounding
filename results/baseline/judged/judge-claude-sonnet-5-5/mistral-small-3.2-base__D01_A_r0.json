@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D01_A_r0.json",
+ "prompt_sha256": "86e20214a79bb6e05d6a87847ec610327fb72b26a8a7d0591542e9cdb4b0d979",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer opens with non-detection but concludes 'tree cover remained intact after 2020', which asserts absence of change (forbidden). It gives no limitations such as the 0.5 ha threshold or 30 m resolution."
+ },
+ "raw": null,
+ "cost_usd": 0.007698
+}

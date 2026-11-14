@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G07_B_r2.json",
+ "prompt_sha256": "02b6a4e163334df09fdb19199f74e3df77e28e246cb5ae1f24c54e6e6fc21313",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The 0.7 ha total was in patches individually below 0.5 ha, not itself below the threshold. The answer otherwise reports the years and areas correctly."
+ },
+ "raw": null,
+ "cost_usd": 0.002821
+}

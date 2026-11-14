@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D10_A_r1.json",
+ "prompt_sha256": "502ed88e6f1ccf3370ac9a66d2ec4231dc4cd31f0664e8319978e2c86f9295ab",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly says unchanged cover is unconfirmed, but falsely claims the data provides no information about post-2020 changes, overlooking the supported non-detection."
+ },
+ "raw": null,
+ "cost_usd": 0.002527
+}

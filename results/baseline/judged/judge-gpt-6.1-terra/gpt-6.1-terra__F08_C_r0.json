@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F08_C_r0.json",
+ "prompt_sha256": "d6eeb941891b98022ddafb13aea7d4ad642b572b58b3df70475d2e4abba77e5c",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly distinguishes the JRC 2020 forest baseline from Hansen/UMD\u2019s 2023 loss and notes that the cause is not established."
+ },
+ "raw": null,
+ "cost_usd": 0.002734
+}

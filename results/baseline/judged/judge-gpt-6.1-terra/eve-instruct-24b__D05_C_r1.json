@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D05_C_r1.json",
+ "prompt_sha256": "1d004ca7c77f63da36d730eebfe7914cd565a57752c9fe5614ff956850146461",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no detected fire within the correct period and asset, while acknowledging that some fires might escape detection."
+ },
+ "raw": null,
+ "cost_usd": 0.002242
+}

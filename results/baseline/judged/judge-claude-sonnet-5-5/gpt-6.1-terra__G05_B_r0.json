@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G05_B_r0.json",
+ "prompt_sha256": "aed0b95c19d988a252413f97fd06384be038875c608e8963d39fb42142b919dd",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, a candidate pending corroboration, with persistence not established because 2025 is the latest year; numbers match the facts and it notes cause and deforestation are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.00772
+}

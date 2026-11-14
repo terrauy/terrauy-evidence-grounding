@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K08_B_r0.json",
+ "prompt_sha256": "4cbd36027c2fd25e820b2a2331419f7e9faa14e348274cc0d9c60b799cb833ef",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "States 2.23% (81.3 ha) of 3,643.5 ha, matching key; extra details are supported by facts; notes cause/legality not established and sub-0.5 ha patches excluded."
+ },
+ "raw": null,
+ "cost_usd": 0.010786
+}

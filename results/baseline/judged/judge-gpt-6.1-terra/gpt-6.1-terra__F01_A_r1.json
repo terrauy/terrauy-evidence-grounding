@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F01_A_r1.json",
+ "prompt_sha256": "5a8803b57b730ea1727444c7452a98dc5b5c0aa0db45c2506917d4b1beeda1ae",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly identifies Hansen/UMD Global Forest Change as the dataset that detected the 2021 loss."
+ },
+ "raw": null,
+ "cost_usd": 0.00264
+}

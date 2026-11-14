@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F08_A_r0.json",
+ "prompt_sha256": "ffbea8291c3409713bdb671c1ed86b1a94a464ee588888a3f07141fda5b4d0a6",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answers 'Yes' that JRC shows/corroborates the loss, misattributing detection to JRC (a 2020 reference only). Also muddles the 0.4/0.3 ha breakdown: the 0.4 ha sub-threshold patches are mischaracterized as part of the 0.7 ha event."
+ },
+ "raw": null,
+ "cost_usd": 0.008768
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F05_C_r0.json",
+ "prompt_sha256": "524fdceefc2b8f10d2bb8a8ceebc9989cc58f17b6d9b7e869e4eed40ea9f9de7",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer wrongly attributes detection to Sentinel-2 and asserts that Hansen GFC uses Sentinel-2. Its area, year, context and threshold statements are supported."
+ },
+ "raw": null,
+ "cost_usd": 0.002723
+}

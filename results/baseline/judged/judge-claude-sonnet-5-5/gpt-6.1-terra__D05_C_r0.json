@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D05_C_r0.json",
+ "prompt_sha256": "0811553f69626214e3ad5692baf89a730d8628e75dbb06769d4c88ae21e8b972",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports no FIRMS detections across the fully covered period and explicitly says this does not rule out a fire. It does not claim that no fire occurred, so the forbidden claim is negated."
+ },
+ "raw": null,
+ "cost_usd": 0.006922
+}

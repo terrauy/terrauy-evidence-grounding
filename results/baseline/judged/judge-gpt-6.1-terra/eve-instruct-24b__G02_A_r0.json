@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G02_A_r0.json",
+ "prompt_sha256": "883bbc7ffcb356071f4323283ed75763f2f12570f17d063bab5ec2115baf7598",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The main answer correctly dates the 67.7 ha loss. However, it overstates the JRC map as confirming no forest remained and treats detected losses as exhaustive."
+ },
+ "raw": null,
+ "cost_usd": 0.0028
+}

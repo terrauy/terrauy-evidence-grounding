@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H04_C_r2.json",
+ "prompt_sha256": "5e975c95ff1456510ca44ea04241b5fc1b38b46629b0605bbfb90a524505e9f4",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Misstates 3.41% as share of native forest (it is share of the asset); the property's total native forest is not quantified. The 0.6/0.5 ha figures are correct, and MGAP is wrongly credited with corroboration."
+ },
+ "raw": null,
+ "cost_usd": 0.01203
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G08_B_r2.json",
+ "prompt_sha256": "2e21a45eb1ced5f598a50db710f1a948967160a8244d8c6a3f0d6df5ac2f8b1b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no sustained increase is evident, citing 81.3, 0.6 and 4.5 ha and noting no events for 2024-2025. It also states that loss does not establish deforestation or its cause."
+ },
+ "raw": null,
+ "cost_usd": 0.010108
+}

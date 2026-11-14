@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H05_A_r0.json",
+ "prompt_sha256": "3fb14091eb08dee8b600a35f99c2689c1c03e1212c3a781197cd8f8ec4c52e01",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer concludes forest clearing occurred, which the evidence does not establish (loss could be plantation harvest). Numbers are correct, but it asserts clearing and gives no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.00853
+}

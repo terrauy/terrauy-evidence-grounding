@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K03_A_r1.json",
+ "prompt_sha256": "bb8e2a3545b904e30c0c29c04953eed855a0ca7ac5fefedad7d0f0d340369fe5",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer correctly reports zero FIRMS detections within the property during the specified period and identifies the covered sensors."
+ },
+ "raw": null,
+ "cost_usd": 0.002119
+}

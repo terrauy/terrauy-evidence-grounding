@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D05_C_r1.json",
+ "prompt_sha256": "903199415b93214dc9f5a5b0584d415add13f8769ec8587a817185a7765a3d62",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no FIRMS detections in the period and explicitly says this does not rule out a fire. It does not claim that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.006722
+}

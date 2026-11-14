@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E05_A_r2.json",
+ "prompt_sha256": "46abd12130df1a0c92186f7fa789e7dac4971dde70469bedef48418dcfdf1c37",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer confirms no detections for the full period despite the VIIRS_SNPP gap and the rule that every day must be covered by each sensor. It does not abstain. It also does not state that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.007902
+}

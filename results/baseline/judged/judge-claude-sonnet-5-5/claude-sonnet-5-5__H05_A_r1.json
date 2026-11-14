@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H05_A_r1.json",
+ "prompt_sha256": "cdc2112adfd54ba1fa2acfc09799944a2805f1f1f134ecae979339225d181885",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The headline says 'a small area was cleared', which asserts clearing and land-use change. The key says clearing is not established; the answer states only the loss figures, with no limitation caveat."
+ },
+ "raw": null,
+ "cost_usd": 0.00838
+}

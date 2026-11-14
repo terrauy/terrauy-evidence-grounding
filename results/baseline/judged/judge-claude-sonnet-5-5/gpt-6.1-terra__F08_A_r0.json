@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F08_A_r0.json",
+ "prompt_sha256": "d09f6b50ecbfb1a97546cb66023118caff70f35ba1b1df63fe9cc682420bce23",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No: JRC is a 2020 forest reference (100% of 0.7 ha event area forest), and the 2023 loss is from Hansen. It matches the key and the facts. It states the limitation that JRC maps 2020 cover, not loss."
+ },
+ "raw": null,
+ "cost_usd": 0.008256
+}

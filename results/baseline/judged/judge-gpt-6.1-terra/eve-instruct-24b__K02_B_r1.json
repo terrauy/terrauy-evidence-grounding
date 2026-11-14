@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K02_B_r1.json",
+ "prompt_sha256": "ff76c171bc52651a5a86d52ef2c34f5f7ca4e0f10c2eda11c561d624a5395855",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms the 2025 candidate with the correct area and notes that corroboration, cause, and legality remain unresolved."
+ },
+ "raw": null,
+ "cost_usd": 0.002448
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H04_C_r1.json",
+ "prompt_sha256": "ce09fa6e26abf45f0aa34de95e4e27b42820ef26eafce9ce4fb025e5b2ae49e5",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports 0.5 ha in mapped native forest and 0.6 ha total, with a valid property-area percentage and relevant limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002749
+}

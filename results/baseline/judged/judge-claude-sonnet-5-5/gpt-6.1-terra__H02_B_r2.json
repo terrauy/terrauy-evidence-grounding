@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H02_B_r2.json",
+ "prompt_sha256": "da730da5409842b7fbce4406b910156a358d01a1f67eaf91a2fa3096c675e3c1",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, gives 68.1 ha planted and 13.2 ha outside mapped forest, matching the key. It also notes the map does not establish cause or land-use change."
+ },
+ "raw": null,
+ "cost_usd": 0.007954
+}

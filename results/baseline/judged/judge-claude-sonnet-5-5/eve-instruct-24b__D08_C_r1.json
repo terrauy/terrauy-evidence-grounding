@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D08_C_r1.json",
+ "prompt_sha256": "f8195320852a84abdda856b0f18191de08aeaa7144f718ee2f82c6294dda4405",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer flatly states 'no deforestation occurred' and says the assessment 'confirms' it, which is an absence claim rather than a non-detection. It also says 'all sources agree', which is not supported. It mentions the 0.5 ha threshold but not that non-detection is not proof."
+ },
+ "raw": null,
+ "cost_usd": 0.008986
+}

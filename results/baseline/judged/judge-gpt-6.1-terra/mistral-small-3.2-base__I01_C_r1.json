@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I01_C_r1.json",
+ "prompt_sha256": "d7e62ef6d472950b053b01ff93677f374c1c71b1fab792394df8c9ccb442fc8a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly affirms corroborated 2023 loss of about 4.5 ha; it does not claim deforestation or report the superseded pending status."
+ },
+ "raw": null,
+ "cost_usd": 0.004222
+}

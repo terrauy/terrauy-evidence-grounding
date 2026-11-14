@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I04_C_r1.json",
+ "prompt_sha256": "35ca12444ba52bba67389929700ef8da9281f1ebcd6a5d6474af05b4eb38bce3",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says the June 2025 file is superseded by v2, which shows a 13.5 ha candidate in 2025 pending corroboration. It does not claim persistence or deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.010626
+}

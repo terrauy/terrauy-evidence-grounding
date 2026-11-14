@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K02_C_r1.json",
+ "prompt_sha256": "6a3e878556fe85d90a7e37473e47886e6f1a2817d10df5e015150f177b501f8b",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms a 13.5 ha 2025 candidate, pending corroboration; numbers match. JRC 'supports' wording is slightly loose but 0.98 agreement is in the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.012692
+}

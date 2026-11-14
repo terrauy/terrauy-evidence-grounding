@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G08_A_r2.json",
+ "prompt_sha256": "f849adb29b3479acfdcd39ab94b06f3d7cb49774098fc6e09143ae26589672d5",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer correctly denies an increasing trend and reports the supported annual loss figures; the overall decrease is derivable from the series."
+ },
+ "raw": null,
+ "cost_usd": 0.00353
+}

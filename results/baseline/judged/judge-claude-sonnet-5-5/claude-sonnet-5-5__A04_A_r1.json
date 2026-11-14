@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/A04_A_r1.json",
+ "prompt_sha256": "5fd1470b3e472b3fd32fde2e65ad9ba35b9ee213695beab7b310a0d37f197e6d",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms 0.7 ha tree-cover loss corroborated and says it does not show native-forest deforestation; no cause, legality, actor or compliance asserted. The answer is truncated. Stance is ambiguous, leaning toward affirming tree-cover loss."
+ },
+ "raw": null,
+ "cost_usd": 0.021444
+}

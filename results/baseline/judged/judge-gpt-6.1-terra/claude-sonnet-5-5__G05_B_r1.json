@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G05_B_r1.json",
+ "prompt_sha256": "cae44aa8cf6678556616319a8822a1b5b4cf23a55869192973e3d985c6ecf460",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly identifies the loss as pending corroboration because no later year has been observed, and accurately reports the supporting evidence and limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002705
+}

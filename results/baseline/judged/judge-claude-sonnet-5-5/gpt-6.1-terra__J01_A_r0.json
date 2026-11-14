@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J01_A_r0.json",
+ "prompt_sha256": "2386c274d57844f0d18e8e3acc17b7c10770c2de659a85e50c737fe5e231743b",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports Hansen detection and JRC showing forest in 2020 (disagreement), says loss is not conclusively established, gives no yes/no. It frames this as 'remained cleared' rather than 'not corroborated', but the facts are consistent."
+ },
+ "raw": null,
+ "cost_usd": 0.014436
+}

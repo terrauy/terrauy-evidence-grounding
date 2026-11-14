@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F06_B_r2.json",
+ "prompt_sha256": "a2789fc584babaa2d2c7383039eabde101ae4ec4b22341d0a6387b2e337401ce",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly lists sensors and coverage, but omits required FIRMS attribution and incorrectly describes five coverage records as five source datasets."
+ },
+ "raw": null,
+ "cost_usd": 0.002434
+}

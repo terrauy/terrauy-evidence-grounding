@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F04_B_r2.json",
+ "prompt_sha256": "46141d6376b87d88933770f749136619843a81c6205b138572a81709cd8c1e02",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Names MGAP 2021 forest cartography as the source of the native-forest classification, with correct numbers. It explicitly distinguishes Hansen and JRC and notes the limits: territorial context, not cause, and pending corroboration."
+ },
+ "raw": null,
+ "cost_usd": 0.008164
+}

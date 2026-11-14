@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H05_C_r0.json",
+ "prompt_sha256": "8d2b3bcfeaa242006b3eac093a8b82ca6717697b47d98b67303796c3148326a2",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer asserts the property's forest was cleared, although the evidence establishes only 0.7 ha of tree-cover loss and does not establish clearing or deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.002838
+}

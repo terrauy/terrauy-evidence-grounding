@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D02_C_r2.json",
+ "prompt_sha256": "e001bdad8b1d54761fc3d1645b81844160b3bdb6e2b79ddf9f170e2c17a6bd7d",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer asserts the forest remained intact and no stand-replacing losses occurred, exceeding the supported non-detection despite acknowledging detection limits."
+ },
+ "raw": null,
+ "cost_usd": 0.002497
+}

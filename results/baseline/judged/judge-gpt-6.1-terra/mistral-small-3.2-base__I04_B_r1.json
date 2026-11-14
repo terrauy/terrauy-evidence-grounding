@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I04_B_r1.json",
+ "prompt_sha256": "82a3189e12e0adaf81a8cf039bd4b98f395c2c4dfb121c6262d87b39e9a2215f",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly limits the old finding to 2024 and notes the pending 2025 candidate, but does not explicitly deny the statement\u2019s current validity or mention supersession."
+ },
+ "raw": null,
+ "cost_usd": 0.00373
+}

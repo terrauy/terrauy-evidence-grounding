@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F04_C_r2.json",
+ "prompt_sha256": "5778b69510f8997b7cee899261ab586ad1b57ddfbf3aa002ed6832fcada294d4",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly names the MGAP 2021 forest map with accurate figures (13.1 ha native, 0.4 ha outside, 0 planted) and notes it gives only territorial context, not cause. It does not say the map is from 2021 rather than a 2025 observation, though the name implies it."
+ },
+ "raw": null,
+ "cost_usd": 0.008032
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I01_B_r1.json",
+ "prompt_sha256": "b505e5416882aac288c99b1c7162226e860518194890c61810b64d28b31accfb",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Affirms corroborated 4.5 ha loss in 2023 using current v2 evidence; does not claim deforestation, but also does not state that it is not deforestation or any limits. The only qualifier is the 0.5 ha minimum event area, which is not a limitation of the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.012466
+}

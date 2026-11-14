@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J05_C_r2.json",
+ "prompt_sha256": "c87f93d76d9aff0ec4e2f2bfffc828fa849ebd627e1073eafa962202b54f8a4e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers 'Not necessarily' (no contradiction), notes 2020 loss precedes baseline. But it asserts unsupported claims, e.g. 'during 2020' mismatch and that datasets differ in resolution/classification so figures aren't comparable, and doesn't state non-forest corroborates loss."
+ },
+ "raw": null,
+ "cost_usd": 0.008638
+}

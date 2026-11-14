@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D08_B_r1.json",
+ "prompt_sha256": "a9377eefcc889c597c0cee438c72ce5ba2033e8e97ce4ea68817e2de2dfed7a9",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports non-detection of loss events of 0.5 ha or more for 2021-2025. It correctly cites the 0.4 ha sub-threshold patch and the caveats, and it makes no compliance or absence claim."
+ },
+ "raw": null,
+ "cost_usd": 0.00911
+}

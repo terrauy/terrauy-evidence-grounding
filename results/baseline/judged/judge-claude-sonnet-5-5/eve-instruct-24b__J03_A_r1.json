@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J03_A_r1.json",
+ "prompt_sha256": "c38dbd0bf611a75aee3d237e0fc9c3bd251465425da977708cb6988da5a86d84",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer claims sources agree and loss is confirmed, but JRC agreement is 0.49 (below 0.5) and non-forest, not 51% still forest. It misstates the numbers and reverses the conclusion."
+ },
+ "raw": null,
+ "cost_usd": 0.008838
+}

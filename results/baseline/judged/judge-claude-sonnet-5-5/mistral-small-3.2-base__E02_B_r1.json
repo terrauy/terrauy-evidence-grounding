@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E02_B_r1.json",
+ "prompt_sha256": "7015995d268740e05dfab6e2f3fc70eff20122385f0ef49115629a570500d2cb",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the evidence is insufficient because coverage is missing and that neither loss nor its absence can be confirmed. It makes no compliance finding. The wording 'using the available sources' is slightly off, since the sources were unavailable, but this is minor."
+ },
+ "raw": null,
+ "cost_usd": 0.007312
+}

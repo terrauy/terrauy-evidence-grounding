@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H03_B_r0.json",
+ "prompt_sha256": "d662add3e97e4a9e7771fe7e8db5a636cafd12d0be1c20dea751c84b868cf0b1",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says the loss is possible but unconfirmed and pending corroboration, with correct figures. It disclaims deforestation and persistence. It never says the asset's forest was lost as a whole, though it omits the 227.1 ha comparison."
+ },
+ "raw": null,
+ "cost_usd": 0.008802
+}

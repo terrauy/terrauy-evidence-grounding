@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G05_B_r0.json",
+ "prompt_sha256": "6bdd1f053fba1a5f71f9312f4d6a45a5d4031aa809ca3e9b46c1f1b5de32726b",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly identifies the 2025 loss as pending corroboration and explains that a later year is needed."
+ },
+ "raw": null,
+ "cost_usd": 0.002564
+}

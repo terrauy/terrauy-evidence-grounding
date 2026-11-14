@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K08_B_r1.json",
+ "prompt_sha256": "b5e76cbea4b7d0820d213a5427906dc644dd522a70ef48446f22397e81ae0368",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer gives the supported share and area, accurately describes forest context and corroboration, and notes limits on cause and legality."
+ },
+ "raw": null,
+ "cost_usd": 0.002662
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/B01_C_r2.json",
+ "prompt_sha256": "f74478c0d8c3504eed249fbb63a5785a336484e8cde96091b84539b2dcbe6f6e",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says cause is not established, listing harvest, fire, storm and clearing only as possibilities. Numbers (81.3, 68.1, 13.2 ha) match the facts. The plantation map is described as context, not proof."
+ },
+ "raw": null,
+ "cost_usd": 0.00898
+}

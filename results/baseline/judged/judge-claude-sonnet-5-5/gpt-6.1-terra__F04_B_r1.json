@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F04_B_r1.json",
+ "prompt_sha256": "1d1a7c027492671c3d366703b35c40e63b303385428d834814d595ef870f161e",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly names MGAP 2021 map with 13.1 ha native forest, matching the facts. It notes the 2021 map year but does not state that it is not a 2025 observation, and gives no other limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.007668
+}

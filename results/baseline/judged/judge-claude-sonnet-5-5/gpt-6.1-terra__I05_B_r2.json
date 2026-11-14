@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/I05_B_r2.json",
+ "prompt_sha256": "3c4889c5581deb922e19453a30a9bc7af71bf08768156238f72917bd95d2897f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms corroborated 81.3 ha loss under current v2, notes the pending version is superseded, and explicitly disclaims deforestation, cause, and legality. Figures match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.012614
+}

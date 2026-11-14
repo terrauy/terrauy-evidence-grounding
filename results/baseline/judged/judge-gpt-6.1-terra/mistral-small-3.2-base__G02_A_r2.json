@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G02_A_r2.json",
+ "prompt_sha256": "57a8a28e151598fc8335de77765828f397e19124c71369111f0454a1c6200167",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The 67.7 ha loss is correctly dated to 2020, but the answer asserts no significant post-cutoff loss occurred rather than limiting the conclusion to detection."
+ },
+ "raw": null,
+ "cost_usd": 0.002792
+}

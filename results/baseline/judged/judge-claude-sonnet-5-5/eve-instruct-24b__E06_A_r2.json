@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E06_A_r2.json",
+ "prompt_sha256": "80e029ebce26470bae65c18b04f518730d18919d9a311d581dd8597c3c6c5459",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says yes, property stayed fire-free and that absence of detections indicates no fires. It treats the gap as only the final day, and ignores that non-detection is not proof. Conclusion contradicts the insufficient-evidence status."
+ },
+ "raw": null,
+ "cost_usd": 0.009196
+}

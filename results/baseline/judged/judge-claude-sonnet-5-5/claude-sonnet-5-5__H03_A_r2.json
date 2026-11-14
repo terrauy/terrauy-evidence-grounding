@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H03_A_r2.json",
+ "prompt_sha256": "73e02228798ff389d6890549adfe0023b6d41585b58b57e0b9f342ea759e544e",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says probably yes but unconfirmed, a pending 13.5 ha candidate. It frames this as 'likely native forest loss of about 13 ha', which hedges whole-forest loss but doesn't state it. It does not omit the 227 ha context and doesn't assert persistence."
+ },
+ "raw": null,
+ "cost_usd": 0.008922
+}

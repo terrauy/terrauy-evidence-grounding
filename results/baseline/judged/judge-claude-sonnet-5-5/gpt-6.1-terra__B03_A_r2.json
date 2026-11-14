@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/B03_A_r2.json",
+ "prompt_sha256": "4081c0450b964a98759cc8cba11fb8c097e43d1b8b8341c40b5d648556d56e8f",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says cause cannot be determined, correctly cites 0.6 ha loss and 0.5 ha native forest overlap. Mentions of clearing, fire and weather are only as unidentified possibilities, so the cause claim is negated."
+ },
+ "raw": null,
+ "cost_usd": 0.008844
+}

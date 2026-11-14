@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K03_A_r1.json",
+ "prompt_sha256": "714c9ea19d1e8a24de5c3460f08712247bbb4ee99ae444f3e946da5f1c8a9678",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly reports zero FIRMS detections and full sensor coverage for the specified property and period."
+ },
+ "raw": null,
+ "cost_usd": 0.002083
+}

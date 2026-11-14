@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K03_B_r2.json",
+ "prompt_sha256": "76888e90ba2474da521568fff304ef4c8fc86d4403ea18895f12ee5dbb2e36fb",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports zero detections and full sensor coverage for the specified period, while noting that undetected fires remain possible."
+ },
+ "raw": null,
+ "cost_usd": 0.002124
+}

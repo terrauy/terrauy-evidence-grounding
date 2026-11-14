@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H01_A_r2.json",
+ "prompt_sha256": "b3d6430cb2cd82c780c1057c4a210bdb48f80a512ee5278359686cb9833f4de6",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer denies whole-property clearing, reports supported loss figures, and notes that tree-cover loss does not establish clearing or its cause."
+ },
+ "raw": null,
+ "cost_usd": 0.002795
+}

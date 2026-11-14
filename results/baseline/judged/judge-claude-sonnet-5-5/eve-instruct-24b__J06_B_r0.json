@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J06_B_r0.json",
+ "prompt_sha256": "d1f3280de89c59f668209a968a5e4a53fc2111cfe6eb41e1986750b5f18c459b",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Says sources disagree and not corroborated, but wrongly claims the 1.8 ha is below the 0.5 ha threshold, asserts JRC shows no forest loss, and speculates harvest as the likely cause (unsupported). Tilts toward no-loss."
+ },
+ "raw": null,
+ "cost_usd": 0.009214
+}

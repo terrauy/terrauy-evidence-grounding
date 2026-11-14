@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F02_C_r1.json",
+ "prompt_sha256": "6a1389c42988d61abadb257332e2efcd8e2bf43fc353ec2062a1654428fe9046",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes the planted pine classification to MGAP and notes that 13.2 ha was outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002677
+}

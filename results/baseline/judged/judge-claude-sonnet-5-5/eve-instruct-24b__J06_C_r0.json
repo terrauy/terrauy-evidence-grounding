@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J06_C_r0.json",
+ "prompt_sha256": "3c5982f57e4566c530f506038da73c4efe9b4b51bf2093688dbb868593ca6d1a",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly says contradicted and not deforestation evidence, but invents cause (harvesting likely) and misstates JRC as showing 'no forest loss' / confirming non-permanent change; the key says the JRC shows non-forest in 2020."
+ },
+ "raw": null,
+ "cost_usd": 0.009134
+}

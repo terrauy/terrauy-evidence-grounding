@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K02_C_r1.json",
+ "prompt_sha256": "c17cb74e6579a8f4d1c404045c423a10b1c1e4b4288b15d08e4ec671969e4665",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms a 13.5 ha 2025 candidate, pending corroboration, matching the key. Details (98% JRC agreement, 3.9%, native forest context, limits) are all in the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.00767
+}

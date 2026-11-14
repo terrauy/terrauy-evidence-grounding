@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H01_A_r0.json",
+ "prompt_sha256": "bde3fb808a6e0841d45ae2b590f1fc3d5ef08634e296db0da915ff183e4acbd8",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies whole-property clearing, but asserts that a small part was cleared; tree-cover loss alone does not establish clearing."
+ },
+ "raw": null,
+ "cost_usd": 0.0029
+}

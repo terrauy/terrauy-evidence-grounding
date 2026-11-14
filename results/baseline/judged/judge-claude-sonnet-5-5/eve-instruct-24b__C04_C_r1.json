@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C04_C_r1.json",
+ "prompt_sha256": "2ef39fb7daffb06747a350f7d68a4f1fff9fec86a51dc9cd81b0ad0829d4b227",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly states legality and compliance are not established and cites the right tree-cover loss figures. 'Tree removal' and 'harvesting' are only an example of a stand-replacing event, not an assertion of deforestation or of an actor."
+ },
+ "raw": null,
+ "cost_usd": 0.010926
+}

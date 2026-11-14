@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I06_B_r1.json",
+ "prompt_sha256": "54783fcd25f5ee07d53f3fc8c42843613a80bfef09d101990ee54bd3ccc2d1e0",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answers yes using current v2 with full sensor coverage, notes earlier version's gap as superseded, no detections; does not claim no fire occurred, but gives no caveat that non-detection is not proof."
+ },
+ "raw": null,
+ "cost_usd": 0.011556
+}

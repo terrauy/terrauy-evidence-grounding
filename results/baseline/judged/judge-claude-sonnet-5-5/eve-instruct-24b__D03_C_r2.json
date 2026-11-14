@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D03_C_r2.json",
+ "prompt_sha256": "9e92f94684b0634359733f520aea529c0e54a21c534daf5489289174c0fc939b",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports non-detection and gives limits. But it says the analysis 'confirms no recent loss' and 'supports a deforestation-free claim', which asserts a compliance-type finding. It also labels the result 'no deforestation'."
+ },
+ "raw": null,
+ "cost_usd": 0.007928
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H01_C_r0.json",
+ "prompt_sha256": "8e65fd7c5a96995ebcfa30912f587a5f5af152c8c742ab3f90f175ce0ae53b5e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies with 81.3 ha/2.23%, but claims remaining 97.8% retained tree cover and folds the 37.3 ha sub-threshold loss in loosely; no deforestation claim."
+ },
+ "raw": null,
+ "cost_usd": 0.014374
+}

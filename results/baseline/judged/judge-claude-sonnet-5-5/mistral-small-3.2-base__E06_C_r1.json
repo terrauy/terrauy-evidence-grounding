@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E06_C_r1.json",
+ "prompt_sha256": "e1971d20e5bea6ea5f76973e32c7367c312241e8afd918299f5f4184d0db3972",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says full period cannot be concluded, notes no detections in covered days and a gap on Nov 4 (temporal gap). Minor: uncovered window is Nov 3\u20134, but this roughly matches. Does not claim no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.009222
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G07_A_r0.json",
+ "prompt_sha256": "3365a22ac6eac2984cddda4c2e28a442bf4bb228462cefaca2c29907a6720844",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Misattributes the corroborated 2023 event to 2024; the 2024 loss was in sub-threshold patches, not a counted event."
+ },
+ "raw": null,
+ "cost_usd": 0.002811
+}

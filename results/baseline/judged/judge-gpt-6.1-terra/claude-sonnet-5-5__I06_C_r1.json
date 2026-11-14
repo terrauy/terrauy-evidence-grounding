@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I06_C_r1.json",
+ "prompt_sha256": "70c1279d03ec3c96dec4c4327c1151bb9805c54138dde3803fa262ef02a2d9e8",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly affirms complete current coverage, identifies the earlier gap as superseded, and notes that no detection does not prove no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.00398
+}

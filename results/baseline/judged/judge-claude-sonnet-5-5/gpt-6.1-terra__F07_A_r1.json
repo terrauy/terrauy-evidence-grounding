@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F07_A_r1.json",
+ "prompt_sha256": "d8af4d4dd3a5f3e62060328e54a2f7f49092da1735bb432b20e1f0a5b8744b4c",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly states no dataset shows forest in 2020, cites JRC GFC2020 with 0 ha, and notes Hansen's 2000 tree cover and loss do not establish 2020 forest cover."
+ },
+ "raw": null,
+ "cost_usd": 0.008064
+}

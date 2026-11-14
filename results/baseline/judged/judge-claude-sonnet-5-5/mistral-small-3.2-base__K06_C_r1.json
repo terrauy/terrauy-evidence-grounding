@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K06_C_r1.json",
+ "prompt_sha256": "0213223b5d78bf39bdfe1543b11b3f3bd6663497e93974d7886ca24c1ca93c35",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer affirms corroboration, correctly citing 0.6 ha Hansen loss in 2022, the JRC 2020 agreement on the entire event area, and the later-year rule. It states no limitations on what the evidence does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.00797
+}

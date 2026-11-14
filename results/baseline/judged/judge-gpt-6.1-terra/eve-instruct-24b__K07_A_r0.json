@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K07_A_r0.json",
+ "prompt_sha256": "e174adf71f40cb7404bd8b95ccac2dd022b3bc4705a7df3a5a8060b76d7ef9f1",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The conclusion and coverage limitation are supported, but the answer invents an error message and characterizes unprepared source coverage as unavailable satellite imagery."
+ },
+ "raw": null,
+ "cost_usd": 0.001938
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F08_A_r1.json",
+ "prompt_sha256": "c8cd86e131ba82c2a164b9c9289f869056a4aaff5665037ac2ea8a818dd69dfb",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answers 'Yes' to whether JRC shows the 2023 loss, but JRC is only a 2020 reference and Hansen detected the loss. It also wrongly says 0.4 ha of the 0.7 ha was sub-threshold, and calls all of the loss planted forest."
+ },
+ "raw": null,
+ "cost_usd": 0.012636
+}

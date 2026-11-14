@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K07_A_r0.json",
+ "prompt_sha256": "fd3168d3c33fd8f43e9e2ade857f2dd6d95456d5813ce2f482d6646332a01722",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says not evaluated because source coverage was not prepared; but invents that the tool 'encountered an error', which is not in the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008036
+}

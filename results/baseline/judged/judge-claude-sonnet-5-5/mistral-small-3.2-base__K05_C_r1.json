@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K05_C_r1.json",
+ "prompt_sha256": "7f91c4e76bc97fc4967364fedd230b4824b961ef0043dacf47dfd6f8fb7ff361",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly gives 67.7 ha in 2020 from Hansen GFC. However it adds that no larger events were detected 'within the specified period', which is loosely phrased, and does not note the event predates the baseline. No limitations are mentioned."
+ },
+ "raw": null,
+ "cost_usd": 0.007826
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G05_B_r1.json",
+ "prompt_sha256": "b4e4c9c766e14e3c69778013a285faabf8b245eb2ee9487234190567bc5a6523",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly identifies a pending 2025 loss candidate and explains that a later observation is needed for corroboration and persistence."
+ },
+ "raw": null,
+ "cost_usd": 0.002571
+}

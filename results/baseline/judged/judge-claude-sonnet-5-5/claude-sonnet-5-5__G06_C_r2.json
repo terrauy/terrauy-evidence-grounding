@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G06_C_r2.json",
+ "prompt_sha256": "93733476ad476ba1641a420b3c6ff982c5c8629167ff6c78b0d21dd587edc6e5",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the evidence covers only 2026-10-04 to 2026-11-03 and cannot speak to the earlier window. It does not claim no fire occurred, and it notes detection limits. The suggested rerun window is a reasonable derivation."
+ },
+ "raw": null,
+ "cost_usd": 0.007754
+}

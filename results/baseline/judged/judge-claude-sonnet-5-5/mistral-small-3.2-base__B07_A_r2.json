@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B07_A_r2.json",
+ "prompt_sha256": "6fefc107a3fcc7b9ed037ec45cd6b45948829523eeb6abfbdcc58e165121d66a",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer flatly denies storm cause and suggests harvesting or disease. The evidence does not establish cause. It also invents claims such as 'gradual and localized' loss and that sub-0.5 ha patches support a non-storm cause."
+ },
+ "raw": null,
+ "cost_usd": 0.008994
+}

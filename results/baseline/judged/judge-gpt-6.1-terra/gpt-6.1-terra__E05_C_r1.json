@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E05_C_r1.json",
+ "prompt_sha256": "355804f9341ec6bb98fe4aed1dd3b915fbd75b2c2d13d6e89f7798df1071e8c0",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer declines full-period confirmation, identifies the S-NPP coverage gap, and correctly notes that no detections do not prove no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.002584
+}

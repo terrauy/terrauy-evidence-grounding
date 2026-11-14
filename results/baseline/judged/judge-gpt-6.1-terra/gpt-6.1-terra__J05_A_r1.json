@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J05_A_r1.json",
+ "prompt_sha256": "638168549b626e7b7b754e19e678f7c3d48b8f781aefc3ac23efb16c6b8cc43c",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer declines a definite no, but correctly describes the timing and does not assert a contradiction."
+ },
+ "raw": null,
+ "cost_usd": 0.002732
+}

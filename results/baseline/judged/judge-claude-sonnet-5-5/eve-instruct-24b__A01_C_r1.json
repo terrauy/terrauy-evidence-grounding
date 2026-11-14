@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A01_C_r1.json",
+ "prompt_sha256": "b16c6507a8741942d64fc60ea6bb62944839eb5d68bb376b1d92d321d3247de4",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports 81.3 ha loss in 2021 in planted forest context; says deforestation not established. Harvest is only hedged as a possible cause. Legality and compliance are stated as not established. 'No native forest affected' is supported by the 0.0 ha native forest figure."
+ },
+ "raw": null,
+ "cost_usd": 0.009648
+}

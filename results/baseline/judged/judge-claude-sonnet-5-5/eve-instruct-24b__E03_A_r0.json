@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E03_A_r0.json",
+ "prompt_sha256": "98eb01898de4e715fc6d9147062aac199d01504515bc0f004fb4ea777886e005",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no observation was made, so no conclusion is possible. It adds unsupported details: a tool 'error' and 'satellite imagery' that was not prepared. The facts say source coverage was not prepared, not imagery or an error."
+ },
+ "raw": null,
+ "cost_usd": 0.007246
+}

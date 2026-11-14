@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E02_A_r0.json",
+ "prompt_sha256": "cd4c927ed0b3809da6a5d097930ede03fddc5023c9b83b476491af56f8345aa5",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly says coverage is missing and status undetermined. It adds an unsupported 'technical issue' framing and 'satellite imagery' sources (the facts show Hansen and JRC datasets, which is roughly consistent), but the 'technical issue' claim is an unsupported cause."
+ },
+ "raw": null,
+ "cost_usd": 0.007424
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K03_C_r0.json",
+ "prompt_sha256": "132839b3bc477f80fd32c14f1f87778c8f0bdeaa5c849a64c402aa53f8788e17",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports zero detections for the property and period, and notes that undetected fires remain possible."
+ },
+ "raw": null,
+ "cost_usd": 0.002124
+}

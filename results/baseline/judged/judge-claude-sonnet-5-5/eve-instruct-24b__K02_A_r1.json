@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K02_A_r1.json",
+ "prompt_sha256": "de83e0dba2e744084bdc2184592fe07174e646b8f78966c2fc0b978e00422fa7",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer says No, contradicting the key (13.5 ha candidate in 2025, after 2020). It illogically claims 2025 is outside the period and that no losses were recorded 2020-2025. It does not mention corroboration pending."
+ },
+ "raw": null,
+ "cost_usd": 0.0075
+}

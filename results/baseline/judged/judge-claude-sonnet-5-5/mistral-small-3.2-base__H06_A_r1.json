@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H06_A_r1.json",
+ "prompt_sha256": "1c96180daebfdaa80ded07805efec8dd03f4fb1e5e8ec870420f66bf4dad604b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer says yes to regional forest loss, but the evidence covers only the asset boundary. It also claims JRC 'corroborates' loss, which is not what the facts show, and ignores the 2021-2025 claim interval."
+ },
+ "raw": null,
+ "cost_usd": 0.008108
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F03_A_r2.json",
+ "prompt_sha256": "ae6cc79ede9e672b82071c74fc4b299313a4691777024a22f6ad23106b0e6d2e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports JRC agreement and later observation, but presents the MGAP contextual forest map as independent corroborating evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.002794
+}

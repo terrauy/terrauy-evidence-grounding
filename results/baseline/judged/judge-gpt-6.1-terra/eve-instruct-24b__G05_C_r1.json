@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G05_C_r1.json",
+ "prompt_sha256": "47c0ebff54c4d4dfe8bd37c4c54dcff76915e79ede11a6a94671aa23b79290a3",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly identifies pending corroboration and the absence of a later observed year; possible causes are explicitly hedged."
+ },
+ "raw": null,
+ "cost_usd": 0.002578
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G05_C_r1.json",
+ "prompt_sha256": "e29456e0eff2aaa9015fb8a07ccbe95200ab288253aa8fa5acd9e700f01c5e53",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 'Not yet', loss is a candidate pending corroboration since 2025 is the latest year; numbers match the facts; it does not claim persistence and lists what the evidence does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.008078
+}

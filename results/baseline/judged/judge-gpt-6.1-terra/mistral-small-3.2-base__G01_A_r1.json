@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G01_A_r1.json",
+ "prompt_sha256": "8732c91bbc54b41795e1fcc2faefc024d03ccaa00d032bd58854b60945bc0854",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer asserts no loss and maintained tree cover, despite reporting 0.4 ha of loss; non-detection of qualifying events does not establish no change."
+ },
+ "raw": null,
+ "cost_usd": 0.002841
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G07_C_r0.json",
+ "prompt_sha256": "0145c020e03c7d87f1c8171948b1b21b71c2dbc456dfb14e39e6814f0ec5fc2b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer affirms a 2024 loss event, but 2024 had only 0.7 ha in sub-0.5 ha patches, not a counted event. It also wrongly sums 1.4 ha, treating 2023 sub-threshold 0.4 ha and the 2024 loss as an event."
+ },
+ "raw": null,
+ "cost_usd": 0.00855
+}

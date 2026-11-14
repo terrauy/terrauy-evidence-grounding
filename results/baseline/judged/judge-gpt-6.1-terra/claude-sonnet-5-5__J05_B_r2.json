@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J05_B_r2.json",
+ "prompt_sha256": "774044c5c68ae31d8f1ca199c430e659eadd4f8e394ceb655dea3682f7f8fd95",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the sources do not necessarily contradict and are consistent, but stops short of a definite no. Speculative explanations are hedged."
+ },
+ "raw": null,
+ "cost_usd": 0.002859
+}

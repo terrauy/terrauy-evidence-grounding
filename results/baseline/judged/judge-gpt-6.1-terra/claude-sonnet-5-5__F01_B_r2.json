@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F01_B_r2.json",
+ "prompt_sha256": "24726a1cde22fb24121052358139850cad821f2ce07c42666a711ed764c0fcab",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes detection to Hansen, but incorrectly describes MGAP as corroborating the loss; MGAP provides forest-type context only."
+ },
+ "raw": null,
+ "cost_usd": 0.002836
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E08_B_r2.json",
+ "prompt_sha256": "3f62c43eddbae272a872a61772cb956b2116c95d3e2f3cb726b4a28003af6643",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Opens with a definite 'No, tree cover did not change in 2026', which is unsupported since 2026 is unobserved. It also claims forest 'remained stable' in 2025, which isn't evidenced. It does note the data limits, but that contradicts its opening."
+ },
+ "raw": null,
+ "cost_usd": 0.007526
+}

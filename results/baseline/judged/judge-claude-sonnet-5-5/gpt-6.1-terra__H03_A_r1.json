@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H03_A_r1.json",
+ "prompt_sha256": "d15277c965ff9752552cd04abec915d246301b375e1236e9bb9af4d7cdc80fe5",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 'likely yes' but unconfirmed, with 13.5 ha pending. It implies native forest loss without stating that the asset's forest as a whole was lost, and omits the 227 ha context. It does not claim persistence or deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.008568
+}

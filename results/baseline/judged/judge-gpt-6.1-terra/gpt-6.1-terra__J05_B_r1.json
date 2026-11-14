@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J05_B_r1.json",
+ "prompt_sha256": "df6db91d2f02b0bb33006e83f8cea7d93809a89aee466d4a6e8f786180e6f6b9",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer denies a direct contradiction, correctly distinguishes the sources and periods, and notes the event-size threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002739
+}

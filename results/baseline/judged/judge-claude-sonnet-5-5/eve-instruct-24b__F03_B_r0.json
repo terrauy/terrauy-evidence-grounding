@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F03_B_r0.json",
+ "prompt_sha256": "4560358935ca267443cc7a80fa6567b11fd384b23b0573b40227f430ac806e27",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer cites JRC 0.98 agreement correctly but never says a later year was observed. It presents the MGAP forest map as corroborating the loss, which the key forbids. It also claims the evidence 'rules out' small losses, which the facts don't support."
+ },
+ "raw": null,
+ "cost_usd": 0.008748
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G02_B_r2.json",
+ "prompt_sha256": "b0660a4da21bbb4d592b66f98b0e1a98d9b2090b74e2673a19c939e976c8b5d3",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly says the 67.7 ha loss was in 2020, before the cut-off, and no 0.5 ha+ events were detected in 2021-2025. It notes the sub-0.5 ha threshold. All claims are supported by the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008266
+}

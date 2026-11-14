@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D10_C_r1.json",
+ "prompt_sha256": "39b8ec43440e86b86c2b57fb41255751da0598cb75a82c594a05559c17cf68c6",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports that no loss of 0.5 ha or more was detected for 2021-2025 and says it cannot confirm that nothing changed. It states the limits and makes no forbidden claims."
+ },
+ "raw": null,
+ "cost_usd": 0.007712
+}

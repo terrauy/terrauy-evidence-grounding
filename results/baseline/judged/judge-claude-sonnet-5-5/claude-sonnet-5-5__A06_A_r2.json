@@ -1,0 +1,46 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/A06_A_r2.json",
+ "prompt_sha256": "e297c3ad35ac9a4eb85e30b05248ece4a06144aef54782b16ae5bce1da02fd5c",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   },
+   {
+    "index": 5,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Leads with 'Probably yes' (hedged deforestation) but says it is not corroborated, and gives no cause or persistence claim. Numbers are consistent with the evidence. One slight deviation: 'Rechecking once 2026 data are available would settle it'."
+ },
+ "raw": null,
+ "cost_usd": 0.009506
+}

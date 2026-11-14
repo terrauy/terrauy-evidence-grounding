@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J01_C_r0.json",
+ "prompt_sha256": "5896a907d03ea4db87e4862db37e09fdf7ec2c4cb571111952e938e5e7bb1a91",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says claim contradicted, JRC disagrees, cannot confirm loss; notes plantation harvest only as possible cause and not necessarily deforestation. Consistent with key; no forbidden claims asserted."
+ },
+ "raw": null,
+ "cost_usd": 0.009074
+}

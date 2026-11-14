@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D06_C_r2.json",
+ "prompt_sha256": "50fcf39a5035f1c9e241ee0bfbbd49a0c757a157e30734a416e0e2379cfca965",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports the fully covered FIRMS non-detection and explicitly states that it does not prove no burning occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.00243
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G01_C_r2.json",
+ "prompt_sha256": "dae418b4f1bf675abaaa09d5b129fd4b89c688b6003d5e24ecd1e44a7bd9d269",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer concludes definitively that the property has not lost tree cover since 2021, which is an absence claim, though the evidence only shows non-detection. It notes the 0.5 ha threshold and the 0.4 ha sub-threshold patches, but does not state that non-detection is not proof of no change."
+ },
+ "raw": null,
+ "cost_usd": 0.008674
+}

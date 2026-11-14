@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J02_B_r0.json",
+ "prompt_sha256": "97b8213c5807c6f080f0c5d2dea46ad4b088582b9ae1b05ab20238209fcd917a",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer opens with 'No' but frames it as 'no confirmed loss' and notes the JRC disagreement. It also invents that JRC is 'more reliable' and found 'no evidence of loss', and misstates the MGAP 'no native forest loss' finding."
+ },
+ "raw": null,
+ "cost_usd": 0.009212
+}

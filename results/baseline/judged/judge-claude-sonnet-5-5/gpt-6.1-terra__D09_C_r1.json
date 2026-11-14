@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D09_C_r1.json",
+ "prompt_sha256": "57bd46538134b0e72b8a6d8caf0446036c21f3482f2c29738b5f134d3d7ad49c",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no thermal detections in the covered period and says this does not rule out a fire or establish burned area. It stays within scope. 'Daily satellite coverage' is consistent with the sensor coverage facts."
+ },
+ "raw": null,
+ "cost_usd": 0.007202
+}

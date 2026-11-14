@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E04_A_r1.json",
+ "prompt_sha256": "2b1fded9600192119435ff87194a95c51dae15b7c641bac7055d981e0bee9c8e",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports no detections in covered data, notes the Oct 24\u201325 gap across all four sensors, says fire cannot be ruled out, and that undetected fires are possible. This matches the key."
+ },
+ "raw": null,
+ "cost_usd": 0.008694
+}

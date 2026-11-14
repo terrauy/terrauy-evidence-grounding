@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J04_A_r2.json",
+ "prompt_sha256": "92bf70c49e8554d5364ab4e7207c7ed7d1490663bc9af973745d4eceaa1453ba",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The post-2020 events and statuses are correct. However, the claim that no MGAP observations were returned conflicts with the reported territorial contexts."
+ },
+ "raw": null,
+ "cost_usd": 0.003757
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J05_B_r2.json",
+ "prompt_sha256": "5633b0611e9cb6a5f074dd8860ad401c72308858d4c573aa7a5184652c0373fb",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly attributes the observations but hedges the no-contradiction conclusion and does not state that JRC corroborates the supported pre-baseline loss."
+ },
+ "raw": null,
+ "cost_usd": 0.002799
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F05_B_r2.json",
+ "prompt_sha256": "ac3b8b56efcd0481a2e84c71e7c3a4992cd5edffccde0b76a648649706575ebc",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer wrongly attributes detection to Sentinel-2 and asserts the change was observed in 2025; the evidence only says a later year was observed."
+ },
+ "raw": null,
+ "cost_usd": 0.00274
+}

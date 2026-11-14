@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I06_A_r1.json",
+ "prompt_sha256": "49fef71bfd9a52c51e3314255591ee1d662c6b6e38929afe445065f4fe3e1b98",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": false,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answers 'No' by treating the superseded v1 gap as current, and mislabels run order (calls v2 'first', v1 'second'). The current v2 shows full coverage, so the answer contradicts the key."
+ },
+ "raw": null,
+ "cost_usd": 0.011534
+}

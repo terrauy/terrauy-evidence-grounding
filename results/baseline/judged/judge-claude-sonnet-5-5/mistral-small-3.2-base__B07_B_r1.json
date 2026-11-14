@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B07_B_r1.json",
+ "prompt_sha256": "6fa5140cbad4a1e1146c491c0a9ef40b3b5e641f71afc25eb9399e9228fd9619",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says the cause is not established, restates the 4.5 ha loss in 2023, and lists harvest, fire, storm or clearing only as possibilities without concluding any. It asserts no cause, actor or legality."
+ },
+ "raw": null,
+ "cost_usd": 0.008952
+}

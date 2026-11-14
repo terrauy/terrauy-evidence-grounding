@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G01_C_r1.json",
+ "prompt_sha256": "4bfd353397b165dcb2cb577287755e438e7007d6de02cf997db3bf368754cc81",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states no event \u22650.5 ha detected 2021\u20132025, notes sub-threshold 0.4 ha and detection limits, and labels pre-2021 losses as outside the period. All claims match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.00868
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H04_C_r1.json",
+ "prompt_sha256": "f8dd85b87404b17af2e740e61e8e833cd7aa75ddfc1f9be5fcaed6402ee438d4",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports loss in mapped native forest and expresses percentages relative to the property, not its total native forest."
+ },
+ "raw": null,
+ "cost_usd": 0.0028
+}

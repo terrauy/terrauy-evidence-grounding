@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F05_A_r2.json",
+ "prompt_sha256": "2576ebaa32bc31abfa22c45ace2520dda729e02f8bc6dfe33692642bd5653efd",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer says yes, Sentinel-2 detected the loss, and claims Hansen GFC uses Sentinel-2 (not in evidence; Hansen is Landsat 30 m). Contradicts the key that Sentinel-2 is not part of this evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.00847
+}

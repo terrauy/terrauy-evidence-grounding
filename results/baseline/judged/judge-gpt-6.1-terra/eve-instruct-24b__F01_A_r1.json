@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F01_A_r1.json",
+ "prompt_sha256": "feaaf6a64c3ae0eb6054aec12d5bda3f94dd23ebf566779fb0569bb94823626c",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes detection to UMD, but incorrectly claims MGAP confirmed the loss; MGAP provides forest-type context only."
+ },
+ "raw": null,
+ "cost_usd": 0.00279
+}

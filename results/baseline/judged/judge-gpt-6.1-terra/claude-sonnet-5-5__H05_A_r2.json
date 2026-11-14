@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H05_A_r2.json",
+ "prompt_sha256": "10f666d14fbcf795a92a9dc431f4baed5a4dd6d301ec7f488bb0590586f708aa",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "\u201cPartly\u201d implies clearing occurred, and the asserted most likely cause, eucalyptus harvesting, is unsupported. The reported loss figures and evidence limitations are accurate."
+ },
+ "raw": null,
+ "cost_usd": 0.00294
+}

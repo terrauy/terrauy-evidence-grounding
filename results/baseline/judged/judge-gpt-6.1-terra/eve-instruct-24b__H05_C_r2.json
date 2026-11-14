@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H05_C_r2.json",
+ "prompt_sha256": "2b3885192a8c249f9f9b6a42b465634f504ba4042c15e24ad4bf7bb3a8436bc1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer asserts forest clearing despite evidence establishing only tree-cover loss; it correctly reports the loss area and notes cause and legality are unknown."
+ },
+ "raw": null,
+ "cost_usd": 0.002826
+}

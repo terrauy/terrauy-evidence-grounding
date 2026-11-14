@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H01_B_r0.json",
+ "prompt_sha256": "6a79a219e37ec92517323de095f27133c207ab6bb1e8b3467a0b2c969114650b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies whole-property clearing, reports supported loss areas, and distinguishes tree-cover loss from established clearing or land-use change."
+ },
+ "raw": null,
+ "cost_usd": 0.002795
+}

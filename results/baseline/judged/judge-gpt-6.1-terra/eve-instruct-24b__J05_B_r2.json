@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J05_B_r2.json",
+ "prompt_sha256": "9e6b7b18c5f90ee41bd897c5dcfff460f88c3b1962ffb469b8b73bdfd66d2f08",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Correctly denies contradiction, but asserts actual deforestation and no further loss events without the 0.5 ha threshold; 0.4 ha loss was observed in 2021."
+ },
+ "raw": null,
+ "cost_usd": 0.002841
+}

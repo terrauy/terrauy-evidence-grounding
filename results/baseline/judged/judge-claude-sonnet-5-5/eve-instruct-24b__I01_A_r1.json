@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I01_A_r1.json",
+ "prompt_sha256": "597949c75eea21deeebd7c1a3b109ef2f20a0ba6e77df7be056a39739e3ced53",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 4.5 ha corroborated loss using current data, but wrongly says 'both 2023 and 2025 versions' and 'multiple independent datasets' validate it, and 'Pinus spp.' is paraphrased. It does not claim deforestation, though it omits that the loss is not deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.012628
+}

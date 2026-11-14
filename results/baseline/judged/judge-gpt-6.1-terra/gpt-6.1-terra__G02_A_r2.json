@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G02_A_r2.json",
+ "prompt_sha256": "44fd87b0699f0e93f15e0e18c080b0f92cbe0e62b6ca6c5071fb837af29218d8",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly dates the 67.7 ha loss to 2020 and notes the 2021 loss was below the event-size threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002722
+}

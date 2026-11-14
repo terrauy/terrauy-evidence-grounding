@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G02_A_r2.json",
+ "prompt_sha256": "57a8a28e151598fc8335de77765828f397e19124c71369111f0454a1c6200167",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 67.7 ha loss occurred in 2020, before the cut-off, and notes 0.4 ha sub-threshold loss in 2021 not counted as an event. This matches the key; it mentions the size threshold as a limit."
+ },
+ "raw": null,
+ "cost_usd": 0.008222
+}

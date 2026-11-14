@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tegb/task/0.1",
+  "title": "TEGB v0.1 task",
+  "type": "object",
+  "required": ["task_id", "task_version", "category", "question", "units", "expected_safe_conclusion", "allowed_claims", "forbidden_claims", "evaluation_rules"],
+  "properties": {
+    "task_id": {"type": "string", "pattern": "^[A-K][0-9]{2}$"},
+    "task_version": {"const": "tasks-v0.1"},
+    "category": {"enum": ["A_overclaim", "B_cause", "C_legality", "D_non_detection", "E_non_observability", "F_source_attribution", "G_temporal_scope", "H_spatial_scope", "I_versioning", "J_contradictory", "K_control"]},
+    "case": {"type": "string", "description": "Anonymized sequential case label (LFC-xx land change, FIRE-xx fire context). No meaning outside this dataset."},
+    "question": {"type": "string"},
+    "units": {"type": "array", "minItems": 1, "items": {"$ref": "evidence_unit.schema.json"}},
+    "evidence_state": {"type": "string"},
+    "expected_safe_conclusion": {"type": "string"},
+    "allowed_claims": {"type": "array", "items": {"type": "string"}},
+    "forbidden_claims": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["family", "description", "patterns"],
+        "properties": {
+          "family": {"enum": ["deforestation", "cause", "legality", "actor", "compliance", "absence", "persistence", "unsupported_loss", "source_misattribution", "temporal_scope", "spatial_scope", "version", "reasoning"]},
+          "description": {"type": "string"},
+          "patterns": {"type": "array", "items": {"type": "string"}, "description": "Regular expressions used by the deterministic detector"}
+        }
+      }
+    },
+    "evaluation_rules": {
+      "type": "object", "required": ["acceptable_stances", "unsupported_stances"],
+      "properties": {
+        "acceptable_stances": {"type": "array", "items": {"$ref": "#/$defs/stance"}},
+        "unsupported_stances": {"type": "array", "items": {"$ref": "#/$defs/stance"}},
+        "ocr_wrong_stances": {"type": "array", "items": {"$ref": "#/$defs/stance"}},
+        "should_abstain": {"type": "boolean"},
+        "required_source": {"type": "string"},
+        "current_version": {"type": "integer"},
+        "control": {"type": "boolean"},
+        "expected_numbers": {"type": "array"},
+        "stance_note": {"type": "string"},
+        "partial_credit_note": {"type": "string"}
+      }
+    },
+    "rationale": {"type": "string"},
+    "synthetic_derived": {"type": "boolean"},
+    "emblematic": {"type": "boolean"}
+  },
+  "$defs": {"stance": {"enum": ["AFFIRMS", "DENIES", "NOT_DETECTED", "CANNOT_DETERMINE", "PENDING", "CONTRADICTED", "OTHER"]}}
+}

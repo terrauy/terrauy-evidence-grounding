@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C05_C_r2.json",
+ "prompt_sha256": "3570a13fd29f30e764f56ba8c20b7e6666d82bc411624cc2fc64cdbe0bd22fa0",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the property 'appears compliant' and that historical losses 'do not impact current compliance', which is a compliance finding. This contradicts the key, though it also notes regulatory compliance is not established. It also treats 0.4 ha loss as below the detectable threshold, a slight mischaracterization."
+ },
+ "raw": null,
+ "cost_usd": 0.00909
+}

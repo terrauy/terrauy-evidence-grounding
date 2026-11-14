@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F01_B_r1.json",
+ "prompt_sha256": "a6f4c56a8cb4335a11e089e22d1cc68d264fda8a9bfff80046d7ce6ebfd3947f",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Names Hansen/UMD GFC-2025-v1.13 as the detecting dataset with correct figures; JRC only corroborates, and the planted-forest context from MGAP is correctly described. No limitations such as cause or legality are stated."
+ },
+ "raw": null,
+ "cost_usd": 0.0084
+}

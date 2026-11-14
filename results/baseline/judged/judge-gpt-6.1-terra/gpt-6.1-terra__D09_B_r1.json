@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D09_B_r1.json",
+ "prompt_sha256": "0e6bf5f6120d7fd08282fd7e84d2009b83cfa256bbf663c7aee6d22163c3218a",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports the supported non-detection for the correct period and asset, while explicitly noting that fire cannot be ruled out."
+ },
+ "raw": null,
+ "cost_usd": 0.002313
+}

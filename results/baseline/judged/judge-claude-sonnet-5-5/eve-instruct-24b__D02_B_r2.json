@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D02_B_r2.json",
+ "prompt_sha256": "fd7c2eb7c8dff85be3196e86a35804295d4106b856aca5f2b685228095df3e02",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports non-detection of \u22650.5 ha loss and notes limits. But 'appears largely intact' leans toward intactness (hedged), and 'at least 91.77% forest cover' is a slight misstatement (it is exactly 91.77%)."
+ },
+ "raw": null,
+ "cost_usd": 0.007958
+}

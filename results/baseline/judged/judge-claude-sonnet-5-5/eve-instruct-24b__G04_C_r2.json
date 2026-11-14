@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G04_C_r2.json",
+ "prompt_sha256": "776504ef25e629f64b865a8847b3d8b9bff6ceb15535a39a827cc5312e2f8ef1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says 'Yes, forest clearing occurred' (deforestation asserted), and claims no further loss since 2021 and the property remains planted forest, which is unsupported. It never says that today is outside the evidence window."
+ },
+ "raw": null,
+ "cost_usd": 0.008688
+}

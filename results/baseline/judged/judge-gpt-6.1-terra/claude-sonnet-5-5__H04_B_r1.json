@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H04_B_r1.json",
+ "prompt_sha256": "3c60197418c19cbdd8e3de4758b8e594108aebb80c78265f7f74f2d639f8d289",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports the loss, native-forest overlap, asset share, corroboration and limitations without asserting a share of total native forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002797
+}

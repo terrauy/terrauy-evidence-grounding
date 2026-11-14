@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G01_B_r1.json",
+ "prompt_sha256": "5c92066dab8a014b4f9bc76ee9a0fabc9741c4a9dabc78305793b49d891d8cde",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "States no event \u22650.5 ha detected 2021-2025, notes 0.4 ha sub-threshold loss, and cites resolution limits and non-compliance caveat. It does not claim that no change occurred, and it does not treat pre-2021 losses as post-baseline."
+ },
+ "raw": null,
+ "cost_usd": 0.00857
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G07_A_r1.json",
+ "prompt_sha256": "812aa585adc67f470de2ea481d9da144a1b9d8aabc661bc3f1351fda9de943c7",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports 0.7 ha of 2024 loss in sub-threshold patches and distinguishes it from a qualifying event."
+ },
+ "raw": null,
+ "cost_usd": 0.002731
+}

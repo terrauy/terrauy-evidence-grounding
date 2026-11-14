@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H05_A_r2.json",
+ "prompt_sha256": "10f666d14fbcf795a92a9dc431f4baed5a4dd6d301ec7f488bb0590586f708aa",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correct figures (0.7 ha, 1.2%) and no clearing or deforestation asserted. But it infers 'most likely eucalyptus harvesting', a cause the evidence explicitly does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.01262
+}

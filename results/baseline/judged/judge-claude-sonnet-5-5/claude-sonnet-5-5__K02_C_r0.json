@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K02_C_r0.json",
+ "prompt_sha256": "b8e9d1b36f0d03241957ac6b5b725813f3530788719a953815521830611f8d74",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says yes, a 13.5 ha candidate in 2025, pending corroboration, and lists what the evidence does not establish. The 98% JRC agreement and 3.9% share are in the reference facts. The inference that the area was forest at baseline is reasonable."
+ },
+ "raw": null,
+ "cost_usd": 0.007836
+}

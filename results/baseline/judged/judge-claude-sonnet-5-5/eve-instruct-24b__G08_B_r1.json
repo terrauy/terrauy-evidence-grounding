@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G08_B_r1.json",
+ "prompt_sha256": "5bfc9c3d8e7b2ac7d167603c469bc4ee73493f6459fa1714956f9aaeacceb4c5",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts an increasing trend, but the evidence shows a 2021 spike followed by sharply lower losses and none detected in 2024-2025. It also says 'around 1-2 ha' annual pre-2020 losses and a 'significant increase', which the evidence does not support."
+ },
+ "raw": null,
+ "cost_usd": 0.010428
+}

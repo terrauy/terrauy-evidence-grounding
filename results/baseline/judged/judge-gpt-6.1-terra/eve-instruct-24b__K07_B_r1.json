@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K07_B_r1.json",
+ "prompt_sha256": "1b76d5bee355f869b30be5946082b0d0afda5f14894e32cadb7228d2c7f6e178",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies evaluation, but incorrectly asserts the datasets did not cover the area; the evidence says required source coverage was not prepared."
+ },
+ "raw": null,
+ "cost_usd": 0.001948
+}

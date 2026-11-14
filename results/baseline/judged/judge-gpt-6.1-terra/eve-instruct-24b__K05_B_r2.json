@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K05_B_r2.json",
+ "prompt_sha256": "428ce95449d176f5b11b4c81716decc7011151f1c649a1573ea8dd2753c078f0",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies the 2020 event and its area, accurately summarizes other events, and specifies the post-baseline detection threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002667
+}

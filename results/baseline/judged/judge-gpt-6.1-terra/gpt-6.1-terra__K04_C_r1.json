@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K04_C_r1.json",
+ "prompt_sha256": "914790dc8ec50cab918492df3a0209785d32f0a08bce74ef7d90b0233d774b82",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports no detected event of at least 0.5 ha during 2021\u20132025 and notes relevant detection and compliance limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002196
+}

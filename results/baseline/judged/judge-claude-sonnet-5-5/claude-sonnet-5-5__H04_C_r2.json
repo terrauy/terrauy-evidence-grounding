@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H04_C_r2.json",
+ "prompt_sha256": "7dc62b3ce76fb32f288d81840298bbad21ffded1f1b1c57a804a08180606ce45",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 0.6 ha loss and 0.5 ha native overlay, with a derived share of the property area (not of native forest), and states limits. No unsupported native-forest share."
+ },
+ "raw": null,
+ "cost_usd": 0.01118
+}

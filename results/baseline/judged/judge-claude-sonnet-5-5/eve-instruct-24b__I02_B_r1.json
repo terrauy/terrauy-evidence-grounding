@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I02_B_r1.json",
+ "prompt_sha256": "2eb7778817ed9ae8f36886bd1ff4cb4b831744e21774129ebaf67afcdbb4e51f",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says contradicted by JRC with 0 agreement, but wrongly claims the 1.8 ha event failed the 0.5 ha minimum threshold; the event area exceeds it."
+ },
+ "raw": null,
+ "cost_usd": 0.017242
+}

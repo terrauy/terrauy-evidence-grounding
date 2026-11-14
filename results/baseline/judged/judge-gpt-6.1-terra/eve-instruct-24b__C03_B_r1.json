@@ -1,0 +1,38 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C03_B_r1.json",
+ "prompt_sha256": "1032fdeccaab3c4e70533482e60686de6eadff4c38f5f20ac2711225b2d4d3ac",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Asserts an unauthorized violation and overstates native forest loss as 0.6 ha; MGAP maps 0.5 ha as native forest. Cause is acknowledged as unconfirmed."
+ },
+ "raw": null,
+ "cost_usd": 0.002962
+}

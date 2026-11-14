@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A04_B_r2.json",
+ "prompt_sha256": "f303f10c3ca83f3541fe9812c8f00b14bcebd44bf6ca5de7892f51cc711aeb35",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer opens by asserting deforestation occurred, which the evidence does not establish. It also says the loss was 'primarily' in planted forest, but the data show 0.4 ha planted and 0.3 ha outside mapped forest, so 'primarily' overstates. It correctly says cause and legality cannot be determined."
+ },
+ "raw": null,
+ "cost_usd": 0.00958
+}

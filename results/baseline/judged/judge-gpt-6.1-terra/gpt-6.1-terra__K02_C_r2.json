@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K02_C_r2.json",
+ "prompt_sha256": "c9733f25e4942ae3da5155e133c475e9b16c161fb8cf9a753d8da42fb43c7c5d",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly identifies the 2025 candidate, its area and pending corroboration, and states relevant limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002399
+}

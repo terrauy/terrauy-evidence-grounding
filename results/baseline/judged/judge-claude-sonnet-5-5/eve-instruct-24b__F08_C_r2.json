@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F08_C_r2.json",
+ "prompt_sha256": "767e3e073bfc9cbab35ec466c1318e08710677ac018c3bf4f01f26e9ee56cc0e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says yes, JRC supports the 2023 loss, but JRC is only a 2020 reference and Hansen detected the loss. It also claims a later year 'confirmed persistence', which is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.00829
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G08_B_r2.json",
+ "prompt_sha256": "dae69aaaac03a2c6d008a8c96358ee0b993403505bca0b7933627885e56bc450",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says loss is increasing, but 81.3 ha in 2021 falling to 4.5 ha in 2023 is a decline. It also says 'most losses in planted forest', which is partly derivable, and omits 2024-2025 having no detected events."
+ },
+ "raw": null,
+ "cost_usd": 0.010358
+}

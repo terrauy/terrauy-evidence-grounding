@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G08_A_r0.json",
+ "prompt_sha256": "a9c77bc43979b90b53013fc0e43da391d1ca4c17574208b964e8ebea91f1473e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer denies a rising trend, cites correct 2021-2023 figures and sub-0.5 ha patches not counted as events; the 'before 2021' line is truncated but asserts nothing wrong. Notes the event-size threshold as a limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.01028
+}

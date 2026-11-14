@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J04_C_r1.json",
+ "prompt_sha256": "e175c4bedd8d402d1a2be5e3ae02729d2822c97d4fc779e5eb1f3c5b40cacde2",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly lists 2021, 2022 and 2023 as supported with correct figures, says none are contradicted after the baseline, and puts the pre-baseline contradicted years outside the question. It also states the limits of the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.013216
+}

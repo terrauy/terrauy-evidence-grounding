@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H02_A_r2.json",
+ "prompt_sha256": "86b7a91014dc26c091a67f0ef37ff745e9e1f6e1801ca83812a2a7ef239a183f",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies that all loss was inside the plantation, reports the mapped areas, and notes the event-size threshold and unknown location of smaller patches."
+ },
+ "raw": null,
+ "cost_usd": 0.002715
+}

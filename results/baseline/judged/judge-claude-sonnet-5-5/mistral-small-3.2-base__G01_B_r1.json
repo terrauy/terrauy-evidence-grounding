@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G01_B_r1.json",
+ "prompt_sha256": "c1ef6c23363fcaf37b3c0e52dfacb21d3849984b51d4bf1034ece8081656982b",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no loss of 0.5 ha or more was detected for 2021-2025 and notes that smaller or edge changes may be missed. It makes no claim of absence and does not present pre-2021 losses as recent."
+ },
+ "raw": null,
+ "cost_usd": 0.008428
+}

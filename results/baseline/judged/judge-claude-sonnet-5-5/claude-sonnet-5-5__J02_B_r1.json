@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J02_B_r1.json",
+ "prompt_sha256": "6608839b3a7815e2fac50ea8c12d04c4449e725f8fe9d23d4ff36b741d8f83c2",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer matches the key: Hansen's 0.7 ha of loss is not corroborated by JRC, so the claim is contradicted and neither loss nor its absence is established. Plantation harvest is hedged and cause is explicitly not established."
+ },
+ "raw": null,
+ "cost_usd": 0.009318
+}

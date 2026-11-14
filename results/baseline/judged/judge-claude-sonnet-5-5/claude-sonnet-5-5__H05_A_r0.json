@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H05_A_r0.json",
+ "prompt_sha256": "422efd023acba1806179f922dfc7b5614f9ef5e13853b58a820b49d2ddab5211",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says some tree cover was lost (0.7 ha, 1.2%) but points to no native forest clearing. It hedges that loss in the planted eucalyptus 'may be harvesting rather than conversion', and notes the remaining 0.3 ha type is unclear."
+ },
+ "raw": null,
+ "cost_usd": 0.008754
+}

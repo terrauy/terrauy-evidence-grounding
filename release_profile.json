@@ -1,0 +1,5 @@
+{
+ "profile": "public-v0.1",
+ "withhold_from_public_package": [],
+ "note": "All public-baseline outputs are publishable for benchmark/evaluation use (MODEL_OUTPUTS_RIGHTS_MATRIX.md, re-verified 2026-11-13). The development run on real values and its blind review stay internal for privacy."
+}

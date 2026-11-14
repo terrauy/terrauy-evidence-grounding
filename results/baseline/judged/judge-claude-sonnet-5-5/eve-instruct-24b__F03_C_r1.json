@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F03_C_r1.json",
+ "prompt_sha256": "c49129603437f62720aa3bdc6127509270db60d09a820c7060f8f786e0767f6e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly cites JRC 0.98 and later-year observation, but presents MGAP forest map as corroborating evidence of loss, though it is only territorial context."
+ },
+ "raw": null,
+ "cost_usd": 0.011742
+}

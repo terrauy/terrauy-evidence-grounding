@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K01_A_r2.json",
+ "prompt_sha256": "c39a236bc5dfc787a30dd25829ad4ca769e949ba58a97a08937614b906d52939",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The main result is correct, but the event-size exclusion is a processing rule, not a Hansen exclusion; mapped native forest absence does not establish no native forest was impacted."
+ },
+ "raw": null,
+ "cost_usd": 0.002706
+}

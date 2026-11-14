@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B04_B_r2.json",
+ "prompt_sha256": "319e721202850b4cff9016e3f7b8fe40ad2ca29b816084cfeaf722eeeefc41e2",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says cause cannot be confirmed, so it is a CANNOT_DETERMINE stance. Alternative causes (harvest, fire) are mentioned only as possibilities. Facts are consistent with the evidence, and limitations are stated."
+ },
+ "raw": null,
+ "cost_usd": 0.00886
+}

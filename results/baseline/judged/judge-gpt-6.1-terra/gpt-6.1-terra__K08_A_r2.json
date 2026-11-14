@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K08_A_r2.json",
+ "prompt_sha256": "c720cff05e95c392679c1854a4e2fb27f362d05fd1e1fdeadfd126830894bc19",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports 2.23% and 81.3 hectares, and notes the exclusion of patches below the event-area threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002598
+}

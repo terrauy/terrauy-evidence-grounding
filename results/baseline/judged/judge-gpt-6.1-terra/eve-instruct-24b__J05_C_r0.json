@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J05_C_r0.json",
+ "prompt_sha256": "72ce497febc2ac931127e8eb95cf3c1b86b97a0ee9de998c0bb630fc14c9bbc8",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies contradiction, but overstates that all significant loss occurred before the claim period; no qualifying post-baseline event was detected, not necessarily absent."
+ },
+ "raw": null,
+ "cost_usd": 0.002792
+}

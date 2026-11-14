@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H04_B_r2.json",
+ "prompt_sha256": "cfccb09f2a2e232495457c40a41291c889136a42aa10552553ef1afb3d5ade48",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports 0.5 ha native of 0.6 ha loss, 3.41% of asset, with caveats on cause and legality; no share of total native forest claimed."
+ },
+ "raw": null,
+ "cost_usd": 0.0109
+}

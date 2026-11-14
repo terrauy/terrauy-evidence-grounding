@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H04_B_r2.json",
+ "prompt_sha256": "4f4ddc0c4351e75ade0be86482f7c13ac0a18c5c1ae3a2a7a1e58e9eef9b96b1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 0.5 ha native of 0.6 ha total loss in 2022; 2.84% of asset is correct arithmetic; no share of native forest claimed; notes cause and legality not established."
+ },
+ "raw": null,
+ "cost_usd": 0.02215
+}

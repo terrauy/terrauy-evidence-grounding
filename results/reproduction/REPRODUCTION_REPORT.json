@@ -1,0 +1,15 @@
+{
+ "result": "PASS",
+ "checks": {
+  "public_tasks_sha256_matches_amendment_2": true,
+  "responses_checked": 2952,
+  "all_response_prompts_match_published_prompts": true,
+  "text_structured_equivalence": true,
+  "identical:summary_main.json": true,
+  "identical:extra_main.json": true,
+  "identical:blind_review/blind_key_main.json": true,
+  "identical:labels_main.jsonl": true,
+  "identical:blind_review_sample.csv": true
+ },
+ "mismatched_prompt_files": []
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F08_A_r0.json",
+ "prompt_sha256": "5d1cbe2134b97ac496964a7821c299307fa41d21611cca4a7f58c8bf2dd8678a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer says JRC shows the 2023 loss, misattributing detection to JRC; the loss is from Hansen and JRC is only a 2020 forest reference. It does not mention any limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.008288
+}

@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/A01_B_r1.json",
+ "prompt_sha256": "f0bbac63fab7d048cfeaa7c038a40f3bf0d76793fd13e1358a89597f88fbd108",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports 81.3 ha loss in 2021 and says it does not equate to deforestation; causes only hedged. However, 'primarily planted forest' for the whole asset is unsupported (the planted-forest context applies to the event area), and 'corroborated by JRC' omits the later-year condition."
+ },
+ "raw": null,
+ "cost_usd": 0.009832
+}

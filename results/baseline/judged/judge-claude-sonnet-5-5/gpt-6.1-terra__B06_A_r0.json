@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/B06_A_r0.json",
+ "prompt_sha256": "ba9f82439dc0fc292d8161acb46721a687c4d77660b50532b0400b2bbd40bbd8",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says 'Possibly' for harvest but explicitly states the evidence cannot confirm the cause. Numbers (0.7, 0.4, 0.3 ha) match the facts. Cause is only hedged, not asserted."
+ },
+ "raw": null,
+ "cost_usd": 0.009006
+}

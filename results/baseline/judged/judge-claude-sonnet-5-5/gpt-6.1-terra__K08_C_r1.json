@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K08_C_r1.json",
+ "prompt_sha256": "42c3ebba5e8328a785a2cc2b048a9499773f71c062ca565233035ad3066f76d1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer gives 2.23% (81.3 of 3,643.5 ha) matching the key, notes sub-0.5 ha patches excluded, and states loss doesn't establish deforestation or cause. No unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.007904
+}

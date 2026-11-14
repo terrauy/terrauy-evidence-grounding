@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B01_C_r2.json",
+ "prompt_sha256": "a0cf5c43a7c2b5f8896aa2c7e8abecc4734a038c29ba196236f44b548affde5c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer asserts timber harvest as the cause, which the evidence does not establish. It also invents claims (the loss was systematic and typical of commercial harvest, and a harvest pattern was inferred) and says it was not deforestation. It does note that legality and actors are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.00942
+}

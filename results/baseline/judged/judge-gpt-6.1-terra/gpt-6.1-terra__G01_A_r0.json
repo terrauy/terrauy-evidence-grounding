@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G01_A_r0.json",
+ "prompt_sha256": "4c7cc7d52ba4fe44a79b6fea535f3ae35ef3f78f46fbe4192f5b3e0a662c9aa5",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports 0.4 ha of sub-threshold loss in 2021 and distinguishes it from counted events; it does not misdate historical losses or claim no change."
+ },
+ "raw": null,
+ "cost_usd": 0.002863
+}

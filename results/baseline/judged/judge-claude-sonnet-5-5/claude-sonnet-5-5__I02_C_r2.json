@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I02_C_r2.json",
+ "prompt_sha256": "ec41a0e8becc6251a219f61063e8ff534d9734d370c80751261211c5d08acff5",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly gives v2 as contradicted and v1 as superseded, with correct numbers and limits. It adds an unsupported speculation of 'harvest followed by replanting or regrowth', hedged as plausible and flagged as not established."
+ },
+ "raw": null,
+ "cost_usd": 0.012902
+}

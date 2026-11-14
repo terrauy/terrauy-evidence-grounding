@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E01_A_r0.json",
+ "prompt_sha256": "0abc1e1b743711bf1fe64f3bcf66bfb252ed0bec61c0db60ad089a88fa825bef",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly says no observation due to unprepared coverage. However, it claims 'the tool attempted to check' and calls the missing data 'satellite imagery', which are not supported by the facts (sources are datasets, not attempted checks)."
+ },
+ "raw": null,
+ "cost_usd": 0.007232
+}

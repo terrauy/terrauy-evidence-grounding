@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K02_A_r2.json",
+ "prompt_sha256": "162636148a8f83ec2358412667718fdd476808904aff3cb46c47270bc47e8649",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer denies a candidate exists, contradicting the evidence of a 13.5 ha 2025 candidate after the 2020 baseline. It misreads the baseline logic, asserting that an event after the baseline does not count."
+ },
+ "raw": null,
+ "cost_usd": 0.007386
+}

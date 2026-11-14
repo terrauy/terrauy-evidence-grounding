@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G06_B_r0.json",
+ "prompt_sha256": "7a32d2a1ebe9bac95484bb8b8e4fd6df4e9305fbf166e9a788979255ef15c049",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer incorrectly applies detection results and sensor coverage to the two weeks before the evaluated period, while acknowledging that fires could have been missed."
+ },
+ "raw": null,
+ "cost_usd": 0.00238
+}

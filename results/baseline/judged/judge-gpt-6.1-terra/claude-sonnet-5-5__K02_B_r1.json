@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K02_B_r1.json",
+ "prompt_sha256": "9f4cf4f98a31b3474d3cb8bfbf9b77943c00f89701f056089a76871086ffec1f",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms the 13.5 ha candidate in 2025 while correctly noting pending corroboration and relevant evidence limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002532
+}

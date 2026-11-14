@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K06_A_r1.json",
+ "prompt_sha256": "9caa636e61f674adbbe29405ae4b30aa39ccf06e16cf5ec07d3ef93152a9b2ea",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly affirms corroboration, attributes 100% forest agreement to JRC, and states the corroboration threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002625
+}

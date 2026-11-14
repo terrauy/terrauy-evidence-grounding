@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F03_A_r1.json",
+ "prompt_sha256": "46d2a35b9db1b3cf3a5b592914478f4c616809d09b12e2b09faa8e3749652f1f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes corroboration to JRC agreement and later observations, while presenting the national map as context rather than independent evidence of loss."
+ },
+ "raw": null,
+ "cost_usd": 0.002815
+}

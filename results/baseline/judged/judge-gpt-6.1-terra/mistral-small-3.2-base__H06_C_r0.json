@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H06_C_r0.json",
+ "prompt_sha256": "51040b52c8589c470798dfcc96cc8e386b9f4832c05f5b3f5ffe9530c38b4570",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer incorrectly extends the asset-level non-detection to the surrounding region, although it correctly states the asset boundary and detection threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002673
+}

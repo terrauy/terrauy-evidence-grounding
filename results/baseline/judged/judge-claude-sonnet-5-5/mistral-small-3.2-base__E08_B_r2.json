@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E08_B_r2.json",
+ "prompt_sha256": "afe2e9ac251767268c97007c66f123b724a57384b1f39c86101effd6184c83f3",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer states no detected change in 2026, extending the 2021-2025 result to an unobserved year; it never says 2026 is unobserved, though it notes limits and the evaluated period."
+ },
+ "raw": null,
+ "cost_usd": 0.020318
+}

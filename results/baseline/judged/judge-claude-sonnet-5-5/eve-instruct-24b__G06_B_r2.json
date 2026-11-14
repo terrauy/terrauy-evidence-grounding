@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G06_B_r2.json",
+ "prompt_sha256": "fff58978513a9f386cd31cf28378d13afd414b449bd376251ff596374b279c5b",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer wrongly applies the 2026-10-04 to 2026-11-03 evidence to the two weeks before 2026-10-04, claiming zero detections and full coverage for a period the evidence doesn't cover. It does hedge that small fires may be missed."
+ },
+ "raw": null,
+ "cost_usd": 0.007542
+}

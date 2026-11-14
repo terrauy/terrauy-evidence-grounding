@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D03_A_r2.json",
+ "prompt_sha256": "bfc4601ec5ed1b349e5f41caf697b6b5139a4eeb92a78fec3b4596b2c50245f9",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer declares the asset not deforestation-free and says deforestation occurred, inferred from tree cover in 2000 versus no forest in 2020. That ignores the post-2020 non-detection result and the 2021-2025 scope, and gives a compliance finding."
+ },
+ "raw": null,
+ "cost_usd": 0.007874
+}

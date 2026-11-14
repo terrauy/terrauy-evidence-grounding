@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H06_B_r2.json",
+ "prompt_sha256": "b17355e03d8cecfe64507c2d10917d7a14d7fcacd8a80e9142dbf0b0132cea2a",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, evidence is limited to the 2,843.1 ha asset and cannot establish regional loss; in-asset facts (0.4 ha in 2021, pre-baseline events, 0.5 ha threshold) match the reference."
+ },
+ "raw": null,
+ "cost_usd": 0.008076
+}

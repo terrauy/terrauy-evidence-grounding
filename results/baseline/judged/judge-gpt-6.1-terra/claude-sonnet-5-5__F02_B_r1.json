@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F02_B_r1.json",
+ "prompt_sha256": "b07f1a98ca408dd40a6760ee45cb57c64691734bfbe9332eded42dd484998c99",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes planted pine classification to MGAP, reports mapped areas accurately, and distinguishes forest context from the cause of loss."
+ },
+ "raw": null,
+ "cost_usd": 0.002809
+}

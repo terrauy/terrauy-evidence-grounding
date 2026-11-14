@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B02_B_r1.json",
+ "prompt_sha256": "d5aace1ae082762777171ab3ddeb4b1e41815d589a48fe450d26f4ebc6207bd6",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Opens with a definite 'No, not caused by fire', which the evidence cannot support. It also suggests logging or storms as possible causes, and says 81.3 ha of planted forest was lost, but MGAP shows 68.1 ha planted. The answer does admit the cause is not identified."
+ },
+ "raw": null,
+ "cost_usd": 0.009174
+}

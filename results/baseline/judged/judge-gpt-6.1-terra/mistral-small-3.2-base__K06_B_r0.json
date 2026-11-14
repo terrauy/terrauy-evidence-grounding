@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K06_B_r0.json",
+ "prompt_sha256": "66a9f272bab330a36a777f67c2528e02088ba288c4b2a1dcc774a8d730bd1a74",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly affirms corroboration, attributes the observations to Hansen and JRC, and states relevant limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002602
+}

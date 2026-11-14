@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J05_C_r1.json",
+ "prompt_sha256": "28733c9beaacd1da68a026b54557a42322e6dfeb0287219acf6cf0ab9df1a14d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 'Not necessarily', so it denies a contradiction. But it never states that non-forest at the reference corroborates pre-reference loss, and it adds an unsupported explanation about definitions and resolution. It also oddly says the 2020 loss is before the baseline."
+ },
+ "raw": null,
+ "cost_usd": 0.008454
+}

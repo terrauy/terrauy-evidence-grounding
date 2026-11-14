@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B03_C_r0.json",
+ "prompt_sha256": "e0a270f3ed8a7043bb7215a90b488b57f072475fcce77b33020fb7ddb973e44a",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says cause unclear and legality undetermined. Lists logging/fire/storm only as examples, which is hedged. Adds the unsupported claim that additional ground data is needed, and 'native forest 0.5 ha' is loosely used as the loss area."
+ },
+ "raw": null,
+ "cost_usd": 0.009058
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J06_A_r1.json",
+ "prompt_sha256": "dde3abb35b4050ea58c3ca14895e96029251b256fc48aeacd61aeb45a8f2dc08",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer claims the loss met the JRC corroboration rule, which contradicts the 0.0 agreement. It asserts loss occurred and was silvicultural activity (an invented cause). It denies deforestation but does not say the loss is uncorroborated."
+ },
+ "raw": null,
+ "cost_usd": 0.009152
+}

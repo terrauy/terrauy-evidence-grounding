@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F04_C_r1.json",
+ "prompt_sha256": "97d5e6e13ae321014fbe08197aece9fcb06ef30e867aa5bf3707126cc6a85d25",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly attributes native-forest classification to MGAP 2021; JRC is described as supporting forest cover, not classifying forest type."
+ },
+ "raw": null,
+ "cost_usd": 0.00262
+}

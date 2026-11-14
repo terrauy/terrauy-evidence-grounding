@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K07_C_r2.json",
+ "prompt_sha256": "1fd315137e4cf695a4fb9cd457b3cda0894c9697033dd9e8c9d365ded5b898fe",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly denies evaluation and explains missing coverage, but asserts an empty observations list and null property area not established by the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.002003
+}

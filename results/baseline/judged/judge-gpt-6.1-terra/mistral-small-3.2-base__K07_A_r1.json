@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K07_A_r1.json",
+ "prompt_sha256": "2f4d4cc9cc1481bd1832cb18a7edab24f036698cef1a403f5f434b3ec82e9b82",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly says evaluation could not be completed, but invents an attempted evaluation and a tool error."
+ },
+ "raw": null,
+ "cost_usd": 0.001909
+}

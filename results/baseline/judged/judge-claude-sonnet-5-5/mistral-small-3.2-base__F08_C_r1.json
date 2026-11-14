@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F08_C_r1.json",
+ "prompt_sha256": "44165b0a81d834e5f98b67513303f4eade668d27261702c89930a5a280fa475b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer opens with 'Yes, the JRC map supports the claim of tree-cover loss in 2023', which misattributes the loss to JRC. JRC GFC2020 only confirms forest in 2020; the loss comes from Hansen. The answer does mention that Hansen is the loss source."
+ },
+ "raw": null,
+ "cost_usd": 0.00852
+}

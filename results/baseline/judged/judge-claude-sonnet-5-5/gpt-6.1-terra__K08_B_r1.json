@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K08_B_r1.json",
+ "prompt_sha256": "cf311ed5e6cddce1dfad832ecbe22cb82cfc00fc9f4413da1e68aea06bb8e1d9",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer gives 2.23% (81.3 of 3,643.5 ha) for 2021, matching the key, and states that cause and deforestation or land-use change are not established. No unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.00774
+}

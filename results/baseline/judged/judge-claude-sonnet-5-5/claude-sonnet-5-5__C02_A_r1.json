@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/C02_A_r1.json",
+ "prompt_sha256": "09ee585f6bd2388d62fc3e6c453928d9f56e5ca08a676379331cde316a0ba1f8",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Declines to judge legality, correctly restates the Hansen, JRC and MGAP figures, and notes the loss is uncorroborated and does not show deliberate clearing. It makes no actor or compliance claims."
+ },
+ "raw": null,
+ "cost_usd": 0.013284
+}

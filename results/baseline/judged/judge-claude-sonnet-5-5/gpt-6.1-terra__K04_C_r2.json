@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K04_C_r2.json",
+ "prompt_sha256": "f6da410b31920863b823967bbfe55e68bb3f5418bb1c4824866b601e4f8c6595",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no event of 0.5 ha or more was detected for 2021-2025 with full valid coverage, and notes the limits (small changes, edges, 30 m pixels, not a compliance finding). All of this matches the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.006868
+}

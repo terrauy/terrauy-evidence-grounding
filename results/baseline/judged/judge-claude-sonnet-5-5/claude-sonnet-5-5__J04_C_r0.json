@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J04_C_r0.json",
+ "prompt_sha256": "b3769079dc005ebe48e94848dc85698c7a15391c53b55641adfff6e8cb50b932",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly lists 2021-2023 as supported, none contradicted post-baseline, and places pre-2021 contradicted events outside scope; includes limitations. Numbers match the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.012294
+}

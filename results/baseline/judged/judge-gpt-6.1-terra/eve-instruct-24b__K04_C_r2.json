@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K04_C_r2.json",
+ "prompt_sha256": "c130887b38c88d0b8e302696374f3dd85579eae88491d0e1ea22484fa69d0863",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The no-detection conclusion and scope are correct, but claiming the result meets corroboration criteria is unsupported; those criteria apply to events, not a no-event finding."
+ },
+ "raw": null,
+ "cost_usd": 0.002282
+}

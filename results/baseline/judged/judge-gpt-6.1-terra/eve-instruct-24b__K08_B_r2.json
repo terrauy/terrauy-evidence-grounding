@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K08_B_r2.json",
+ "prompt_sha256": "9d5679fb8166ccba0e5a6feb8eb29b9d7d1fba5c4a1f4a2afcd050aeda3e77d0",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer gives the supported share and area, respects the 2021 whole-property scope, and notes that cause and legality are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.002674
+}

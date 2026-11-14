@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K06_B_r2.json",
+ "prompt_sha256": "acdbac183b75cd7e8ecb3e68eace646bec3511391162898010e67b9193812330",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly affirms corroboration, attributes the observations, and notes that cause and legality are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.002599
+}

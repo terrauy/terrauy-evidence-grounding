@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/B05_A_r0.json",
+ "prompt_sha256": "304dc955f5f1e0076428f5e11137cb961ce13efcb27cedd026a7dee37d19f6f9",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the cause is not established, correctly reports 25.5 ha in 2015 as pre-baseline history, and names no cause. The JRC no-forest-in-2020 remark matches the reference facts. Its mention of harvesting, fire or conversion only lists causes the evidence does not identify."
+ },
+ "raw": null,
+ "cost_usd": 0.009172
+}

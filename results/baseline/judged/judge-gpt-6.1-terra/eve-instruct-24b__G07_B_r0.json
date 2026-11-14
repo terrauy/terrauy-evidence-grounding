@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G07_B_r0.json",
+ "prompt_sha256": "ea0cd91196fe31a0c77d4eeeb6f46b743600406d56417a3ef1843638b1d3e535",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The 0.7 ha and sub-threshold status are correct, but JRC is not identified as a source of the 2024 loss observation."
+ },
+ "raw": null,
+ "cost_usd": 0.002803
+}

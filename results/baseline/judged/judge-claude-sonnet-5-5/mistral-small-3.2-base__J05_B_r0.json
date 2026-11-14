@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J05_B_r0.json",
+ "prompt_sha256": "ebbcf17be4d43f9eeac81ffd979eef9eeb71a684431ae1d3c3614755daafd6f3",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says sources don't necessarily contradict (matches key), but gives wrong reasoning: claims Hansen loss may include <30% canopy and speculates definitional differences, not that non-forest after pre-baseline loss corroborates the loss. Invented explanation."
+ },
+ "raw": null,
+ "cost_usd": 0.008346
+}

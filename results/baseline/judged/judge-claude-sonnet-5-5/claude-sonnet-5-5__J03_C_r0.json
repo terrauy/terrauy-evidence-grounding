@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J03_C_r0.json",
+ "prompt_sha256": "a2bb264b4cdd768d6470160f526814e404053120d4817fb3d586fd7b7024fa75",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says sources disagree, rated contradicted, with correct numbers (1.4 ha, 0.49 vs 0.5). It explicitly does not claim loss, absence or deforestation, and notes the limits."
+ },
+ "raw": null,
+ "cost_usd": 0.00919
+}

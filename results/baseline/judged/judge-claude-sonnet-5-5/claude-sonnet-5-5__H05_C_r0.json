@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H05_C_r0.json",
+ "prompt_sha256": "3ffae743eeca4e23a7428d34c490a4538846b2869739c8cbb39d72078a1f169a",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says evidence doesn't show clearing, reports 0.7 ha (1.2%) corroborated loss, and notes deforestation and cause are not established. The plantation-harvest remark is hedged and flagged as context only."
+ },
+ "raw": null,
+ "cost_usd": 0.008866
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E05_C_r2.json",
+ "prompt_sha256": "0882aaede332abbdffdb6ae40089b842cfc5de5cf86b97f1272169e8d2007340",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no, cannot confirm for the full period because VIIRS S-NPP was unavailable Nov 2-6, reports zero detections in covered data, and notes absence of detections does not prove no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.007922
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K03_B_r1.json",
+ "prompt_sha256": "4aa23070aa0de25f23986a88053d33502a8f7f3f665357ad00bb64df6cdfba97",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports zero FIRMS detections with full sensor coverage and notes that undetected fires remain possible."
+ },
+ "raw": null,
+ "cost_usd": 0.002126
+}

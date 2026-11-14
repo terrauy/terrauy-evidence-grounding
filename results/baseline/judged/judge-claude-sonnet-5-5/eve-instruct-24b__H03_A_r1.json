@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H03_A_r1.json",
+ "prompt_sha256": "c5e18d0d32fcd07e5d4a8cab83150eb0bf689dc338789cad6c4dee3e27166fa6",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Denies total loss, but says 'forest loss occurred' and 13.1 ha 'confirmed' as native forest, implying deforestation, and omits the pending corroboration status. It also claims 'around 96% remains unaffected' as native forest without giving the 227.1 ha figure."
+ },
+ "raw": null,
+ "cost_usd": 0.008604
+}

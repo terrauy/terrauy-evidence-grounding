@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F03_B_r0.json",
+ "prompt_sha256": "11a34a8c0c1e0c68fe76c1802c7480752fe6d5a174e0e3e456d117236a5eed3a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Cites JRC GFC2020 agreement 0.98 and later year (2025) observed; MGAP is labeled only as context, not corroboration. Numbers match and limits are stated."
+ },
+ "raw": null,
+ "cost_usd": 0.022844
+}

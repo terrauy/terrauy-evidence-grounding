@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K01_A_r2.json",
+ "prompt_sha256": "fbdb120f990b0515f3d88be1d4e38acd73495b9b32621a7e102e914e61ff6521",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The loss estimate and corroboration are supported, but the conclusion that plantation harvest is likely asserts an unsupported cause."
+ },
+ "raw": null,
+ "cost_usd": 0.002755
+}

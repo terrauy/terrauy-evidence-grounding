@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/A07_C_r1.json",
+ "prompt_sha256": "d397b973e198ca062a5fb9aae8f49ad7acb4632febfb4fe54dae6a1a3a1c5b09",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly treats 2020 loss as pre-baseline history and says it does not show deforestation, but speculates that the lost trees may be regrowth or planted stands, which the evidence does not support. Also says 2020 'falls on or before' the baseline, a hedge on a fact the evidence states."
+ },
+ "raw": null,
+ "cost_usd": 0.009654
+}

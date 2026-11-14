@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F04_A_r1.json",
+ "prompt_sha256": "5deb6f162cef5eea6e734a0ecc919148addb0a486dcd9b0e9df910d225874795",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly names MGAP 2021 forest map with correct figures (13.1, 0.4, 0.0 ha). It does not note that it is a 2021 map rather than a 2025 observation, and mentions no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.007878
+}

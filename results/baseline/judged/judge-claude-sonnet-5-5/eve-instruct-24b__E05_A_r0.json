@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E05_A_r0.json",
+ "prompt_sha256": "dca1350fde799f87219b66480217fc5495199d3be7cbda2666c279a3463d913d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answers 'No, no detections for full period' despite VIIRS_SNPP gap Nov 2-6; fails to abstain. It does mention the gap but dismisses it, and does not say no-detection isn't proof of no fire. Claims 'continuous coverage' by others, which is supported."
+ },
+ "raw": null,
+ "cost_usd": 0.008112
+}

@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D01_A_r1.json",
+ "prompt_sha256": "383abda4fc36412a3cbeb14d075c926d5c42b75a1c2e4bc341ecf01739284db7",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says no loss identified but cannot confirm absence, matching the non-detection stance. However, it wrongly claims the evidence lacks explicit loss-event results, when the evidence supports a 0.5 ha non-detection. It omits the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.007756
+}

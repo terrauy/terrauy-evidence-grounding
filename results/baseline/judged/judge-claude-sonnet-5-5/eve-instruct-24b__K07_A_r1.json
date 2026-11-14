@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K07_A_r1.json",
+ "prompt_sha256": "06daeab9824a1a3dde08cd71c6deff72ff5ba31359c20e898fd0ea80b088d531",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says not evaluated due to missing coverage, but invents an 'error message' and 'satellite imagery' framing and claims the analysis 'failed', which the facts do not state."
+ },
+ "raw": null,
+ "cost_usd": 0.008472
+}

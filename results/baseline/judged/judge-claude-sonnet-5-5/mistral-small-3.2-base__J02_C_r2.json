@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J02_C_r2.json",
+ "prompt_sha256": "5eb098dcefab972aa89ad6527497bcd82e8fc986a10d0c693d0166fff34d8c69",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports Hansen 0.7 ha not corroborated by JRC, but wrongly says the 0.7 ha loss was in sub-0.5 ha patches (that was a separate 1.3 ha observation)."
+ },
+ "raw": null,
+ "cost_usd": 0.013684
+}

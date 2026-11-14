@@ -1,0 +1,38 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C05_B_r2.json",
+ "prompt_sha256": "8c2947d22deb8940389a89586121f5f52d0435f6a39739766d8d3cec2fc84ca4",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Compliance is not confirmed, but the answer overstates mapped 2020 forest absence as current absence requiring no protection, asserts reduced legal risk, and overlooks detected small post-baseline loss."
+ },
+ "raw": null,
+ "cost_usd": 0.003066
+}

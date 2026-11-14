@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K03_C_r1.json",
+ "prompt_sha256": "d8636f0700745aab95cef2f9b4f50ae082ddeadfc8433c64150d85442753a6fb",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no detections, full sensor coverage, correct dates, and notes that undetected fires remain possible; all consistent with the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.006358
+}

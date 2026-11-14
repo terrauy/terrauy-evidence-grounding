@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D06_A_r0.json",
+ "prompt_sha256": "0d85f182e8dfd87c75c22a20dfcc92fb7fea235fe06fe53f1b5f0c0ec2a8b0be",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer concludes 'confirming no burning occurred', turning a non-detection into proof of no fire. It also adds 'on or near the property', which is unsupported. It gives no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.007228
+}

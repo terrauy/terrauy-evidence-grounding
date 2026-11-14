@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G06_A_r1.json",
+ "prompt_sha256": "19c34fe86a54f244bf6628d546872bc491fd1011c877d16be44f81c4e02695d3",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the evidence cannot determine the earlier period and restricts its statement to Oct 4\u2013Nov 3, where no detections intersected the property. It makes no claim about the pre-period and does not assert that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.007334
+}

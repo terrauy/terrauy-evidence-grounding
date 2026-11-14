@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F05_A_r1.json",
+ "prompt_sha256": "6bb189eb8af866d0057f7ea8b4076d306c7e2a93a143b56a6e56b734a1a400af",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says yes, Sentinel-2 detected the loss and claims Hansen uses Sentinel-2 data, contradicting the key. It also invents that the remaining 0.4 ha qualified as a detectable loss, which is not in the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.008494
+}

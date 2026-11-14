@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H06_A_r2.json",
+ "prompt_sha256": "3866c1ecb62357b0f6fc44f4d5d6ef8814772c0a48e58e29a462af3e8a3b52ea",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says evidence covers only ASSET-B, not the region; the figures (98.8 ha pre-baseline, 0.4 ha sub-threshold in 2021, JRC 0 forest) match the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.010872
+}

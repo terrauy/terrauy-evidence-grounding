@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H04_A_r1.json",
+ "prompt_sha256": "73012fea95985f708313c386f439496fbf0cdd12480bf192b0116ce432f2f4b5",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 0.6 ha loss and 0.5 ha native, correct derived 2.84% of property area; no share of native forest asserted. Mentions sub-threshold 0.2 ha not counted as an event."
+ },
+ "raw": null,
+ "cost_usd": 0.011446
+}

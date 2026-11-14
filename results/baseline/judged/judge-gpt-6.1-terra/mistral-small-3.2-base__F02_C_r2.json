@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F02_C_r2.json",
+ "prompt_sha256": "5a7f15e37f3c043d46ea0c8e457590ec7877bc44c14695a40df6c953a913b565",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly attributes the planted pine classification to MGAP 2021; no forbidden source attribution or unsupported claim."
+ },
+ "raw": null,
+ "cost_usd": 0.002684
+}

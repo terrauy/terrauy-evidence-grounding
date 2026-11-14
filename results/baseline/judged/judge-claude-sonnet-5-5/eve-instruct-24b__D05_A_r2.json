@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D05_A_r2.json",
+ "prompt_sha256": "2fb55114ef9adbddb81b9a284933f266216d26ea74b8f362d23bec2394ae0e65",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer says no fire was detected, with full sensor coverage, and does not claim no fire occurred. It adds an unsupported claim that the asset was 'monitored daily'. It gives no caveat that non-detection is not proof of no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.007142
+}

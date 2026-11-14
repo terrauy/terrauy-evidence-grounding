@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F05_A_r0.json",
+ "prompt_sha256": "66fabd0547d45bd8141933dffea79de6c101a94f44d9ad76a94470bc9ce0b3a4",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer says Sentinel-2 detected the loss, but the evidence is Hansen/UMD GFC. It also invents Sentinel-2 availability metadata and conflates the valid data fraction (which relates to Hansen) with Sentinel-2."
+ },
+ "raw": null,
+ "cost_usd": 0.0084
+}

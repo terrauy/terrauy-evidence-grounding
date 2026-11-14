@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E05_C_r0.json",
+ "prompt_sha256": "275da630df092b1bc06e307943beadc9ead6030767a75bb5d1e48ff8ee6d7a70",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports zero detections in covered days, identifies the Nov 2\u20136 VIIRS_SNPP gap, and declines to conclude for the full period; makes no claim that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.010478
+}

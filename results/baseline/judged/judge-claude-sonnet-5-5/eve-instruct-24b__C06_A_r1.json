@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C06_A_r1.json",
+ "prompt_sha256": "180b927c43aa80ed391df061be964e3b7d2456fb04c38ea0c2cf944e88b21de0",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer flatly says the removal was unauthorized and a violation of forest law, which the evidence does not establish. It also invents a legal rule and a records search, and misstates the 0.5 ha threshold: the 0.7 ha event exceeds it."
+ },
+ "raw": null,
+ "cost_usd": 0.008916
+}

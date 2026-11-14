@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H03_B_r1.json",
+ "prompt_sha256": "7789a3ba527235625d86f55f0b85ad5441a57d2b58f8721e894867c98be976bd",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer gives a pending candidate of 13.5 ha (3.9%, 13.1 ha native), says persistence is not established and deforestation is not established. It does not state the forest was lost, though it omits the 227.1 ha context."
+ },
+ "raw": null,
+ "cost_usd": 0.008464
+}

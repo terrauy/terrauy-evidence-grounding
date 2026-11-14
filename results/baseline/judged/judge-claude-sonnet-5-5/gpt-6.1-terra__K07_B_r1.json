@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K07_B_r1.json",
+ "prompt_sha256": "7aaa30c593a0f439c5bd68c706984773610cfb6e7422bd83772fca805ed30d57",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the method could not evaluate the property because source coverage was not prepared and no observation was made. It adds that this is not a finding on loss or compliance, which matches the key and the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.005908
+}

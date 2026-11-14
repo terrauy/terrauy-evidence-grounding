@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I04_C_r1.json",
+ "prompt_sha256": "9b1e0e38006483d0e3d83f54ebc0cbc902b075786d16e094245ccf0dee522bdd",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly denies validity, cites v2 13.5 ha 2025 pending corroboration. Minor unsupported detail: describes 98% agreement as 'with JRC 2020 baseline' and says pending means ruling out 'temporary or reversible changes' (interpretation). No deforestation claim."
+ },
+ "raw": null,
+ "cost_usd": 0.011246
+}

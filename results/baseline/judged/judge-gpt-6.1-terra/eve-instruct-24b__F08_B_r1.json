@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F08_B_r1.json",
+ "prompt_sha256": "2bb6601cab0923f86b4c833770fd1dce17ea3dbc687ffcdb57a7f24244d524ad",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The opening yes implies JRC shows the loss, despite correctly attributing detection to Hansen. It also conflates the event area with separate sub-threshold patches."
+ },
+ "raw": null,
+ "cost_usd": 0.002803
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K05_A_r2.json",
+ "prompt_sha256": "d657ee2358fc89da77a660390f98d0e55b0de0bdae4ceeb06d8a6f307a6a6182",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer states 67.7 ha in 2020 from Hansen GFC, matching the key and noting it precedes the baseline. No unsupported claims, but no limitations mentioned."
+ },
+ "raw": null,
+ "cost_usd": 0.007546
+}

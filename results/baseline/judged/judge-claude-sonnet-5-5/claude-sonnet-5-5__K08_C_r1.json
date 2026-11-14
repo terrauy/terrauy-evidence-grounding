@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K08_C_r1.json",
+ "prompt_sha256": "6e43631db989d2a52f8a3ade1622ac6818291da9094fc9c1fcd65c0d8c10cc04",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer gives 2.23% (81.3 ha) matching the key; all additional details (68.1 ha planted, 13.2 ha outside forest, 37.3 ha sub-threshold, JRC 98%) are in the reference facts, and limitations are stated."
+ },
+ "raw": null,
+ "cost_usd": 0.008356
+}

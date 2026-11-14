@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F05_B_r1.json",
+ "prompt_sha256": "56fcca75c1cbbeecd312f1e7afe4b18258fc30f1018c1384f61da3978e722bcf",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer denies Sentinel-2 detection, correctly attributes to Hansen/UMD GFC, figures match reference facts, and lists what the evidence does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.008366
+}

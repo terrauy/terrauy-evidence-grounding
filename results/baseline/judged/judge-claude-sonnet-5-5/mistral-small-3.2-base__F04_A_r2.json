@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F04_A_r2.json",
+ "prompt_sha256": "9d8a17d6443716a2022da804a98274f53ac8d1336d2f19f5609207f65367622b",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly names MGAP 2021 and 13.1 ha native forest. However, it claims JRC 'corroborates' the native classification, which is unsupported (JRC is forest/non-forest only), and it doesn't note that the map is from 2021, not a 2025 observation."
+ },
+ "raw": null,
+ "cost_usd": 0.00808
+}

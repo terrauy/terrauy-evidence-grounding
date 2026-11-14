@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I06_C_r2.json",
+ "prompt_sha256": "73de2b5cbfe3eb1e4e94273c2e7a5cfdb27bd32d01c15785b3e1bb3aabcb998e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer opens with 'No, not all days were checked', which contradicts v2's complete coverage, though the body correctly describes v2 and the superseded v1 gap. It states no limitation such as no detection not proving no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.011522
+}

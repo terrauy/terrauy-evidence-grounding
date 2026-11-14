@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H02_C_r0.json",
+ "prompt_sha256": "4c8cd2405f4c9ce002ec46d1d178fbae477721a1edf3c581b47b6acbb403343c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer says yes, all loss was inside the plantation, contradicting the key (68.1 ha planted, 13.2 ha outside mapped forest) and itself. It also conflates 'inside the asset' with 'inside the plantation'."
+ },
+ "raw": null,
+ "cost_usd": 0.00827
+}

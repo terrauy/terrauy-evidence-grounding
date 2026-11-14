@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/A04_B_r0.json",
+ "prompt_sha256": "f4f3d3122962d078a97919df16b681a4851a1add8de551f1bff4985a196ee1e5",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says deforestation cannot be confirmed, reports 0.7 ha loss (1.2%), 0.4 planted eucalyptus and 0.3 outside mapped forest, consistent with facts. Mentions that harvesting is possible only as a possibility, not asserted as cause."
+ },
+ "raw": null,
+ "cost_usd": 0.009512
+}

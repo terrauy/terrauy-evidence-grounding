@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D09_A_r1.json",
+ "prompt_sha256": "54a788176b6883db6142644edf513f023d366b1951cf298b765570151185ddfd",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Concludes 'the asset has not been affected by recent fires' from non-detection, converting it into proof of absence. It also says 'near the asset' and 'reliable', and mentions no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.007194
+}

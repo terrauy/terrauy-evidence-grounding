@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H05_C_r1.json",
+ "prompt_sha256": "02c9d821cbfae4261aaf8867a0bc72ae0f05e534044ae1da8bae9c4d9822a839",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the evidence doesn't show clearing, cites 0.7 ha and 1.2% of the asset, and lists what is not established. It doesn't claim deforestation occurred, and its facts match the reference."
+ },
+ "raw": null,
+ "cost_usd": 0.008858
+}

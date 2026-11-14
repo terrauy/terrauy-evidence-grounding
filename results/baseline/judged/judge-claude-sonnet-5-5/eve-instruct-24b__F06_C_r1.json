@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F06_C_r1.json",
+ "prompt_sha256": "90ddc71cfeb150a1d92e571de6398ce0ebba3a2b5dcc47013c74c954b5ebaf68",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer correctly lists VIIRS S-NPP, NOAA-20, NOAA-21 and MODIS with correct coverage dates and no detections. It names no forbidden sensors, though it never mentions FIRMS by name, and it states no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.00748
+}

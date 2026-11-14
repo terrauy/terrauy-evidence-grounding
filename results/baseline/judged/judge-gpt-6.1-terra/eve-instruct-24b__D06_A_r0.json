@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D06_A_r0.json",
+ "prompt_sha256": "0d85f182e8dfd87c75c22a20dfcc92fb7fea235fe06fe53f1b5f0c0ec2a8b0be",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "It claims no burning occurred and extends the non-detection to areas near the property; neither conclusion is supported."
+ },
+ "raw": null,
+ "cost_usd": 0.002326
+}

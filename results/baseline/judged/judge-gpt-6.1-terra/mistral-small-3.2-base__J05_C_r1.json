@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J05_C_r1.json",
+ "prompt_sha256": "c76450b1bfae046fc4ea580c7ff8f5f46e6ff2931687e48b8dfb6adcb5f839c5",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies contradiction, but asserts that classification thresholds and methodologies can explain the discrepancy without evidence establishing those differences."
+ },
+ "raw": null,
+ "cost_usd": 0.002716
+}

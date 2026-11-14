@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E04_B_r2.json",
+ "prompt_sha256": "cd41c88879b1c2a993f45fb2f588d3499108d4bd30ea7f30c115a4f7b8026104",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It reports no detections and notes gaps, but incorrectly identifies October 24 as the end of the evaluated period, which actually ends October 25."
+ },
+ "raw": null,
+ "cost_usd": 0.002956
+}

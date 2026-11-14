@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K03_B_r2.json",
+ "prompt_sha256": "0601334b190adf73743995a0a7ea32868332fa7682be45781c4393caad68c112",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states zero FIRMS detections, all four sensors covering every day of 2026-09-26 to 2026-10-26, and notes that small, short-lived or cloud-obscured fires may be missed. This matches the key and the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.00669
+}

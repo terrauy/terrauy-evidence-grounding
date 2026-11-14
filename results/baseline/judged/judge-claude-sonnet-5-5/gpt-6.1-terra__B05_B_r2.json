@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/B05_B_r2.json",
+ "prompt_sha256": "3f0dc1291e1932fd9552fc6e7a1a0906d64854857320f66e52f438e85f2334d7",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states the cause is not established, correctly notes Hansen supports the 2015 loss event, and lists causes only as examples it cannot identify. It does not mention that 2015 predates the baseline, but nothing in it is wrong."
+ },
+ "raw": null,
+ "cost_usd": 0.008854
+}

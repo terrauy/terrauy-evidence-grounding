@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/I01_B_r1.json",
+ "prompt_sha256": "9b5ad0237685d1456e476c2ab61c26f64fbfa49aa1b19e46e8946a97bf1852cb",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms corroborated 4.5 ha loss under current v2, notes v1 pending is superseded, and explicitly says deforestation/land-use change, cause and legality are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.0121
+}

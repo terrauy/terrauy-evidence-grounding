@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D06_B_r2.json",
+ "prompt_sha256": "70bc4f74abf8877afd77b29d86812371297b4f82994873ab6d675c77dc7a5f62",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports zero detections with full coverage and notes small fires could be missed. However, it says 'confirms no major burning occurred' and 'smoke ... would have been flagged', which are unsupported. FIRMS detects thermal anomalies, not smoke, and the evidence says nothing about fire size."
+ },
+ "raw": null,
+ "cost_usd": 0.007712
+}

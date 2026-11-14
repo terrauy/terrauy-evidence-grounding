@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H06_B_r1.json",
+ "prompt_sha256": "4428cdc7c2b619cb59b39866778a7a744819f8c18ba8b53c95635ee9a2c1f441",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer accurately reports asset-level non-detection and limitations, but does not directly address whether the evidence supports a regional conclusion."
+ },
+ "raw": null,
+ "cost_usd": 0.002718
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F05_B_r2.json",
+ "prompt_sha256": "ac3b8b56efcd0481a2e84c71e7c3a4992cd5edffccde0b76a648649706575ebc",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says yes, Sentinel-2 detected the loss, which is a source misattribution; the evidence is Hansen GFC and Sentinel-2 is not part of it. It also invents Sentinel-2 processing. The 'later year (2025)' wording is loosely supported. It does state limits on cause, legality and responsibility."
+ },
+ "raw": null,
+ "cost_usd": 0.0087
+}

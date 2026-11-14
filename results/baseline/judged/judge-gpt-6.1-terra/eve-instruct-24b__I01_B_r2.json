@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I01_B_r2.json",
+ "prompt_sha256": "2fbfd7540f8378f9324c3703898fa518e507e55057c0a951086c93ea87671e38",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The current assessment supports 4.5 ha of loss, but only 4.3 ha was mapped as planted forest; 0.2 ha was outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.004277
+}

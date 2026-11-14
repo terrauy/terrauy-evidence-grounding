@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G08_C_r1.json",
+ "prompt_sha256": "e2c12ccec4c11e719512715b6249c157b74fbf44309d73899ce358e02550fcd2",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no increasing trend, correctly cites 81.3/0.6/4.5 ha and no events in 2024-2025, and states the evidence's limits (stand replacement, cause, legality, sub-0.5 ha patches). The sub-0.5 ha patch figures match the reference."
+ },
+ "raw": null,
+ "cost_usd": 0.010668
+}

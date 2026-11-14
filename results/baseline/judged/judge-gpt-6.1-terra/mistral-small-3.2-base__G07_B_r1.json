@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G07_B_r1.json",
+ "prompt_sha256": "4fe32fdaef6f1ca32487b9266849299b38992534879ac4932b4f9f47347b965c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The 0.7 ha of sub-threshold loss is supported, but the answer incorrectly asserts that the 2024 change was corroborated by multiple sources."
+ },
+ "raw": null,
+ "cost_usd": 0.002818
+}

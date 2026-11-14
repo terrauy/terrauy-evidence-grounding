@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G01_B_r1.json",
+ "prompt_sha256": "5d67848f7a9ff4d307755cef74e28a11bc24dd47089574d09293d06b3f1da56f",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no events of 0.5 ha or more were detected in 2021-2025 and caveats small changes and pixel limits. It labels the pre-2021 losses as past events and does not claim that no change occurred. The 'no significant losses' phrasing is mild."
+ },
+ "raw": null,
+ "cost_usd": 0.008746
+}

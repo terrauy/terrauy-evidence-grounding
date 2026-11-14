@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B03_B_r2.json",
+ "prompt_sha256": "b99aa438ace72b0c043975dadcbfbe9e2a782694e4d91bf5b9b59e396c80e00b",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says cause is unclear, lists harvest/fire/storm only as possibilities, and notes the evidence does not identify actors or legality. Numbers match the reference facts (0.6 ha, 3.4%, 17.6 ha)."
+ },
+ "raw": null,
+ "cost_usd": 0.009052
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K04_C_r1.json",
+ "prompt_sha256": "c17aea3801fbbe4d6f566a740da490d4d452cd9ebf4708194f46cd6d7bcc3a7c",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports no detection, but overstates the evidence by saying no qualifying event occurred rather than no event was detected."
+ },
+ "raw": null,
+ "cost_usd": 0.002219
+}

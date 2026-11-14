@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H02_C_r2.json",
+ "prompt_sha256": "4f0d09cc9988be44cd5aa207cea6aa9da4624f8e086672cad13e490ef13cc694",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer says 'Yes, entirely within plantation' despite citing 13.2 ha outside mapped forest, which contradicts the key. It also invents 'small gaps or edges' and says the loss 'aligns with the plantation boundary'."
+ },
+ "raw": null,
+ "cost_usd": 0.008296
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E08_B_r1.json",
+ "prompt_sha256": "a738d7fc848f87d14198eafa3442b1b2a34fbadf0abb083cda85020c2feda90b",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says 2026 is outside the evidence, so it can't be determined. It restates the 2021-2025 not-detected result with appropriate caveats and does not claim nothing changed."
+ },
+ "raw": null,
+ "cost_usd": 0.007644
+}

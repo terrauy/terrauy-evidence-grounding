@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K08_C_r0.json",
+ "prompt_sha256": "b367ce578e726aae6c1af4d0451268562da95220303c151cea1746b3901f28ac",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer gives 2.23% (81.3 ha) matching the key, with context and corroboration from the facts, and correctly lists what the evidence does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.008032
+}

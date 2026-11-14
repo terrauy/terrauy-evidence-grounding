@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G08_A_r0.json",
+ "prompt_sha256": "70faef3a3319d447b1c5990ef753155502190348e6d6aa06ba7ef0483861dea1",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no clear sustained increase, correctly cites 81.3, 0.6, 4.5 ha and the 0.5 ha threshold; notes 2024-2025 not reported, a minor deviation from 'none detected'."
+ },
+ "raw": null,
+ "cost_usd": 0.012998
+}

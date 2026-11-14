@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H01_B_r2.json",
+ "prompt_sha256": "9b39ff58c40386cfecb507b5a7a34461001e8e062b476d0905247c2cb5371673",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers No with correct 81.3 ha / 2.23%, notes deforestation is not shown, and lists what the evidence does not establish. All figures match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008492
+}

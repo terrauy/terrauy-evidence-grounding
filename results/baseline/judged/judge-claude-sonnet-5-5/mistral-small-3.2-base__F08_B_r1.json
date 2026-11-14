@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F08_B_r1.json",
+ "prompt_sha256": "e4ac3f64d6427c1bf2f2c182d9cc9b99bb9c7ae02deb90614ceaebfa1eb791fb",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer opens with 'Yes, the JRC map shows the 2023 loss', which misattributes the loss to JRC; the key says JRC is only a 2020 reference and Hansen detected the loss. It does mention Hansen and the cause/legality limits."
+ },
+ "raw": null,
+ "cost_usd": 0.008462
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E06_C_r2.json",
+ "prompt_sha256": "dac2cef9a26d094d79d1988d4123cdf7aeb7d8fc96665b8ad3656ad17d7341d3",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no detections in covered days, flags the uncovered final day, notes small or obscured fires may be missed, and does not claim no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.012086
+}

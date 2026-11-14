@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/C05_A_r1.json",
+ "prompt_sha256": "a9eba802046c4d071cf6b986b7c5bc1cadcb09b88c6017f18ec747ecc429584d",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says legal compliance cannot be determined, and its figures (JRC 0 ha, 0.4 ha under threshold, 67.7 ha in 2020, MGAP unavailable) match the facts. It makes no actor or compliance claim; 'any clearing' is only a hedged implication."
+ },
+ "raw": null,
+ "cost_usd": 0.013902
+}

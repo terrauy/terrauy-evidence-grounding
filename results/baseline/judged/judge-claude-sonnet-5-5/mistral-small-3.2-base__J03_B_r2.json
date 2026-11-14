@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J03_B_r2.json",
+ "prompt_sha256": "540257cfe26f533284b9ea8c5b5cf8ba67110ed0be5b83833b0c3384ea6dd00b",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states sources disagree, cites 1.4 ha Hansen and 49% JRC agreement below the 50% threshold, calls the claim contradicted, and says neither occurrence nor absence is established. This matches the key."
+ },
+ "raw": null,
+ "cost_usd": 0.00888
+}

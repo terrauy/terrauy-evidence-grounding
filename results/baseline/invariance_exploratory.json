@@ -1,0 +1,152 @@
+{
+ "note": "EXPLORATORY. Development run (real area values) vs public run (synthetic area values), same 66 tasks, prompts identical except substituted area numbers.",
+ "n_pairs": 2376,
+ "pooled": {
+  "n": 2376,
+  "ucr_dev": 0.3013,
+  "ucr_public": 0.3148,
+  "diff_public_minus_dev": 0.0135,
+  "diff_ci95": [
+   0.0004,
+   0.0265
+  ],
+  "label_agreement": 0.867,
+  "dev_only_uc": 142,
+  "public_only_uc": 174,
+  "mcnemar_p": 0.081
+ },
+ "by_condition": {
+  "A": {
+   "n": 792,
+   "ucr_dev": 0.4861,
+   "ucr_public": 0.5164,
+   "diff_public_minus_dev": 0.0303,
+   "diff_ci95": [
+    0.0051,
+    0.0556
+   ],
+   "label_agreement": 0.846,
+   "dev_only_uc": 49,
+   "public_only_uc": 73,
+   "mcnemar_p": 0.0369
+  },
+  "B": {
+   "n": 792,
+   "ucr_dev": 0.1957,
+   "ucr_public": 0.1957,
+   "diff_public_minus_dev": 0.0,
+   "diff_ci95": [
+    -0.0227,
+    0.0227
+   ],
+   "label_agreement": 0.8788,
+   "dev_only_uc": 48,
+   "public_only_uc": 48,
+   "mcnemar_p": 1.0
+  },
+  "C": {
+   "n": 792,
+   "ucr_dev": 0.2222,
+   "ucr_public": 0.2323,
+   "diff_public_minus_dev": 0.0101,
+   "diff_ci95": [
+    -0.0114,
+    0.0341
+   ],
+   "label_agreement": 0.8763,
+   "dev_only_uc": 45,
+   "public_only_uc": 53,
+   "mcnemar_p": 0.4797
+  }
+ },
+ "by_model": {
+  "claude-sonnet-5-5": {
+   "n": 594,
+   "ucr_dev": 0.1094,
+   "ucr_public": 0.1263,
+   "diff_public_minus_dev": 0.0168,
+   "diff_ci95": [
+    -0.0135,
+    0.0455
+   ],
+   "label_agreement": 0.8788,
+   "dev_only_uc": 31,
+   "public_only_uc": 41,
+   "mcnemar_p": 0.2888
+  },
+  "eve-instruct-24b": {
+   "n": 594,
+   "ucr_dev": 0.6044,
+   "ucr_public": 0.6229,
+   "diff_public_minus_dev": 0.0185,
+   "diff_ci95": [
+    -0.0202,
+    0.0556
+   ],
+   "label_agreement": 0.8064,
+   "dev_only_uc": 52,
+   "public_only_uc": 63,
+   "mcnemar_p": 0.3511
+  },
+  "gpt-6.1-terra": {
+   "n": 594,
+   "ucr_dev": 0.0623,
+   "ucr_public": 0.0572,
+   "diff_public_minus_dev": -0.0051,
+   "diff_ci95": [
+    -0.0202,
+    0.0084
+   ],
+   "label_agreement": 0.9646,
+   "dev_only_uc": 12,
+   "public_only_uc": 9,
+   "mcnemar_p": 0.6636
+  },
+  "mistral-small-3.2-base": {
+   "n": 594,
+   "ucr_dev": 0.4293,
+   "ucr_public": 0.4529,
+   "diff_public_minus_dev": 0.0236,
+   "diff_ci95": [
+    -0.0051,
+    0.0505
+   ],
+   "label_agreement": 0.8182,
+   "dev_only_uc": 47,
+   "public_only_uc": 61,
+   "mcnemar_p": 0.2108
+  }
+ },
+ "contrasts_within_66_tasks": {
+  "dev": {
+   "TEXT_minus_RAW": -0.2904,
+   "STRUCTURED_minus_TEXT": 0.0265
+  },
+  "public": {
+   "TEXT_minus_RAW": -0.3207,
+   "STRUCTURED_minus_TEXT": 0.0366
+  }
+ },
+ "noise_reference": {
+  "label_agreement_run1_vs_run2_public": {
+   "agreement": 0.8687,
+   "n": 792
+  },
+  "label_agreement_run1_vs_run2_dev": {
+   "agreement": 0.851,
+   "n": 792
+  },
+  "label_agreement_dev_vs_public_all_runs": {
+   "agreement": 0.867,
+   "n": 2376
+  },
+  "label_agreement_dev_vs_public_run0_T0_non_claude": {
+   "agreement": 0.904,
+   "n": 594
+  },
+  "label_agreement_reused_16_tasks": {
+   "agreement": 1.0,
+   "n": 576
+  }
+ }
+}

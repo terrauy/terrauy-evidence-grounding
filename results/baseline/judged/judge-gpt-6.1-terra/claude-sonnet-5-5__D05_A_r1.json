@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D05_A_r1.json",
+ "prompt_sha256": "733741b40a7882175b2c72258344f5f760e310357c2adaaf16f25b131e3a6f59",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The initial no is qualified as a thermal non-detection, and the answer explicitly says this does not prove no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.002351
+}

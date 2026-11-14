@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K08_A_r1.json",
+ "prompt_sha256": "8e748abc066011a2de30bb4ec4836851df09479713dce609f3dbbf1acb2a970a",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly rounds 2.23% to 2.2%, reports the supported area, and notes the cause and patch-size limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.00276
+}

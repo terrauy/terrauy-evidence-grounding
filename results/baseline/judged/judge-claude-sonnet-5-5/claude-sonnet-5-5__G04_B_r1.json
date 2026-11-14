@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G04_B_r1.json",
+ "prompt_sha256": "d05aeb62a7dd6f62825fe755e230e048e93b858ec971081a9625e2663fbad36b",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says evidence can't speak to today, ends 2025, and explicitly says it doesn't establish deforestation or cause. Numbers match the reference facts. The 'consistent with plantation harvesting' remark is hedged."
+ },
+ "raw": null,
+ "cost_usd": 0.009066
+}

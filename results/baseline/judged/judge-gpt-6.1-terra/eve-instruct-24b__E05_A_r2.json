@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E05_A_r2.json",
+ "prompt_sha256": "2cf2f0e54bdae075dbd84c3677565937be73bbb164b8489adccb0758ee31c047",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Declines full-period confirmation, identifies the S-NPP coverage gap, and correctly notes continuous coverage by the other sensors."
+ },
+ "raw": null,
+ "cost_usd": 0.002592
+}

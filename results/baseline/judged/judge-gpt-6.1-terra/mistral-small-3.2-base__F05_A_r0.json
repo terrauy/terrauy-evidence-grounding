@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F05_A_r0.json",
+ "prompt_sha256": "66fabd0547d45bd8141933dffea79de6c101a94f44d9ad76a94470bc9ce0b3a4",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer wrongly attributes detection and valid-data coverage to Sentinel-2; the loss and coverage metadata are from Hansen GFC."
+ },
+ "raw": null,
+ "cost_usd": 0.002708
+}

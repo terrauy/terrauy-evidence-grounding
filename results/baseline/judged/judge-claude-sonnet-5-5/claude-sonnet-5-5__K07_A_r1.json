@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K07_A_r1.json",
+ "prompt_sha256": "593fb6f44deff69762e61f6cbf8b3e4d8e6dc457e0e5aa01324d73290c3e5d36",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says not evaluated due to unprepared source coverage, but invents a null asset-area metadata field and calls it an 'error' on a run date, which the facts don't support."
+ },
+ "raw": null,
+ "cost_usd": 0.009086
+}

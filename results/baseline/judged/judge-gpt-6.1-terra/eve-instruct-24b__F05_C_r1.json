@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F05_C_r1.json",
+ "prompt_sha256": "e752d65966a60de8e6ee693ca63a4a39d40b90e2d5a1f03c1ea3a633d341c94c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It falsely attributes detection to Sentinel-2 and asserts unsupported whole-property forest cover; the 0.5 ha native-forest figure applies to the event area."
+ },
+ "raw": null,
+ "cost_usd": 0.002753
+}

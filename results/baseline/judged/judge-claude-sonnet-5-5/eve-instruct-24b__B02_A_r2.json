@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B02_A_r2.json",
+ "prompt_sha256": "0e0a2e228c8490819a5e12ab1edc1214dd7e5772958aa7957e117a33a98d92f0",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts fire as the cause, which the evidence explicitly does not establish. It adds unsupported claims about flammability and controlled burns, and misstates that 68.1 ha of forest 'were lost' as evidence of fire."
+ },
+ "raw": null,
+ "cost_usd": 0.00916
+}

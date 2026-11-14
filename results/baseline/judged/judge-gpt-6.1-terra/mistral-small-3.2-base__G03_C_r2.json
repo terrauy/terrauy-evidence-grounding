@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G03_C_r2.json",
+ "prompt_sha256": "a20800a5a6ebefe1b2e04c135278212348e8db94ce21e428dd82d73b9854c763",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer categorically denies loss in 2024\u20132025, exceeding the evidence of non-detection; the earlier event years and areas are correct."
+ },
+ "raw": null,
+ "cost_usd": 0.003628
+}

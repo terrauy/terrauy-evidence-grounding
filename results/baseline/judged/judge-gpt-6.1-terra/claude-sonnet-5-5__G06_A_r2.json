@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G06_A_r2.json",
+ "prompt_sha256": "c3c7e2915892a9a77d3c3c15fec9072ba3ceff78fde1edbb3faf9a011b66e9e5",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly abstains because the requested window is outside coverage, but asserts without support that the asset area is blank in the metadata."
+ },
+ "raw": null,
+ "cost_usd": 0.002471
+}

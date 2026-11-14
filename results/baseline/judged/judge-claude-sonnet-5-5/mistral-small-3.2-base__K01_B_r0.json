@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K01_B_r0.json",
+ "prompt_sha256": "5b87d515af372e04c792520459635119387b52bb789e0e8acbe0e299a33ac5e0",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 81.3 ha (2.23%) in 2021, matching the key. The planted-forest detail (Pinus elliottii and taeda) comes from the MGAP facts, and it states that cause, legality and responsibility are not established. It does not mention corroboration, but nothing it says is wrong."
+ },
+ "raw": null,
+ "cost_usd": 0.008318
+}

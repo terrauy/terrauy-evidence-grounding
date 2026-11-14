@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G02_A_r2.json",
+ "prompt_sha256": "dbe7587694915155a1b9e1e0ef6890e7a969ced94fe98d46ace0dd69dfc8fe3e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly states 67.7 ha loss was in 2020, before cut-off; notes sub-threshold 0.4 ha in 2021 and JRC 2020 shows no forest. Consistent with the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.01022
+}

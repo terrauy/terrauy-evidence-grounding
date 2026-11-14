@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F04_A_r2.json",
+ "prompt_sha256": "579e990686201e56ff6736dfc7f4565081930761d88ed2fffea535205637c112",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly attributes native-forest classification to MGAP 2021 and distinguishes JRC forest cover from Hansen loss detection."
+ },
+ "raw": null,
+ "cost_usd": 0.0026
+}

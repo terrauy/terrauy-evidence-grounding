@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F01_C_r2.json",
+ "prompt_sha256": "ab59e1f87ca623fe11319298429a1e15631077a760668408a3748217eed94f54",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes detection to Hansen, but asserts all loss occurred in planted forest; MGAP mapped 13.2 ha outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002807
+}

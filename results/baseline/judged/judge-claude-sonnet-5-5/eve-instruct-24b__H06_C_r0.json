@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H06_C_r0.json",
+ "prompt_sha256": "7f5e413842c060a29d16d616b0ea5295d67c7457534f433a61264dfe6dfe4acc",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers No, confines evidence to the asset boundary, notes surrounding region not analyzed; facts cited match the reference."
+ },
+ "raw": null,
+ "cost_usd": 0.010808
+}

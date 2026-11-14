@@ -1,0 +1,25 @@
+{
+ "copyright_year": 2026,
+ "copyright_holder": "Jairo Rifrán",
+ "legal_entity": null,
+ "brand": "TerraUY Intelligence",
+ "note": "Copyright holder is parametrizable. If a legal entity later holds the IP, set legal_entity and copyright_holder and re-run analysis/release_meta.py. No IP transfer is implied by this file.",
+ "version": "0.1",
+ "release_title": "TEGB v0.1 — Research Preview",
+ "terms_verified_at": "2026-11-13T23:35:02Z",
+ "terms_verified_sources": [
+  "OpenAI Usage Policies (2025-10-29 in force; 2026-11-20 upcoming)",
+  "OpenAI Services Agreement (effective 2026-01-01)",
+  "OpenAI Sharing & Publication Policy (2022-11-14)",
+  "OpenAI Terms of Use (2026-01-01)",
+  "Anthropic Commercial Terms (2025-06-17)",
+  "Anthropic Usage Policy (2026-11-12)",
+  "EVE-Instruct model card (Apache-2.0)",
+  "Mistral Small 3.2 model card (Apache-2.0)",
+  "Hansen/UMD GFC v1.13 (CC BY 4.0)",
+  "JRC GFC2020 V4 (Copernicus, acknowledgement)",
+  "NASA FIRMS / Earthdata data use (CC0, citation)",
+  "MGAP via catalogodatos.gub.uy (Licencia de Datos Abiertos - Uruguay v0.1)"
+ ],
+ "terms_material_incompatibility": "NONE"
+}

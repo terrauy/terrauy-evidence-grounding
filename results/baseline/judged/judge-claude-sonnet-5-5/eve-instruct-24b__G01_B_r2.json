@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G01_B_r2.json",
+ "prompt_sha256": "5c3afb14984849b8c390702771e5153e8e383a6f56cd385cef4449fa770a6937",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correct non-detection conclusion with the sub-0.5 ha caveat, but the prior-loss total of 100.8 ha is wrong; the listed events sum to 98.8 ha."
+ },
+ "raw": null,
+ "cost_usd": 0.01207
+}

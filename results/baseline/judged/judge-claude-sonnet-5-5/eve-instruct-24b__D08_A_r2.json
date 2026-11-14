@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D08_A_r2.json",
+ "prompt_sha256": "b96f08329eb8f5adcd0d6ef1aab310cbe5398281209eaa9e241d9bc6252db059",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "States flatly that no deforestation occurred (denial, not non-detection). Misstates that JRC shows no forest remained so no loss could occur (unsupported inference). Mentions the 0.5 ha threshold, but not that non-detection isn't proof of absence."
+ },
+ "raw": null,
+ "cost_usd": 0.008912
+}

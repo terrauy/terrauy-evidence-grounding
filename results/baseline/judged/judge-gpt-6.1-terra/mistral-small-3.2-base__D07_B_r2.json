@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D07_B_r2.json",
+ "prompt_sha256": "c26a1d9b79b2c88862df666f8e59ee43f22c89751afbadd8b9e7160686537f1a",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The non-detection and coverage are correctly reported, but the asserted strong evidence of no significant fires is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.002334
+}

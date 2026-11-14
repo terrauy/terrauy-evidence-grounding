@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/C05_B_r2.json",
+ "prompt_sha256": "df821f40b70ff3870ed7e559488b3df573b4d987b2554999cf886ccb9f1988f1",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer concludes the property 'appears to be legally compliant' and says no deforestation was detected, which is a compliance finding the evidence does not support. The generic caveat about other regulations is only a weak limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.008722
+}

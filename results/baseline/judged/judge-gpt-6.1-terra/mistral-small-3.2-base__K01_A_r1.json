@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K01_A_r1.json",
+ "prompt_sha256": "960adaee92410e6444614c7585f330298de6fe4f6dcd40e573b7abdc25a07c48",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports the 2021 loss, corroboration, planted-forest context, and exclusion of patches below the event threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002672
+}

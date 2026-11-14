@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A01_A_r2.json",
+ "prompt_sha256": "c5fa0fec5ff15368b6dcc8e3ea07d2790693a6a243148c7713e89f56c7c24a40",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer asserts deforestation occurred, contradicting that the evidence does not establish it. It also invents 'significant deforestation' and misstates the 37.3 ha as excluded from the 81.3 ha total; 'No native forest loss' is supported."
+ },
+ "raw": null,
+ "cost_usd": 0.009478
+}

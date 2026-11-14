@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H01_A_r1.json",
+ "prompt_sha256": "94bb427998494b0034a097f751e984ba3c44c97b0e277c2410196a9b62fd56d2",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Denies whole-property clearing with correct 81.3 ha/2.23%. It never claims deforestation. However, 'additional' 37.3 ha is fine, but 'majority remained unchanged' is a mild inference; 68.1+13.2 breakdown is supported. The sub-threshold mention is a limit."
+ },
+ "raw": null,
+ "cost_usd": 0.0088
+}

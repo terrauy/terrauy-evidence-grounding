@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J06_B_r1.json",
+ "prompt_sha256": "dc57b7b3639ff4e05f81162a43527ac623f9675ab2b9df4c68a2d9e634311faf",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says not deforestation evidence, notes JRC did not corroborate 1.8 ha Hansen loss, planted pine context, and that evidence neither confirms nor rules out loss; consistent with key."
+ },
+ "raw": null,
+ "cost_usd": 0.008948
+}

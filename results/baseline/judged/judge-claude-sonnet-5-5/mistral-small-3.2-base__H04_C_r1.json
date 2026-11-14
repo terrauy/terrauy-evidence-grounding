@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H04_C_r1.json",
+ "prompt_sha256": "7d678a3bee2f6cd91022be7c77ec19bc7caf5b09933ff3f657fc466974960780",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 0.5 ha native loss in 2022 and ~3% of the asset (consistent with 0.6 ha/3.41%). Does not state a share of native forest. Notes that cause and legality are not determinable. Slightly imprecise on 0.6 ha total."
+ },
+ "raw": null,
+ "cost_usd": 0.008314
+}

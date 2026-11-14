@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I06_A_r0.json",
+ "prompt_sha256": "594d9e12e61f23a0fb82399b0ace4effb617523e180f56c5df7557c0e49b1f96",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms full coverage under the current v2, treats v1 gap as superseded, and does not claim no fire occurred. It also notes the data is near-real-time, which is a limitation. The 'Run-2 (12 Nov)' date matches knowledge_at."
+ },
+ "raw": null,
+ "cost_usd": 0.01197
+}

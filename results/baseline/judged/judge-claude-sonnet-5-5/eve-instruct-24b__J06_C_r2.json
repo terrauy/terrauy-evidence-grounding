@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J06_C_r2.json",
+ "prompt_sha256": "26e460b569035569272f1650f1eed01a1dd8214f18238636cf9534c8ceeae874",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports the Hansen/JRC disagreement and denies deforestation. However, it asserts a likely harvest (a cause the evidence does not establish) and a 'temporary tree-cover reduction', and it says JRC shows 'no loss', which is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.009202
+}

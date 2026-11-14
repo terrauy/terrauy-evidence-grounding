@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I02_B_r0.json",
+ "prompt_sha256": "2791be2a7d38ace832e5dedc4ad8aad068d663dea5dc3071b834453221b8add9",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says the loss is not confirmed and is contradicted by JRC 2020, with 1.8 ha from Hansen. It states the evidence does not establish whether loss occurred, nor its cause. This matches the current v2 key."
+ },
+ "raw": null,
+ "cost_usd": 0.012516
+}

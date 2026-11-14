@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D09_C_r1.json",
+ "prompt_sha256": "c3850debfbbdf692fde3b6647c6fb4eb33a925e0522c808ab108f42faae6ec91",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The non-detection and coverage are correctly reported, but claiming they rule out significant fires is unsupported and contradicts the non-detection limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.002363
+}

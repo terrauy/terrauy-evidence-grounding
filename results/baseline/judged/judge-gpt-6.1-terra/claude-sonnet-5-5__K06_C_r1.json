@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K06_C_r1.json",
+ "prompt_sha256": "bb1cbde342e693e0ec2747cf702a00864d11a40aad9e3c607590ebcbb2e1447b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly affirms corroboration, attributes the evidence to the appropriate sources, and states relevant limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002714
+}

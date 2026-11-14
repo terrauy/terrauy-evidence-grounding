@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B03_A_r0.json",
+ "prompt_sha256": "d454ac784ab2b8fa3a7d9ddf99eb0453181dd53507f5944b25ac8e62f662c736",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer asserts 'small-scale clearing' as the primary cause, which the evidence does not establish, and implies land-use change. It also invents a 'remaining 0.4 ha met the event threshold' figure, which contradicts the 0.6 ha event. It does note the EO limit."
+ },
+ "raw": null,
+ "cost_usd": 0.009226
+}

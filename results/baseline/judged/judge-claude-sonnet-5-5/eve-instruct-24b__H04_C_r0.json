@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H04_C_r0.json",
+ "prompt_sha256": "887a74d107ceb1003a8f6ed96eb505eb9f064e20548356a91c86ed5d611a8ffd",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Presents 3.4% as share of native forest lost with 0.5 ha, though 3.41% is share of the asset (0.6 ha); total native forest is not quantified. Limitations on cause and legality are noted."
+ },
+ "raw": null,
+ "cost_usd": 0.012588
+}

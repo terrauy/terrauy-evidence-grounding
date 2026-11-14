@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H02_B_r1.json",
+ "prompt_sha256": "f4c2220e79742a5c5a23fe6ebfe5af3ac191ff8c01b7977399cade9f2d4d363f",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies that all loss was inside the plantation, gives the supported area breakdown, and notes limits on cause and land-use change."
+ },
+ "raw": null,
+ "cost_usd": 0.002693
+}

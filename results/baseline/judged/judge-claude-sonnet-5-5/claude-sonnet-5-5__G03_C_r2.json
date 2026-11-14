@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G03_C_r2.json",
+ "prompt_sha256": "86d64b36bc0c00c5dd8b11f526a13085f195d869fc6efea08c15c4f2ab6a0611",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers a flat 'No', saying evidence shows no loss in 2024\u20132025 rather than non-detection, including no sub-0.5 ha patches. Numbers are correct and limitations are noted, but the absence is asserted."
+ },
+ "raw": null,
+ "cost_usd": 0.014948
+}

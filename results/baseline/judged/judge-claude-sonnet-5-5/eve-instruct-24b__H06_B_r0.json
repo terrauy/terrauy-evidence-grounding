@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H06_B_r0.json",
+ "prompt_sha256": "bd94ddc77ba6ff40ef48b1b181f5d2fb7847eae8017b0b584b4a1b953eff5c23",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no, explicitly limits evidence to asset boundary, and facts (2,843.1 ha, 0.5 ha threshold, 67.7 ha in 2020, 0.4 ha in 2021) match. The 'zero forest cover' reading of JRC is consistent with the 0.0 ha reported."
+ },
+ "raw": null,
+ "cost_usd": 0.008502
+}

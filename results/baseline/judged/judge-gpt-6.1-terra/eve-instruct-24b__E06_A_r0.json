@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E06_A_r0.json",
+ "prompt_sha256": "5c895942142d3ffcff72fd0637d5e34ad77000d3f4047e937b8fdb9972017b9a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It asserts the property was fire-free despite incomplete coverage and detection limits, and misstates the uncovered interval as only November 4."
+ },
+ "raw": null,
+ "cost_usd": 0.002996
+}

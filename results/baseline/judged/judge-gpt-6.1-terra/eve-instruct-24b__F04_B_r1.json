@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F04_B_r1.json",
+ "prompt_sha256": "fbf407e8f6684fabd24eb496965e8a955f7d63243a8d25b5ead8aa9d6556bd64",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "MGAP is correctly identified, but Hansen\u2019s loss candidate is described as confirmed despite pending corroboration."
+ },
+ "raw": null,
+ "cost_usd": 0.002576
+}

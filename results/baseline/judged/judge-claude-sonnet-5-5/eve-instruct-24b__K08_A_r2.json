@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K08_A_r2.json",
+ "prompt_sha256": "7a54c4fdb73bc1b42a059c863e80d883c266482621ad37125741d0d782bfb00b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correct 2.23% / 81.3 ha. Slight overreach: 'confined to non-native plantations' ignores 13.2 ha outside mapped forest; the 0.5 ha threshold limitation is noted."
+ },
+ "raw": null,
+ "cost_usd": 0.011906
+}

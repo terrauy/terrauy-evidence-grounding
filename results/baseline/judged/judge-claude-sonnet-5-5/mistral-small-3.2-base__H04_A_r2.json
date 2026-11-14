@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H04_A_r2.json",
+ "prompt_sha256": "bf768a2c525f5ec995265cf2411cb1d6c5826292aefca65b8f3554b631684cd1",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer says 0.5 ha is 2.84% of the asset, but the evidence gives 0.6 ha and 3.41%. It also presents the loss as native forest only and never says the property's total native forest is unquantified."
+ },
+ "raw": null,
+ "cost_usd": 0.008284
+}

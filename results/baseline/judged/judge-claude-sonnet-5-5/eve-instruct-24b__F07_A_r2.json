@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F07_A_r2.json",
+ "prompt_sha256": "58d57379d8a20fff3591d00fa24309bc027bdd7c85ddce2f112fc96b5a598198",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer names Hansen as showing forest in 2020, but JRC shows 0 ha in 2020. It infers forest presence from a 2020 loss event, which contradicts the key. It also acknowledges JRC did not confirm forest."
+ },
+ "raw": null,
+ "cost_usd": 0.008302
+}

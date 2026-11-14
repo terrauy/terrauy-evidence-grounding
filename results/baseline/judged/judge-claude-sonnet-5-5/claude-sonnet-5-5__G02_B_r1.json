@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G02_B_r1.json",
+ "prompt_sha256": "3d456c51c5a9a009bdb5908ab551a13a650363d95a4420bccc0941e9e31e073f",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no: 67.7 ha loss was in 2020, before cut-off; no post-baseline events of 0.5 ha or more. Numbers match the evidence and limitations are stated."
+ },
+ "raw": null,
+ "cost_usd": 0.00832
+}

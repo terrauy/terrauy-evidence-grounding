@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E04_C_r2.json",
+ "prompt_sha256": "95539b844293db5c112ed1085fe4c97b984fd8008a41d702416fd4cf39a01ac3",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports no detections on covered days, identifies the coverage gap, and explains that no detection does not prove no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.003046
+}

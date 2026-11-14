@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I06_C_r1.json",
+ "prompt_sha256": "c3e80e9fd475a8d96988a95f6f4ff1aaaa29d3269540698ce8087e030d841b91",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer separates the superseded v1 gap from the current v2, which has full coverage and no detections. It never claims no fire occurred, but it also states no limitation of the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.014372
+}

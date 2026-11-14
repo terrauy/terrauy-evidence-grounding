@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H06_A_r0.json",
+ "prompt_sha256": "c0be3210086e1b340805c4ffe7356320670e38212dc8c63fbf1428f785d46dd9",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers No, notes the surrounding region isn't assessed; figures (98.8 ha, 0.4 ha in 2021) match facts. No regional conclusion drawn."
+ },
+ "raw": null,
+ "cost_usd": 0.012714
+}

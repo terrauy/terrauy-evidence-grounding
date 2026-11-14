@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F06_A_r2.json",
+ "prompt_sha256": "3c1a8c20a2e879f9384396202ad143831adbb53ed1a7014ad58639e8ab71ad25",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Names FIRMS VIIRS S-NPP, NOAA-20, NOAA-21 and MODIS correctly; no forbidden sensors. Notes no detections in the period, but states no limitations such as what absence of detections does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.007272
+}

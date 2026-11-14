@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G03_B_r1.json",
+ "prompt_sha256": "259880611fa4bc110c32e5105eeca4a2125a4659a70e14fe45f2269fb1a639d0",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says no loss was reported in 2024-2025 in the data, which is a non-detection framing without claiming no change. Correctly cites 2021-2023 figures and notes loss is not necessarily deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.010284
+}

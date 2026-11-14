@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K01_A_r1.json",
+ "prompt_sha256": "edbf403bb06b6f3e63a67a1ed5da74c489f53a3cb64145dea17cbb766e80e3a2",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly affirms 81.3 ha, but incorrectly treats 37.3 ha of excluded small patches as part of that total and derives an unsupported 44 ha remainder."
+ },
+ "raw": null,
+ "cost_usd": 0.002733
+}

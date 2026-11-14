@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H02_C_r2.json",
+ "prompt_sha256": "0e74cf6de02d0eb9ae15a3703fe17aaac7867ad790d70de57ee82ea5e85af040",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies that all loss was inside the plantation, reports the mapped areas, and notes relevant limitations and the event-area threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.00272
+}

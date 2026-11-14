@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G01_B_r0.json",
+ "prompt_sha256": "3689e82bf201bba1623ba88f6e7e3785260468b7147b73f23b200858823357da",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no loss of \u22650.5 ha detected 2021-2025, notes small/edge changes may be missed and data doesn't rule out change; doesn't present pre-2021 losses as recent."
+ },
+ "raw": null,
+ "cost_usd": 0.008394
+}

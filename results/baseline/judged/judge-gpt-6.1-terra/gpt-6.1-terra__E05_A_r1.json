@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E05_A_r1.json",
+ "prompt_sha256": "8d9bb483efb9c3652b6332b52691e565088ac1f6e668f311fb462df4a1614385",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports zero detections while identifying the S-NPP coverage gap and noting that undetected thermal activity remains possible."
+ },
+ "raw": null,
+ "cost_usd": 0.002532
+}

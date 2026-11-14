@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/C06_B_r0.json",
+ "prompt_sha256": "302fc3a0ea0a5c0147fcbb62fea788bd25bcdec9a16d5b7e2fa62fbea2ad6a68",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states authorization, cause and actor are not established; the 0.7 ha, 0.4 ha planted and 0.3 ha outside-forest figures match the facts; no forbidden claims are asserted."
+ },
+ "raw": null,
+ "cost_usd": 0.012348
+}

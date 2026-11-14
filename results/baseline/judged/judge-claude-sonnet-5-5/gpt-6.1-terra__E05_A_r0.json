@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E05_A_r0.json",
+ "prompt_sha256": "c6709e51d6863c7eda71e6a16628ebe59e6d0d4addfc0de4550eccbfd56336e7",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports zero detections, flags the VIIRS S-NPP gap Nov 2\u20136 so the full period can't be confirmed, and notes zero detections doesn't rule out fire. Does not claim no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.007976
+}

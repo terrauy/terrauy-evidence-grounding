@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H05_A_r2.json",
+ "prompt_sha256": "5d5e846e5e4a04bb6960d27c79c30ab52932a4bc4ad6957027f82150a2e115b3",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer says 'Yes, cleared', asserting clearing/deforestation, which the evidence does not establish (could be plantation harvest). Also claims 'isolated patch' and 'not part of larger event', which are unsupported, and omits limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.008624
+}

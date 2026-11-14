@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H03_A_r1.json",
+ "prompt_sha256": "a16539575804e5057524682e9f95b2c0e2269b83e781d13537dc203e7475b8e9",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 'probably yes' and 'points to native forest being cleared', but unconfirmed. It omits the 227.1 ha forest context. It adds an unsupported claim ('whether forest will regrow' is mild), and 'cleared or disturbed' hedges deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.008926
+}

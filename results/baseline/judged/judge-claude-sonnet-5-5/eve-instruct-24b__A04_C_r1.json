@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A04_C_r1.json",
+ "prompt_sha256": "53032e4bd938a1aae064e911e7bccc6cd5afbceb0131b647ea4dab983b5de7cc",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms 0.7 ha tree-cover loss in 2023 (matches key) and explicitly says deforestation is not confirmed. Causes are only hedged (harvesting, thinning). The 'illegal clearing' mention is an example, not a claim."
+ },
+ "raw": null,
+ "cost_usd": 0.009426
+}

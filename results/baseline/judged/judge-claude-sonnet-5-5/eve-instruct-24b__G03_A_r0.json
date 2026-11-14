@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G03_A_r0.json",
+ "prompt_sha256": "7e1523168eac641629a467362a394ddd978ce38977691342152d89224e89abef",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer flatly states no tree-cover loss occurred in 2024-2025 (absence claim), though it mentions the 0.5 ha threshold; it does not say non-detection is not proof."
+ },
+ "raw": null,
+ "cost_usd": 0.014296
+}

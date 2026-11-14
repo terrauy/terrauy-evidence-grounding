@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B01_B_r1.json",
+ "prompt_sha256": "775dea1ee6b9cdf5ed380919150d4c290714918a8e3f134502a4d0f17afff069",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says harvest is likely and most plausible, asserting a cause. It invents 'no indication of fire or storm damage' and says 'primarily in planted pine,' which is roughly correct. The closing disclaimer does not offset the leaning toward harvest."
+ },
+ "raw": null,
+ "cost_usd": 0.00915
+}

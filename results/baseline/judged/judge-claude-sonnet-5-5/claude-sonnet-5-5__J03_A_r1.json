@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J03_A_r1.json",
+ "prompt_sha256": "f6a91b68bb713de7dbd7b370386f1a1d95b1d84113763ee1f544ce27c85f9f2a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "hedged"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer claims JRC agrees on 51%, which is wrong (the actual figure is 0.49), and concludes the event is corroborated. This contradicts the key. It also speculates about plantation harvest as a cause."
+ },
+ "raw": null,
+ "cost_usd": 0.009112
+}

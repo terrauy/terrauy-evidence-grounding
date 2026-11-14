@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K02_C_r0.json",
+ "prompt_sha256": "8dcc151a362d0f74c8ed300636db3c8d7d627d7d9c9f2c7f8d3a162400274aee",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer affirms a 13.5 ha candidate in 2025, pending corroboration. It correctly notes that persistence, cause, legality and compliance cannot be established, and it adds no unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.007326
+}

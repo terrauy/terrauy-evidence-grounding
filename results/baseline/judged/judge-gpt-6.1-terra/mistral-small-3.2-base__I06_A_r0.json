@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I06_A_r0.json",
+ "prompt_sha256": "192a40c531b9a2fee143c79346dfdb8fef8e88c9c1bd52cdcdd8c230cd7f0f77",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": false,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer treats the superseded coverage gap as current and reverses the run order, contradicting v2\u2019s complete coverage."
+ },
+ "raw": null,
+ "cost_usd": 0.003922
+}

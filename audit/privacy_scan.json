@@ -1,0 +1,32 @@
+{
+ "files_scanned": 8963,
+ "result": "PASS",
+ "hits": {
+  "uuid": [],
+  "email": [],
+  "coordinate_pair_uy": [],
+  "geojson_or_wkt": [],
+  "cadastral_ref": [],
+  "tenant_fields": [],
+  "internal_hosts": [],
+  "local_paths": [],
+  "staff_names": [],
+  "urls_outside_allowlist": []
+ },
+ "hit_counts": {
+  "uuid": 0,
+  "email": 0,
+  "coordinate_pair_uy": 0,
+  "geojson_or_wkt": 0,
+  "cadastral_ref": 0,
+  "tenant_fields": 0,
+  "internal_hosts": 0,
+  "local_paths": 0,
+  "staff_names": 0,
+  "urls_outside_allowlist": 0
+ },
+ "quasi_identifiers": {
+  "distinct_exact_asset_areas_ha": 9,
+  "note": "area values >= 2 ha in the 66 substituted tasks are synthetic; see PRIVACY_AUDIT.md"
+ }
+}

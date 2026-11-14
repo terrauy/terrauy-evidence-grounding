@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K06_B_r2.json",
+ "prompt_sha256": "8b9ed47cd89e31337fae470264e25f029f0537bdc7a5082901f85013f9362a9d",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms corroboration with JRC agreement 100% and a later year observed, matching the key; it correctly notes cause and deforestation are not established. No unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.007684
+}

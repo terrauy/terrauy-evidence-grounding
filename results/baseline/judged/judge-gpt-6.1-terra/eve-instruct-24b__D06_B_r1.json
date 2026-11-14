@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D06_B_r1.json",
+ "prompt_sha256": "1c29d97edc19a23e3dde87d0d81664efd24bd66d2f1007a3e46772f3170328a5",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports non-detection but unsupportedly concludes that no major, sustained, or significant burning occurred; it does not claim all fire was absent."
+ },
+ "raw": null,
+ "cost_usd": 0.002385
+}

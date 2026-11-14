@@ -1,0 +1,14 @@
+{
+ "frozen_at": "2026-11-12",
+ "sha256": {
+  "tasks/tasks_v0.1.jsonl": "1890a2f0c3e16956002d9a98c08179edb098f73dc8ad4b46df42803203082d4f",
+  "data/cases_real.json": "6b3de3c8f0b47fc1b16ec74c5fd74f2fee90a5dc4c28bb1f4bca9fc5bada04cf",
+  "harness/build_tasks.py": "f5c65ca2197e23234ef95a44245c14493b6e1d96a71a5dddee0d5c2756601494",
+  "harness/render.py": "33ef00c476faa7ff499dc2da4a5dcfcf05c198d6c08cf09ef97fa2ddb1f5cf54",
+  "harness/run.py": "92660b569859df6697b63e4c354d7525fda90cc32b18fc11e5d65501c2fb9a90",
+  "harness/detect.py": "6934412011403ab48451c03e2c90d98da0f9d9a604e45498d0b74361b5a562d7",
+  "harness/judge.py": "7f9746d1728dc423e3f995be4a2cc561e503363584ff8929209feb2acef03d9d",
+  "harness/evaluate.py": "d3725cf8471c050588d8a217c19b6ecaa743c93e293359d85896f405b75bbbd8",
+  "harness/config.json": "423037ff2efdcb1da9ca20fb0f98de8f00e2008d18bcaa2404cf00f032e080d8"
+ }
+}

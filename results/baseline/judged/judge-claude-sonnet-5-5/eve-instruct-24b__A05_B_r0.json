@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A05_B_r0.json",
+ "prompt_sha256": "85109a2e42f3a17759fedcb8515956c9dedad54cdae6a22b3f0a74d0c53ace7d",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer affirms 4.5 ha of tree-cover loss in 2023 and says deforestation is not established. It leaves cause, legality and compliance open. 'Detected by satellite imagery' is vague but acceptable; 'primarily in planted forests' is right (4.3 of 4.5 ha). Overall the answer is mostly supported."
+ },
+ "raw": null,
+ "cost_usd": 0.009692
+}

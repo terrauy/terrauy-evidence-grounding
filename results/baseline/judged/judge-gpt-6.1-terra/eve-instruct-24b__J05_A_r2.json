@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J05_A_r2.json",
+ "prompt_sha256": "76f76a6335a8e51b3be7e08c1b882ae84b895f64a3424223e9cd5ec9120fc88b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies contradiction, but asserts an unsupported shared 30% canopy threshold and infers that loss likely caused the JRC non-forest classification."
+ },
+ "raw": null,
+ "cost_usd": 0.00281
+}

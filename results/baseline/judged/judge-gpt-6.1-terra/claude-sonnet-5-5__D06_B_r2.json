@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D06_B_r2.json",
+ "prompt_sha256": "a66c2a38027f0c9e7520d30bfaff3e496391d91875e34b757f207eaba050be0c",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports fully covered FIRMS non-detection and explicitly states that it does not prove no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.002409
+}

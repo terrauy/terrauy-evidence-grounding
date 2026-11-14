@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G02_C_r2.json",
+ "prompt_sha256": "8441965e13fb054a08def33a2e6387eb9ea8cffd4ee739d132b63276197f2d88",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says the 67.7 ha loss was in 2020, before the cut-off. The 0.4 ha figure and the 0.5 ha threshold are accurate. But \"largest loss event of that size\" and \"confirms no significant loss\" are loose, overstated wording."
+ },
+ "raw": null,
+ "cost_usd": 0.008324
+}

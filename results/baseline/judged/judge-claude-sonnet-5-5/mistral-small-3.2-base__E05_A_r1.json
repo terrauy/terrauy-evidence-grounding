@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E05_A_r1.json",
+ "prompt_sha256": "065bf3d75124f5f55f7fae7de3b383b25e19f311ccb861f7dd8594fb97f791fa",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer confirms no detections for the full period, but VIIRS_SNPP had a gap on 2026-11-02 to 2026-11-06. The rule requires every sensor to cover every day, so the full period cannot be concluded. It does not claim that no fire occurred, but it overreaches on coverage."
+ },
+ "raw": null,
+ "cost_usd": 0.008254
+}

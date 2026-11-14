@@ -1,0 +1,55 @@
+{
+ "note": "Development run (2026-11-13, real values, internal) + targeted public re-baseline (66 tasks). API cost = per-call tokens x list price; GPU = Hugging Face meter.",
+ "phases": {
+  "development_run": {
+   "anthropic": 34.15,
+   "openai": 9.71,
+   "gpu": 1.54,
+   "total": 45.4
+  },
+  "public_rebaseline": {
+   "anthropic": 27.73,
+   "openai": 8.01,
+   "hf_eve_gpu": 0.62,
+   "hf_base_gpu": 0.63,
+   "agents": {
+    "claude-sonnet-5-5": 4.112,
+    "eve-instruct-24b": 0.0,
+    "gpt-6.1-terra": 0.904,
+    "mistral-small-3.2-base": 0.0
+   },
+   "judges": {
+    "judge-claude-sonnet-5-5": 23.617,
+    "judge-gpt-6.1-terra": 7.106
+   },
+   "failed_judge_attempts_usd": 0.0,
+   "total": 36.99,
+   "cap_usd": 50
+  }
+ },
+ "anthropic_usd": 61.879,
+ "openai_usd": 17.723,
+ "hf_eve_gpu_usd": 1.58,
+ "hf_base_gpu_usd": 1.21,
+ "grand_total_usd": 82.39,
+ "api_by_component": {
+  "rebaseline:claude-sonnet-5-5": {
+   "usd": 4.1115
+  },
+  "rebaseline:eve-instruct-24b": {
+   "usd": 0.0
+  },
+  "rebaseline:gpt-6.1-terra": {
+   "usd": 0.9044
+  },
+  "rebaseline:mistral-small-3.2-base": {
+   "usd": 0.0
+  },
+  "rebaseline:judge-claude-sonnet-5-5": {
+   "usd": 23.6171
+  },
+  "rebaseline:judge-gpt-6.1-terra": {
+   "usd": 7.1065
+  }
+ }
+}

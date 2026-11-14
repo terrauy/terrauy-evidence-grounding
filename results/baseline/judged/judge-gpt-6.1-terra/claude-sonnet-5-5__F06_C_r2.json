@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F06_C_r2.json",
+ "prompt_sha256": "ef718d2eea08ec5dc1a23c1ff518159993c8b247a0bd8ef0f8ed8dce7f9553c3",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies FIRMS sources, complete coverage, and no detections, while noting relevant limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002382
+}

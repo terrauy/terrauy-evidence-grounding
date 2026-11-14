@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G04_C_r1.json",
+ "prompt_sha256": "993832bf2820d0ba4068d2f3e369ce6ed2016bcbc892d83f5cafd7e969e91aff",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly states 2021 tree-cover loss of 81.3 ha and says it cannot confirm current clearing. It does not assert deforestation, though it loosely uses 'forest clearing' wording. It notes the evidence does not cover the present."
+ },
+ "raw": null,
+ "cost_usd": 0.008814
+}

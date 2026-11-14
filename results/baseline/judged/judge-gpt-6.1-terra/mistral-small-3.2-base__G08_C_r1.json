@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G08_C_r1.json",
+ "prompt_sha256": "65334565364babf2f8ac78d521a44e5649194bb9ab75e73181089a9a30b9f01d",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts an unsupported overall increasing trend and omits the absence of detected events in 2024\u20132025; its reported 2021\u20132023 figures are correct."
+ },
+ "raw": null,
+ "cost_usd": 0.003619
+}

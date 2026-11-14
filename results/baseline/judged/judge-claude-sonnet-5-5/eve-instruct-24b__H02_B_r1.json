@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H02_B_r1.json",
+ "prompt_sha256": "17787fab8ec0c09e590fb432b0bffffe60c9c7cb7c32653d750c50e2710201c6",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer denies, gives 68.1 ha planted and 13.2 ha outside mapped forest correctly, derives 16% correctly; no limitations stated."
+ },
+ "raw": null,
+ "cost_usd": 0.01142
+}

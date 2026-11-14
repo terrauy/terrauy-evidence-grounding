@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K06_C_r1.json",
+ "prompt_sha256": "f1d98789af7ad4e24434f309be152752d7f17557a2b70b4d1fa82a399de8d778",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms corroboration with JRC 100% agreement and later year 2025 observed; the facts match the reference. It notes the 0.5 ha minimum and excluded sub-threshold patches. No unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.008072
+}

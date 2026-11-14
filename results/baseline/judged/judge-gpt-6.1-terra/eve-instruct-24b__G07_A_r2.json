@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G07_A_r2.json",
+ "prompt_sha256": "8c73d79eebe54ae059e4a3c86b48182b880420a0591a07ddfa34d45c58714668",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer denies 2024 tree-cover loss and asserts stable cover, contradicting the recorded 0.7 ha of loss in sub-threshold patches."
+ },
+ "raw": null,
+ "cost_usd": 0.002825
+}

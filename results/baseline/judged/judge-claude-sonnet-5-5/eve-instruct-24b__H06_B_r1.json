@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H06_B_r1.json",
+ "prompt_sha256": "c3d7e64f95811733b5aa46ce108a0d71b0224deb4e46c793e08476bb608d545b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers 'No', restricts to the asset boundary and 2021\u20132025, and notes small or edge changes may be missed. The figures cited (25.5 ha in 2015, 67.7 ha in 2020, 0 ha forest in 2020) match the reference facts. It draws no regional conclusion."
+ },
+ "raw": null,
+ "cost_usd": 0.008408
+}

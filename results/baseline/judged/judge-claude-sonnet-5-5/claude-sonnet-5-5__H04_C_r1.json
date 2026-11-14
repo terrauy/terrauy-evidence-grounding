@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H04_C_r1.json",
+ "prompt_sha256": "f8dd85b87404b17af2e740e61e8e833cd7aa75ddfc1f9be5fcaed6402ee438d4",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer gives 0.6 ha loss, 0.5 ha native, and 3.41%, all matching the evidence. The ~3% figure is a share of the property area (0.5/17.6), not of the native forest. It lists what the evidence does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.011428
+}

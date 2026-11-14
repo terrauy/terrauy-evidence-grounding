@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G07_B_r2.json",
+ "prompt_sha256": "95c91c46ac8ebf74112ad45484596323dd440de3ea9b9dd4ea0a805ffbdd7aec",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports 0.7 ha of sub-threshold loss in 2024 and no corroborated event, which matches the key. It adds the 2023 0.7 ha event, also in the facts. It does not claim there was no loss."
+ },
+ "raw": null,
+ "cost_usd": 0.00827
+}

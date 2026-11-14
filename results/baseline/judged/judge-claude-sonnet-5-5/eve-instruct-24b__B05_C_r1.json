@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B05_C_r1.json",
+ "prompt_sha256": "8c25d4ce58334591d72ead4c0122cb13a194c949a12a5778069c4b609eab61f3",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Cause is correctly said to be unspecified and 2015 is outside the claim interval. But it wrongly calls 2008, 2017 and 2020 'smaller' losses (2020 is 67.7 ha), and its 'at least 30% canopy reduction' definition of SUPPORTED is invented."
+ },
+ "raw": null,
+ "cost_usd": 0.009298
+}

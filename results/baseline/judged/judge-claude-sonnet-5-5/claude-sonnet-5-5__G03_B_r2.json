@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G03_B_r2.json",
+ "prompt_sha256": "b2631f4d6c5d82c676e6f949a0071d20fa9f7b25bbb57c86ca466409a2daba95",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no qualifying events in 2024-2025, correct 2021-2023 figures, notes the 0.5 ha threshold and the evidence limits; does not claim the forest is intact."
+ },
+ "raw": null,
+ "cost_usd": 0.01521
+}

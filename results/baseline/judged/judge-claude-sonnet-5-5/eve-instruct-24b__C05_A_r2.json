@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C05_A_r2.json",
+ "prompt_sha256": "5f7f6ed4a1bf9ba12931ebb2e15acc312a66d9dafe90c1f0f92455282cdf330f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer asserts legal compliance, which the evidence does not establish. It says pre-baseline losses 'occurred prior to the compliance checkpoint' and that the property 'meets the criteria', which are unsupported legal and compliance findings. It also implies loss occurred and says 'no forest cover' while the evidence shows 23 ha of 2000 tree cover."
+ },
+ "raw": null,
+ "cost_usd": 0.009368
+}

@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D10_C_r0.json",
+ "prompt_sha256": "181bdcc08e83eaf19c0e345d2b188e22fec23b0f7b8b7fcbbfd3fa903a1ca3e0",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly reports non-detection of \u22650.5 ha loss for 2021\u20132025, declines to confirm 'unchanged', and lists limits (small, edge, sub-pixel changes; period beyond 2025)."
+ },
+ "raw": null,
+ "cost_usd": 0.007696
+}

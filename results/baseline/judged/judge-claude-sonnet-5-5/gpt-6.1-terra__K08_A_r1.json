@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K08_A_r1.json",
+ "prompt_sha256": "33cfc2ec23786de9968f18e982aea337b1a659c6c3f3011f6db300e84a2bce60",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer gives 2.23% (81.3 ha of 3,643.5 ha), matching the key. The 37.3 ha of sub-0.5 ha patches is correctly excluded from the event count, which also serves as a threshold limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.007856
+}

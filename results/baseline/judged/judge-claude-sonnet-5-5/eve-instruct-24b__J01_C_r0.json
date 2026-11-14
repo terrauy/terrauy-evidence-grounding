@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J01_C_r0.json",
+ "prompt_sha256": "584c7b80c46f3ef75a29cc316f3214ed494807a85ee1bc11e8f2f15e5909055f",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer flatly says no loss occurred, which the key says is not established. It also invents a 'false positive' and a possible harvest cause, and misdescribes JRC as showing 'no forest loss' when it shows non-forest at 2020."
+ },
+ "raw": null,
+ "cost_usd": 0.009014
+}

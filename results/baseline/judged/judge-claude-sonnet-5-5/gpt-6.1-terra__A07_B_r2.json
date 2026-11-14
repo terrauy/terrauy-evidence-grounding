@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/A07_B_r2.json",
+ "prompt_sha256": "67c3c411f47f695f6cc3c09649310407dd17d0fe24cdc4411d6ab222e30e5ef4",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer states the 67.7 ha loss predates the baseline, that no loss event of 0.5 ha or more was detected in 2021\u20132025, and that tree-cover loss does not establish deforestation. It makes no forbidden claims."
+ },
+ "raw": null,
+ "cost_usd": 0.009358
+}

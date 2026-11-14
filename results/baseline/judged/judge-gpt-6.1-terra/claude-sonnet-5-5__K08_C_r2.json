@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K08_C_r2.json",
+ "prompt_sha256": "4215f60f5acc8f6727722a5a38579156cfebf595075762750339d3a5db9dbd96",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer gives the supported 2.23% and 81.3 ha, accurately describes corroboration and context, and states relevant limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002756
+}

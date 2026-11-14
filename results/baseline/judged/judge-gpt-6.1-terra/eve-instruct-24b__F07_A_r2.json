@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F07_A_r2.json",
+ "prompt_sha256": "58d57379d8a20fff3591d00fa24309bc027bdd7c85ddce2f112fc96b5a598198",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer incorrectly attributes 2020 forest presence to Hansen; JRC reports 0 ha, and Hansen loss events do not establish 2020 forest presence."
+ },
+ "raw": null,
+ "cost_usd": 0.002788
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E08_C_r2.json",
+ "prompt_sha256": "fc8eb2740dfee20653027de6bc836e054f24d256e5cb98f321e41136011392a8",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly abstains for 2026, but incorrectly says the data only covers 2021\u20132025; the observed annual series spans 2001\u20132025."
+ },
+ "raw": null,
+ "cost_usd": 0.002507
+}

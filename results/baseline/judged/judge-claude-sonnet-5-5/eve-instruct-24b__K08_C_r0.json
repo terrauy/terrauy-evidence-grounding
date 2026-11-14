@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K08_C_r0.json",
+ "prompt_sha256": "5c1891c97d76865de8ecff1f97dea40eae4262d54783bf978123af5f8bf98e0d",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 2.23% (81.3/3643.5 ha), consistent with evidence; planted-forest context, corroboration and cause/legality limits correctly stated; no unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.011568
+}

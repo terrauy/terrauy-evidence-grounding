@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B01_C_r1.json",
+ "prompt_sha256": "b7bc575e504bc8e8cda4a63acc29ab3d11383bd11ea5c355f3ef3656a152dc2d",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says the loss was likely caused by timber harvest, which the evidence does not establish. It also claims the loss area was 'within' pine plantation entirely and that multiple sources corroborated it, which is partly unsupported. It does note that legality, actor and compliance are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.00915
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D07_A_r0.json",
+ "prompt_sha256": "32f216c8b1d7f4f66982c3a8a154ef2d385db5dfe2eb0f69d5bee375071f6d0e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer says it can certify that no fire occurred, turning a non-detection into proof of absence. It does not note that small, cool or cloud-obscured fires may be missed."
+ },
+ "raw": null,
+ "cost_usd": 0.007194
+}

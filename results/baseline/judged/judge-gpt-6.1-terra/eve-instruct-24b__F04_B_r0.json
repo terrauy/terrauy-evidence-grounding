@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F04_B_r0.json",
+ "prompt_sha256": "bc5e3923ea6dbfc7950fe45298018241278d0793a80ad1df0c6b39ea8e85ec05",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly names MGAP, but incorrectly implies JRC confirms native forest; JRC only maps forest presence, including plantations."
+ },
+ "raw": null,
+ "cost_usd": 0.002587
+}

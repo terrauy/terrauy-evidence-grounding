@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J04_A_r0.json",
+ "prompt_sha256": "1b047fe42f5b7d857462231b029169ea94a5afc54b37e55ea87247c20d124dd9",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer correctly lists 2021, 2022, 2023 events with correct areas and JRC agreement, states none contradicted, no pre-baseline events listed. No limitations mentioned beyond the corroboration rule."
+ },
+ "raw": null,
+ "cost_usd": 0.010504
+}

@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G04_A_r1.json",
+ "prompt_sha256": "82de6d3f9a7c852d3fc6804bbe15a8789b34e2a2001ecfc88394c67898e9c0b0",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer flatly says no clearing today, claims no further loss detected since 2021 and calls the 2021 loss 'cleared' (deforestation). Invents 'no activity observed in intervening years'; ignores that evidence says nothing about 2026."
+ },
+ "raw": null,
+ "cost_usd": 0.008914
+}

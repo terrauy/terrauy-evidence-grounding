@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H02_C_r0.json",
+ "prompt_sha256": "9fab95d92613e7747657b2edcb32cd82c6c21195897ca9cb8b34f911df85ac34",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies that all loss was in planted forest, reports the supported area split, and notes relevant limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002774
+}

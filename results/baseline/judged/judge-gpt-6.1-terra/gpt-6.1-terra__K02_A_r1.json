@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K02_A_r1.json",
+ "prompt_sha256": "755b1d8f73c5b873e42e82799379edb1242c53470d2abe45c8807cc60ea4e01b",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies the 2025 candidate and its area, and explains why corroboration remains pending."
+ },
+ "raw": null,
+ "cost_usd": 0.002375
+}

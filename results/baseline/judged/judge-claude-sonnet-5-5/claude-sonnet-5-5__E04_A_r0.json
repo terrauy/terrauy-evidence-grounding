@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E04_A_r0.json",
+ "prompt_sha256": "ac9f97394ef05e3c4756ee7b44e5fe20b19ca75df04ab64705e4e970274eb0ed",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports 0 detections in covered days, flags the 24-25 Oct gap across all four sensors, and declines to conclude for the full period. It does not claim no fire occurred, though it omits the caveat that no detection is not proof of no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.0092
+}

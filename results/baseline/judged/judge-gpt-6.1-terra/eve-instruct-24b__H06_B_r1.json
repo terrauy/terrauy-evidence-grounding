@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H06_B_r1.json",
+ "prompt_sha256": "c3d7e64f95811733b5aa46ce108a0d71b0224deb4e46c793e08476bb608d545b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer denies that the evidence shows regional loss and confines its observations to the asset, though its opening wording conflates the region with the boundary."
+ },
+ "raw": null,
+ "cost_usd": 0.002736
+}

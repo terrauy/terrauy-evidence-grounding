@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E04_C_r0.json",
+ "prompt_sha256": "5ce73592080f545be8748d4410542838f5ade45c94f93190c2d57380e317ef80",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says 'no evidence of fire' with no detections, flags the uncovered last day and undetected small fires. It does not state flatly that no fire occurred, but it does not clearly say the full period cannot be concluded. It treats 2026-10-24 to 2026-10-25 as one day."
+ },
+ "raw": null,
+ "cost_usd": 0.00913
+}

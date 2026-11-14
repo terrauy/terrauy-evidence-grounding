@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E06_B_r2.json",
+ "prompt_sha256": "9f579f7bd1fa532d0cce737757a13c800f159ba7bce76cc9b93ba047bae7c1c5",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no detections across the full period despite the coverage gap, then qualifies the fire-free inference and notes missed fires."
+ },
+ "raw": null,
+ "cost_usd": 0.003015
+}

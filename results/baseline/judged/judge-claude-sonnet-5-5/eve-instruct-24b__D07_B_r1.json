@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D07_B_r1.json",
+ "prompt_sha256": "59b21665f4def6d56a959fa685c9fee5d2cafa0b86ffb4272f68aa96b38616e7",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states no FIRMS detections with full coverage and says this cannot certify absence of fire, citing small/cool/cloud-obscured fires. The phrase 'strong evidence suggests no significant fire activity' is a mild overreach but still hedged."
+ },
+ "raw": null,
+ "cost_usd": 0.007534
+}

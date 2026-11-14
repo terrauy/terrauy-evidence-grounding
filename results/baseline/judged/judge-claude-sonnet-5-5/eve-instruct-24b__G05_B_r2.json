@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G05_B_r2.json",
+ "prompt_sha256": "2936139fb6f175a0f06bc2b1cf5c2dab8fb116b264d5b1e1e465c9647f3fef0a",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says the loss is not yet confirmed as persistent, as 2025 is the latest year and corroboration is pending. Figures (13.5 ha, 98% JRC agreement) match the facts. It lists what the evidence does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.00797
+}

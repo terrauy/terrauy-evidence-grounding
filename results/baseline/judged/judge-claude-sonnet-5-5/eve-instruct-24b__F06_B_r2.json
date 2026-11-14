@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F06_B_r2.json",
+ "prompt_sha256": "7e78992e6103b4da84c307f0bbc2020ddddd0905f3506680c438525c9e7a0aa5",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer lists the four correct sensors and the correct period, with no detections. It never names FIRMS as the source, and it states no limitation such as small or cloud-obscured fires going undetected."
+ },
+ "raw": null,
+ "cost_usd": 0.00714
+}

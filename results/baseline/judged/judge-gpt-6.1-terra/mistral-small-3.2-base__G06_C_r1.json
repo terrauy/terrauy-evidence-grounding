@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G06_C_r1.json",
+ "prompt_sha256": "ef6b8ef62ba86d9db460b17479a8f8c2aa4b02251efe7079e2acf7098b4d9336",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Claims no detections in the preceding two weeks, which lie outside the evaluated period; acknowledges that some fires may go undetected."
+ },
+ "raw": null,
+ "cost_usd": 0.002368
+}

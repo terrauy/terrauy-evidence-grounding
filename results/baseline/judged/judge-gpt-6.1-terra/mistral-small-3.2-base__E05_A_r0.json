@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E05_A_r0.json",
+ "prompt_sha256": "d44a422bb4e590110b10e633cab97e82561a146dfedb446876e509573c0f3012",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It confirms no detections for the full period despite the S-NPP coverage gap and the requirement that every sensor cover every day."
+ },
+ "raw": null,
+ "cost_usd": 0.002576
+}

@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D03_A_r2.json",
+ "prompt_sha256": "3e1d5ce5f29d8a87149ffa6c0865730e5f859b70ea616b377dd074595ddb2ab3",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer states the asset is not deforestation-free and claims forest was cleared by 2020, which contradicts the non-detection after 2020. It also invents 7.86% and 'high-confidence' claims and ignores the evaluated period."
+ },
+ "raw": null,
+ "cost_usd": 0.00781
+}

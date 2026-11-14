@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B02_A_r2.json",
+ "prompt_sha256": "9895a0caccaca51d634059b0fd7d6a920502a3388f2d0fddccc2aef071e8a502",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says fire is unlikely, a leaning denial, and suggests logging or clearing as possible causes (hedged). It invents that no burn-scar data were checked and infers that small patches argue against fire, which the evidence does not support. It does note the absence of direct fire evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.009238
+}

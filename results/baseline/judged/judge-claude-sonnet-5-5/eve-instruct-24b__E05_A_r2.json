@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E05_A_r2.json",
+ "prompt_sha256": "2cf2f0e54bdae075dbd84c3677565937be73bbb164b8489adccb0758ee31c047",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly declines to confirm, citing the VIIRS_SNPP gap 11-02 to 11-06. But it claims the asset 'was not continuously monitored' despite other sensors covering it, which is an overstatement. It does not state that no detection is not proof of no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.008244
+}

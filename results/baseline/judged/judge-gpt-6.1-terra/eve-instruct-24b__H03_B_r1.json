@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H03_B_r1.json",
+ "prompt_sha256": "3ec3f3d7e234001e5dbbfdd287c2b667ec54a9c0fa973509aac8d5ef811eb1e6",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It asserts 13.5 ha of native forest was lost, although only 13.1 ha overlaps mapped native forest and the loss remains a candidate."
+ },
+ "raw": null,
+ "cost_usd": 0.002833
+}

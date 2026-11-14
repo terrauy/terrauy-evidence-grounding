@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F08_B_r1.json",
+ "prompt_sha256": "2bb6601cab0923f86b4c833770fd1dce17ea3dbc687ffcdb57a7f24244d524ad",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says yes, JRC supports the 2023 loss, which blurs the source: JRC is a 2020 reference and Hansen detected the loss. It also claims the loss was a mix of planted forest and sub-0.5 ha patches, which misreads the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.00854
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K08_A_r1.json",
+ "prompt_sha256": "f30e989831a86513379dc1a649d916668bcd7f7bd0d612c5d8261540e08a0368",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The main percentage and area are correct, but the answer implies excluded smaller patches form part of the 81.3-hectare event remainder."
+ },
+ "raw": null,
+ "cost_usd": 0.002676
+}

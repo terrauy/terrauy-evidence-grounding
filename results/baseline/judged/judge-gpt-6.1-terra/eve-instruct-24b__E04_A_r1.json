@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E04_A_r1.json",
+ "prompt_sha256": "4e7c431623ca88adf78719e6115595d7c165fe8d2f7af9851e28807880b064a2",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It reports no detections rather than no fire, but incorrectly claims partial coverage on October 25 and extends observations to areas near the asset."
+ },
+ "raw": null,
+ "cost_usd": 0.002935
+}

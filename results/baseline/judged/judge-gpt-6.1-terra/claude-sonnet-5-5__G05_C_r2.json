@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G05_C_r2.json",
+ "prompt_sha256": "df09708e6b328cfb980dea24999b32eeb077b57ecdb540bb9d0a124b309f531e",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly says corroboration is pending because 2025 is the latest observed year, and accurately describes the evidence and its limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002693
+}

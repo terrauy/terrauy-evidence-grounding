@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G05_B_r1.json",
+ "prompt_sha256": "7204c7e6332a4694be91f0f1a968e19f56431f3669835a01ae122e44b8d3419d",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says the 2025 loss is a candidate, latest year, needs a later year for corroboration; does not claim persistence. Causes are mentioned only as possibilities and are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.007734
+}

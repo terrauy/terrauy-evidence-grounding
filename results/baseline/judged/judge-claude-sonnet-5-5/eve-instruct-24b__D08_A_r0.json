@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D08_A_r0.json",
+ "prompt_sha256": "427f32196437bfb15587e1fc681b1a0cf56107f69a5e888f4759ce9f979492dc",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  " other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer flatly states no deforestation occurred (denial, not non-detection). It also claims the asset was 'already deforested' and calls prior losses deforestation, which is unsupported. It does mention the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.008736
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J04_A_r2.json",
+ "prompt_sha256": "63759bf7a5e9f92e314ce0abc8735afd38d6df0cd3285cb56eeae52898c9774e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Incorrectly labels the supported 2022 event unsupported and claims 0.6 ha is below the 0.5-ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.003698
+}

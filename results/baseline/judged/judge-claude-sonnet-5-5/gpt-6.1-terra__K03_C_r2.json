@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K03_C_r2.json",
+ "prompt_sha256": "917bab54ed416590605bf046bbaab8d0c0227534432830f008c6f4cd3dddc772",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states no FIRMS detections intersected the property over the correct period, all four sensors fully covered, and notes that undetected small or cloud-obscured fires remain possible. This matches the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.006584
+}

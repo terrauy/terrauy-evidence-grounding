@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H04_A_r1.json",
+ "prompt_sha256": "fad033b003829db6b9f9cdd108e4c3dd46465eec70a94e750b84bb6af9dc2bba",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The native-context loss and property percentage are supported, but claiming no planted forest was affected extends event-area mapping to the entire property."
+ },
+ "raw": null,
+ "cost_usd": 0.002757
+}

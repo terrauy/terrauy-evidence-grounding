@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D02_B_r2.json",
+ "prompt_sha256": "084e1e73795ba9f12d50f05b73ac9c4ff7f60dcf4f06df1fbd6055f2b554182f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "\u201cLargely yes\u201d affirms the forest is intact despite the later correct non-detection qualification and explicit rejection of confirmed intactness."
+ },
+ "raw": null,
+ "cost_usd": 0.002635
+}

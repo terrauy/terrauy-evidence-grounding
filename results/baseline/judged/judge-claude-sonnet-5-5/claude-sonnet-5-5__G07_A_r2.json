@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G07_A_r2.json",
+ "prompt_sha256": "a0019af4cfa381a303805bcb796a428c4b226c918f2ae2d102d70b1ebab09cdc",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no \u22650.5 ha event in 2024 and reports 0.7 ha sub-threshold loss, matching the key; it does not claim no loss occurred. The 2023 event details and corroboration are consistent with the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.00847
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H05_B_r1.json",
+ "prompt_sha256": "cfb6d5a4d2b5860bec7d81609e91723eafa705f75e4cb3527adcb475c40f72b6",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says \"Yes\" to tree-cover loss of 0.7 ha (1.2%) but never states clearing or deforestation occurred, and it notes cause and legality are unknown. However, \"the rest of the property remained forested\" is unsupported, since the property is a mixed context and the evidence shows no such thing."
+ },
+ "raw": null,
+ "cost_usd": 0.008748
+}

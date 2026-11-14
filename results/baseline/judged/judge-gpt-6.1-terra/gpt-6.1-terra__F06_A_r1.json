@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F06_A_r1.json",
+ "prompt_sha256": "df64c03092ec104bace9abfc2ebed8122a0b95277b0caf98ed1fe1119a04976b",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies FIRMS, the three VIIRS platforms, and MODIS; notes that the evidence does not specify MODIS satellites."
+ },
+ "raw": null,
+ "cost_usd": 0.00227
+}

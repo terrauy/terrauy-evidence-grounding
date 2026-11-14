@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K02_C_r2.json",
+ "prompt_sha256": "5c8c4dc25cdd82179a396144383f1f7eaacd1a36476c08fb5c8f423f65531a5a",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms the 13.5 ha candidate in 2025 and correctly notes pending corroboration and limits on cause, legality, and compliance."
+ },
+ "raw": null,
+ "cost_usd": 0.002424
+}

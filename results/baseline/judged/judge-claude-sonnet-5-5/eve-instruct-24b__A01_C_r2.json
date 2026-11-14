@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A01_C_r2.json",
+ "prompt_sha256": "67be3b945a0e430f7e3de048c187550d2b695600301e575473f5a875fe6eda0b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer flatly denies deforestation, which the evidence does not establish either way. It also asserts 'aligns with typical forestry practices' and 'stand replacement in a managed plantation' (unsupported), and 'Pinus spp.' without evidence of management. Cause is only named as an example (harvest), left undetermined."
+ },
+ "raw": null,
+ "cost_usd": 0.009696
+}

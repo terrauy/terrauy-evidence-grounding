@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E04_A_r2.json",
+ "prompt_sha256": "b0891a9d05711bf1b2e467b51846e2281b389418dad601311f1ce8b74e6a2785",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says the asset remained clear of fire throughout the monitored period, which implies no fire occurred. It does mention the Oct 25 gap but does not say the full period can't be concluded, and it omits that no detection is not proof of no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.00897
+}

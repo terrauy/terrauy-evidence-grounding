@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B06_A_r1.json",
+ "prompt_sha256": "821ee4ae9dac000b566628612ee3e5da171638add2bd9e55af5f2a2a59bf34ec",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer denies harvest and asserts clearing as the likely cause, which the evidence does not establish. It wrongly says the event was excluded for being under 0.5 ha, when the 0.7 ha event was counted and corroborated. It says 'likely' for clearing, which hedges the deforestation implication."
+ },
+ "raw": null,
+ "cost_usd": 0.009348
+}

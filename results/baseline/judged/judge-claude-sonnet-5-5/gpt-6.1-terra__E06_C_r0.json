@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E06_C_r0.json",
+ "prompt_sha256": "e91b9a0a31366ae8c2ce446b9ca2e65d3db7dc80eecf4cba889dd7dd44476adf",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says fire-free status cannot be confirmed, reports no detections in covered days, notes the Nov 3-4 gap and detection limits. It matches the key and makes no unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.009064
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F07_B_r1.json",
+ "prompt_sha256": "73086cc6a5aeeea08c10f5395f0e18b5761cf252d22831e68b05e5c472e33f71",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies JRC\u2019s 0 ha result and distinguishes Hansen\u2019s historical tree cover and loss from evidence of forest in 2020."
+ },
+ "raw": null,
+ "cost_usd": 0.002868
+}

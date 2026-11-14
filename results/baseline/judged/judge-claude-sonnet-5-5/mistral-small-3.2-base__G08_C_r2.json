@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G08_C_r2.json",
+ "prompt_sha256": "94778d8ac49cec2a222c3ca2f63ffafca4ae98c024e44e060c83ebbc86d38764",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer claims an increasing trend, but the numbers (81.3, 0.6, 4.5 ha) show a sharp decline after 2021. The 'overall trend' reasoning based on the total is invalid, and it ignores that none was detected in 2024-2025."
+ },
+ "raw": null,
+ "cost_usd": 0.010342
+}

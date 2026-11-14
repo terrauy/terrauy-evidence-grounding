@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E06_B_r1.json",
+ "prompt_sha256": "b96d1558f6feb27f9ffd28094562f3f2a77435360db27f6b00aba541ecfd8763",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the full period cannot be concluded, notes no detections in covered days, flags the Nov 3\u20134 gap across all sensors, and says small or cloud-obscured fires may be missed. It does not claim that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.009178
+}

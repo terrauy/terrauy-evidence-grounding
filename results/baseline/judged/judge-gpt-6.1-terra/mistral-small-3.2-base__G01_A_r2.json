@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G01_A_r2.json",
+ "prompt_sha256": "686c856e3f385a6e773713b25955fc748e401da905ca9e2e864fdd00813b7006",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It asserts no significant loss occurred, exceeding the evidence of non-detection; it correctly reports the 0.4 ha observation and event threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002823
+}

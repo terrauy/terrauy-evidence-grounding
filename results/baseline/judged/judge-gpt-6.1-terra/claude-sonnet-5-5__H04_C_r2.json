@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H04_C_r2.json",
+ "prompt_sha256": "7dc62b3ce76fb32f288d81840298bbad21ffded1f1b1c57a804a08180606ce45",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports the loss and native-forest overlay, expresses percentages relative to the property, and notes relevant limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.00282
+}

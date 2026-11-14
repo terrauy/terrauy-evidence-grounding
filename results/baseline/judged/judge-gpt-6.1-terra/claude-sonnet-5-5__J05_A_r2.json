@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J05_A_r2.json",
+ "prompt_sha256": "92c40950efeace4ac96f2e34e50ac79e073c971b862ff243de5133a366beac58",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer denies a contradiction and correctly treats the 2020 loss as supported pre-baseline history consistent with the JRC reference."
+ },
+ "raw": null,
+ "cost_usd": 0.002745
+}

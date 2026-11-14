@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I06_C_r2.json",
+ "prompt_sha256": "855be2dd144d7bfcff7a45b1850767a6503f87491828be5b465f1dc2e6f853cc",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers yes under current v2 with full coverage for all sensors and no detections, treats v1 gap as superseded, and notes that no detection doesn't prove no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.011618
+}

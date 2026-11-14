@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J06_A_r2.json",
+ "prompt_sha256": "f7f2b6f44dfd531e34bc79fefdd42d9d6da2ddd87e08a3053f9d1b3ffe9dd6ce",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer wrongly claims JRC mapped the area as forest and that the corroboration rule was met, contradicting the 0.0 agreement. It treats the event as corroborated, though it denies that deforestation is established."
+ },
+ "raw": null,
+ "cost_usd": 0.00914
+}

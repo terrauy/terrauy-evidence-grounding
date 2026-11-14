@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J05_B_r2.json",
+ "prompt_sha256": "9e6b7b18c5f90ee41bd897c5dcfff460f88c3b1962ffb469b8b73bdfd66d2f08",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Correctly says no contradiction, but invents that the 67.7 ha loss accounted for all forest on the asset (the facts show 23 ha of 2000 tree cover and multiple earlier losses). It also treats the post-2020 evidence as supporting 'deforested by year-end 2020', which misstates scope."
+ },
+ "raw": null,
+ "cost_usd": 0.008598
+}

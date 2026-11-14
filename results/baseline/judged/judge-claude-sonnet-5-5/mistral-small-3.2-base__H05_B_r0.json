@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H05_B_r0.json",
+ "prompt_sha256": "2f75259d138860a6655c237b2463cf9bb3bc36f543c3f5e991fd1c9d79c7dd07",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports 0.7 ha (1.2%) loss in 2023, says it doesn't necessarily mean the forest was cleared, and notes cause and legality are not established. Deforestation is only hedged as one possibility, not asserted."
+ },
+ "raw": null,
+ "cost_usd": 0.008544
+}

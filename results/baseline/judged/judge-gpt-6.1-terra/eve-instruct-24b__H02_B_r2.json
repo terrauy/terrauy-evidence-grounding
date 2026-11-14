@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H02_B_r2.json",
+ "prompt_sha256": "05647bfa677a430663cd521edec27e68d2cb197305d37ec7b373b6e081aaa58c",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly denies that all loss was in the plantation and reports the supported area breakdown; the land classification suggestion is hedged."
+ },
+ "raw": null,
+ "cost_usd": 0.002724
+}

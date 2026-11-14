@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D06_B_r0.json",
+ "prompt_sha256": "608a8ab00059724184e84ab07fa657aeec1a7f3880b0912d1440dc930d3293ae",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports non-detection and limitations, but unsupportedly characterizes it as strong evidence that no burning occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.002343
+}

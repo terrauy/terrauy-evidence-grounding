@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K07_B_r2.json",
+ "prompt_sha256": "27eab1ab8ca29f7928c30f2e4cc896314bdb093947a7150da82a13f8d8c9b3b3",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly says the property was not evaluated because required source coverage was unavailable and no observations were made."
+ },
+ "raw": null,
+ "cost_usd": 0.001874
+}

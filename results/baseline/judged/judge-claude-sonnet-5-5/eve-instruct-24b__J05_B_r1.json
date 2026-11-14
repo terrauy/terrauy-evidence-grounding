@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J05_B_r1.json",
+ "prompt_sha256": "400ced2f8a887bdd5c29d0fc8a44d6bf8fa5eec3767e8373f66db769632554bd",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly says no contradiction; non-forest in 2020 aligns with loss. But it claims the loss 'likely cleared the remaining forest' (speculative) and says 'before JRC baseline' loosely. Mentions the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.00838
+}

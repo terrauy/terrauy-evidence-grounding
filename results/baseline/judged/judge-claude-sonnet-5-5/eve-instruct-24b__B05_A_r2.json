@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B05_A_r2.json",
+ "prompt_sha256": "5456f86ba447b8aa1fdcb7843c41d58f583dcd67036d43393dfbdc447f388af0",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Asserts the cause was forest clearing, implying deforestation. It also invents that the 23 ha of tree cover was almost entirely lost by 2020 (the 2015 loss of 25.5 ha exceeds it), and misreads JRC as corroboration. The closing note that no further cause details exist is only a partial limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.009336
+}

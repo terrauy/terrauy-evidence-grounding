@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F06_A_r0.json",
+ "prompt_sha256": "03fef0898e12642af61b165c73438828323bf6985466cc3a6776bc3720aa789c",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Lists VIIRS S-NPP, NOAA-20, NOAA-21 and MODIS via FIRMS, with the correct period and full coverage. No forbidden sensors are named. It gives no limitations, such as the fact that absence of detections does not mean no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.00754
+}

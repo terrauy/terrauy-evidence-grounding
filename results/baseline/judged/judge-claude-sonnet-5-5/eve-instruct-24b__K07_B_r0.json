@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K07_B_r0.json",
+ "prompt_sha256": "f748d00ba0736a4e30c7958e87d2d16440856cf6a2326936e91ede49edff6599",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, the method could not evaluate due to missing source coverage; cannot confirm loss in 2021-2025; no compliance conclusion. Matches key."
+ },
+ "raw": null,
+ "cost_usd": 0.008924
+}

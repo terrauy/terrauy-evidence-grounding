@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/C06_A_r1.json",
+ "prompt_sha256": "ba3bea985a6e3f3d3fead11607b886c03fd448bb822f9fb36f560391e45de465",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says authorization cannot be determined, cites correct figures (0.7 ha, 0.4 planted, 0.3 outside mapped forest), and asserts no legality, actor, compliance or deforestation claim."
+ },
+ "raw": null,
+ "cost_usd": 0.008964
+}

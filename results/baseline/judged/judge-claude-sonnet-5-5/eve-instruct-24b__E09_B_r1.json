@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E09_B_r1.json",
+ "prompt_sha256": "62f645945d074477cbe7179f41b509156a349711d7d7ac3ebe850c541669aa5c",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says evidence is insufficient because datasets had no observations; neither confirms nor rules out deforestation, and no compliance finding. The recommendation for higher-resolution monitoring is a minor suggestion, not a factual claim."
+ },
+ "raw": null,
+ "cost_usd": 0.007266
+}

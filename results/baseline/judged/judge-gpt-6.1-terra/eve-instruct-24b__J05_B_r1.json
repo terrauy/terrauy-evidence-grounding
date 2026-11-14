@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J05_B_r1.json",
+ "prompt_sha256": "400ced2f8a887bdd5c29d0fc8a44d6bf8fa5eec3767e8373f66db769632554bd",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies contradiction, but asserts no post-2020 loss occurred; the evidence only establishes that no qualifying event was detected."
+ },
+ "raw": null,
+ "cost_usd": 0.002759
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E07_B_r0.json",
+ "prompt_sha256": "3606bacdd36c8707511444320771edf79aa583f177ec5a3f9c0a4c9765276276",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says no 2026 data available and cannot confirm 2026 loss; 2025 candidate pending. The opening 'No' is qualified as 'no confirmed', not an assertion of absence."
+ },
+ "raw": null,
+ "cost_usd": 0.012264
+}

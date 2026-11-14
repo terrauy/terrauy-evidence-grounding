@@ -1,0 +1,24 @@
+TerraUY Evidence Grounding Benchmark (TEGB)
+Copyright © 2026 Jairo Rifrán
+Project/brand: TerraUY Intelligence. Brand use does not imply that any legal entity holds the intellectual property.
+
+This distribution contains material under different terms:
+
+1. TEGB code - Apache License 2.0 (see LICENSE).
+2. TEGB-authored benchmark tasks, answer keys, annotations, documentation and figures -
+   Creative Commons Attribution 4.0 International (see LICENSES/CC-BY-4.0.md).
+3. Values derived from third-party Earth-observation datasets - their original terms apply
+   (see THIRD_PARTY_DATA.md):
+   - Hansen/UMD/Google/USGS/NASA Global Forest Change (CC BY 4.0). Hansen et al. 2013, Science 342: 850-853.
+   - European Commission Joint Research Centre, Global Forest Cover 2020 (free of charge, without restriction
+     of use; acknowledgement required).
+   - NASA Fire Information for Resource Management System (FIRMS). We acknowledge the use of data and/or
+     imagery from NASA's FIRMS. Use does not imply endorsement by NASA.
+   - Ministerio de Ganaderia, Agricultura y Pesca (MGAP), Uruguay - forest cartography 2021, under the
+     Licencia de Datos Abiertos - Uruguay v0.1; values were derived per asset (modified).
+4. Model outputs (agent responses and LLM-judge verdicts) are NOT licensed under CC BY 4.0 and are not
+   TEGB-authored content. See MODEL_OUTPUTS_NOTICE.md:
+   "Model outputs are provided for research, evaluation and benchmark reproducibility. Their inclusion does
+   not grant rights beyond those permitted by the originating model provider's applicable terms."
+
+No model provider, data provider or space agency sponsors, endorses or has reviewed TEGB.

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D06_C_r1.json",
+ "prompt_sha256": "0fc2a3ea0dcbc0a51cf6467767936efbd53d822597050380db9f2d897eddb19d",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports zero FIRMS detections with full sensor coverage, explicitly declines to confirm no burning, and states the limits: non-detection is not proof, and nothing about burned area, cause, or time outside the period."
+ },
+ "raw": null,
+ "cost_usd": 0.007706
+}

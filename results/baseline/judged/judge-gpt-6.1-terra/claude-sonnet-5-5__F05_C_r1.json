@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F05_C_r1.json",
+ "prompt_sha256": "696e6ae9cf103056ce20b4fab0507870e25361fc7ed9b667dccc685a0f5da35c",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies Sentinel-2 attribution and identifies Hansen; the claim that Hansen data is typically Landsat-based is not stated in the supplied evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.002826
+}

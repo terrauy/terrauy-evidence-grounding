@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D09_A_r2.json",
+ "prompt_sha256": "c472573b086282207dfe365f0a9e466249bd793c9eec115e0305131ec6470b3c",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer concludes 'the asset was not affected by fire', which turns a non-detection into proof of no fire. It gives no caveat about small, cool or obscured fires or about burned area."
+ },
+ "raw": null,
+ "cost_usd": 0.007208
+}

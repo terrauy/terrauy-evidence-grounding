@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H06_B_r2.json",
+ "prompt_sha256": "b17355e03d8cecfe64507c2d10917d7a14d7fcacd8a80e9142dbf0b0132cea2a",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly denies that the evidence shows regional loss and confines its observations to the asset and relevant periods."
+ },
+ "raw": null,
+ "cost_usd": 0.002649
+}

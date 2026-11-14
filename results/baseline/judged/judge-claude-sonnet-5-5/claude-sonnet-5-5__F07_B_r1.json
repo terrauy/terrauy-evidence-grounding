@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F07_B_r1.json",
+ "prompt_sha256": "73086cc6a5aeeea08c10f5395f0e18b5761cf252d22831e68b05e5c472e33f71",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no dataset shows 2020 forest, cites JRC with 0 ha, and gives Hansen 2000 cover and loss events correctly. It notes that loss figures exceed 2000 cover and that no regulatory conclusion follows."
+ },
+ "raw": null,
+ "cost_usd": 0.00861
+}

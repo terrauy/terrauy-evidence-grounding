@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K04_C_r2.json",
+ "prompt_sha256": "c7762babcac0eaee977432edcc1b04e3354cb95d00dd3f44496d1dd0b5ef6446",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports no detected event, but overstates that observations confirm no significant change and that every event below 0.5 ha would be missed."
+ },
+ "raw": null,
+ "cost_usd": 0.002259
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G06_B_r2.json",
+ "prompt_sha256": "4a02491cf60aa7d17bcda8f973b69c60176a71969d11a0225ac1f7e72926a189",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer declines, stating the evidence covers only 2026-10-04 to 2026-11-03 and says nothing about prior days; correctly restates zero detections for the covered window with caveats. No unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.007708
+}

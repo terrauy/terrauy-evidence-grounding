@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E06_A_r2.json",
+ "prompt_sha256": "c2c36b894095b1d8a1971b8a96eb4d4ced31dad1b3c68a7ed36b6e7a1ffcae6f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It asserts the property was fire-free during covered days, despite nondetection not proving absence, and implies monitoring throughout an incompletely covered period."
+ },
+ "raw": null,
+ "cost_usd": 0.003027
+}

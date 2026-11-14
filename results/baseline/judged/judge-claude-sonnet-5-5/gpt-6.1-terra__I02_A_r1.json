@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/I02_A_r1.json",
+ "prompt_sha256": "45d8e7511221ed1709d89b7d4df534614ebcd5575b275afb756a3379fb0f1d1c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": false,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answers 'Yes' to loss, ignoring the JRC contradiction. It falsely claims JRC classified the area as forest in 2020, when the evidence shows non-forest (0.0 agreement). It does not use the current v2 contradicted status."
+ },
+ "raw": null,
+ "cost_usd": 0.012578
+}

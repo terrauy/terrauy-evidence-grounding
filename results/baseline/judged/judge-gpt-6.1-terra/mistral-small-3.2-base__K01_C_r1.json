@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K01_C_r1.json",
+ "prompt_sha256": "c976d288cd4510b6447025f4dc5f5e2dc0856d301394c8e21d040d71931eca19",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports the loss, but asserts it occurred entirely within a pine plantation; 13.2 ha lay outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.00268
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C01_A_r0.json",
+ "prompt_sha256": "73953ed0052b7692265985eaecc07379033fc6b896f7f2852c8e5989365ecea1",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer says loss was 'likely legal', a legality conclusion the evidence does not support, and adds claims about Uruguayan forest law not in the facts. It mentions 'clearing' and 'harvesting' only as hedged possibilities. No real evidence limits are stated."
+ },
+ "raw": null,
+ "cost_usd": 0.009128
+}

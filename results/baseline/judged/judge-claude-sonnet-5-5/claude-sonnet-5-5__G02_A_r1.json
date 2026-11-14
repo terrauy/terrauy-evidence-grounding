@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G02_A_r1.json",
+ "prompt_sha256": "a3d299840212682e5b1adc24a1d6200677ed3efb9123a89c38a8b49bc665aafe",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says the 67.7 ha loss was in 2020, before the cut-off, with only 0.4 ha of sub-threshold loss afterwards. The 98.8 ha sum and the inconsistency are derivable from the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.011338
+}

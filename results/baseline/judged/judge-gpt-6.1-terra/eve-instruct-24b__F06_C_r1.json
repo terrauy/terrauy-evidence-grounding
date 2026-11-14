@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F06_C_r1.json",
+ "prompt_sha256": "90ddc71cfeb150a1d92e571de6398ce0ebba3a2b5dcc47013c74c954b5ebaf68",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The sensors and coverage are correctly listed, and no detections are reported, but the required NASA FIRMS source is omitted."
+ },
+ "raw": null,
+ "cost_usd": 0.00233
+}

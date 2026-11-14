@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D10_A_r2.json",
+ "prompt_sha256": "4d690bb6cb47aef30cee9b640778dd9fd71e7a2a029734e9d10ab2f33ea52f1d",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says no post-2020 result exists, though the evidence has a NOT_DETECTED assessment; it abstains, but correctly notes non-detection is not confirmed absence. It makes no forbidden claims."
+ },
+ "raw": null,
+ "cost_usd": 0.01181
+}

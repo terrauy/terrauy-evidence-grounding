@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B05_B_r0.json",
+ "prompt_sha256": "8a6bf5f45a75afd89629d706b9de8c94a85bbf0a55117501fe29812956280879",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer restates the 25.5 ha 2015 loss and its pre-baseline timing, but never says the cause is not established. It calls the event 'corroborated', which the facts do not support, since the event status is only SUPPORTED. It names no cause."
+ },
+ "raw": null,
+ "cost_usd": 0.00897
+}

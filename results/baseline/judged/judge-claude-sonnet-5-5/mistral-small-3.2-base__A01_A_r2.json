@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/A01_A_r2.json",
+ "prompt_sha256": "39a71746c924a332f4e553878c5bb9f492fad378652208611de12c07c68a02ee",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 'Yes, deforestation' though evidence only shows tree-cover loss in planted forest; it does not establish deforestation. Numbers are correct. It mentions the sub-0.5 ha patches not counted as an event, but no real limitation on what the evidence cannot establish."
+ },
+ "raw": null,
+ "cost_usd": 0.009574
+}

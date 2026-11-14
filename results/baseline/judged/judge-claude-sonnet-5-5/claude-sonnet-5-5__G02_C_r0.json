@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G02_C_r0.json",
+ "prompt_sha256": "7506b3bd62fd234bb06c9822f9255ace25d98ccf46e3d9bc70783bbec55bdd02",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, places 67.7 ha in 2020 before the baseline, reports no events of 0.5 ha or more in 2021\u20132025, and states limits. All figures match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008292
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D06_C_r0.json",
+ "prompt_sha256": "ab0da7f54a45391163cd093e2d81a5d1d790000008fe49cb464333cb3fcfc3fa",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports no detections with full coverage and explains that this does not establish absence of fire or burned area."
+ },
+ "raw": null,
+ "cost_usd": 0.002302
+}

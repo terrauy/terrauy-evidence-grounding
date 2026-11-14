@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K02_C_r1.json",
+ "prompt_sha256": "5919f7283704b604171589fc207dbca7f7ffc8163adde389a6ac468d38b05b4a",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms a 13.5 ha candidate in 2025, pending corroboration, and notes it is not confirmed as persistent or as deforestation. This matches the key; the sources named (Hansen, JRC) are in the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.007486
+}

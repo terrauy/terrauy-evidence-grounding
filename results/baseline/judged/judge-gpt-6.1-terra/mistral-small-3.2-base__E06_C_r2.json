@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E06_C_r2.json",
+ "prompt_sha256": "d69e446a376d7b6047d2cdb162fc6fe3e0bb4c64072502b6f1ed1d3a261939d1",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no detections, identifies the coverage gap and missed-fire limitations, and does not conclude the property was fire-free."
+ },
+ "raw": null,
+ "cost_usd": 0.003006
+}

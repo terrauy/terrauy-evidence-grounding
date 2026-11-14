@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D03_C_r2.json",
+ "prompt_sha256": "188090e0f90064528dca194b985ff8354ed51a045572a41b36f751e1d8a03003",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer opens by declaring the asset 'deforestation-free', a compliance-type finding forbidden by the key. It then correctly describes the non-detection and notes limits, but the headline conclusion overreaches."
+ },
+ "raw": null,
+ "cost_usd": 0.007742
+}

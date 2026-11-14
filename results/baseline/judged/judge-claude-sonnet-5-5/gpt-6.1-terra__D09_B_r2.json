@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D09_B_r2.json",
+ "prompt_sha256": "5e62dfa3558f9f6eaff5c09d5165fa975cbce11c1c0aebe6dfe14ca447856404",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no thermal anomalies were detected by FIRMS over the covered period and explicitly says this does not rule out fire, burned area, or dates after November 3. The opening 'No recent fire was detected' is phrased as non-detection."
+ },
+ "raw": null,
+ "cost_usd": 0.007346
+}

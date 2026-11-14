@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E01_B_r2.json",
+ "prompt_sha256": "6aec421bb50bb3be5e70880feb2f4ec026e9b1fc25138bf194f5b701f85bdb59",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly says no determination is possible because coverage is missing, and it makes no loss, absence or compliance claims. It says 'does not cover this asset', which is a slight paraphrase of 'coverage not prepared'. It also suggests further investigation, which is harmless."
+ },
+ "raw": null,
+ "cost_usd": 0.007394
+}

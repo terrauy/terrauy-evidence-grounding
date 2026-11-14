@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H02_A_r2.json",
+ "prompt_sha256": "8649e25cc1b93fdf71a1649d704e21ded7c79b8adb43eabc5f9bc8d6c7d58c95",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer denies that all loss was inside the plantation, giving 68.1 ha planted and 13.2 ha outside mapped forest. The 16% figure (13.2/81.3 \u2248 16.2%) is correctly derived. It states no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.008226
+}

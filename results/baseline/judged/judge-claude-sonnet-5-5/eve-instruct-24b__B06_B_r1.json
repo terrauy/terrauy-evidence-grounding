@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B06_B_r1.json",
+ "prompt_sha256": "aee0fa4d0fffa4c423d2fb3c993ccea59923d199273268ff21fab631d74cc75c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says the loss was 'likely a Eucalyptus harvest', asserting a cause the evidence does not establish. It also claims the evidence 'confirms' a plantation loss, although only 0.4 of 0.7 ha was mapped as planted. Legality is correctly left open."
+ },
+ "raw": null,
+ "cost_usd": 0.00933
+}

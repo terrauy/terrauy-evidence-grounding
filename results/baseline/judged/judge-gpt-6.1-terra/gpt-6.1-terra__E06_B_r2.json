@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E06_B_r2.json",
+ "prompt_sha256": "fdeff07b23a0b0005e2729bb116a5837726e9ae0b1f513658b58739320e80980",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports no detections, the coverage gap, and the limitations of thermal detection without asserting that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.003007
+}

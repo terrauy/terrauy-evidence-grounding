@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G04_A_r0.json",
+ "prompt_sha256": "3e118accd483937b3168b2890ac4c94bab77636f48b044f5f06c0edbc8dde2a8",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer says 'no further loss events are reported' and concludes clearing is unlikely today, extrapolating beyond 2025 evidence. It also frames the 2021 event as 'forest' loss, not noting that clearing isn't established, and states no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.00874
+}

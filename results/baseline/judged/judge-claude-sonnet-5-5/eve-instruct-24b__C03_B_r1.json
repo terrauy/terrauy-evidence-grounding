@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C03_B_r1.json",
+ "prompt_sha256": "1032fdeccaab3c4e70533482e60686de6eadff4c38f5f20ac2711225b2d4d3ac",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says the loss appears to violate protection rules and is an unauthorized violation, though legality is not established. It claims three maps match, which is wrong (Hansen, JRC, MGAP differ in role), and asserts native forest is legally protected, which is unsupported. It notes the cause is unconfirmed."
+ },
+ "raw": null,
+ "cost_usd": 0.00916
+}

@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K07_C_r1.json",
+ "prompt_sha256": "a18880ee4546e1cde9a11d75faed29246578769f68320867835d2899e52cbd05",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says No, the method could not evaluate the property because source coverage was not prepared and no observation was made. It states that this does not establish tree-cover loss or compliance. This matches the key and the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.00594
+}

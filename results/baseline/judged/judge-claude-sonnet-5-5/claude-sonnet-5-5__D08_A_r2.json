@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D08_A_r2.json",
+ "prompt_sha256": "304eac7465d113fbbce5d1b1563d98f1ac2884f5c2fdfb9932c6a562d73657a2",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer opens with 'No, the evidence shows no deforestation', which states absence rather than non-detection. It does note the 0.5 ha threshold and the sub-threshold 0.4 ha patches, but never says that non-detection is not proof of absence."
+ },
+ "raw": null,
+ "cost_usd": 0.008782
+}

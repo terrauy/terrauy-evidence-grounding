@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E05_A_r0.json",
+ "prompt_sha256": "dca1350fde799f87219b66480217fc5495199d3be7cbda2666c279a3463d913d",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It asserts no detections for the full period despite the S-NPP coverage gap and insufficient-evidence status, although it acknowledges the gap."
+ },
+ "raw": null,
+ "cost_usd": 0.00256
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D07_B_r0.json",
+ "prompt_sha256": "5f62dae75985684822b1ed23d0b49374790abbe26c315aab6dddb197ddd72291",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports no FIRMS detections with full sensor coverage and explicitly says this cannot certify no fire occurred; consistent with the key and does not claim no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.007098
+}

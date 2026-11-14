@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G08_A_r1.json",
+ "prompt_sha256": "a78d85d3622d05d9c2c55bdd6e1ccd50faa5c16e40ad75eae80697d69c5d55ee",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer denies an increasing trend and accurately reports the annual event and small-patch areas; its overall decrease comparison is supported."
+ },
+ "raw": null,
+ "cost_usd": 0.00357
+}

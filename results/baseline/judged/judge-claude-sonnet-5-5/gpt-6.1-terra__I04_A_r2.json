@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/I04_A_r2.json",
+ "prompt_sha256": "42ae7562e7978e3fc2831ae7acde214ac77bb941665ecb08997e50f6a172bca9",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, v1 only covered through 2024, current detects 13.5 ha in 2025. It does not state the loss is confirmed or that deforestation occurred. It does not mention the pending status, but it notes limits on timing and 2026."
+ },
+ "raw": null,
+ "cost_usd": 0.01094
+}

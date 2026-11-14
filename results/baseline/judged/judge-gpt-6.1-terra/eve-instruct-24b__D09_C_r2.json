@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D09_C_r2.json",
+ "prompt_sha256": "35e89f7db2a26ab282032a3a535b1e9789b651787b0775800f076f6536f12a25",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no indication and no thermal detections within the specified period, while acknowledging that some fires may go undetected."
+ },
+ "raw": null,
+ "cost_usd": 0.002346
+}

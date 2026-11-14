@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G01_C_r2.json",
+ "prompt_sha256": "dae418b4f1bf675abaaa09d5b129fd4b89c688b6003d5e24ecd1e44a7bd9d269",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The final sentence asserts no tree-cover loss, exceeding the non-detection finding and contradicting the reported small loss patches."
+ },
+ "raw": null,
+ "cost_usd": 0.00281
+}

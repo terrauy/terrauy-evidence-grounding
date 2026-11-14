@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K05_A_r2.json",
+ "prompt_sha256": "e80ebd635a6d4693118bb32e0a7661f7550e68f2268c166804b556d54a3b6486",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies the largest event, but asserts that the 2020 JRC reference cannot corroborate previously lost tree cover, which is not established by the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.002809
+}

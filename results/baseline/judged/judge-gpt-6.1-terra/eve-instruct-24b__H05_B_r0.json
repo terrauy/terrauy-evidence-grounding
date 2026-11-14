@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H05_B_r0.json",
+ "prompt_sha256": "399a6d15b53b702223cecaecdb27d9d2c911d23870c52a8201e171845804b838",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The initial yes asserts clearing despite the cause caveat. The 0.7 ha event was not mostly small patches; those were separately excluded."
+ },
+ "raw": null,
+ "cost_usd": 0.002839
+}

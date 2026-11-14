@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B07_A_r2.json",
+ "prompt_sha256": "ea1ebcc429b202d6591098e4a94170dad3229b8b3e30a0d30fef11f64ebdda5d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer denies storm cause and asserts harvest/land-clearing and intentional clearing, though evidence establishes no cause. It also misreads sub-threshold patches as indicating intent. It states no limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.00899
+}

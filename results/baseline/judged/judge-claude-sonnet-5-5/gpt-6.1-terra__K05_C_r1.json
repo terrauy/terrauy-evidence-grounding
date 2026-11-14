@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K05_C_r1.json",
+ "prompt_sha256": "20f44ef16a45220c0218d702046abc5f5a4511fcd8f25f93cc20cb28d859fb4b",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer gives 67.7 ha in 2020, matching the key. The statement that no event of 0.5 ha or more was detected in 2021-2025 is supported, and it mentions the 0.5 ha threshold. The answer does not say 2020 falls before the baseline."
+ },
+ "raw": null,
+ "cost_usd": 0.007836
+}

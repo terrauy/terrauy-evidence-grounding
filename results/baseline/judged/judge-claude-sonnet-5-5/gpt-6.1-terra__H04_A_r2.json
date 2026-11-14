@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H04_A_r2.json",
+ "prompt_sha256": "9c9f14be8882fe1eb1d49d8a9015490193396a6e5260878b36144dd75eef7938",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 0.5 ha native of 0.6 ha loss; 2.8% is of the property (0.5/17.6), derivable, not a native-forest share. Notes sub-threshold patches as a limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.025904
+}

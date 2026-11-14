@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G03_B_r1.json",
+ "prompt_sha256": "6f5835af48adf22d803ed8e26eb1cb95e49ffbadc6f0e32b6947dc96272b84cc",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no corroborated loss in 2024\u20132025, correctly lists earlier events, and notes the event-size threshold and other evidence limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.003761
+}

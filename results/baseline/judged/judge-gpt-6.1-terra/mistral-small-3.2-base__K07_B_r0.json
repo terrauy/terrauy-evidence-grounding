@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K07_B_r0.json",
+ "prompt_sha256": "dc97d3ccae2bab53969408544d8553fd148e576d05a0d4c9c03ec4e973197dc9",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly says the property was not evaluated, but incorrectly describes Hansen GFC, JRC GFC2020, and MGAP 2021 as available sources."
+ },
+ "raw": null,
+ "cost_usd": 0.001953
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F05_B_r0.json",
+ "prompt_sha256": "e84baa766cd772d19b96f49d0858aa154a7291f5937fe4036ccd238f7a1edccf",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, the loss was mapped by Hansen/UMD GFC and Sentinel-2 is not among the sources. Figures match the reference facts, and it lists what the evidence does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.008378
+}

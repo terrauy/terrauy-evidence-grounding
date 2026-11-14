@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H04_C_r0.json",
+ "prompt_sha256": "53597c79503e807b110c7a90eee2a62c494d94cd900f4fa9e39ea513a15f82be",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Gives 0.5 ha native loss within 0.6 ha event, matching the key; no share of total native forest stated. The 3.41% is slightly misattached to the 0.5 ha figure, and no limitations are stated."
+ },
+ "raw": null,
+ "cost_usd": 0.012262
+}

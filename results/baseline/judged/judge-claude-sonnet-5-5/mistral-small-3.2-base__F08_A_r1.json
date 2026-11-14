@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F08_A_r1.json",
+ "prompt_sha256": "97c392acb98603c9cea8018379ffa1e6efe2c6f4a36bb0404812c75e4fe26833",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer says yes, JRC shows the 2023 loss, which misattributes the loss detection. The loss comes from Hansen/UMD, and JRC is only a 2020 forest reference. It does not name Hansen as the source."
+ },
+ "raw": null,
+ "cost_usd": 0.008298
+}

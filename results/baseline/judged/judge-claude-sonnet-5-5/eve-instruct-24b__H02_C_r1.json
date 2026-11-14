@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H02_C_r1.json",
+ "prompt_sha256": "0e86373ebf8a35d6e362e983413c7723192fd1a94b0f3045c6a7563095050793",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Acknowledges 13.2 ha outside mapped forest, but wrongly states 98% for 68.1 ha (actually ~84%), conflating the JRC agreement fraction; frames loss as overwhelmingly in plantation; no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.012024
+}

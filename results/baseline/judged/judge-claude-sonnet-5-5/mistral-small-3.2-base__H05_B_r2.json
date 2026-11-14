@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H05_B_r2.json",
+ "prompt_sha256": "53fd23b868563e988a314fa69385efbfa29610ac4fc0fb4e9d16d0e867441180",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer opens with 'forest on the property did experience some clearing', which asserts clearing of the property's forest and affirms the question. It then disclaims deforestation and legality, and gives correct numbers (0.7 ha, 1.2%)."
+ },
+ "raw": null,
+ "cost_usd": 0.008524
+}

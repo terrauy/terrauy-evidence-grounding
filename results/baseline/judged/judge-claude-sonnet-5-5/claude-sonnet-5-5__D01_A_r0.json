@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D01_A_r0.json",
+ "prompt_sha256": "f9b714ea593ef91e7ba8d6378f8b6349075783c57780107866c4c8e57a8c81c1",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer claims the evidence lacks 2021-2025 loss observations, but the evidence supports a NOT_DETECTED status. It abstains instead of reporting non-detection, which contradicts the key. It does not make any forbidden claims."
+ },
+ "raw": null,
+ "cost_usd": 0.00824
+}

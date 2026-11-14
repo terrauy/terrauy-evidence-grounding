@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E05_A_r1.json",
+ "prompt_sha256": "065bf3d75124f5f55f7fae7de3b383b25e19f311ccb861f7dd8594fb97f791fa",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It confirms no detections for the full period despite the S-NPP coverage gap and the assessment\u2019s insufficient-evidence status."
+ },
+ "raw": null,
+ "cost_usd": 0.002572
+}

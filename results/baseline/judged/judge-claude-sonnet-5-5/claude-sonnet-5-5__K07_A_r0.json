@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K07_A_r0.json",
+ "prompt_sha256": "e8f907be63f40d8aa17916e316c70c9fa3e9eb1b15c2f28aace55b68f862953d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says not evaluated due to missing coverage, but invents a zonal statistics error, 'run-1' identifier, and missing asset area detail not in the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008516
+}

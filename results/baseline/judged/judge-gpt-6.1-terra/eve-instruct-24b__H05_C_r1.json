@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H05_C_r1.json",
+ "prompt_sha256": "18b175fb8b7483b973924e276a979ed232eed339b0edc8c8a16df3b771f2d125",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It asserts partial clearing and an unsupported deforestation-threshold conclusion; tree-cover loss does not establish clearing or its cause."
+ },
+ "raw": null,
+ "cost_usd": 0.002829
+}

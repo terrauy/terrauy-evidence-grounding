@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/B01_A_r0.json",
+ "prompt_sha256": "365b0356779d31988341d5a29df0b002bfc31ed2016a4726ab8a4ae6521d627d",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer says loss was likely caused by timber harvest, a cause the evidence does not establish. It also claims 'entirely planted forest' (68.1 of 81.3 ha) and that later years showed no loss, which is invented."
+ },
+ "raw": null,
+ "cost_usd": 0.009126
+}

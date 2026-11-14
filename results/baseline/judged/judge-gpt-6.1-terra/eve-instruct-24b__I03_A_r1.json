@@ -1,0 +1,34 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I03_A_r1.json",
+ "prompt_sha256": "f37edfb902d114f7ad305a5ec6cfab7171825db80f1d19aa28b842fa8a940ba3",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The 2025 candidate is correctly identified, but corroboration is asserted despite the missing later year. The no-loss claim improperly includes 2020 and omits detection limits."
+ },
+ "raw": null,
+ "cost_usd": 0.003721
+}

@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/B03_B_r1.json",
+ "prompt_sha256": "56f105a41afd536cf623e56b3dde13ac50d8ffb13bc080549b11eb48f5c51007",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the cause is not established and restates the evidence correctly (0.6 ha, 3.4%, 0.5 ha native forest). It lists the cause, deforestation, legality and actor claims as not established. The suggested extra evidence is reasonable advice, not an assertion."
+ },
+ "raw": null,
+ "cost_usd": 0.009402
+}

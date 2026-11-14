@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H01_C_r2.json",
+ "prompt_sha256": "3a482a47216dfcfe615192b0794466cd6aa1d6557b206790fb3dec64191c8e05",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Denies whole-property clearing, cites 81.3 ha = 2.23% correctly, calls it tree-cover loss, not deforestation. Does not state limits on what the evidence does not establish. \"Majority remained covered\" is a mild inference."
+ },
+ "raw": null,
+ "cost_usd": 0.008468
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E06_B_r2.json",
+ "prompt_sha256": "9f579f7bd1fa532d0cce737757a13c800f159ba7bce76cc9b93ba047bae7c1c5",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports no detections and notes the Nov 3-4 gap and detection limits, but concludes the property 'stayed free of fires' in covered period (hedged) without explicitly saying the full period cannot be concluded."
+ },
+ "raw": null,
+ "cost_usd": 0.009148
+}

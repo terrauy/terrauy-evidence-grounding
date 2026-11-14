@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K04_A_r1.json",
+ "prompt_sha256": "52a4c3aad37d7a030a50027e5e5225069f9eb9acb4d227e48770a4113c1dc530",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer says no tree-cover loss indication after 2020, through 2025, consistent with NOT_DETECTED. It does not mention the 0.5 ha threshold, 30 m resolution, or other limits."
+ },
+ "raw": null,
+ "cost_usd": 0.006862
+}

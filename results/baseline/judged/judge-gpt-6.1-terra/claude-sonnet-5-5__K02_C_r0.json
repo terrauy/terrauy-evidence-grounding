@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K02_C_r0.json",
+ "prompt_sha256": "b8e9d1b36f0d03241957ac6b5b725813f3530788719a953815521830611f8d74",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies the pending 2025 candidate, but overstates 98% JRC agreement as establishing that the entire event area was forest at baseline."
+ },
+ "raw": null,
+ "cost_usd": 0.002548
+}

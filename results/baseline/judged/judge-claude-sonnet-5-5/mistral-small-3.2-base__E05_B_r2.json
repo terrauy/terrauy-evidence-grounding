@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E05_B_r2.json",
+ "prompt_sha256": "b01d5964351df8fdd18c93cace1163f5021f93b11b3004f2b96f7e6073d09fed",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer declines to confirm, cites the Nov 2-6 gap (VIIRS_SNPP, FIRMS API unavailability), notes no detections on other days. Does not claim that no fire occurred. It omits the 'no detection is not proof of no fire' caveat, but nothing is contradicted."
+ },
+ "raw": null,
+ "cost_usd": 0.008172
+}

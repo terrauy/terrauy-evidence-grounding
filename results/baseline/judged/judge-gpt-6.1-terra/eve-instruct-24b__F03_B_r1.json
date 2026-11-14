@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F03_B_r1.json",
+ "prompt_sha256": "18d4e58ad0e3fc60f512e391b71c81e896cd0c02949b02d9eddc173f5bf5cbbd",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer incorrectly presents MGAP as corroborating loss; it provides forest-type context. JRC agreement and reported figures are correct."
+ },
+ "raw": null,
+ "cost_usd": 0.002798
+}

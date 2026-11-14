@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E06_A_r1.json",
+ "prompt_sha256": "921e014e4b7cd697aeedbaf63329e429d602f1d3c4d6efe73227ffcab9eb9abd",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms the property stayed free of fires for the full period despite the Nov 3-4 coverage gap, and ignores that no detection is not proof of no fire. It mentions the gap but still concludes definitively."
+ },
+ "raw": null,
+ "cost_usd": 0.009034
+}

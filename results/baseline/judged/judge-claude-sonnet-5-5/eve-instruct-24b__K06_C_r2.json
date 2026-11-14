@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K06_C_r2.json",
+ "prompt_sha256": "7682b044fd75b89421afca09edfa2ed8d0036fc0821842f41188ec7184f1d19a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms corroboration with correct facts (0.6 ha, JRC 2020, later year observed). However, it adds unsupported claims: that the 2025 observation 'confirmed the change persisted' and that 'multiple sources' supported the loss. It does mention the <0.5 ha exclusion."
+ },
+ "raw": null,
+ "cost_usd": 0.008252
+}

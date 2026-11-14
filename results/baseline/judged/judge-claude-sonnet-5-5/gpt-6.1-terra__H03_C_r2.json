@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H03_C_r2.json",
+ "prompt_sha256": "b425d8d6eda6852c91f8a88933554fa5bf14806ff430d868334df17b5acb80a3",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports a 13.5 ha candidate loss in 2025 (13.1 ha native), says it is pending corroboration, and denies that it establishes deforestation or a cause. It never claims the whole forest was lost."
+ },
+ "raw": null,
+ "cost_usd": 0.00846
+}

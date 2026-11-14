@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F05_A_r1.json",
+ "prompt_sha256": "58c48a712eab34f107dd54c68ae9ac72e4126480a5b81109150ac4b3f8106838",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer denies Sentinel-2 as source, correctly attributes 0.6 ha loss to Hansen GFC, and describes JRC/MGAP as context. It states no limitations of the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.008024
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H02_C_r0.json",
+ "prompt_sha256": "1425805736a0317b499809720488f9476cbfc870fb949bf3070a87b8b3579814",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly denies that all loss was inside the plantation, gives the supported breakdown, and notes relevant mapping limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002702
+}

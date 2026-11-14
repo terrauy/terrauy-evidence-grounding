@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G08_A_r2.json",
+ "prompt_sha256": "a39e9453ac964c776fa22e892fe8d05d006aeb07ae0057de29ec445ee9cf8390",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer denies a sustained increase and reports the event figures correctly, while noting the patch-size threshold and uncertainty about recent years."
+ },
+ "raw": null,
+ "cost_usd": 0.003552
+}

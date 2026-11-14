@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F02_A_r2.json",
+ "prompt_sha256": "f1215d2e7882062e326c851d28278add98ec28624e3e7b42b7a33336711d64bf",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes the plantation classification to MGAP, quantifies its coverage, and notes that Hansen and JRC do not identify forest type."
+ },
+ "raw": null,
+ "cost_usd": 0.002814
+}

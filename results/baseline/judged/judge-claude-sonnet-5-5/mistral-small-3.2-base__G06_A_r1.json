@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G06_A_r1.json",
+ "prompt_sha256": "b20c20ed7637cf335d773f9772afacbc8f314d695fbc98e2d809ada61f91fd95",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer claims no fires in the two weeks before the evidence period (which starts 2026-10-04), and says detection is guaranteed. Both go beyond the evidence and contradict its stated limits."
+ },
+ "raw": null,
+ "cost_usd": 0.007306
+}

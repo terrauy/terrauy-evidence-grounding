@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J01_C_r2.json",
+ "prompt_sha256": "89f62d0166a4eb8d07f03fcbe97e25e02612f6d03c13473e024df596974a99b2",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says contradicted, with 1.8 ha Hansen and JRC disagreement. But it adds unsupported interpretations: the change 'likely not permanent', and JRC 'shows no forest loss' (it shows non-forest). The harvest remark is only hedged."
+ },
+ "raw": null,
+ "cost_usd": 0.009246
+}

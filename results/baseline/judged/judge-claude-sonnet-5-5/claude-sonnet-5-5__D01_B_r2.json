@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D01_B_r2.json",
+ "prompt_sha256": "434b29d7fc2b687f00aa4592c5ba29a589a736b9b34264d1acad350d5c495983",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports non-detection of loss of 0.5 ha or more for 2021\u20132025. It explicitly says this does not prove no change and is not a compliance finding. Figures match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.007924
+}

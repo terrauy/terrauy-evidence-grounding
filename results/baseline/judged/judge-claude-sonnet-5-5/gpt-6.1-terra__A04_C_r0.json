@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/A04_C_r0.json",
+ "prompt_sha256": "c4f822ecec31df7cc30c0640d97f17a5c45b6c9bc2e233e81ffe8dd2cd465a8c",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says deforestation cannot be confirmed, reports 0.7 ha loss in 2023 with the correct context figures, and notes that the cause is unknown. It asserts no cause, legality, actor, or compliance finding."
+ },
+ "raw": null,
+ "cost_usd": 0.009288
+}

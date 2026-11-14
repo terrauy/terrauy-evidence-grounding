@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H02_C_r0.json",
+ "prompt_sha256": "4c8cd2405f4c9ce002ec46d1d178fbae477721a1edf3c581b47b6acbb403343c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts all loss was inside the plantation, contradicting its own supported figure of 13.2 ha outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002707
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D07_C_r2.json",
+ "prompt_sha256": "f30e48d926ab6696448059daddcae1b8b2bf9c73a5e91d528771751b5214c7d9",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no detections and that this is not proof of no fire, matching the key. It adds an unsupported qualifier ('no significant thermal anomalies') and recommends higher-resolution data. It does not mention full sensor coverage."
+ },
+ "raw": null,
+ "cost_usd": 0.007496
+}

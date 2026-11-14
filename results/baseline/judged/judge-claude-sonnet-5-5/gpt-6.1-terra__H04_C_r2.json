@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H04_C_r2.json",
+ "prompt_sha256": "43f3d0c8783752ac9e97b98f64f4aab9c6dcbfc6b1149d6d7096a870309fa77b",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 0.5 ha native overlap, 0.6 ha loss, 3.41%, matching the evidence. It does not state a share of total native forest. It notes that cause and land-use change are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.008132
+}

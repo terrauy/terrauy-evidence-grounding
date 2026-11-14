@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D09_A_r1.json",
+ "prompt_sha256": "e40829b7568b2af4efafb8e4aeb156f807f4944e8d8fc0a29099febc07942856",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports the non-detection and its limits, but asserts the analysis ran on 12 November; the evidence only gives a knowledge-at date."
+ },
+ "raw": null,
+ "cost_usd": 0.00248
+}

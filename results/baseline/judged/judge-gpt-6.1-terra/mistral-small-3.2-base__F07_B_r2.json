@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F07_B_r2.json",
+ "prompt_sha256": "4c3da7d80cad9a28ebd462603862fb74349ad90b0cafac72c5c4cc566dc160ff",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly identifies JRC\u2019s 0 ha result and denies that a dataset shows forest in 2020."
+ },
+ "raw": null,
+ "cost_usd": 0.002675
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E06_B_r1.json",
+ "prompt_sha256": "a945e174b9dac6494035eb15946961ec1a604257e9019f2aff941e6282e81f5a",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no detections during covered days and correctly declines a fire-free conclusion because of coverage gaps and possible missed fires."
+ },
+ "raw": null,
+ "cost_usd": 0.003018
+}

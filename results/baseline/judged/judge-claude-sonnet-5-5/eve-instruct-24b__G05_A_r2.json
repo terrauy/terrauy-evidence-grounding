@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G05_A_r2.json",
+ "prompt_sha256": "f98e72c2f59a709152690315c0a92ab2a8caa0be9c430fc9f3855207dd80f62b",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says loss is 'confirmed but not persistent' and claims it meets the corroboration rule, contradicting PENDING status (rule needs a later year). It does not assert persistence, but 'confirmed' conflicts with the key, and 'not persistent' is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.008166
+}

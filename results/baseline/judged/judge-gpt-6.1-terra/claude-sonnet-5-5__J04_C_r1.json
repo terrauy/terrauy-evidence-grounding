@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J04_C_r1.json",
+ "prompt_sha256": "e175c4bedd8d402d1a2be5e3ae02729d2822c97d4fc779e5eb1f3c5b40cacde2",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Supported events and historical contradictions are correctly scoped. However, saying smaller patches were not assessed is unsupported; their areas were reported."
+ },
+ "raw": null,
+ "cost_usd": 0.003735
+}

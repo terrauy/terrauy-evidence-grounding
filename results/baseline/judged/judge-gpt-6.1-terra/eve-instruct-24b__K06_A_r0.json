@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K06_A_r0.json",
+ "prompt_sha256": "a3828f084f9aa1e1854f015d0137494369c86f60dbef79ea2c5d9cb20205c286",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Correctly affirms corroboration, but incorrectly identifies 2022 as a later observed year and implies the entire event area was mapped as native forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002645
+}

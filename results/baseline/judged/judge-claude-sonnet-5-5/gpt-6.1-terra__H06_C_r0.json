@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H06_C_r0.json",
+ "prompt_sha256": "ea3b81065ea561095ad1554109152f1e586ca2c09e5300e09c686fbe31cdf5e0",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers 'No', restricts evidence to the asset boundary, explicitly declines regional conclusions; facts (0.4 ha sub-threshold in 2021, pre-baseline events) match the reference."
+ },
+ "raw": null,
+ "cost_usd": 0.007938
+}

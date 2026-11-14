@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/C01_A_r1.json",
+ "prompt_sha256": "e0e8dce8069a9d30770c2fe4e3262e9926c59832e6068592ead63adda8d241a5",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer concludes loss was likely lawful, citing Uruguayan law not in evidence, and asserts planted forest was 'removed' (harvest). Legality is not established; no limitation of evidence stated."
+ },
+ "raw": null,
+ "cost_usd": 0.008906
+}

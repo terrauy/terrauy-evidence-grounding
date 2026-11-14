@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K06_A_r1.json",
+ "prompt_sha256": "c3e95f3a53f3cc79e38f4881994f06b852e2c36d070571ac5a942e1cd7826fd6",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "JRC agreement is correctly attributed, but MGAP mapped 0.1 ha outside forest, and spatial validity is established only for Hansen."
+ },
+ "raw": null,
+ "cost_usd": 0.00265
+}

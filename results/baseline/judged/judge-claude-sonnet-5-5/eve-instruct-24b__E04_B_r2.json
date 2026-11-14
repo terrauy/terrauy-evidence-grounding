@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/E04_B_r2.json",
+ "prompt_sha256": "cd41c88879b1c2a993f45fb2f588d3499108d4bd30ea7f30c115a4f7b8026104",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says no detections in covered days and notes small fires may be missed, but opens with 'No fires were detected' for the period and misstates the evaluated period as ending 10-24, calling the gap 'last two days' (it's one day, 10-24 to 10-25), and does not say the full period cannot be concluded."
+ },
+ "raw": null,
+ "cost_usd": 0.009216
+}

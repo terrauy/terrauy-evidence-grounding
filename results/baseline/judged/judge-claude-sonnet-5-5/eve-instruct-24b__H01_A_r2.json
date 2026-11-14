@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H01_A_r2.json",
+ "prompt_sha256": "f6285d35d4104d95b3a4d254fc23e65dab74870fdf3763e02740c9fd364de33d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly denies with 81.3 ha/2.23%, but describes the loss and small patches as 'cleared', implying clearing; only the sub-0.5 ha threshold is mentioned as a limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.013516
+}

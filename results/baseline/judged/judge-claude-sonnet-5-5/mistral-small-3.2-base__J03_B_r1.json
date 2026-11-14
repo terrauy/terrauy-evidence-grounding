@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J03_B_r1.json",
+ "prompt_sha256": "7164b00e2f8a5a49308637f74f442d49b56a62908118e6cea0864ed7dc4e9186",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says sources disagree: Hansen 1.4 ha vs JRC 0.49 agreement below the 0.5 threshold, so loss is not corroborated. Minor unit slip (0.5 ha vs 50% fraction)."
+ },
+ "raw": null,
+ "cost_usd": 0.011078
+}

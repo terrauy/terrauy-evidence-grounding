@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G05_A_r2.json",
+ "prompt_sha256": "f98e72c2f59a709152690315c0a92ab2a8caa0be9c430fc9f3855207dd80f62b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "It explicitly calls the loss confirmed and says it meets the corroboration rule, although a later observed year is required; persistence remains undetermined."
+ },
+ "raw": null,
+ "cost_usd": 0.002634
+}

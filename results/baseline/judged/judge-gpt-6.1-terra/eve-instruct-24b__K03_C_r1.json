@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K03_C_r1.json",
+ "prompt_sha256": "2a0be255a35477cfb2d1a9ae35c95e8de9bc248789205cd30ac35b2d3794dc7b",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports zero detections across the property and period, full sensor coverage, and the limitation that undetected fires remain possible."
+ },
+ "raw": null,
+ "cost_usd": 0.00216
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F02_C_r2.json",
+ "prompt_sha256": "17c69b0a955b4f10e21057194117c57763f5ea3e79c6c76bf782593a16b95eef",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly names MGAP 2021 as the source of the planted pine classification, with figures matching the facts (68.1 of 81.3 ha, about 84%); explicitly says Hansen and JRC do not identify plantations; notes limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.008654
+}

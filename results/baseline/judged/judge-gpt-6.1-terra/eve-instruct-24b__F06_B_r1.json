@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F06_B_r1.json",
+ "prompt_sha256": "325513074d47a517c35d1fc21c391361ca9541f598c8ed8f77fee4145a491e68",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly names the listed sensors and reports no detections, but omits FIRMS and asserts Terra and Aqua as checked platforms without support in the supplied evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.002386
+}

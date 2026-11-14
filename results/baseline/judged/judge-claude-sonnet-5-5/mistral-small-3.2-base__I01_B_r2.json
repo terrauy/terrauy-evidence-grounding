@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I01_B_r2.json",
+ "prompt_sha256": "c8341f055483f1f421e3f333bf333835bf6b0fe10e31b7433789031377f44ccc",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms confirmed 4.5 ha loss in 2023 using current evidence (corroborated, JRC agreement), notes cause, legality and responsibility not established; does not claim deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.012166
+}

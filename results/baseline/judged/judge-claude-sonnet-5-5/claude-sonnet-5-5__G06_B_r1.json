@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G06_B_r1.json",
+ "prompt_sha256": "b235d264e2a222eb7023307541e7f1f372a6e7198c04d49ebd7f78c225b752a4",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the pre-period cannot be assessed because the evidence covers only 2026-10-04 to 2026-11-03. It reports the in-period result accurately and notes non-detection does not prove no fire. It makes no claim about before the period."
+ },
+ "raw": null,
+ "cost_usd": 0.00781
+}

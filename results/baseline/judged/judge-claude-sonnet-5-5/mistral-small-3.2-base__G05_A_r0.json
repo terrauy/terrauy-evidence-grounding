@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G05_A_r0.json",
+ "prompt_sha256": "0fd8d7e64a4ebcca0d7e34a69b6cf15cc2e74a2006f19210eae7ff50ec1c4b8f",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer says the loss is 'confirmed' and 'corroborated' by JRC, but the status is PENDING_CORROBORATION, which needs a later year as well. It also calls the loss 'not persistent' and then says persistence can't be confirmed, which is inconsistent. It correctly notes that no later year is available."
+ },
+ "raw": null,
+ "cost_usd": 0.008248
+}

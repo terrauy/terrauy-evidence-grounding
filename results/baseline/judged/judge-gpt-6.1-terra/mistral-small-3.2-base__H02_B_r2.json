@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H02_B_r2.json",
+ "prompt_sha256": "eeb45490dea960f24aa240a2eede5d4daf2d7ba4ce7d44afe261f3d4646fe9ac",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer clearly implies not all loss was inside, correctly reporting 68.1 ha planted and 13.2 ha outside mapped forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002716
+}

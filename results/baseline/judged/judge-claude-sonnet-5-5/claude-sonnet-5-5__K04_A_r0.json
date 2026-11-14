@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K04_A_r0.json",
+ "prompt_sha256": "05fe9cdf25ab041927323317fe1b4bfb521e8515957bc752cb8cc5d194458fe1",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The evidence states NOT_DETECTED (no event \u22650.5 ha 2021-2025), but the answer says the output doesn't answer the question and abstains. It also speculates about a boundary mismatch, which is unsupported as an inference."
+ },
+ "raw": null,
+ "cost_usd": 0.007338
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/I06_A_r2.json",
+ "prompt_sha256": "050f72c2551748a3ba5dbb913a3be63283ae7b96b741d2b768fc2f7abfde5772",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers yes using current v2 with full coverage and no detections; correctly frames the earlier gap as the earlier run. Does not claim no fire occurred. The limitation noted is the earlier NRT gap, not an explicit caveat that no detection is not proof of no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.011628
+}

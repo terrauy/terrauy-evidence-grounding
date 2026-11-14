@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H05_A_r1.json",
+ "prompt_sha256": "94df7f5a55bc37aa12405eb596a263b9d08cd850e256c558253ee40d812a1a66",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The opening yes asserts forest clearing, although the evidence establishes only limited tree-cover loss. The figures and stated limitations are supported."
+ },
+ "raw": null,
+ "cost_usd": 0.002816
+}

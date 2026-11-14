@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D07_C_r0.json",
+ "prompt_sha256": "c681bda116d99388acc688320f783ab923b65f4ec4dac7b013a39e2b39cc26a7",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no certification possible, only non-detection with full sensor coverage; lists limits matching the key. It does not assert that no fire occurred. The added suggestion of burned-area mapping is reasonable and not a factual claim."
+ },
+ "raw": null,
+ "cost_usd": 0.007794
+}

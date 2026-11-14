@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G03_C_r2.json",
+ "prompt_sha256": "3fcd48cba674c6683bb46c791fc01a5185c6989c7ccb4fbe2ab8dde8a5eacf9f",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer categorically denies loss, although the evidence establishes only non-detection of events at or above the threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.003596
+}

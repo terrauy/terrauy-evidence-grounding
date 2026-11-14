@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G07_C_r2.json",
+ "prompt_sha256": "3825db6850437172262c1ded48cf13b53f0bd997e35b9842c395f44c8b6b0fa1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The 2024 sub-threshold loss is correctly reported, but the answer implies it was corroborated by multiple datasets; corroboration is established only for the 2023 event."
+ },
+ "raw": null,
+ "cost_usd": 0.002855
+}

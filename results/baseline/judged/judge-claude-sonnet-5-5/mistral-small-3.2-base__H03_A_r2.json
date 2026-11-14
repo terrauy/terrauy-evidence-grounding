@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H03_A_r2.json",
+ "prompt_sha256": "139747c41595765aa39d5daa1e788e9df67ee32d3314687e91f0ec795c4de68e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer affirms the native forest was lost, treating a pending 13.5 ha candidate as confirmed. It ignores the lack of corroboration and the 227 ha of forest, and it implies deforestation. Saying MGAP 'confirms' the loss is also unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.00862
+}

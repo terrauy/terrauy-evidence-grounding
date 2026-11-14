@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H04_C_r1.json",
+ "prompt_sha256": "df92a931798fafa47c36dc1a7dd0a0fdc1ec9e21d4492cdeedf3755371da2e6c",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 0.5 ha native of 0.6 ha loss, 3% of asset; correct. But claims property had no planted forest, though evidence covers only the event area. Cause limitation noted."
+ },
+ "raw": null,
+ "cost_usd": 0.012054
+}

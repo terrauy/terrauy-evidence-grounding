@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K06_A_r2.json",
+ "prompt_sha256": "868ed173fb0e2125f8cca09c0e57162bb0c428c9e4c4a2aff970ce586398140b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer correctly affirms corroboration and attributes the forest reference and native-forest context to the appropriate sources."
+ },
+ "raw": null,
+ "cost_usd": 0.002583
+}

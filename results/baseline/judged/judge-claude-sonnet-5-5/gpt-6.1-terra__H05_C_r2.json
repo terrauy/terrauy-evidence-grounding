@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H05_C_r2.json",
+ "prompt_sha256": "b625b86b86d05c4c31e64b2b429eeacd96c32cf97d8700d1329bc09f0c5e744e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports 0.7 ha (1.2%) of loss in 2023 and says clearing or deforestation is not established, which fits the key. It adds no unsupported claims. Stance is closer to DENIES than CANNOT_DETERMINE."
+ },
+ "raw": null,
+ "cost_usd": 0.008682
+}

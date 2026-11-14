@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K08_B_r1.json",
+ "prompt_sha256": "b5e76cbea4b7d0820d213a5427906dc644dd522a70ef48446f22397e81ae0368",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer gives 2.23% / 81.3 ha of 3643.5 ha, matching the key. Forest-type split and Hansen/JRC attribution match the facts. It notes that cause and legality are not established."
+ },
+ "raw": null,
+ "cost_usd": 0.008042
+}

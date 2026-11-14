@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E05_B_r0.json",
+ "prompt_sha256": "39da1a42c46b7adb6479219532f997ea8673a19eec744bc5dfc6b344f0603500",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer declines full-period confirmation and identifies the coverage gap, though it does not specify that the gap applies to VIIRS S-NPP."
+ },
+ "raw": null,
+ "cost_usd": 0.002561
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D09_A_r1.json",
+ "prompt_sha256": "53fdb60b78a635ace4e564baa314dd8559c68e27f2a95974d9e3030b9980922b",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no thermal detections in the fully covered period 2026-10-04 to 2026-11-03 and explicitly says this does not rule out a missed fire or fires outside the period; it does not claim no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.007186
+}

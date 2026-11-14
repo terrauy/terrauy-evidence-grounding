@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K01_C_r2.json",
+ "prompt_sha256": "524bf8d37ea18880899b6a4e987c3a915746ba5a7cfd1b27d546b8f91578b4b7",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports the 2021 Hansen loss, asset share, excluded small patches, planted-forest context, and relevant limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002645
+}

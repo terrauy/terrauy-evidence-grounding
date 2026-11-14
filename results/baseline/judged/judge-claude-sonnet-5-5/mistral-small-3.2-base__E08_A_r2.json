@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E08_A_r2.json",
+ "prompt_sha256": "12d3b5487b1dbd279dc0c0e721c39f9f894479ba04d5477961b9c353047cf09b",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the latest observed year is 2025 and there is no 2026 data, so it cannot determine a change. This matches the key. The opening phrase 'no evidence of change' is a minor ambiguity, but the conclusion is correct."
+ },
+ "raw": null,
+ "cost_usd": 0.007422
+}

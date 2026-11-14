@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H02_B_r0.json",
+ "prompt_sha256": "c77825903070ef6bce02bb75613a287e0e3bb10ca757a31221689981399c11c8",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, giving 68.1 ha in planted forest and 13.2 ha outside mapped forest, matching the key. Percentages (84%/16%) are correctly derived. Limitations stated."
+ },
+ "raw": null,
+ "cost_usd": 0.008508
+}

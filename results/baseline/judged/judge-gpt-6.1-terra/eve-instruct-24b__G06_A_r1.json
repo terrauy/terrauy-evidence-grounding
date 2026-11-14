@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G06_A_r1.json",
+ "prompt_sha256": "1a9ddbe8cefae6d7005cadad4429f54c4b0083633a1f2fb84eac13cdee54af50",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts no fires and invents detections and complete coverage for a period outside the evidence, incorrectly claiming no fires could have been missed."
+ },
+ "raw": null,
+ "cost_usd": 0.00237
+}

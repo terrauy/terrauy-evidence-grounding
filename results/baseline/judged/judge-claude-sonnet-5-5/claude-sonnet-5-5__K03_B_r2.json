@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K03_B_r2.json",
+ "prompt_sha256": "18825da6b0bdd34be6ad55b4729f3e7b658abf55adee23ade36721a7af6fe4b3",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no detections (count 0) with all four sensors covering every day, consistent with the key. It adds the limits from does_not_establish and correctly restates the spatial rule and knowledge date."
+ },
+ "raw": null,
+ "cost_usd": 0.006866
+}

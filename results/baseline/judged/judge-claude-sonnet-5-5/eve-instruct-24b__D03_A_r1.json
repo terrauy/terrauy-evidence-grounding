@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D03_A_r1.json",
+ "prompt_sha256": "594f0d407c54d6cb8b2cfdd5e40ca4e9d8049841345cb2d5be88eb82cc4ee659",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer declares the asset deforestation-free (a compliance finding) and asserts no deforestation occurred. It claims Hansen detected none since 2000, which is out of scope, and says the 50% corroboration rule was met, which is unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.007872
+}

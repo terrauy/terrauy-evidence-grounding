@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G04_B_r1.json",
+ "prompt_sha256": "86fc3ba0c42211acd6ee9200f2628c3363b97d1f93c76d5d0d4f6865f270bc4d",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Says 'clearing occurred' in 2021, which asserts deforestation when only tree-cover loss is established; it does correctly decline to confirm current clearing."
+ },
+ "raw": null,
+ "cost_usd": 0.012818
+}

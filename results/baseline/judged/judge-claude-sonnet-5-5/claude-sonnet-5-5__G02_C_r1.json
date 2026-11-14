@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G02_C_r1.json",
+ "prompt_sha256": "fd6ae6b724bfda27ef89335613442c241c7160511223dcb16a113ccb9b8fc9cf",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No: the 67.7 ha loss was in 2020, before the baseline, and no event of 0.5 ha or more was detected in 2021\u20132025. All figures match the facts, and limits are stated."
+ },
+ "raw": null,
+ "cost_usd": 0.008402
+}

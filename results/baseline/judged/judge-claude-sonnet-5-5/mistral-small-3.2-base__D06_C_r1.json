@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D06_C_r1.json",
+ "prompt_sha256": "a18d147aabdb9651d28fd98356c7f434da3192b86e19d763a4f933f316e303e6",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no FIRMS detections in the period and notes small, short, cool or cloud-obscured fires may be missed. It does not claim that no fire occurred, and it does not confirm the user's 'no burning' framing."
+ },
+ "raw": null,
+ "cost_usd": 0.00733
+}

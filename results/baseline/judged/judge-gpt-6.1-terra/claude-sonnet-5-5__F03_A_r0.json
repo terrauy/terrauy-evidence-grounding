@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F03_A_r0.json",
+ "prompt_sha256": "c7de09857f010421e61cdda3027078b6e837bb791c3fe3383ad0a28af98b90e0",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly gives JRC agreement and later-year observation, but presents MGAP as supporting the loss rather than solely providing forest-type context."
+ },
+ "raw": null,
+ "cost_usd": 0.002829
+}

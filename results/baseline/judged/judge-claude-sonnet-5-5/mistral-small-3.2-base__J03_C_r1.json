@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J03_C_r1.json",
+ "prompt_sha256": "f0a2f5df660e672d82562572e03c7850fd869529d0e6f9ec41df9ba6c69c43f3",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states sources disagree: Hansen 1.4 ha vs JRC 49% agreement below the 50% threshold; contradicted. It makes no claims of loss, absence, or deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.0087
+}

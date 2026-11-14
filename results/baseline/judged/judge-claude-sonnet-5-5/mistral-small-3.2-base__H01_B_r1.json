@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H01_B_r1.json",
+ "prompt_sha256": "2847663cd1031295ff4dd68c642c78572c596fb03c1a7a18f5e21e1e60c2bfb6",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Denies whole-property clearing, gives correct 81.3 ha and 2.23%, notes cause is unknown and deforestation not necessarily indicated. Planted-forest statement is supported by MGAP data (68.1 ha planted, 0 native)."
+ },
+ "raw": null,
+ "cost_usd": 0.00854
+}

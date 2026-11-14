@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K08_A_r1.json",
+ "prompt_sha256": "8e748abc066011a2de30bb4ec4836851df09479713dce609f3dbbf1acb2a970a",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives about 2.2% (81.3 of 3,643.5 ha), consistent with the key's 2.23%. Extra details match the reference facts. It notes the cause is not established and that sub-threshold patches are excluded."
+ },
+ "raw": null,
+ "cost_usd": 0.008302
+}

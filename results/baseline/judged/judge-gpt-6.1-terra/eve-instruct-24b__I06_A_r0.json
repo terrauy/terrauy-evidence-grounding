@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I06_A_r0.json",
+ "prompt_sha256": "dc6a0695e9ded801e6798cd58175223ecd1c93db9750f7cace607d860d19b090",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": false,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer treats the superseded coverage gap as current and incorrectly describes v1 as the second run, contradicting v2\u2019s complete coverage."
+ },
+ "raw": null,
+ "cost_usd": 0.00392
+}

@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D02_C_r1.json",
+ "prompt_sha256": "3c31cc872009c5fea6c3851271bffe4f6faff31cd34831975c7f91b5770a92a9",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  " other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports non-detection and limits correctly. But 'stable tree cover in prior years' is unsupported (only 2000 figure given), and 'no major deforestation' leans toward absence/deforestation language. Intactness is hedged."
+ },
+ "raw": null,
+ "cost_usd": 0.00791
+}

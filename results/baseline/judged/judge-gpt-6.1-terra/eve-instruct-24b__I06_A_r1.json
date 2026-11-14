@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I06_A_r1.json",
+ "prompt_sha256": "2e6fe331ec1b8575da26b5a06d6514048c48dcda58d5f87c981c29c4b2956590",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer distinguishes the initial coverage gap from the later complete coverage and reports no detections; it does not claim that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.003894
+}

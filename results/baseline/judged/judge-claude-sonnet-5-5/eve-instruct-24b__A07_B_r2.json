@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/A07_B_r2.json",
+ "prompt_sha256": "4ee766e47b195f28ead98f6bf7ea4ed308fc82b07fc0ef2ac46097937c5efbdb",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer flatly denies deforestation and implies deforestation-free status. It also misstates the baseline as 2021\u20132025 and asserts the 2020 loss was not deforestation because the land was non-forest, which goes beyond the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.009262
+}

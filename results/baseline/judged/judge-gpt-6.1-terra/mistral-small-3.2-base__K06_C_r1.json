@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K06_C_r1.json",
+ "prompt_sha256": "0213223b5d78bf39bdfe1543b11b3f3bd6663497e93974d7886ca24c1ca93c35",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly affirms corroboration, attributes the loss and reference agreement to the appropriate sources, and states the corroboration threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.002616
+}

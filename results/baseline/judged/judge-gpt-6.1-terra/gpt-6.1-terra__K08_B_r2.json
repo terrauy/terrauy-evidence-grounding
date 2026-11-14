@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K08_B_r2.json",
+ "prompt_sha256": "b7c28cc70fa0698bd633e96378241aa7c0fa4f8d0c3f2f110d23a2c7c1ec450c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer gives the supported share and area, correctly notes excluded small patches, and states a relevant limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.002583
+}

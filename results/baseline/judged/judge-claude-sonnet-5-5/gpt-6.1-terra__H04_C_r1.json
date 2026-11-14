@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H04_C_r1.json",
+ "prompt_sha256": "ce09fa6e26abf45f0aa34de95e4e27b42820ef26eafce9ce4fb025e5b2ae49e5",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 0.5 ha native of 0.6 ha loss in 2022; 2.8% of the property is a correct derivation. It makes no claim about a share of the total native forest, and notes the limits."
+ },
+ "raw": null,
+ "cost_usd": 0.012342
+}

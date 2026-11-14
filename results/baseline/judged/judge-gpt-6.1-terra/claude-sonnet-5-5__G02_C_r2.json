@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G02_C_r2.json",
+ "prompt_sha256": "be6ff316f244b641535937fd09a49eea01bbe5787cf8251792b21930a6efd722",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly dates the 67.7 ha loss before the cutoff, but asserts the 0.4 ha was the only post-baseline loss despite possible undetected changes."
+ },
+ "raw": null,
+ "cost_usd": 0.002893
+}

@@ -1,0 +1,93 @@
+{
+ "validator": "jsonschema",
+ "units": [
+  {
+   "task_id": "X01",
+   "unit_id": "U-X01-SAR",
+   "claim_type": "surface_water_extent",
+   "schema_errors": [
+    "'surface_water_extent' is not one of ['tree_cover_loss', 'thermal_detection']"
+   ]
+  },
+  {
+   "task_id": "X01",
+   "unit_id": "U-X01-OPT",
+   "claim_type": "surface_water_extent",
+   "schema_errors": [
+    "'surface_water_extent' is not one of ['tree_cover_loss', 'thermal_detection']"
+   ]
+  },
+  {
+   "task_id": "X02",
+   "unit_id": "U-X02",
+   "claim_type": "surface_water_extent",
+   "schema_errors": [
+    "'surface_water_extent' is not one of ['tree_cover_loss', 'thermal_detection']"
+   ]
+  },
+  {
+   "task_id": "X03",
+   "unit_id": "U-X03-SAR",
+   "claim_type": "surface_water_extent",
+   "schema_errors": [
+    "'surface_water_extent' is not one of ['tree_cover_loss', 'thermal_detection']"
+   ]
+  },
+  {
+   "task_id": "X03",
+   "unit_id": "U-X03-GAUGE",
+   "claim_type": "river_stage_exceedance",
+   "schema_errors": [
+    "'river_stage_exceedance' is not one of ['tree_cover_loss', 'thermal_detection']"
+   ]
+  },
+  {
+   "task_id": "X04",
+   "unit_id": "U-X04",
+   "claim_type": "surface_water_extent",
+   "schema_errors": [
+    "'surface_water_extent' is not one of ['tree_cover_loss', 'thermal_detection']"
+   ]
+  },
+  {
+   "task_id": "X05",
+   "unit_id": "U-X05",
+   "claim_type": "river_stage_exceedance",
+   "schema_errors": [
+    "'river_stage_exceedance' is not one of ['tree_cover_loss', 'thermal_detection']"
+   ]
+  },
+  {
+   "task_id": "X06",
+   "unit_id": "U-X06",
+   "claim_type": "surface_water_extent",
+   "schema_errors": [
+    "'surface_water_extent' is not one of ['tree_cover_loss', 'thermal_detection']"
+   ]
+  },
+  {
+   "task_id": "X06",
+   "unit_id": "U-X06",
+   "claim_type": "surface_water_extent",
+   "schema_errors": [
+    "'surface_water_extent' is not one of ['tree_cover_loss', 'thermal_detection']"
+   ]
+  },
+  {
+   "task_id": "X07",
+   "unit_id": "U-X07",
+   "claim_type": "soil_saturation",
+   "schema_errors": [
+    "'soil_saturation' is not one of ['tree_cover_loss', 'thermal_detection']"
+   ]
+  },
+  {
+   "task_id": "X08",
+   "unit_id": "U-X08",
+   "claim_type": "surface_water_extent",
+   "schema_errors": [
+    "'surface_water_extent' is not one of ['tree_cover_loss', 'thermal_detection']"
+   ]
+  }
+ ]
+}

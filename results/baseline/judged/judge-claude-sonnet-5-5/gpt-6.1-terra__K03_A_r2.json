@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/K03_A_r2.json",
+ "prompt_sha256": "5ae55d426d3f37fccf115469e09703930b781d7ec87a2bfcb673e0f4ff1e253f",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no detections intersected the property from 2026-09-26 to 2026-10-26, with all four sensors covering the full period. This matches the key. It states coverage as an observability limit but does not claim no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.006528
+}

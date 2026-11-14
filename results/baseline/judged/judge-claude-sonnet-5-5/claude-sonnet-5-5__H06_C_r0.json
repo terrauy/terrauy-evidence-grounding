@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/H06_C_r0.json",
+ "prompt_sha256": "be5e2e69e711bf9824b9bdac395c4cf9a30bb8614de1f0993907f08748088ebb",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, evidence covers only the asset boundary, not the region; facts (0.4 ha, 2.843 ha, earlier events, limits) match the reference. No regional conclusions drawn."
+ },
+ "raw": null,
+ "cost_usd": 0.00822
+}

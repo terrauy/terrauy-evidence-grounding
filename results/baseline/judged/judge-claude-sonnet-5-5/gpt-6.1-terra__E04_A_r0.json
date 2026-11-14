@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E04_A_r0.json",
+ "prompt_sha256": "68a6189d9304d4ead37e458c444af698b5b9507c1fc10e4bb9af933dffd64a86",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no detections, flags the Oct 24\u201325 coverage gap across all sensors, and says fire cannot be ruled out and detections can miss fires. It does not claim that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.008714
+}

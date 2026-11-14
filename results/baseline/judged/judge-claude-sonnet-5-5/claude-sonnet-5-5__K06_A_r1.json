@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K06_A_r1.json",
+ "prompt_sha256": "dc022c2fa62b139b6f49a16df6ea8062d2a621893a8462c45df986f13398365c",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms corroboration with JRC agreement 1.0 and later year observed; numbers match the facts. It notes the early-access engine and the sub-0.5 ha patches not counted as an event."
+ },
+ "raw": null,
+ "cost_usd": 0.008194
+}

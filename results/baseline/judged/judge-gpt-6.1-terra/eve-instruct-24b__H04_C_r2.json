@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H04_C_r2.json",
+ "prompt_sha256": "5e975c95ff1456510ca44ea04241b5fc1b38b46629b0605bbfb90a524505e9f4",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "3.41% is the share of the whole property, not native forest. The answer also overstates mapped native-forest context as confirmation of forest type."
+ },
+ "raw": null,
+ "cost_usd": 0.002777
+}

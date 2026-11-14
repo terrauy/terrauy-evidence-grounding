@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J04_C_r1.json",
+ "prompt_sha256": "3bfd4ed272657aabcfad80aa0087d7448ef10dce0934981945cc540c9371a05f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly lists 2021, 2022 and 2023 as supported (86.4 ha total), says none are contradicted post-baseline, and notes the sub-0.5 ha patches and what loss does not establish."
+ },
+ "raw": null,
+ "cost_usd": 0.011812
+}

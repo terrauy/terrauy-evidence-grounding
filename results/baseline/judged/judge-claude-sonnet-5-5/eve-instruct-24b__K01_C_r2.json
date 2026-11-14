@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K01_C_r2.json",
+ "prompt_sha256": "4d4ef0baeb5a5ee03cccc6d90e32aefe2865c630225d0b06b04b42af1ed787e7",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 81.3 ha in 2021 (2.23%), JRC 98% agreement, planted forest context, 0.5 ha threshold; all consistent with the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.011574
+}

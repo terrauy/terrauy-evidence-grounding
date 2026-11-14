@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K01_B_r2.json",
+ "prompt_sha256": "c7e4702e6983136bfffb47fc4f6ed9be85b877b5a7a6253dac5922fe1bf3ce5f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 81.3 ha (2.23%) loss in 2021, corroborated; planted-forest context matches MGAP data; notes cause and legality not established."
+ },
+ "raw": null,
+ "cost_usd": 0.009162
+}

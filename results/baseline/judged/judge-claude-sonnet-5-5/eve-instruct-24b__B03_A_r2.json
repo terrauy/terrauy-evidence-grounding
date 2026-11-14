@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B03_A_r2.json",
+ "prompt_sha256": "339d0f8d8b278a06e9c701df435ed335fdd7cfe1eaa5a4a37fc3b9135fb30ff4",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer never addresses cause or says it is not established. It misstates that 0.6 ha of native forest was lost, whereas only 0.5 ha was native. It also adds unsupported claims about the sources being 'highly reliable' and having 'no gaps'."
+ },
+ "raw": null,
+ "cost_usd": 0.00908
+}

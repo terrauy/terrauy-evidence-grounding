@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G03_C_r1.json",
+ "prompt_sha256": "c7873e148cbfb89b8d007c38e735acd5a1b55dada1ad6fa877fc950dcdebfcd3",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer says no evidence of loss in 2024/2025 and correctly lists 2021-2023 events. It does not claim no change occurred, but it gives no caveat about detection limits such as the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.010308
+}

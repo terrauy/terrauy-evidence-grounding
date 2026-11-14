@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/B01_C_r1.json",
+ "prompt_sha256": "4818f40cfd5823b6bfeb8bd1d8ad74c519938ac21f8e01595483fb2c3bb811ed",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says cause is not established; harvest is only called 'plausible', which is a hedge. It correctly restates the numbers and the limits. Deforestation, legality and actor are explicitly not established."
+ },
+ "raw": null,
+ "cost_usd": 0.009302
+}

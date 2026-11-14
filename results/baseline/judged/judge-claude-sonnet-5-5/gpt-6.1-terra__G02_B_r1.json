@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G02_B_r1.json",
+ "prompt_sha256": "616637b95863f9f288f2fccc57ff4096cf1bbcc1ea7f936e4cca898258425c1d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, 67.7 ha was in 2020 before cut-off, no \u22650.5 ha events 2021\u20132025, notes 0.4 ha sub-threshold and missed changes, and no compliance claim. All consistent with the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008188
+}

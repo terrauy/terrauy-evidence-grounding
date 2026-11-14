@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K06_C_r0.json",
+ "prompt_sha256": "7351033debeca54a03f25d002f44321a510844b86772aa5c7fe5e213eda42838",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms corroboration with JRC agreement 1.0, later year observed, 0.6 ha above 0.5 ha minimum; consistent with facts. Minor simplification of the MGAP native classification."
+ },
+ "raw": null,
+ "cost_usd": 0.010408
+}

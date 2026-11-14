@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H02_A_r1.json",
+ "prompt_sha256": "286a2967f7db9b3a55300c39043f8117027f82ecae6e8f72c7b73f0477794380",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No, with 68.1 ha in planted forest and 13.2 ha outside mapped forest, matching the key. It notes that sub-0.5 ha patches were not counted as events, which is a relevant limit. The 'pine plantation' wording is supported by the MGAP species data."
+ },
+ "raw": null,
+ "cost_usd": 0.00837
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D09_B_r1.json",
+ "prompt_sha256": "ffdc9b6ac529487bd346b8d66306043047e4b61b47da0e3d07497e788bcec6db",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no FIRMS detections in a fully covered period, notes small or cloud-obscured fires may be missed, and does not claim no fire occurred. One mild phrase ('no evidence of significant fire activity') is not unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.007474
+}

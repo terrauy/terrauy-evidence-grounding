@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/J04_A_r0.json",
+ "prompt_sha256": "058d9dc57f166aa8be061dd9dc64c4c8e74bceb1f89498ac99f94a88bf0dcbe5",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies all three supported events and no post-baseline contradictions; explains corroboration and the minimum event-size threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.003709
+}

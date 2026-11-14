@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G01_A_r2.json",
+ "prompt_sha256": "bbed5810449837b35280f4f1b0074a1a7e9382211ee55f065950ed5d3a4c6d81",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports 0.4 ha of sub-threshold 2021 loss, which is in the facts. It does not state that no loss event was detected. Its claim that the 2021 loss lacks JRC corroboration is an unsupported inference, since the JRC reference concerns forest in 2020 and not loss."
+ },
+ "raw": null,
+ "cost_usd": 0.008604
+}

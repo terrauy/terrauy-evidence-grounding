@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G05_A_r1.json",
+ "prompt_sha256": "d3e364b9e6941b15978fd92a03723df41d3b5a6047ad45f2a708e7890e196052",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly identifies the loss as pending corroboration and explains that a later year is needed to assess persistence."
+ },
+ "raw": null,
+ "cost_usd": 0.002675
+}

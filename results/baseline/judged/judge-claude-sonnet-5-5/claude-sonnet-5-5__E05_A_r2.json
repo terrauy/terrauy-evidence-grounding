@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/E05_A_r2.json",
+ "prompt_sha256": "e8c7c0669ffd07d98c394ac99754b5af9e43ebf082913b207a877262bb4d1abb",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Declines to confirm the full period, reports zero detections in the available data, and names the S-NPP gap of 2\u20136 Nov. It does not claim that no fire occurred. The rerun suggestion is reasonable and not an invented fact."
+ },
+ "raw": null,
+ "cost_usd": 0.008254
+}

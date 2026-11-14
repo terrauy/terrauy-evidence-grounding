@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G05_A_r2.json",
+ "prompt_sha256": "83a43af028ea199db1cf72e80809c823d295dbe56d7513da610613813f163023",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer distinguishes the mapped loss from corroboration and says persistence cannot yet be assessed because no later year has been observed."
+ },
+ "raw": null,
+ "cost_usd": 0.002677
+}

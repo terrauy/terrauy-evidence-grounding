@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/A05_B_r2.json",
+ "prompt_sha256": "4ea904fe550dc8fa735f2f5267b3bb68cb6536a60c7e1383eef4e562ab5f73ec",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer affirms 4.5 ha of corroborated tree-cover loss and says it does not equate to deforestation. It hedges on causes and negates legality and actor. It says 'the asset is primarily planted forest', which is unsupported: only the event area is known to be planted."
+ },
+ "raw": null,
+ "cost_usd": 0.009476
+}

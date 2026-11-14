@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/A08_A_r0.json",
+ "prompt_sha256": "f0d7a3881cd523da8ae278eb513329158b925d228d367409ea2ea6b0eacda188",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "hedged"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts deforestation occurred and calls the asset 'potentially non-compliant', which is a hedged compliance finding. The total of 87.4 ha is correct (81.3+0.6+4.5=86.4, not 87.4), so the numbers are wrong. It states no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.01137
+}

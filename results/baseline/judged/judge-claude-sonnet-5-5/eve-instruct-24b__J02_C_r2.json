@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J02_C_r2.json",
+ "prompt_sha256": "bf61f88b7e6962619aea3a2a76881dec8d630bdf1a6ab7f9ebc530c14e886a30",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports the Hansen/JRC disagreement and the 'contradicted' status, but then concludes 'no verifiable loss occurred', which leans toward absence. It also misstates the 1.3 ha of sub-0.5 ha patches as the 0.7 ha loss, and wrongly extends the Pinus finding to the whole property."
+ },
+ "raw": null,
+ "cost_usd": 0.00954
+}

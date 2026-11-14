@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H02_C_r1.json",
+ "prompt_sha256": "d34d2543d77199015d788dcfbea3a76f4da4a520766d77a19b0544820e21b777",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer claims all loss was inside the plantation, contradicting the 13.2 ha outside mapped forest. It also wrongly says the whole asset is planted forest and misattributes the 98% JRC agreement."
+ },
+ "raw": null,
+ "cost_usd": 0.008254
+}

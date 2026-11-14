@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G03_C_r1.json",
+ "prompt_sha256": "13a03848768c847f91a594a3b66a9b99caf8e04be178b1db68a42bc484dde579",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer flatly says the property did not lose tree cover in 2024/2025, which is a definite denial rather than non-detection. It does cite the 0.5 ha threshold. The sub-0.5 ha patches are reported for 2022 and 2023, matching the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.010482
+}

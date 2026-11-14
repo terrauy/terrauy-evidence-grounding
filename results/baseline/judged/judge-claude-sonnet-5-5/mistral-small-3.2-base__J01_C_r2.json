@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J01_C_r2.json",
+ "prompt_sha256": "506c1171179113fe63e92d1f5b977df95e535e2d6050c26bc451d60039438dbe",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  " other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer correctly reports Hansen 1.8 ha loss contradicted by JRC 2020 and concludes loss cannot be confirmed; no forbidden claims. Minor framing of MGAP as contradicting is slight but not unsupported."
+ },
+ "raw": null,
+ "cost_usd": 0.009246
+}

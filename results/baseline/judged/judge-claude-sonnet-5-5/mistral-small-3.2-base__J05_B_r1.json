@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J05_B_r1.json",
+ "prompt_sha256": "cba46f5d047f79efb401a89d14934421cc691f3413629262bc689dfe617b7543",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no contradiction; the loss predates the baseline, so non-forest in 2020 corroborates it. It adds an unsupported claim that both sources agree there was no forest 'within the asset', though JRC shows 0 ha forest. Limitation: 0.5 ha minimum event size."
+ },
+ "raw": null,
+ "cost_usd": 0.008458
+}

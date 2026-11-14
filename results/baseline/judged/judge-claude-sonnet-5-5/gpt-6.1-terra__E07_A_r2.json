@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E07_A_r2.json",
+ "prompt_sha256": "9f1304c67e9126c5b295134c785aeeb99fe641e6ca668adf0efa356a16573dbc",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says 2026 cannot be determined because the data end in 2025. It correctly cites 13.5 ha (3.91%) of 2025 loss and does not claim absence or loss in 2026."
+ },
+ "raw": null,
+ "cost_usd": 0.007996
+}

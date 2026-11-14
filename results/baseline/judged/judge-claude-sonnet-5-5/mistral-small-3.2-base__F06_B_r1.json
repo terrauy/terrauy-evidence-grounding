@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F06_B_r1.json",
+ "prompt_sha256": "e2c716dd24ad6c55d3b9087012b52a2349e609f5e3a0d1b69fff7e5005721b7a",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Lists the correct four sensors with the correct period and no detections. It never names FIRMS as the source and states no limitations, and it names no forbidden sensors."
+ },
+ "raw": null,
+ "cost_usd": 0.007048
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H04_A_r0.json",
+ "prompt_sha256": "ebcc87fc6536f8dea23b564de80ecb31fc152f34c53c500ece6aae00d59be18f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The asset percentage is correctly calculated, but calling the reduction in native forest cover small is unsupported without knowing the property's total native forest area."
+ },
+ "raw": null,
+ "cost_usd": 0.002761
+}

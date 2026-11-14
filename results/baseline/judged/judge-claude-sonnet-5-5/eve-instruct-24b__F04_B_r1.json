@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F04_B_r1.json",
+ "prompt_sha256": "fbf407e8f6684fabd24eb496965e8a955f7d63243a8d25b5ead8aa9d6556bd64",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly names MGAP 2021 as the source of the native-forest classification, with figures matching the facts. It does not note that the map is from 2021 rather than a 2025 observation, and states no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.00787
+}

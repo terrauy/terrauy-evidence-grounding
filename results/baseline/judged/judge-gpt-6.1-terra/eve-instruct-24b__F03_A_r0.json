@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F03_A_r0.json",
+ "prompt_sha256": "8af20a8d816ed86433f5449e915865e1f28a35a0d989f447dc1bfbbe4401e62e",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly reports JRC agreement, but implies MGAP corroborates the loss and asserts all datasets agree on the event; MGAP provides forest-type context only."
+ },
+ "raw": null,
+ "cost_usd": 0.002879
+}

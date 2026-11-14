@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F03_B_r1.json",
+ "prompt_sha256": "a2e1cd29e07568f102647c1d9c53ceabde87557524aac9ae5a1722e80ce36c94",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly cites JRC GFC2020 0.98 agreement as corroboration and lists limits; omits the later-year observation; MGAP only listed as a source, not as corroboration."
+ },
+ "raw": null,
+ "cost_usd": 0.011534
+}

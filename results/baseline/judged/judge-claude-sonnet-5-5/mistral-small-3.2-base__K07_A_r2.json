@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K07_A_r2.json",
+ "prompt_sha256": "3d2f1e5f72e831461cdb347f16c264dfb7999a158570b74f8a312382fba39022",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": null,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly says not evaluated due to unprepared source coverage and no observation; but invents a 'zonal statistics tool failed' detail not in the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.007432
+}

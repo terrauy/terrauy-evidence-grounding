@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/C02_B_r1.json",
+ "prompt_sha256": "bbffe0dee5d6fd1c71a8cfec7a6c93aedebef65bdf826dadcc2fca11f4242f67",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says legality cannot be confirmed, cites the 13.5 ha tree-cover loss candidate, and notes cause, persistence and legality are not established. It makes no forbidden claims. It repeats the question's 'clearing' wording only as the question's premise, not as its own assertion."
+ },
+ "raw": null,
+ "cost_usd": 0.008872
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G02_A_r0.json",
+ "prompt_sha256": "2cd260a3bd4b77febae66a8f9bee552956bfd5aa96c33e0e25a7982693565a22",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says No: 67.7 ha loss was in 2020, before the cut-off; no qualifying post-baseline events; 0.4 ha sub-threshold noted. The comparison of 67.7 ha against 23.0 ha of 2000 tree cover is correct arithmetic. Limitations are mentioned."
+ },
+ "raw": null,
+ "cost_usd": 0.008792
+}

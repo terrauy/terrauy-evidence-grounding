@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H04_C_r0.json",
+ "prompt_sha256": "28a274a65711b67fd99c8a6a380103b870f8b521e991cf63c79a5d7d97ef9822",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports the mapped native-forest overlap, total event area, smaller patches, and relevant limitations without asserting a share of native forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002741
+}

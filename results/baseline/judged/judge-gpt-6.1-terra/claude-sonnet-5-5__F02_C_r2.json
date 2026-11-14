@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F02_C_r2.json",
+ "prompt_sha256": "17c69b0a955b4f10e21057194117c57763f5ea3e79c6c76bf782593a16b95eef",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes the planted-pine classification to MGAP, distinguishes the unmapped portion, and states relevant limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002814
+}

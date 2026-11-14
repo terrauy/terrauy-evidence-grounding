@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/H06_C_r1.json",
+ "prompt_sha256": "423e66775a28e81eaf740dcba01cb3e6e4c13336ccf12f4d90fbdafa0bb1a28e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers no and ties the NOT_DETECTED result to the asset boundary and the 0.5 ha threshold. It does not assert regional loss or no-loss, though it never states outright that the evidence covers only the asset."
+ },
+ "raw": null,
+ "cost_usd": 0.01223
+}

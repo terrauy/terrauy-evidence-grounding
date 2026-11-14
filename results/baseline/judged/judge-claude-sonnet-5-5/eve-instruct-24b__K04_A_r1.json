@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K04_A_r1.json",
+ "prompt_sha256": "0603f0ae6ee91da6c74c1983b5874f79f0148542abc87adbba7effed64da5b3a",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no event of 0.5 ha or more was detected after 2020, consistent with the key. It cites the correct figures (91.77%, valid data fraction 1.0, 2025) and the 0.5 ha threshold, and adds no unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.007046
+}

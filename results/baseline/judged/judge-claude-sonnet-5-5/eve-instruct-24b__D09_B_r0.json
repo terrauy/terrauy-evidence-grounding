@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D09_B_r0.json",
+ "prompt_sha256": "5c5e73e55b9c014042ef2326fd34319802fe686995417946edb2e6382c08c3dc",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Opens with a flat 'No, the asset has not been affected by fire', which asserts the forbidden absence claim, though later caveats note small fires may go undetected. Data facts are correct."
+ },
+ "raw": null,
+ "cost_usd": 0.007198
+}

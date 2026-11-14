@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K02_B_r1.json",
+ "prompt_sha256": "a0d46fc170fda7d70e7a9d8a1fb7b745a64bc2c242a8be2d9c1ba57ba8801ccb",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer affirms a 13.5 ha 2025 candidate pending corroboration and notes it does not establish deforestation, cause, persistence or legality. 'High agreement with JRC' matches the 0.98 agreement figure."
+ },
+ "raw": null,
+ "cost_usd": 0.007386
+}

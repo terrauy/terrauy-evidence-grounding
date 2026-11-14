@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G03_A_r1.json",
+ "prompt_sha256": "f71ff204e9316bbc55d3b161ea100b5ff0da35d85cd738cb4de3fa71fecc9dfa",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports no detected loss in 2024-2025, correctly cites 2021-2023 figures, and notes the 30 m / 0.5 ha detection limits; it does not claim that no change occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.014956
+}

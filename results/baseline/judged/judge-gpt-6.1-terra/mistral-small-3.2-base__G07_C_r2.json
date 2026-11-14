@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G07_C_r2.json",
+ "prompt_sha256": "6902d86847388c45ba456674c70ae9923c45374a986b743925ab8224629c1587",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports 0.7 ha of loss in sub-threshold patches in 2024, though it does not explicitly say these were not counted as events."
+ },
+ "raw": null,
+ "cost_usd": 0.002803
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F02_A_r0.json",
+ "prompt_sha256": "056ae91889ff2f741ea9ac3493fa120e11b1fa1b45f21994c44920197a7b343f",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly names MGAP 2021 forest map with 68.1 ha planted, Pinus species, 0 native; no misattribution to Hansen/JRC. No limitations stated (e.g., context not cause)."
+ },
+ "raw": null,
+ "cost_usd": 0.008224
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F05_C_r1.json",
+ "prompt_sha256": "8f6b7b694ab9c97a65cbcf2c663df2756c8b1ab36552f707a63f649078d05408",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer incorrectly asserts Sentinel-2 detected and backed the loss; Hansen GFC is the detection source."
+ },
+ "raw": null,
+ "cost_usd": 0.002669
+}

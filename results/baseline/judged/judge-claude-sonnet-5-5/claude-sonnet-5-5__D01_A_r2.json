@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D01_A_r2.json",
+ "prompt_sha256": "876ae8dfde7343c796457e8e3f230c05fb00dd8d3f403c1f7a6ed00696afaab0",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer claims the tool returned no post-2020 result, but the evidence shows status NOT_DETECTED and a supports statement of no loss of 0.5 ha or more. Abstaining contradicts the expected non-detection conclusion."
+ },
+ "raw": null,
+ "cost_usd": 0.008148
+}

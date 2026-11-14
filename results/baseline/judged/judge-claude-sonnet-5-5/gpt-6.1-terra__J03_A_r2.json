@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J03_A_r2.json",
+ "prompt_sha256": "bae5a450368a0c8a6ed42542e60268997aca964a0b5a2a0abe55be344100027d",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  " other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer misreads JRC as 51% forest and says the corroboration rule is met. The facts show 0.49 agreement, below the 0.5 threshold, so the loss is not corroborated. The headline hedges, but the conclusion is wrong."
+ },
+ "raw": null,
+ "cost_usd": 0.013888
+}

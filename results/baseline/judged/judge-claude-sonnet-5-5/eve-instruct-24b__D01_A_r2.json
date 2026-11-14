@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D01_A_r2.json",
+ "prompt_sha256": "dde9459a9b51c406027a659ed2393435ccc44d7666bc6a062c19cb9d7e143b10",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Opens with a flat 'No tree-cover loss occurred', which is a definite absence claim rather than a non-detection. It also invents that corroboration rule filtered out candidate changes. It does mention the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.007722
+}

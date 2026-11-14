@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D07_A_r2.json",
+ "prompt_sha256": "f50363ad43df53a28916ac90a0bba5c716463afdec74fc66d91f63303466bfb5",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer turns a non-detection into certification that no fire occurred, which the evidence explicitly does not establish. It states no limitations, though the dates and sensor coverage it cites are correct."
+ },
+ "raw": null,
+ "cost_usd": 0.00719
+}

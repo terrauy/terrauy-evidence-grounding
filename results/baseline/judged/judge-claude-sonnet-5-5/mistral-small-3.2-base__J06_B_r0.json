@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J06_B_r0.json",
+ "prompt_sha256": "577fe06eee703e67d7ef74bd1aae4548aeeba4442ce08a197f2f0422339866bb",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  " other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says JRC 2020 disagrees with detected loss, loss may not have occurred, and does not establish deforestation; it does not assert loss or absence. Alternative causes are hedged, planted-forest context is supported."
+ },
+ "raw": null,
+ "cost_usd": 0.009034
+}

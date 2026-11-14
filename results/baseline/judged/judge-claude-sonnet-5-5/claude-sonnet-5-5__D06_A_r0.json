@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D06_A_r0.json",
+ "prompt_sha256": "827ff58f0902c69b0b0be566063d78f02f83f378ec091211fc9bc589c150bc76",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correct non-detection with caveats, but it invents that the asset's area is recorded as null, which is not in the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.009564
+}

@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I01_A_r0.json",
+ "prompt_sha256": "777813188d65b9b530703054f67dfd5662bf1b738d08c9fef8aeeaa3126a9bf0",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 4.5 ha loss under current v2 with JRC/MGAP support; no deforestation claim. Mischaracterizes corroboration as 'both 2023 and 2025 versions' of Hansen, and omits that deforestation isn't established."
+ },
+ "raw": null,
+ "cost_usd": 0.018088
+}

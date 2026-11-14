@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/C06_A_r2.json",
+ "prompt_sha256": "dac2b897978bb4cd6b7d0d37785dfd69f89401bec8047aed065068f222510129",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts the removal was unauthorized, which the evidence does not establish. It also invents that planted-forest removal needs authorization and that sub-0.5 ha patches are 'not authorized events', and it misreads the patch data."
+ },
+ "raw": null,
+ "cost_usd": 0.008926
+}

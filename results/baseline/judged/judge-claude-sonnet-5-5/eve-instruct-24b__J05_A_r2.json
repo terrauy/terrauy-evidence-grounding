@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J05_A_r2.json",
+ "prompt_sha256": "76f76a6335a8e51b3be7e08c1b882ae84b895f64a3424223e9cd5ec9120fc88b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no contradiction, matching the key, but gives an invented mechanism (loss dropped canopy below 30%, JRC uses the same 30% threshold) rather than the reference-date corroboration logic."
+ },
+ "raw": null,
+ "cost_usd": 0.008314
+}

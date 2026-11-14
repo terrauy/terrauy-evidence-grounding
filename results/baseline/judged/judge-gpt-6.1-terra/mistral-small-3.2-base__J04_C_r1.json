@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J04_C_r1.json",
+ "prompt_sha256": "48fe2d1216a7933a125e0a886741512db458238e7baa204fa02c6ffd0d23cbe2",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies all supported post-2020 events and distinguishes contradicted pre-baseline events; notes limits on cause, legality and responsibility."
+ },
+ "raw": null,
+ "cost_usd": 0.00364
+}

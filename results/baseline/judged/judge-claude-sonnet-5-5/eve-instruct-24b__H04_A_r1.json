@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H04_A_r1.json",
+ "prompt_sha256": "fad033b003829db6b9f9cdd108e4c3dd46465eec70a94e750b84bb6af9dc2bba",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 0.5 ha native loss (2.84% of the asset, correctly derived) with 0.6 ha Hansen loss and JRC corroboration; no share of total native forest claimed; mentions the size threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.012384
+}

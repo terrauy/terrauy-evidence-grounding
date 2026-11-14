@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K04_C_r2.json",
+ "prompt_sha256": "c7762babcac0eaee977432edcc1b04e3354cb95d00dd3f44496d1dd0b5ef6446",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no event detected 2021-2025, matching the key. It adds an unsupported claim that there was 'no significant tree-cover change' and that the sources are 'reliable', and it says events under 0.5 ha would not be captured, which is a stated limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.007118
+}

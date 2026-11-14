@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D07_B_r0.json",
+ "prompt_sha256": "7eee108289a3fe53f8b73579deabf9bc6c26b2d002cc2d52cbfce08f35c85e2b",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says certification is not possible, reports the supported non-detection, and explains relevant detection limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002328
+}

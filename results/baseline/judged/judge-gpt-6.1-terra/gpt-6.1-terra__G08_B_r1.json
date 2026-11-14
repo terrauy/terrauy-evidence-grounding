@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G08_B_r1.json",
+ "prompt_sha256": "dc42d0f9d80b19ec2caa30651a64fc34d43f2eed2f88aec352def6f453f525fe",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly rejects a sustained increase, reports the supported annual figures, and notes that tree-cover loss does not establish deforestation or cause."
+ },
+ "raw": null,
+ "cost_usd": 0.00357
+}

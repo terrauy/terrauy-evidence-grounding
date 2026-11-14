@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/A07_C_r2.json",
+ "prompt_sha256": "40de36958a74ac01bcf30dcdac8a9f4ecd6e25b5b909847d9a2aa9224019f5d6",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly places the 67.7 ha loss before the baseline and reports NOT_DETECTED for 2021-2025. Says the loss is not deforestation. No cause, actor or compliance claims. Does not state evidence limits such as the 0.5 ha threshold."
+ },
+ "raw": null,
+ "cost_usd": 0.014832
+}

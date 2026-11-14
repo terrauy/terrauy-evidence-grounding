@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D09_B_r0.json",
+ "prompt_sha256": "c414e1957ed5eb209c73d6ee1ed554373f0115426d845c736bb642096e4609e6",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no FIRMS detections in the fully covered window, explicitly says this does not prove no fire occurred, and notes limits on burned area, cause and period. No unsupported claims."
+ },
+ "raw": null,
+ "cost_usd": 0.007536
+}

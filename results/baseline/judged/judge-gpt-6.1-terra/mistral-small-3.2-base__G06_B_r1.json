@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G06_B_r1.json",
+ "prompt_sha256": "6b37d1d47d2fbf2a74631cc6c0d541994088de57dec36453fb5abc60100033a0",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer incorrectly applies the detection results and sensor coverage to the two weeks before the evaluated period, though it acknowledges possible missed fires."
+ },
+ "raw": null,
+ "cost_usd": 0.002369
+}

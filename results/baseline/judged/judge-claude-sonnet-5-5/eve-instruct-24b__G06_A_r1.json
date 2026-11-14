@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G06_A_r1.json",
+ "prompt_sha256": "1a9ddbe8cefae6d7005cadad4429f54c4b0083633a1f2fb84eac13cdee54af50",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer claims no fires in 2026-09-20 to 10-03, outside the evidence period (10-04 to 11-03), invents data for that window, and overclaims that no fires were missed."
+ },
+ "raw": null,
+ "cost_usd": 0.007258
+}

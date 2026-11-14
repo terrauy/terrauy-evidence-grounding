@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K03_B_r0.json",
+ "prompt_sha256": "bd5c19fe5e1c9df6a6d7aa8587ea2202333b8e215fb9da821e4e58855f7d9d71",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states zero FIRMS detections, all four sensors covered every day, and caveats that small, short, cool or cloud-obscured fires may be missed; all consistent with the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.006684
+}

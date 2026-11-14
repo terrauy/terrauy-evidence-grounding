@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/A04_A_r2.json",
+ "prompt_sha256": "9def8a7ff355a83be0d5c87738e3087257bc0632bc9b40bad84f8d96bd63e07b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says 'Yes' to tree-cover loss (0.7 ha, corroborated), which matches the key. It does not assert deforestation, cause, legality, actor or compliance, and it notes tree-cover loss does not establish conversion."
+ },
+ "raw": null,
+ "cost_usd": 0.009362
+}

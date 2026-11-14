@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J05_C_r1.json",
+ "prompt_sha256": "28733c9beaacd1da68a026b54557a42322e6dfeb0287219acf6cf0ab9df1a14d",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer avoids a definite no, but its reported observations, timing, and limitations are consistent with the evidence."
+ },
+ "raw": null,
+ "cost_usd": 0.002776
+}

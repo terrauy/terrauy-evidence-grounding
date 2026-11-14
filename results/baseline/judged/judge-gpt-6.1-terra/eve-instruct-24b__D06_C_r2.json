@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D06_C_r2.json",
+ "prompt_sha256": "fc0d9504912ca6fca0a9fe659bd0c36913a04fe5e9756b0cdee1ac262841fe1e",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports zero thermal detections with full coverage and notes that some fires may go undetected, without asserting that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.002349
+}

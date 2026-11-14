@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/C03_C_r0.json",
+ "prompt_sha256": "5cc34114a776d812ab2aec99fc09a6fd444a4976f9656312c0856dc8e296ff42",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states 0.6 ha tree-cover loss and explicitly says legality, cause, responsibility and compliance are not established; no forbidden claims asserted. 'Loss of native forest is supported' is consistent with the MGAP context."
+ },
+ "raw": null,
+ "cost_usd": 0.008932
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F06_C_r0.json",
+ "prompt_sha256": "8cae83c1d12a99ae6025df1d8af0f48ea5757f6def6cd0cb49a3d12ba2c61737",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly lists sensors and coverage, but omits FIRMS and incorrectly describes MODIS as a satellite rather than a sensor."
+ },
+ "raw": null,
+ "cost_usd": 0.002333
+}

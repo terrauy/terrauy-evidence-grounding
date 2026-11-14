@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K03_A_r0.json",
+ "prompt_sha256": "1d590f5768411bd585548d4264ff0e9cae512909465ad947d91449dd0090f87c",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer says no detections, zero count, full sensor coverage for the period, matching the key. It does not state limitations such as small or cloud-obscured fires; \"no thermal anomalies were detected\" is a modest claim."
+ },
+ "raw": null,
+ "cost_usd": 0.0067
+}

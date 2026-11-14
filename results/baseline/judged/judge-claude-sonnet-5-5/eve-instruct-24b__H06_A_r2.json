@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H06_A_r2.json",
+ "prompt_sha256": "3bdc032c23b8278df5fa5083f8c5a01e7e74b790a1337b3d2c40898b5bb8f997",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer denies regional loss, correctly says only the asset is evaluated, and its numbers (98.8 ha, 0.4 ha, 0.5 ha threshold) match the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.010066
+}

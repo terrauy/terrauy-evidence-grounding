@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/G06_C_r1.json",
+ "prompt_sha256": "3cfa4e62c3918331115370ac6769b7acc8cfda77e00a901698da99988d350c80",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the evidence cannot determine fires before Oct 4 because it covers only Oct 4 to Nov 3, and notes that non-detection does not rule out small or obscured fires. It makes no forbidden claims."
+ },
+ "raw": null,
+ "cost_usd": 0.007396
+}

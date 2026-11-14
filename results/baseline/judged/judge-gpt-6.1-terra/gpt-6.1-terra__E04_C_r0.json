@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E04_C_r0.json",
+ "prompt_sha256": "96a8f555a8c5965d29ab9b8c0681f83d581eba38438488f6c7f3ad917032096f",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly reports no detections, the coverage gap, and the possibility of missed fires, without concluding that no fire occurred."
+ },
+ "raw": null,
+ "cost_usd": 0.002902
+}

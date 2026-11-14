@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F07_B_r2.json",
+ "prompt_sha256": "4c3da7d80cad9a28ebd462603862fb74349ad90b0cafac72c5c4cc566dc160ff",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer correctly cites JRC GFC2020 V4 as showing 0 ha of forest in 2020 and says no dataset shows forest. It states no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.007842
+}

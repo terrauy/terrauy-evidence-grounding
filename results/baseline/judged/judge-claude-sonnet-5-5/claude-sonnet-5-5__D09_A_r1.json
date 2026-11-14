@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/D09_A_r1.json",
+ "prompt_sha256": "e40829b7568b2af4efafb8e4aeb156f807f4944e8d8fc0a29099febc07942856",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports zero FIRMS detections over fully covered 4 Oct\u20133 Nov period, does not claim no fire occurred, and notes limits including missed small fires and the period boundary."
+ },
+ "raw": null,
+ "cost_usd": 0.011286
+}

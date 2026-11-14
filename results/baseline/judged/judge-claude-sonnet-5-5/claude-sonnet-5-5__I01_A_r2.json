@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I01_A_r2.json",
+ "prompt_sha256": "61265e6e7c80d58d45ce498ae4b1704258201055c0e9e8b3f763ee09d3a2d7c8",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms corroborated 4.5 ha loss under current run, treats v1 as superseded, says cause unknown. But 'most likely plantation harvest' is an unsupported causal inference, and it never explicitly says the loss is not deforestation."
+ },
+ "raw": null,
+ "cost_usd": 0.012774
+}

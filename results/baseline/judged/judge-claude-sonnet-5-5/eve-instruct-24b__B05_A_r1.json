@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/B05_A_r1.json",
+ "prompt_sha256": "b20691b103a6abb5dc8b608790c48428a4ba1a49d650de4f049f042da26e6333",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts deforestation as the cause, which the evidence does not establish. It also invents claims about the 2015 event being corroborated by JRC and about no regeneration through 2025. It ignores that 2015 predates the baseline."
+ },
+ "raw": null,
+ "cost_usd": 0.008978
+}

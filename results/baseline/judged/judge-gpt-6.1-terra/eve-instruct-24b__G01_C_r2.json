@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G01_C_r2.json",
+ "prompt_sha256": "4742ea2504fc3c066a8b3fdd5d655d352dcfdd90bf2f19b82a4eca5067896c41",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The opening asserts no significant loss rather than non-detection. It also incorrectly calls observed small patches below the detectable threshold and asserts unsupported high confidence."
+ },
+ "raw": null,
+ "cost_usd": 0.002867
+}

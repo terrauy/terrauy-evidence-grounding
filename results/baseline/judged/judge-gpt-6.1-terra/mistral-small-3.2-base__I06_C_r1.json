@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I06_C_r1.json",
+ "prompt_sha256": "a5a047269cee43681943875c07e20e9ef372dfbf2700821acfb9a47ceba5a03a",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The opening denies complete coverage, contradicting the current assessment, although the answer subsequently describes v2 coverage correctly."
+ },
+ "raw": null,
+ "cost_usd": 0.003886
+}

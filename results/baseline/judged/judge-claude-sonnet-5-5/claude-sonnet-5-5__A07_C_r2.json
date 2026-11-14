@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/A07_C_r2.json",
+ "prompt_sha256": "c66cbea66af98e24537ede7ccc8465d47628f011138261f06c88c5a569e7cede",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says deforestation cannot be determined, places the 2020 loss before the baseline, reports no events in 2021-2025, and notes that tree-cover loss is not deforestation. It makes no forbidden claims. The final sentence is truncated but accurate."
+ },
+ "raw": null,
+ "cost_usd": 0.009632
+}

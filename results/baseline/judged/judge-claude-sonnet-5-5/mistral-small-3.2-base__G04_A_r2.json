@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G04_A_r2.json",
+ "prompt_sha256": "d949efeebaec34d0d67a1ab2ade7c7974f91522057d46098a133b8c199af7c8b",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer concludes clearing is not currently ongoing, extrapolating from 2025 data to today and implying no later loss. This is an unsupported absence claim. It also calls the loss 'forest clearing' and states no limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.008786
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/F06_C_r2.json",
+ "prompt_sha256": "6bfd98658bd83657518c42fc4491c4f8c2c691d0a38176c6e1e837e7f91b861a",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Lists VIIRS S-NPP, NOAA-20, NOAA-21 and MODIS, matching the key. Notes that the evidence does not specify which MODIS satellites were used, which is a correct limit. No forbidden sensors are named."
+ },
+ "raw": null,
+ "cost_usd": 0.007242
+}

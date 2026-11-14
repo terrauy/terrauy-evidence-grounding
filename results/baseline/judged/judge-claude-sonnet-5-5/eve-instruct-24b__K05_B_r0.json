@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K05_B_r0.json",
+ "prompt_sha256": "a80d374d4d027bc0304bf6179169178df23f9b048e7950d2b7f7d744391ba177",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer gives 67.7 ha in 2020, matching the key. It also correctly states no events of 0.5 ha or more were detected in 2021-2025, and the 0.5 ha threshold counts as a limitation."
+ },
+ "raw": null,
+ "cost_usd": 0.007726
+}

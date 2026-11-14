@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H06_B_r0.json",
+ "prompt_sha256": "eb24bddb66af841b19382a9c3d7ae93a3f2ad93317a74292a0e22a0397fab465",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states evidence covers only the asset boundary and does not establish regional loss; no regional conclusions drawn. Facts (0.4 ha in 2021, 0.5 ha threshold) match reference. Limitations noted."
+ },
+ "raw": null,
+ "cost_usd": 0.00806
+}

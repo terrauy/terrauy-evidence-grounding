@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F01_A_r2.json",
+ "prompt_sha256": "7d59a0974ebafd2baaf7f1f611ba330d8bbddd3959521bdf5cecc0c4500465d8",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes detection to Hansen, distinguishes corroboration and context, and notes that the cause is unconfirmed."
+ },
+ "raw": null,
+ "cost_usd": 0.00285
+}

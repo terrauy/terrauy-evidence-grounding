@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/D09_C_r0.json",
+ "prompt_sha256": "7ae420fc7988dbe31f07ed040bcd99e6657e1f3d2b797842227702a7e8853596",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports the supported non-detection for the correct period and asset, while acknowledging that fires and burned areas could have gone undetected."
+ },
+ "raw": null,
+ "cost_usd": 0.002349
+}

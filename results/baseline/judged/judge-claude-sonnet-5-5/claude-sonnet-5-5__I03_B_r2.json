@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I03_B_r2.json",
+ "prompt_sha256": "3e70e7bed116ac0f4342bb8cd66c9e8860517f7bfd5b1ff2e943fd0c8b621e11",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer reports the v2 pending 13.5 ha 2025 candidate, notes v1 is superseded, denies persistence and deforestation conclusions, and lists limits."
+ },
+ "raw": null,
+ "cost_usd": 0.027604
+}

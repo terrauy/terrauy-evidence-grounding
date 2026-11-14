@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "evidence-unit/0.1-exp",
+  "title": "Evidence Unit (experimental, EVIDENCE-GROUNDING-001)",
+  "description": "Minimal structure used ONLY to test whether explicit assessment, observability and machine-checkable conclusion constraints reduce unsupported conclusions by EO agents. Not a production schema: no signatures, receipts, MCP or billing.",
+  "type": "object",
+  "required": ["unit_id", "version", "knowledge_at", "asset_reference", "claim", "assessment", "observations", "observability", "supports", "does_not_establish", "source_lineage", "processing_lineage"],
+  "additionalProperties": false,
+  "properties": {
+    "unit_id": {"type": "string"},
+    "version": {
+      "type": "object", "required": ["number", "status"],
+      "properties": {
+        "number": {"type": "integer", "minimum": 1},
+        "status": {"enum": ["CURRENT", "SUPERSEDED"]},
+        "supersedes": {"type": ["string", "null"]}
+      }
+    },
+    "knowledge_at": {"type": "string", "format": "date", "description": "Evidence available as of this date."},
+    "asset_reference": {
+      "type": "object", "required": ["id", "type"],
+      "properties": {"id": {"type": "string", "description": "Anonymized label; never a private identifier or geometry."}, "type": {"type": "string"}, "area_ha": {"type": ["number", "null"]}}
+    },
+    "claim": {
+      "type": "object", "required": ["type", "statement", "interval", "scope"],
+      "properties": {
+        "type": {"enum": ["tree_cover_loss", "thermal_detection"]},
+        "statement": {"type": "string"},
+        "interval": {"type": "string", "description": "ISO 8601 start/end"},
+        "scope": {"type": "string"}
+      }
+    },
+    "assessment": {
+      "type": "object", "required": ["status"],
+      "properties": {
+        "status": {"enum": ["SUPPORTED", "CONTRADICTED", "NOT_SUPPORTED", "NOT_DETECTED", "INSUFFICIENT_EVIDENCE", "PENDING_CORROBORATION"]},
+        "reasons": {"type": "array", "items": {"enum": ["missing_coverage", "temporal_gap", "unobservable", "source_unavailable", "not_calibrated", "conflicting"]}},
+        "context": {"type": "string"},
+        "not_covered": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "observations": {"type": "array", "items": {"type": "object", "required": ["source", "observed"]}},
+    "observability": {"type": "object"},
+    "supports": {"type": "array", "items": {"type": "string"}},
+    "does_not_establish": {
+      "type": "array",
+      "items": {"type": "object", "required": ["code", "text"], "properties": {"code": {"type": "string"}, "text": {"type": "string"}}}
+    },
+    "source_lineage": {"type": "array", "items": {"type": "object", "required": ["provider", "dataset", "version"]}},
+    "processing_lineage": {"type": "object", "required": ["engine", "version"]}
+  }
+}

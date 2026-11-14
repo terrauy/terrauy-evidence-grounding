@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D06_A_r2.json",
+ "prompt_sha256": "3f66b29b81e3d47c6daae73fe64ca0f65fe0af56bee72fe716683b73f80f28bb",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "The answer reports zero detections but concludes 'confirming that no burning occurred,' treating non-detection as proof of no fire and omitting the stated limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.007104
+}

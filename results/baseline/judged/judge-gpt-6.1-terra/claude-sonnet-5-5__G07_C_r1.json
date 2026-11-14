@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/G07_C_r1.json",
+ "prompt_sha256": "b0016d212592557b06dcfed982b60977a76a6a8fb7ecb6a01b456761c2890c3a",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly distinguishes 2024 sub-threshold loss from a counted event, but unsupportedly guarantees detection of any event of at least 0.5 ha."
+ },
+ "raw": null,
+ "cost_usd": 0.002896
+}

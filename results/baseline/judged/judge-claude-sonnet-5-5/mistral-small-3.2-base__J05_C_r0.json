@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J05_C_r0.json",
+ "prompt_sha256": "5149246aaa6c2ab99ba82dd49b7b3a90172ec656a886747083ee7a512eca3ac4",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly says no contradiction, loss precedes baseline and non-forest corroborates. But 'both sources agree there was no forest in the asset' and 'by the time JRC data was collected' are slight overreach; JRC reference is 2020 vs 2020 loss timing, not stated."
+ },
+ "raw": null,
+ "cost_usd": 0.008358
+}

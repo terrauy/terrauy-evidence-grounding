@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F05_B_r1.json",
+ "prompt_sha256": "ba7a65be3aba9cd49f7a1f379240c114ca6edff9474287ed44faf1e36a46d6cb",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer falsely attributes detection to Sentinel-2 and its 30 m resolution; Hansen is the loss source. It correctly notes cause and legality are undetermined."
+ },
+ "raw": null,
+ "cost_usd": 0.002768
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E06_A_r2.json",
+ "prompt_sha256": "c2c36b894095b1d8a1971b8a96eb4d4ced31dad1b3c68a7ed36b6e7a1ffcae6f",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer concludes the property 'remained free of fires' for the covered period, treating no detection as proof of no fire. It notes the last day's gap but does not abstain or caveat detection limits."
+ },
+ "raw": null,
+ "cost_usd": 0.009014
+}

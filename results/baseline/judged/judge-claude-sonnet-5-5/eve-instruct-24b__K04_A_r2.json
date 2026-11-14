@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K04_A_r2.json",
+ "prompt_sha256": "53042234e04ddc4dfc3121939c3d18e18f38990a4a6d34f8bc379a35ff4e5360",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correct no-detection conclusion with the 0.5 ha threshold, but 'confirms no changes post-2020' overstates, since sub-threshold changes may be missed."
+ },
+ "raw": null,
+ "cost_usd": 0.008852
+}

@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F07_A_r2.json",
+ "prompt_sha256": "8bfda6b09cb61e3a29769109d648c32cf221991e3603994575afc9b44e88e4be",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly identifies JRC\u2019s 0 ha result and distinguishes Hansen\u2019s 2000 tree cover and loss records from a direct 2020 forest measurement."
+ },
+ "raw": null,
+ "cost_usd": 0.002872
+}

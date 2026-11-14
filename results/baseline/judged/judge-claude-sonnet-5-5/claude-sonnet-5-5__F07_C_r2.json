@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F07_C_r2.json",
+ "prompt_sha256": "6a364971751f59ae99c0d5395022dd22a625ac4968dac62d4048c9c74219a128",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says no dataset shows 2020 forest; JRC reports 0 ha; Hansen shows only 2000 tree cover and earlier losses. Notes 0.5 ha threshold and no compliance finding. The inference that trees existed before 2020 is derivable from the facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008648
+}

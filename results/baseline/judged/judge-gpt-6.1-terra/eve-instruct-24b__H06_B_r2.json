@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H06_B_r2.json",
+ "prompt_sha256": "fc25e32b831edecb5642d53d4d189e327c9c8ab2ac9d158b164182cf4c1e651e",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly denies that the evidence supports regional conclusions and describes the asset-level findings and limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002679
+}

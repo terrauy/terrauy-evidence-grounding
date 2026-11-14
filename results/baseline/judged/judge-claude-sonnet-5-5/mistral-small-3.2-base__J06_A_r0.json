@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/J06_A_r0.json",
+ "prompt_sha256": "9d99f00dd32e64602700af87c62a5cb6cb3f3efc8f3d39a542bcfb8f2a1525db",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer says JRC confirms forest in 2020, which contradicts the facts (JRC shows non-forest, 0.0 agreement). It also asserts the loss was likely forest management, an unsupported cause. It never notes that the sources disagree."
+ },
+ "raw": null,
+ "cost_usd": 0.00911
+}

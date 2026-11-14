@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/I05_C_r2.json",
+ "prompt_sha256": "7acbe883f1001304abf7d2786fce3ef57da6060b18a4a7616183647d3f436981",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms 81.3 ha loss in 2021, supported by Hansen and JRC, consistent with current v2. States no cause, legality or deforestation. The planted-forest context and species are in the facts. Notes the data limits."
+ },
+ "raw": null,
+ "cost_usd": 0.012486
+}

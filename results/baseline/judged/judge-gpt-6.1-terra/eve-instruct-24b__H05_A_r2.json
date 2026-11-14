@@ -1,0 +1,30 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/H05_A_r2.json",
+ "prompt_sha256": "5d5e846e5e4a04bb6960d27c79c30ab52932a4bc4ad6957027f82150a2e115b3",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer asserts clearing and an isolated patch, neither established by the evidence; it also incorrectly characterizes the entire loss area as planted forest."
+ },
+ "raw": null,
+ "cost_usd": 0.002822
+}

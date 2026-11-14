@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/I03_A_r2.json",
+ "prompt_sha256": "f308cc79fa622426d087f528df9e13eb615f87b7161cd2649c3b5c2bf36fd3ad",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer affirms loss of 13.5 ha in 2025 but says the data was 'corroborated', contradicting the PENDING_CORROBORATION status. It misreads JRC 98% agreement as corroboration and omits the pending caveat."
+ },
+ "raw": null,
+ "cost_usd": 0.010942
+}

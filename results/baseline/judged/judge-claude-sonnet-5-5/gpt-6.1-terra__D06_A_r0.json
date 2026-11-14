@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/D06_A_r0.json",
+ "prompt_sha256": "e292ac3e34200f6ae544dc354b53820fe92c4a563796030472ec8ce5ae128dd3",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports no FIRMS detections over a fully covered period and explicitly says this is not proof that no burning occurred. It matches the key and avoids the forbidden claim."
+ },
+ "raw": null,
+ "cost_usd": 0.007126
+}

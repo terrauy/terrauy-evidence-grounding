@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K02_C_r2.json",
+ "prompt_sha256": "19e8d885134c2929b9608cb15c402590030c186c6d66abd3cb7c0c521f8471ce",
+ "parsed": {
+  "stance": "PENDING",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms the 2025 candidate with the correct area and pending status, and explains relevant evidence limitations."
+ },
+ "raw": null,
+ "cost_usd": 0.002496
+}

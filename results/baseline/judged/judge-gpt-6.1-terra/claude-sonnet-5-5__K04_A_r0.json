@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K04_A_r0.json",
+ "prompt_sha256": "05fe9cdf25ab041927323317fe1b4bfb521e8515957bc752cb8cc5d194458fe1",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer incorrectly claims no explicit detection result exists, despite the NOT_DETECTED status and stated finding of no qualifying event."
+ },
+ "raw": null,
+ "cost_usd": 0.002337
+}

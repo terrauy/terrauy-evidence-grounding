@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/J02_A_r2.json",
+ "prompt_sha256": "06cc5405e7a07efe37ccbc3dce3501a76a88d8eb17c562dc580dd2f688c60690",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer claims JRC corroborates the loss and meets the 50% threshold, but JRC agreement is 0.0. It affirms loss as confirmed, contradicting the key. It also invents 'high confidence'. The 0.5 ha minimum is mentioned correctly."
+ },
+ "raw": null,
+ "cost_usd": 0.009302
+}

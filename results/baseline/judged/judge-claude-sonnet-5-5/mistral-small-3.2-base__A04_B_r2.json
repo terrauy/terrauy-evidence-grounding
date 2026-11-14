@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/A04_B_r2.json",
+ "prompt_sha256": "e0a483fcfbc22603c5669e86fefeae1542742a7685006fb6e4d49b71773f7b5f",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "hedged"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Opens by asserting deforestation occurred, which is forbidden, though it later says land-use change is not established (self-contradictory). Causes are only hedged. The 0.7 ha figure is correct, and the limitation is mentioned."
+ },
+ "raw": null,
+ "cost_usd": 0.009286
+}

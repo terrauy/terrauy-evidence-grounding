@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K08_B_r1.json",
+ "prompt_sha256": "dfadb12160eaabcb68660c8a0e89c9110b5675e3599c4c67b56bfaea1d3b42fc",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Gives 81.3 ha of 3,643.5 ha (~2.2%), matching key; planted/outside-forest split and sub-0.5 ha patches match facts; notes cause and legality undetermined."
+ },
+ "raw": null,
+ "cost_usd": 0.01088
+}

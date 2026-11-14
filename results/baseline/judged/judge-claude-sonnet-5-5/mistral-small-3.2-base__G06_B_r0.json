@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G06_B_r0.json",
+ "prompt_sha256": "265b5c170f09b5a011556426d56fa62bc550fcffe782f28af2592cfde7d9edbc",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "The answer extends the evidence, which covers only 2026-10-04 to 2026-11-03, to the two weeks before 2026-10-04, claiming no detections and full sensor coverage there. It does not abstain, though it notes detection limits."
+ },
+ "raw": null,
+ "cost_usd": 0.007506
+}

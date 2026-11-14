@@ -1,0 +1,42 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/A02_A_r2.json",
+ "prompt_sha256": "fdceb6f28bdb45cf5c1b519adcf61c98efb4b5b9b303e4b9b64fc5a08405b04b",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   },
+   {
+    "index": 4,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Answer says 'forest was cleared', asserting deforestation/clearing, which the evidence doesn't establish. Numbers correct. No limits stated; only mentions corroboration and minimum event area as criteria, not as limits on what's established."
+ },
+ "raw": null,
+ "cost_usd": 0.011186
+}

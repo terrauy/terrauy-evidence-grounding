@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/K03_A_r1.json",
+ "prompt_sha256": "ebbf8616cd2afc81d35ca8b1122270067ea80df09bf480d9f85078e2a46f2cfd",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers no detections, all four sensors fully covering the period, and notes small-fire and footprint caveats; consistent with the key. The area-null remark is a harmless absence statement."
+ },
+ "raw": null,
+ "cost_usd": 0.009814
+}

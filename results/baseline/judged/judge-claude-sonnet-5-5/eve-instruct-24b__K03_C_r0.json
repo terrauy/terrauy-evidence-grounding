@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K03_C_r0.json",
+ "prompt_sha256": "132839b3bc477f80fd32c14f1f87778c8f0bdeaa5c849a64c402aa53f8788e17",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says no detections occurred across all four sensors for the full period, matching the key. It adds the caveat that small, short or cloud-obscured fires may be missed, which is supported by the reference facts. It does not state that coverage was complete for every day, but it does say all sensors observed the entire period."
+ },
+ "raw": null,
+ "cost_usd": 0.007038
+}

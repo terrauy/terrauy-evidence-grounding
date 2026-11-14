@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D06_C_r2.json",
+ "prompt_sha256": "ae7ea9842aebf08ba5201254123ac175b3875e5c9bc169eab1448768ad503177",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports zero thermal detections for the correct property and period, while explicitly noting that undetected fires remain possible."
+ },
+ "raw": null,
+ "cost_usd": 0.002329
+}

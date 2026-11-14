@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K04_C_r1.json",
+ "prompt_sha256": "3b4414695e530d0ef768540d7a7cf4dcca7bba332a1828511113c4376277b46e",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer correctly says no event of 0.5 ha or more was detected for 2021-2025. It adds the unsupported claim that 'no detectable changes were observed afterward', which goes beyond the 0.5 ha threshold. It mentions the 0.5 ha threshold, but not the sub-threshold or edge-change caveat."
+ },
+ "raw": null,
+ "cost_usd": 0.007306
+}

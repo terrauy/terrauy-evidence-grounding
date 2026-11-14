@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/G02_B_r1.json",
+ "prompt_sha256": "a2df92af23372db6986c372a2ed85eea94a82421ff5efdd4e73d24c87ba38b85",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly dates the loss before the cutoff, but treats the JRC map\u2019s zero forest classification as confirmation that no forest existed."
+ },
+ "raw": null,
+ "cost_usd": 0.002782
+}

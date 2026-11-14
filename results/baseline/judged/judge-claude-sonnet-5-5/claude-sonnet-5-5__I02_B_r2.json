@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I02_B_r2.json",
+ "prompt_sha256": "986697c415f34c72533959ec49af76b0492425c913193ddeef85dbcc0ba00f1c",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer uses current v2, says JRC contradicts Hansen loss, explicitly says neither loss nor its absence is established. The trailing 'Version 1 (2020)' fragment is truncated and does not assert superseded status."
+ },
+ "raw": null,
+ "cost_usd": 0.012772
+}

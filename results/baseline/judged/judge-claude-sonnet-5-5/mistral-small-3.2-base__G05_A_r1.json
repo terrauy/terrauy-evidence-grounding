@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/G05_A_r1.json",
+ "prompt_sha256": "a689f43b0175c70e446eeea1b257510591558f81d834961ea898af232fdae3ad",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Answer says loss is 'confirmed but not persistent', contradicting PENDING_CORROBORATION status; corroboration needs a later year. It correctly denies persistence, but wrongly asserts the loss is corroborated/confirmed."
+ },
+ "raw": null,
+ "cost_usd": 0.007998
+}

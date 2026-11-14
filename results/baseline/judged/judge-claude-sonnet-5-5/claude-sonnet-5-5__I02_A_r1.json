@@ -1,0 +1,34 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I02_A_r1.json",
+ "prompt_sha256": "35613390d5f6b623957b95273fb7b07075a803528f9d263ac06180b029b1e3a1",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "asserted"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "Answer affirms loss as confirmed by the latest run, but JRC shows 0.0 agreement (non-forest), so the status is CONTRADICTED. It misstates JRC as 100% forest and invents harvesting and replanting causes."
+ },
+ "raw": null,
+ "cost_usd": 0.012686
+}

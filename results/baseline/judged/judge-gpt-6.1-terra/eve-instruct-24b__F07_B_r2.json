@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F07_B_r2.json",
+ "prompt_sha256": "3d3da0e277b110b55232b17712f8a1e8979ea640e36e185821a52c5bf48fc56d",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": false,
+  "rationale": "Correctly attributes the 0 ha forest observation in 2020 to JRC GFC2020 V4 and denies forest presence."
+ },
+ "raw": null,
+ "cost_usd": 0.002687
+}

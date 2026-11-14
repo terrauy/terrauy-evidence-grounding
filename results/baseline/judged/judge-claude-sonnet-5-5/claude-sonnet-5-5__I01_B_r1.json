@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/I01_B_r1.json",
+ "prompt_sha256": "2011fba95ffec9510bc4af958492b88c0222e3d0301ba71e50f920a0fdbc34a4",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "absent"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": true,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Affirms confirmation under current v2, correctly notes v1 was superseded, and explicitly states the evidence does not show deforestation. All numbers match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.012432
+}

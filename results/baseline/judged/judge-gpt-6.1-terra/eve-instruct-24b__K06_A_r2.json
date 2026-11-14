@@ -1,0 +1,21 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/K06_A_r2.json",
+ "prompt_sha256": "730aa307759c51559473904d78f4045bee6c22a5422c7ede5717e79a98b93981",
+ "parsed": {
+  "stance": "AFFIRMS",
+  "forbidden": [],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": false,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": true,
+  "rationale": "Incorrectly treats 2022 as the later observed year and subtracts excluded patches from the 0.6 ha event, yielding an unsupported 0.4 ha."
+ },
+ "raw": null,
+ "cost_usd": 0.002705
+}

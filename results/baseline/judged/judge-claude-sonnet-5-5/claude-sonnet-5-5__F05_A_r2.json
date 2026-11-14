@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "claude-sonnet-5-5/F05_A_r2.json",
+ "prompt_sha256": "0a3cd9fa01a7df1762992449d910191866e58c9bd745c7b3a13098bb7589c995",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": true,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly attributes the loss to Hansen/UMD and does not claim Sentinel-2 was used. It adds an unsupported claim that 30 m resolution is typical of Landsat, a fact outside the evidence. It hedges on the sensor, but the stance is effectively not Sentinel-2."
+ },
+ "raw": null,
+ "cost_usd": 0.00874
+}

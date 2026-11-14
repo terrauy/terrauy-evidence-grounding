@@ -1,0 +1,30 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/H01_A_r1.json",
+ "prompt_sha256": "5c155545442cb2e96af165aa04d47cb8d476cff94577eeff6e76c5132424cefc",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answers No with correct 81.3 ha / 2.23%, correctly sums sub-threshold loss to about 3.3%, and states loss does not establish cause or permanent clearing."
+ },
+ "raw": null,
+ "cost_usd": 0.021854
+}

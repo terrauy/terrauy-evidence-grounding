@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/D07_C_r1.json",
+ "prompt_sha256": "6e3331afb1fdab4384045d5e9e6f347f000b0a37711b0aea91bfe7a79f944e59",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer reports a non-detection by FIRMS across the whole asset and period, and explicitly says it cannot certify that no fire occurred. It notes small, short, cool or cloud-obscured fires may be missed."
+ },
+ "raw": null,
+ "cost_usd": 0.007372
+}

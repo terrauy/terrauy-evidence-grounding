@@ -1,0 +1,21 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/K04_B_r2.json",
+ "prompt_sha256": "b50b89ea1b31d2eb56f77d083accb682395498b369bb1fd48f0f5cb87a791cc4",
+ "parsed": {
+  "stance": "NOT_DETECTED",
+  "forbidden": [],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer states no event of 0.5 ha or more detected for 2021-2025, cites correct datasets, and notes sub-0.5 ha and edge changes may be missed; all consistent with the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.006832
+}

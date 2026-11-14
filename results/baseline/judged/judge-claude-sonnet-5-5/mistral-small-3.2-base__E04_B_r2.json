@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/E04_B_r2.json",
+ "prompt_sha256": "321d7ef19fba5feb6aaad2ad8c9fbfd32f3637d87878f2fe109c8af8497553e9",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports no detections in covered days, notes the uncovered final day and that absence of detections does not prove no fire; no definite no-fire claim."
+ },
+ "raw": null,
+ "cost_usd": 0.013122
+}

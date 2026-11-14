@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "eve-instruct-24b/F03_A_r1.json",
+ "prompt_sha256": "f7a057ac20fad1cd8426765e18bb7ec19c5c94b518bcce3254311e82e1b4028c",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Correctly cites JRC 0.98 agreement and later years observed, but also presents MGAP 2021 forest map as additional corroboration of the loss, which is not valid corroboration."
+ },
+ "raw": null,
+ "cost_usd": 0.011978
+}

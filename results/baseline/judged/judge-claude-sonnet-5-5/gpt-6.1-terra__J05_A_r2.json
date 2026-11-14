@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J05_A_r2.json",
+ "prompt_sha256": "8df4b5a35526c360c2f78d6f40baf07ad2dec91eca6f6a4c20d5ec12cde5a220",
+ "parsed": {
+  "stance": "DENIES",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": true,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says 'Not necessarily' (no contradiction) and notes historical loss before baseline, but misses that non-forest at 2020 corroborates the loss, and claims it 'does not corroborate', which is at odds with the key. It also adds speculation about timing and definitions."
+ },
+ "raw": null,
+ "cost_usd": 0.008438
+}

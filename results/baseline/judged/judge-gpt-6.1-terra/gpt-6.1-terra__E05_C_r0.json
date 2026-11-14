@@ -1,0 +1,26 @@
+{
+ "judge": "judge-gpt-6.1-terra",
+ "judge_model_returned": "gpt-6.1-terra",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/E05_C_r0.json",
+ "prompt_sha256": "8247d206ca3763de78402393da76de1b78596e70a91b0b80eff5219569aa2446",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Reports zero detections in covered data, identifies the S-NPP coverage gap, and notes that no detections do not prove no fire."
+ },
+ "raw": null,
+ "cost_usd": 0.00257
+}

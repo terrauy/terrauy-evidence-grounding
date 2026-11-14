@@ -1,0 +1,26 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "mistral-small-3.2-base/F07_C_r1.json",
+ "prompt_sha256": "282ef70d39f841361e04c70081b585c4497952f924a21899b3a17eb6714bdf20",
+ "parsed": {
+  "stance": "OTHER",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "asserted"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": false,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": false,
+  "mentions_limitation": false,
+  "rationale": "The answer names JRC GFC2020 as the dataset showing forest in 2020, which is a misattribution. It then notes 0.0 ha only as 'might be no forest', so the contradiction is hedged and the main claim stays affirmative."
+ },
+ "raw": null,
+ "cost_usd": 0.008206
+}

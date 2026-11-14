@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/B07_A_r1.json",
+ "prompt_sha256": "8541dcba8aeca7d62552f3d6bbfb4e5201481f5a118227a776030f48fea439d1",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "hedged"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the cause cannot be determined. It lists harvest and storm only as possibilities. The 4.5 ha and 4.3 ha planted-forest figures match the reference facts. It asserts no deforestation, legality or actor."
+ },
+ "raw": null,
+ "cost_usd": 0.009
+}

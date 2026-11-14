@@ -1,0 +1,38 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/J03_B_r0.json",
+ "prompt_sha256": "94d8e4b432117c208c7cbb5fe3f7aa06797461a68a37067912de7f540a50ec46",
+ "parsed": {
+  "stance": "CONTRADICTED",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "negated"
+   },
+   {
+    "index": 2,
+    "verdict": "negated"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": false,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "The answer says the sources disagree, with JRC agreement at 49% against the 50% threshold. It states that neither loss nor its absence is established, and it does not establish deforestation. Numbers match the reference facts."
+ },
+ "raw": null,
+ "cost_usd": 0.008842
+}

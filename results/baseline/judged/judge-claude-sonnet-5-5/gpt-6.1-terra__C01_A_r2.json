@@ -1,0 +1,39 @@
+{
+ "judge": "judge-claude-sonnet-5-5",
+ "judge_model_returned": "claude-sonnet-5-5",
+ "judge_version": "judge-v2",
+ "response_file": "gpt-6.1-terra/C01_A_r2.json",
+ "prompt_sha256": "f60150738dc6133d8bb66abdb32840271e6d29f620045d2a4cfa6edd8a53311a",
+ "parsed": {
+  "stance": "CANNOT_DETERMINE",
+  "forbidden": [
+   {
+    "index": 0,
+    "verdict": "negated"
+   },
+   {
+    "index": 1,
+    "verdict": "absent"
+   },
+   {
+    "index": 2,
+    "verdict": "absent"
+   },
+   {
+    "index": 3,
+    "verdict": "absent"
+   }
+  ],
+  " other_unsupported": false,
+  "other_unsupported": false,
+  "source_attribution_correct": null,
+  "scope_respected": true,
+  "uses_current_version": null,
+  "abstained": true,
+  "factually_consistent": true,
+  "mentions_limitation": true,
+  "rationale": "Answer says legality is not established, cites correct figures (81.3 ha, 98%, 68.1 ha planted, 13.2 ha outside), and notes missing permits and cause. No actor, compliance, or deforestation claim."
+ },
+ "raw": null,
+ "cost_usd": 0.020488
+}
