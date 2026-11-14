@@ -32,6 +32,7 @@ There are no external submissions yet. `v0.1/` is empty.
 | `stats` | Number of responses, empty responses, truncated responses |
 | `metrics.core` | Core detector score: deterministic, screening only |
 | `metrics.reference` | Reference evaluation, or `null` when the judges were not run |
+| `reference_evaluation` | Who ran the two reference judges and when: the submitter, or the maintainers (for example under the Early Evaluation Program) |
 | `declarations` | Contamination statement, tuning on TEGB, right to share the outputs |
 
 No API keys, tokens or endpoint credentials belong in any of these files. The validator rejects anything that looks like a credential.

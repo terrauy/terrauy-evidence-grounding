@@ -64,7 +64,9 @@ Results sent by people outside the project, each with its raw model outputs and 
 
 ### Reference evaluation (comparable with the official baseline)
 
-Same instrument as the official baseline. The judge verdicts are run by the submitter with their own keys, so they are self-reported; the validator checks that every verdict belongs to the submitted answer and recomputes every metric.
+Same instrument as the official baseline. The judges are run either by the submitter with their own keys (self-reported verdicts) or by the maintainers on the submitted answers; the table says which. In both cases the validator checks that every verdict belongs to the submitted answer and recomputes every metric.
+
+For the first five valid external TEGB v0.1 submissions, TerraUY may provide the reference LLM-judge evaluation at no cost to the submitting team, subject to the Early Evaluation Program limits. See [RUN_YOUR_MODEL.md](RUN_YOUR_MODEL.md#early-evaluation-program).
 
 <!-- TEGB:community_reference -->
 No external submissions yet.
@@ -97,7 +99,7 @@ For orientation, the same detector-only rate for the official baseline models. C
 ## How to submit
 
 1. Fork the repository and run your model: `python -m tegb run ...` (see [RUN_YOUR_MODEL.md](RUN_YOUR_MODEL.md)).
-2. Score it: `python -m tegb score results/my-model`. Optionally add the reference evaluation: `python -m tegb judge results/my-model`.
+2. Score it: `python -m tegb score results/my-model`. Optionally add the reference evaluation yourself (`python -m tegb judge results/my-model`), or request it in the pull request under the Early Evaluation Program.
 3. Package it: `python -m tegb submit results/my-model ...`. This writes `submissions/v0.1/<id>/`.
 4. Open a pull request that adds only that folder. Use the "TEGB model submission" template.
 5. CI validates the submission: hashes, completeness, prompt identity and recomputed metrics. It never runs a model.

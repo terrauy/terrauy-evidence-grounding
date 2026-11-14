@@ -6,6 +6,7 @@
 - Submission format `tegb-submission/1` (`submissions/`), validator, pull-request and issue templates, CI that validates submissions without running any model.
 - `RUN_YOUR_MODEL.md`, `CONTRIBUTING.md`, leaderboard split into the official baseline and community submissions (none yet), contamination and comparability notes, `dataset/task_hashes.json`.
 - Technical report revised as a preprint manuscript: research questions, contributions, extended related work and limitations. No result changed.
+- TEGB Early Evaluation Program: for the first five valid external v0.1 submissions the maintainers may run the reference judges (`tegb unpack`, `tegb attach-reference`; `reference_evaluation` records who ran them).
 - No v0.1 task, prompt, response, judgment, label or metric changed; `analysis/reproduce.py` and the test `test_scorer_reproduces_official_baseline` verify this.
 
 ## Unreleased (documentation only)

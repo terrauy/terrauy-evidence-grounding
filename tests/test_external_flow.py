@@ -169,6 +169,39 @@ def test_reference_path_with_frozen_judgments():
         assert r.returncode == 1 and "judge prompt hash mismatch" in r.stdout
 
 
+def test_maintainer_adds_reference_evaluation_to_core_only_submission():
+    """Early Evaluation Program path: a third party sends the core score only; the maintainers unpack the answers,
+    run the reference judges (here the frozen verdicts stand in for the paid calls) and attach the result."""
+    key = "gpt-6.1-terra"
+    with tempfile.TemporaryDirectory() as tmp:
+        tmp = Path(tmp)
+        res = tmp / "theirs"
+        shutil.copytree(ROOT / "results" / "baseline" / "raw" / key, res / "raw" / key)
+        r = tegb("submit", str(res), *SUBMIT_META, "--out", str(tmp / "submissions" / "v0.1"))
+        folder = tmp / "submissions" / "v0.1" / "fake-model"
+        assert r.returncode == 0 and not (folder / "judgments.jsonl").exists(), r.stdout + r.stderr
+        assert json.loads((folder / "submission.json").read_text(encoding="utf-8"))["metrics"]["reference"] is None
+        ours = tmp / "ours"
+        r = tegb("unpack", str(folder), "--output", str(ours))
+        assert r.returncode == 0 and len(list((ours / "raw" / "fake-model").glob("*.json"))) == 738, r.stdout + r.stderr
+        r = tegb("attach-reference", str(folder), "--results", str(ours))
+        assert r.returncode != 0 and "not complete" in (r.stdout + r.stderr)  # the judges have not run yet
+        for j in ("judge-claude-sonnet-5-5", "judge-gpt-6.1-terra"):
+            (ours / "judged" / j).mkdir(parents=True)
+            for p in (ROOT / "results" / "baseline" / "judged" / j).glob(f"{key}__*.json"):
+                shutil.copy(p, ours / "judged" / j / p.name.replace(f"{key}__", "fake-model__"))
+        r = tegb("attach-reference", str(folder), "--results", str(ours))
+        assert r.returncode == 0, r.stdout + r.stderr
+        assert tegb("validate", str(folder)).returncode == 0
+        sub = json.loads((folder / "submission.json").read_text(encoding="utf-8"))
+        S = json.loads((ROOT / "results" / "baseline" / "summary_main.json").read_text(encoding="utf-8"))
+        assert abs(sub["metrics"]["reference"]["by_condition"]["RAW"]["ucr"] - S["rates"][key]["A"]["uc"]) < 1e-5
+        assert sub["reference_evaluation"]["evaluated_by"] == "TerraUY (TEGB Early Evaluation Program)"
+        r = tegb("leaderboard", "--submissions", str(folder.parent), "--blocks-dir", str(tmp / "blocks"))
+        block = (tmp / "blocks" / "community_reference.md").read_text(encoding="utf-8")
+        assert r.returncode == 0 and "Early Evaluation Program" in block and "Judges run by" in block, r.stdout + r.stderr
+
+
 LOCAL_MODEL = '''import json, sys
 req = json.load(sys.stdin)
 assert "Analyst question" in req["user"] and req["max_tokens"] == 600

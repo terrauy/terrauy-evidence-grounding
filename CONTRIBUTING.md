@@ -12,6 +12,10 @@ TEGB v0.1 is a research preview published to be checked. Criticism, replications
 | **Adapter** for another way of serving models | Pull request to `tegb/adapters.py` with a test in `tests/test_external_flow.py` |
 | **New task proposal** | Open an issue with the "New task proposal" template |
 
+## Early Evaluation Program
+
+For the first five valid external TEGB v0.1 submissions, TerraUY may provide the reference LLM-judge evaluation at no cost to the submitting team, subject to the Early Evaluation Program limits. The steps and limits are in [RUN_YOUR_MODEL.md](RUN_YOUR_MODEL.md#early-evaluation-program).
+
 ## Rules that keep results comparable
 
 1. **v0.1 is frozen.** Tasks, answer keys, prompts, the baseline responses, judgments, labels and metrics of v0.1 do not change. A confirmed error is documented in `LIMITATIONS.md` and fixed in a later version.

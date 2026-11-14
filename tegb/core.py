@@ -346,6 +346,9 @@ def validate_submission(folder: Path, allow_mock: bool = False) -> dict:
                 break
         if not errors and (set(seen) != want or any(v != set(REFERENCE_JUDGES) for v in seen.values())):
             errors.append("judgments.jsonl must contain both reference judges for every response")
+        who = (sub.get("reference_evaluation") or {}).get("evaluated_by")
+        if not isinstance(who, str) or not who.strip():
+            errors.append("reference_evaluation.evaluated_by is required when judgments.jsonl is present (who ran the judges)")
         if not errors:
             judgments = judgments_from_rows(jrows)
     elif sub["metrics"].get("reference") is not None:

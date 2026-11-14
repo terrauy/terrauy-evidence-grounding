@@ -6,6 +6,12 @@ This guide takes a model you can call (hosted API, local server or your own code
 install  →  configure a model adapter  →  run TEGB  →  score  →  generate a submission
 ```
 
+**In short:**
+- TEGB measures whether a model's conclusion stays within what the given Earth-observation evidence supports. It does not measure tool use or retrieval.
+- `tegb score` gives two results. Only the **reference evaluation** (two LLM judges) is comparable with the official baseline. The free **core detector score** is a screening and pipeline check.
+- You submit by pull request: one folder with your raw outputs and a `submission.json`.
+- For the first five valid external TEGB v0.1 submissions, TerraUY may provide the reference LLM-judge evaluation at no cost to the submitting team, subject to the Early Evaluation Program limits. See [Early Evaluation Program](#early-evaluation-program).
+
 You do not need access to the providers used by the official baseline. You need Python 3.11 or later and a way to call your model. The tools use only the Python standard library.
 
 ## 1. Install
@@ -15,6 +21,8 @@ git clone https://github.com/terrauy/terrauy-evidence-grounding.git
 cd terrauy-evidence-grounding
 python -m tegb --help
 ```
+
+The commands below are written for a POSIX shell. In PowerShell, write each command on one line or replace the trailing `\` with a backtick.
 
 Optional: `pip install -e .` gives you the same commands as `tegb ...` instead of `python -m tegb ...`.
 
@@ -93,7 +101,7 @@ You get two results. They are different instruments and must not be confused.
 | | Core detector score | Reference evaluation |
 |---|---|---|
 | Instrument | `harness/detect.py`: public regular-expression rules | Two blind LLM judges (`judge-v2`) plus the detector, merged by `harness/evaluate.py` |
-| Cost | Free, offline, deterministic | Your own Anthropic and OpenAI keys. In the v0.1 baseline a judgment cost about USD 0.0065, so about USD 10 per model; check current prices. |
+| Cost | Free, offline, deterministic | Your own Anthropic and OpenAI keys. In the v0.1 baseline a judgment cost about USD 0.0065, so about USD 10 per model; check current prices. For the first five external submissions TerraUY may run it for you (Early Evaluation Program). |
 | Metrics | Unsupported conclusion rate by the detector, constraint violations, scope errors, per-category rates | UCR, Constraint Violations, Observability Errors, Scope Errors, Factual Accuracy, per-category UCR |
 | Comparable with the official baseline | **No.** Screening and pipeline check only. | **Yes.** Same instrument as the official baseline. |
 
@@ -109,6 +117,8 @@ python -m tegb score results/my-model
 ```
 
 The reference judges are `claude-sonnet-5-5` and `gpt-6.1-terra`, as in the official baseline. Judge models can change over time, so the judging date is part of the result.
+
+If you prefer not to run the judges yourself, submit with the core score only and ask for the reference evaluation in your pull request: see the [Early Evaluation Program](#early-evaluation-program).
 
 ## 5. Generate a submission
 
@@ -134,6 +144,23 @@ python -m tegb validate submissions/v0.1/<id>      # PASS or FAIL, with reasons
 ```
 
 CI runs the same validation on the pull request. It never runs a model.
+
+## Early Evaluation Program
+
+For the first five valid external TEGB v0.1 submissions, TerraUY may provide the reference LLM-judge evaluation at no cost to the submitting team, subject to the Early Evaluation Program limits.
+
+How it works:
+1. Run your model and submit with the core score only (steps 1 to 5, without `tegb judge`).
+2. In the pull request, tick "I request the reference evaluation under the Early Evaluation Program".
+3. If the submission is eligible, the maintainers run the two reference judges on your submitted answers and add the verdicts and the reference metrics to your pull request. The leaderboard shows who ran the judges.
+4. Nothing is published without your approval: the result goes on the leaderboard only when your pull request is merged.
+
+Limits:
+- the first five valid external submissions on TEGB v0.1, normally one per team and model;
+- the submitter is a third party not related to TerraUY;
+- complete outputs (all 738 answers), `python -m tegb validate` prints `PASS`, and the model and its configuration are documented well enough to describe the result;
+- the program covers the reference judges only. It does not cover the inference cost of your model or further experiments;
+- it is a limited offer for early evaluations, not a permanent service, and it may end without notice once the five evaluations or its budget are used.
 
 ## Declarations you make
 

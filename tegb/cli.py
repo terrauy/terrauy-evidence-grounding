@@ -6,6 +6,7 @@
     python -m tegb submit   results/my-model --model-name "My Model" --model-version 1.0 --provider "Me" --submitter "me"
     python -m tegb validate submissions/v0.1/my-model
     python -m tegb leaderboard                        # maintainers: regenerate the community tables
+    python -m tegb unpack / attach-reference          # maintainers: reference evaluation of a core-only submission
 
 Nothing here calls a model unless you run `tegb run` or `tegb judge` with your own endpoint or keys.
 """
@@ -248,11 +249,54 @@ def cmd_submit(a: argparse.Namespace) -> int:
                          "outputs_are_ai_generated": True},
         "notes": a.notes,
     }
+    if judgments is not None:
+        sub["reference_evaluation"] = {"evaluated_by": "submitter", "date": datetime.now(UTC).date().isoformat()}
     (folder / "submission.json").write_text(json.dumps(sub, indent=1, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
     rep = core.validate_submission(folder, allow_mock=a.allow_mock)
     print(f"submission written to {folder}")
     print("reference evaluation:", "included" if judgments is not None else f"not included ({why})")
     print("validation:", rep["result"], *rep["errors"], sep="\n  ")
+    return 0 if rep["result"] == "PASS" else 1
+
+
+# ---- maintainers: reference evaluation of a submission that arrived with the core score only ----------
+def cmd_unpack(a: argparse.Namespace) -> int:
+    """Rebuild a results directory from a submission folder so the reference judges can be run on it."""
+    folder, out = Path(a.submission), Path(a.output)
+    _refuse_frozen(out)
+    rep = core.validate_submission(folder, allow_mock=a.allow_mock)
+    if rep["result"] != "PASS":
+        raise SystemExit(f"submission does not validate: {rep['errors']}")
+    key = json.loads((folder / "submission.json").read_text(encoding="utf-8"))["submission_id"]
+    raw = out / "raw" / key
+    raw.mkdir(parents=True, exist_ok=True)
+    for r in core.read_jsonl(folder / "responses.jsonl"):
+        r["model_key"] = key
+        (raw / f"{r['task_id']}_{r['condition']}_r{r['run']}.json").write_text(json.dumps(r, indent=1, ensure_ascii=False), encoding="utf-8")
+    print(f"unpacked {len(list(raw.glob('*.json')))} responses to {raw}; next: python -m tegb judge {out}")
+    return 0
+
+
+def cmd_attach_reference(a: argparse.Namespace) -> int:
+    """Add the reference judges' verdicts (run on the unpacked responses) to a submission folder."""
+    folder, results = Path(a.submission), Path(a.results)
+    sub = json.loads((folder / "submission.json").read_text(encoding="utf-8"))
+    key = sub["submission_id"]
+    responses, judgments, why = core.read_results(results, key)
+    if judgments is None:
+        raise SystemExit(f"reference judgments are not complete: {why}")
+    submitted = {(r["task_id"], r["condition"], r["run"]): r["text"] for r in core.read_jsonl(folder / "responses.jsonl")}
+    judged = {(r["task_id"], r["condition"], r["run"]): r["text"] for r in responses}
+    if submitted != judged:
+        raise SystemExit("the judged responses are not the submitted responses; unpack the submission again")
+    core.write_jsonl(core.slim_judgments(judgments), folder / "judgments.jsonl")
+    sub["hashes"]["judgments_sha256"] = core.sha256_bytes((folder / "judgments.jsonl").read_bytes())
+    sub["metrics"]["reference"] = core.score(responses, judgments, core.load_tasks())["reference"]
+    sub["reference_evaluation"] = {"evaluated_by": a.evaluated_by, "date": a.date or datetime.now(UTC).date().isoformat()}
+    (folder / "submission.json").write_text(json.dumps(sub, indent=1, ensure_ascii=False) + chr(10), encoding="utf-8", newline=chr(10))
+    rep = core.validate_submission(folder, allow_mock=a.allow_mock)
+    print(f"reference evaluation attached to {folder} (evaluated by: {a.evaluated_by})")
+    print("validation:", rep["result"], *rep["errors"], sep=chr(10) + "  ")
     return 0 if rep["result"] == "PASS" else 1
 
 
@@ -302,12 +346,12 @@ def leaderboard_blocks(subs_root: Path) -> dict[str, str]:
 
     ref = [s for s in subs if s["metrics"]["reference"]]
     if ref:
-        lines = ["| Model | Submitter | Date | Condition | UCR ↓ | Constraint Violations ↓ | Observability Errors ↓ | Scope Errors ↓ | Factual Accuracy ↑ |",
-                 "|---|---|---|---|---:|---:|---:|---:|---:|"]
+        lines = ["| Model | Submitter | Date | Judges run by | Condition | UCR ↓ | Constraint Violations ↓ | Observability Errors ↓ | Scope Errors ↓ | Factual Accuracy ↑ |",
+                 "|---|---|---|---|---|---:|---:|---:|---:|---:|"]
         for s in sorted(ref, key=lambda s: s["metrics"]["reference"]["by_condition"]["RAW"]["ucr"]):
             for cond in ("RAW", "TEXT"):
                 m = s["metrics"]["reference"]["by_condition"][cond]
-                lines.append(f"| {name(s)} | {s['submitter']['name']} | {s['date']} | {cond} | {_fp(m['ucr'])} | {_fp(m['constraint_violations'])} | "
+                lines.append(f"| {name(s)} | {s['submitter']['name']} | {s['date']} | {s['reference_evaluation']['evaluated_by']} | {cond} | {_fp(m['ucr'])} | {_fp(m['constraint_violations'])} | "
                              f"{_fp(m['observability_errors'])} | {_fp(m['scope_errors'])} | {_fp(m['factual_accuracy'])} |")
         blocks["community_reference"] = "\n".join(lines)
     else:
@@ -419,6 +463,20 @@ def main(argv: list[str] | None = None) -> int:
     v.add_argument("paths", nargs="*")
     v.add_argument("--allow-mock", action="store_true", help=argparse.SUPPRESS)
     v.set_defaults(fn=cmd_validate)
+
+    k = sp.add_parser("unpack", help="maintainers: rebuild a results directory from a submission, to run the reference judges on it")
+    k.add_argument("submission")
+    k.add_argument("--output", required=True)
+    k.add_argument("--allow-mock", action="store_true", help=argparse.SUPPRESS)
+    k.set_defaults(fn=cmd_unpack)
+
+    t = sp.add_parser("attach-reference", help="maintainers: add reference judgments to a submission that had the core score only")
+    t.add_argument("submission")
+    t.add_argument("--results", required=True, help="results directory produced by `tegb unpack` and `tegb judge`")
+    t.add_argument("--evaluated-by", default="TerraUY (TEGB Early Evaluation Program)")
+    t.add_argument("--date")
+    t.add_argument("--allow-mock", action="store_true", help=argparse.SUPPRESS)
+    t.set_defaults(fn=cmd_attach_reference)
 
     lb = sp.add_parser("leaderboard", help="maintainers: regenerate the community leaderboard blocks")
     lb.add_argument("--check", action="store_true")

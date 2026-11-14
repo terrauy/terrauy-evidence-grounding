@@ -791,6 +791,24 @@
     "string",
     "null"
    ]
+  },
+  "reference_evaluation": {
+   "type": "object",
+   "required": [
+    "evaluated_by",
+    "date"
+   ],
+   "description": "Present when judgments.jsonl is included: who ran the two reference judges.",
+   "properties": {
+    "evaluated_by": {
+     "type": "string",
+     "minLength": 1,
+     "description": "'submitter', or the maintainers when the evaluation was run for the submitter (for example under the TEGB Early Evaluation Program)."
+    },
+    "date": {
+     "type": "string"
+    }
+   }
   }
  }
 }
