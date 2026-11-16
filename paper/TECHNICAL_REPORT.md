@@ -519,28 +519,28 @@ No model provider, data provider or space agency sponsored, reviewed or endorsed
 
 Every reference was checked against its public source on 2026-11-13 (`paper/RELATED_WORK_SOURCES.md`). Works marked as preprints have no confirmed venue.
 
-- Alipour Talemi et al. Agentic AI in Remote Sensing: Foundations, Taxonomy, and Emerging Systems. WACV 2026 Workshops. arXiv:2601.01891.
-- Atrio et al. EVE: A Domain-Specific LLM Framework for Earth Intelligence. ACL 2026 Industry Track. https://aclanthology.org/2026.acl-industry.72/ · arXiv:2604.13071.
-- Bourgoin et al. (2026). Global Forest Cover 2020, version 4. European Commission, Joint Research Centre. doi:10.2905/JRC.3KATEH8.
-- Danish et al. GEOBench-VLM: Benchmarking Vision-Language Models for Geospatial Tasks. ICCV 2025. arXiv:2411.19325.
-- ESA Φ-lab. Five takeaways from the Agentic AI for Earth Observation workshop. Web article, 9 November 2026. https://philab.esa.int/five-takeaways-from-the-agentic-ai-for-earth-observation-workshop/ (accessed 2026-11-13).
-- Feng et al. Earth-Agent: Unlocking the Full Landscape of Earth Observation with Agents. ICLR 2026. arXiv:2509.23141.
-- Gao et al. Enabling Large Language Models to Generate Text with Citations. EMNLP 2023. arXiv:2305.14627.
-- Hansen, M. C. et al. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. *Science* 342: 850–853.
-- Kao et al. Towards LLM Agents for Earth Observation. Findings of ACL 2026. https://aclanthology.org/2026.findings-acl.124/
-- Kirichenko et al. AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions. NeurIPS 2025 Datasets and Benchmarks. arXiv:2506.09038.
-- Lacoste et al. GEO-Bench: Toward Foundation Models for Earth Monitoring. NeurIPS 2023 Datasets and Benchmarks. arXiv:2306.03831.
-- Li et al. AttributionBench: How Hard is Automatic Attribution Evaluation? Findings of ACL 2024. https://aclanthology.org/2024.findings-acl.886/
-- Mialon et al. GAIA: a benchmark for General AI Assistants. ICLR 2024. arXiv:2311.12983.
-- Min et al. FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation. EMNLP 2023. https://aclanthology.org/2023.emnlp-main.741/
-- Ming et al. FaithEval: Can Your Language Model Stay Faithful to Context, Even If "The Moon is Made of Marshmallows". ICLR 2025. arXiv:2410.03727.
-- Ministerio de Ganadería, Agricultura y Pesca (MGAP), Uruguay. Cartografía forestal 2021, under the Licencia de Datos Abiertos – Uruguay v0.1. https://catalogodatos.gub.uy/
-- NASA Fire Information for Resource Management System (FIRMS). https://www.earthdata.nasa.gov/data/tools/firms
-- Nguyen et al. TerraBench: Can Agents Reason Over Heterogeneous Earth-System Data? arXiv:2606.13148 (preprint).
-- Niu et al. RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models. ACL 2024. https://aclanthology.org/2024.acl-long.585/
-- Peters and Chin-Yee (2025). Generalization bias in large language model summarization of scientific research. *Royal Society Open Science* 12(4): 241776. https://doi.org/10.1098/rsos.241776
-- Shabbir et al. ThinkGeo: Evaluating Tool-Augmented Agents for Remote Sensing Tasks. arXiv:2505.23752 (preprint).
-- Singh et al. GeoLLM-Engine: A Realistic Environment for Building Geospatial Copilots. CVPR 2024 Workshops (EarthVision). arXiv:2404.15500.
-- Slonim et al. Google Earth AI Geospatial Reasoning Agent: Capabilities and a Systematic Evaluation. arXiv:2610.15750 (preprint).
-- Yao et al. τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains. ICLR 2025. arXiv:2406.12045.
-- Zheng et al. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. NeurIPS 2023 Datasets and Benchmarks. arXiv:2306.05685.
+1. Alipour Talemi et al. Agentic AI in Remote Sensing: Foundations, Taxonomy, and Emerging Systems. WACV 2026 Workshops. arXiv:2601.01891.
+2. Atrio et al. EVE: A Domain-Specific LLM Framework for Earth Intelligence. ACL 2026 Industry Track. https://aclanthology.org/2026.acl-industry.72/ · arXiv:2604.13071.
+3. Bourgoin et al. (2026). Global Forest Cover 2020, version 4. European Commission, Joint Research Centre. doi:10.2905/JRC.3KATEH8.
+4. Danish et al. GEOBench-VLM: Benchmarking Vision-Language Models for Geospatial Tasks. ICCV 2025. arXiv:2411.19325.
+5. ESA Φ-lab. Five takeaways from the Agentic AI for Earth Observation workshop. Web article, 9 November 2026. https://philab.esa.int/five-takeaways-from-the-agentic-ai-for-earth-observation-workshop/ (accessed 2026-11-13).
+6. Feng et al. Earth-Agent: Unlocking the Full Landscape of Earth Observation with Agents. ICLR 2026. arXiv:2509.23141.
+7. Gao et al. Enabling Large Language Models to Generate Text with Citations. EMNLP 2023. arXiv:2305.14627.
+8. Hansen, M. C. et al. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. *Science* 342: 850–853.
+9. Kao et al. Towards LLM Agents for Earth Observation. Findings of ACL 2026. https://aclanthology.org/2026.findings-acl.124/
+10. Kirichenko et al. AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions. NeurIPS 2025 Datasets and Benchmarks. arXiv:2506.09038.
+11. Lacoste et al. GEO-Bench: Toward Foundation Models for Earth Monitoring. NeurIPS 2023 Datasets and Benchmarks. arXiv:2306.03831.
+12. Li et al. AttributionBench: How Hard is Automatic Attribution Evaluation? Findings of ACL 2024. https://aclanthology.org/2024.findings-acl.886/
+13. Mialon et al. GAIA: a benchmark for General AI Assistants. ICLR 2024. arXiv:2311.12983.
+14. Min et al. FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation. EMNLP 2023. https://aclanthology.org/2023.emnlp-main.741/
+15. Ming et al. FaithEval: Can Your Language Model Stay Faithful to Context, Even If "The Moon is Made of Marshmallows". ICLR 2025. arXiv:2410.03727.
+16. Ministerio de Ganadería, Agricultura y Pesca (MGAP), Uruguay. Cartografía forestal 2021, under the Licencia de Datos Abiertos – Uruguay v0.1. https://catalogodatos.gub.uy/
+17. NASA Fire Information for Resource Management System (FIRMS). https://www.earthdata.nasa.gov/data/tools/firms
+18. Nguyen et al. TerraBench: Can Agents Reason Over Heterogeneous Earth-System Data? arXiv:2606.13148 (preprint).
+19. Niu et al. RAGTruth: A Hallucination Corpus for Developing Trustworthy Retrieval-Augmented Language Models. ACL 2024. https://aclanthology.org/2024.acl-long.585/
+20. Peters and Chin-Yee (2025). Generalization bias in large language model summarization of scientific research. *Royal Society Open Science* 12(4): 241776. https://doi.org/10.1098/rsos.241776
+21. Shabbir et al. ThinkGeo: Evaluating Tool-Augmented Agents for Remote Sensing Tasks. arXiv:2505.23752 (preprint).
+22. Singh et al. GeoLLM-Engine: A Realistic Environment for Building Geospatial Copilots. CVPR 2024 Workshops (EarthVision). arXiv:2404.15500.
+23. Slonim et al. Google Earth AI Geospatial Reasoning Agent: Capabilities and a Systematic Evaluation. arXiv:2610.15750 (preprint).
+24. Yao et al. τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains. ICLR 2025. arXiv:2406.12045.
+25. Zheng et al. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. NeurIPS 2023 Datasets and Benchmarks. arXiv:2306.05685.

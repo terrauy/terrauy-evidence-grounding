@@ -11,6 +11,8 @@
 
 ## Unreleased (documentation only)
 
+- Technical report: numbered reference list; web page with citation metadata at https://www.terrauy.com/en/research/tegb/paper. Parquet loading example in the README.
+
 - Added the Zenodo DOI, Hugging Face and overview-page links to the README, cards, citation file and technical report. No task, prompt, response, judgment, label or metric changed; the archived v0.1 snapshot is unchanged.
 
 ## v0.1 — Research Preview (2026-11-13)

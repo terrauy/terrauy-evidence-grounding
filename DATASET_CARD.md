@@ -8,7 +8,7 @@
 **DOI:** [10.5281/zenodo.24210391](https://doi.org/10.5281/zenodo.24210391) (v0.1, archived on Zenodo). Concept DOI for all versions: [10.5281/zenodo.24210390](https://doi.org/10.5281/zenodo.24210390).
 <!-- /TEGB:doi -->
 
-Hugging Face: https://huggingface.co/datasets/TerraUY/TEGB · GitHub: https://github.com/terrauy/terrauy-evidence-grounding
+Hugging Face (Parquet, `load_dataset("TerraUY/TEGB")`): https://huggingface.co/datasets/TerraUY/TEGB · GitHub: https://github.com/terrauy/terrauy-evidence-grounding · Overview: https://www.terrauy.com/en/research/tegb
 
 ## Summary
 

@@ -29,9 +29,23 @@ Representing the same evidence semantics as structured JSON did not improve evid
 | Hugging Face dataset | https://huggingface.co/datasets/TerraUY/TEGB |
 | Zenodo archive / DOI | https://doi.org/10.5281/zenodo.24210391 |
 | Technical report (PDF) | [paper/TEGB_v0.1_Technical_Report.pdf](paper/TEGB_v0.1_Technical_Report.pdf) |
+| Technical report (web page, citation) | https://www.terrauy.com/en/research/tegb/paper |
 | Overview page | https://www.terrauy.com/en/research/tegb |
 | Evaluate your model on TEGB | [RUN_YOUR_MODEL.md](RUN_YOUR_MODEL.md) |
 | Leaderboard | [LEADERBOARD.md](LEADERBOARD.md) |
+
+## Load the data
+
+Available in Parquet for direct use in ML/data workflows, on Hugging Face:
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("TerraUY/TEGB")                 # 82 tasks, split "test"
+prompts = load_dataset("TerraUY/TEGB", "prompts")      # splits "raw", "text", "structured"
+```
+
+The same files are in this repository as JSON Lines (`dataset/`, `conditions/`, `results/baseline/`).
 
 ## Why TEGB
 
